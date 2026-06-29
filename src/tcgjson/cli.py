@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .bulk import build_release
 from .games import discover_game_support, write_game_support_report
-from .operations import DEFAULT_CONSTRAINTS_PATH, evaluate_operations, evaluation_text
+from .operations import DEFAULT_CONSTRAINTS_PATH, data_cache_delta_megabytes, evaluate_operations, evaluation_text
 from .tcgplayer import TCGplayerClient
 
 
@@ -103,6 +103,8 @@ def build_parser() -> argparse.ArgumentParser:
     evaluate.add_argument("--data-cache-dir", type=Path, default=Path("data-cache"))
     evaluate.add_argument("--json", action="store_true", help="Write machine-readable evaluation JSON.")
     evaluate.add_argument("--strict", action="store_true", help="Exit non-zero when operating targets are exceeded.")
+    cache_delta = ops_subparsers.add_parser("cache-delta", help="Print uncommitted data-cache delta in MiB")
+    cache_delta.add_argument("--data-cache-dir", type=Path, default=Path("data-cache"))
     return parser
 
 
@@ -157,6 +159,9 @@ def main(argv: list[str] | None = None) -> int:
         else:
             print(evaluation_text(evaluation))
         return 0 if evaluation["passed"] or not args.strict else 1
+    if args.command == "ops" and args.ops_command == "cache-delta":
+        print(data_cache_delta_megabytes(args.data_cache_dir))
+        return 0
     parser.error(f"Unknown command: {args.command}")
     return 2
 

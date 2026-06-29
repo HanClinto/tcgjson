@@ -2,6 +2,9 @@
 from __future__ import annotations
 
 import json
+import math
+import os
+import subprocess
 from pathlib import Path
 from typing import Any
 
@@ -87,6 +90,31 @@ def evaluation_text(evaluation: dict[str, Any]) -> str:
         lines.append(line)
     lines.append(f"Overall: {'PASS' if evaluation['passed'] else 'FAIL'}")
     return "\n".join(lines)
+
+
+def data_cache_delta_megabytes(data_cache_dir: Path = Path("data-cache")) -> int:
+    result = subprocess.run(
+        [
+            "git",
+            "ls-files",
+            "--others",
+            "--modified",
+            "--exclude-standard",
+            "-z",
+            "--",
+            data_cache_dir.as_posix(),
+        ],
+        check=True,
+        stdout=subprocess.PIPE,
+    )
+    total = 0
+    for raw_path in result.stdout.split(b"\0"):
+        if not raw_path:
+            continue
+        path = raw_path.decode()
+        if os.path.isfile(path):
+            total += os.path.getsize(path)
+    return math.ceil(total / BYTES_PER_MEGABYTE)
 
 
 def _load_optional_json(path: Path | None) -> dict[str, Any] | None:

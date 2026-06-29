@@ -28,6 +28,11 @@ jobs:
           python-version: '3.11'
       - name: Install
         run: python -m pip install -e .
+      - name: Configure git author
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Report TCGplayer product-line support
         run: tcgjson games --output release/games.md --json-output release/games.json
       - name: Download previous release as cache
@@ -37,12 +42,56 @@ jobs:
           mkdir -p release-cache
           gh release download --repo "${{ github.repository }}" --pattern '*.json' --dir release-cache || true
       - name: Build bulk JSON
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
         run: |
+          set -euo pipefail
+
+            cache_flush_interval_minutes=$(python -c 'import json; print(int(json.load(open("operations-constraints.json"))["githubActions"]["cacheFlushIntervalMinutes"]))')
+            max_intermediate_push_megabytes=$(python -c 'import json; print(int(json.load(open("operations-constraints.json"))["githubActions"]["maxIntermediatePushMegabytes"]))')
+
+          commit_data_cache_if_needed() {
+            local reason="$1"
+            local force="${2:-false}"
+            if [ "$CACHE_WRITES_ENABLED" != "true" ]; then
+              return 0
+            fi
+
+            local delta_megabytes
+            delta_megabytes=$(tcgjson ops cache-delta --data-cache-dir data-cache)
+            if [ "$force" != "true" ] && [ "$delta_megabytes" -lt "$max_intermediate_push_megabytes" ]; then
+              echo "Data cache delta ${delta_megabytes} MiB is below ${max_intermediate_push_megabytes} MiB; not flushing yet."
+              return 0
+            fi
+
+            git add data-cache
+            if git diff --cached --quiet; then
+              echo "No data cache changes to flush."
+              return 0
+            fi
+            git commit -m "Update catalog data cache (${reason}, ${delta_megabytes} MiB)"
+            git push
+          }
+
           if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
-            tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --with-details
+            tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --with-details &
           else
-            tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3
+            tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 &
           fi
+          build_pid=$!
+
+          while kill -0 "$build_pid" 2>/dev/null; do
+            sleep "${cache_flush_interval_minutes}m"
+            commit_data_cache_if_needed "periodic"
+          done
+
+          set +e
+          wait "$build_pid"
+          build_status=$?
+          set -e
+          commit_data_cache_if_needed "final" true
+          exit "$build_status"
       - name: Validate release files
         run: python -m tcgjson.validate release
       - name: Evaluate operational constraints
@@ -50,8 +99,6 @@ jobs:
       - name: Commit updated data cache
         if: github.ref == 'refs/heads/main'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data-cache
           if ! git diff --cached --quiet; then
             git commit -m "Update catalog data cache"

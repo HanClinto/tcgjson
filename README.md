@@ -253,6 +253,13 @@ Current targets:
 - Partial progress may update `data-cache`; public release artifacts are only
   published after a complete build validates.
 
+During scheduled builds, the workflow checks the uncommitted `data-cache` delta
+on the configured flush cadence. If that delta is at or above
+`maxIntermediatePushMegabytes`, the runner commits and pushes `data-cache` while
+the build keeps running. It also performs a final cache flush after the build
+process exits, even when the build fails, so useful partial progress survives a
+timeout or transient API failure.
+
 Evaluate current metrics and cache shape with:
 
 ```bash

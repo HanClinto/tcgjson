@@ -1,7 +1,8 @@
 import json
+import subprocess
 
 from tcgjson.cli import main
-from tcgjson.operations import evaluate_operations, evaluation_text
+from tcgjson.operations import data_cache_delta_megabytes, evaluate_operations, evaluation_text
 
 
 def test_evaluate_operations_checks_metrics_and_data_cache(tmp_path) -> None:
@@ -85,3 +86,16 @@ def test_ops_evaluate_is_soft_by_default_and_strict_when_requested(tmp_path, cap
         )
         == 1
     )
+
+
+def test_data_cache_delta_megabytes_counts_changed_files(monkeypatch) -> None:
+    def fake_run(*args, **kwargs):
+        assert args[0][-1] == "data-cache"
+        return subprocess.CompletedProcess(args[0], 0, stdout=b"data-cache/a.json\0data-cache/b.json\0")
+
+    sizes = {"data-cache/a.json": 1024 * 1024, "data-cache/b.json": 1}
+    monkeypatch.setattr("tcgjson.operations.subprocess.run", fake_run)
+    monkeypatch.setattr("tcgjson.operations.os.path.isfile", lambda path: path in sizes)
+    monkeypatch.setattr("tcgjson.operations.os.path.getsize", lambda path: sizes[path])
+
+    assert data_cache_delta_megabytes() == 2
