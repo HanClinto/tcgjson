@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:23Z",
+  "tcgplayerProductId": 36818,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lord of the Pit",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 0.55,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying, trample\r\n<br>\r\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.",
+      "powerNumber": "7",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Demon",
+      "releaseDate": "2009-04-10T00:00:00Z",
+      "number": "30",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "7",
+      "rarityDbName": "M",
+      "power": "7",
+      "flavorText": "<em>\"My summoning begins your debt, planeswalker.\"</em>",
+      "toughnessNumber": "7",
+      "toughness": "7"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Lord of the Pit",
+    "setId": 31.0,
+    "setCode": "DDC",
+    "productId": 36818.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Duel Decks: Divine vs. Demonic",
+    "sellers": 180.0,
+    "foilOnly": true,
+    "setUrlName": "Duel Decks Divine vs Demonic",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 239.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.75,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "30",
+      "Card Type": "Creature — Demon",
+      "P / T": "7 / 7",
+      "Description": "Flying, trample\r\n<br>\r\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.",
+      "Flavor": "<em>\"My summoning begins your debt, planeswalker.\"</em>",
+      "Artist": "Chippy"
+    },
+    "skus": [
+      {
+        "sku": 399725,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 835577,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 795655,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 815616,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 775694,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:19Z",
+  "tcgplayerProductId": 1884,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Power Leak",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.11,
+    "customAttributes": {
+      "formats": null,
+      "description": "During the upkeep of target enchantment’s controller, Power Leak deals 2 damage to him or her. That player may pay 1 for each damage he or she wishes to prevent from Power Leak.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Enchantment ",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Power Leak",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1884.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Fourth Edition",
+    "sellers": 429.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 576.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.245,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Enchantment ",
+      "Description": "During the upkeep of target enchantment’s controller, Power Leak deals 2 damage to him or her. That player may pay 1 for each damage he or she wishes to prevent from Power Leak.",
+      "Artist": "Drew Tucker"
+    },
+    "skus": [
+      {
+        "sku": 16007,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364953,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333437,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349195,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317679,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

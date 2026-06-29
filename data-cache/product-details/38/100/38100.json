@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:56Z",
+  "tcgplayerProductId": 38100,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fireslinger",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 7.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Fireslinger deals 1 damage to target creature or player and 1 damage to you.",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Wizard",
+      "releaseDate": null,
+      "number": "6",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "P",
+      "power": "1",
+      "flavorText": "<em>\"One pain is lessened by another's anguish.\" —William Shakespeare, </em>Romeo and Juliet",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 6.99,
+    "productName": "Fireslinger",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38100.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "FNM Promos",
+    "sellers": 16.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 16.0,
+    "lowestPrice": 6.08,
+    "medianPrice": 7.28,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "6",
+      "Card Type": "Creature — Wizard",
+      "P / T": "1 / 1",
+      "Description": "T: Fireslinger deals 1 damage to target creature or player and 1 damage to you.",
+      "Flavor": "<em>\"One pain is lessened by another's anguish.\" —William Shakespeare, </em>Romeo and Juliet",
+      "Artist": "Jeff Reitz"
+    },
+    "skus": [
+      {
+        "sku": 407497,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837187,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797265,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817226,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777304,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

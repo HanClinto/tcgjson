@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:40Z",
+  "tcgplayerProductId": 38105,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Giant Growth",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 6.08,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gets +3/+3 until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3.78,
+    "productName": "Giant Growth",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38105.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "FNM Promos",
+    "sellers": 33.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 41.0,
+    "lowestPrice": 3.78,
+    "medianPrice": 6.585,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "Card Type": "Instant",
+      "Description": "Target creature gets +3/+3 until end of turn.",
+      "Artist": "Sandra Everingham"
+    },
+    "skus": [
+      {
+        "sku": 407360,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837192,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797270,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817231,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777309,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

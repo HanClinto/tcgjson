@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:34:44Z",
+  "tcgplayerProductId": 492063,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Beast Within Phyrexian",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 5.38,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "1",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3.91,
+    "productName": "Beast Within (Phyrexian)",
+    "setId": 53.0,
+    "setCode": "WPN",
+    "productId": 492063.0,
+    "imageCount": 1.0,
+    "score": 2.3838153,
+    "setName": "WPN & Gateway Promos",
+    "sellers": 64.0,
+    "foilOnly": true,
+    "setUrlName": "WPN and Gateway Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 68.0,
+    "lowestPrice": 3.91,
+    "medianPrice": 5.8,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "1",
+      "Card Type": "Instant",
+      "Description": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+      "Artist": "Dave Allsop"
+    },
+    "skus": [
+      {
+        "sku": 7100152,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7100153,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7100154,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7100155,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7100156,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

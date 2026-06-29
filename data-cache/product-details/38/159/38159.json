@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:44Z",
+  "tcgplayerProductId": 38159,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sparksmith",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 3.96,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Sparksmith deals X damage to target creature and X damage to you, where X is the number of Goblins in play.",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Goblin",
+      "releaseDate": null,
+      "number": "10",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "P",
+      "power": "1",
+      "flavorText": "<em>\"If it didn't hurt, how would I know it worked?\"</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 2.29,
+    "productName": "Sparksmith",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38159.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "FNM Promos",
+    "sellers": 26.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 32.0,
+    "lowestPrice": 1.87,
+    "medianPrice": 4.65,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "10",
+      "Card Type": "Creature — Goblin",
+      "P / T": "1 / 1",
+      "Description": "T: Sparksmith deals X damage to target creature and X damage to you, where X is the number of Goblins in play.",
+      "Flavor": "<em>\"If it didn't hurt, how would I know it worked?\"</em>",
+      "Artist": "Jim Nelson"
+    },
+    "skus": [
+      {
+        "sku": 407783,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837245,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797323,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817284,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777362,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

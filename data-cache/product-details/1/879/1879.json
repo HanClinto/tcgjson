@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:18Z",
+  "tcgplayerProductId": 1879,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Pit Scorpion",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.09,
+    "customAttributes": {
+      "formats": null,
+      "description": "If Pit Scorpion damages a player, he or she gets a poison counter. If a player has ten or more poison counters, he or she loses the game.",
+      "powerNumber": "1",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Summon Scorpion",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Pit Scorpion",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1879.0,
+    "imageCount": 1.0,
+    "score": 1.9542425,
+    "setName": "Fourth Edition",
+    "sellers": 382.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 532.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Summon Scorpion",
+      "P / T": "1 / 1",
+      "Description": "If Pit Scorpion damages a player, he or she gets a poison counter. If a player has ten or more poison counters, he or she loses the game.",
+      "Artist": "Scott Kirschner"
+    },
+    "skus": [
+      {
+        "sku": 16004,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364950,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333434,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349192,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317676,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

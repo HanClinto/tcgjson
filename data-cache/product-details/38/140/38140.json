@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:40Z",
+  "tcgplayerProductId": 38140,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Prodigal Sorcerer",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 5.56,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Prodigal Sorcerer deals 1 damage to target creature or player.",
+      "powerNumber": "1",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature — Wizard",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "P",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 3.0,
+    "productName": "Prodigal Sorcerer",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38140.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "FNM Promos",
+    "sellers": 31.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 36.0,
+    "lowestPrice": 3.0,
+    "medianPrice": 6.52,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "Card Type": "Creature — Wizard",
+      "P / T": "1 / 1",
+      "Description": "T: Prodigal Sorcerer deals 1 damage to target creature or player.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 407444,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837226,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797304,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817265,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777343,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

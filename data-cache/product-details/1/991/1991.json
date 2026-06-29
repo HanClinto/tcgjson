@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:27Z",
+  "tcgplayerProductId": 1991,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Warp Artifact",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.36,
+    "customAttributes": {
+      "formats": null,
+      "description": "Warp Artifact deals 1 damage to target artifact’s controller during his or her upkeep.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Enchant Artifact ",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Warp Artifact",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1991.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Fourth Edition",
+    "sellers": 247.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 363.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.42,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Enchant Artifact ",
+      "Description": "Warp Artifact deals 1 damage to target artifact’s controller during his or her upkeep.",
+      "Artist": "Amy Weber"
+    },
+    "skus": [
+      {
+        "sku": 16112,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 365058,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333542,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349300,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317784,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

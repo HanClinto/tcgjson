@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:19Z",
+  "tcgplayerProductId": 1889,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Prodigal Sorcerer",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.12,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Prodigal Sorcerer deals 1 damage to target creature or player.",
+      "powerNumber": "1",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Summon Wizard",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.04,
+    "productName": "Prodigal Sorcerer",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1889.0,
+    "imageCount": 1.0,
+    "score": 2.2878017,
+    "setName": "Fourth Edition",
+    "sellers": 454.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 613.0,
+    "lowestPrice": 0.04,
+    "medianPrice": 0.215,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Summon Wizard",
+      "P / T": "1 / 1",
+      "Description": "T: Prodigal Sorcerer deals 1 damage to target creature or player.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 16012,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364958,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333442,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349200,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317684,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

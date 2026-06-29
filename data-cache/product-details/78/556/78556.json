@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:53Z",
+  "tcgplayerProductId": 78556,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Goblin Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Goblin",
+      "releaseDate": "2007-11-16T00:00:00Z",
+      "number": "T3",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.34,
+    "productName": "Goblin Token",
+    "setId": 33.0,
+    "setCode": "EVG",
+    "productId": 78556.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Duel Decks: Elves vs. Goblins",
+    "sellers": 30.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Elves vs Goblins",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 32.0,
+    "lowestPrice": 0.32,
+    "medianPrice": 1.035,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "T3",
+      "Card Type": "Creature — Goblin",
+      "P / T": "1 / 1",
+      "Artist": "Dave Kendall"
+    },
+    "skus": [
+      {
+        "sku": 1163305,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163306,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163307,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163308,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163309,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

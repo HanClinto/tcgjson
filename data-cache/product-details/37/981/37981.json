@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:46Z",
+  "tcgplayerProductId": 37981,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Force Spike",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 28.34,
+    "customAttributes": {
+      "formats": null,
+      "description": "Counter target spell unless its controller pays 1.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "12",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 12.86,
+    "productName": "Force Spike",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 37981.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "FNM Promos",
+    "sellers": 31.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 33.0,
+    "lowestPrice": 12.86,
+    "medianPrice": 37.29,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "12",
+      "Card Type": "Instant",
+      "Description": "Counter target spell unless its controller pays 1.",
+      "Artist": "Bryon Wackwitz"
+    },
+    "skus": [
+      {
+        "sku": 407709,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837143,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797221,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817182,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777260,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

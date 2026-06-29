@@ -1,0 +1,3844 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:40:03Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 61,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 61,
+    "name": "Junior Series Promos",
+    "urlName": "junior-series-promos",
+    "abbreviation": "JSS",
+    "releaseDate": null,
+    "isSupplemental": true,
+    "productCount": 30,
+    "priceGuideRowCount": 94,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 30,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 38215,
+      "name": "City of Brass",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38215_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 679.99,
+          "marketPrice": 574.99,
+          "tcgplayerSkuIds": [
+            819307
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 679.99,
+          "marketPrice": 499.95,
+          "tcgplayerSkuIds": [
+            839268
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 679.99,
+          "marketPrice": 517.67,
+          "tcgplayerSkuIds": [
+            799346
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 679.99,
+          "marketPrice": 819.41,
+          "tcgplayerSkuIds": [
+            407597
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779385,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819307,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839268,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799346,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407597,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+        "flavorText": "<em>\"Enter this palace-gate and ask the news<br>Of greatness fallen into dust and clay.\"</em><br>—The Arabian Nights, <em>trans. Burton</em>",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Mark Tedin",
+        "customAttributes": {
+          "description": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P",
+          "flavorText": "<em>\"Enter this palace-gate and ask the news<br>Of greatness fallen into dust and clay.\"</em><br>—The Arabian Nights, <em>trans. Burton</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Land",
+          "Description": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "Flavor": "<em>\"Enter this palace-gate and ask the news<br>Of greatness fallen into dust and clay.\"</em><br>—The Arabian Nights, <em>trans. Burton</em>",
+          "Artist": "Mark Tedin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38217,
+      "name": "Elvish Lyrist",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38217_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 2.31,
+          "marketPrice": 3.29,
+          "tcgplayerSkuIds": [
+            779387
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.31,
+          "marketPrice": 2.75,
+          "tcgplayerSkuIds": [
+            819309
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.31,
+          "marketPrice": 4.5,
+          "tcgplayerSkuIds": [
+            839270
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.31,
+          "marketPrice": 3.35,
+          "tcgplayerSkuIds": [
+            799348
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.31,
+          "marketPrice": 5.61,
+          "tcgplayerSkuIds": [
+            407460
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779387,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819309,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839270,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799348,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407460,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "G, T, Sacrifice Elvish Lyrist: Destroy target enchantment.",
+        "flavorText": "<em>\"Make me thy lyre, even as the forest is: What if my leaves are falling like its own!\"<br>—Percy Bysshe Shelley,<br>\"Ode to the West Wind\"</em>",
+        "typeLine": "Creature — Elf",
+        "convertedCost": "1",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Rebecca Guay",
+        "customAttributes": {
+          "description": "G, T, Sacrifice Elvish Lyrist: Destroy target enchantment.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elf",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>\"Make me thy lyre, even as the forest is: What if my leaves are falling like its own!\"<br>—Percy Bysshe Shelley,<br>\"Ode to the West Wind\"</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Creature — Elf",
+          "P / T": "1 / 1",
+          "Description": "G, T, Sacrifice Elvish Lyrist: Destroy target enchantment.",
+          "Flavor": "<em>\"Make me thy lyre, even as the forest is: What if my leaves are falling like its own!\"<br>—Percy Bysshe Shelley,<br>\"Ode to the West Wind\"</em>",
+          "Artist": "Rebecca Guay"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38219,
+      "name": "Lord of Atlantis",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38219_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 14.76,
+          "marketPrice": 11.25,
+          "tcgplayerSkuIds": [
+            779389
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.76,
+          "marketPrice": 17.73,
+          "tcgplayerSkuIds": [
+            819311
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.76,
+          "marketPrice": 20.59,
+          "tcgplayerSkuIds": [
+            839272
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.76,
+          "marketPrice": 17.32,
+          "tcgplayerSkuIds": [
+            799350
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 14.76,
+          "marketPrice": 24.96,
+          "tcgplayerSkuIds": [
+            407748
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779389,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819311,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839272,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799350,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407748,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Merfolk get +1/+1 and have islandwalk. <em>(They're unblockable as long as defending player controls an island.)</em>",
+        "typeLine": "Creature — Lord",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Melissa A. Benson",
+        "customAttributes": {
+          "description": "All Merfolk get +1/+1 and have islandwalk. <em>(They're unblockable as long as defending player controls an island.)</em>",
+          "powerNumber": "2",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Lord",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Creature — Lord",
+          "P / T": "2 / 2",
+          "Description": "All Merfolk get +1/+1 and have islandwalk. <em>(They're unblockable as long as defending player controls an island.)</em>",
+          "Artist": "Melissa A. Benson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38218,
+      "name": "Giant Growth (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38218_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.65,
+          "marketPrice": 1.65,
+          "tcgplayerSkuIds": [
+            779388,
+            3804317
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.65,
+          "marketPrice": 2.18,
+          "tcgplayerSkuIds": [
+            819310,
+            3804316
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.65,
+          "marketPrice": 2.68,
+          "tcgplayerSkuIds": [
+            839271,
+            3804314
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 1.65,
+          "marketPrice": 1.99
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.65,
+          "marketPrice": 2.73,
+          "tcgplayerSkuIds": [
+            799349,
+            3804315
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.65,
+          "marketPrice": 4.06,
+          "tcgplayerSkuIds": [
+            407554,
+            3804313
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779388,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804317,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 819310,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804316,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 839271,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804314,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 799349,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804315,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 407554,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804313,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Target creature gets +3/+3 until end of turn.",
+        "typeLine": "Instant",
+        "convertedCost": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Terese Nielsen",
+        "customAttributes": {
+          "description": "Target creature gets +3/+3 until end of turn.",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Instant",
+          "number": "1",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Instant",
+          "Description": "Target creature gets +3/+3 until end of turn.",
+          "Artist": "Terese Nielsen"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 488238,
+      "name": "Glorious Anthem (Japan Junior Tournament)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/488238_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 27.99
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7027325,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7027324,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7027322,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7027323,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7027321,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Creatures you control get +1/+1.",
+        "flavorText": "<em>Once heard, the battle song of an angel becomes part of the listener forever.</em>",
+        "typeLine": "Enchantment",
+        "convertedCost": "3",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "artist": "Raymond Swanland",
+        "customAttributes": {
+          "description": "Creatures you control get +1/+1.",
+          "color": [
+            "White"
+          ],
+          "fullType": "Enchantment",
+          "number": "1",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "flavorText": "<em>Once heard, the battle song of an angel becomes part of the listener forever.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Enchantment",
+          "Description": "Creatures you control get +1/+1.",
+          "Flavor": "<em>Once heard, the battle song of an angel becomes part of the listener forever.</em>",
+          "Artist": "Raymond Swanland"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 95436,
+      "name": "Glorious Anthem (Junior Series Europe)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/95436_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 29.99,
+          "marketPrice": 4.52,
+          "tcgplayerSkuIds": [
+            1279246,
+            3804319
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 29.99,
+          "marketPrice": 3,
+          "tcgplayerSkuIds": [
+            1279247,
+            3804320
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 29.99,
+          "marketPrice": 9.1,
+          "tcgplayerSkuIds": [
+            1279245,
+            3804318
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1279249,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804322,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 1279248,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804321,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 1279246,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804319,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 1279247,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804320,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 1279245,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3804318,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Creatures you control get +1/+1.",
+        "flavorText": "<em>The songs of angels are perceived not as words in the ears but as stirrings in the soul.</em>",
+        "typeLine": "Enchantment ",
+        "convertedCost": "3",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "artist": "Raymond Swanland",
+        "customAttributes": {
+          "description": "Creatures you control get +1/+1.",
+          "color": [
+            "White"
+          ],
+          "fullType": "Enchantment ",
+          "number": "1",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "flavorText": "<em>The songs of angels are perceived not as words in the ears but as stirrings in the soul.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Enchantment ",
+          "Description": "Creatures you control get +1/+1.",
+          "Flavor": "<em>The songs of angels are perceived not as words in the ears but as stirrings in the soul.</em>",
+          "Artist": "Raymond Swanland"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 95438,
+      "name": "Glorious Anthem (Scholarship Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/95438_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11,
+          "marketPrice": 10.48,
+          "tcgplayerSkuIds": [
+            1279256
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 11,
+          "marketPrice": 17.98,
+          "tcgplayerSkuIds": [
+            1279255
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1279259,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1279258,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1279256,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1279257,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1279255,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Creatures you control get +1/+1.",
+        "flavorText": "<em>The songs of angels are perceived not as words in the ears but as stirrings in the soul.</em>",
+        "typeLine": "Enchantment",
+        "convertedCost": "3",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "artist": "Raymond Swanland",
+        "customAttributes": {
+          "description": "Creatures you control get +1/+1.",
+          "color": [
+            "White"
+          ],
+          "fullType": "Enchantment",
+          "number": "1",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "flavorText": "<em>The songs of angels are perceived not as words in the ears but as stirrings in the soul.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Enchantment",
+          "Description": "Creatures you control get +1/+1.",
+          "Flavor": "<em>The songs of angels are perceived not as words in the ears but as stirrings in the soul.</em>",
+          "Artist": "Raymond Swanland"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 503279,
+      "name": "Sakura-Tribe Elder (Japan Junior Tournament)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/503279_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 22.99
+        },
+        {
+          "condition": "Moderately Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 20.99
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7246216,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246215,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246213,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246214,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246212,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+        "flavorText": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+        "typeLine": "Creature — Snake Shaman",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Carl Critchlow",
+        "customAttributes": {
+          "description": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Snake Shaman",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Snake Shaman",
+          "P / T": "1 / 1",
+          "Description": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+          "Flavor": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+          "Artist": "Carl Critchlow"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38221,
+      "name": "Sakura-Tribe Elder (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38221_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 9.94,
+          "marketPrice": 11.9,
+          "tcgplayerSkuIds": [
+            819313
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 9.94,
+          "marketPrice": 14.58,
+          "tcgplayerSkuIds": [
+            839274
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 9.94,
+          "marketPrice": 14.55,
+          "tcgplayerSkuIds": [
+            799352
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 9.94,
+          "marketPrice": 17.4,
+          "tcgplayerSkuIds": [
+            407612
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779391,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819313,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839274,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799352,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407612,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+        "flavorText": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+        "typeLine": "Creature — Snake Shaman",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Carl Critchlow",
+        "customAttributes": {
+          "description": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Snake Shaman",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Snake Shaman",
+          "P / T": "1 / 1",
+          "Description": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+          "Flavor": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+          "Artist": "Carl Critchlow"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 662553,
+      "name": "Sakura-Tribe Elder (Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/662553_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 42.32,
+          "tcgplayerSkuIds": [
+            9005762
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 33.5,
+          "tcgplayerSkuIds": [
+            9005763
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 46.85,
+          "tcgplayerSkuIds": [
+            9005761
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 9005765,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9005764,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9005762,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9005763,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9005761,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+        "flavorText": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+        "typeLine": "Creature — Snake Shaman",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Carl Critchlow",
+        "customAttributes": {
+          "description": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Snake Shaman",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Snake Shaman",
+          "P / T": "1 / 1",
+          "Description": "Sacrifice Sakura-Tribe Elder: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.",
+          "Flavor": "<em>There were no tombstones in orochi territory. Slain warriors were buried with a tree sapling, so they would become part of the forest after death.</em>",
+          "Artist": "Carl Critchlow"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38224,
+      "name": "Slith Firewalker (Junior Series Europe)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38224_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.54,
+          "marketPrice": 1.1,
+          "tcgplayerSkuIds": [
+            839277
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.54,
+          "marketPrice": 1.39,
+          "tcgplayerSkuIds": [
+            407636
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779394,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819316,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839277,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799355,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407636,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Haste\r\n<br>\r\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+        "flavorText": "<em>The slith incubate in the Great Furnace’s heat, emerging on Mirrodin’s surface only when the four suns have aligned overhead.</em>",
+        "typeLine": "Creature — Slith",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Justin Sweet",
+        "customAttributes": {
+          "description": "Haste\r\n<br>\r\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+          "powerNumber": "1",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Slith",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>The slith incubate in the Great Furnace’s heat, emerging on Mirrodin’s surface only when the four suns have aligned overhead.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Slith",
+          "P / T": "1 / 1",
+          "Description": "Haste\r\n<br>\r\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+          "Flavor": "<em>The slith incubate in the Great Furnace’s heat, emerging on Mirrodin’s surface only when the four suns have aligned overhead.</em>",
+          "Artist": "Justin Sweet"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 192803,
+      "name": "Slith Firewalker (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/192803_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.55,
+          "marketPrice": 0.54,
+          "tcgplayerSkuIds": [
+            4111286
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.55,
+          "marketPrice": 0.51,
+          "tcgplayerSkuIds": [
+            4111287
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.55,
+          "marketPrice": 1.37,
+          "tcgplayerSkuIds": [
+            4111285
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.55,
+          "marketPrice": 2.95,
+          "tcgplayerSkuIds": [
+            4111281
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.55,
+          "marketPrice": 3.88,
+          "tcgplayerSkuIds": [
+            4111280
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 4111289,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111284,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111288,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111283,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111286,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111281,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111287,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111282,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111285,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4111280,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Haste\r\n<br>\r\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+        "flavorText": "<em>The slith incubate in the Great Furnace's heat, emerging on Mirrodin's surface only when the four suns have aligned overhead.</em>",
+        "typeLine": "Creature — Slith",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Justin Sweet",
+        "customAttributes": {
+          "description": "Haste\r\n<br>\r\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+          "powerNumber": "1",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Slith",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>The slith incubate in the Great Furnace's heat, emerging on Mirrodin's surface only when the four suns have aligned overhead.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Slith",
+          "P / T": "1 / 1",
+          "Description": "Haste\r\n<br>\r\nWhenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.",
+          "Flavor": "<em>The slith incubate in the Great Furnace's heat, emerging on Mirrodin's surface only when the four suns have aligned overhead.</em>",
+          "Artist": "Justin Sweet"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38225,
+      "name": "Soltari Priest (Junior Series Europe)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38225_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.66,
+          "marketPrice": 2.59,
+          "tcgplayerSkuIds": [
+            839278
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.66,
+          "marketPrice": 2.25,
+          "tcgplayerSkuIds": [
+            799356
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.66,
+          "marketPrice": 2.92,
+          "tcgplayerSkuIds": [
+            407818
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779395,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819317,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839278,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799356,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407818,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Protection from red\r\n<br>\r\nShadow <em>(This creature can block or be blocked by only creatures with shadow.)</em>",
+        "flavorText": "<em>“In Rath,” the priest said, “there is even greater need for prayer.”</em>",
+        "typeLine": "Creature — Soltari Cleric",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Dany Orizio",
+        "customAttributes": {
+          "description": "Protection from red\r\n<br>\r\nShadow <em>(This creature can block or be blocked by only creatures with shadow.)</em>",
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Soltari Cleric",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>“In Rath,” the priest said, “there is even greater need for prayer.”</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Soltari Cleric",
+          "P / T": "2 / 1",
+          "Description": "Protection from red\r\n<br>\r\nShadow <em>(This creature can block or be blocked by only creatures with shadow.)</em>",
+          "Flavor": "<em>“In Rath,” the priest said, “there is even greater need for prayer.”</em>",
+          "Artist": "Dany Orizio"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 110933,
+      "name": "Soltari Priest (Scholarship Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/110933_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.75,
+          "marketPrice": 6.07,
+          "tcgplayerSkuIds": [
+            3043538
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.75,
+          "marketPrice": 3.33,
+          "tcgplayerSkuIds": [
+            3043539
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.75,
+          "marketPrice": 4.32,
+          "tcgplayerSkuIds": [
+            3043537
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3043541,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3043540,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3043538,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3043539,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3043537,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Protection from red\r\n<br>\r\nShadow <em>(This creature can block or be blocked by only creatures with shadow.)</em>",
+        "flavorText": "<em>“In Rath,” the priest said, “there is even greater need for prayer.”</em>",
+        "typeLine": "Creature — Soltari Cleric",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Dany Orizio",
+        "customAttributes": {
+          "description": "Protection from red\r\n<br>\r\nShadow <em>(This creature can block or be blocked by only creatures with shadow.)</em>",
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Soltari Cleric",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>“In Rath,” the priest said, “there is even greater need for prayer.”</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Soltari Cleric",
+          "P / T": "2 / 1",
+          "Description": "Protection from red\r\n<br>\r\nShadow <em>(This creature can block or be blocked by only creatures with shadow.)</em>",
+          "Flavor": "<em>“In Rath,” the priest said, “there is even greater need for prayer.”</em>",
+          "Artist": "Dany Orizio"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38228,
+      "name": "Volcanic Hammer (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38228_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.69,
+          "marketPrice": 2.19,
+          "tcgplayerSkuIds": [
+            819320
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.69,
+          "marketPrice": 2.53,
+          "tcgplayerSkuIds": [
+            839281
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.69,
+          "marketPrice": 1.59,
+          "tcgplayerSkuIds": [
+            799359
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.69,
+          "marketPrice": 2.69,
+          "tcgplayerSkuIds": [
+            407786
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779398,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819320,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839281,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799359,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407786,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Volcanic Hammer deals 3 damage to target creature or player.",
+        "flavorText": "<em>Cast the weight as though it were a die, to see a rival's fate.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Christopher Rush",
+        "customAttributes": {
+          "description": "Volcanic Hammer deals 3 damage to target creature or player.",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Sorcery",
+          "number": "1",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "flavorText": "<em>Cast the weight as though it were a die, to see a rival's fate.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Sorcery",
+          "Description": "Volcanic Hammer deals 3 damage to target creature or player.",
+          "Flavor": "<em>Cast the weight as though it were a die, to see a rival's fate.</em>",
+          "Artist": "Christopher Rush"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 194106,
+      "name": "Elvish Champion (Japan Junior Tournament)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/194106_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 35
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 4135777,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 4135776,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 4135774,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 4135775,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 4135773,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Other Elf creatures get +1/+1 and have forestwalk.",
+        "flavorText": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+        "typeLine": "Creature — Elf",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Matt Cavotta",
+        "customAttributes": {
+          "description": "Other Elf creatures get +1/+1 and have forestwalk.",
+          "powerNumber": "2",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elf",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Elf",
+          "P / T": "2 / 2",
+          "Description": "Other Elf creatures get +1/+1 and have forestwalk.",
+          "Flavor": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+          "Artist": "Matt Cavotta"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 92308,
+      "name": "Elvish Champion (Junior Series Europe)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/92308_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 169.98,
+          "marketPrice": 76.74,
+          "tcgplayerSkuIds": [
+            1250288
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1250291,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1250290,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1250288,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1250289,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1250287,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Other Elf creatures get +1/+1 and have forestwalk.",
+        "flavorText": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+        "typeLine": "Creature — Elf",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Matt Cavotta",
+        "customAttributes": {
+          "description": "Other Elf creatures get +1/+1 and have forestwalk.",
+          "powerNumber": "2",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elf",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Elf",
+          "P / T": "2 / 2",
+          "Description": "Other Elf creatures get +1/+1 and have forestwalk.",
+          "Flavor": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+          "Artist": "Matt Cavotta"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 192936,
+      "name": "Elvish Champion (Scholarship Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/192936_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 50,
+          "marketPrice": 53.61,
+          "tcgplayerSkuIds": [
+            4123711
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 50,
+          "marketPrice": 51.08,
+          "tcgplayerSkuIds": [
+            4123710
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 4123714,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4123713,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4123711,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4123712,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4123710,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Other Elf creatures get +1/+1 and have forestwalk.",
+        "flavorText": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+        "typeLine": "Creature — Elf",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Matt Cavotta",
+        "customAttributes": {
+          "description": "Other Elf creatures get +1/+1 and have forestwalk.",
+          "powerNumber": "2",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elf",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Elf",
+          "P / T": "2 / 2",
+          "Description": "Other Elf creatures get +1/+1 and have forestwalk.",
+          "Flavor": "<em>\"We've endured your slights to Gaea with the grace of tolerance. Now behold the grace of our ferocity.\"</em>",
+          "Artist": "Matt Cavotta"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 272507,
+      "name": "Royal Assassin (Japan Junior Tournament)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/272507_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 29.99
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 5595660,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 5595659,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 5595657,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 5595658,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 5595656,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Destroy target tapped creature.",
+        "flavorText": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force..</em>",
+        "typeLine": "Creature — Assassin",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Tom Wänerstrand",
+        "customAttributes": {
+          "description": "T: Destroy target tapped creature.",
+          "powerNumber": "1",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Assassin",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force..</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Assassin",
+          "P / T": "1 / 1",
+          "Description": "T: Destroy target tapped creature.",
+          "Flavor": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force..</em>",
+          "Artist": "Tom Wänerstrand"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38220,
+      "name": "Royal Assassin (Junior Series Europe)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38220_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 36.65,
+          "marketPrice": 35.62,
+          "tcgplayerSkuIds": [
+            839273
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 36.65,
+          "marketPrice": 46.99,
+          "tcgplayerSkuIds": [
+            407420
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779390,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819312,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839273,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799351,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407420,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Destroy target tapped creature.",
+        "flavorText": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force.</em>",
+        "typeLine": "Creature — Assassin",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Tom Wänerstrand",
+        "customAttributes": {
+          "description": "T: Destroy target tapped creature.",
+          "powerNumber": "1",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Assassin",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Assassin",
+          "P / T": "1 / 1",
+          "Description": "T: Destroy target tapped creature.",
+          "Flavor": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force.</em>",
+          "Artist": "Tom Wänerstrand"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 272508,
+      "name": "Royal Assassin (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/272508_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 15.13,
+          "marketPrice": 42.95,
+          "tcgplayerSkuIds": [
+            5595662
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 15.13,
+          "marketPrice": 40.5,
+          "tcgplayerSkuIds": [
+            5595663
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 15.13,
+          "marketPrice": 45.8,
+          "tcgplayerSkuIds": [
+            5595661
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 5595665,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5595664,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5595662,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5595663,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5595661,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Destroy target tapped creature.",
+        "flavorText": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force..</em>",
+        "typeLine": "Creature — Human Assassin",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Tom Wänerstrand",
+        "customAttributes": {
+          "description": "T: Destroy target tapped creature.",
+          "powerNumber": "1",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Human Assassin",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force..</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Human Assassin",
+          "P / T": "1 / 1",
+          "Description": "T: Destroy target tapped creature.",
+          "Flavor": "<em>Trained in the arts of stealth, royal assassins choose their victims carefully, relying on timing and precision rather than brute force..</em>",
+          "Artist": "Tom Wänerstrand"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38223,
+      "name": "Shard Phoenix (Junior Series Europe)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38223_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.99,
+          "marketPrice": 21.67,
+          "tcgplayerSkuIds": [
+            839276
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.99,
+          "marketPrice": 16.5,
+          "tcgplayerSkuIds": [
+            799354
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 11.99,
+          "marketPrice": 22.99,
+          "tcgplayerSkuIds": [
+            407474
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779393,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819315,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839276,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799354,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407474,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nSacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without flying.\r\n<br>\r\nRRR: Return Shard Phoenix from your graveyard to your hand. Play this ability only during your upkeep.",
+        "typeLine": "Creature — Phoenix",
+        "convertedCost": "5",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Ron Spencer",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nSacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without flying.\r\n<br>\r\nRRR: Return Shard Phoenix from your graveyard to your hand. Play this ability only during your upkeep.",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Phoenix",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Phoenix",
+          "P / T": "2 / 2",
+          "Description": "Flying\r\n<br>\r\nSacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without flying.\r\n<br>\r\nRRR: Return Shard Phoenix from your graveyard to your hand. Play this ability only during your upkeep.",
+          "Artist": "Ron Spencer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 549282,
+      "name": "Shard Phoenix (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/549282_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 15.97,
+          "marketPrice": 23.87,
+          "tcgplayerSkuIds": [
+            7903965
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 15.97,
+          "marketPrice": 21.34,
+          "tcgplayerSkuIds": [
+            7903966
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 15.97,
+          "marketPrice": 19,
+          "tcgplayerSkuIds": [
+            7903964
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7903968,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7903967,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7903965,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7903966,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7903964,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nSacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without flying.\r\n<br>\r\nRRR: Return Shard Phoenix from your graveyard to your hand. Play this ability only during your upkeep.",
+        "typeLine": "Creature — Phoenix",
+        "convertedCost": "5",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Ron Spencer",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nSacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without flying.\r\n<br>\r\nRRR: Return Shard Phoenix from your graveyard to your hand. Play this ability only during your upkeep.",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Phoenix",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Phoenix",
+          "P / T": "2 / 2",
+          "Description": "Flying\r\n<br>\r\nSacrifice Shard Phoenix: Shard Phoenix deals 2 damage to each creature without flying.\r\n<br>\r\nRRR: Return Shard Phoenix from your graveyard to your hand. Play this ability only during your upkeep.",
+          "Artist": "Ron Spencer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38227,
+      "name": "Two-Headed Dragon (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38227_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 6.5,
+          "marketPrice": 6.49,
+          "tcgplayerSkuIds": [
+            779397
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 6.5,
+          "marketPrice": 9,
+          "tcgplayerSkuIds": [
+            839280
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 6.5,
+          "marketPrice": 6.49,
+          "tcgplayerSkuIds": [
+            799358
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 6.5,
+          "marketPrice": 12.54,
+          "tcgplayerSkuIds": [
+            407682
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779397,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819319,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839280,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799358,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407682,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\n1R: Two-Headed Dragon gets +2/+0 until end of turn.\r\n<br>\r\nTwo-Headed Dragon can't be blocked except by two or more creatures.\r\n<br>\r\nTwo-Headed Dragon may block an additional creature.",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "6",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Sam Wood",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\n1R: Two-Headed Dragon gets +2/+0 until end of turn.\r\n<br>\r\nTwo-Headed Dragon can't be blocked except by two or more creatures.\r\n<br>\r\nTwo-Headed Dragon may block an additional creature.",
+          "powerNumber": "4",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Dragon",
+          "number": "2",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "4",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Dragon",
+          "P / T": "4 / 4",
+          "Description": "Flying\r\n<br>\r\n1R: Two-Headed Dragon gets +2/+0 until end of turn.\r\n<br>\r\nTwo-Headed Dragon can't be blocked except by two or more creatures.\r\n<br>\r\nTwo-Headed Dragon may block an additional creature.",
+          "Artist": "Sam Wood"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38229,
+      "name": "Whirling Dervish (Junior Series Europe)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38229_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.63,
+          "marketPrice": 1.54,
+          "tcgplayerSkuIds": [
+            819321
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.63,
+          "marketPrice": 3.4,
+          "tcgplayerSkuIds": [
+            839282
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.63,
+          "marketPrice": 1.99,
+          "tcgplayerSkuIds": [
+            799360
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.63,
+          "marketPrice": 7.99,
+          "tcgplayerSkuIds": [
+            407482
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779399,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819321,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839282,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799360,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407482,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Protection from black\r\n<br>\r\nAt end of turn, if Whirling Dervish dealt damage to an opponent this turn, put a +1/+1 counter on it.",
+        "flavorText": "<em>Amid this whirling hurricane of blades, there is no calm eye in which the hapless can find shelter.</em>",
+        "typeLine": "Creature — Human Monk",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Alex Horley-Orlandelli",
+        "customAttributes": {
+          "description": "Protection from black\r\n<br>\r\nAt end of turn, if Whirling Dervish dealt damage to an opponent this turn, put a +1/+1 counter on it.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Human Monk",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>Amid this whirling hurricane of blades, there is no calm eye in which the hapless can find shelter.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Human Monk",
+          "P / T": "1 / 1",
+          "Description": "Protection from black\r\n<br>\r\nAt end of turn, if Whirling Dervish dealt damage to an opponent this turn, put a +1/+1 counter on it.",
+          "Flavor": "<em>Amid this whirling hurricane of blades, there is no calm eye in which the hapless can find shelter.</em>",
+          "Artist": "Alex Horley-Orlandelli"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 452997,
+      "name": "Whirling Dervish (Junior Super Series)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/452997_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.47,
+          "marketPrice": 2.16,
+          "tcgplayerSkuIds": [
+            6711228
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.47,
+          "marketPrice": 3.64,
+          "tcgplayerSkuIds": [
+            6711226
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.47,
+          "marketPrice": 3.3,
+          "tcgplayerSkuIds": [
+            6711227
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.47,
+          "marketPrice": 4.2,
+          "tcgplayerSkuIds": [
+            6711225
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6711229,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6711228,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6711226,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6711227,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6711225,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Protection from black\r\n<br>\r\nAt end of turn, if Whirling Dervish dealt damage to an opponent this turn, put a +1/+1 counter on it.",
+        "flavorText": "<em>Amid this whirling hurricane of blades, there is no calm eye in which the hapless can find shelter.</em>",
+        "typeLine": "Creature — Human Monk",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Alex Horley-Orlandelli",
+        "customAttributes": {
+          "description": "Protection from black\r\n<br>\r\nAt end of turn, if Whirling Dervish dealt damage to an opponent this turn, put a +1/+1 counter on it.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Human Monk",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>Amid this whirling hurricane of blades, there is no calm eye in which the hapless can find shelter.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Human Monk",
+          "P / T": "1 / 1",
+          "Description": "Protection from black\r\n<br>\r\nAt end of turn, if Whirling Dervish dealt damage to an opponent this turn, put a +1/+1 counter on it.",
+          "Flavor": "<em>Amid this whirling hurricane of blades, there is no calm eye in which the hapless can find shelter.</em>",
+          "Artist": "Alex Horley-Orlandelli"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 92497,
+      "name": "Mad Auntie",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/92497_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.01,
+          "marketPrice": 12,
+          "tcgplayerSkuIds": [
+            1252182,
+            2902104,
+            2902109,
+            2902114,
+            2902119,
+            2902124,
+            2902129,
+            2902134
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.01,
+          "marketPrice": 16.12,
+          "tcgplayerSkuIds": [
+            1252180,
+            2902102,
+            2902107,
+            2902112,
+            2902117,
+            2902122,
+            2902127,
+            2902132
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.01,
+          "marketPrice": 13.34,
+          "tcgplayerSkuIds": [
+            1252181,
+            2902103,
+            2902108,
+            2902113,
+            2902118,
+            2902123,
+            2902128,
+            2902133
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 14.01,
+          "marketPrice": 11.07,
+          "tcgplayerSkuIds": [
+            1252179,
+            2902101,
+            2902106,
+            2902111,
+            2902116,
+            2902121,
+            2902126,
+            2902131
+          ]
+        },
+        {
+          "condition": "Near Mint Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 14.01,
+          "marketPrice": 17.99
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1252183,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2902105,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 2902110,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 2902115,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 2902120,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 2902125,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 2902130,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 2902135,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 1252182,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2902104,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 2902109,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 2902114,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 2902119,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 2902124,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 2902129,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 2902134,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 1252180,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2902102,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 2902107,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 2902112,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 2902117,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 2902122,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 2902127,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 2902132,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 1252181,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2902103,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 2902108,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 2902113,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 2902118,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 2902123,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 2902128,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 2902133,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 1252179,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2902101,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 2902106,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 2902111,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 2902116,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 2902121,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 2902126,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 2902131,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Spanish"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Other Goblin creatures you control get +1/+1.\r\n<br>\r\nT: Regenerate another target Goblin.",
+        "flavorText": "<em>One part cunning, one part wise, and many, many parts demented.</em>",
+        "typeLine": "Creature — Goblin Shaman",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Wayne Reynolds",
+        "customAttributes": {
+          "description": "Other Goblin creatures you control get +1/+1.\r\n<br>\r\nT: Regenerate another target Goblin.",
+          "powerNumber": "2",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Goblin Shaman",
+          "number": "3",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>One part cunning, one part wise, and many, many parts demented.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Creature — Goblin Shaman",
+          "P / T": "2 / 2",
+          "Description": "Other Goblin creatures you control get +1/+1.\r\n<br>\r\nT: Regenerate another target Goblin.",
+          "Flavor": "<em>One part cunning, one part wise, and many, many parts demented.</em>",
+          "Artist": "Wayne Reynolds"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 503278,
+      "name": "Mad Auntie (Japan Junior Tournament)",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/503278_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 0,
+          "marketPrice": 9.76
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7246211,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246210,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246208,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246209,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 7246207,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Other Goblin creatures you control get +1/+1.\r\n<br>\r\nT: Regenerate another target Goblin.",
+        "flavorText": "<em>One part cunning, one part wise, and many, many parts demented.</em>",
+        "typeLine": "Creature — Goblin Shaman",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Wayne Reynolds",
+        "customAttributes": {
+          "description": "Other Goblin creatures you control get +1/+1.\r\n<br>\r\nT: Regenerate another target Goblin.",
+          "powerNumber": "2",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Goblin Shaman",
+          "number": "3",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>One part cunning, one part wise, and many, many parts demented.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Creature — Goblin Shaman",
+          "P / T": "2 / 2",
+          "Description": "Other Goblin creatures you control get +1/+1.\r\n<br>\r\nT: Regenerate another target Goblin.",
+          "Flavor": "<em>One part cunning, one part wise, and many, many parts demented.</em>",
+          "Artist": "Wayne Reynolds"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38226,
+      "name": "Thran Quarry",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "329",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38226_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 25,
+          "marketPrice": 14.69,
+          "tcgplayerSkuIds": [
+            779396
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 25,
+          "marketPrice": 23.16,
+          "tcgplayerSkuIds": [
+            839279
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 25,
+          "marketPrice": 20.32,
+          "tcgplayerSkuIds": [
+            799357
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 25,
+          "marketPrice": 35.53,
+          "tcgplayerSkuIds": [
+            407494
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779396,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819318,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839279,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799357,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407494,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "At the end of each turn, if you control no creatures, sacrifice Thran Quarry.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Michael Sutfin",
+        "customAttributes": {
+          "description": "At the end of each turn, if you control no creatures, sacrifice Thran Quarry.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "number": "329",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "329",
+          "Card Type": "Land",
+          "Description": "At the end of each turn, if you control no creatures, sacrifice Thran Quarry.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "Artist": "Michael Sutfin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38222,
+      "name": "Serra Avatar",
+      "productLineId": 1,
+      "setId": 61,
+      "collectorNumber": "45",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38222_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 20.44,
+          "marketPrice": 18.62,
+          "tcgplayerSkuIds": [
+            819314
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 20.44,
+          "marketPrice": 30.27,
+          "tcgplayerSkuIds": [
+            839275
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 20.44,
+          "marketPrice": 21.7,
+          "tcgplayerSkuIds": [
+            799353
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 20.44,
+          "marketPrice": 38.17,
+          "tcgplayerSkuIds": [
+            407832
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 779392,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 819314,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 839275,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 799353,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407832,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Serra Avatar has power and toughness each equal to your life total.\r\n<br>\r\nWhen Serra Avatar is put into a graveyard, shuffle Serra Avatar into owner's library.",
+        "typeLine": "Creature — Avatar",
+        "convertedCost": "7",
+        "power": "*",
+        "powerNumber": "*",
+        "toughness": "*",
+        "toughnessNumber": "*",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Dermot Power",
+        "customAttributes": {
+          "description": "Serra Avatar has power and toughness each equal to your life total.\r\n<br>\r\nWhen Serra Avatar is put into a graveyard, shuffle Serra Avatar into owner's library.",
+          "powerNumber": "*",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Avatar",
+          "number": "45",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "P",
+          "power": "*",
+          "toughnessNumber": "*",
+          "toughness": "*"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "45",
+          "Card Type": "Creature — Avatar",
+          "P / T": "* / *",
+          "Description": "Serra Avatar has power and toughness each equal to your life total.\r\n<br>\r\nWhen Serra Avatar is put into a graveyard, shuffle Serra Avatar into owner's library.",
+          "Artist": "Dermot Power"
+        }
+      }
+    }
+  ]
+}

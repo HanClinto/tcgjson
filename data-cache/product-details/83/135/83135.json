@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:26Z",
+  "tcgplayerProductId": 83135,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Swamp 62",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.4,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Swamp",
+      "releaseDate": "2009-04-10T00:00:00Z",
+      "number": "62",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.13,
+    "productName": "Swamp (62)",
+    "setId": 31.0,
+    "setCode": "DDC",
+    "productId": 83135.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Duel Decks: Divine vs. Demonic",
+    "sellers": 48.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Divine vs Demonic",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 63.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.4,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "62",
+      "Card Type": "Basic Land — Swamp",
+      "Artist": "Vance Kovacs"
+    },
+    "skus": [
+      {
+        "sku": 1187139,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1187140,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1187141,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1187142,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1187143,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

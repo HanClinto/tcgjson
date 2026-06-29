@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:34:57Z",
+  "tcgplayerProductId": 169687,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Swamp",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 3.43,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Swamp",
+      "releaseDate": null,
+      "number": "3",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 1.49,
+    "productName": "Swamp",
+    "setId": 54.0,
+    "setCode": "GPP",
+    "productId": 169687.0,
+    "imageCount": 1.0,
+    "score": 2.369216,
+    "setName": "Grand Prix Promos",
+    "sellers": 16.0,
+    "foilOnly": true,
+    "setUrlName": "Grand Prix Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 17.0,
+    "lowestPrice": 1.49,
+    "medianPrice": 3.71,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "3",
+      "Card Type": "Basic Land — Swamp",
+      "Artist": "Donato Giancola"
+    },
+    "skus": [
+      {
+        "sku": 3769064,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3769065,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3769066,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3769067,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3769068,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

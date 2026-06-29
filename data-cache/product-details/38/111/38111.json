@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:40Z",
+  "tcgplayerProductId": 38111,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Impulse",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 59.72,
+    "customAttributes": {
+      "formats": null,
+      "description": "Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 95.0,
+    "productName": "Impulse",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38111.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "FNM Promos",
+    "sellers": 19.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 22.0,
+    "lowestPrice": 95.0,
+    "medianPrice": 106.98,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "Card Type": "Instant",
+      "Description": "Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+      "Artist": "Bryan Talbot"
+    },
+    "skus": [
+      {
+        "sku": 407371,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837198,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797276,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817237,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777315,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

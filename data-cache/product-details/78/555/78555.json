@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:53Z",
+  "tcgplayerProductId": 78555,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Elf Warrior Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.42,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "1",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Elf Warrior",
+      "releaseDate": "2007-11-16T00:00:00Z",
+      "number": "T2",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.34,
+    "productName": "Elf Warrior Token",
+    "setId": 33.0,
+    "setCode": "EVG",
+    "productId": 78555.0,
+    "imageCount": 1.0,
+    "score": 1.9542425,
+    "setName": "Duel Decks: Elves vs. Goblins",
+    "sellers": 28.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Elves vs Goblins",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 28.0,
+    "lowestPrice": 0.18,
+    "medianPrice": 0.495,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "T2",
+      "Card Type": "Creature — Elf Warrior",
+      "P / T": "1 / 1",
+      "Artist": "Dominick Domingo"
+    },
+    "skus": [
+      {
+        "sku": 1163300,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163301,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163302,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163303,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163304,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

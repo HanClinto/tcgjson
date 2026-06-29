@@ -1,0 +1,1870 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:42Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 50,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 50,
+    "name": "From the Vault: Relics",
+    "urlName": "from-the-vault-relics",
+    "abbreviation": "V10",
+    "releaseDate": "2010-08-27T00:00:00",
+    "isSupplemental": true,
+    "productCount": 15,
+    "priceGuideRowCount": 64,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 15,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 36756,
+      "name": "Aether Vial",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "1",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36756_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.5,
+          "marketPrice": 4.88,
+          "tcgplayerSkuIds": [
+            837706
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.5,
+          "marketPrice": 5.22,
+          "tcgplayerSkuIds": [
+            797784
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 4.5,
+          "marketPrice": 5.82,
+          "tcgplayerSkuIds": [
+            400020
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777823,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817745,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837706,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797784,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400020,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "At the beginning of your upkeep, you may put a charge counter on Æther Vial.\r\n<br>\r\nT: You may put a creature card with converted mana cost equal to the number of charge counters on Æther Vial from your hand onto the battlefield.",
+        "typeLine": "Artifact",
+        "convertedCost": "1",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Karl Kopinski",
+        "customAttributes": {
+          "description": "At the beginning of your upkeep, you may put a charge counter on Æther Vial.\r\n<br>\r\nT: You may put a creature card with converted mana cost equal to the number of charge counters on Æther Vial from your hand onto the battlefield.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "M"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "1",
+          "Card Type": "Artifact",
+          "Description": "At the beginning of your upkeep, you may put a charge counter on Æther Vial.\r\n<br>\r\nT: You may put a creature card with converted mana cost equal to the number of charge counters on Æther Vial from your hand onto the battlefield.",
+          "Artist": "Karl Kopinski"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36765,
+      "name": "Mox Diamond",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "10",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36765_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1478.99,
+          "marketPrice": 1263.5,
+          "tcgplayerSkuIds": [
+            817754
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1478.99,
+          "marketPrice": 1359.03,
+          "tcgplayerSkuIds": [
+            837715
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1478.99,
+          "marketPrice": 1308.96,
+          "tcgplayerSkuIds": [
+            797793
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1478.99,
+          "marketPrice": 1332.88,
+          "tcgplayerSkuIds": [
+            400340
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777832,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817754,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837715,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797793,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400340,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "If Mox Diamond would enter the battlefield, you may discard a land card instead. If you do, put Mox Diamond onto the battlefield. If you don't, put it into its owner's graveyard.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+        "typeLine": "Artifact",
+        "convertedCost": "0",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Volkan Baga",
+        "customAttributes": {
+          "description": "If Mox Diamond would enter the battlefield, you may discard a land card instead. If you do, put Mox Diamond onto the battlefield. If you don't, put it into its owner's graveyard.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "10",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "0",
+          "rarityDbName": "M"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "10",
+          "Card Type": "Artifact",
+          "Description": "If Mox Diamond would enter the battlefield, you may discard a land card instead. If you do, put Mox Diamond onto the battlefield. If you don't, put it into its owner's graveyard.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "Artist": "Volkan Baga"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36766,
+      "name": "Nevinyrral's Disk",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "11",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36766_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.72,
+          "marketPrice": 1.14,
+          "tcgplayerSkuIds": [
+            817755
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.72,
+          "marketPrice": 2.75,
+          "tcgplayerSkuIds": [
+            837716
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.72,
+          "marketPrice": 2.05,
+          "tcgplayerSkuIds": [
+            797794
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.72,
+          "marketPrice": 2.68,
+          "tcgplayerSkuIds": [
+            399387
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777833,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817755,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837716,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797794,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399387,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Nevinyrral's Disk enters the battlefield tapped.\r\n<br>\r\n1, T: Destroy all artifacts, creatures, and enchantments.",
+        "typeLine": "Artifact",
+        "convertedCost": "4",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Steve Argyle",
+        "customAttributes": {
+          "description": "Nevinyrral's Disk enters the battlefield tapped.\r\n<br>\r\n1, T: Destroy all artifacts, creatures, and enchantments.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "11",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "M"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "11",
+          "Card Type": "Artifact",
+          "Description": "Nevinyrral's Disk enters the battlefield tapped.\r\n<br>\r\n1, T: Destroy all artifacts, creatures, and enchantments.",
+          "Artist": "Steve Argyle"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36767,
+      "name": "Sol Ring",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "12",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36767_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 14.99,
+          "marketPrice": 13.5,
+          "tcgplayerSkuIds": [
+            777834
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.99,
+          "marketPrice": 15,
+          "tcgplayerSkuIds": [
+            817756
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.99,
+          "marketPrice": 17.02,
+          "tcgplayerSkuIds": [
+            837717
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.99,
+          "marketPrice": 14.16,
+          "tcgplayerSkuIds": [
+            797795
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 14.99,
+          "marketPrice": 20.89,
+          "tcgplayerSkuIds": [
+            399852
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777834,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817756,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837717,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797795,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399852,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Add 2 to your mana pool.",
+        "flavorText": "<em>Lost to time is the artificer's art of trapping light from a distant star in a ring of purest gold.</em>",
+        "typeLine": "Artifact",
+        "convertedCost": "1",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "MIke Bierek",
+        "customAttributes": {
+          "description": "T: Add 2 to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "12",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "M",
+          "flavorText": "<em>Lost to time is the artificer's art of trapping light from a distant star in a ring of purest gold.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "12",
+          "Card Type": "Artifact",
+          "Description": "T: Add 2 to your mana pool.",
+          "Flavor": "<em>Lost to time is the artificer's art of trapping light from a distant star in a ring of purest gold.</em>",
+          "Artist": "MIke Bierek"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36768,
+      "name": "Sundering Titan",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "13",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36768_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 5.7,
+          "marketPrice": 1.8,
+          "tcgplayerSkuIds": [
+            777835
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.7,
+          "marketPrice": 3.73,
+          "tcgplayerSkuIds": [
+            817757
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.7,
+          "marketPrice": 4.77,
+          "tcgplayerSkuIds": [
+            837718
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.7,
+          "marketPrice": 2.56,
+          "tcgplayerSkuIds": [
+            797796
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 5.7,
+          "marketPrice": 4.88,
+          "tcgplayerSkuIds": [
+            400251
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777835,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817757,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837718,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797796,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400251,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
+        "typeLine": "Artifact Creature — Golem",
+        "convertedCost": "8",
+        "power": "7",
+        "powerNumber": "7",
+        "toughness": "10",
+        "toughnessNumber": "10",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact",
+          "Creature"
+        ],
+        "artist": "Jim Murray",
+        "customAttributes": {
+          "description": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
+          "powerNumber": "7",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact Creature — Golem",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "13",
+          "cardType": [
+            "Artifact",
+            "Creature"
+          ],
+          "convertedCost": "8",
+          "rarityDbName": "M",
+          "power": "7",
+          "toughnessNumber": "10",
+          "toughness": "10"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "13",
+          "Card Type": "Artifact Creature — Golem",
+          "P / T": "7 / 10",
+          "Description": "When Sundering Titan enters the battlefield or leaves the battlefield, choose a land of each basic land type, then destroy those lands.",
+          "Artist": "Jim Murray"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36769,
+      "name": "Sword of Body and Mind",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "14",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36769_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 14.45,
+          "marketPrice": 13.99,
+          "tcgplayerSkuIds": [
+            777836
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.45,
+          "marketPrice": 15.6,
+          "tcgplayerSkuIds": [
+            817758
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.45,
+          "marketPrice": 16.31,
+          "tcgplayerSkuIds": [
+            837719
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.45,
+          "marketPrice": 14.77,
+          "tcgplayerSkuIds": [
+            797797
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 14.45,
+          "marketPrice": 17.88,
+          "tcgplayerSkuIds": [
+            399464
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777836,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817758,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837719,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797797,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399464,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Equipped creature gets +2/+2 and has protection from green and from blue.\r\n<br>\r\nWhenever equipped creature deals combat damage to a player, you put a 2/2 green Wolf creature token onto the battlefield and that player puts the top ten cards of his or her library into his or her graveyard.\r\n<br>\r\nEquip 2",
+        "typeLine": "Artifact — Equipment",
+        "convertedCost": "3",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Chris Rahn",
+        "customAttributes": {
+          "description": "Equipped creature gets +2/+2 and has protection from green and from blue.\r\n<br>\r\nWhenever equipped creature deals combat damage to a player, you put a 2/2 green Wolf creature token onto the battlefield and that player puts the top ten cards of his or her library into his or her graveyard.\r\n<br>\r\nEquip 2",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact — Equipment",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "14",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "M"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "14",
+          "Card Type": "Artifact — Equipment",
+          "Description": "Equipped creature gets +2/+2 and has protection from green and from blue.\r\n<br>\r\nWhenever equipped creature deals combat damage to a player, you put a 2/2 green Wolf creature token onto the battlefield and that player puts the top ten cards of his or her library into his or her graveyard.\r\n<br>\r\nEquip 2",
+          "Artist": "Chris Rahn"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36770,
+      "name": "Zuran Orb",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "15",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36770_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 13.9,
+          "marketPrice": 8.63,
+          "tcgplayerSkuIds": [
+            777837
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.9,
+          "marketPrice": 12.87,
+          "tcgplayerSkuIds": [
+            817759
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.9,
+          "marketPrice": 14.29,
+          "tcgplayerSkuIds": [
+            837720
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.9,
+          "marketPrice": 13.24,
+          "tcgplayerSkuIds": [
+            797798
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 13.9,
+          "marketPrice": 18.01,
+          "tcgplayerSkuIds": [
+            399936
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777837,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817759,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837720,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797798,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399936,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Sacrifice a land: You gain 2 life.",
+        "flavorText": "<em>\"I will go to any length to achieve my goal. Eternal life is worth any sacrifice.\"\r\n<br>\r\n—Zur the Enchanter</em>",
+        "typeLine": "Artifact",
+        "convertedCost": "0",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Ryan Pancoast",
+        "customAttributes": {
+          "description": "Sacrifice a land: You gain 2 life.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "15",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "0",
+          "rarityDbName": "M",
+          "flavorText": "<em>\"I will go to any length to achieve my goal. Eternal life is worth any sacrifice.\"\r\n<br>\r\n—Zur the Enchanter</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "15",
+          "Card Type": "Artifact",
+          "Description": "Sacrifice a land: You gain 2 life.",
+          "Flavor": "<em>\"I will go to any length to achieve my goal. Eternal life is worth any sacrifice.\"\r\n<br>\r\n—Zur the Enchanter</em>",
+          "Artist": "Ryan Pancoast"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36757,
+      "name": "Black Vise",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "2",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36757_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 3,
+          "marketPrice": 2.89,
+          "tcgplayerSkuIds": [
+            777824
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3,
+          "marketPrice": 4.09,
+          "tcgplayerSkuIds": [
+            817746
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3,
+          "marketPrice": 4.7,
+          "tcgplayerSkuIds": [
+            837707
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3,
+          "marketPrice": 3.73,
+          "tcgplayerSkuIds": [
+            797785
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3,
+          "marketPrice": 4.89,
+          "tcgplayerSkuIds": [
+            399283
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777824,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817746,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837707,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797785,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399283,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "As Black Vise enters the battlefield, choose an opponent.\r\n<br>\r\nAt the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.",
+        "typeLine": "Artifact",
+        "convertedCost": "1",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Dan Scott",
+        "customAttributes": {
+          "description": "As Black Vise enters the battlefield, choose an opponent.\r\n<br>\r\nAt the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "M"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "2",
+          "Card Type": "Artifact",
+          "Description": "As Black Vise enters the battlefield, choose an opponent.\r\n<br>\r\nAt the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.",
+          "Artist": "Dan Scott"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36758,
+      "name": "Isochron Scepter",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "3",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36758_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 18.23,
+          "marketPrice": 18.08,
+          "tcgplayerSkuIds": [
+            777825
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 18.23,
+          "marketPrice": 25.08,
+          "tcgplayerSkuIds": [
+            837708
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 18.23,
+          "marketPrice": 20.26,
+          "tcgplayerSkuIds": [
+            797786
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 18.23,
+          "marketPrice": 29.31,
+          "tcgplayerSkuIds": [
+            399678
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777825,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817747,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837708,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797786,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399678,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<em>Imprint</em> — When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.\r\n<br>\r\n2, T: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+        "typeLine": "Artifact",
+        "convertedCost": "2",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Chippy",
+        "customAttributes": {
+          "description": "<em>Imprint</em> — When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.\r\n<br>\r\n2, T: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "M"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "3",
+          "Card Type": "Artifact",
+          "Description": "<em>Imprint</em> — When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.\r\n<br>\r\n2, T: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.",
+          "Artist": "Chippy"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36759,
+      "name": "Ivory Tower",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "4",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36759_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.47,
+          "marketPrice": 2,
+          "tcgplayerSkuIds": [
+            817748
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.47,
+          "marketPrice": 2.79,
+          "tcgplayerSkuIds": [
+            837709
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.47,
+          "marketPrice": 3.37,
+          "tcgplayerSkuIds": [
+            797787
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.47,
+          "marketPrice": 3.1,
+          "tcgplayerSkuIds": [
+            400152
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777826,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817748,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837709,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797787,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400152,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus four.",
+        "flavorText": "<em>Valuing scholarship above all else, the inhabitants of the Ivory Tower reward those who sacrifice power for knowledge.</em>",
+        "typeLine": "Artifact",
+        "convertedCost": "1",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Jason Chan",
+        "customAttributes": {
+          "description": "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus four.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "M",
+          "flavorText": "<em>Valuing scholarship above all else, the inhabitants of the Ivory Tower reward those who sacrifice power for knowledge.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "4",
+          "Card Type": "Artifact",
+          "Description": "At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus four.",
+          "Flavor": "<em>Valuing scholarship above all else, the inhabitants of the Ivory Tower reward those who sacrifice power for knowledge.</em>",
+          "Artist": "Jason Chan"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36760,
+      "name": "Jester's Cap",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "5",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36760_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.75,
+          "marketPrice": 1.23,
+          "tcgplayerSkuIds": [
+            837710
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.75,
+          "marketPrice": 1.1,
+          "tcgplayerSkuIds": [
+            797788
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.75,
+          "marketPrice": 1.63,
+          "tcgplayerSkuIds": [
+            399342
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777827,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817749,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837710,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797788,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399342,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "2, T, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles his or her library.",
+        "flavorText": "<em>\"Know your foes' strengths as well as their weaknesses.\"\r\n<br>\r\n—Arcum Dagsson, Soldevi machinist</em>",
+        "typeLine": "Artifact",
+        "convertedCost": "4",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "D. Alexander Gregory",
+        "customAttributes": {
+          "description": "2, T, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles his or her library.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "M",
+          "flavorText": "<em>\"Know your foes' strengths as well as their weaknesses.\"\r\n<br>\r\n—Arcum Dagsson, Soldevi machinist</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "5",
+          "Card Type": "Artifact",
+          "Description": "2, T, Sacrifice Jester's Cap: Search target player's library for three cards and exile them. Then that player shuffles his or her library.",
+          "Flavor": "<em>\"Know your foes' strengths as well as their weaknesses.\"\r\n<br>\r\n—Arcum Dagsson, Soldevi machinist</em>",
+          "Artist": "D. Alexander Gregory"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36761,
+      "name": "Karn, Silver Golem",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "6",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36761_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 11.24,
+          "marketPrice": 7.88,
+          "tcgplayerSkuIds": [
+            777828
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.24,
+          "marketPrice": 11.73,
+          "tcgplayerSkuIds": [
+            817750
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.24,
+          "marketPrice": 16.09,
+          "tcgplayerSkuIds": [
+            837711
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.24,
+          "marketPrice": 12.36,
+          "tcgplayerSkuIds": [
+            797789
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 11.24,
+          "marketPrice": 14.62,
+          "tcgplayerSkuIds": [
+            399668
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777828,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817750,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837711,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797789,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399668,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "When Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.\r\n<br>\r\n1: Target noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost until end of turn.",
+        "typeLine": "Legendary Artifact Creature — Golem",
+        "convertedCost": "5",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Artifact",
+          "Creature"
+        ],
+        "artist": "Mark Zug",
+        "customAttributes": {
+          "description": "When Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.\r\n<br>\r\n1: Target noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost until end of turn.",
+          "powerNumber": "4",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Legendary Artifact Creature — Golem",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "6",
+          "cardType": [
+            "Legendary",
+            "Artifact",
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "M",
+          "power": "4",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "6",
+          "Card Type": "Legendary Artifact Creature — Golem",
+          "P / T": "4 / 4",
+          "Description": "When Karn, Silver Golem blocks or becomes blocked, it gets -4/+4 until end of turn.\r\n<br>\r\n1: Target noncreature artifact is an artifact creature with power and toughness each equal to its converted mana cost until end of turn.",
+          "Artist": "Mark Zug"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36762,
+      "name": "Masticore",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "7",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36762_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 11.7,
+          "marketPrice": 9.78,
+          "tcgplayerSkuIds": [
+            777829
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.7,
+          "marketPrice": 25.64,
+          "tcgplayerSkuIds": [
+            837712
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.7,
+          "marketPrice": 21.04,
+          "tcgplayerSkuIds": [
+            797790
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 11.7,
+          "marketPrice": 21.32,
+          "tcgplayerSkuIds": [
+            400057
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777829,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817751,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837712,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797790,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400057,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.\r\n<br>\r\n2: Masticore deals 1 damage to target creature. \r\n<br>\r\n2: Regenerate Masticore.",
+        "typeLine": "Artifact Creature — Masticore",
+        "convertedCost": "4",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact",
+          "Creature"
+        ],
+        "artist": "Steven Belledin",
+        "customAttributes": {
+          "description": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.\r\n<br>\r\n2: Masticore deals 1 damage to target creature. \r\n<br>\r\n2: Regenerate Masticore.",
+          "powerNumber": "4",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact Creature — Masticore",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "7",
+          "cardType": [
+            "Artifact",
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "M",
+          "power": "4",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "7",
+          "Card Type": "Artifact Creature — Masticore",
+          "P / T": "4 / 4",
+          "Description": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.\r\n<br>\r\n2: Masticore deals 1 damage to target creature. \r\n<br>\r\n2: Regenerate Masticore.",
+          "Artist": "Steven Belledin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36763,
+      "name": "Memory Jar",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "8",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36763_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 39.99,
+          "marketPrice": 32.23,
+          "tcgplayerSkuIds": [
+            777830
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 39.99,
+          "marketPrice": 35.01,
+          "tcgplayerSkuIds": [
+            817752
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 39.99,
+          "marketPrice": 45.17,
+          "tcgplayerSkuIds": [
+            837713
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 39.99,
+          "marketPrice": 35.47,
+          "tcgplayerSkuIds": [
+            797791
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 39.99,
+          "marketPrice": 46.7,
+          "tcgplayerSkuIds": [
+            399328
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777830,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817752,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837713,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797791,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399328,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T, Sacrifice Memory Jar: Each player exiles all cards from his or her hand face down and draws seven cards. At the beginning of the next end step, each player discards his or her hand and returns to his or her hand each card he or she exiled this way.",
+        "typeLine": "Artifact",
+        "convertedCost": "5",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Donato Giancola",
+        "customAttributes": {
+          "description": "T, Sacrifice Memory Jar: Each player exiles all cards from his or her hand face down and draws seven cards. At the beginning of the next end step, each player discards his or her hand and returns to his or her hand each card he or she exiled this way.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "8",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "M"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "8",
+          "Card Type": "Artifact",
+          "Description": "T, Sacrifice Memory Jar: Each player exiles all cards from his or her hand face down and draws seven cards. At the beginning of the next end step, each player discards his or her hand and returns to his or her hand each card he or she exiled this way.",
+          "Artist": "Donato Giancola"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36764,
+      "name": "Mirari",
+      "productLineId": 1,
+      "setId": 50,
+      "collectorNumber": "9",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36764_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.02,
+          "marketPrice": 2.06,
+          "tcgplayerSkuIds": [
+            837714
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.02,
+          "marketPrice": 1.91,
+          "tcgplayerSkuIds": [
+            797792
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.02,
+          "marketPrice": 2.21,
+          "tcgplayerSkuIds": [
+            399871
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777831,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817753,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837714,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797792,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399871,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever you cast an instant or sorcery spell, you may pay 3. If you do, copy that spell. You may choose new targets for the copy.",
+        "flavorText": "<em>\"It offers you what you want, not what you need.\"\r\n<br>\r\n—Braids, dementia summoner</em>",
+        "typeLine": "Legendary Artifact",
+        "convertedCost": "5",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Artifact"
+        ],
+        "artist": "Donato Giancola",
+        "customAttributes": {
+          "description": "Whenever you cast an instant or sorcery spell, you may pay 3. If you do, copy that spell. You may choose new targets for the copy.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Legendary Artifact",
+          "releaseDate": "2010-08-27T00:00:00Z",
+          "number": "9",
+          "cardType": [
+            "Legendary",
+            "Artifact"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "M",
+          "flavorText": "<em>\"It offers you what you want, not what you need.\"\r\n<br>\r\n—Braids, dementia summoner</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "9",
+          "Card Type": "Legendary Artifact",
+          "Description": "Whenever you cast an instant or sorcery spell, you may pay 3. If you do, copy that spell. You may choose new targets for the copy.",
+          "Flavor": "<em>\"It offers you what you want, not what you need.\"\r\n<br>\r\n—Braids, dementia summoner</em>",
+          "Artist": "Donato Giancola"
+        }
+      }
+    }
+  ]
+}

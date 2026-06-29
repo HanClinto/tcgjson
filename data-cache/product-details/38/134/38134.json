@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:49Z",
+  "tcgplayerProductId": 38134,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Myr Enforcer",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 12.91,
+    "customAttributes": {
+      "formats": null,
+      "description": "Affinity for artifacts <em>(This spell costs 1 less to play for each artifact you control.)</em>",
+      "powerNumber": "4",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Myr",
+      "releaseDate": null,
+      "number": "2",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "7",
+      "rarityDbName": "P",
+      "power": "4",
+      "flavorText": "<em>Most myr monitor other species. Some myr monitor other myr.</em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 13.5,
+    "productName": "Myr Enforcer",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38134.0,
+    "imageCount": 1.0,
+    "score": 1.9912261,
+    "setName": "FNM Promos",
+    "sellers": 5.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 5.0,
+    "lowestPrice": 12.08,
+    "medianPrice": 13.5,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "2",
+      "Card Type": "Artifact Creature — Myr",
+      "P / T": "4 / 4",
+      "Description": "Affinity for artifacts <em>(This spell costs 1 less to play for each artifact you control.)</em>",
+      "Flavor": "<em>Most myr monitor other species. Some myr monitor other myr.</em>",
+      "Artist": "Jim Murray"
+    },
+    "skus": [
+      {
+        "sku": 407428,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837221,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797299,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817260,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777338,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

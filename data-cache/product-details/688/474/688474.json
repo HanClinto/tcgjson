@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:34:45Z",
+  "tcgplayerProductId": 688474,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Gilded Lotus",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 5.02,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Add three mana of any one color.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact",
+      "releaseDate": null,
+      "number": "1",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 4.34,
+    "productName": "Gilded Lotus",
+    "setId": 53.0,
+    "setCode": "WPN",
+    "productId": 688474.0,
+    "imageCount": 1.0,
+    "score": 3.533772,
+    "setName": "WPN & Gateway Promos",
+    "sellers": 57.0,
+    "foilOnly": true,
+    "setUrlName": "WPN and Gateway Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 57.0,
+    "lowestPrice": 4.34,
+    "medianPrice": 9.685,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "1",
+      "Card Type": "Artifact",
+      "Description": "T: Add three mana of any one color.",
+      "Artist": "Merlin G.G"
+    },
+    "skus": [
+      {
+        "sku": 9231195,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 9231196,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 9231197,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 9231198,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 9231199,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

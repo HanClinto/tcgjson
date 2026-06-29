@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:44Z",
+  "tcgplayerProductId": 38147,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Rift Bolt",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 2.44,
+    "customAttributes": {
+      "formats": null,
+      "description": "Rift Bolt deals 3 damage to target creature or player.\r\n<br>\r\nSuspend 1—R <em>(Rather than cast this card from your hand, you may pay R and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": "10",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.55,
+    "productName": "Rift Bolt",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38147.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "FNM Promos",
+    "sellers": 88.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 108.0,
+    "lowestPrice": 0.55,
+    "medianPrice": 2.6,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "10",
+      "Card Type": "Sorcery",
+      "Description": "Rift Bolt deals 3 damage to target creature or player.\r\n<br>\r\nSuspend 1—R <em>(Rather than cast this card from your hand, you may pay R and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)</em>",
+      "Artist": "Daniel Ljunggren"
+    },
+    "skus": [
+      {
+        "sku": 407692,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837233,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797311,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817272,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777350,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

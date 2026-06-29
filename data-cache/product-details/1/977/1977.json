@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:26Z",
+  "tcgplayerProductId": 1977,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Volcanic Eruption",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.51,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy X target mountains. Volcanic Eruption deals 1 damage to each creature and player for each mountain put into the graveyard in this way.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Volcanic Eruption",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1977.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Fourth Edition",
+    "sellers": 233.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 317.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.585,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Sorcery ",
+      "Description": "Destroy X target mountains. Volcanic Eruption deals 1 damage to each creature and player for each mountain put into the graveyard in this way.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 16098,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 365044,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333528,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349286,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317770,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

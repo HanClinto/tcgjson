@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:48Z",
+  "tcgplayerProductId": 78389,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Human Wolf Double Sided Token",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 1.56,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "1/2",
+      "color": [
+        "Green",
+        "White"
+      ],
+      "fullType": "Creature — Human // Creature — Wolf",
+      "releaseDate": null,
+      "number": "1a // 1b",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "P",
+      "power": "1/2",
+      "flavorText": "",
+      "toughnessNumber": "1/2",
+      "toughness": "1/2"
+    },
+    "lowestPriceWithShipping": 0.31,
+    "productName": "Human // Wolf Double-Sided Token",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 78389.0,
+    "imageCount": 2.0,
+    "score": 1.763428,
+    "setName": "FNM Promos",
+    "sellers": 75.0,
+    "foilOnly": false,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 80.0,
+    "lowestPrice": 0.31,
+    "medianPrice": 1.99,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "1a // 1b",
+      "Card Type": "Creature — Human // Creature — Wolf",
+      "P / T": "1/2 / 1/2",
+      "Artist": "Lars Grant-West"
+    },
+    "skus": [
+      {
+        "sku": 1162465,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1162466,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1162467,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1162468,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1162469,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

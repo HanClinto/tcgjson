@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:40:07Z",
+  "tcgplayerProductId": 82620,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Greater Good",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 23.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "Sacrifice a creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchantment",
+      "releaseDate": null,
+      "number": "2",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "<em>\"To examine the causes of life, we must first have recourse to death.\"\r\n<br>\r\n—Mary Shelley,</em> Frankenstein",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 22.0,
+    "productName": "Greater Good",
+    "setId": 62.0,
+    "setCode": "JDG",
+    "productId": 82620.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Judge Promos",
+    "sellers": 28.0,
+    "foilOnly": true,
+    "setUrlName": "Judge Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 31.0,
+    "lowestPrice": 19.0,
+    "medianPrice": 26.125,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "2",
+      "Card Type": "Enchantment",
+      "Description": "Sacrifice a creature: Draw cards equal to the sacrificed creature’s power, then discard three cards.",
+      "Flavor": "<em>\"To examine the causes of life, we must first have recourse to death.\"\r\n<br>\r\n—Mary Shelley,</em> Frankenstein",
+      "Artist": "Mathias Kollros"
+    },
+    "skus": [
+      {
+        "sku": 1185041,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1185042,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1185043,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1185044,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1185045,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

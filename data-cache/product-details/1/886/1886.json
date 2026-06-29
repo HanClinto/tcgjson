@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:19Z",
+  "tcgplayerProductId": 1886,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Power Surge",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.94,
+    "customAttributes": {
+      "formats": null,
+      "description": "During each player’s upkeep, Power Surge deals that player 1 damage for each land he or she controls that was untapped at the beginning of the turn, before the untap phase.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Enchantment ",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.3,
+    "productName": "Power Surge",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1886.0,
+    "imageCount": 1.0,
+    "score": 2.269513,
+    "setName": "Fourth Edition",
+    "sellers": 130.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 168.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 1.04,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Enchantment ",
+      "Description": "During each player’s upkeep, Power Surge deals that player 1 damage for each land he or she controls that was untapped at the beginning of the turn, before the untap phase.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 16009,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364955,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333439,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349197,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317681,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

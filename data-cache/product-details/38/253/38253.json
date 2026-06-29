@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:40:04Z",
+  "tcgplayerProductId": 38253,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lightning Bolt",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 631.16,
+    "customAttributes": {
+      "formats": null,
+      "description": "Lightning Bolt deals 3 damage to target creature or player.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 519.99,
+    "productName": "Lightning Bolt",
+    "setId": 62.0,
+    "setCode": "JDG",
+    "productId": 38253.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Judge Promos",
+    "sellers": 14.0,
+    "foilOnly": true,
+    "setUrlName": "Judge Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 31.0,
+    "lowestPrice": 519.99,
+    "medianPrice": 630.075,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "Card Type": "Instant",
+      "Description": "Lightning Bolt deals 3 damage to target creature or player.",
+      "Artist": "Christopher Rush"
+    },
+    "skus": [
+      {
+        "sku": 407703,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 839309,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 799387,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 819348,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 779426,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:26Z",
+  "tcgplayerProductId": 1975,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Verduran Enchantress",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 2.36,
+    "customAttributes": {
+      "formats": null,
+      "description": "0: Draw a card when you successfully cast an enchantment. Use this effect only once for each enchantment cast.",
+      "powerNumber": "0",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature ",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "R",
+      "power": "0",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.32,
+    "productName": "Verduran Enchantress",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1975.0,
+    "imageCount": 1.0,
+    "score": 2.4857213,
+    "setName": "Fourth Edition",
+    "sellers": 162.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 199.0,
+    "lowestPrice": 0.32,
+    "medianPrice": 2.41,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Creature ",
+      "P / T": "0 / 2",
+      "Description": "0: Draw a card when you successfully cast an enchantment. Use this effect only once for each enchantment cast.",
+      "Artist": "Kev Brockschmidt"
+    },
+    "skus": [
+      {
+        "sku": 16096,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 365042,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333526,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349284,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317768,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

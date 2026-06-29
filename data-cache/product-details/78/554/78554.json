@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:53Z",
+  "tcgplayerProductId": 78554,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Elemental Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.6,
+    "customAttributes": {
+      "formats": null,
+      "description": "Trample",
+      "powerNumber": "7",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Elemental",
+      "releaseDate": "2007-11-16T00:00:00Z",
+      "number": "T1",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "7",
+      "flavorText": "",
+      "toughnessNumber": "7",
+      "toughness": "7"
+    },
+    "lowestPriceWithShipping": 0.39,
+    "productName": "Elemental Token",
+    "setId": 33.0,
+    "setCode": "EVG",
+    "productId": 78554.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Duel Decks: Elves vs. Goblins",
+    "sellers": 39.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Elves vs Goblins",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 41.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 4.22,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "T1",
+      "Card Type": "Creature — Elemental",
+      "P / T": "7 / 7",
+      "Description": "Trample",
+      "Artist": "Anthony S. Waters"
+    },
+    "skus": [
+      {
+        "sku": 1163295,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163296,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163297,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163298,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163299,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

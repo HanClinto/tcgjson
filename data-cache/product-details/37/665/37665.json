@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:54Z",
+  "tcgplayerProductId": 37665,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Giant Growth",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.04,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gets +3/+3 until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2009-10-30T00:00:00Z",
+      "number": "14",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Giant Growth",
+    "setId": 34.0,
+    "setCode": "DDD",
+    "productId": 37665.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Duel Decks: Garruk vs. Liliana",
+    "sellers": 98.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Garruk vs Liliana",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 115.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.28,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "14",
+      "Card Type": "Instant",
+      "Description": "Target creature gets +3/+3 until end of turn.",
+      "Artist": "Matt Cavotta"
+    },
+    "skus": [
+      {
+        "sku": 397170,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405758,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403348,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404553,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402143,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2088 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:41Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 49,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 49,
+    "name": "From the Vault: Legends",
+    "urlName": "from-the-vault-legends",
+    "abbreviation": "V11",
+    "releaseDate": "2011-08-26T00:00:00",
+    "isSupplemental": true,
+    "productCount": 15,
+    "priceGuideRowCount": 69,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 15,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 48158,
+      "name": "Cao Cao, Lord of Wei",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48158_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 3.83,
+          "marketPrice": 3.63,
+          "tcgplayerSkuIds": [
+            777819
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.83,
+          "marketPrice": 3.19,
+          "tcgplayerSkuIds": [
+            817741
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.83,
+          "marketPrice": 5.03,
+          "tcgplayerSkuIds": [
+            837702
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.83,
+          "marketPrice": 4.44,
+          "tcgplayerSkuIds": [
+            797780
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.83,
+          "marketPrice": 5.07,
+          "tcgplayerSkuIds": [
+            477538
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777819,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817741,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837702,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797780,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477538,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Target opponent discards two cards. Activate this ability only during your turn, before attackers are declared.",
+        "typeLine": "Legendary Creature — Human Soldier",
+        "convertedCost": "5",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Gao Jianzhang",
+        "customAttributes": {
+          "description": "T: Target opponent discards two cards. Activate this ability only during your turn, before attackers are declared.",
+          "powerNumber": "3",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Legendary Creature — Human Soldier",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "3",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Legendary Creature — Human Soldier",
+          "P / T": "3 / 3",
+          "Description": "T: Target opponent discards two cards. Activate this ability only during your turn, before attackers are declared.",
+          "Artist": "Gao Jianzhang"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48156,
+      "name": "Rafiq of the Many",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "10",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48156_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 1.28,
+          "tcgplayerSkuIds": [
+            777817
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 1.57,
+          "tcgplayerSkuIds": [
+            817739
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 1.82,
+          "tcgplayerSkuIds": [
+            837700
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 1.55,
+          "tcgplayerSkuIds": [
+            797778
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 2.46,
+          "tcgplayerSkuIds": [
+            477549
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777817,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817739,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837700,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797778,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477549,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Exalted <em>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</em>\r\n<br>\r\nWhenever a creature you control attacks alone, it gains double strike until end of turn.",
+        "flavorText": "<em>Many sigils, one purpose.</em>",
+        "typeLine": "Legendary Creature — Human Knight",
+        "convertedCost": "4",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Blue",
+          "Green",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Wayne Reynolds",
+        "customAttributes": {
+          "description": "Exalted <em>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</em>\r\n<br>\r\nWhenever a creature you control attacks alone, it gains double strike until end of turn.",
+          "powerNumber": "3",
+          "color": [
+            "Blue",
+            "Green",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Human Knight",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "10",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P",
+          "power": "3",
+          "flavorText": "<em>Many sigils, one purpose.</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "10",
+          "Card Type": "Legendary Creature — Human Knight",
+          "P / T": "3 / 3",
+          "Description": "Exalted <em>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</em>\r\n<br>\r\nWhenever a creature you control attacks alone, it gains double strike until end of turn.",
+          "Flavor": "<em>Many sigils, one purpose.</em>",
+          "Artist": "Wayne Reynolds"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48157,
+      "name": "Sharuum the Hegemon",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "11",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48157_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.8,
+          "marketPrice": 3.99,
+          "tcgplayerSkuIds": [
+            817740
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.8,
+          "marketPrice": 5.41,
+          "tcgplayerSkuIds": [
+            837701
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.8,
+          "marketPrice": 3.92,
+          "tcgplayerSkuIds": [
+            797779
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.8,
+          "marketPrice": 7.39,
+          "tcgplayerSkuIds": [
+            477565
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777818,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817740,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837701,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797779,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477565,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nWhen Sharuum the Hegemon enters the battlefield, you may return target artifact card from your graveyard to the battlefield.",
+        "flavorText": "<em>To gain audience with the hegemon, one must bring a riddle she has not heard.</em>",
+        "typeLine": "Legendary Artifact Creature — Sphinx",
+        "convertedCost": "6",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Black",
+          "Blue",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Artifact",
+          "Creature"
+        ],
+        "artist": "Todd Lockwood",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nWhen Sharuum the Hegemon enters the battlefield, you may return target artifact card from your graveyard to the battlefield.",
+          "powerNumber": "5",
+          "color": [
+            "Black",
+            "Blue",
+            "White"
+          ],
+          "fullType": "Legendary Artifact Creature — Sphinx",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "11",
+          "cardType": [
+            "Legendary",
+            "Artifact",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "5",
+          "flavorText": "<em>To gain audience with the hegemon, one must bring a riddle she has not heard.</em>",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "11",
+          "Card Type": "Legendary Artifact Creature — Sphinx",
+          "P / T": "5 / 5",
+          "Description": "Flying\r\n<br>\r\nWhen Sharuum the Hegemon enters the battlefield, you may return target artifact card from your graveyard to the battlefield.",
+          "Flavor": "<em>To gain audience with the hegemon, one must bring a riddle she has not heard.</em>",
+          "Artist": "Todd Lockwood"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48152,
+      "name": "Sun Quan, Lord of Wu",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "12",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48152_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 9,
+          "marketPrice": 5,
+          "tcgplayerSkuIds": [
+            777813
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 9,
+          "marketPrice": 11.39,
+          "tcgplayerSkuIds": [
+            837696
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 9,
+          "marketPrice": 9.07,
+          "tcgplayerSkuIds": [
+            797774
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 9,
+          "marketPrice": 12.02,
+          "tcgplayerSkuIds": [
+            477575
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777813,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817735,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837696,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797774,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477575,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Creatures you control have horsemanship. <em>(They can't be blocked except by creatures with horsemanship.)</em>",
+        "flavorText": "<em>\"One score and four he reigned, the Southland king: | A dragon coiled, a tiger poised below the mighty Yangtze.\"</em>",
+        "typeLine": "Legendary Creature — Human Soldier",
+        "convertedCost": "6",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Xu Xiaoming",
+        "customAttributes": {
+          "description": "Creatures you control have horsemanship. <em>(They can't be blocked except by creatures with horsemanship.)</em>",
+          "powerNumber": "4",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Legendary Creature — Human Soldier",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "12",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "4",
+          "flavorText": "<em>\"One score and four he reigned, the Southland king: | A dragon coiled, a tiger poised below the mighty Yangtze.\"</em>",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "12",
+          "Card Type": "Legendary Creature — Human Soldier",
+          "P / T": "4 / 4",
+          "Description": "Creatures you control have horsemanship. <em>(They can't be blocked except by creatures with horsemanship.)</em>",
+          "Flavor": "<em>\"One score and four he reigned, the Southland king: | A dragon coiled, a tiger poised below the mighty Yangtze.\"</em>",
+          "Artist": "Xu Xiaoming"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48147,
+      "name": "Teferi, Mage of Zhalfir",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "13",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48147_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 3.35,
+          "marketPrice": 2.5,
+          "tcgplayerSkuIds": [
+            777808
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.35,
+          "marketPrice": 3.44,
+          "tcgplayerSkuIds": [
+            817730
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.35,
+          "marketPrice": 5.25,
+          "tcgplayerSkuIds": [
+            837691
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.35,
+          "marketPrice": 4.37,
+          "tcgplayerSkuIds": [
+            797769
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.35,
+          "marketPrice": 5.96,
+          "tcgplayerSkuIds": [
+            477540
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777808,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817730,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837691,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797769,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477540,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flash\r\n<br>\r\nCreature cards you own that aren't on the battlefield have flash.\r\n<br>\r\nEach opponent can cast spells only any time he or she could cast a sorcery.",
+        "flavorText": "<em>To save this plane, he must forsake all others.</em>",
+        "typeLine": "Legendary Creature — Human Wizard",
+        "convertedCost": "5",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Volkan Baga",
+        "customAttributes": {
+          "description": "Flash\r\n<br>\r\nCreature cards you own that aren't on the battlefield have flash.\r\n<br>\r\nEach opponent can cast spells only any time he or she could cast a sorcery.",
+          "powerNumber": "3",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Legendary Creature — Human Wizard",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "13",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "3",
+          "flavorText": "<em>To save this plane, he must forsake all others.</em>",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "13",
+          "Card Type": "Legendary Creature — Human Wizard",
+          "P / T": "3 / 4",
+          "Description": "Flash\r\n<br>\r\nCreature cards you own that aren't on the battlefield have flash.\r\n<br>\r\nEach opponent can cast spells only any time he or she could cast a sorcery.",
+          "Flavor": "<em>To save this plane, he must forsake all others.</em>",
+          "Artist": "Volkan Baga"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48159,
+      "name": "Ulamog, the Infinite Gyre",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "14",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48159_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 33.69,
+          "marketPrice": 34.49,
+          "tcgplayerSkuIds": [
+            817742
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 33.69,
+          "marketPrice": 36.15,
+          "tcgplayerSkuIds": [
+            837703
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 33.69,
+          "marketPrice": 33.29,
+          "tcgplayerSkuIds": [
+            797781
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 33.69,
+          "marketPrice": 42.19,
+          "tcgplayerSkuIds": [
+            477554
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777820,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817742,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837703,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797781,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477554,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "When you cast Ulamog, the Infinite Gyre, destroy target permanent.\r\n<br>\r\nAnnihilator 4 <em>(Whenever this creature attacks, defending player sacrifices four permanents.)</em>\r\n<br>\r\nUlamog is indestructible.\r\n<br>\r\nWhen Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.",
+        "typeLine": "Legendary Creature — Eldrazi",
+        "convertedCost": "11",
+        "power": "10",
+        "powerNumber": "10",
+        "toughness": "10",
+        "toughnessNumber": "10",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Aleksi Briclot",
+        "customAttributes": {
+          "description": "When you cast Ulamog, the Infinite Gyre, destroy target permanent.\r\n<br>\r\nAnnihilator 4 <em>(Whenever this creature attacks, defending player sacrifices four permanents.)</em>\r\n<br>\r\nUlamog is indestructible.\r\n<br>\r\nWhen Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.",
+          "powerNumber": "10",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Legendary Creature — Eldrazi",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "14",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "11",
+          "rarityDbName": "P",
+          "power": "10",
+          "toughnessNumber": "10",
+          "toughness": "10"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "14",
+          "Card Type": "Legendary Creature — Eldrazi",
+          "P / T": "10 / 10",
+          "Description": "When you cast Ulamog, the Infinite Gyre, destroy target permanent.\r\n<br>\r\nAnnihilator 4 <em>(Whenever this creature attacks, defending player sacrifices four permanents.)</em>\r\n<br>\r\nUlamog is indestructible.\r\n<br>\r\nWhen Ulamog is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.",
+          "Artist": "Aleksi Briclot"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48160,
+      "name": "Visara the Dreadful",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "15",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48160_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.95,
+          "marketPrice": 4.83,
+          "tcgplayerSkuIds": [
+            817743
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.95,
+          "marketPrice": 4.31,
+          "tcgplayerSkuIds": [
+            837704
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.95,
+          "marketPrice": 4.02,
+          "tcgplayerSkuIds": [
+            797782
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.95,
+          "marketPrice": 6.96,
+          "tcgplayerSkuIds": [
+            477560
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777821,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817743,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837704,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797782,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477560,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nT: Destroy target creature. It can't be regenerated.",
+        "flavorText": "<em>\"My eyes are my strongest feature.\"</em>",
+        "typeLine": "Legendary Creature — Gorgon",
+        "convertedCost": "6",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Brad Rigney",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nT: Destroy target creature. It can't be regenerated.",
+          "powerNumber": "5",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Legendary Creature — Gorgon",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "15",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "5",
+          "flavorText": "<em>\"My eyes are my strongest feature.\"</em>",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "15",
+          "Card Type": "Legendary Creature — Gorgon",
+          "P / T": "5 / 5",
+          "Description": "Flying\r\n<br>\r\nT: Destroy target creature. It can't be regenerated.",
+          "Flavor": "<em>\"My eyes are my strongest feature.\"</em>",
+          "Artist": "Brad Rigney"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48153,
+      "name": "Captain Sisay",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48153_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 10.64,
+          "marketPrice": 9.34,
+          "tcgplayerSkuIds": [
+            817736
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 10.64,
+          "marketPrice": 13.46,
+          "tcgplayerSkuIds": [
+            837697
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 10.64,
+          "marketPrice": 11.78,
+          "tcgplayerSkuIds": [
+            797775
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 10.64,
+          "marketPrice": 17.66,
+          "tcgplayerSkuIds": [
+            477548
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777814,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817736,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837697,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797775,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477548,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Search your library for a legendary card, reveal that card, and put it into your hand. Then shuffle your library.",
+        "flavorText": "<em>Her leadership forged the</em> Weatherlight's <em>finest crew.</em>",
+        "typeLine": "Legendary Creature — Human Soldier",
+        "convertedCost": "4",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Ray Lago",
+        "customAttributes": {
+          "description": "T: Search your library for a legendary card, reveal that card, and put it into your hand. Then shuffle your library.",
+          "powerNumber": "2",
+          "color": [
+            "Green",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Human Soldier",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "<em>Her leadership forged the</em> Weatherlight's <em>finest crew.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Legendary Creature — Human Soldier",
+          "P / T": "2 / 2",
+          "Description": "T: Search your library for a legendary card, reveal that card, and put it into your hand. Then shuffle your library.",
+          "Flavor": "<em>Her leadership forged the</em> Weatherlight's <em>finest crew.</em>",
+          "Artist": "Ray Lago"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48150,
+      "name": "Doran, the Siege Tower",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48150_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 7.99,
+          "marketPrice": 5,
+          "tcgplayerSkuIds": [
+            777811
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 7.99,
+          "marketPrice": 1.85,
+          "tcgplayerSkuIds": [
+            817733
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 7.99,
+          "marketPrice": 11.88,
+          "tcgplayerSkuIds": [
+            837694
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 7.99,
+          "marketPrice": 6.43,
+          "tcgplayerSkuIds": [
+            797772
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 7.99,
+          "marketPrice": 12.37,
+          "tcgplayerSkuIds": [
+            477542
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777811,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817733,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837694,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797772,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477542,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Each creature assigns combat damage equal to its toughness rather than its power.",
+        "flavorText": "<em>\"Each year that passes rings you inwardly with memory and might. Wield your heart, and the world will tremble.\"</em>",
+        "typeLine": "Legendary Creature — Treefolk Shaman",
+        "convertedCost": "3",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Black",
+          "Green",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Mark Zug",
+        "customAttributes": {
+          "description": "Each creature assigns combat damage equal to its toughness rather than its power.",
+          "powerNumber": "0",
+          "color": [
+            "Black",
+            "Green",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Treefolk Shaman",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "0",
+          "flavorText": "<em>\"Each year that passes rings you inwardly with memory and might. Wield your heart, and the world will tremble.\"</em>",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Legendary Creature — Treefolk Shaman",
+          "P / T": "0 / 5",
+          "Description": "Each creature assigns combat damage equal to its toughness rather than its power.",
+          "Flavor": "<em>\"Each year that passes rings you inwardly with memory and might. Wield your heart, and the world will tremble.\"</em>",
+          "Artist": "Mark Zug"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48151,
+      "name": "Kiki-Jiki, Mirror Breaker",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48151_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 18.96,
+          "marketPrice": 10.43,
+          "tcgplayerSkuIds": [
+            817734
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 18.96,
+          "marketPrice": 16.25,
+          "tcgplayerSkuIds": [
+            837695
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 18.96,
+          "marketPrice": 14.87,
+          "tcgplayerSkuIds": [
+            797773
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 18.96,
+          "marketPrice": 21.65,
+          "tcgplayerSkuIds": [
+            477556
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777812,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817734,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837695,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797773,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477556,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Haste\r\n<br>\r\nT: Put a token that's a copy of target nonlegendary creature you control onto the battlefield. That token has haste. Sacrifice it at the beginning of the next end step.",
+        "typeLine": "Legendary Creature — Goblin Shaman",
+        "convertedCost": "5",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Steven Belledin",
+        "customAttributes": {
+          "description": "Haste\r\n<br>\r\nT: Put a token that's a copy of target nonlegendary creature you control onto the battlefield. That token has haste. Sacrifice it at the beginning of the next end step.",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Legendary Creature — Goblin Shaman",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Legendary Creature — Goblin Shaman",
+          "P / T": "2 / 2",
+          "Description": "Haste\r\n<br>\r\nT: Put a token that's a copy of target nonlegendary creature you control onto the battlefield. That token has haste. Sacrifice it at the beginning of the next end step.",
+          "Artist": "Steven Belledin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48148,
+      "name": "Kresh the Bloodbraided",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48148_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 2.69,
+          "marketPrice": 2.69,
+          "tcgplayerSkuIds": [
+            777809
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.69,
+          "marketPrice": 3.88,
+          "tcgplayerSkuIds": [
+            817731
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.69,
+          "marketPrice": 3.86,
+          "tcgplayerSkuIds": [
+            837692
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.69,
+          "marketPrice": 3.88,
+          "tcgplayerSkuIds": [
+            797770
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.69,
+          "marketPrice": 4.87,
+          "tcgplayerSkuIds": [
+            477557
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777809,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817731,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837692,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797770,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477557,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.",
+        "flavorText": "<em>Each of his twenty-two braids is bound with bone and leather from a foe.</em>",
+        "typeLine": "Legendary Creature — Human Warrior",
+        "convertedCost": "5",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Black",
+          "Green",
+          "Red"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Steve Argyle",
+        "customAttributes": {
+          "description": "Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.",
+          "powerNumber": "3",
+          "color": [
+            "Black",
+            "Green",
+            "Red"
+          ],
+          "fullType": "Legendary Creature — Human Warrior",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "3",
+          "flavorText": "<em>Each of his twenty-two braids is bound with bone and leather from a foe.</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Legendary Creature — Human Warrior",
+          "P / T": "3 / 3",
+          "Description": "Whenever another creature dies, you may put X +1/+1 counters on Kresh the Bloodbraided, where X is that creature's power.",
+          "Flavor": "<em>Each of his twenty-two braids is bound with bone and leather from a foe.</em>",
+          "Artist": "Steve Argyle"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48161,
+      "name": "Mikaeus, the Lunarch",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "6",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48161_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.58,
+          "marketPrice": 1.42,
+          "tcgplayerSkuIds": [
+            777822
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.58,
+          "marketPrice": 1.95,
+          "tcgplayerSkuIds": [
+            817744
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.58,
+          "marketPrice": 2.31,
+          "tcgplayerSkuIds": [
+            837705
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.58,
+          "marketPrice": 1.87,
+          "tcgplayerSkuIds": [
+            797783
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.58,
+          "marketPrice": 2.75,
+          "tcgplayerSkuIds": [
+            477534
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777822,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817744,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837705,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797783,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477534,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Mikaeus, the Lunarch enters the battlefield with X +1/+1 counters on it.\r\n<br>\r\nT: Put a +1/+1 counter on Mikaeus.\r\n<br>\r\nT, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.",
+        "typeLine": "Legendary Creature — Human Cleric",
+        "convertedCost": "1",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "0",
+        "toughnessNumber": "0",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Steven Belledin",
+        "customAttributes": {
+          "description": "Mikaeus, the Lunarch enters the battlefield with X +1/+1 counters on it.\r\n<br>\r\nT: Put a +1/+1 counter on Mikaeus.\r\n<br>\r\nT, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.",
+          "powerNumber": "0",
+          "color": [
+            "White"
+          ],
+          "fullType": "Legendary Creature — Human Cleric",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "6",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "P",
+          "power": "0",
+          "toughnessNumber": "0",
+          "toughness": "0"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "6",
+          "Card Type": "Legendary Creature — Human Cleric",
+          "P / T": "0 / 0",
+          "Description": "Mikaeus, the Lunarch enters the battlefield with X +1/+1 counters on it.\r\n<br>\r\nT: Put a +1/+1 counter on Mikaeus.\r\n<br>\r\nT, Remove a +1/+1 counter from Mikaeus: Put a +1/+1 counter on each other creature you control.",
+          "Artist": "Steven Belledin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48154,
+      "name": "Omnath, Locus of Mana",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "7",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48154_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 4.8,
+          "marketPrice": 3.45,
+          "tcgplayerSkuIds": [
+            777815
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.8,
+          "marketPrice": 2.99,
+          "tcgplayerSkuIds": [
+            817737
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.8,
+          "marketPrice": 5.5,
+          "tcgplayerSkuIds": [
+            837698
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.8,
+          "marketPrice": 4.59,
+          "tcgplayerSkuIds": [
+            797776
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 4.8,
+          "marketPrice": 7.42,
+          "tcgplayerSkuIds": [
+            477562
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777815,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817737,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837698,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797776,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477562,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Green mana doesn't empty from your mana pool as steps and phases end.\r\n<br>\r\nOmnath, Locus of Mana gets +1/+1 for each green mana in your mana pool.",
+        "flavorText": "<em>It gathers against the coming storm.</em>",
+        "typeLine": "Legendary Creature — Elemental",
+        "convertedCost": "3",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Mike Bierek",
+        "customAttributes": {
+          "description": "Green mana doesn't empty from your mana pool as steps and phases end.\r\n<br>\r\nOmnath, Locus of Mana gets +1/+1 for each green mana in your mana pool.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Legendary Creature — Elemental",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "7",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>It gathers against the coming storm.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "7",
+          "Card Type": "Legendary Creature — Elemental",
+          "P / T": "1 / 1",
+          "Description": "Green mana doesn't empty from your mana pool as steps and phases end.\r\n<br>\r\nOmnath, Locus of Mana gets +1/+1 for each green mana in your mana pool.",
+          "Flavor": "<em>It gathers against the coming storm.</em>",
+          "Artist": "Mike Bierek"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48155,
+      "name": "Oona, Queen of the Fae",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "8",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48155_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 3.2,
+          "marketPrice": 3.51,
+          "tcgplayerSkuIds": [
+            777816
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.2,
+          "marketPrice": 2.61,
+          "tcgplayerSkuIds": [
+            817738
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.2,
+          "marketPrice": 4.72,
+          "tcgplayerSkuIds": [
+            837699
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.2,
+          "marketPrice": 3.44,
+          "tcgplayerSkuIds": [
+            797777
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.2,
+          "marketPrice": 5.3,
+          "tcgplayerSkuIds": [
+            477574
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777816,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817738,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837699,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797777,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477574,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nX(U/B): Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, put a 1/1 blue and black Faerie Rogue creature token with flying onto the battlefield.",
+        "typeLine": "Legendary Creature — Faerie Wizard",
+        "convertedCost": "6",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Black",
+          "Blue"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Adam Rex",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nX(U/B): Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, put a 1/1 blue and black Faerie Rogue creature token with flying onto the battlefield.",
+          "powerNumber": "5",
+          "color": [
+            "Black",
+            "Blue"
+          ],
+          "fullType": "Legendary Creature — Faerie Wizard",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "8",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "5",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "8",
+          "Card Type": "Legendary Creature — Faerie Wizard",
+          "P / T": "5 / 5",
+          "Description": "Flying\r\n<br>\r\nX(U/B): Choose a color. Target opponent exiles the top X cards of his or her library. For each card of the chosen color exiled this way, put a 1/1 blue and black Faerie Rogue creature token with flying onto the battlefield.",
+          "Artist": "Adam Rex"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 48149,
+      "name": "Progenitus",
+      "productLineId": 1,
+      "setId": 49,
+      "collectorNumber": "9",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/48149_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 4,
+          "marketPrice": 2,
+          "tcgplayerSkuIds": [
+            777810
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4,
+          "marketPrice": 4.99,
+          "tcgplayerSkuIds": [
+            817732
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4,
+          "marketPrice": 5.72,
+          "tcgplayerSkuIds": [
+            837693
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4,
+          "marketPrice": 3.93,
+          "tcgplayerSkuIds": [
+            797771
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 4,
+          "marketPrice": 6.79,
+          "tcgplayerSkuIds": [
+            477573
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777810,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817732,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837693,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797771,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 477573,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Protection from everything\r\n<br>\r\nIf Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.",
+        "flavorText": "<em>The Soul of the World has returned.</em>",
+        "typeLine": "Legendary Creature — Hydra Avatar",
+        "convertedCost": "10",
+        "power": "10",
+        "powerNumber": "10",
+        "toughness": "10",
+        "toughnessNumber": "10",
+        "colors": [
+          "Black",
+          "Blue",
+          "Green",
+          "Red",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Mike Bierek",
+        "customAttributes": {
+          "description": "Protection from everything\r\n<br>\r\nIf Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.",
+          "powerNumber": "10",
+          "color": [
+            "Black",
+            "Blue",
+            "Green",
+            "Red",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Hydra Avatar",
+          "releaseDate": "2011-08-26T00:00:00Z",
+          "number": "9",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "10",
+          "rarityDbName": "P",
+          "power": "10",
+          "flavorText": "<em>The Soul of the World has returned.</em>",
+          "toughnessNumber": "10",
+          "toughness": "10"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "9",
+          "Card Type": "Legendary Creature — Hydra Avatar",
+          "P / T": "10 / 10",
+          "Description": "Protection from everything\r\n<br>\r\nIf Progenitus would be put into a graveyard from anywhere, reveal Progenitus and shuffle it into its owner's library instead.",
+          "Flavor": "<em>The Soul of the World has returned.</em>",
+          "Artist": "Mike Bierek"
+        }
+      }
+    }
+  ]
+}

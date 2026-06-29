@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:42Z",
+  "tcgplayerProductId": 36762,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Masticore",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 21.32,
+    "customAttributes": {
+      "formats": null,
+      "description": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.\r\n<br>\r\n2: Masticore deals 1 damage to target creature. \r\n<br>\r\n2: Regenerate Masticore.",
+      "powerNumber": "4",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Masticore",
+      "releaseDate": "2010-08-27T00:00:00Z",
+      "number": "7",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "M",
+      "power": "4",
+      "flavorText": "",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 17.44,
+    "productName": "Masticore",
+    "setId": 50.0,
+    "setCode": "V10",
+    "productId": 36762.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "From the Vault: Relics",
+    "sellers": 34.0,
+    "foilOnly": true,
+    "setUrlName": "From the Vault Relics",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 40.0,
+    "lowestPrice": 11.7,
+    "medianPrice": 23.93,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "7",
+      "Card Type": "Artifact Creature — Masticore",
+      "P / T": "4 / 4",
+      "Description": "At the beginning of your upkeep, sacrifice Masticore unless you discard a card.\r\n<br>\r\n2: Masticore deals 1 damage to target creature. \r\n<br>\r\n2: Regenerate Masticore.",
+      "Artist": "Steven Belledin"
+    },
+    "skus": [
+      {
+        "sku": 400057,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837712,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797790,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817751,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777829,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

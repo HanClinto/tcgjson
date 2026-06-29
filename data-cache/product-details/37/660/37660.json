@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:57Z",
+  "tcgplayerProductId": 37660,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Forest 28",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.12,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Forest",
+      "releaseDate": "2009-10-30T00:00:00Z",
+      "number": "28",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.08,
+    "productName": "Forest (28)",
+    "setId": 34.0,
+    "setCode": "DDD",
+    "productId": 37660.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Duel Decks: Garruk vs. Liliana",
+    "sellers": 56.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Garruk vs Liliana",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 70.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.22,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "28",
+      "Card Type": "Basic Land — Forest",
+      "Artist": "Rob Alexander"
+    },
+    "skus": [
+      {
+        "sku": 397343,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405753,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403343,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404548,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402138,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

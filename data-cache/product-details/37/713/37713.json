@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:29:51Z",
+  "tcgplayerProductId": 37713,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Elvish Harbinger",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 5.12,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Elvish Harbinger comes into play, you may search your library for an Elf card, reveal it, then shuffle your library and put that card on top of it.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+      "powerNumber": "1",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Elf Druid",
+      "releaseDate": "2007-11-16T00:00:00Z",
+      "number": "4",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 2.05,
+    "productName": "Elvish Harbinger",
+    "setId": 33.0,
+    "setCode": "EVG",
+    "productId": 37713.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Duel Decks: Elves vs. Goblins",
+    "sellers": 31.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Elves vs Goblins",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 37.0,
+    "lowestPrice": 2.05,
+    "medianPrice": 11.99,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "4",
+      "Card Type": "Creature — Elf Druid",
+      "P / T": "1 / 2",
+      "Description": "When Elvish Harbinger comes into play, you may search your library for an Elf card, reveal it, then shuffle your library and put that card on top of it.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+      "Artist": "Larry MacDougall"
+    },
+    "skus": [
+      {
+        "sku": 396885,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405688,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403278,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404483,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402073,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

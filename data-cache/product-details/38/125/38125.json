@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:53Z",
+  "tcgplayerProductId": 38125,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lobotomy",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 1.06,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target player reveals his or her hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and remove them from the game. Then that player shuffles his or her library.",
+      "powerNumber": null,
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": "4",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.5,
+    "productName": "Lobotomy",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 38125.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "FNM Promos",
+    "sellers": 63.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 80.0,
+    "lowestPrice": 0.3,
+    "medianPrice": 1.03,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "4",
+      "Card Type": "Sorcery",
+      "Description": "Target player reveals his or her hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and remove them from the game. Then that player shuffles his or her library.",
+      "Artist": "Thomas M. Baxa"
+    },
+    "skus": [
+      {
+        "sku": 407809,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 837212,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 797290,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 817251,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 777329,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

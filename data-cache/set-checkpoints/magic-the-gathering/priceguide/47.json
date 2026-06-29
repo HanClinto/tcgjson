@@ -1,0 +1,1966 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:35Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 47,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 47,
+    "name": "From the Vault: Dragons",
+    "urlName": "from-the-vault-dragons",
+    "abbreviation": "DRB",
+    "releaseDate": "2008-08-29T00:00:00",
+    "isSupplemental": true,
+    "productCount": 15,
+    "priceGuideRowCount": 61,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 15,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 36771,
+      "name": "Bladewing the Risen",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "1",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36771_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 9.99,
+          "marketPrice": 11.91,
+          "tcgplayerSkuIds": [
+            837661
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 9.99,
+          "marketPrice": 9.95,
+          "tcgplayerSkuIds": [
+            797739
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 9.99,
+          "marketPrice": 12.35,
+          "tcgplayerSkuIds": [
+            400325
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777778,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817700,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837661,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797739,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400325,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nWhen Bladewing the Risen comes into play, you may return target Dragon permanent card from your graveyard to play. \r\n<br>\r\nBR: Dragon creatures get +1/+1 until end of turn.",
+        "typeLine": "Legendary Creature — Zombie Dragon",
+        "convertedCost": "7",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Black",
+          "Red"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Kev Walker",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nWhen Bladewing the Risen comes into play, you may return target Dragon permanent card from your graveyard to play. \r\n<br>\r\nBR: Dragon creatures get +1/+1 until end of turn.",
+          "powerNumber": "4",
+          "color": [
+            "Black",
+            "Red"
+          ],
+          "fullType": "Legendary Creature — Zombie Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "R",
+          "power": "4",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "1",
+          "Card Type": "Legendary Creature — Zombie Dragon",
+          "P / T": "4 / 4",
+          "Description": "Flying\r\n<br>\r\nWhen Bladewing the Risen comes into play, you may return target Dragon permanent card from your graveyard to play. \r\n<br>\r\nBR: Dragon creatures get +1/+1 until end of turn.",
+          "Artist": "Kev Walker"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36780,
+      "name": "Nicol Bolas",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "10",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36780_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8.44,
+          "marketPrice": 6.15,
+          "tcgplayerSkuIds": [
+            817709
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8.44,
+          "marketPrice": 8.67,
+          "tcgplayerSkuIds": [
+            837670
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8.44,
+          "marketPrice": 7.83,
+          "tcgplayerSkuIds": [
+            797748
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 8.44,
+          "marketPrice": 10.21,
+          "tcgplayerSkuIds": [
+            399284
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777787,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817709,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837670,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797748,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399284,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay UBR. \r\n<br>Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.",
+        "flavorText": "<em>Dominaria's most ancient evil.</em>",
+        "typeLine": "Legendary Creature — Elder Dragon",
+        "convertedCost": "8",
+        "power": "7",
+        "powerNumber": "7",
+        "toughness": "7",
+        "toughnessNumber": "7",
+        "colors": [
+          "Black",
+          "Blue",
+          "Red"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "D. Alexander Gregory",
+        "customAttributes": {
+          "description": "Flying\r\n<br>At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay UBR. \r\n<br>Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.",
+          "powerNumber": "7",
+          "color": [
+            "Black",
+            "Blue",
+            "Red"
+          ],
+          "fullType": "Legendary Creature — Elder Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "10",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "8",
+          "rarityDbName": "R",
+          "power": "7",
+          "flavorText": "<em>Dominaria's most ancient evil.</em>",
+          "toughnessNumber": "7",
+          "toughness": "7"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "10",
+          "Card Type": "Legendary Creature — Elder Dragon",
+          "P / T": "7 / 7",
+          "Description": "Flying\r\n<br>At the beginning of your upkeep, sacrifice Nicol Bolas unless you pay UBR. \r\n<br>Whenever Nicol Bolas deals damage to an opponent, that player discards his or her hand.",
+          "Flavor": "<em>Dominaria's most ancient evil.</em>",
+          "Artist": "D. Alexander Gregory"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36781,
+      "name": "Niv-Mizzet, the Firemind",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "11",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36781_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 5.66,
+          "marketPrice": 5.27,
+          "tcgplayerSkuIds": [
+            777788
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.66,
+          "marketPrice": 5.25,
+          "tcgplayerSkuIds": [
+            817710
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.66,
+          "marketPrice": 7.35,
+          "tcgplayerSkuIds": [
+            837671
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.66,
+          "marketPrice": 4.62,
+          "tcgplayerSkuIds": [
+            797749
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 5.66,
+          "marketPrice": 9.65,
+          "tcgplayerSkuIds": [
+            399677
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777788,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817710,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837671,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797749,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399677,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player. \r\n<br>T: Draw a card.",
+        "flavorText": "<em>As brilliant as a cut diamond, and with just as cruel an edge.</em>",
+        "typeLine": "Legendary Creature — Dragon Wizard",
+        "convertedCost": "6",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Blue",
+          "Red"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Todd Lockwood",
+        "customAttributes": {
+          "description": "Flying\r\n<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player. \r\n<br>T: Draw a card.",
+          "powerNumber": "4",
+          "color": [
+            "Blue",
+            "Red"
+          ],
+          "fullType": "Legendary Creature — Dragon Wizard",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "11",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "R",
+          "power": "4",
+          "flavorText": "<em>As brilliant as a cut diamond, and with just as cruel an edge.</em>",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "11",
+          "Card Type": "Legendary Creature — Dragon Wizard",
+          "P / T": "4 / 4",
+          "Description": "Flying\r\n<br>Whenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player. \r\n<br>T: Draw a card.",
+          "Flavor": "<em>As brilliant as a cut diamond, and with just as cruel an edge.</em>",
+          "Artist": "Todd Lockwood"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36782,
+      "name": "Rith, the Awakener",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "12",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36782_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.53,
+          "marketPrice": 4.26,
+          "tcgplayerSkuIds": [
+            837672
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.53,
+          "marketPrice": 4.53,
+          "tcgplayerSkuIds": [
+            797750
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.53,
+          "marketPrice": 5.91,
+          "tcgplayerSkuIds": [
+            400155
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777789,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817711,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837672,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797750,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400155,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nWhenever Rith, the Awakener deals combat damage to a player, you may pay 2G. If you do, choose a color. Put a 1/1 green Saproling creature token into play for each permanent of that color.",
+        "typeLine": "Legendary Creature — Dragon",
+        "convertedCost": "6",
+        "power": "6",
+        "powerNumber": "6",
+        "toughness": "6",
+        "toughnessNumber": "6",
+        "colors": [
+          "Green",
+          "Red",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Todd Lockwood",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nWhenever Rith, the Awakener deals combat damage to a player, you may pay 2G. If you do, choose a color. Put a 1/1 green Saproling creature token into play for each permanent of that color.",
+          "powerNumber": "6",
+          "color": [
+            "Green",
+            "Red",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "12",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "R",
+          "power": "6",
+          "toughnessNumber": "6",
+          "toughness": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "12",
+          "Card Type": "Legendary Creature — Dragon",
+          "P / T": "6 / 6",
+          "Description": "Flying\r\n<br>\r\nWhenever Rith, the Awakener deals combat damage to a player, you may pay 2G. If you do, choose a color. Put a 1/1 green Saproling creature token into play for each permanent of that color.",
+          "Artist": "Todd Lockwood"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36783,
+      "name": "Shivan Dragon",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "13",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36783_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 0.75,
+          "tcgplayerSkuIds": [
+            777790
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 1.16,
+          "tcgplayerSkuIds": [
+            817712
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 1.93,
+          "tcgplayerSkuIds": [
+            837673
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 4.14,
+          "tcgplayerSkuIds": [
+            797751
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 4.16,
+          "tcgplayerSkuIds": [
+            399343
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777790,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817712,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837673,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797751,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399343,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>R: Shivan Dragon gets +1/+0 until end of turn.",
+        "flavorText": "<em>The undisputed master of the mountains of Shiv.</em>",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "6",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Justin Sweet",
+        "customAttributes": {
+          "description": "Flying\r\n<br>R: Shivan Dragon gets +1/+0 until end of turn.",
+          "powerNumber": "5",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "13",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "R",
+          "power": "5",
+          "flavorText": "<em>The undisputed master of the mountains of Shiv.</em>",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "13",
+          "Card Type": "Creature — Dragon",
+          "P / T": "5 / 5",
+          "Description": "Flying\r\n<br>R: Shivan Dragon gets +1/+0 until end of turn.",
+          "Flavor": "<em>The undisputed master of the mountains of Shiv.</em>",
+          "Artist": "Justin Sweet"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36784,
+      "name": "Thunder Dragon",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "14",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36784_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 3.48,
+          "marketPrice": 3.49,
+          "tcgplayerSkuIds": [
+            777791
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.48,
+          "marketPrice": 4.19,
+          "tcgplayerSkuIds": [
+            817713
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.48,
+          "marketPrice": 4.85,
+          "tcgplayerSkuIds": [
+            837674
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.48,
+          "marketPrice": 3.37,
+          "tcgplayerSkuIds": [
+            797752
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.48,
+          "marketPrice": 4.83,
+          "tcgplayerSkuIds": [
+            399809
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777791,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817713,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837674,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797752,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399809,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nWhen Thunder Dragon comes into play, it deals 3 damage to each creature without flying.",
+        "flavorText": "<em>Sometimes primitive cultures attributed natural phenomena to monsters. Sometimes they were right.</em>",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "7",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Chris Rahn",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nWhen Thunder Dragon comes into play, it deals 3 damage to each creature without flying.",
+          "powerNumber": "5",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "14",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "R",
+          "power": "5",
+          "flavorText": "<em>Sometimes primitive cultures attributed natural phenomena to monsters. Sometimes they were right.</em>",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "14",
+          "Card Type": "Creature — Dragon",
+          "P / T": "5 / 5",
+          "Description": "Flying\r\n<br>\r\nWhen Thunder Dragon comes into play, it deals 3 damage to each creature without flying.",
+          "Flavor": "<em>Sometimes primitive cultures attributed natural phenomena to monsters. Sometimes they were right.</em>",
+          "Artist": "Chris Rahn"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36785,
+      "name": "Two-Headed Dragon",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "15",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36785_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.98,
+          "marketPrice": 2.68,
+          "tcgplayerSkuIds": [
+            817714
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.98,
+          "marketPrice": 4.89,
+          "tcgplayerSkuIds": [
+            837675
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.98,
+          "marketPrice": 2.84,
+          "tcgplayerSkuIds": [
+            797753
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.98,
+          "marketPrice": 5.77,
+          "tcgplayerSkuIds": [
+            400069
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777792,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817714,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837675,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797753,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400069,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\n1R: Two-Headed Dragon gets +2/+0 until end of turn. \r\n<br>\r\nTwo-Headed Dragon can't be blocked except by two or more creatures. \r\n<br>\r\nTwo-Headed Dragon may block an additional creature.",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "6",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Sam Wood",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\n1R: Two-Headed Dragon gets +2/+0 until end of turn. \r\n<br>\r\nTwo-Headed Dragon can't be blocked except by two or more creatures. \r\n<br>\r\nTwo-Headed Dragon may block an additional creature.",
+          "powerNumber": "4",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "15",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "R",
+          "power": "4",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "15",
+          "Card Type": "Creature — Dragon",
+          "P / T": "4 / 4",
+          "Description": "Flying\r\n<br>\r\n1R: Two-Headed Dragon gets +2/+0 until end of turn. \r\n<br>\r\nTwo-Headed Dragon can't be blocked except by two or more creatures. \r\n<br>\r\nTwo-Headed Dragon may block an additional creature.",
+          "Artist": "Sam Wood"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36772,
+      "name": "Bogardan Hellkite",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "2",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36772_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.07,
+          "marketPrice": 1.8,
+          "tcgplayerSkuIds": [
+            817701
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.07,
+          "marketPrice": 1.71,
+          "tcgplayerSkuIds": [
+            837662
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.07,
+          "marketPrice": 1.64,
+          "tcgplayerSkuIds": [
+            797740
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.07,
+          "marketPrice": 1.98,
+          "tcgplayerSkuIds": [
+            399595
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777779,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817701,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837662,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797740,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399595,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flash\r\n<br>\r\nFlying \r\n<br>\r\nWhen Bogardan Hellkite comes into play, it deals 5 damage divided as you choose among any number of target creatures and/or players.",
+        "flavorText": "<em>Cleansing the world, one breath at a time.</em>",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "8",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Scott M. Fischer",
+        "customAttributes": {
+          "description": "Flash\r\n<br>\r\nFlying \r\n<br>\r\nWhen Bogardan Hellkite comes into play, it deals 5 damage divided as you choose among any number of target creatures and/or players.",
+          "powerNumber": "5",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "8",
+          "rarityDbName": "R",
+          "power": "5",
+          "flavorText": "<em>Cleansing the world, one breath at a time.</em>",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "2",
+          "Card Type": "Creature — Dragon",
+          "P / T": "5 / 5",
+          "Description": "Flash\r\n<br>\r\nFlying \r\n<br>\r\nWhen Bogardan Hellkite comes into play, it deals 5 damage divided as you choose among any number of target creatures and/or players.",
+          "Flavor": "<em>Cleansing the world, one breath at a time.</em>",
+          "Artist": "Scott M. Fischer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36773,
+      "name": "Draco",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "3",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36773_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 6.97,
+          "marketPrice": 6.97,
+          "tcgplayerSkuIds": [
+            777780
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 6.97,
+          "marketPrice": 8.1,
+          "tcgplayerSkuIds": [
+            817702
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 6.97,
+          "marketPrice": 10.11,
+          "tcgplayerSkuIds": [
+            837663
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 6.97,
+          "marketPrice": 8.97,
+          "tcgplayerSkuIds": [
+            797741
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 6.97,
+          "marketPrice": 11.56,
+          "tcgplayerSkuIds": [
+            399992
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777780,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817702,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837663,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797741,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399992,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Draco costs 2 less to play for each basic land type among lands you control.\r\n<br>\r\nFlying \r\n<br>\r\nAt the beginning of your upkeep, sacrifice Draco unless you pay 10. This cost is reduced by 2 for each basic land type among lands you control.",
+        "typeLine": "Artifact Creature — Dragon",
+        "convertedCost": "16",
+        "power": "9",
+        "powerNumber": "9",
+        "toughness": "9",
+        "toughnessNumber": "9",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact",
+          "Creature"
+        ],
+        "artist": "Sam Wood",
+        "customAttributes": {
+          "description": "Draco costs 2 less to play for each basic land type among lands you control.\r\n<br>\r\nFlying \r\n<br>\r\nAt the beginning of your upkeep, sacrifice Draco unless you pay 10. This cost is reduced by 2 for each basic land type among lands you control.",
+          "powerNumber": "9",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Artifact",
+            "Creature"
+          ],
+          "convertedCost": "16",
+          "rarityDbName": "R",
+          "power": "9",
+          "toughnessNumber": "9",
+          "toughness": "9"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "3",
+          "Card Type": "Artifact Creature — Dragon",
+          "P / T": "9 / 9",
+          "Description": "Draco costs 2 less to play for each basic land type among lands you control.\r\n<br>\r\nFlying \r\n<br>\r\nAt the beginning of your upkeep, sacrifice Draco unless you pay 10. This cost is reduced by 2 for each basic land type among lands you control.",
+          "Artist": "Sam Wood"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36774,
+      "name": "Dragon Whelp",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "4",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36774_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.52,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            837664
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.52,
+          "marketPrice": 0.52,
+          "tcgplayerSkuIds": [
+            797742
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.52,
+          "marketPrice": 0.91,
+          "tcgplayerSkuIds": [
+            399256
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777781,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817703,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837664,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797742,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399256,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nR: Dragon Whelp gets +1/+0 until end of turn. At end of turn, if this ability has been played four or more times this turn, sacrifice Dragon Whelp.",
+        "flavorText": "<em>Dragon whelps face few threats besides their own enthusiasm.</em>",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "4",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Steven Belledin",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nR: Dragon Whelp gets +1/+0 until end of turn. At end of turn, if this ability has been played four or more times this turn, sacrifice Dragon Whelp.",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "R",
+          "power": "2",
+          "flavorText": "<em>Dragon whelps face few threats besides their own enthusiasm.</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "4",
+          "Card Type": "Creature — Dragon",
+          "P / T": "2 / 3",
+          "Description": "Flying\r\n<br>\r\nR: Dragon Whelp gets +1/+0 until end of turn. At end of turn, if this ability has been played four or more times this turn, sacrifice Dragon Whelp.",
+          "Flavor": "<em>Dragon whelps face few threats besides their own enthusiasm.</em>",
+          "Artist": "Steven Belledin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36775,
+      "name": "Dragonstorm",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "5",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36775_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 10.72,
+          "marketPrice": 13.78,
+          "tcgplayerSkuIds": [
+            837665
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 10.72,
+          "marketPrice": 10.51,
+          "tcgplayerSkuIds": [
+            797743
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 10.72,
+          "marketPrice": 15.68,
+          "tcgplayerSkuIds": [
+            399652
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777782,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817704,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837665,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797743,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399652,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Search your library for a Dragon permanent card and put it into play. Then shuffle your library.\r\n<br>\r\nStorm <em>(When you play this spell, copy it for each spell played before it this turn.)</em>",
+        "flavorText": "<em>Dragons come not in packs or in herds but in storms.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "9",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Kev Walker",
+        "customAttributes": {
+          "description": "Search your library for a Dragon permanent card and put it into play. Then shuffle your library.\r\n<br>\r\nStorm <em>(When you play this spell, copy it for each spell played before it this turn.)</em>",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "9",
+          "rarityDbName": "R",
+          "flavorText": "<em>Dragons come not in packs or in herds but in storms.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "5",
+          "Card Type": "Sorcery",
+          "Description": "Search your library for a Dragon permanent card and put it into play. Then shuffle your library.\r\n<br>\r\nStorm <em>(When you play this spell, copy it for each spell played before it this turn.)</em>",
+          "Flavor": "<em>Dragons come not in packs or in herds but in storms.</em>",
+          "Artist": "Kev Walker"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36776,
+      "name": "Ebon Dragon",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "6",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36776_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 4.81,
+          "marketPrice": 5.1,
+          "tcgplayerSkuIds": [
+            777783
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.81,
+          "marketPrice": 4.81,
+          "tcgplayerSkuIds": [
+            837666
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.81,
+          "marketPrice": 5.59,
+          "tcgplayerSkuIds": [
+            797744
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 4.81,
+          "marketPrice": 7.26,
+          "tcgplayerSkuIds": [
+            399974
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777783,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817705,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837666,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797744,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399974,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nWhen Ebon Dragon comes into play, you may have target opponent discard a card.",
+        "flavorText": "<em>“The dragon wing of night o'erspreads the earth.”</em>\r\n<br>\r\n—Troilus and Cressida, <em>William Shakespeare</em>",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "7",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Donato Giancola",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nWhen Ebon Dragon comes into play, you may have target opponent discard a card.",
+          "powerNumber": "5",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "6",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "R",
+          "power": "5",
+          "flavorText": "<em>“The dragon wing of night o'erspreads the earth.”</em>\r\n<br>\r\n—Troilus and Cressida, <em>William Shakespeare</em>",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "6",
+          "Card Type": "Creature — Dragon",
+          "P / T": "5 / 4",
+          "Description": "Flying\r\n<br>\r\nWhen Ebon Dragon comes into play, you may have target opponent discard a card.",
+          "Flavor": "<em>“The dragon wing of night o'erspreads the earth.”</em>\r\n<br>\r\n—Troilus and Cressida, <em>William Shakespeare</em>",
+          "Artist": "Donato Giancola"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36777,
+      "name": "Form of the Dragon",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "7",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36777_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.77,
+          "marketPrice": 1.98,
+          "tcgplayerSkuIds": [
+            777784
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.77,
+          "marketPrice": 2.36,
+          "tcgplayerSkuIds": [
+            837667
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.77,
+          "marketPrice": 2.68,
+          "tcgplayerSkuIds": [
+            797745
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.77,
+          "marketPrice": 4.07,
+          "tcgplayerSkuIds": [
+            399158
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777784,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817706,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837667,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797745,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399158,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "At the beginning of your upkeep, Form of the Dragon deals 5 damage to target creature or player.\r\n<br>\r\nAt the end of each turn, your life total becomes 5. \r\n<br>\r\nCreatures without flying can't attack you.",
+        "typeLine": "Enchantment ",
+        "convertedCost": "7",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "artist": "Daarken",
+        "customAttributes": {
+          "description": "At the beginning of your upkeep, Form of the Dragon deals 5 damage to target creature or player.\r\n<br>\r\nAt the end of each turn, your life total becomes 5. \r\n<br>\r\nCreatures without flying can't attack you.",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Enchantment ",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "7",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "R"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "7",
+          "Card Type": "Enchantment ",
+          "Description": "At the beginning of your upkeep, Form of the Dragon deals 5 damage to target creature or player.\r\n<br>\r\nAt the end of each turn, your life total becomes 5. \r\n<br>\r\nCreatures without flying can't attack you.",
+          "Artist": "Daarken"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36778,
+      "name": "Hellkite Overlord",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "8",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36778_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.32,
+          "marketPrice": 3.57,
+          "tcgplayerSkuIds": [
+            777785
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.32,
+          "marketPrice": 1.69,
+          "tcgplayerSkuIds": [
+            837668
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.32,
+          "marketPrice": 1.54,
+          "tcgplayerSkuIds": [
+            797746
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.32,
+          "marketPrice": 3.34,
+          "tcgplayerSkuIds": [
+            399625
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777785,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817707,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837668,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797746,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399625,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying, trample, haste\r\n<br>R: Hellkite Overlord gets +1/+0 until end of turn. \r\n<br>BG: Regenerate Hellkite Overlord.",
+        "flavorText": "<em>“The dragon has no pretense of compassion, no false mask of civilization—just hunger, heat, and need.”\r\n<br>\r\n—Sarkhan Vol</em>",
+        "typeLine": "Creature — Dragon",
+        "convertedCost": "8",
+        "power": "8",
+        "powerNumber": "8",
+        "toughness": "8",
+        "toughnessNumber": "8",
+        "colors": [
+          "Black",
+          "Green",
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Justin Sweet",
+        "customAttributes": {
+          "description": "Flying, trample, haste\r\n<br>R: Hellkite Overlord gets +1/+0 until end of turn. \r\n<br>BG: Regenerate Hellkite Overlord.",
+          "powerNumber": "8",
+          "color": [
+            "Black",
+            "Green",
+            "Red"
+          ],
+          "fullType": "Creature — Dragon",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "8",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "8",
+          "rarityDbName": "R",
+          "power": "8",
+          "flavorText": "<em>“The dragon has no pretense of compassion, no false mask of civilization—just hunger, heat, and need.”\r\n<br>\r\n—Sarkhan Vol</em>",
+          "toughnessNumber": "8",
+          "toughness": "8"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "8",
+          "Card Type": "Creature — Dragon",
+          "P / T": "8 / 8",
+          "Description": "Flying, trample, haste\r\n<br>R: Hellkite Overlord gets +1/+0 until end of turn. \r\n<br>BG: Regenerate Hellkite Overlord.",
+          "Flavor": "<em>“The dragon has no pretense of compassion, no false mask of civilization—just hunger, heat, and need.”\r\n<br>\r\n—Sarkhan Vol</em>",
+          "Artist": "Justin Sweet"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 36779,
+      "name": "Kokusho, the Evening Star",
+      "productLineId": 1,
+      "setId": 47,
+      "collectorNumber": "9",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/36779_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 31.54,
+          "marketPrice": 21.34,
+          "tcgplayerSkuIds": [
+            777786
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 31.54,
+          "marketPrice": 18.59,
+          "tcgplayerSkuIds": [
+            817708
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 31.54,
+          "marketPrice": 31.49,
+          "tcgplayerSkuIds": [
+            837669
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 31.54,
+          "marketPrice": 29.24,
+          "tcgplayerSkuIds": [
+            797747
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 31.54,
+          "marketPrice": 34.18,
+          "tcgplayerSkuIds": [
+            400174
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 777786,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 817708,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 837669,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 797747,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400174,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>When Kokusho, the Evening Star is put into a graveyard from play, each opponent loses 5 life. You gain life equal to the life lost this way.",
+        "flavorText": "<em>The fall of the evening star never heralds a gentle dawn.</em>",
+        "typeLine": "Legendary Creature — Dragon Spirit",
+        "convertedCost": "6",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Tsutomu Kawade",
+        "customAttributes": {
+          "description": "Flying\r\n<br>When Kokusho, the Evening Star is put into a graveyard from play, each opponent loses 5 life. You gain life equal to the life lost this way.",
+          "powerNumber": "5",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Legendary Creature — Dragon Spirit",
+          "releaseDate": "2008-08-29T00:00:00Z",
+          "number": "9",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "R",
+          "power": "5",
+          "flavorText": "<em>The fall of the evening star never heralds a gentle dawn.</em>",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "9",
+          "Card Type": "Legendary Creature — Dragon Spirit",
+          "P / T": "5 / 5",
+          "Description": "Flying\r\n<br>When Kokusho, the Evening Star is put into a graveyard from play, each opponent loses 5 life. You gain life equal to the life lost this way.",
+          "Flavor": "<em>The fall of the evening star never heralds a gentle dawn.</em>",
+          "Artist": "Tsutomu Kawade"
+        }
+      }
+    }
+  ]
+}

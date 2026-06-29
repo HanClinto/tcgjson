@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:32:45Z",
+  "tcgplayerProductId": 149468,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Dinosaur Treasure Double Sided Token",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 0.59,
+    "customAttributes": {
+      "formats": null,
+      "description": "Trample\r\n<br>//<br>\r\n<strong>Treasure</strong>\r\n<br>\r\nT, Sacrifice this artifact: Add one mana of any color to your mana pool.",
+      "powerNumber": "3",
+      "color": [
+        "Green",
+        "Colorless"
+      ],
+      "fullType": "Token Creature — Dinosaur // Token Artifact — Treasure",
+      "releaseDate": null,
+      "number": "11",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "P",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.3,
+    "productName": "Dinosaur // Treasure Double-Sided Token",
+    "setId": 45.0,
+    "setCode": "FNM",
+    "productId": 149468.0,
+    "imageCount": 2.0,
+    "score": 1.9542425,
+    "setName": "FNM Promos",
+    "sellers": 90.0,
+    "foilOnly": true,
+    "setUrlName": "FNM Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 102.0,
+    "lowestPrice": 0.3,
+    "medianPrice": 0.665,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "11",
+      "Card Type": "Token Creature — Dinosaur // Token Artifact — Treasure",
+      "P / T": "3 / 3",
+      "Description": "Trample\r\n<br>//<br>\r\n<strong>Treasure</strong>\r\n<br>\r\nT, Sacrifice this artifact: Add one mana of any color to your mana pool.",
+      "Artist": "Filip Burburan // Florian de Gesincourt"
+    },
+    "skus": [
+      {
+        "sku": 3529362,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3529363,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3529364,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3529365,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3529366,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

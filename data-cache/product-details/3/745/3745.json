@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:31:38Z",
+  "tcgplayerProductId": 3745,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Spore Cloud Van Camp",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.26,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap all blocking creatures. No creatures deal damage in combat this turn. Neither attacking nor blocking creatures untap as normal during their controllers’ next untap phase.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "1994-11-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Spore Cloud (Van Camp)",
+    "setId": 41.0,
+    "setCode": "FEM",
+    "productId": 3745.0,
+    "imageCount": 1.0,
+    "score": 2.1875207,
+    "setName": "Fallen Empires",
+    "sellers": 327.0,
+    "foilOnly": false,
+    "setUrlName": "Fallen Empires",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 435.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.28,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant",
+      "Description": "Tap all blocking creatures. No creatures deal damage in combat this turn. Neither attacking nor blocking creatures untap as normal during their controllers’ next untap phase.",
+      "Artist": "Susan Van Camp"
+    },
+    "skus": [
+      {
+        "sku": 17713,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366659,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 335143,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350901,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319385,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

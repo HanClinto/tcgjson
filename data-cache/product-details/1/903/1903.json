@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:20Z",
+  "tcgplayerProductId": 1903,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Reverse Damage",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.53,
+    "customAttributes": {
+      "formats": null,
+      "description": "All damage dealt to you so far this turn by one source is retroactively added to your life total instead of subtracted. Further damage this turn is treated normally.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.18,
+    "productName": "Reverse Damage",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1903.0,
+    "imageCount": 1.0,
+    "score": 2.230449,
+    "setName": "Fourth Edition",
+    "sellers": 218.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 313.0,
+    "lowestPrice": 0.13,
+    "medianPrice": 0.59,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Instant ",
+      "Description": "All damage dealt to you so far this turn by one source is retroactively added to your life total instead of subtracted. Further damage this turn is treated normally.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 16026,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364972,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333456,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349214,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317698,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

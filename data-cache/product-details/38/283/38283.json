@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:40:10Z",
+  "tcgplayerProductId": 38283,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Yawgmoths Will",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 795.66,
+    "customAttributes": {
+      "formats": null,
+      "description": "Until end of turn, you may play cards in your graveyard. If a card would be put into your graveyard this turn, remove that card from the game instead.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": "3",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 1209.99,
+    "productName": "Yawgmoth's Will",
+    "setId": 62.0,
+    "setCode": "JDG",
+    "productId": 38283.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Judge Promos",
+    "sellers": 5.0,
+    "foilOnly": true,
+    "setUrlName": "Judge Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 11.0,
+    "lowestPrice": 1209.99,
+    "medianPrice": 1299.99,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "3",
+      "Card Type": "Sorcery",
+      "Description": "Until end of turn, you may play cards in your graveyard. If a card would be put into your graveyard this turn, remove that card from the game instead.",
+      "Artist": "Ron Spencer"
+    },
+    "skus": [
+      {
+        "sku": 407422,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 839338,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 799416,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 819377,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 779455,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:33:19Z",
+  "tcgplayerProductId": 1880,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Plague Rats",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.15,
+    "customAttributes": {
+      "formats": null,
+      "description": "Plague Rats has power and toughness each equal to the number of Plague Rats in play, no matter who controls them. For example, if there are two Plague Rats in play, each has power and toughness 2/2.",
+      "powerNumber": "*",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Summon Rats",
+      "releaseDate": "1995-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "*",
+      "flavorText": "",
+      "toughnessNumber": "*",
+      "toughness": "*"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Plague Rats",
+    "setId": 46.0,
+    "setCode": "4ED",
+    "productId": 1880.0,
+    "imageCount": 1.0,
+    "score": 3.0996807,
+    "setName": "Fourth Edition",
+    "sellers": 375.0,
+    "foilOnly": false,
+    "setUrlName": "Fourth Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 535.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Summon Rats",
+      "P / T": "* / *",
+      "Description": "Plague Rats has power and toughness each equal to the number of Plague Rats in play, no matter who controls them. For example, if there are two Plague Rats in play, each has power and toughness 2/2.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 16005,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364951,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333435,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 349193,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317677,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}
