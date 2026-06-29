@@ -1,0 +1,44 @@
+name: Weekly Bulk Catalog Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      with_skus:
+        description: Include SKU-level product details
+        required: false
+        default: 'false'
+  schedule:
+    - cron: '17 10 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install
+        run: python -m pip install -e .
+      - name: Build bulk JSON
+        run: |
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            tcgjson build --output release --with-skus
+          else
+            tcgjson build --output release
+          fi
+      - name: Validate release files
+        run: python -m tcgjson.validate release
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: weekly-${{ github.run_id }}
+          name: Weekly catalog ${{ github.run_id }}
+          body: |
+            Weekly tcgjson catalog export.
+
+            Start with `bulk-data.json` to discover generated files, sizes, and hashes.
+          files: release/*.json
