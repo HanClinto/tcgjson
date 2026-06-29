@@ -1,4 +1,4 @@
-from tcgjson.games import default_enabled_product_line_names, discover_game_support, game_support_markdown
+from tcgjson.games import default_enabled_product_line_ids, default_enabled_product_line_names, discover_game_support, game_support_markdown
 
 
 class FakeGamesClient:
@@ -19,8 +19,10 @@ class FakeGamesClient:
 
 
 def test_default_enabled_product_lines_include_popular_and_manual() -> None:
+    ids = default_enabled_product_line_ids(FakeGamesClient())
     names = default_enabled_product_line_names(FakeGamesClient())
 
+    assert ids == [1, 89, 81]
     assert names == [
         "Popular Game",
         "Riftbound: League of Legends Trading Card Game",

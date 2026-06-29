@@ -9,4 +9,7 @@ dist/
 build/
 *.egg-info/
 catalog-cache/
+.tcgjson-cache/
 release/
+release.*/
+release_old/

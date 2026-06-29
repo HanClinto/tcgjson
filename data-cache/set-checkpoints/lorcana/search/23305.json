@@ -1,0 +1,621 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T20:17:37Z",
+  "source": "search",
+  "productLineId": 71,
+  "slug": "lorcana",
+  "tcgplayerSetId": 23305,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 23305,
+    "name": "Disney100 Promos",
+    "urlName": "disney100-promos",
+    "abbreviation": "D100",
+    "releaseDate": "2023-12-01T00:00:00",
+    "isSupplemental": false,
+    "productCount": 6,
+    "priceGuideRowCount": 0,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 6,
+    "source": "search"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 516448,
+      "name": "Mickey Mouse - Friendly Face (Alternate Art)",
+      "productLineId": 71,
+      "setId": 23305,
+      "collectorNumber": "18",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/516448_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Holofoil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "",
+          "printing": "",
+          "lowPrice": 48.08,
+          "marketPrice": 53.52,
+          "medianPrice": null
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7430850,
+          "condition": "Damaged",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430849,
+          "condition": "Heavily Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430847,
+          "condition": "Lightly Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430848,
+          "condition": "Moderately Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430846,
+          "condition": "Near Mint",
+          "printing": "Holofoil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<strong>[Glad You're Here!]</strong> Whenever this character quests, you pay 3 Ink less for the next character you play this turn.",
+        "flavorText": "<em>\"Come on in—there's lots to explore.\"</em>",
+        "cardTypes": [
+          "Character"
+        ],
+        "artist": "Mark Henn",
+        "customAttributes": {
+          "description": "<strong>[Glad You're Here!]</strong> Whenever this character quests, you pay 3 Ink less for the next character you play this turn.",
+          "loreValue": "3",
+          "characterVersion": "Friendly Face",
+          "releaseDate": "2023-12-01T00:00:00Z",
+          "number": "18",
+          "property": "Standard Characters",
+          "cardType": [
+            "Character"
+          ],
+          "classification": "Storyborn;Hero",
+          "inkType": "Amber",
+          "willpower": "6",
+          "rarityDbName": "Promo",
+          "strength": "1",
+          "flavorText": "<em>\"Come on in—there's lots to explore.\"</em>",
+          "inkwellIcononCard": "Yes",
+          "promoType": "Disney100",
+          "costInk": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "Promo",
+          "Number": "18",
+          "Description": "<strong>[Glad You're Here!]</strong> Whenever this character quests, you pay 3 Ink less for the next character you play this turn.",
+          "Property": "Standard Characters",
+          "Cost (Ink)": "6",
+          "Character Version": "Friendly Face",
+          "Inkwell Icon on Card": "Yes",
+          "Ink Type": "Amber",
+          "Card Type": "Character",
+          "Classification": "Storyborn;Hero",
+          "Strength": "1",
+          "Willpower": "6",
+          "Lore Value": "3",
+          "Flavor Text": "<em>\"Come on in—there's lots to explore.\"</em>",
+          "Promo Type": "Disney100",
+          "Artist": "Mark Henn"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 516452,
+      "name": "Elsa - Gloves Off (Alternate Art)",
+      "productLineId": 71,
+      "setId": 23305,
+      "collectorNumber": "19",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/516452_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Holofoil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "",
+          "printing": "",
+          "lowPrice": 40.0,
+          "marketPrice": 50.69,
+          "medianPrice": null
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7430870,
+          "condition": "Damaged",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430869,
+          "condition": "Heavily Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430867,
+          "condition": "Lightly Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430868,
+          "condition": "Moderately Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430866,
+          "condition": "Near Mint",
+          "printing": "Holofoil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<strong>Challenger</strong> +3 <em>(While challenging, this character gets +3 Strength.)</em>",
+        "flavorText": "<em>The power of ice may not stop the flood, but it will help protect Lorcana.</em>",
+        "cardTypes": [
+          "Character"
+        ],
+        "artist": "Brittney Lee",
+        "customAttributes": {
+          "description": "<strong>Challenger</strong> +3 <em>(While challenging, this character gets +3 Strength.)</em>",
+          "loreValue": "1",
+          "characterVersion": "Gloves Off",
+          "releaseDate": "2023-12-01T00:00:00Z",
+          "number": "19",
+          "property": "Frozen",
+          "cardType": [
+            "Character"
+          ],
+          "classification": "Storyborn;Hero;Queen;Sorcerer",
+          "inkType": "Amethyst",
+          "willpower": "4",
+          "rarityDbName": "Promo",
+          "strength": "3",
+          "flavorText": "<em>The power of ice may not stop the flood, but it will help protect Lorcana.</em>",
+          "inkwellIcononCard": "Yes",
+          "promoType": "Disney100",
+          "costInk": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "Promo",
+          "Number": "19",
+          "Description": "<strong>Challenger</strong> +3 <em>(While challenging, this character gets +3 Strength.)</em>",
+          "Property": "Frozen",
+          "Cost (Ink)": "4",
+          "Character Version": "Gloves Off",
+          "Inkwell Icon on Card": "Yes",
+          "Ink Type": "Amethyst",
+          "Card Type": "Character",
+          "Classification": "Storyborn;Hero;Queen;Sorcerer",
+          "Strength": "3",
+          "Willpower": "4",
+          "Lore Value": "1",
+          "Flavor Text": "<em>The power of ice may not stop the flood, but it will help protect Lorcana.</em>",
+          "Promo Type": "Disney100",
+          "Artist": "Brittney Lee"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 516454,
+      "name": "Genie - Powers Unleashed (Alternate Art)",
+      "productLineId": 71,
+      "setId": 23305,
+      "collectorNumber": "20",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/516454_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Holofoil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "",
+          "printing": "",
+          "lowPrice": 15.0,
+          "marketPrice": 16.35,
+          "medianPrice": null
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7430880,
+          "condition": "Damaged",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430879,
+          "condition": "Heavily Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430877,
+          "condition": "Lightly Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430878,
+          "condition": "Moderately Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430876,
+          "condition": "Near Mint",
+          "printing": "Holofoil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<strong>Shift</strong> 6 <em>(You may pay 6 Ink to play this on top of your characters named Genie.)</em>\r\n<br><strong>Evasive</strong> <em>(Only other characters with Evasive can challenge this character.)</em>\r\n<br><strong>[Phenomenal Cosmic Power!]</strong> Whenever this character quests, you may play an action with cost 5 or less for free.",
+        "cardTypes": [
+          "Character"
+        ],
+        "artist": "Eric Goldberg",
+        "customAttributes": {
+          "description": "<strong>Shift</strong> 6 <em>(You may pay 6 Ink to play this on top of your characters named Genie.)</em>\r\n<br><strong>Evasive</strong> <em>(Only other characters with Evasive can challenge this character.)</em>\r\n<br><strong>[Phenomenal Cosmic Power!]</strong> Whenever this character quests, you may play an action with cost 5 or less for free.",
+          "loreValue": "3",
+          "characterVersion": "Powers Unleashed",
+          "releaseDate": "2023-12-01T00:00:00Z",
+          "number": "20",
+          "property": "Aladdin",
+          "cardType": [
+            "Character"
+          ],
+          "classification": "Floodborn;Hero",
+          "inkType": "Emerald",
+          "willpower": "5",
+          "rarityDbName": "Promo",
+          "strength": "3",
+          "inkwellIcononCard": "No",
+          "promoType": "Disney100",
+          "costInk": "8"
+        },
+        "formattedAttributes": {
+          "Rarity": "Promo",
+          "Number": "20",
+          "Description": "<strong>Shift</strong> 6 <em>(You may pay 6 Ink to play this on top of your characters named Genie.)</em>\r\n<br><strong>Evasive</strong> <em>(Only other characters with Evasive can challenge this character.)</em>\r\n<br><strong>[Phenomenal Cosmic Power!]</strong> Whenever this character quests, you may play an action with cost 5 or less for free.",
+          "Property": "Aladdin",
+          "Cost (Ink)": "8",
+          "Character Version": "Powers Unleashed",
+          "Inkwell Icon on Card": "No",
+          "Ink Type": "Emerald",
+          "Card Type": "Character",
+          "Classification": "Floodborn;Hero",
+          "Strength": "3",
+          "Willpower": "5",
+          "Lore Value": "3",
+          "Promo Type": "Disney100",
+          "Artist": "Eric Goldberg"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 516456,
+      "name": "Stitch - Abomination (Alternate Art)",
+      "productLineId": 71,
+      "setId": 23305,
+      "collectorNumber": "21",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/516456_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Holofoil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "",
+          "printing": "",
+          "lowPrice": 35.0,
+          "marketPrice": 41.8,
+          "medianPrice": null
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7430890,
+          "condition": "Damaged",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430889,
+          "condition": "Heavily Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430887,
+          "condition": "Lightly Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430888,
+          "condition": "Moderately Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430886,
+          "condition": "Near Mint",
+          "printing": "Holofoil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>\"His destructive programming is taking effect. He will be irresistibly drawn to large cities, where he will back up sewers, reverse street signs, and steal everyone's left shoe.\" <br>—Jumba Jookiba</em>",
+        "cardTypes": [
+          "Character"
+        ],
+        "artist": "Alex Kupershmidt",
+        "customAttributes": {
+          "loreValue": "3",
+          "characterVersion": "Abomination",
+          "releaseDate": "2023-12-01T00:00:00Z",
+          "number": "21",
+          "property": "Lilo and Stitch",
+          "cardType": [
+            "Character"
+          ],
+          "classification": "Storyborn;Hero;Alien",
+          "inkType": "Ruby",
+          "willpower": "6",
+          "rarityDbName": "Promo",
+          "strength": "4",
+          "flavorText": "<em>\"His destructive programming is taking effect. He will be irresistibly drawn to large cities, where he will back up sewers, reverse street signs, and steal everyone's left shoe.\" <br>—Jumba Jookiba</em>",
+          "inkwellIcononCard": "Yes",
+          "promoType": "Disney100",
+          "costInk": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "Promo",
+          "Number": "21",
+          "Property": "Lilo and Stitch",
+          "Cost (Ink)": "6",
+          "Character Version": "Abomination",
+          "Inkwell Icon on Card": "Yes",
+          "Ink Type": "Ruby",
+          "Card Type": "Character",
+          "Classification": "Storyborn;Hero;Alien",
+          "Strength": "4",
+          "Willpower": "6",
+          "Lore Value": "3",
+          "Flavor Text": "<em>\"His destructive programming is taking effect. He will be irresistibly drawn to large cities, where he will back up sewers, reverse street signs, and steal everyone's left shoe.\" <br>—Jumba Jookiba</em>",
+          "Promo Type": "Disney100",
+          "Artist": "Alex Kupershmidt"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 516459,
+      "name": "Maleficent - Uninvited (Alternate Art)",
+      "productLineId": 71,
+      "setId": 23305,
+      "collectorNumber": "22",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/516459_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Holofoil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "",
+          "printing": "",
+          "lowPrice": 11.69,
+          "marketPrice": 12.78,
+          "medianPrice": null
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7430905,
+          "condition": "Damaged",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430904,
+          "condition": "Heavily Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430902,
+          "condition": "Lightly Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430903,
+          "condition": "Moderately Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430901,
+          "condition": "Near Mint",
+          "printing": "Holofoil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>She had no invitation—and needed no introduction.</em>",
+        "cardTypes": [
+          "Character"
+        ],
+        "artist": "Lorelay Bové",
+        "customAttributes": {
+          "loreValue": "3",
+          "characterVersion": "Uninvited",
+          "releaseDate": "2023-12-01T00:00:00Z",
+          "number": "22",
+          "property": "Sleeping Beauty",
+          "cardType": [
+            "Character"
+          ],
+          "classification": "Dreamborn;Villain;Sorcerer",
+          "inkType": "Sapphire",
+          "willpower": "6",
+          "rarityDbName": "Promo",
+          "strength": "3",
+          "flavorText": "<em>She had no invitation—and needed no introduction.</em>",
+          "inkwellIcononCard": "Yes",
+          "promoType": "Disney100",
+          "costInk": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "Promo",
+          "Number": "22",
+          "Property": "Sleeping Beauty",
+          "Cost (Ink)": "5",
+          "Character Version": "Uninvited",
+          "Inkwell Icon on Card": "Yes",
+          "Ink Type": "Sapphire",
+          "Card Type": "Character",
+          "Classification": "Dreamborn;Villain;Sorcerer",
+          "Strength": "3",
+          "Willpower": "6",
+          "Lore Value": "3",
+          "Flavor Text": "<em>She had no invitation—and needed no introduction.</em>",
+          "Promo Type": "Disney100",
+          "Artist": "Lorelay Bové"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 516460,
+      "name": "Maui - Demigod (Alternate Art)",
+      "productLineId": 71,
+      "setId": 23305,
+      "collectorNumber": "23",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/516460_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Holofoil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "",
+          "printing": "",
+          "lowPrice": 22.69,
+          "marketPrice": 27.14,
+          "medianPrice": null
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7430910,
+          "condition": "Damaged",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430909,
+          "condition": "Heavily Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430907,
+          "condition": "Lightly Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430908,
+          "condition": "Moderately Played",
+          "printing": "Holofoil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7430906,
+          "condition": "Near Mint",
+          "printing": "Holofoil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>When the gods gift you a boat, you take it. The boat's owner is optional.</em>",
+        "cardTypes": [
+          "Character"
+        ],
+        "artist": "Bill Schwab",
+        "customAttributes": {
+          "loreValue": "3",
+          "characterVersion": "Demigod",
+          "releaseDate": "2023-12-01T00:00:00Z",
+          "number": "23",
+          "property": "Moana",
+          "cardType": [
+            "Character"
+          ],
+          "classification": "Storyborn;Hero;Deity",
+          "inkType": "Steel",
+          "willpower": "8",
+          "rarityDbName": "Promo",
+          "strength": "8",
+          "flavorText": "<em>When the gods gift you a boat, you take it. The boat's owner is optional.</em>",
+          "inkwellIcononCard": "Yes",
+          "promoType": "Disney100",
+          "costInk": "8"
+        },
+        "formattedAttributes": {
+          "Rarity": "Promo",
+          "Number": "23",
+          "Property": "Moana",
+          "Cost (Ink)": "8",
+          "Character Version": "Demigod",
+          "Inkwell Icon on Card": "Yes",
+          "Ink Type": "Steel",
+          "Card Type": "Character",
+          "Classification": "Storyborn;Hero;Deity",
+          "Strength": "8",
+          "Willpower": "8",
+          "Lore Value": "3",
+          "Flavor Text": "<em>When the gods gift you a boat, you take it. The boat's owner is optional.</em>",
+          "Promo Type": "Disney100",
+          "Artist": "Bill Schwab"
+        }
+      }
+    }
+  ]
+}

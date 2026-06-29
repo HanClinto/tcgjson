@@ -6,17 +6,25 @@ package's core path.
 """
 from __future__ import annotations
 
+import datetime as dt
+import hashlib
+import json
 import time
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 import requests
+
+from .atomic import atomic_write_json
 
 
 CATALOG_API_BASE = "https://mpapi.tcgplayer.com"
 SEARCH_API_BASE = "https://mp-search-api.tcgplayer.com"
 INFINITE_API_BASE = "https://infinite-api.tcgplayer.com"
 NAVIGATION_API_BASE = "https://marketplace-navigation.tcgplayer.com"
+TCGPLAYER_SINGLES_PRODUCT_TYPE_ID = 1
+SEARCH_PAGE_SIZE_LIMIT = 50
 
 
 class TCGplayerError(RuntimeError):
@@ -28,6 +36,7 @@ class RequestStats:
     requests: int
     retries: int
     errors: int
+    cache_hits: int = 0
 
 
 class TCGplayerClient:
@@ -39,22 +48,74 @@ class TCGplayerClient:
         max_retries: int = 5,
         retry_backoff_seconds: float = 1.5,
         rate_limit_delay: float = 0.0,
+        request_cache_dir: Path | None = None,
+        request_cache_ttl_seconds: int = 24 * 60 * 60,
         user_agent: str = "tcgjson/0.1 (+https://github.com/HanClinto/tcgjson)",
     ) -> None:
         self.timeout = timeout
         self.max_retries = max_retries
         self.retry_backoff_seconds = retry_backoff_seconds
         self.rate_limit_delay = rate_limit_delay
+        self.request_cache_dir = request_cache_dir
+        self.request_cache_ttl_seconds = request_cache_ttl_seconds
         self.requests = 0
         self.retries = 0
         self.errors = 0
+        self.cache_hits = 0
         self.session = session or requests.Session()
         self.session.headers.update({"User-Agent": user_agent, "Accept": "application/json"})
 
     def stats(self) -> RequestStats:
-        return RequestStats(self.requests, self.retries, self.errors)
+        return RequestStats(self.requests, self.retries, self.errors, self.cache_hits)
+
+    def _request_cache_path(self, method: str, url: str, kwargs: dict[str, Any]) -> Path | None:
+        if self.request_cache_dir is None or self.request_cache_ttl_seconds <= 0:
+            return None
+        cache_key = json.dumps(
+            {
+                "method": method.upper(),
+                "url": url,
+                "params": kwargs.get("params") or {},
+                "json": kwargs.get("json"),
+            },
+            sort_keys=True,
+            separators=(",", ":"),
+        )
+        digest = hashlib.sha256(cache_key.encode("utf-8")).hexdigest()
+        return self.request_cache_dir / f"{digest}.json"
+
+    def _load_request_cache(self, path: Path | None) -> Any | None:
+        if path is None or not path.exists():
+            return None
+        try:
+            cached = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return None
+        expires_at = cached.get("expiresAt", "")
+        if expires_at <= dt.datetime.now(dt.timezone.utc).isoformat():
+            return None
+        self.cache_hits += 1
+        return cached.get("payload")
+
+    def _write_request_cache(self, path: Path | None, payload: Any) -> None:
+        if path is None:
+            return
+        expires_at = dt.datetime.now(dt.timezone.utc) + dt.timedelta(seconds=self.request_cache_ttl_seconds)
+        atomic_write_json(
+            path,
+            {
+                "object": "tcgjson_request_cache_entry",
+                "version": 1,
+                "expiresAt": expires_at.isoformat(),
+                "payload": payload,
+            },
+        )
 
     def _request(self, method: str, url: str, **kwargs: Any) -> Any:
+        cache_path = self._request_cache_path(method, url, kwargs)
+        cached_payload = self._load_request_cache(cache_path)
+        if cached_payload is not None:
+            return cached_payload
         last_error: Exception | None = None
         for attempt in range(1, self.max_retries + 1):
             try:
@@ -71,7 +132,9 @@ class TCGplayerClient:
                 content_type = response.headers.get("content-type", "")
                 if "json" not in content_type:
                     raise TCGplayerError(f"Expected JSON from {url}, got {content_type}")
-                return response.json()
+                payload = response.json()
+                self._write_request_cache(cache_path, payload)
+                return payload
             except (requests.RequestException, TCGplayerError) as exc:
                 last_error = exc
                 response = getattr(exc, "response", None)
@@ -126,7 +189,7 @@ class TCGplayerClient:
         set_id: int | str,
         *,
         rows: int = 5000,
-        product_type_id: int = 1,
+        product_type_id: int = TCGPLAYER_SINGLES_PRODUCT_TYPE_ID,
     ) -> dict[str, Any]:
         payload = self._request(
             "GET",
@@ -137,6 +200,65 @@ class TCGplayerClient:
             raise TCGplayerError("Unexpected price guide payload")
         return payload
 
+    def search_products(
+        self,
+        *,
+        product_line_name: str,
+        set_name: str,
+        offset: int = 0,
+        size: int = SEARCH_PAGE_SIZE_LIMIT,
+    ) -> dict[str, Any]:
+        payload = {
+            "algorithm": "sales_exp_fields_synonym",
+            "from": offset,
+            "size": size,
+            "filters": {
+                "term": {
+                    "productLineName": [product_line_name],
+                    "setName": [set_name],
+                    "productTypeName": ["Cards"],
+                },
+                "range": {},
+                "match": {},
+            },
+            "context": {"cart": {}, "shippingCountry": "US", "userProfile": {}},
+            "settings": {"useFuzzySearch": False, "didYouMean": {}},
+            "sort": {},
+        }
+        raw = self._request("POST", f"{SEARCH_API_BASE}/v1/search/request", json=payload)
+        results = self._unwrap_results(raw)
+        if not results:
+            return {"results": [], "totalResults": 0}
+        if len(results) != 1:
+            raise TCGplayerError(f"Expected one search result envelope, got {len(results)}")
+        return results[0]
+
+    def iter_search_products(
+        self,
+        *,
+        product_line_name: str,
+        set_name: str,
+        page_size: int = SEARCH_PAGE_SIZE_LIMIT,
+    ):
+        offset = 0
+        total_results: int | None = None
+        while True:
+            page = self.search_products(
+                product_line_name=product_line_name,
+                set_name=set_name,
+                offset=offset,
+                size=page_size,
+            )
+            products = list(page.get("results") or [])
+            if total_results is None:
+                total_results = int(page.get("totalResults") or 0)
+            if not products:
+                break
+            yield from products
+            offset += len(products)
+            if offset >= total_results:
+                break
+
     def get_product_details(self, product_id: int | str) -> dict[str, Any]:
         payload = self._request("GET", f"{SEARCH_API_BASE}/v2/product/{product_id}/details")
         if not isinstance(payload, dict):
@@ -144,5 +266,12 @@ class TCGplayerClient:
         return payload
 
     @staticmethod
-    def product_image_url(product_id: int | str, *, size: str = "1000x1000") -> str:
-        return f"https://tcgplayer-cdn.tcgplayer.com/product/{product_id}_in_{size}.jpg"
+    def product_image_url(product_id: int | str, *, size: str = "1000x1000", image_number: int | None = None) -> str:
+        image_suffix = f"_{image_number}" if image_number is not None else ""
+        return f"https://tcgplayer-cdn.tcgplayer.com/product/{product_id}{image_suffix}_in_{size}.jpg"
+
+    @classmethod
+    def product_image_urls(cls, product_id: int | str, image_count: int, *, size: str = "1000x1000") -> list[str]:
+        if image_count <= 1:
+            return [cls.product_image_url(product_id, size=size)]
+        return [cls.product_image_url(product_id, size=size, image_number=index) for index in range(1, image_count + 1)]

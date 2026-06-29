@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
+import sys
 from pathlib import Path
 
 from .bulk import build_release
@@ -15,10 +17,27 @@ def build_parser() -> argparse.ArgumentParser:
 
     build = subparsers.add_parser("build", help="Build bulk JSON catalog files")
     build.add_argument("--output", type=Path, default=Path("release"))
-    build.add_argument("--product-line", action="append", dest="product_lines")
+    build.add_argument(
+        "--data-cache-dir",
+        type=Path,
+        default=Path("data-cache"),
+        help="Directory for durable catalog cache files. Defaults to data-cache.",
+    )
+    build.add_argument("--product-line", action="append", dest="product_lines", help="TCGplayer product-line ID or name")
     build.add_argument("--max-sets", type=int, default=None)
     build.add_argument("--priceguide-rows", type=int, default=5000)
-    build.add_argument("--with-skus", action="store_true")
+    build.add_argument(
+        "--with-details",
+        "--with-skus",
+        action="store_true",
+        dest="with_details",
+        help="Fetch per-product details for SKU IDs, card metadata, and multi-image URLs.",
+    )
+    build.add_argument(
+        "--no-progress",
+        action="store_true",
+        help="Disable progress bars during catalog builds.",
+    )
     build.add_argument(
         "--cache-dir",
         type=Path,
@@ -31,6 +50,45 @@ def build_parser() -> argparse.ArgumentParser:
         default=0,
         help="When using --cache-dir, refetch this many most-recent sets per product line.",
     )
+    build.add_argument(
+        "--checkpoint-dir",
+        type=Path,
+        default=None,
+        help="Directory for per-set checkpoint files. Defaults to <data-cache-dir>/set-checkpoints.",
+    )
+    build.add_argument(
+        "--no-checkpoints",
+        action="store_true",
+        help="Disable per-set checkpoint writes and resume.",
+    )
+    build.add_argument(
+        "--detail-cache-dir",
+        type=Path,
+        default=None,
+        help="Directory for durable per-product detail cache. Defaults to <data-cache-dir>/product-details.",
+    )
+    build.add_argument(
+        "--no-detail-cache",
+        action="store_true",
+        help="Disable the durable per-product detail cache used by --with-details.",
+    )
+    build.add_argument(
+        "--request-cache-dir",
+        type=Path,
+        default=None,
+        help="Directory for short-lived HTTP response cache. Defaults to .tcgjson-cache/http/<UTC date>.",
+    )
+    build.add_argument(
+        "--request-cache-ttl-hours",
+        type=float,
+        default=24.0,
+        help="Hours to reuse cached TCGplayer API responses during local builds.",
+    )
+    build.add_argument(
+        "--no-request-cache",
+        action="store_true",
+        help="Disable the short-lived HTTP response cache.",
+    )
 
     games = subparsers.add_parser("games", help="Report TCGplayer product-line support")
     games.add_argument("--output", type=Path, default=Path("games.md"))
@@ -41,21 +99,36 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
-    client = TCGplayerClient()
     if args.command == "build":
+        checkpoint_dir = None if args.no_checkpoints else args.checkpoint_dir or args.data_cache_dir / "set-checkpoints"
+        detail_cache_dir = None
+        if args.with_details and not args.no_detail_cache:
+            detail_cache_dir = args.detail_cache_dir or args.data_cache_dir / "product-details"
+        request_cache_dir = None
+        if not args.no_request_cache:
+            utc_date = dt.datetime.now(dt.timezone.utc).date().isoformat()
+            request_cache_dir = args.request_cache_dir or Path(".tcgjson-cache") / "http" / utc_date
+        client = TCGplayerClient(
+            request_cache_dir=request_cache_dir,
+            request_cache_ttl_seconds=int(args.request_cache_ttl_hours * 60 * 60),
+        )
         manifest = build_release(
             args.output,
             args.product_lines,
             max_sets=args.max_sets,
             priceguide_rows=args.priceguide_rows,
-            with_skus=args.with_skus,
+            with_skus=args.with_details,
             cache_dir=args.cache_dir,
             refresh_recent_sets=args.refresh_recent_sets,
             client=client,
+            progress=not args.no_progress and sys.stderr.isatty(),
+            checkpoint_dir=checkpoint_dir,
+            detail_cache_dir=detail_cache_dir,
         )
         print(f"Wrote {len(manifest['data'])} bulk files to {args.output}")
         return 0
     if args.command == "games":
+        client = TCGplayerClient()
         report = discover_game_support(client)
         write_game_support_report(report, args.output, json_output=args.json_output)
         enabled = sum(1 for row in report["games"] if row["enabled"])

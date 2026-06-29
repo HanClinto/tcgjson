@@ -21,10 +21,21 @@ def validate_release(output_dir: Path) -> None:
         path = output_dir / item["download_uri"]
         if not path.exists():
             raise FileNotFoundError(path)
+        if path.suffix == ".md":
+            path.read_text(encoding="utf-8")
+            if path.stat().st_size != item["size"]:
+                raise ValueError(f"size mismatch for {path}")
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            if digest != item["sha256"]:
+                raise ValueError(f"sha256 mismatch for {path}")
+            continue
         payload = json.loads(path.read_text(encoding="utf-8"))
         if payload.get("object") == "tcgjson_build_metrics":
             if "durationSeconds" not in payload or "productLines" not in payload:
                 raise ValueError(f"{path} is missing required metrics keys")
+        elif payload.get("object") == "tcgjson_product_schema_profile":
+            if "fields" not in payload or "productCount" not in payload:
+                raise ValueError(f"{path} is missing required schema profile keys")
         elif "meta" not in payload or "products" not in payload or "sets" not in payload:
             raise ValueError(f"{path} is missing required catalog keys")
         if path.stat().st_size != item["size"]:

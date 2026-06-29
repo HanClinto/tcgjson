@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       with_skus:
-        description: Include SKU-level product details
+        description: Include per-product details for SKU IDs, metadata, and multi-image URLs
         required: false
         default: 'false'
   schedule:
@@ -34,12 +34,22 @@ jobs:
       - name: Build bulk JSON
         run: |
           if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
-            tcgjson build --output release --cache-dir release-cache --refresh-recent-sets 3 --with-skus
+            tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --with-details
           else
-            tcgjson build --output release --cache-dir release-cache --refresh-recent-sets 3
+            tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3
           fi
       - name: Validate release files
         run: python -m tcgjson.validate release
+      - name: Commit updated data cache
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data-cache
+          if ! git diff --cached --quiet; then
+            git commit -m "Update catalog data cache"
+            git push
+          fi
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:

@@ -7,13 +7,19 @@ import json
 import mimetypes
 import time
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable, TypeVar
 
-from .atomic import atomic_write_json
-from .config import normalize_key, product_line_for_name
-from .games import default_enabled_product_line_names
-from .normalize import compact_product, extract_skus, group_priceguide_products
+import requests
+
+from .atomic import atomic_write_json, atomic_write_text
+from .config import normalize_key, product_line_for_id, product_line_for_name
+from .games import default_enabled_product_line_ids
+from .normalize import apply_product_details, compact_product, group_priceguide_products, normalize_search_products
+from .schema import product_schema_markdown, product_schema_profile
 from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
+
+
+T = TypeVar("T")
 
 
 def _utc_now_iso() -> str:
@@ -34,14 +40,42 @@ def _stats_delta(before: RequestStats, after: RequestStats) -> dict[str, int]:
         "requests": after.requests - before.requests,
         "retries": after.retries - before.retries,
         "errors": after.errors - before.errors,
+        "cacheHits": after.cache_hits - before.cache_hits,
     }
 
 
 def _stats_dict(stats: RequestStats) -> dict[str, int]:
-    return {"requests": stats.requests, "retries": stats.retries, "errors": stats.errors}
+    return {"requests": stats.requests, "retries": stats.retries, "errors": stats.errors, "cacheHits": stats.cache_hits}
 
 
-def _resolve_product_line(client: TCGplayerClient, requested_name: str) -> dict[str, Any]:
+def _progress(iterable: Iterable[T], *, enabled: bool, **kwargs: Any) -> Iterable[T]:
+    if not enabled:
+        return iterable
+    try:
+        from tqdm import tqdm
+    except ImportError:
+        return iterable
+    return tqdm(iterable, **kwargs)
+
+
+ProductLineRequest = int | str
+
+
+def _coerce_product_line_id(value: ProductLineRequest) -> int | None:
+    if isinstance(value, int):
+        return value
+    return int(value) if value.isdecimal() else None
+
+
+def _resolve_product_line(client: TCGplayerClient, requested_product_line: ProductLineRequest) -> dict[str, Any]:
+    requested_id = _coerce_product_line_id(requested_product_line)
+    if requested_id is not None:
+        for row in client.get_product_lines():
+            if int(row["productLineId"]) == requested_id:
+                return row
+        raise TCGplayerError(f"Unknown TCGplayer product line ID: {requested_id}")
+
+    requested_name = str(requested_product_line)
     requested = product_line_for_name(requested_name)
     wanted = {normalize_key(requested.name), normalize_key(requested.slug)}
     wanted.update(normalize_key(alias) for alias in requested.aliases)
@@ -67,6 +101,120 @@ def _load_cached_catalog(cache_dir: Path | None, slug: str) -> dict[str, Any] | 
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _set_checkpoint_path(checkpoint_dir: Path, slug: str, source: str, set_id: int) -> Path:
+    return checkpoint_dir / slug / source / f"{set_id}.json"
+
+
+def _load_set_checkpoint(
+    checkpoint_dir: Path | None,
+    *,
+    slug: str,
+    product_line_id: int,
+    set_id: int,
+    with_skus: bool,
+    priceguide_rows: int,
+) -> tuple[dict[str, Any], list[dict[str, Any]]] | None:
+    if checkpoint_dir is None:
+        return None
+    paths = [
+        _set_checkpoint_path(checkpoint_dir, slug, "priceguide", set_id),
+        _set_checkpoint_path(checkpoint_dir, slug, "search", set_id),
+        checkpoint_dir / slug / f"{set_id}.json",
+    ]
+    path = next((candidate for candidate in paths if candidate.exists()), None)
+    if path is None:
+        return None
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    source = payload.get("source") or payload.get("set", {}).get("source")
+    if (
+        payload.get("object") != "tcgjson_set_checkpoint"
+        or int(payload.get("productLineId") or 0) != product_line_id
+        or int(payload.get("tcgplayerSetId") or 0) != set_id
+        or bool(payload.get("withSkus")) != with_skus
+        or int(payload.get("priceguideRows") or 0) != priceguide_rows
+        or source not in (None, "priceguide", "search")
+    ):
+        return None
+    set_summary = payload.get("set")
+    products = payload.get("products")
+    if not isinstance(set_summary, dict) or not isinstance(products, list):
+        return None
+    return set_summary, [_migrate_cached_product(product, product_line_id) for product in products]
+
+
+def _write_set_checkpoint(
+    checkpoint_dir: Path | None,
+    *,
+    slug: str,
+    product_line_id: int,
+    set_summary: dict[str, Any],
+    products: list[dict[str, Any]],
+    with_skus: bool,
+    priceguide_rows: int,
+) -> None:
+    if checkpoint_dir is None:
+        return
+    set_id = int(set_summary["tcgplayerSetId"])
+    source = set_summary.get("source", "unknown")
+    atomic_write_json(
+        _set_checkpoint_path(checkpoint_dir, slug, source, set_id),
+        {
+            "object": "tcgjson_set_checkpoint",
+            "version": 1,
+            "generatedAt": _utc_now_iso(),
+            "source": source,
+            "productLineId": product_line_id,
+            "slug": slug,
+            "tcgplayerSetId": set_id,
+            "withSkus": with_skus,
+            "priceguideRows": priceguide_rows,
+            "set": set_summary,
+            "products": products,
+        },
+    )
+
+
+def _product_detail_cache_path(detail_cache_dir: Path, product_id: int | str) -> Path:
+    product_id_text = str(product_id)
+    leaf_bucket = product_id_text[-3:]
+    parent_bucket = product_id_text[-6:-3] or "0"
+    return detail_cache_dir / parent_bucket / leaf_bucket / f"{product_id_text}.json"
+
+
+def _load_product_detail_cache(detail_cache_dir: Path | None, product_id: int | str) -> dict[str, Any] | None:
+    if detail_cache_dir is None:
+        return None
+    path = _product_detail_cache_path(detail_cache_dir, product_id)
+    if not path.exists():
+        return None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    if (
+        payload.get("object") != "tcgjson_product_detail_cache_entry"
+        or int(payload.get("tcgplayerProductId") or 0) != int(product_id)
+        or not isinstance(payload.get("details"), dict)
+    ):
+        return None
+    return payload["details"]
+
+
+def _write_product_detail_cache(detail_cache_dir: Path | None, product_id: int | str, details: dict[str, Any]) -> None:
+    if detail_cache_dir is None:
+        return
+    atomic_write_json(
+        _product_detail_cache_path(detail_cache_dir, product_id),
+        {
+            "object": "tcgjson_product_detail_cache_entry",
+            "version": 1,
+            "generatedAt": _utc_now_iso(),
+            "tcgplayerProductId": int(product_id),
+            "details": details,
+        },
+    )
+
+
 def _recent_set_ids(set_rows: list[dict[str, Any]], refresh_recent_sets: int) -> set[int]:
     if refresh_recent_sets <= 0:
         return set()
@@ -81,6 +229,29 @@ def _cached_products_have_skus(products: list[dict[str, Any]]) -> bool:
     return all("skus" in product for product in products)
 
 
+def _migrate_cached_product(product: dict[str, Any], product_line_id: int) -> dict[str, Any]:
+    migrated = dict(product)
+    old_product_line = migrated.pop("productLine", {})
+    if "productLineId" not in migrated:
+        old_product_line_id = old_product_line.get("id") if isinstance(old_product_line, dict) else None
+        migrated["productLineId"] = int(old_product_line_id or product_line_id)
+    else:
+        migrated.pop("productLine", None)
+
+    old_set = migrated.pop("set", {})
+    if "setId" not in migrated:
+        old_set_id = old_set.get("id") if isinstance(old_set, dict) else None
+        migrated["setId"] = int(old_set_id or 0)
+    else:
+        migrated.pop("set", None)
+
+    if "imageUrls" not in migrated:
+        image_url = migrated.get("imageUrl", "")
+        migrated["imageUrls"] = [image_url] if image_url else []
+    migrated.pop("imageUrl", None)
+    return migrated
+
+
 def _fetch_set_products(
     client: TCGplayerClient,
     *,
@@ -90,20 +261,61 @@ def _fetch_set_products(
     set_row: dict[str, Any],
     priceguide_rows: int,
     with_skus: bool,
+    progress: bool,
+    detail_cache_dir: Path | None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     priceguide = client.get_priceguide_set_cards(set_row["setNameId"], rows=priceguide_rows)
     rows = list(priceguide.get("result") or [])
-    set_products = group_priceguide_products(
-        rows,
-        product_line_name=product_line_name,
-        product_line_id=product_line_id,
-        product_line_url_name=product_line_url_name,
-        set_row=set_row,
-    )
+    source = "priceguide"
+    if rows:
+        set_products = group_priceguide_products(
+            rows,
+            product_line_name=product_line_name,
+            product_line_id=product_line_id,
+            product_line_url_name=product_line_url_name,
+            set_row=set_row,
+        )
+    else:
+        search_rows = list(
+            client.iter_search_products(
+                product_line_name=product_line_name,
+                set_name=set_row.get("name", ""),
+            )
+        )
+        set_products = normalize_search_products(
+            search_rows,
+            product_line_name=product_line_name,
+            product_line_id=product_line_id,
+            product_line_url_name=product_line_url_name,
+            set_row=set_row,
+        )
+        source = "search"
+    detail_error_count = 0
+    detail_cache_hit_count = 0
+    detail_fetch_count = 0
     if with_skus:
-        for product in set_products:
-            details = client.get_product_details(product["tcgplayerProductId"])
-            product["skus"] = extract_skus(details)
+        detail_iterator = _progress(
+            set_products,
+            enabled=progress,
+            desc=f"{set_row.get('name', set_row['setNameId'])} details",
+            unit="product",
+            leave=False,
+            position=2,
+        )
+        for product in detail_iterator:
+            product_id = product["tcgplayerProductId"]
+            try:
+                details = _load_product_detail_cache(detail_cache_dir, product_id)
+                if details is None:
+                    details = client.get_product_details(product_id)
+                    _write_product_detail_cache(detail_cache_dir, product_id, details)
+                    detail_fetch_count += 1
+                else:
+                    detail_cache_hit_count += 1
+            except (requests.RequestException, TCGplayerError):
+                detail_error_count += 1
+                continue
+            apply_product_details(product, details)
     return (
         {
             "tcgplayerSetId": int(set_row["setNameId"]),
@@ -114,6 +326,10 @@ def _fetch_set_products(
             "isSupplemental": bool(set_row.get("isSupplemental")),
             "productCount": len(set_products),
             "priceGuideRowCount": len(rows),
+            "detailErrorCount": detail_error_count,
+            "detailCacheHitCount": detail_cache_hit_count,
+            "detailFetchCount": detail_fetch_count,
+            "source": source,
         },
         set_products,
     )
@@ -121,18 +337,21 @@ def _fetch_set_products(
 
 def fetch_product_line(
     client: TCGplayerClient,
-    product_line_name: str,
+    product_line_name: ProductLineRequest,
     *,
     max_sets: int | None = None,
     priceguide_rows: int = 5000,
     with_skus: bool = False,
     cache_dir: Path | None = None,
     refresh_recent_sets: int = 0,
+    progress: bool = False,
+    checkpoint_dir: Path | None = None,
+    detail_cache_dir: Path | None = None,
 ) -> dict[str, Any]:
     started = time.perf_counter()
-    resolved = product_line_for_name(product_line_name)
     product_line = _resolve_product_line(client, product_line_name)
     product_line_id = int(product_line["productLineId"])
+    resolved = product_line_for_id(product_line_id, product_line.get("productLineName", ""))
     product_line_url_name = product_line.get("productLineUrlName", "")
     set_rows = client.get_set_names(product_line_id)
     if max_sets is not None:
@@ -146,14 +365,24 @@ def fetch_product_line(
     }
     cached_products: dict[int, list[dict[str, Any]]] = {}
     for product in (cached_catalog or {}).get("products", []):
-        set_id = int(product.get("set", {}).get("id") or 0)
-        cached_products.setdefault(set_id, []).append(product)
+        migrated_product = _migrate_cached_product(product, product_line_id)
+        set_id = int(migrated_product.get("setId") or 0)
+        cached_products.setdefault(set_id, []).append(migrated_product)
     refresh_ids = _recent_set_ids(set_rows, refresh_recent_sets)
     sets = []
     products = []
     reused_sets = 0
+    reused_checkpoint_sets = 0
     fetched_sets = 0
-    for set_row in set_rows:
+    set_iterator = _progress(
+        set_rows,
+        enabled=progress,
+        desc=f"{resolved.slug} sets",
+        unit="set",
+        leave=False,
+        position=1,
+    )
+    for set_row in set_iterator:
         set_id = int(set_row["setNameId"])
         cached_set_products = cached_products.get(set_id, [])
         can_reuse = (
@@ -167,22 +396,45 @@ def fetch_product_line(
             set_products = cached_set_products
             reused_sets += 1
         else:
-            set_summary, set_products = _fetch_set_products(
-                client,
-                product_line_name=product_line.get("productLineName", resolved.name),
+            checkpoint = _load_set_checkpoint(
+                checkpoint_dir,
+                slug=resolved.slug,
                 product_line_id=product_line_id,
-                product_line_url_name=product_line_url_name,
-                set_row=set_row,
-                priceguide_rows=priceguide_rows,
+                set_id=set_id,
                 with_skus=with_skus,
+                priceguide_rows=priceguide_rows,
             )
+            if checkpoint is not None:
+                set_summary, set_products = checkpoint
+                reused_checkpoint_sets += 1
+            else:
+                set_summary, set_products = _fetch_set_products(
+                    client,
+                    product_line_name=product_line.get("productLineName", resolved.name),
+                    product_line_id=product_line_id,
+                    product_line_url_name=product_line_url_name,
+                    set_row=set_row,
+                    priceguide_rows=priceguide_rows,
+                    with_skus=with_skus,
+                    progress=progress,
+                    detail_cache_dir=detail_cache_dir,
+                )
+                _write_set_checkpoint(
+                    checkpoint_dir,
+                    slug=resolved.slug,
+                    product_line_id=product_line_id,
+                    set_summary=set_summary,
+                    products=set_products,
+                    with_skus=with_skus,
+                    priceguide_rows=priceguide_rows,
+                )
+                fetched_sets += 1
             sets.append(set_summary)
-            fetched_sets += 1
         products.extend(set_products)
 
     elapsed_seconds = time.perf_counter() - started
     sets.sort(key=lambda item: (item["name"], item["tcgplayerSetId"]))
-    products.sort(key=lambda item: (item["set"]["name"], item.get("collectorNumber", ""), item["name"]))
+    products.sort(key=lambda item: (item["setId"], item.get("collectorNumber", ""), item["name"]))
     return {
         "meta": {
             "object": "tcgjson_catalog",
@@ -198,6 +450,7 @@ def fetch_product_line(
                 "enabled": cache_dir is not None,
                 "sourceGeneratedAt": (cached_catalog or {}).get("meta", {}).get("generatedAt", ""),
                 "reusedSetCount": reused_sets,
+                "reusedSetCheckpointCount": reused_checkpoint_sets,
                 "fetchedSetCount": fetched_sets,
                 "refreshRecentSetCount": refresh_recent_sets,
             },
@@ -251,6 +504,33 @@ def write_metrics_file(output_dir: Path, metrics: dict[str, Any]) -> dict[str, A
     )
 
 
+def write_product_schema_files(output_dir: Path, catalog: dict[str, Any]) -> list[dict[str, Any]]:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    slug = catalog["meta"]["slug"]
+    product_line = catalog["meta"]["productLine"]
+    profile = product_schema_profile(catalog)
+    json_path = output_dir / f"{slug}.schema.json"
+    markdown_path = output_dir / f"{slug}.schema.md"
+    atomic_write_json(json_path, profile)
+    atomic_write_text(markdown_path, product_schema_markdown(profile))
+    return [
+        _file_manifest(
+            json_path,
+            output_dir=output_dir,
+            file_type=f"{slug}_schema",
+            name=f"{product_line} Product Schema Profile",
+            description=f"Observed product fields and population stats for {product_line}.",
+        ),
+        _file_manifest(
+            markdown_path,
+            output_dir=output_dir,
+            file_type=f"{slug}_schema_markdown",
+            name=f"{product_line} Product Schema Guide",
+            description=f"Markdown product schema guide for {product_line}.",
+        ),
+    ]
+
+
 def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[dict[str, Any]]:
     output_dir.mkdir(parents=True, exist_ok=True)
     slug = catalog["meta"]["slug"]
@@ -292,7 +572,7 @@ def write_bulk_manifest(output_dir: Path, files: list[dict[str, Any]]) -> dict[s
 
 def build_release(
     output_dir: Path,
-    product_lines: list[str] | None = None,
+    product_lines: list[ProductLineRequest] | None = None,
     *,
     max_sets: int | None = None,
     priceguide_rows: int = 5000,
@@ -300,14 +580,24 @@ def build_release(
     cache_dir: Path | None = None,
     refresh_recent_sets: int = 0,
     client: TCGplayerClient | None = None,
+    progress: bool = False,
+    checkpoint_dir: Path | None = None,
+    detail_cache_dir: Path | None = None,
 ) -> dict[str, Any]:
     active_client = client or TCGplayerClient()
-    selected_product_lines = product_lines or default_enabled_product_line_names(active_client)
+    selected_product_lines = product_lines or default_enabled_product_line_ids(active_client)
     build_started_at = _utc_now_iso()
     build_started = time.perf_counter()
     files: list[dict[str, Any]] = []
     product_line_metrics = []
-    for product_line in selected_product_lines:
+    product_line_iterator = _progress(
+        selected_product_lines,
+        enabled=progress,
+        desc="product lines",
+        unit="line",
+        position=0,
+    )
+    for product_line in product_line_iterator:
         line_started = time.perf_counter()
         stats_before = active_client.stats()
         catalog = fetch_product_line(
@@ -318,9 +608,13 @@ def build_release(
             with_skus=with_skus,
             cache_dir=cache_dir,
             refresh_recent_sets=refresh_recent_sets,
+            progress=progress,
+            checkpoint_dir=checkpoint_dir,
+            detail_cache_dir=detail_cache_dir,
         )
         duration_seconds = round(time.perf_counter() - line_started, 3)
         files.extend(write_product_line_files(output_dir, catalog))
+        files.extend(write_product_schema_files(output_dir, catalog))
         stats_after = active_client.stats()
         product_line_metrics.append(
             {
@@ -341,6 +635,8 @@ def build_release(
         "mode": "incremental" if cache_dir is not None else "full",
         "withSkus": with_skus,
         "cacheDir": str(cache_dir) if cache_dir is not None else "",
+        "checkpointDir": str(checkpoint_dir) if checkpoint_dir is not None else "",
+        "detailCacheDir": str(detail_cache_dir) if detail_cache_dir is not None else "",
         "refreshRecentSetCount": refresh_recent_sets,
         "productLineCount": len(selected_product_lines),
         "productLines": product_line_metrics,
