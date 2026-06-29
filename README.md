@@ -260,6 +260,11 @@ the build keeps running. It also performs a final cache flush after the build
 process exits, even when the build fails, so useful partial progress survives a
 timeout or transient API failure.
 
+The workflow uses `scripts/run-build-with-cache-flush.sh` for this behavior. For
+local testing, set `CACHE_WRITES_ENABLED=true`; cache checkpoint pushes are
+enabled by default when cache writes are enabled. Set `CACHE_PUSH_ENABLED=false`
+to create local checkpoint commits without pushing them.
+
 Evaluate current metrics and cache shape with:
 
 ```bash
