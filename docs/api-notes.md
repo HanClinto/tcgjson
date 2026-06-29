@@ -102,6 +102,9 @@ Observed behavior:
 - Search can sort by `image-count`, even though rows do not expose `imageCount`.
   This is useful for finding multi-image products such as double-faced cards,
   but details are still required to read the actual count.
+- Search can filter by `image-count` with a range filter. For example,
+  `"range": {"image-count": {"gte": 2}}` returned only products whose detail
+  payloads had multiple images in local probes.
 - Search rows can include listing-shaped fields. Do not persist raw search
   responses as durable catalog cache; normalize and keep only catalog fields.
 
@@ -198,6 +201,24 @@ but it cannot reveal newly added products inside otherwise old sets.
 `imageCount=2`, including double-sided tokens and double-faced cards. `image-count
 asc` surfaced products whose detail payloads had `imageCount=0`, so it is best
 treated as a discovery/debugging sort, not a catalog field substitute.
+
+To fetch only likely multi-image cards, use a range filter instead of paging a
+global `image-count desc` sort:
+
+```json
+"filters": {
+  "term": {"productLineName": ["magic"], "productTypeName": ["Cards"]},
+  "range": {"image-count": {"gte": 2}},
+  "match": {}
+}
+```
+
+This filter worked across sampled product lines. It returned 6,455 Magic
+products, 742 Star Wars Unlimited products, 34 Lorcana products, and a small
+number of Pokemon, YuGiOh, and One Piece products. The lean path can use this as
+a second pass: fetch broad search rows for catalog metadata, then query
+`image-count >= 2` per product line and fetch product details only for those
+products to recover exact `imageCount` and additional image URLs.
 
 Ad hoc sort keys such as `releaseDate`, `createdAt`, `updatedAt`, `productId`,
 `marketPrice`, `score`, and `setName` returned server errors when sent as direct
