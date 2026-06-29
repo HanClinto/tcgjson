@@ -99,6 +99,9 @@ Observed behavior:
 - Search rows include `customAttributes` for the configured card-game product
   lines we sampled.
 - Search rows do not include `skus`, `formattedAttributes`, or `imageCount`.
+- Search can sort by `image-count`, even though rows do not expose `imageCount`.
+  This is useful for finding multi-image products such as double-faced cards,
+  but details are still required to read the actual count.
 - Search rows can include listing-shaped fields. Do not persist raw search
   responses as durable catalog cache; normalize and keep only catalog fields.
 
@@ -177,10 +180,34 @@ Price sort uses:
 "sort": {"field": "market-price", "order": "desc"}
 ```
 
-Observed probe results: `product-sorting-name` and `market-price` sort fields
-worked with website-style payloads. Ad hoc sort keys such as `releaseDate`,
-`createdAt`, `updatedAt`, `productId`, `marketPrice`, `score`, and `setName`
-returned server errors when sent as direct field names.
+Observed probe results: these website-style sort fields worked:
+
+- `product-sorting-name` for alphabetical order;
+- `market-price` for market price order;
+- `lowest-price` for current lowest-listing-price order;
+- `release-date` for product-level release date order;
+- `set-name` for set-name order;
+- `image-count` for multi-image products.
+
+`release-date desc` is useful as a cross-set discovery query because promo cards
+or corrected products can be added to old sets after the set itself was released.
+`SetNames.releaseDate` is still the cleaner unit for normal set refresh windows,
+but it cannot reveal newly added products inside otherwise old sets.
+
+`image-count desc` returned Magic products whose detail payloads had
+`imageCount=2`, including double-sided tokens and double-faced cards. `image-count
+asc` surfaced products whose detail payloads had `imageCount=0`, so it is best
+treated as a discovery/debugging sort, not a catalog field substitute.
+
+Ad hoc sort keys such as `releaseDate`, `createdAt`, `updatedAt`, `productId`,
+`marketPrice`, `score`, and `setName` returned server errors when sent as direct
+field names. `imageCount`, `image_count`, `number-of-images`, `multi-image`,
+`has-back-image`, `listing-count`, and `rarity` also returned server errors in
+local probes. Use the hyphenated website-style sort names.
+
+Algorithm caveat: the API can return HTTP 200 for unknown-looking algorithm
+strings, but many behave identically to `sales_dismax`. Compare returned product
+IDs before treating a guessed algorithm as meaningful.
 
 Website-style payload caveat: if `productTypeName: ["Cards"]` is omitted, results
 can include sealed products such as booster displays and booster cases.
@@ -240,6 +267,8 @@ Recommended incremental lean behavior:
 2. Refresh the newest sets by `SetNames.releaseDate`.
 3. For refreshed or missing sets, fetch priceguide/search and normalized search
    metadata.
-4. Store normalized metadata only, not raw search responses.
+4. Periodically run a small `release-date desc` search probe per product line to
+  catch newly added products in older sets.
+5. Store normalized metadata only, not raw search responses.
 
 No reliable `updatedAt` field or sort has been found in search responses yet.
