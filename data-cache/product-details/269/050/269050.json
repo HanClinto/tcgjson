@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:10:52Z",
+  "tcgplayerProductId": 269050,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Unleash the Inferno Gilded Foil",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.46,
+    "customAttributes": {
+      "formats": null,
+      "description": "Unleash the Inferno deals 7 damage to target creature or planeswalker. When it deals excess damage this way, destroy target artifact or enchantment an opponent controls with mana value less than or equal to that amount of excess damage.",
+      "powerNumber": null,
+      "color": [
+        "Black",
+        "Green",
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2022-04-29T00:00:00Z",
+      "number": "402",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.31,
+    "productName": "Unleash the Inferno (Gilded Foil)",
+    "setId": 3026.0,
+    "setCode": "SNC",
+    "productId": 269050.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Streets of New Capenna",
+    "sellers": 112.0,
+    "foilOnly": true,
+    "setUrlName": "Streets of New Capenna",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 113.0,
+    "lowestPrice": 0.31,
+    "medianPrice": 0.6,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "402",
+      "Card Type": "Instant",
+      "Description": "Unleash the Inferno deals 7 damage to target creature or planeswalker. When it deals excess damage this way, destroy target artifact or enchantment an opponent controls with mana value less than or equal to that amount of excess damage.",
+      "Artist": "Justin & Alexis Hernandez"
+    },
+    "skus": [
+      {
+        "sku": 5520523,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520524,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520525,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520526,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520527,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

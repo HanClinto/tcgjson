@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:52:15Z",
+  "tcgplayerProductId": 203016,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Blanchwood Armor",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.24,
+    "customAttributes": {
+      "formats": null,
+      "description": "Enchant creature\r\n<br>\r\nEnchanted creature gets +1/+1 for each Forest you control.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchantment — Aura",
+      "releaseDate": null,
+      "number": "169",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Blanchwood Armor",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 203016.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "The List Reprints",
+    "sellers": 227.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 233.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.28,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "169",
+      "Card Type": "Enchantment — Aura",
+      "Description": "Enchant creature\r\n<br>\r\nEnchanted creature gets +1/+1 for each Forest you control.",
+      "Artist": "Parente"
+    },
+    "skus": [
+      {
+        "sku": 4267448,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4267449,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4267450,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4267451,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4267452,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

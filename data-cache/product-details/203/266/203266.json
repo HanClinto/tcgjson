@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:52:24Z",
+  "tcgplayerProductId": 203266,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Epic Confrontation",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.23,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature you control gets +1/+2 until end of turn. It fights target creature you don't control. <em>(Each deals damage equal to its power to the other.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": "185",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>No matter the timeline, some legends will endure.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Epic Confrontation",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 203266.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "The List Reprints",
+    "sellers": 232.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 244.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "185",
+      "Card Type": "Sorcery",
+      "Description": "Target creature you control gets +1/+2 until end of turn. It fights target creature you don't control. <em>(Each deals damage equal to its power to the other.)</em>",
+      "Flavor": "<em>No matter the timeline, some legends will endure.</em>",
+      "Artist": "Wayne Reynolds"
+    },
+    "skus": [
+      {
+        "sku": 4268698,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268699,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268700,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268701,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268702,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

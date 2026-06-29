@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:52:31Z",
+  "tcgplayerProductId": 202867,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Alloy Myr",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.48,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Add one mana of any color to your mana pool.",
+      "powerNumber": "2",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Myr",
+      "releaseDate": null,
+      "number": "201",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>With or without witnesses, the suns continued their prismatic dance.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.37,
+    "productName": "Alloy Myr",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 202867.0,
+    "imageCount": 1.0,
+    "score": 2.0863597,
+    "setName": "The List Reprints",
+    "sellers": 125.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 136.0,
+    "lowestPrice": 0.33,
+    "medianPrice": 0.49,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "201",
+      "Card Type": "Artifact Creature — Myr",
+      "P / T": "2 / 2",
+      "Description": "T: Add one mana of any color to your mana pool.",
+      "Flavor": "<em>With or without witnesses, the suns continued their prismatic dance.</em>",
+      "Artist": "Matt Cavotta"
+    },
+    "skus": [
+      {
+        "sku": 4266707,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266708,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266709,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266710,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266711,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

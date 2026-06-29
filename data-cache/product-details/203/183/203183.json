@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:50:50Z",
+  "tcgplayerProductId": 203183,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Coiling Oracle",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.14,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
+      "powerNumber": "1",
+      "color": [
+        "Blue",
+        "Green"
+      ],
+      "fullType": "Creature — Snake Elf Druid",
+      "releaseDate": null,
+      "number": "157",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Coiling Oracle",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 203183.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "The List Reprints",
+    "sellers": 198.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 206.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "157",
+      "Card Type": "Creature — Snake Elf Druid",
+      "P / T": "1 / 1",
+      "Description": "When Coiling Oracle enters the battlefield, reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put that card into your hand.",
+      "Flavor": "<em>Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.</em>",
+      "Artist": "Mark Zug"
+    },
+    "skus": [
+      {
+        "sku": 4268283,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268284,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268285,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268286,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4268287,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

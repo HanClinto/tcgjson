@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:49:35Z",
+  "tcgplayerProductId": 581234,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Cerulean Wyvern",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.12,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying, protection from green",
+      "powerNumber": "3",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature Wyvern",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "U",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.04,
+    "productName": "Cerulean Wyvern",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 581234.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "The List Reprints",
+    "sellers": 276.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 278.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.24,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Wyvern",
+      "P / T": "3 / 3",
+      "Description": "Flying, protection from green",
+      "Artist": "Gerry Grace"
+    },
+    "skus": [
+      {
+        "sku": 8237925,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8237926,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8237927,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8237928,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8237929,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

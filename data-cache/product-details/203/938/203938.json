@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:53:16Z",
+  "tcgplayerProductId": 203938,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Divination",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.21,
+    "customAttributes": {
+      "formats": null,
+      "description": "Draw two cards.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": "51",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"The stars mark your destiny. May you accept the fate thus divulged.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Divination",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 203938.0,
+    "imageCount": 1.0,
+    "score": 1.8692317,
+    "setName": "The List Reprints",
+    "sellers": 199.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 209.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "51",
+      "Card Type": "Sorcery",
+      "Description": "Draw two cards.",
+      "Flavor": "<em>\"The stars mark your destiny. May you accept the fate thus divulged.\"</em>",
+      "Artist": "Willian Murai"
+    },
+    "skus": [
+      {
+        "sku": 4272248,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272249,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272250,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272251,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272252,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

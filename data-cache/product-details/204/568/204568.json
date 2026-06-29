@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:50:43Z",
+  "tcgplayerProductId": 204568,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Goblin Motivator",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.27,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Target creature gains haste until end of turn. <em>(It can attack and T this turn.)</em>",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Goblin Warrior",
+      "releaseDate": null,
+      "number": "143",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Small words stoke large flames.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Goblin Motivator",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 204568.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "The List Reprints",
+    "sellers": 124.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 124.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.29,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "143",
+      "Card Type": "Creature — Goblin Warrior",
+      "P / T": "1 / 1",
+      "Description": "T: Target creature gains haste until end of turn. <em>(It can attack and T this turn.)</em>",
+      "Flavor": "<em>Small words stoke large flames.</em>",
+      "Artist": "Johann Bodin"
+    },
+    "skus": [
+      {
+        "sku": 4275370,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275371,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275372,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275373,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275374,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:10:50Z",
+  "tcgplayerProductId": 269047,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Soul of Emancipation Gilded Foil",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.57,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Soul of Emancipation enters the battlefield, destroy up to three other target nonland permanents. For each of those permanents, its controller creates a 3/3 white Angel creature token with flying.",
+      "powerNumber": "5",
+      "color": [
+        "Blue",
+        "Green",
+        "White"
+      ],
+      "fullType": "Creature — Avatar",
+      "releaseDate": "2022-04-29T00:00:00Z",
+      "number": "399",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "7",
+      "rarityDbName": "R",
+      "power": "5",
+      "flavorText": "",
+      "toughnessNumber": "7",
+      "toughness": "7"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Soul of Emancipation (Gilded Foil)",
+    "setId": 3026.0,
+    "setCode": "SNC",
+    "productId": 269047.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Streets of New Capenna",
+    "sellers": 122.0,
+    "foilOnly": true,
+    "setUrlName": "Streets of New Capenna",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 124.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.57,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "399",
+      "Card Type": "Creature — Avatar",
+      "P / T": "5 / 7",
+      "Description": "When Soul of Emancipation enters the battlefield, destroy up to three other target nonland permanents. For each of those permanents, its controller creates a 3/3 white Angel creature token with flying.",
+      "Artist": "Serena Malyon"
+    },
+    "skus": [
+      {
+        "sku": 5520508,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520509,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520510,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520511,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 5520512,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

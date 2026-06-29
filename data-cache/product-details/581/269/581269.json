@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:49:37Z",
+  "tcgplayerProductId": 581269,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Disrupt",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "Counter target instant, interrupt, or sorcery spell unless its caster pays an additional 1. \r\n<br>Draw a card.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Oh, I’m sorry—did I break your concentration?</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.17,
+    "productName": "Disrupt",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 581269.0,
+    "imageCount": 1.0,
+    "score": 2.209515,
+    "setName": "The List Reprints",
+    "sellers": 138.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 139.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.35,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Interrupt ",
+      "Description": "Counter target instant, interrupt, or sorcery spell unless its caster pays an additional 1. \r\n<br>Draw a card.",
+      "Flavor": "<em>Oh, I’m sorry—did I break your concentration?</em>",
+      "Artist": "Adam Rex"
+    },
+    "skus": [
+      {
+        "sku": 8238097,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238098,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238099,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238100,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238101,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

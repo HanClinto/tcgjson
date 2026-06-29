@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:50:42Z",
+  "tcgplayerProductId": 204525,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fire Elemental",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.11,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "5",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Elemental",
+      "releaseDate": null,
+      "number": "141",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "C",
+      "power": "5",
+      "flavorText": "<em>It treads on feet of coals and strikes with the force of a volcano.</em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Fire Elemental",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 204525.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "The List Reprints",
+    "sellers": 220.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 226.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "141",
+      "Card Type": "Creature — Elemental",
+      "P / T": "5 / 4",
+      "Flavor": "<em>It treads on feet of coals and strikes with the force of a volcano.</em>",
+      "Artist": "Slawomir Maniak"
+    },
+    "skus": [
+      {
+        "sku": 4275155,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275156,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275157,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275158,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4275159,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

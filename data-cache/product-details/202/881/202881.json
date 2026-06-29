@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:50:34Z",
+  "tcgplayerProductId": 202881,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Court Homunculus",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.16,
+    "customAttributes": {
+      "formats": null,
+      "description": "Court Homunculus gets +1/+1 as long as you control another artifact.",
+      "powerNumber": "1",
+      "color": [
+        "White"
+      ],
+      "fullType": "Artifact Creature — Homunculus",
+      "releaseDate": null,
+      "number": "13",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Mages of Esper measure their wealth and status by the number of servants in their retinues.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Court Homunculus",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 202881.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "The List Reprints",
+    "sellers": 236.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 245.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.245,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "13",
+      "Card Type": "Artifact Creature — Homunculus",
+      "P / T": "1 / 1",
+      "Description": "Court Homunculus gets +1/+1 as long as you control another artifact.",
+      "Flavor": "<em>Mages of Esper measure their wealth and status by the number of servants in their retinues.</em>",
+      "Artist": "Matt Cavotta"
+    },
+    "skus": [
+      {
+        "sku": 4266777,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266778,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266779,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266780,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266781,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

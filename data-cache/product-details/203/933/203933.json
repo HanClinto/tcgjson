@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:53:16Z",
+  "tcgplayerProductId": 203933,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Diminish",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature has base power and toughness 1/1 until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "50",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Everything seems a little less ferocious when it's running from a house cat.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Diminish",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 203933.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "The List Reprints",
+    "sellers": 215.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 221.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.35,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "50",
+      "Card Type": "Instant",
+      "Description": "Target creature has base power and toughness 1/1 until end of turn.",
+      "Flavor": "<em>Everything seems a little less ferocious when it's running from a house cat.</em>",
+      "Artist": "Eric Deschamps"
+    },
+    "skus": [
+      {
+        "sku": 4272223,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272224,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272225,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272226,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4272227,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

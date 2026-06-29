@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:49:41Z",
+  "tcgplayerProductId": 284350,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ertais Meddling",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.71,
+    "customAttributes": {
+      "formats": null,
+      "description": "When target spell is successfully cast, put X delay counters on it. X cannot be 0.\r\n<br>\r\nDuring each upkeep of that spell’s caster, remove a delay counter from the spell. If the spell has no delay counters on it, it resolves.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Interrupt",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.7,
+    "productName": "Ertai's Meddling",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 284350.0,
+    "imageCount": 1.0,
+    "score": 2.139879,
+    "setName": "The List Reprints",
+    "sellers": 50.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 52.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 0.95,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Interrupt",
+      "Description": "When target spell is successfully cast, put X delay counters on it. X cannot be 0.\r\n<br>\r\nDuring each upkeep of that spell’s caster, remove a delay counter from the spell. If the spell has no delay counters on it, it resolves.",
+      "Artist": "Steve Luke"
+    },
+    "skus": [
+      {
+        "sku": 5790105,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5790106,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5790107,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5790108,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5790109,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

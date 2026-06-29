@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:49:46Z",
+  "tcgplayerProductId": 581300,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Flux",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.23,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each player chooses and discards from his or her hand any number of cards and then draws that many cards. You then draw a card. <em>(You choose first.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.14,
+    "productName": "Flux",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 581300.0,
+    "imageCount": 1.0,
+    "score": 1.9542425,
+    "setName": "The List Reprints",
+    "sellers": 185.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 186.0,
+    "lowestPrice": 0.14,
+    "medianPrice": 0.265,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Sorcery ",
+      "Description": "Each player chooses and discards from his or her hand any number of cards and then draws that many cards. You then draw a card. <em>(You choose first.)</em>",
+      "Artist": "Ted Naifeh"
+    },
+    "skus": [
+      {
+        "sku": 8238248,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238249,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238250,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238251,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238252,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

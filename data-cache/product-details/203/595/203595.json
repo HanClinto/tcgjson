@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:53:41Z",
+  "tcgplayerProductId": 203595,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Black Cat",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.26,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Black Cat dies, target opponent discards a card at random.",
+      "powerNumber": "1",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Zombie Cat",
+      "releaseDate": null,
+      "number": "86",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Its last life is spent tormenting your dreams.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Black Cat",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 203595.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "The List Reprints",
+    "sellers": 191.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 197.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.26,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "86",
+      "Card Type": "Creature — Zombie Cat",
+      "P / T": "1 / 1",
+      "Description": "When Black Cat dies, target opponent discards a card at random.",
+      "Flavor": "<em>Its last life is spent tormenting your dreams.</em>",
+      "Artist": "David Palumbo"
+    },
+    "skus": [
+      {
+        "sku": 4270343,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270344,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270345,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270346,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270347,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

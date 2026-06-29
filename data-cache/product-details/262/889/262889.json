@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:52:19Z",
+  "tcgplayerProductId": 262889,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Bedlam",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 11.08,
+    "customAttributes": {
+      "formats": null,
+      "description": "Creatures cannot block.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Enchantment",
+      "releaseDate": null,
+      "number": "175/350",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "<em>Sometimes quantity, in the absence of quality, is good enough.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 6.93,
+    "productName": "Bedlam",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 262889.0,
+    "imageCount": 1.0,
+    "score": 2.209515,
+    "setName": "The List Reprints",
+    "sellers": 83.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 88.0,
+    "lowestPrice": 6.93,
+    "medianPrice": 11.23,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "175/350",
+      "Card Type": "Enchantment",
+      "Description": "Creatures cannot block.",
+      "Flavor": "<em>Sometimes quantity, in the absence of quality, is good enough.</em>",
+      "Artist": "Mike Raabe"
+    },
+    "skus": [
+      {
+        "sku": 5423498,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5423499,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5423500,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5423501,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5423502,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

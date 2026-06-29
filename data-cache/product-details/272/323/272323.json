@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:10:20Z",
+  "tcgplayerProductId": 272323,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Treasure 013 Fish Double Sided Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.15,
+    "customAttributes": {
+      "formats": null,
+      "description": "T, Sacrifice this artifact: Add one mana of any color.\r\n<br>//<br>\r\n<strong>Fish</strong>\r\n<br>\r\nThis creature can't be blocked.",
+      "powerNumber": "1",
+      "color": [
+        "Blue",
+        "Colorless"
+      ],
+      "fullType": "Token Artifact — Treasure // Token Creature — Fish",
+      "releaseDate": "2022-04-29T00:00:00Z",
+      "number": "13 // 4",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.08,
+    "productName": "Treasure (013) // Fish Double-Sided Token",
+    "setId": 3026.0,
+    "setCode": "SNC",
+    "productId": 272323.0,
+    "imageCount": 2.0,
+    "score": 1.5314789,
+    "setName": "Streets of New Capenna",
+    "sellers": 44.0,
+    "foilOnly": false,
+    "setUrlName": "Streets of New Capenna",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 51.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.23,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "13 // 4",
+      "Card Type": "Token Artifact — Treasure // Token Creature — Fish",
+      "P / T": "1 / 1",
+      "Description": "T, Sacrifice this artifact: Add one mana of any color.\r\n<br>//<br>\r\n<strong>Fish</strong>\r\n<br>\r\nThis creature can't be blocked.",
+      "Artist": "Nadia Hurianova // Stella Spente"
+    },
+    "skus": [
+      {
+        "sku": 5594501,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5594502,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5594503,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5594504,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 5594505,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:52:32Z",
+  "tcgplayerProductId": 582815,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Boggart Ram Gang",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.15,
+    "customAttributes": {
+      "formats": null,
+      "description": "Haste\r\n<br>\r\nWither <em>(This deals damage to creatures in the form of -1/-1 counters.)</em>",
+      "powerNumber": "3",
+      "color": [
+        "Green",
+        "Red"
+      ],
+      "fullType": "Creature — Goblin Warrior",
+      "releaseDate": null,
+      "number": "203/301",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": "3",
+      "flavorText": "<em>\"We're going to need a bigger gate.\"<br>—Bowen, Barrenton guardcaptain</em>",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Boggart Ram-Gang",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 582815.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "The List Reprints",
+    "sellers": 222.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 223.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.24,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "203/301",
+      "Card Type": "Creature — Goblin Warrior",
+      "P / T": "3 / 3",
+      "Description": "Haste\r\n<br>\r\nWither <em>(This deals damage to creatures in the form of -1/-1 counters.)</em>",
+      "Flavor": "<em>\"We're going to need a bigger gate.\"<br>—Bowen, Barrenton guardcaptain</em>",
+      "Artist": "Dave Allsop"
+    },
+    "skus": [
+      {
+        "sku": 8246376,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246377,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246378,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246379,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246380,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

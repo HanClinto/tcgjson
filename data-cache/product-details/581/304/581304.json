@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:50:42Z",
+  "tcgplayerProductId": 581304,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Force Spike",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Counter target spell unless its controller pays 1.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "14/90",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"I don't</em> think <em>so.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.75,
+    "productName": "Force Spike",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 581304.0,
+    "imageCount": 1.0,
+    "score": 2.4969296,
+    "setName": "The List Reprints",
+    "sellers": 43.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 43.0,
+    "lowestPrice": 0.31,
+    "medianPrice": 0.97,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "14/90",
+      "Card Type": "Instant",
+      "Description": "Counter target spell unless its controller pays 1.",
+      "Flavor": "<em>\"I don't</em> think <em>so.\"</em>",
+      "Artist": "Nelson DeCastro"
+    },
+    "skus": [
+      {
+        "sku": 8238268,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238269,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238270,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238271,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8238272,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

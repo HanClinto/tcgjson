@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:53:48Z",
+  "tcgplayerProductId": 204248,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fungal Infection",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gets -1/-1 until end of turn. Create a 1/1 green Saproling creature token.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "94",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>To thallids, the whole world is just a pile of mulch to grow saprolings in.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Fungal Infection",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 204248.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "The List Reprints",
+    "sellers": 193.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 204.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "94",
+      "Card Type": "Instant",
+      "Description": "Target creature gets -1/-1 until end of turn. Create a 1/1 green Saproling creature token.",
+      "Flavor": "<em>To thallids, the whole world is just a pile of mulch to grow saprolings in.</em>",
+      "Artist": "Filip Burburan"
+    },
+    "skus": [
+      {
+        "sku": 4273787,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4273788,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4273789,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4273790,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4273791,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

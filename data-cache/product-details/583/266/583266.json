@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:49:46Z",
+  "tcgplayerProductId": 583266,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Flame Elemental",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.14,
+    "customAttributes": {
+      "formats": null,
+      "description": "R, tap, Sacrifice Flame Elemental: Flame Elemental deals an amount of damage equal to its power to target creature.",
+      "powerNumber": "3",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature Elemental",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Flame Elemental",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 583266.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "The List Reprints",
+    "sellers": 227.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 232.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.24,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Elemental",
+      "P / T": "3 / 2",
+      "Description": "R, tap, Sacrifice Flame Elemental: Flame Elemental deals an amount of damage equal to its power to target creature.",
+      "Artist": "Richard Kane Ferguson"
+    },
+    "skus": [
+      {
+        "sku": 8248651,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8248652,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8248653,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8248654,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8248655,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

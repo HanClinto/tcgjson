@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:49:46Z",
+  "tcgplayerProductId": 582684,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Feral Shadow",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.1,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "2",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Summon Creature",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>Not all shadows are cast by light—some are cast by darkness.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Feral Shadow",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 582684.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "The List Reprints",
+    "sellers": 262.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 265.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.23,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Summon Creature",
+      "P / T": "2 / 1",
+      "Description": "Flying",
+      "Flavor": "<em>Not all shadows are cast by light—some are cast by darkness.</em>",
+      "Artist": "Colin MacNeil"
+    },
+    "skus": [
+      {
+        "sku": 8245681,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8245682,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8245683,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8245684,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8245685,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:52:40Z",
+  "tcgplayerProductId": 582802,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ancient Lumberknot",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.22,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.",
+      "powerNumber": "1",
+      "color": [
+        "Black",
+        "Green"
+      ],
+      "fullType": "Creature — Treefolk",
+      "releaseDate": null,
+      "number": "230/277",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "1",
+      "flavorText": "<em>The soft creak of trees in the wind is not always cause for comfort.</em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.19,
+    "productName": "Ancient Lumberknot",
+    "setId": 2715.0,
+    "setCode": "LIST",
+    "productId": 582802.0,
+    "imageCount": 1.0,
+    "score": 1.8692317,
+    "setName": "The List Reprints",
+    "sellers": 136.0,
+    "foilOnly": false,
+    "setUrlName": "The List Reprints",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 138.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.27,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "230/277",
+      "Card Type": "Creature — Treefolk",
+      "P / T": "1 / 4",
+      "Description": "Each creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.",
+      "Flavor": "<em>The soft creak of trees in the wind is not always cause for comfort.</em>",
+      "Artist": "Nicholas Gregory"
+    },
+    "skus": [
+      {
+        "sku": 8246311,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246312,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246313,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246314,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8246315,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}
