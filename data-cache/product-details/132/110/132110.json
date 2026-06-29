@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:34Z",
+  "tcgplayerProductId": 132110,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Orzhov Signet",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.9,
+    "customAttributes": {
+      "formats": null,
+      "description": "1, T: Add WB to your mana pool.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "223",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>The form of the sigil is just as important as the sigil itself. If it's carried on a medallion, its bearer is a master. If it's tattooed on the body, its bearer is a slave.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.75,
+    "productName": "Orzhov Signet",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132110.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Commander Anthology",
+    "sellers": 56.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 57.0,
+    "lowestPrice": 0.73,
+    "medianPrice": 0.99,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "223",
+      "Card Type": "Artifact",
+      "Description": "1, T: Add WB to your mana pool.",
+      "Flavor": "<em>The form of the sigil is just as important as the sigil itself. If it's carried on a medallion, its bearer is a master. If it's tattooed on the body, its bearer is a slave.</em>",
+      "Artist": "Greg Hildebrandt"
+    },
+    "skus": [
+      {
+        "sku": 3372219,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372220,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372221,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372222,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372223,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

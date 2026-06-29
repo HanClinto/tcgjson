@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:49Z",
+  "tcgplayerProductId": 122280,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Demon Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "5",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Token Creature — Demon",
+      "releaseDate": "2016-09-02T00:00:00Z",
+      "number": "72",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "5",
+      "flavorText": "",
+      "toughnessNumber": "5",
+      "toughness": "5"
+    },
+    "lowestPriceWithShipping": 0.14,
+    "productName": "Demon Token",
+    "setId": 1835.0,
+    "setCode": "DDR",
+    "productId": 122280.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Duel Decks: Nissa vs. Ob Nixilis",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Nissa vs Ob Nixilis",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 115.0,
+    "lowestPrice": 0.11,
+    "medianPrice": 0.475,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "72",
+      "Card Type": "Token Creature — Demon",
+      "P / T": "5 / 5",
+      "Description": "Flying",
+      "Artist": "Kev Walker"
+    },
+    "skus": [
+      {
+        "sku": 3198119,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198120,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198121,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198122,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198123,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

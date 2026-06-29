@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:46Z",
+  "tcgplayerProductId": 216642,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Goblin Instigator",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.38,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Goblin Instigator enters the battlefield, create a 1/1 red Goblin creature token.",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Goblin Rogue",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "327",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>\"We can take 'em. You go first!\"</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.22,
+    "productName": "Goblin Instigator",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216642.0,
+    "imageCount": 1.0,
+    "score": 2.8909795,
+    "setName": "Jumpstart",
+    "sellers": 176.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 189.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "327",
+      "Card Type": "Creature — Goblin Rogue",
+      "P / T": "1 / 1",
+      "Description": "When Goblin Instigator enters the battlefield, create a 1/1 red Goblin creature token.",
+      "Flavor": "<em>\"We can take 'em. You go first!\"</em>",
+      "Artist": "Filip Burburan"
+    },
+    "skus": [
+      {
+        "sku": 4478609,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478610,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478611,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478612,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478613,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

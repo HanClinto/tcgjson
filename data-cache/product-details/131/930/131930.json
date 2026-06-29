@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:42Z",
+  "tcgplayerProductId": 131930,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mountain 305",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.6,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Mountain",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "305",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.26,
+    "productName": "Mountain (305)",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 131930.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Commander Anthology",
+    "sellers": 24.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 28.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.59,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "305",
+      "Card Type": "Basic Land — Mountain",
+      "Artist": "John Avon"
+    },
+    "skus": [
+      {
+        "sku": 3371314,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371315,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371316,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371317,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371318,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

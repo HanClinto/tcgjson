@@ -1,0 +1,92 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:15:03Z",
+  "tcgplayerProductId": 96922,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "The Harvester",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 0.4,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Draw a card, then discard a card.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Hero",
+      "releaseDate": null,
+      "number": "2",
+      "cardType": null,
+      "rarityDbName": "S",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "The Harvester",
+    "setId": 1524.0,
+    "setCode": "HERO",
+    "productId": 96922.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Hero's Path Promos",
+    "sellers": 66.0,
+    "foilOnly": false,
+    "setUrlName": "Heros Path Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 75.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "#": "2",
+      "Card Type": "Hero",
+      "Description": "T: Draw a card, then discard a card.",
+      "Artist": "Chuck Lukacs"
+    },
+    "skus": [
+      {
+        "sku": 2828049,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2828050,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2828051,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2828052,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2828053,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

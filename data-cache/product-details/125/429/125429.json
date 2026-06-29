@@ -1,0 +1,102 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:19Z",
+  "tcgplayerProductId": 125429,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fusion Elemental",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "8",
+      "color": [
+        "Black",
+        "Blue",
+        "Green",
+        "Red",
+        "White"
+      ],
+      "fullType": "Creature — Elemental",
+      "releaseDate": "2016-11-25T00:00:00Z",
+      "number": "93",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "U",
+      "power": "8",
+      "flavorText": "<em>As the shards merged into the Maelstrom, their mana energies fused into new monstrosities.</em>",
+      "toughnessNumber": "8",
+      "toughness": "8"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Fusion Elemental",
+    "setId": 1793.0,
+    "setCode": "PCA",
+    "productId": 125429.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Planechase Anthology",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 117.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.35,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "93",
+      "Card Type": "Creature — Elemental",
+      "P / T": "8 / 8",
+      "Flavor": "<em>As the shards merged into the Maelstrom, their mana energies fused into new monstrosities.</em>",
+      "Artist": "Michael Komarck"
+    },
+    "skus": [
+      {
+        "sku": 3252180,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252181,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252182,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252183,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252184,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

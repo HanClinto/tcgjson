@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:26:52Z",
+  "tcgplayerProductId": 125325,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Chief of the Foundry",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 0.36,
+    "customAttributes": {
+      "formats": null,
+      "description": "Other artifacts you control get +1/+1.",
+      "powerNumber": "2",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Construct",
+      "releaseDate": "2017-10-20T00:00:00Z",
+      "number": "200",
+      "cardType": [
+        "Artifact",
+        "Creature",
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "P",
+      "power": "2",
+      "flavorText": "<i>The foundries of Kaladesh run like clockwork under the supervision of their formidable overseers.",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Chief of the Foundry",
+    "setId": 2084.0,
+    "setCode": "GBP",
+    "productId": 125325.0,
+    "imageCount": 1.0,
+    "score": 2.25042,
+    "setName": "Gift Boxes and Promos",
+    "sellers": 149.0,
+    "foilOnly": true,
+    "setUrlName": "Gift Boxes and Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 172.0,
+    "lowestPrice": 0.18,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "200",
+      "Card Type": "Artifact Creature — Construct",
+      "P / T": "2 / 3",
+      "Description": "Other artifacts you control get +1/+1.",
+      "Flavor": "<i>The foundries of Kaladesh run like clockwork under the supervision of their formidable overseers."
+    },
+    "skus": [
+      {
+        "sku": 3251495,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3251496,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3251497,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3251498,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3251499,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

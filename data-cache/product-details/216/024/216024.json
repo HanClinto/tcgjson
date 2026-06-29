@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:53Z",
+  "tcgplayerProductId": 216024,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Explore",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.31,
+    "customAttributes": {
+      "formats": null,
+      "description": "You may play an additional land this turn.\r\n<br>Draw a card.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "393",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>An explorer’s reward is a view of tomorrow’s possibilities.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Explore",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216024.0,
+    "imageCount": 1.0,
+    "score": 2.4742162,
+    "setName": "Jumpstart",
+    "sellers": 281.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 310.0,
+    "lowestPrice": 0.19,
+    "medianPrice": 0.35,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "393",
+      "Card Type": "Sorcery",
+      "Description": "You may play an additional land this turn.\r\n<br>Draw a card.",
+      "Flavor": "<em>An explorer’s reward is a view of tomorrow’s possibilities.</em>",
+      "Artist": "John Avon"
+    },
+    "skus": [
+      {
+        "sku": 4475131,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475132,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475133,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475134,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475135,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

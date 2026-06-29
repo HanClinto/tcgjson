@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:00Z",
+  "tcgplayerProductId": 132328,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Reckless Scholar",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.24,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Target player draws a card, then discards a card.",
+      "powerNumber": "2",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature — Human Wizard",
+      "releaseDate": "2017-06-16T00:00:00Z",
+      "number": "27",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "<em>Progress comes at a price.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Reckless Scholar",
+    "setId": 1904.0,
+    "setCode": "AC2",
+    "productId": 132328.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Archenemy: Nicol Bolas",
+    "sellers": 108.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy Nicol Bolas",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 116.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.3,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "27",
+      "Card Type": "Creature — Human Wizard",
+      "P / T": "2 / 1",
+      "Description": "T: Target player draws a card, then discards a card.",
+      "Flavor": "<em>Progress comes at a price.</em>",
+      "Artist": "Steve Prescott"
+    },
+    "skus": [
+      {
+        "sku": 3373313,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373314,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373315,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373316,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373317,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:24Z",
+  "tcgplayerProductId": 218167,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Doctor Theme Card",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.09,
+    "customAttributes": {
+      "formats": null,
+      "description": "<em>(This Theme Card can only be found in the Doctor-themed packs.)</em>",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Theme Token Card",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "10",
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Doctor Theme Card",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 218167.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Jumpstart",
+    "sellers": 143.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 150.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "10",
+      "Card Type": "Theme Token Card",
+      "Description": "<em>(This Theme Card can only be found in the Doctor-themed packs.)</em>"
+    },
+    "skus": [
+      {
+        "sku": 4499122,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499123,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499124,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499125,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499126,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

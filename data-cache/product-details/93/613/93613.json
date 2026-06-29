@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:13:00Z",
+  "tcgplayerProductId": 93613,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Plains 028",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Plains",
+      "releaseDate": "2014-12-05T00:00:00Z",
+      "number": "28",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Plains (028)",
+    "setId": 1490.0,
+    "setCode": "DD3",
+    "productId": 93613.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Duel Decks: Anthology",
+    "sellers": 32.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 38.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "28",
+      "Card Type": "Basic Land — Plains",
+      "Artist": "Rob Alexander"
+    },
+    "skus": [
+      {
+        "sku": 1265960,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265964,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265962,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265963,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265961,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

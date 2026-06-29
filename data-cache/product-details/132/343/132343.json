@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:00Z",
+  "tcgplayerProductId": 132343,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Vision Skeins",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.68,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each player draws 2 cards.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2017-06-16T00:00:00Z",
+      "number": "29",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"I could see in the other mage's eyes that he'd thought of it too. Then it became a race to exploit the knowledge first.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.48,
+    "productName": "Vision Skeins",
+    "setId": 1904.0,
+    "setCode": "AC2",
+    "productId": 132343.0,
+    "imageCount": 1.0,
+    "score": 2.164353,
+    "setName": "Archenemy: Nicol Bolas",
+    "sellers": 104.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy Nicol Bolas",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 115.0,
+    "lowestPrice": 0.48,
+    "medianPrice": 0.75,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "29",
+      "Card Type": "Instant",
+      "Description": "Each player draws 2 cards.",
+      "Flavor": "<em>\"I could see in the other mage's eyes that he'd thought of it too. Then it became a race to exploit the knowledge first.\"</em>",
+      "Artist": "Aleksi Briclot"
+    },
+    "skus": [
+      {
+        "sku": 3373388,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373389,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373390,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373391,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373392,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

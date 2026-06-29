@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:11Z",
+  "tcgplayerProductId": 125402,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Concentrate",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.23,
+    "customAttributes": {
+      "formats": null,
+      "description": "Draw three cards.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2016-11-25T00:00:00Z",
+      "number": "16",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>\"The treasure in my mind is greater than any worldly glory.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.17,
+    "productName": "Concentrate",
+    "setId": 1793.0,
+    "setCode": "PCA",
+    "productId": 125402.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Planechase Anthology",
+    "sellers": 103.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 113.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.35,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "16",
+      "Card Type": "Sorcery",
+      "Description": "Draw three cards.",
+      "Flavor": "<em>\"The treasure in my mind is greater than any worldly glory.\"</em>",
+      "Artist": "rk post"
+    },
+    "skus": [
+      {
+        "sku": 3252045,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252046,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252047,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252048,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252049,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

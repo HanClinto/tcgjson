@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:48Z",
+  "tcgplayerProductId": 216480,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lightning Diadem",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.13,
+    "customAttributes": {
+      "formats": null,
+      "description": "Enchant creature\r\n<br>When Lightning Diadem enters the battlefield, it deals 2 damage to any target.<br>Enchanted creature gets +2/+2.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Enchantment — Aura",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "343",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "6",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"I fight for Keranos and for mortals. I see no contradiction.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Lightning Diadem",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216480.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Jumpstart",
+    "sellers": 339.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 360.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "343",
+      "Card Type": "Enchantment — Aura",
+      "Description": "Enchant creature\r\n<br>When Lightning Diadem enters the battlefield, it deals 2 damage to any target.<br>Enchanted creature gets +2/+2.",
+      "Flavor": "<em>\"I fight for Keranos and for mortals. I see no contradiction.\"</em>",
+      "Artist": "Ryan Alexander Lee"
+    },
+    "skus": [
+      {
+        "sku": 4477906,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477907,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477908,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477909,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477910,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

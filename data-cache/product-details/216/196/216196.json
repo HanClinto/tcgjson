@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:37Z",
+  "tcgplayerProductId": 216196,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Funeral Rites",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.33,
+    "customAttributes": {
+      "formats": null,
+      "description": "You draw two cards, lose 2 life, then mill two cards. <em>(To mill a card, put the top card of your library into your graveyard.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "235",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Funerary masks help the newly dead resist the erosion of memory and identity in the Underworld.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Funeral Rites",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216196.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Jumpstart",
+    "sellers": 366.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 397.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.3,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "235",
+      "Card Type": "Sorcery",
+      "Description": "You draw two cards, lose 2 life, then mill two cards. <em>(To mill a card, put the top card of your library into your graveyard.)</em>",
+      "Flavor": "<em>Funerary masks help the newly dead resist the erosion of memory and identity in the Underworld.</em>",
+      "Artist": "John Stanko"
+    },
+    "skus": [
+      {
+        "sku": 4476500,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476501,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476502,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476503,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476504,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:22:29Z",
+  "tcgplayerProductId": 38374,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Gruul Guildmage",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 0.39,
+    "customAttributes": {
+      "formats": null,
+      "description": "<em>(R/G can be paid with either R or G.)</em>\r\n<br>3R, Sacrifice a land: Gruul Guildmage deals 2 damage to target player.\r\n<br>3G: Target creature gets +2/+2 until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Green",
+        "Red"
+      ],
+      "fullType": "Creature — Human Shaman",
+      "releaseDate": null,
+      "number": "144",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "2",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.17,
+    "productName": "Gruul Guildmage",
+    "setId": 1874.0,
+    "setCode": "LARP",
+    "productId": 38374.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Launch Party & Release Event Promos",
+    "sellers": 72.0,
+    "foilOnly": true,
+    "setUrlName": "Launch Party and Release Event Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 102.0,
+    "lowestPrice": 0.17,
+    "medianPrice": 0.53,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "144",
+      "Card Type": "Creature — Human Shaman",
+      "P / T": " / 2",
+      "Description": "<em>(R/G can be paid with either R or G.)</em>\r\n<br>3R, Sacrifice a land: Gruul Guildmage deals 2 damage to target player.\r\n<br>3G: Target creature gets +2/+2 until end of turn.",
+      "Flavor": "2",
+      "Artist": "Paolo Parente"
+    },
+    "skus": [
+      {
+        "sku": 407787,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 845178,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 805256,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 825217,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 785295,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

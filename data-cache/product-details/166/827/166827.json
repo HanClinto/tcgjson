@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:32:10Z",
+  "tcgplayerProductId": 166827,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Gravedigger",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.06,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+      "powerNumber": "2",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Zombie",
+      "releaseDate": "2018-06-08T00:00:00Z",
+      "number": "66",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>Only a thin layer of dirt separates civilization from an undead apocalypse.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Gravedigger",
+    "setId": 2246.0,
+    "setCode": "CM2",
+    "productId": 166827.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Commander Anthology Volume II",
+    "sellers": 118.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology Volume II",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 128.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "66",
+      "Card Type": "Creature — Zombie",
+      "P / T": "2 / 2",
+      "Description": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+      "Flavor": "<em>Only a thin layer of dirt separates civilization from an undead apocalypse.</em>",
+      "Artist": "Dermot Power"
+    },
+    "skus": [
+      {
+        "sku": 3744721,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744722,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744723,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744724,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744725,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

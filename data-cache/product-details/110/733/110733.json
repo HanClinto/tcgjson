@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:16:33Z",
+  "tcgplayerProductId": 110733,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mana Confluence",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 178.77,
+    "customAttributes": {
+      "formats": null,
+      "description": "T, Pay 1 life: Add one mana of any color to your mana pool.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Land",
+      "releaseDate": "2015-10-02T00:00:00Z",
+      "number": "42",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "M",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 130.0,
+    "productName": "Mana Confluence",
+    "setId": 1649.0,
+    "setCode": "EXP",
+    "productId": 110733.0,
+    "imageCount": 1.0,
+    "score": 1.8692317,
+    "setName": "Zendikar Expeditions",
+    "sellers": 23.0,
+    "foilOnly": true,
+    "setUrlName": "Zendikar Expeditions",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 26.0,
+    "lowestPrice": 130.0,
+    "medianPrice": 200.0,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "42",
+      "Card Type": "Land",
+      "Description": "T, Pay 1 life: Add one mana of any color to your mana pool.",
+      "Artist": "Howard Lyon"
+    },
+    "skus": [
+      {
+        "sku": 3042222,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3042223,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3042224,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3042225,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3042226,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

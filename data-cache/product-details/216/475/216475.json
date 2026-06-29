@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:48Z",
+  "tcgplayerProductId": 216475,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lightning Elemental",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.09,
+    "customAttributes": {
+      "formats": null,
+      "description": "Haste",
+      "powerNumber": "4",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Elemental",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "344",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": "4",
+      "flavorText": "<em>\"Oh, it's easy enough to kill, but I'm not going anywhere near it.\" –Norin the Wary</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Lightning Elemental",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216475.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Jumpstart",
+    "sellers": 338.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 354.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "344",
+      "Card Type": "Creature — Elemental",
+      "P / T": "4 / 1",
+      "Description": "Haste",
+      "Flavor": "<em>\"Oh, it's easy enough to kill, but I'm not going anywhere near it.\" –Norin the Wary</em>",
+      "Artist": "Key Walker"
+    },
+    "skus": [
+      {
+        "sku": 4477893,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477894,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477895,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477896,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4477897,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

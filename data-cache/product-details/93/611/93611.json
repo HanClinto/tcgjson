@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:13:08Z",
+  "tcgplayerProductId": 93611,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Spirit Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "1",
+      "color": [
+        "White"
+      ],
+      "fullType": "Token Creature — Spirit",
+      "releaseDate": "2014-12-05T00:00:00Z",
+      "number": "5",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Spirit Token",
+    "setId": 1490.0,
+    "setCode": "DD3",
+    "productId": 93611.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Duel Decks: Anthology",
+    "sellers": 52.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 62.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "5",
+      "Card Type": "Token Creature — Spirit",
+      "P / T": "1 / 1",
+      "Description": "Flying",
+      "Artist": "Luca Zontini"
+    },
+    "skus": [
+      {
+        "sku": 1265950,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265954,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265952,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265953,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1265951,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

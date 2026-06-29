@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:10:58Z",
+  "tcgplayerProductId": 79629,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lava Burst",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.64,
+    "customAttributes": {
+      "formats": null,
+      "description": "Lava Burst deals X damage to target creature or player. If Lava Burst would deal damage to a creature, that damage can't be prevented or dealt instead to another creature or player.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2001-12-01T00:00:00Z",
+      "number": "16",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>“Overkill? This isn’t a game of kick-the-ouphe!”<br>—Jaya Ballard, Task Mage</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Lava Burst",
+    "setId": 1311.0,
+    "setCode": "DKM",
+    "productId": 79629.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Deckmasters Garfield vs Finkel",
+    "sellers": 118.0,
+    "foilOnly": false,
+    "setUrlName": "Deckmasters Garfield vs Finkel",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 149.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.64,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "16",
+      "Card Type": "Sorcery",
+      "Description": "Lava Burst deals X damage to target creature or player. If Lava Burst would deal damage to a creature, that damage can't be prevented or dealt instead to another creature or player.",
+      "Flavor": "<em>“Overkill? This isn’t a game of kick-the-ouphe!”<br>—Jaya Ballard, Task Mage</em>",
+      "Artist": "Tom Wänerstrand"
+    },
+    "skus": [
+      {
+        "sku": 1168802,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168803,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168804,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168805,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168806,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

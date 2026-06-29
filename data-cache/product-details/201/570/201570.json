@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:39:14Z",
+  "tcgplayerProductId": 201570,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Carrion Screecher",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.13,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "3",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Zombie Bird",
+      "releaseDate": "2019-11-15T00:00:00Z",
+      "number": "27",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": "3",
+      "flavorText": "<em>The banished have come home to roost.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Carrion Screecher",
+    "setId": 2562.0,
+    "setCode": "GN2",
+    "productId": 201570.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Magic Game Night 2019",
+    "sellers": 77.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Game Night 2019",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 84.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "27",
+      "Card Type": "Creature — Zombie Bird",
+      "P / T": "3 / 1",
+      "Description": "Flying",
+      "Flavor": "<em>The banished have come home to roost.</em>",
+      "Artist": "Tomasz Jedruszek"
+    },
+    "skus": [
+      {
+        "sku": 4258950,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4258951,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4258952,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4258953,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4258954,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

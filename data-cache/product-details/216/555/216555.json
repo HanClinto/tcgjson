@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:25Z",
+  "tcgplayerProductId": 216555,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Knightly Valor",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.22,
+    "customAttributes": {
+      "formats": null,
+      "description": "Enchant creature\r\n<br>When Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance.\r\n<br>Enchanted creature gets +2/+2 and has vigilance.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Enchantment — Aura",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "115",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Knightly Valor",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216555.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Jumpstart",
+    "sellers": 323.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 342.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.225,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "115",
+      "Card Type": "Enchantment — Aura",
+      "Description": "Enchant creature\r\n<br>When Knightly Valor enters the battlefield, create a 2/2 white Knight creature token with vigilance.\r\n<br>Enchanted creature gets +2/+2 and has vigilance.",
+      "Artist": "Matt Stewart"
+    },
+    "skus": [
+      {
+        "sku": 4478174,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478175,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478176,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478177,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478178,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

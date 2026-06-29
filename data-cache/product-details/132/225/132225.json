@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:29Z",
+  "tcgplayerProductId": 132225,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wood Elves",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.47,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "powerNumber": "1",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Elf Scout",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "170",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Every branch a crossroads, every vine a swift steed.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Wood Elves",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132225.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Commander Anthology",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 110.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "170",
+      "Card Type": "Creature — Elf Scout",
+      "P / T": "1 / 1",
+      "Description": "When Wood Elves enters the battlefield, search your library for a Forest card and put that card onto the battlefield. Then shuffle your library.",
+      "Flavor": "<em>Every branch a crossroads, every vine a swift steed.</em>",
+      "Artist": "Christopher Moeller"
+    },
+    "skus": [
+      {
+        "sku": 3372794,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372795,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372796,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372797,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372798,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

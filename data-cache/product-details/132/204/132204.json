@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:28Z",
+  "tcgplayerProductId": 132204,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Verdant Force",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.39,
+    "customAttributes": {
+      "formats": null,
+      "description": "At the beginning of each upkeep, create a 1/1 green Saproling creature token.",
+      "powerNumber": "7",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Elemental",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "161",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "8",
+      "rarityDbName": "R",
+      "power": "7",
+      "flavorText": "<em>Left to itself, nature overflows any container, overthrows any restriction, and overreaches any boundary.</em>",
+      "toughnessNumber": "7",
+      "toughness": "7"
+    },
+    "lowestPriceWithShipping": 0.29,
+    "productName": "Verdant Force",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132204.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Commander Anthology",
+    "sellers": 98.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 109.0,
+    "lowestPrice": 0.29,
+    "medianPrice": 0.455,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "161",
+      "Card Type": "Creature — Elemental",
+      "P / T": "7 / 7",
+      "Description": "At the beginning of each upkeep, create a 1/1 green Saproling creature token.",
+      "Flavor": "<em>Left to itself, nature overflows any container, overthrows any restriction, and overreaches any boundary.</em>",
+      "Artist": "DiTerlizzi"
+    },
+    "skus": [
+      {
+        "sku": 3372689,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372690,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372691,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372692,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372693,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

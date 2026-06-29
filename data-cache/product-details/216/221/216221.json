@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:47:01Z",
+  "tcgplayerProductId": 216221,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Runed Servitor",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.07,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Runed Servitor dies, each player draws a card.",
+      "powerNumber": "2",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Construct",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "481",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>Scholars had puzzled for centuries over the ruins at Tal Terig. Its secrets had always lived within one rune-carved head.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Runed Servitor",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216221.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Jumpstart",
+    "sellers": 412.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 446.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "481",
+      "Card Type": "Artifact Creature — Construct",
+      "P / T": "2 / 2",
+      "Description": "When Runed Servitor dies, each player draws a card.",
+      "Flavor": "<em>Scholars had puzzled for centuries over the ruins at Tal Terig. Its secrets had always lived within one rune-carved head.</em>",
+      "Artist": "Mike Bierek"
+    },
+    "skus": [
+      {
+        "sku": 4476678,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476679,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476680,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476681,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476682,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

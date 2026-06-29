@@ -1,0 +1,101 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:42Z",
+  "tcgplayerProductId": 121174,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Memnarch",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 5.07,
+    "customAttributes": {
+      "formats": null,
+      "description": "1UU: Target permanent becomes an artifact in addition to its other types.\r\n<br>\r\n3U: Gain control of target artifact.",
+      "powerNumber": "4",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Legendary Artifact Creature — Wizard",
+      "releaseDate": "2016-08-19T00:00:00Z",
+      "number": "7",
+      "cardType": [
+        "Legendary",
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "7",
+      "rarityDbName": "M",
+      "power": "4",
+      "flavorText": "<em>\"An imperfection in the perfect world? We can't allow that.\"</em>",
+      "toughnessNumber": "5",
+      "toughness": "5"
+    },
+    "lowestPriceWithShipping": 3.51,
+    "productName": "Memnarch",
+    "setId": 1821.0,
+    "setCode": "V16",
+    "productId": 121174.0,
+    "imageCount": 1.0,
+    "score": 2.209515,
+    "setName": "From the Vault: Lore",
+    "sellers": 75.0,
+    "foilOnly": true,
+    "setUrlName": "From the Vault Lore",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 83.0,
+    "lowestPrice": 3.29,
+    "medianPrice": 5.2,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "7",
+      "Card Type": "Legendary Artifact Creature — Wizard",
+      "P / T": "4 / 5",
+      "Description": "1UU: Target permanent becomes an artifact in addition to its other types.\r\n<br>\r\n3U: Gain control of target artifact.",
+      "Flavor": "<em>\"An imperfection in the perfect world? We can't allow that.\"</em>",
+      "Artist": "Carl Critchlow"
+    },
+    "skus": [
+      {
+        "sku": 3190881,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3190882,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3190883,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3190884,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3190885,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

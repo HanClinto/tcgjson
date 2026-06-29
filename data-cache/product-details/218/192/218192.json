@@ -1,0 +1,91 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:45Z",
+  "tcgplayerProductId": 218192,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Reanimated Theme Card",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.12,
+    "customAttributes": {
+      "formats": null,
+      "description": "<em>(This Theme Card can only be found in the Reanimated-themed packs.)</em>",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Theme Token Card",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "31",
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Reanimated Theme Card",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 218192.0,
+    "imageCount": 1.0,
+    "score": 2.025306,
+    "setName": "Jumpstart",
+    "sellers": 122.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 128.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "31",
+      "Card Type": "Theme Token Card",
+      "Description": "<em>(This Theme Card can only be found in the Reanimated-themed packs.)</em>"
+    },
+    "skus": [
+      {
+        "sku": 4499227,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499228,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499229,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499230,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499231,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

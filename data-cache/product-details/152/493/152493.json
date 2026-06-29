@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:26:48Z",
+  "tcgplayerProductId": 152493,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Rush of Adrenaline",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.22,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gets +2/+1 and gains trample until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2017-11-24T00:00:00Z",
+      "number": "28",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Scarecrows only go so far in sending the message to stay away.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.08,
+    "productName": "Rush of Adrenaline",
+    "setId": 2077.0,
+    "setCode": "E02",
+    "productId": 152493.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Explorers of Ixalan",
+    "sellers": 124.0,
+    "foilOnly": false,
+    "setUrlName": "Explorers of Ixalan",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 133.0,
+    "lowestPrice": 0.04,
+    "medianPrice": 0.22,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "28",
+      "Card Type": "Instant",
+      "Description": "Target creature gets +2/+1 and gains trample until end of turn.",
+      "Flavor": "<em>Scarecrows only go so far in sending the message to stay away.</em>",
+      "Artist": "Chris Rallis"
+    },
+    "skus": [
+      {
+        "sku": 3542301,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542302,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542303,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542304,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542305,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

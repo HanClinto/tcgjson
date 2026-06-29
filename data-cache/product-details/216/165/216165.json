@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:29Z",
+  "tcgplayerProductId": 216165,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Exclude",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.29,
+    "customAttributes": {
+      "formats": null,
+      "description": "Counter target creature spell.\r\n<br>Draw a card.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "152",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>“Terrifying, but thankfully temporary.” <br>—Teferi</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.06,
+    "productName": "Exclude",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216165.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Jumpstart",
+    "sellers": 195.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 207.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.255,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "152",
+      "Card Type": "Instant",
+      "Description": "Counter target creature spell.\r\n<br>Draw a card.",
+      "Flavor": "<em>“Terrifying, but thankfully temporary.” <br>—Teferi</em>",
+      "Artist": "Jehan Choo"
+    },
+    "skus": [
+      {
+        "sku": 4476253,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476254,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476255,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476256,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476257,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:36Z",
+  "tcgplayerProductId": 131998,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Command Tower",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.39,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Add to your mana pool one mana of any color in your commander's color identity.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Land",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "245",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>When defeat is near and guidance is scarce, all eyes look in one direction.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Command Tower",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 131998.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Commander Anthology",
+    "sellers": 110.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 120.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 0.405,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "245",
+      "Card Type": "Land",
+      "Description": "T: Add to your mana pool one mana of any color in your commander's color identity.",
+      "Flavor": "<em>When defeat is near and guidance is scarce, all eyes look in one direction.</em>",
+      "Artist": "Ryan Yee"
+    },
+    "skus": [
+      {
+        "sku": 3371659,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371660,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371661,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371662,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371663,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

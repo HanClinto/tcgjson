@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:31:58Z",
+  "tcgplayerProductId": 166927,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ruby Medallion",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 12.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "Red spells you cast cost 1 less to cast.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact",
+      "releaseDate": "2018-06-08T00:00:00Z",
+      "number": "212",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 12.35,
+    "productName": "Ruby Medallion",
+    "setId": 2246.0,
+    "setCode": "CM2",
+    "productId": 166927.0,
+    "imageCount": 1.0,
+    "score": 2.1139433,
+    "setName": "Commander Anthology Volume II",
+    "sellers": 28.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology Volume II",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 31.0,
+    "lowestPrice": 12.24,
+    "medianPrice": 13.725,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "212",
+      "Card Type": "Artifact",
+      "Description": "Red spells you cast cost 1 less to cast.",
+      "Artist": "Daniel Ljunggren"
+    },
+    "skus": [
+      {
+        "sku": 3745221,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745222,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745223,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745224,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745225,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

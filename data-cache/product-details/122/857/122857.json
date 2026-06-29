@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:51Z",
+  "tcgplayerProductId": 122857,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Painters Servant",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 203.01,
+    "customAttributes": {
+      "formats": null,
+      "description": "As Painter's Servant enters the battlefield, choose a color.\r\n<br>All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors.",
+      "powerNumber": "1",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Scarecrow",
+      "releaseDate": "2016-09-30T00:00:00Z",
+      "number": "20",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "M",
+      "power": "1",
+      "flavorText": "<em>This whimsical automaton helps create beautiful murals, then stands guard as they dry.</em>",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 189.01,
+    "productName": "Painter's Servant",
+    "setId": 1837.0,
+    "setCode": "MPS",
+    "productId": 122857.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Masterpiece Series: Kaladesh Inventions",
+    "sellers": 21.0,
+    "foilOnly": true,
+    "setUrlName": "Masterpiece Series Kaladesh Inventions",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 25.0,
+    "lowestPrice": 189.01,
+    "medianPrice": 245.95,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "20",
+      "Card Type": "Artifact Creature — Scarecrow",
+      "P / T": "1 / 3",
+      "Description": "As Painter's Servant enters the battlefield, choose a color.\r\n<br>All cards that aren't on the battlefield, spells, and permanents are the chosen color in addition to their other colors.",
+      "Flavor": "<em>This whimsical automaton helps create beautiful murals, then stands guard as they dry.</em>"
+    },
+    "skus": [
+      {
+        "sku": 3202140,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3202141,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3202142,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3202143,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3202144,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

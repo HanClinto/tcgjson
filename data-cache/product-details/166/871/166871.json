@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:31:52Z",
+  "tcgplayerProductId": 166871,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Master Biomancer",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 1.12,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to Master Biomancer's power and as a Mutant in addition to its other types.",
+      "powerNumber": "2",
+      "color": [
+        "Blue",
+        "Green"
+      ],
+      "fullType": "Creature — Elf Wizard",
+      "releaseDate": "2018-06-08T00:00:00Z",
+      "number": "159",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "M",
+      "power": "2",
+      "flavorText": "<em>\"Nature is a wonderful engineer but works far too slowly for my tastes.\"</em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.65,
+    "productName": "Master Biomancer",
+    "setId": 2246.0,
+    "setCode": "CM2",
+    "productId": 166871.0,
+    "imageCount": 1.0,
+    "score": 1.8692317,
+    "setName": "Commander Anthology Volume II",
+    "sellers": 63.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology Volume II",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 66.0,
+    "lowestPrice": 0.45,
+    "medianPrice": 1.12,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "159",
+      "Card Type": "Creature — Elf Wizard",
+      "P / T": "2 / 4",
+      "Description": "Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to Master Biomancer's power and as a Mutant in addition to its other types.",
+      "Flavor": "<em>\"Nature is a wonderful engineer but works far too slowly for my tastes.\"</em>",
+      "Artist": "Willian Murai"
+    },
+    "skus": [
+      {
+        "sku": 3744941,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744942,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744943,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744944,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3744945,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

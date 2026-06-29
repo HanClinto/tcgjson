@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:13:09Z",
+  "tcgplayerProductId": 93749,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wild Mongrel",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.62,
+    "customAttributes": {
+      "formats": null,
+      "description": "Discard a card: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn.",
+      "powerNumber": "2",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Hound ",
+      "releaseDate": "2014-12-05T00:00:00Z",
+      "number": "5",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>It teaches</em> you <em>to play dead.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.18,
+    "productName": "Wild Mongrel",
+    "setId": 1490.0,
+    "setCode": "DD3",
+    "productId": 93749.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Duel Decks: Anthology",
+    "sellers": 80.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 90.0,
+    "lowestPrice": 0.04,
+    "medianPrice": 0.67,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "5",
+      "Card Type": "Creature — Hound ",
+      "P / T": "2 / 2",
+      "Description": "Discard a card: Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn.",
+      "Flavor": "<em>It teaches</em> you <em>to play dead.</em>",
+      "Artist": "Anthony S. Waters"
+    },
+    "skus": [
+      {
+        "sku": 1267489,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1267496,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1267494,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1267495,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1267493,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

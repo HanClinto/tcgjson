@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:43Z",
+  "tcgplayerProductId": 132002,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Control Magic",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.91,
+    "customAttributes": {
+      "formats": null,
+      "description": "Enchant creature\r\n<br>\r\nYou control enchanted creature.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchantment — Aura",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "34",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>\"Do as I think, not as I do.\"\r\n<br>\r\n—Jace Beleren</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.6,
+    "productName": "Control Magic",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132002.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Commander Anthology",
+    "sellers": 50.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 52.0,
+    "lowestPrice": 0.59,
+    "medianPrice": 0.915,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "34",
+      "Card Type": "Enchantment — Aura",
+      "Description": "Enchant creature\r\n<br>\r\nYou control enchanted creature.",
+      "Flavor": "<em>\"Do as I think, not as I do.\"\r\n<br>\r\n—Jace Beleren</em>",
+      "Artist": "Clint Cearley"
+    },
+    "skus": [
+      {
+        "sku": 3371679,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371680,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371681,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371682,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371683,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

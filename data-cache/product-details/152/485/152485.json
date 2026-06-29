@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:26:47Z",
+  "tcgplayerProductId": 152485,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Doom Blade",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.27,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target nonblack creature.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2017-11-24T00:00:00Z",
+      "number": "18",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>The void is without substance but cuts like steel.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.14,
+    "productName": "Doom Blade",
+    "setId": 2077.0,
+    "setCode": "E02",
+    "productId": 152485.0,
+    "imageCount": 1.0,
+    "score": 2.1875207,
+    "setName": "Explorers of Ixalan",
+    "sellers": 91.0,
+    "foilOnly": false,
+    "setUrlName": "Explorers of Ixalan",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 98.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.295,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "18",
+      "Card Type": "Instant",
+      "Description": "Destroy target nonblack creature.",
+      "Flavor": "<em>The void is without substance but cuts like steel.</em>",
+      "Artist": "Chippy"
+    },
+    "skus": [
+      {
+        "sku": 3542221,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542222,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542223,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542224,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3542225,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

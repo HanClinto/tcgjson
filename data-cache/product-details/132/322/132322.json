@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:02Z",
+  "tcgplayerProductId": 132322,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fiery Fall",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.21,
+    "customAttributes": {
+      "formats": null,
+      "description": "Fiery Fall deals 5 damage to target creature.\r\n<br>\r\nBasic landcycling 1R <em>(1R, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2017-06-16T00:00:00Z",
+      "number": "47",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "6",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Fiery Fall",
+    "setId": 1904.0,
+    "setCode": "AC2",
+    "productId": 132322.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Archenemy: Nicol Bolas",
+    "sellers": 98.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy Nicol Bolas",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 108.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "47",
+      "Card Type": "Instant",
+      "Description": "Fiery Fall deals 5 damage to target creature.\r\n<br>\r\nBasic landcycling 1R <em>(1R, Discard this card: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+      "Artist": "Daarken"
+    },
+    "skus": [
+      {
+        "sku": 3373283,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373284,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373285,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373286,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373287,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

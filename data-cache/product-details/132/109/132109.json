@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:33Z",
+  "tcgplayerProductId": 132109,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Orzhov Guildmage",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.23,
+    "customAttributes": {
+      "formats": null,
+      "description": "2W: Target player gains 1 life.\r\n<br>2B: Each player loses 1 life.",
+      "powerNumber": "2",
+      "color": [
+        "Black",
+        "White"
+      ],
+      "fullType": "Creature — Human Wizard",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "205",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Orzhov Guildmage",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132109.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Commander Anthology",
+    "sellers": 89.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 95.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "205",
+      "Card Type": "Creature — Human Wizard",
+      "P / T": "2 / 2",
+      "Description": "2W: Target player gains 1 life.\r\n<br>2B: Each player loses 1 life.",
+      "Artist": "Greg Staples"
+    },
+    "skus": [
+      {
+        "sku": 3372214,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372215,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372216,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372217,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372218,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

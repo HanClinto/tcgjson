@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:34:02Z",
+  "tcgplayerProductId": 175233,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Goblin Goliath",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 2.14,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Goblin Goliath enters the battlefield, create a number of 1/1 red Goblin creature tokens equal to the number of opponents you have.\r\n<br>3R, T: If a source you control would deal damage to an opponent this turn, it deals double that damage to that player instead.",
+      "powerNumber": "5",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Goblin Mutant",
+      "releaseDate": "2018-11-16T00:00:00Z",
+      "number": "4",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "6",
+      "rarityDbName": "M",
+      "power": "5",
+      "flavorText": "",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.65,
+    "productName": "Goblin Goliath",
+    "setId": 2359.0,
+    "setCode": "GNT",
+    "productId": 175233.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Magic Game Night",
+    "sellers": 121.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Game Night",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 124.0,
+    "lowestPrice": 0.65,
+    "medianPrice": 2.35,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "4",
+      "Card Type": "Creature — Goblin Mutant",
+      "P / T": "5 / 4",
+      "Description": "When Goblin Goliath enters the battlefield, create a number of 1/1 red Goblin creature tokens equal to the number of opponents you have.\r\n<br>3R, T: If a source you control would deal damage to an opponent this turn, it deals double that damage to that player instead.",
+      "Artist": "Slawomir Maniak"
+    },
+    "skus": [
+      {
+        "sku": 3844245,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3844246,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3844247,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3844248,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3844249,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:40:16Z",
+  "tcgplayerProductId": 202686,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Buried Ogre",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 1.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "You may begin the game with CARDNAME in your graveyard. If you do, you lose 1 life.",
+      "powerNumber": "6",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Zombie Ogre",
+      "releaseDate": "2019-11-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "S",
+      "power": "6",
+      "flavorText": "<em><strong>TEST CARD</strong> - Not for constructed play</em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.6,
+    "productName": "Buried Ogre",
+    "setId": 2570.0,
+    "setCode": "CMB1",
+    "productId": 202686.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Mystery Booster: Convention Edition Exclusives",
+    "sellers": 28.0,
+    "foilOnly": false,
+    "setUrlName": "Mystery Booster Convention Edition Exclusives",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 29.0,
+    "lowestPrice": 0.5,
+    "medianPrice": 1.04,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "Card Type": "Creature — Zombie Ogre",
+      "P / T": "6 / 4",
+      "Description": "You may begin the game with CARDNAME in your graveyard. If you do, you lose 1 life.",
+      "Flavor": "<em><strong>TEST CARD</strong> - Not for constructed play</em>",
+      "Artist": "Dave Geyer"
+    },
+    "skus": [
+      {
+        "sku": 4265797,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265798,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265799,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265800,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265801,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

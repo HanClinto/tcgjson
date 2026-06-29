@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:03Z",
+  "tcgplayerProductId": 132323,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Searing Spear",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.32,
+    "customAttributes": {
+      "formats": null,
+      "description": "Searing Spear deals 3 damage to target creature or player.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2017-06-16T00:00:00Z",
+      "number": "56",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Sometimes you die a glorious death with your sword held high. Sometimes you're just target practice.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Searing Spear",
+    "setId": 1904.0,
+    "setCode": "AC2",
+    "productId": 132323.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Archenemy: Nicol Bolas",
+    "sellers": 140.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy Nicol Bolas",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 159.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.32,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "56",
+      "Card Type": "Instant",
+      "Description": "Searing Spear deals 3 damage to target creature or player.",
+      "Flavor": "<em>Sometimes you die a glorious death with your sword held high. Sometimes you're just target practice.</em>",
+      "Artist": "Chris Rahn"
+    },
+    "skus": [
+      {
+        "sku": 3373288,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373289,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373290,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373291,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3373292,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:35:17Z",
+  "tcgplayerProductId": 183445,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sorin Markov",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 33.2,
+    "customAttributes": {
+      "formats": null,
+      "description": "[+2]: Sorin Markov deals 2 damage to target creature or player and you gain 2 life.\r\n<br>[-3]: Target opponent's life total becomes 10.\r\n<br>[-7]: You control target player during that player's next turn.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Legendary Planeswalker — Sorin",
+      "releaseDate": "2019-01-24T00:00:00Z",
+      "number": "RA3",
+      "cardType": [
+        "Legendary",
+        "Planeswalker"
+      ],
+      "convertedCost": "6",
+      "rarityDbName": "M",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 32.0,
+    "productName": "Sorin Markov",
+    "setId": 2386.0,
+    "setCode": "MED2",
+    "productId": 183445.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Mythic Edition: Ravnica Allegiance",
+    "sellers": 42.0,
+    "foilOnly": true,
+    "setUrlName": "Mythic Edition Ravnica Allegiance",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 47.0,
+    "lowestPrice": 31.72,
+    "medianPrice": 38.95,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "RA3",
+      "Card Type": "Legendary Planeswalker — Sorin",
+      "Description": "[+2]: Sorin Markov deals 2 damage to target creature or player and you gain 2 life.\r\n<br>[-3]: Target opponent's life total becomes 10.\r\n<br>[-7]: You control target player during that player's next turn.",
+      "Artist": "Kieran Yanner"
+    },
+    "skus": [
+      {
+        "sku": 3960213,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3960214,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3960215,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3960216,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3960217,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

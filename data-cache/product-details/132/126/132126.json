@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:31Z",
+  "tcgplayerProductId": 132126,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Putrefy",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.4,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target artifact or creature. It can't be regenerated.",
+      "powerNumber": null,
+      "color": [
+        "Black",
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "189",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>\"We are all decaying, always in a state of near-death. One moment without breath and we begin to break down.\"\r\n<br>\r\n—Cevraya, Golgari shaman</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Putrefy",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132126.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Commander Anthology",
+    "sellers": 66.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 73.0,
+    "lowestPrice": 0.19,
+    "medianPrice": 0.42,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "189",
+      "Card Type": "Instant",
+      "Description": "Destroy target artifact or creature. It can't be regenerated.",
+      "Flavor": "<em>\"We are all decaying, always in a state of near-death. One moment without breath and we begin to break down.\"\r\n<br>\r\n—Cevraya, Golgari shaman</em>",
+      "Artist": "Igor Kieryluk"
+    },
+    "skus": [
+      {
+        "sku": 3372299,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372300,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372301,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372302,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372303,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

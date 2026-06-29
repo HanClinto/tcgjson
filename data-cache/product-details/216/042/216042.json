@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:34Z",
+  "tcgplayerProductId": 216042,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Blood Artist",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 3.79,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.",
+      "powerNumber": "0",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Vampire",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "206",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": "0",
+      "flavorText": "<em>“Great art can never be created without great suffering.”</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 2.49,
+    "productName": "Blood Artist",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216042.0,
+    "imageCount": 1.0,
+    "score": 2.025306,
+    "setName": "Jumpstart",
+    "sellers": 60.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 65.0,
+    "lowestPrice": 1.75,
+    "medianPrice": 3.79,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "206",
+      "Card Type": "Creature — Vampire",
+      "P / T": "0 / 1",
+      "Description": "Whenever Blood Artist or another creature dies, target player loses 1 life and you gain 1 life.",
+      "Flavor": "<em>“Great art can never be created without great suffering.”</em>",
+      "Artist": "Johannes Voss"
+    },
+    "skus": [
+      {
+        "sku": 4475311,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475312,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475313,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475314,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475315,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

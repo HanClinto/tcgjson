@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:31:49Z",
+  "tcgplayerProductId": 168374,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Pentavite Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.29,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "1",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Token Artifact Creature — Pentavite",
+      "releaseDate": "2018-06-08T00:00:00Z",
+      "number": "13",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Pentavite Token",
+    "setId": 2246.0,
+    "setCode": "CM2",
+    "productId": 168374.0,
+    "imageCount": 1.0,
+    "score": 2.1875207,
+    "setName": "Commander Anthology Volume II",
+    "sellers": 54.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology Volume II",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 61.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.35,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "13",
+      "Card Type": "Token Artifact Creature — Pentavite",
+      "P / T": "1 / 1",
+      "Description": "Flying",
+      "Artist": "Greg Staples"
+    },
+    "skus": [
+      {
+        "sku": 3759437,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3759438,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3759439,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3759440,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3759441,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

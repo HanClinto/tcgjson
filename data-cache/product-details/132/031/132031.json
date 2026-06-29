@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:34Z",
+  "tcgplayerProductId": 132031,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Emerald Medallion",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 2.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Green spells you cast cost 1 less to cast.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact ",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "217",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3.0,
+    "productName": "Emerald Medallion",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132031.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Commander Anthology",
+    "sellers": 14.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 17.0,
+    "lowestPrice": 1.75,
+    "medianPrice": 5.825,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "217",
+      "Card Type": "Artifact ",
+      "Description": "Green spells you cast cost 1 less to cast.",
+      "Artist": "Daniel Ljunggren"
+    },
+    "skus": [
+      {
+        "sku": 3371824,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371825,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371826,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371827,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371828,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

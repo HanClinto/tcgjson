@@ -1,0 +1,91 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:25Z",
+  "tcgplayerProductId": 218168,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Dogs Theme Card",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.16,
+    "customAttributes": {
+      "formats": null,
+      "description": "<em>(This Theme Card can only be found in the Dogs-themed packs.)</em>",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Theme Token Card",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "11",
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Dogs Theme Card",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 218168.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Jumpstart",
+    "sellers": 92.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 95.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "11",
+      "Card Type": "Theme Token Card",
+      "Description": "<em>(This Theme Card can only be found in the Dogs-themed packs.)</em>"
+    },
+    "skus": [
+      {
+        "sku": 4499127,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499128,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499129,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499130,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499131,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

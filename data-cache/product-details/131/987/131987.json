@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:32Z",
+  "tcgplayerProductId": 131987,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Boros Guildmage",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "1R: Target creature gains haste until end of turn.\r\n<br>1W: Target creature gains first strike until end of turn.",
+      "powerNumber": "2",
+      "color": [
+        "Red",
+        "White"
+      ],
+      "fullType": "Creature — Human Wizard",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "199",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Boros Guildmage",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 131987.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Commander Anthology",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 112.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.395,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "199",
+      "Card Type": "Creature — Human Wizard",
+      "P / T": "2 / 2",
+      "Description": "1R: Target creature gains haste until end of turn.\r\n<br>1W: Target creature gains first strike until end of turn.",
+      "Artist": "Parente"
+    },
+    "skus": [
+      {
+        "sku": 3371604,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371605,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371606,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371607,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371608,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

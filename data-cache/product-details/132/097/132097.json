@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:34Z",
+  "tcgplayerProductId": 132097,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Moss Diamond",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "Moss Diamond enters the battlefield tapped.\r\n<br>\r\nT: Add G to your mana pool.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact ",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "222",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Moss Diamond",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132097.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Commander Anthology",
+    "sellers": 98.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 111.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.475,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "222",
+      "Card Type": "Artifact ",
+      "Description": "Moss Diamond enters the battlefield tapped.\r\n<br>\r\nT: Add G to your mana pool.",
+      "Artist": "Lindsey Look"
+    },
+    "skus": [
+      {
+        "sku": 3372154,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372155,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372156,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372157,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372158,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

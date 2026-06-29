@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:14Z",
+  "tcgplayerProductId": 129543,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Dark Ritual",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 125.68,
+    "customAttributes": {
+      "formats": null,
+      "description": "Add BBB to your mana pool.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "2017-04-28T00:00:00Z",
+      "number": "21",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "M",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 89.99,
+    "productName": "Dark Ritual",
+    "setId": 1909.0,
+    "setCode": "MPS2",
+    "productId": 129543.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Masterpiece Series: Amonkhet Invocations",
+    "sellers": 17.0,
+    "foilOnly": true,
+    "setUrlName": "Masterpiece Series Amonkhet Invocations",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 19.0,
+    "lowestPrice": 89.99,
+    "medianPrice": 153.43,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "21",
+      "Card Type": "Instant ",
+      "Description": "Add BBB to your mana pool."
+    },
+    "skus": [
+      {
+        "sku": 3324302,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3324303,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3324304,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3324305,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3324306,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

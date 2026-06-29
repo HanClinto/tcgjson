@@ -1,0 +1,91 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:54Z",
+  "tcgplayerProductId": 218204,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Under the Sea Theme Card",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.18,
+    "customAttributes": {
+      "formats": null,
+      "description": "<em>(This Theme Card can only be found in the Under the Sea-themed packs.)</em>",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Theme Token Card",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "40",
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Under the Sea Theme Card",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 218204.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Jumpstart",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 108.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "40",
+      "Card Type": "Theme Token Card",
+      "Description": "<em>(This Theme Card can only be found in the Under the Sea-themed packs.)</em>"
+    },
+    "skus": [
+      {
+        "sku": 4499275,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499276,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499277,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499278,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4499279,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

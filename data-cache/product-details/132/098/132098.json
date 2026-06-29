@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:28Z",
+  "tcgplayerProductId": 132098,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mother of Runes",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 10.34,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Target creature you control gains protection from the color of your choice until end of turn.",
+      "powerNumber": "1",
+      "color": [
+        "White"
+      ],
+      "fullType": "Creature — Human Cleric",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "17",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": "1",
+      "flavorText": "<em>\"My family protects all families.\"</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 10.24,
+    "productName": "Mother of Runes",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132098.0,
+    "imageCount": 1.0,
+    "score": 1.9912261,
+    "setName": "Commander Anthology",
+    "sellers": 17.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 20.0,
+    "lowestPrice": 8.0,
+    "medianPrice": 12.625,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "17",
+      "Card Type": "Creature — Human Cleric",
+      "P / T": "1 / 1",
+      "Description": "T: Target creature you control gains protection from the color of your choice until end of turn.",
+      "Flavor": "<em>\"My family protects all families.\"</em>",
+      "Artist": "Scott M. Fischer"
+    },
+    "skus": [
+      {
+        "sku": 3372159,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372160,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372161,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372162,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372163,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

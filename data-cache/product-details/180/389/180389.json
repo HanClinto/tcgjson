@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:34:03Z",
+  "tcgplayerProductId": 180389,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Eager Construct",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.05,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Eager Construct enters the battlefield, each player may scry 1. <em>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</em>",
+      "powerNumber": "2",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Construct",
+      "releaseDate": "2018-11-16T00:00:00Z",
+      "number": "51",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>Loyal to a fault, it anticipates its master's every need.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Eager Construct",
+    "setId": 2359.0,
+    "setCode": "GNT",
+    "productId": 180389.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Magic Game Night",
+    "sellers": 72.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Game Night",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 76.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "51",
+      "Card Type": "Artifact Creature — Construct",
+      "P / T": "2 / 2",
+      "Description": "When Eager Construct enters the battlefield, each player may scry 1. <em>(To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</em>",
+      "Flavor": "<em>Loyal to a fault, it anticipates its master's every need.</em>",
+      "Artist": "Craig J Spearing"
+    },
+    "skus": [
+      {
+        "sku": 3912607,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912608,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912609,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912610,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912611,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

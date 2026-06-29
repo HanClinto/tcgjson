@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:05Z",
+  "tcgplayerProductId": 132242,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Blood Tyrant",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.34,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying, trample\r\n<br>\r\nAt the beginning of your upkeep, each player loses 1 life. Put a +1/+1 counter on Blood Tyrant for each 1 life lost this way.\r\n<br>\r\nWhenever a player loses the game, put five +1/+1 counters on Blood Tyrant.",
+      "powerNumber": "5",
+      "color": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "fullType": "Creature — Vampire",
+      "releaseDate": "2017-06-16T00:00:00Z",
+      "number": "81",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "7",
+      "rarityDbName": "R",
+      "power": "5",
+      "flavorText": "",
+      "toughnessNumber": "5",
+      "toughness": "5"
+    },
+    "lowestPriceWithShipping": 0.19,
+    "productName": "Blood Tyrant",
+    "setId": 1904.0,
+    "setCode": "AC2",
+    "productId": 132242.0,
+    "imageCount": 1.0,
+    "score": 2.0569048,
+    "setName": "Archenemy: Nicol Bolas",
+    "sellers": 190.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy Nicol Bolas",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 222.0,
+    "lowestPrice": 0.16,
+    "medianPrice": 0.54,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "81",
+      "Card Type": "Creature — Vampire",
+      "P / T": "5 / 5",
+      "Description": "Flying, trample\r\n<br>\r\nAt the beginning of your upkeep, each player loses 1 life. Put a +1/+1 counter on Blood Tyrant for each 1 life lost this way.\r\n<br>\r\nWhenever a player loses the game, put five +1/+1 counters on Blood Tyrant.",
+      "Artist": "Karl Kopinski"
+    },
+    "skus": [
+      {
+        "sku": 3372878,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372879,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372880,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372881,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372882,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

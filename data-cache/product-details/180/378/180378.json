@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:34:00Z",
+  "tcgplayerProductId": 180378,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Air Elemental",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.2,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "4",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature — Elemental",
+      "releaseDate": "2018-11-16T00:00:00Z",
+      "number": "19",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "U",
+      "power": "4",
+      "flavorText": "<em>Pray that it doesn't seek the safety of your lungs.</em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Air Elemental",
+    "setId": 2359.0,
+    "setCode": "GNT",
+    "productId": 180378.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Magic Game Night",
+    "sellers": 74.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Game Night",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 82.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "19",
+      "Card Type": "Creature — Elemental",
+      "P / T": "4 / 4",
+      "Description": "Flying",
+      "Flavor": "<em>Pray that it doesn't seek the safety of your lungs.</em>",
+      "Artist": "Kev Walker"
+    },
+    "skus": [
+      {
+        "sku": 3912552,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912553,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912554,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912555,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912556,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

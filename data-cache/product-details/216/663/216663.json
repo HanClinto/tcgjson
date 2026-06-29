@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:49Z",
+  "tcgplayerProductId": 216663,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Outnumber",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "Outnumber deals damage to target creature equal to the number of creatures you control.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "354",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Everyone who could still lift a weapon had a part in retaking Sea Gate.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Outnumber",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216663.0,
+    "imageCount": 1.0,
+    "score": 2.3384564,
+    "setName": "Jumpstart",
+    "sellers": 291.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 307.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.3,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "354",
+      "Card Type": "Instant",
+      "Description": "Outnumber deals damage to target creature equal to the number of creatures you control.",
+      "Flavor": "<em>Everyone who could still lift a weapon had a part in retaking Sea Gate.</em>",
+      "Artist": "Tyler Jacobson"
+    },
+    "skus": [
+      {
+        "sku": 4478719,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478720,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478721,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478722,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478723,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

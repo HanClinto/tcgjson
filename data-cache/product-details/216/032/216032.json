@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:56Z",
+  "tcgplayerProductId": 216032,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Primordial Sage",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.75,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever you cast a creature spell, you may draw a card.",
+      "powerNumber": "4",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Spirit",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "422",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "6",
+      "rarityDbName": "R",
+      "power": "4",
+      "flavorText": "<em>For each creature that arrives in its audience, the sage imparts another piece of ancient wisdom for all to hear.</em>",
+      "toughnessNumber": "5",
+      "toughness": "5"
+    },
+    "lowestPriceWithShipping": 0.59,
+    "productName": "Primordial Sage",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216032.0,
+    "imageCount": 1.0,
+    "score": 2.921166,
+    "setName": "Jumpstart",
+    "sellers": 142.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 150.0,
+    "lowestPrice": 0.5,
+    "medianPrice": 0.9,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "422",
+      "Card Type": "Creature — Spirit",
+      "P / T": "4 / 5",
+      "Description": "Whenever you cast a creature spell, you may draw a card.",
+      "Flavor": "<em>For each creature that arrives in its audience, the sage imparts another piece of ancient wisdom for all to hear.</em>",
+      "Artist": "Justin Sweet"
+    },
+    "skus": [
+      {
+        "sku": 4475211,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475212,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475213,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475214,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475215,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

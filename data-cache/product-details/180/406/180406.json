@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:34:02Z",
+  "tcgplayerProductId": 180406,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Languish",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "All creatures get -4/-4 until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2018-11-16T00:00:00Z",
+      "number": "31",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "<em>Life is such a fragile thing.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.33,
+    "productName": "Languish",
+    "setId": 2359.0,
+    "setCode": "GNT",
+    "productId": 180406.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Magic Game Night",
+    "sellers": 82.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Game Night",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 86.0,
+    "lowestPrice": 0.32,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "31",
+      "Card Type": "Sorcery",
+      "Description": "All creatures get -4/-4 until end of turn.",
+      "Flavor": "<em>Life is such a fragile thing.</em>",
+      "Artist": "Jeff Simpson"
+    },
+    "skus": [
+      {
+        "sku": 3912692,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912693,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912694,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912695,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912696,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:40:15Z",
+  "tcgplayerProductId": 202684,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Bucket List",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 0.91,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever you cast a spell of a type showing on CARDNAME, put a counter over that type and draw a card. If all five types on CARDNAME have counters over them, sacrifice it and draw one more card.\r\n<br>\r\n[] artifact [] creature [] enchantment [] instant [] sorcery",
+      "powerNumber": null,
+      "color": [
+        "Blue",
+        "Red"
+      ],
+      "fullType": "Enchantment",
+      "releaseDate": "2019-11-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "S",
+      "power": null,
+      "flavorText": "<em><strong>TEST CARD</strong> - Not for constructed play</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.3,
+    "productName": "Bucket List",
+    "setId": 2570.0,
+    "setCode": "CMB1",
+    "productId": 202684.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Mystery Booster: Convention Edition Exclusives",
+    "sellers": 34.0,
+    "foilOnly": false,
+    "setUrlName": "Mystery Booster Convention Edition Exclusives",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 37.0,
+    "lowestPrice": 0.3,
+    "medianPrice": 1.0,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "Card Type": "Enchantment",
+      "Description": "Whenever you cast a spell of a type showing on CARDNAME, put a counter over that type and draw a card. If all five types on CARDNAME have counters over them, sacrifice it and draw one more card.\r\n<br>\r\n[] artifact [] creature [] enchantment [] instant [] sorcery",
+      "Flavor": "<em><strong>TEST CARD</strong> - Not for constructed play</em>",
+      "Artist": "Nathan Ian Greene"
+    },
+    "skus": [
+      {
+        "sku": 4265787,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265788,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265789,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265790,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4265791,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

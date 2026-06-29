@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:34:02Z",
+  "tcgplayerProductId": 180432,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Thallid Soothsayer",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.36,
+    "customAttributes": {
+      "formats": null,
+      "description": "2, Sacrifice a creature: Draw a card.",
+      "powerNumber": "2",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Fungus",
+      "releaseDate": "2018-11-16T00:00:00Z",
+      "number": "35",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "<em>Some of the thallids that escaped into the fens of Urborg began emulating the Cabal's bloodsoaked rituals in their own peculiar way.</em>",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Thallid Soothsayer",
+    "setId": 2359.0,
+    "setCode": "GNT",
+    "productId": 180432.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Magic Game Night",
+    "sellers": 66.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Game Night",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 70.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "35",
+      "Card Type": "Creature — Fungus",
+      "P / T": "2 / 3",
+      "Description": "2, Sacrifice a creature: Draw a card.",
+      "Flavor": "<em>Some of the thallids that escaped into the fens of Urborg began emulating the Cabal's bloodsoaked rituals in their own peculiar way.</em>",
+      "Artist": "Jason A. Engle"
+    },
+    "skus": [
+      {
+        "sku": 3912822,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912823,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912824,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912825,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3912826,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

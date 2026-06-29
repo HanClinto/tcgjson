@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:17Z",
+  "tcgplayerProductId": 125477,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ondu Giant",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.29,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "powerNumber": "2",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Giant Druid",
+      "releaseDate": "2016-11-25T00:00:00Z",
+      "number": "71",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>Some druids nurture gardens. Others nurture continents.</em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.06,
+    "productName": "Ondu Giant",
+    "setId": 1793.0,
+    "setCode": "PCA",
+    "productId": 125477.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Planechase Anthology",
+    "sellers": 92.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 103.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.295,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "71",
+      "Card Type": "Creature — Giant Druid",
+      "P / T": "2 / 4",
+      "Description": "When Ondu Giant enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+      "Flavor": "<em>Some druids nurture gardens. Others nurture continents.</em>",
+      "Artist": "Igor Kieryluk"
+    },
+    "skus": [
+      {
+        "sku": 3252420,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252421,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252422,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252423,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252424,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:16Z",
+  "tcgplayerProductId": 134903,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Damnation",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 126.79,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy all creatures. They can't be regenerated.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2017-04-28T00:00:00Z",
+      "number": "39",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "M",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 126.33,
+    "productName": "Damnation",
+    "setId": 1909.0,
+    "setCode": "MPS2",
+    "productId": 134903.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Masterpiece Series: Amonkhet Invocations",
+    "sellers": 22.0,
+    "foilOnly": true,
+    "setUrlName": "Masterpiece Series Amonkhet Invocations",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 26.0,
+    "lowestPrice": 126.33,
+    "medianPrice": 150.99,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "39",
+      "Card Type": "Sorcery",
+      "Description": "Destroy all creatures. They can't be regenerated."
+    },
+    "skus": [
+      {
+        "sku": 3410350,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3410351,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3410352,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3410353,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3410354,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

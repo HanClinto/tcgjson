@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:22Z",
+  "tcgplayerProductId": 132045,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fresh Meat",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.38,
+    "customAttributes": {
+      "formats": null,
+      "description": "Create a 3/3 green Beast creature token for each creature put into your graveyard from the battlefield this turn.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "110",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "<em>A scavenger's favorite appetizer is death.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.16,
+    "productName": "Fresh Meat",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132045.0,
+    "imageCount": 1.0,
+    "score": 2.139879,
+    "setName": "Commander Anthology",
+    "sellers": 168.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 199.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.49,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "110",
+      "Card Type": "Instant ",
+      "Description": "Create a 3/3 green Beast creature token for each creature put into your graveyard from the battlefield this turn.",
+      "Flavor": "<em>A scavenger's favorite appetizer is death.</em>",
+      "Artist": "Dave Allsop"
+    },
+    "skus": [
+      {
+        "sku": 3371894,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371895,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371896,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371897,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371898,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

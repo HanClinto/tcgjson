@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:40:41Z",
+  "tcgplayerProductId": 202729,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wizened Arbiter",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 0.68,
+    "customAttributes": {
+      "formats": null,
+      "description": "When CARDNAME enters the battlefield, you may reveal a white card you own from outside the game. If you do, exchange that card with a card in your hand.",
+      "powerNumber": "2",
+      "color": [
+        "White"
+      ],
+      "fullType": "Creature — Human Soldier Wizard",
+      "releaseDate": "2019-11-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "S",
+      "power": "2",
+      "flavorText": "<strong><em>TEST CARD - Not for constructed play.</em></strong>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.67,
+    "productName": "Wizened Arbiter",
+    "setId": 2570.0,
+    "setCode": "CMB1",
+    "productId": 202729.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Mystery Booster: Convention Edition Exclusives",
+    "sellers": 25.0,
+    "foilOnly": false,
+    "setUrlName": "Mystery Booster Convention Edition Exclusives",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 26.0,
+    "lowestPrice": 0.67,
+    "medianPrice": 0.79,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "Card Type": "Creature — Human Soldier Wizard",
+      "P / T": "2 / 1",
+      "Description": "When CARDNAME enters the battlefield, you may reveal a white card you own from outside the game. If you do, exchange that card with a card in your hand.",
+      "Flavor": "<strong><em>TEST CARD - Not for constructed play.</em></strong>",
+      "Artist": "Kelly Hamilton"
+    },
+    "skus": [
+      {
+        "sku": 4266012,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266013,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266014,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266015,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266016,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

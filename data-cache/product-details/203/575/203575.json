@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:39:17Z",
+  "tcgplayerProductId": 203575,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Plains 056",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.15,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Plains",
+      "releaseDate": "2019-11-15T00:00:00Z",
+      "number": "56",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Plains (056)",
+    "setId": 2562.0,
+    "setCode": "GN2",
+    "productId": 203575.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Magic Game Night 2019",
+    "sellers": 40.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Game Night 2019",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 47.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.22,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "56",
+      "Card Type": "Basic Land — Plains",
+      "Artist": "Howard Lyon"
+    },
+    "skus": [
+      {
+        "sku": 4270243,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270244,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270245,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270246,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4270247,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

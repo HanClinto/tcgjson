@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:58Z",
+  "tcgplayerProductId": 216082,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Verdant Embrace",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.32,
+    "customAttributes": {
+      "formats": null,
+      "description": "Enchant creature\r\n<br>Enchanted creature gets +3/+3 and has “At the beginning of each upkeep, create a 1/1 green Saproling creature token.”",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchantment — Aura",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "441",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Verdant Embrace",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216082.0,
+    "imageCount": 1.0,
+    "score": 2.1875207,
+    "setName": "Jumpstart",
+    "sellers": 205.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 233.0,
+    "lowestPrice": 0.19,
+    "medianPrice": 0.4,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "441",
+      "Card Type": "Enchantment — Aura",
+      "Description": "Enchant creature\r\n<br>Enchanted creature gets +3/+3 and has “At the beginning of each upkeep, create a 1/1 green Saproling creature token.”",
+      "Artist": "Stephen Tappin"
+    },
+    "skus": [
+      {
+        "sku": 4475531,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475532,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475533,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475534,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4475535,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

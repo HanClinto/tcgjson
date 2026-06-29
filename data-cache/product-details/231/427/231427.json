@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:15:02Z",
+  "tcgplayerProductId": 231427,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Xenagoss Strike",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 0.49,
+    "customAttributes": {
+      "formats": null,
+      "description": "Xenagos’s Strike deals 4 damage to each player.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": "13",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "S",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.38,
+    "productName": "Xenagos's Strike",
+    "setId": 1524.0,
+    "setCode": "HERO",
+    "productId": 231427.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Hero's Path Promos",
+    "sellers": 27.0,
+    "foilOnly": false,
+    "setUrlName": "Heros Path Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 32.0,
+    "lowestPrice": 0.38,
+    "medianPrice": 0.55,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "#": "13",
+      "Card Type": "Sorcery",
+      "Description": "Xenagos’s Strike deals 4 damage to each player.",
+      "Artist": "Zoltan Boros"
+    },
+    "skus": [
+      {
+        "sku": 4756041,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756042,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756043,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756044,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756045,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:46:56Z",
+  "tcgplayerProductId": 216177,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Selvala Heart of the Wilds",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 6.21,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever another creature enters the battlefield, its controller may draw a card if its power is greater than each other creature's power.\r\n<br>G, T: Add X mana in any combination of colors to your mana pool, where X is the greatest power among creatures you control.",
+      "powerNumber": "2",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Legendary Creature — Elf Scout",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "429",
+      "cardType": [
+        "Legendary",
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "M",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 3.0,
+    "productName": "Selvala, Heart of the Wilds",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216177.0,
+    "imageCount": 1.0,
+    "score": 2.3838153,
+    "setName": "Jumpstart",
+    "sellers": 123.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 128.0,
+    "lowestPrice": 3.0,
+    "medianPrice": 6.09,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "429",
+      "Card Type": "Legendary Creature — Elf Scout",
+      "P / T": "2 / 3",
+      "Description": "Whenever another creature enters the battlefield, its controller may draw a card if its power is greater than each other creature's power.\r\n<br>G, T: Add X mana in any combination of colors to your mana pool, where X is the greatest power among creatures you control.",
+      "Artist": "Tyler Jacobson"
+    },
+    "skus": [
+      {
+        "sku": 4476373,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476374,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476375,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476376,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4476377,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

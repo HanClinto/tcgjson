@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:12:53Z",
+  "tcgplayerProductId": 93796,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Jace Beleren",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 2.52,
+    "customAttributes": {
+      "formats": null,
+      "description": "[+2]: Each player draws a card.\r\n<br>[-1]: Target player draws a card. \r\n<br>[-10]: Target player puts the top twenty cards of his or her library into his or her graveyard.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Planeswalker — Jace",
+      "releaseDate": "2014-12-05T00:00:00Z",
+      "number": "1",
+      "cardType": [
+        "Planeswalker"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "M",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 1.3,
+    "productName": "Jace Beleren",
+    "setId": 1490.0,
+    "setCode": "DD3",
+    "productId": 93796.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Duel Decks: Anthology",
+    "sellers": 67.0,
+    "foilOnly": true,
+    "setUrlName": "Duel Decks Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 79.0,
+    "lowestPrice": 1.3,
+    "medianPrice": 2.99,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "1",
+      "Card Type": "Planeswalker — Jace",
+      "Description": "[+2]: Each player draws a card.\r\n<br>[-1]: Target player draws a card. \r\n<br>[-10]: Target player puts the top twenty cards of his or her library into his or her graveyard.",
+      "Artist": "Kev Walker"
+    },
+    "skus": [
+      {
+        "sku": 1267992,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1268001,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1267999,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1268000,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1267998,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

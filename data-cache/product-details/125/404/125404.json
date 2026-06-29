@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:13Z",
+  "tcgplayerProductId": 125404,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Dark Hatchling",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.11,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying\r\n<br>When Dark Hatchling enters the battlefield, destroy target nonblack creature. It can't be regenerated.",
+      "powerNumber": "3",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Horror",
+      "releaseDate": "2016-11-25T00:00:00Z",
+      "number": "32",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "6",
+      "rarityDbName": "R",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Dark Hatchling",
+    "setId": 1793.0,
+    "setCode": "PCA",
+    "productId": 125404.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Planechase Anthology",
+    "sellers": 203.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 234.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.4,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "32",
+      "Card Type": "Creature — Horror",
+      "P / T": "3 / 3",
+      "Description": "Flying\r\n<br>When Dark Hatchling enters the battlefield, destroy target nonblack creature. It can't be regenerated.",
+      "Artist": "Brad Rigney"
+    },
+    "skus": [
+      {
+        "sku": 3252055,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252056,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252057,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252058,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3252059,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

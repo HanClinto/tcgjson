@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:47:01Z",
+  "tcgplayerProductId": 216569,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Rogues Gloves",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.6,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever equipped creature deals combat damage to a player, you may draw a card.\r\n<br>Equip 2 <em>(2: Attach to target creature you control. Equip only as a sorcery.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact — Equipment",
+      "releaseDate": "2020-07-17T00:00:00Z",
+      "number": "479",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>Thievery requires subtlety, from the beginning of the heist to the end.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Rogue's Gloves",
+    "setId": 2654.0,
+    "setCode": "JMP",
+    "productId": 216569.0,
+    "imageCount": 1.0,
+    "score": 2.4248817,
+    "setName": "Jumpstart",
+    "sellers": 210.0,
+    "foilOnly": false,
+    "setUrlName": "Jumpstart",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 218.0,
+    "lowestPrice": 0.17,
+    "medianPrice": 0.59,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "479",
+      "Card Type": "Artifact — Equipment",
+      "Description": "Whenever equipped creature deals combat damage to a player, you may draw a card.\r\n<br>Equip 2 <em>(2: Attach to target creature you control. Equip only as a sorcery.)</em>",
+      "Flavor": "<em>Thievery requires subtlety, from the beginning of the heist to the end.</em>",
+      "Artist": "Cyril Van Der Haegen"
+    },
+    "skus": [
+      {
+        "sku": 4478244,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478245,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478246,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478247,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4478248,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

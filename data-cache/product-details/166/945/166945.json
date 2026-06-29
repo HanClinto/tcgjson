@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:32:12Z",
+  "tcgplayerProductId": 166945,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sign in Blood",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.88,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target player draws two cards and loses 2 life.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "2018-06-08T00:00:00Z",
+      "number": "77",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Little agonies pave the way to greater power.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.61,
+    "productName": "Sign in Blood",
+    "setId": 2246.0,
+    "setCode": "CM2",
+    "productId": 166945.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Commander Anthology Volume II",
+    "sellers": 48.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology Volume II",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 49.0,
+    "lowestPrice": 0.55,
+    "medianPrice": 0.955,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "77",
+      "Card Type": "Sorcery ",
+      "Description": "Target player draws two cards and loses 2 life.",
+      "Flavor": "<em>Little agonies pave the way to greater power.</em>",
+      "Artist": "Howard Lyon"
+    },
+    "skus": [
+      {
+        "sku": 3745311,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745312,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745313,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745314,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3745315,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:03Z",
+  "tcgplayerProductId": 132262,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sudden Demise",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.26,
+    "customAttributes": {
+      "formats": null,
+      "description": "Choose a color. Sudden Demise deals X damage to each creature of the chosen color.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2017-06-16T00:00:00Z",
+      "number": "59",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "<em>In the Skyfang Mountains, one misstep can mean the end of an entire clan.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.18,
+    "productName": "Sudden Demise",
+    "setId": 1904.0,
+    "setCode": "AC2",
+    "productId": 132262.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Archenemy: Nicol Bolas",
+    "sellers": 197.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy Nicol Bolas",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 236.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.47,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "59",
+      "Card Type": "Sorcery",
+      "Description": "Choose a color. Sudden Demise deals X damage to each creature of the chosen color.",
+      "Flavor": "<em>In the Skyfang Mountains, one misstep can mean the end of an entire clan.</em>",
+      "Artist": "Dan Scott"
+    },
+    "skus": [
+      {
+        "sku": 3372978,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372979,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372980,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372981,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3372982,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

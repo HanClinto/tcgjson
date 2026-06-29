@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:26:58Z",
+  "tcgplayerProductId": 153062,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Goblin Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 1.66,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "1",
+      "color": null,
+      "fullType": "Token Creature — Goblin",
+      "releaseDate": "2017-12-08T00:00:00Z",
+      "number": "12",
+      "cardType": [
+        "Creature"
+      ],
+      "rarityDbName": "T",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.6,
+    "productName": "Goblin Token",
+    "setId": 2092.0,
+    "setCode": "UST",
+    "productId": 153062.0,
+    "imageCount": 1.0,
+    "score": 2.462398,
+    "setName": "Unstable",
+    "sellers": 89.0,
+    "foilOnly": true,
+    "setUrlName": "Unstable",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 98.0,
+    "lowestPrice": 0.6,
+    "medianPrice": 1.5,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "12",
+      "Card Type": "Token Creature — Goblin",
+      "P / T": "1 / 1",
+      "Artist": "Dave Allsop"
+    },
+    "skus": [
+      {
+        "sku": 3546905,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3546906,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3546907,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3546908,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3546909,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

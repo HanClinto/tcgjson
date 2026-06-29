@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:40:41Z",
+  "tcgplayerProductId": 202731,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wrath of Sod",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 0.42,
+    "customAttributes": {
+      "formats": null,
+      "description": "Put a manabond counter on all creatures. <em>(They lose all other abilities and become lands with “T: Add one mana of this card’s color.”)</em>",
+      "powerNumber": null,
+      "color": [
+        "Green",
+        "White"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2019-11-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "S",
+      "power": null,
+      "flavorText": "<strong><em>TEST CARD - Not for constructed play.</em></strong>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.4,
+    "productName": "Wrath of Sod",
+    "setId": 2570.0,
+    "setCode": "CMB1",
+    "productId": 202731.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Mystery Booster: Convention Edition Exclusives",
+    "sellers": 29.0,
+    "foilOnly": false,
+    "setUrlName": "Mystery Booster Convention Edition Exclusives",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 31.0,
+    "lowestPrice": 0.4,
+    "medianPrice": 0.75,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "Card Type": "Sorcery",
+      "Description": "Put a manabond counter on all creatures. <em>(They lose all other abilities and become lands with “T: Add one mana of this card’s color.”)</em>",
+      "Flavor": "<strong><em>TEST CARD - Not for constructed play.</em></strong>",
+      "Artist": "Chad Kanotz"
+    },
+    "skus": [
+      {
+        "sku": 4266022,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266023,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266024,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266025,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4266026,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

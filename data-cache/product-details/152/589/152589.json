@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:26:55Z",
+  "tcgplayerProductId": 152589,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Angel Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 1.46,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "4",
+      "color": null,
+      "fullType": "Token Creature — Angel",
+      "releaseDate": "2017-12-08T00:00:00Z",
+      "number": "1",
+      "cardType": [
+        "Creature"
+      ],
+      "rarityDbName": "T",
+      "power": "4",
+      "flavorText": "",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.35,
+    "productName": "Angel Token",
+    "setId": 2092.0,
+    "setCode": "UST",
+    "productId": 152589.0,
+    "imageCount": 2.0,
+    "score": 2.4857213,
+    "setName": "Unstable",
+    "sellers": 80.0,
+    "foilOnly": true,
+    "setUrlName": "Unstable",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 87.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 1.0,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "1",
+      "Card Type": "Token Creature — Angel",
+      "P / T": "4 / 4",
+      "Description": "Flying",
+      "Artist": "Magali Villeneuve"
+    },
+    "skus": [
+      {
+        "sku": 3542683,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3542684,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3542685,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3542686,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 3542687,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

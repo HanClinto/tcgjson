@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:21:49Z",
+  "tcgplayerProductId": 122269,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Swamp 069",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.13,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Swamp",
+      "releaseDate": "2016-09-02T00:00:00Z",
+      "number": "69",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.06,
+    "productName": "Swamp (069)",
+    "setId": 1835.0,
+    "setCode": "DDR",
+    "productId": 122269.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Duel Decks: Nissa vs. Ob Nixilis",
+    "sellers": 80.0,
+    "foilOnly": false,
+    "setUrlName": "Duel Decks Nissa vs Ob Nixilis",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 92.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.22,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "69",
+      "Card Type": "Basic Land — Swamp",
+      "Artist": "Jung Park"
+    },
+    "skus": [
+      {
+        "sku": 3198064,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198065,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198066,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198067,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3198068,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

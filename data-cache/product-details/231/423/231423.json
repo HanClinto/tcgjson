@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:15:06Z",
+  "tcgplayerProductId": 231423,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Impulsive Destruction",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 0.32,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each player may sacrifice an artifact or enchantment. Impulsive Destruction deals 3 damage to each player who didn’t sacrifice a permanent this way.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": "9",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "S",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Impulsive Destruction",
+    "setId": 1524.0,
+    "setCode": "HERO",
+    "productId": 231423.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Hero's Path Promos",
+    "sellers": 25.0,
+    "foilOnly": false,
+    "setUrlName": "Heros Path Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 27.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.47,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "#": "9",
+      "Card Type": "Sorcery",
+      "Description": "Each player may sacrifice an artifact or enchantment. Impulsive Destruction deals 3 damage to each player who didn’t sacrifice a permanent this way.",
+      "Artist": "Zoltan Boros"
+    },
+    "skus": [
+      {
+        "sku": 4756021,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756022,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756023,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756024,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 4756025,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

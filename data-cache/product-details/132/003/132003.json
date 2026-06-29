@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:24:45Z",
+  "tcgplayerProductId": 132003,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Corpse Augur",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.2,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Corpse Augur dies, you draw X cards and you lose X life, where X is the number of creature cards in target player's graveyard.",
+      "powerNumber": "4",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Zombie Wizard",
+      "releaseDate": "2017-06-09T00:00:00Z",
+      "number": "52",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "4",
+      "flavorText": "<em>Even when the flesh grows cold, knowledge waits in the bones for a master to release it.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Corpse Augur",
+    "setId": 1933.0,
+    "setCode": "CMA",
+    "productId": 132003.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Commander Anthology",
+    "sellers": 92.0,
+    "foilOnly": false,
+    "setUrlName": "Commander Anthology",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 101.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.27,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "52",
+      "Card Type": "Creature — Zombie Wizard",
+      "P / T": "4 / 2",
+      "Description": "When Corpse Augur dies, you draw X cards and you lose X life, where X is the number of creature cards in target player's graveyard.",
+      "Flavor": "<em>Even when the flesh grows cold, knowledge waits in the bones for a master to release it.</em>",
+      "Artist": "Scott M. Fischer"
+    },
+    "skus": [
+      {
+        "sku": 3371684,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371685,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371686,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371687,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 3371688,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

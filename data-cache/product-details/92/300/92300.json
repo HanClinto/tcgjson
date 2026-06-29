@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:11:58Z",
+  "tcgplayerProductId": 92300,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Firespout",
+    "productTypeId": 1.0,
+    "rarityName": "Mythic",
+    "sealed": false,
+    "marketPrice": 1.58,
+    "customAttributes": {
+      "formats": null,
+      "description": "Firespout deals 3 damage to each creature without flying if R was spent to cast Firespout and 3 damage to each creature with flying if G was spent to cast it. <em>(Do both if RG was spent.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Green",
+        "Red"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2014-08-22T00:00:00Z",
+      "number": "6",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "M",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.87,
+    "productName": "Firespout",
+    "setId": 1475.0,
+    "setCode": "V14",
+    "productId": 92300.0,
+    "imageCount": 1.0,
+    "score": 2.139879,
+    "setName": "From the Vault: Annihilation",
+    "sellers": 100.0,
+    "foilOnly": true,
+    "setUrlName": "From the Vault Annihilation",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 112.0,
+    "lowestPrice": 0.87,
+    "medianPrice": 1.61,
+    "formattedAttributes": {
+      "Rarity": "M",
+      "#": "6",
+      "Card Type": "Sorcery",
+      "Description": "Firespout deals 3 damage to each creature without flying if R was spent to cast Firespout and 3 damage to each creature with flying if G was spent to cast it. <em>(Do both if RG was spent.)</em>",
+      "Artist": "Raymond Swanland"
+    },
+    "skus": [
+      {
+        "sku": 1249898,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1249899,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1249900,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1249901,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1249902,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}
