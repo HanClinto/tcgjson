@@ -69,6 +69,12 @@ def extract_metadata(details_payload: dict[str, Any]) -> dict[str, Any]:
     return metadata
 
 
+def apply_search_product_metadata(product: dict[str, Any], search_row: dict[str, Any]) -> None:
+    metadata = extract_metadata({"customAttributes": search_row.get("customAttributes")})
+    if metadata:
+        product["metadata"] = metadata
+
+
 def group_priceguide_products(
     rows: list[dict[str, Any]],
     *,
@@ -135,7 +141,7 @@ def normalize_search_products(
         if not foilings and row.get("foilOnly"):
             foilings = ["Foil"]
         products.append(
-            {
+            product := {
                 "tcgplayerProductId": product_id,
                 "name": row.get("productName", ""),
                 "productLineId": product_line_id,
@@ -155,6 +161,7 @@ def normalize_search_products(
                 ],
             }
         )
+        apply_search_product_metadata(product, row)
     products.sort(key=lambda item: (item["setId"], item["collectorNumber"], item["name"]))
     return products
 

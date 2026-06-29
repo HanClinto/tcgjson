@@ -65,16 +65,22 @@ price-guide set IDs line up with catalog set IDs:
 catalog intentionally does not fetch sealed products or other non-single product
 types yet.
 
-Optional SKU and card metadata enrichment uses:
+Default builds preserve card metadata from TCGplayer search rows when available.
+Search `customAttributes` are stored under each product's `metadata`, and common
+fields such as rules text, type line, colors, power/toughness, and converted cost
+are promoted when they use shared names. Product-line-specific fields remain in
+`metadata.customAttributes` so games like Pokemon, Lorcana, Digimon, One Piece,
+Star Wars Unlimited, Riftbound, Union Arena, and Flesh and Blood can keep their
+native catalog fields without forcing a single cross-game schema.
+
+Optional SKU, formatted-attribute, and extra-image enrichment uses:
 
 - `https://mp-search-api.tcgplayer.com/v2/product/{productId}/details`
 
-When `--with-details` is enabled, the full catalog also preserves normalized card
-metadata from product details under `metadata`, including common fields such as
-rules text, type line, colors, power/toughness, converted cost, artist, raw
-`customAttributes`, and `formattedAttributes` when TCGplayer provides them. The
-available fields vary by product line, so the generated schema files should be
-treated as the field guide for each catalog.
+When `--with-details` is enabled, the full catalog also preserves SKU IDs,
+formatted attributes such as artist, and `imageCount`-derived multi-image URLs
+from product details. The available fields vary by product line, so the generated
+schema files should be treated as the field guide for each catalog.
 
 Some newer product lines expose card products through search, but return empty
 payloads from the `infinite-api` price-guide path for their catalog set IDs. For
@@ -117,8 +123,8 @@ python -m pip install -e '.[dev]'
 # .tcgjson-cache/set-checkpoints, so interrupted local runs can resume.
 tcgjson build --output release
 
-# Add SKU IDs, card metadata, and multi-image URLs. This is slower because it
-# fetches per-product details.
+# Add SKU IDs, formatted attributes, and multi-image URLs. This is slower because
+# it fetches per-product details.
 tcgjson build --output release --with-details
 
 # Faster smoke build for development. Product-line IDs are preferred.

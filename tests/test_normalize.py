@@ -1,6 +1,7 @@
 from tcgjson.config import product_line_for_name, slugify
 from tcgjson.normalize import (
     apply_product_details,
+    apply_search_product_metadata,
     compact_product,
     extract_metadata,
     extract_skus,
@@ -88,6 +89,26 @@ def test_extract_metadata_promotes_common_card_fields() -> None:
     assert metadata["convertedCost"] == "2"
     assert metadata["artist"] == "Example Artist"
     assert metadata["customAttributes"]["number"] == "001"
+
+
+def test_apply_search_product_metadata_preserves_custom_attributes() -> None:
+    product = {"tcgplayerProductId": 540376, "name": "Director Krennic"}
+
+    apply_search_product_metadata(
+        product,
+        {
+            "customAttributes": {
+                "description": "When Played: Create a token.",
+                "aspect": "Vigilance;Villainy",
+                "traits": "Official;Imperial",
+                "number": "001/252",
+            }
+        },
+    )
+
+    assert product["metadata"]["rulesText"] == "When Played: Create a token."
+    assert product["metadata"]["customAttributes"]["aspect"] == "Vigilance;Villainy"
+    assert product["metadata"]["customAttributes"]["traits"] == "Official;Imperial"
 
 
 def test_apply_product_details_adds_skus_to_matching_priceguide_rows_and_multiple_images() -> None:

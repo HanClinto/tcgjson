@@ -68,6 +68,25 @@ class SearchFallbackClient(CachedSetClient):
         }
 
 
+class PriceguideWithSearchMetadataClient(SearchFallbackClient):
+    def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
+        assert set_id == 23405
+        return {
+            "result": [
+                {
+                    "productID": 540213,
+                    "productName": "Overwhelming Barrage",
+                    "number": "092/252",
+                    "rarity": "Uncommon",
+                    "printing": "Normal",
+                    "condition": "Near Mint",
+                    "lowPrice": 0.45,
+                    "marketPrice": 0.63,
+                }
+            ]
+        }
+
+
 class CheckpointOnlyClient(SearchFallbackClient):
     def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
         raise AssertionError("set checkpoint should be reused before fetching price-guide rows")
@@ -216,6 +235,16 @@ def test_fetch_product_line_falls_back_to_search_when_priceguide_is_empty() -> N
     assert catalog["products"][0]["name"] == "Overwhelming Barrage"
     assert catalog["products"][0]["collectorNumber"] == "092/252"
     assert catalog["products"][0]["priceGuide"][0]["marketPrice"] == 0.63
+    assert catalog["sets"][0]["searchMetadataProductCount"] == 1
+    assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
+
+
+def test_fetch_product_line_enriches_priceguide_products_with_search_metadata() -> None:
+    catalog = fetch_product_line(PriceguideWithSearchMetadataClient(), 79)
+
+    assert catalog["sets"][0]["source"] == "priceguide"
+    assert catalog["sets"][0]["searchMetadataProductCount"] == 1
+    assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
 
 
 def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:
