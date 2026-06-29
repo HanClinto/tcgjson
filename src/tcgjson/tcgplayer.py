@@ -274,4 +274,6 @@ class TCGplayerClient:
     def product_image_urls(cls, product_id: int | str, image_count: int, *, size: str = "1000x1000") -> list[str]:
         if image_count <= 1:
             return [cls.product_image_url(product_id, size=size)]
-        return [cls.product_image_url(product_id, size=size, image_number=index) for index in range(1, image_count + 1)]
+        return [cls.product_image_url(product_id, size=size), *[
+            cls.product_image_url(product_id, size=size, image_number=index) for index in range(1, image_count)
+        ]]

@@ -114,7 +114,7 @@ def test_apply_product_details_adds_skus_to_matching_priceguide_rows_and_multipl
     )
 
     assert product["imageUrls"] == [
+        "https://tcgplayer-cdn.tcgplayer.com/product/100191_in_1000x1000.jpg",
         "https://tcgplayer-cdn.tcgplayer.com/product/100191_1_in_1000x1000.jpg",
-        "https://tcgplayer-cdn.tcgplayer.com/product/100191_2_in_1000x1000.jpg",
     ]
     assert product["priceGuide"][0]["tcgplayerSkuIds"] == [10]
