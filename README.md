@@ -261,6 +261,12 @@ tcgjson ops evaluate \
   --data-cache-dir data-cache
 ```
 
+These targets are soft operating agreements by default. `tcgjson ops evaluate`
+prints exceeded targets but exits successfully so scheduled builds do not abort
+after already producing useful cache or release artifacts. Use `--strict` only
+when an intentionally hard gate is useful, such as a local policy check or a
+separate CI job that should fail on drift.
+
 The weekly workflow runs this evaluation after `python -m tcgjson.validate
 release` and before committing cache changes or publishing a release.
 

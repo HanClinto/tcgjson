@@ -1,5 +1,6 @@
 import json
 
+from tcgjson.cli import main
 from tcgjson.operations import evaluate_operations, evaluation_text
 
 
@@ -51,3 +52,36 @@ def test_evaluate_operations_fails_when_metrics_exceed_runtime(tmp_path) -> None
 
     assert evaluation["passed"] is False
     assert evaluation["checks"][0]["name"] == "build.durationSeconds"
+
+
+def test_ops_evaluate_is_soft_by_default_and_strict_when_requested(tmp_path, capsys) -> None:
+    constraints_path = tmp_path / "constraints.json"
+    metrics_path = tmp_path / "metrics.json"
+    constraints_path.write_text(
+        json.dumps(
+            {
+                "githubActions": {"jobTimeoutMinutes": 1},
+                "dataCache": {"maxTrackedCacheMegabytes": 1, "maxFilesPerDirectory": 1, "warnFilesPerDirectory": 1},
+            }
+        ),
+        encoding="utf-8",
+    )
+    metrics_path.write_text(json.dumps({"durationSeconds": 61}), encoding="utf-8")
+
+    assert main(["ops", "evaluate", "--constraints", str(constraints_path), "--metrics", str(metrics_path)]) == 0
+    assert "Overall: FAIL" in capsys.readouterr().out
+
+    assert (
+        main(
+            [
+                "ops",
+                "evaluate",
+                "--constraints",
+                str(constraints_path),
+                "--metrics",
+                str(metrics_path),
+                "--strict",
+            ]
+        )
+        == 1
+    )

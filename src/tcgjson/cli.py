@@ -102,6 +102,7 @@ def build_parser() -> argparse.ArgumentParser:
     evaluate.add_argument("--metrics", type=Path, default=None)
     evaluate.add_argument("--data-cache-dir", type=Path, default=Path("data-cache"))
     evaluate.add_argument("--json", action="store_true", help="Write machine-readable evaluation JSON.")
+    evaluate.add_argument("--strict", action="store_true", help="Exit non-zero when operating targets are exceeded.")
     return parser
 
 
@@ -155,7 +156,7 @@ def main(argv: list[str] | None = None) -> int:
             print(json.dumps(evaluation, indent=2, sort_keys=True))
         else:
             print(evaluation_text(evaluation))
-        return 0 if evaluation["passed"] else 1
+        return 0 if evaluation["passed"] or not args.strict else 1
     parser.error(f"Unknown command: {args.command}")
     return 2
 
