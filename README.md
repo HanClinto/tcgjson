@@ -114,7 +114,7 @@ source .venv/bin/activate
 python -m pip install -e '.[dev]'
 
 # Build the default weekly export set. Per-set checkpoints are written under
-# data-cache/set-checkpoints, so expensive set reads can be reused later.
+# .tcgjson-cache/set-checkpoints, so interrupted local runs can resume.
 tcgjson build --output release
 
 # Add SKU IDs, card metadata, and multi-image URLs. This is slower because it
@@ -195,20 +195,21 @@ activity stays fresh without recrawling entire back catalogs. A manual full
 refresh can still be run locally whenever older price-guide rows need a complete
 rebake.
 
-Builds also write per-set checkpoint files under `data-cache/set-checkpoints` by
-default. Checkpoints are separated by product-line slug and source (`priceguide`
-versus `search`) so a search-fallback set cannot overwrite a richer price-guide
-set. These files are not listed in `bulk-data.json`, and the release workflow
-uploads only `release/*`, so the data cache is not part of the public release
-artifact set. Use `--data-cache-dir` to move the durable cache, `--checkpoint-dir`
-to place set checkpoints directly, or `--no-checkpoints` to disable them.
+Builds also write per-set checkpoint files under `.tcgjson-cache/set-checkpoints`
+by default. Checkpoints are separated by product-line slug and source
+(`priceguide` versus `search`) so a search-fallback set cannot overwrite a richer
+price-guide set. They are useful for resuming interrupted local runs, but they
+duplicate normalized product rows and can be regenerated from TCGplayer set data
+plus the durable product-detail cache. For that reason, set checkpoints are
+ignored by git unless you explicitly place them elsewhere with `--checkpoint-dir`.
+Use `--no-checkpoints` to disable them entirely.
 
-The data cache is intended to be tracked in git. This is especially useful for
-expensive `--with-details` enrichment: product-detail responses are cached under
-`data-cache/product-details` by product ID, and completed set checkpoints can
-also preserve SKU IDs, metadata, and multi-image information. Those internal
-cache files are not republished as release assets. Git then transfers only
-changed cache files instead of re-uploading a full cache archive every week.
+The data cache is intended to be tracked in git, but only for expensive durable
+inputs. Product-detail responses are cached under `data-cache/product-details` by
+product ID, which preserves SKU IDs, metadata, and multi-image information across
+weekly runs. Those internal cache files are not republished as release assets.
+Git then transfers only changed detail cache files instead of re-uploading a full
+cache archive every week.
 
 Use `--detail-cache-dir` to place product-detail cache files directly, or
 `--no-detail-cache` to force detail refetches during `--with-details` builds.

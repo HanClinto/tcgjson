@@ -55,7 +55,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--checkpoint-dir",
         type=Path,
         default=None,
-        help="Directory for per-set checkpoint files. Defaults to <data-cache-dir>/set-checkpoints.",
+        help="Directory for per-set checkpoint files. Defaults to .tcgjson-cache/set-checkpoints.",
     )
     build.add_argument(
         "--no-checkpoints",
@@ -112,7 +112,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
     if args.command == "build":
-        checkpoint_dir = None if args.no_checkpoints else args.checkpoint_dir or args.data_cache_dir / "set-checkpoints"
+        checkpoint_dir = None if args.no_checkpoints else args.checkpoint_dir or Path(".tcgjson-cache") / "set-checkpoints"
         detail_cache_dir = None
         if args.with_details and not args.no_detail_cache:
             detail_cache_dir = args.detail_cache_dir or args.data_cache_dir / "product-details"
