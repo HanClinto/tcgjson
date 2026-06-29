@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:34Z",
+  "tcgplayerProductId": 21659,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Disenchant",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 10.85,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target enchantment or artifact.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 6.0,
+    "productName": "Disenchant",
+    "setId": 13.0,
+    "setCode": "ARENA",
+    "productId": 21659.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Arena Promos",
+    "sellers": 32.0,
+    "foilOnly": false,
+    "setUrlName": "Arena Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 35.0,
+    "lowestPrice": 6.0,
+    "medianPrice": 11.745,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant",
+      "Description": "Destroy target enchantment or artifact.",
+      "Artist": "Kevin McCann"
+    },
+    "skus": [
+      {
+        "sku": 129948,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 377848,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 346332,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 362090,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 330574,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

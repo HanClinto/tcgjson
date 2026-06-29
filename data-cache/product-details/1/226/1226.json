@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:42Z",
+  "tcgplayerProductId": 1226,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Prodigal Sorcerer",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 43.95,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to do 1 damage to any target.",
+      "powerNumber": "1",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature Wizard",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 30.2,
+    "productName": "Prodigal Sorcerer",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1226.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 24.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 29.0,
+    "lowestPrice": 30.2,
+    "medianPrice": 52.57,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Wizard",
+      "P / T": "1 / 1",
+      "Description": "Tap to do 1 damage to any target.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 15370,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364316,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332800,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348558,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317042,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

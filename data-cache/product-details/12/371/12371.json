@@ -1,0 +1,548 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:45Z",
+  "tcgplayerProductId": 12371,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Terashis Grasp",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.11,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target artifact or enchantment. You gain life equal to its converted mana cost.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2005-02-04T00:00:00Z",
+      "number": "26",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"The jeweler, the potter, the smith . . . They all imbue a bit of their souls into their creations. The kami destroy that crafted mortal shell and absorb the soul within.\"\r\n<br>\r\n—Noboru, master kitemaker</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Terashi's Grasp",
+    "setId": 18.0,
+    "setCode": "BOK",
+    "productId": 12371.0,
+    "imageCount": 1.0,
+    "score": 2.209515,
+    "setName": "Betrayers of Kamigawa",
+    "sellers": 424.0,
+    "foilOnly": false,
+    "setUrlName": "Betrayers of Kamigawa",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 578.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "26",
+      "Card Type": "Sorcery",
+      "Description": "Destroy target artifact or enchantment. You gain life equal to its converted mana cost.",
+      "Flavor": "<em>\"The jeweler, the potter, the smith . . . They all imbue a bit of their souls into their creations. The kami destroy that crafted mortal shell and absorb the soul within.\"\r\n<br>\r\n—Noboru, master kitemaker</em>",
+      "Artist": "Mark Tedin"
+    },
+    "skus": [
+      {
+        "sku": 2112253,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2112418,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2112583,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2112748,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2112913,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2113078,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2113243,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2113408,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2113573,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2113738,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 24429,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 373996,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 342480,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 358238,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 326722,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 48233,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 833552,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 793630,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 813591,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 773669,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 2113903,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2114068,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2114233,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2114398,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2114563,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2114728,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2114893,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2115058,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2115223,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2115388,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2115553,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2115718,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2115883,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2116048,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2116213,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2116378,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2116543,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2116708,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2116873,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2117038,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2117203,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2117368,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2117533,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2117698,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2117863,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2118028,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2118193,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2118358,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2118523,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2118688,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2118853,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2119018,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2119183,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2119348,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2119513,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2119678,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2119843,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2120008,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2120173,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2120338,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2120503,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2120668,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2120833,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2120998,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2121163,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2121328,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2121493,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2121658,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2121823,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2121988,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2122153,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2122318,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2122483,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2122648,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2122813,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2122978,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2123143,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2123308,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2123473,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2123638,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Spanish"
+      }
+    ]
+  }
+}

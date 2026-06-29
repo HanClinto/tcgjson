@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:12Z",
+  "tcgplayerProductId": 3162,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Aladdins Lamp",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 54.78,
+    "customAttributes": {
+      "formats": null,
+      "description": "X: Instead of drawing a card from the top of your library, draw X cards but choose only one to put in your hand. You must shuffle the leftover cards and put them at the bottom of your library.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Mono Artifact ",
+      "releaseDate": "1993-12-17T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "10",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 20.32,
+    "productName": "Aladdin's Lamp",
+    "setId": 11.0,
+    "setCode": "ARN",
+    "productId": 3162.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Arabian Nights",
+    "sellers": 37.0,
+    "foilOnly": false,
+    "setUrlName": "Arabian Nights",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 42.0,
+    "lowestPrice": 16.99,
+    "medianPrice": 91.99,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Mono Artifact ",
+      "Description": "X: Instead of drawing a card from the top of your library, draw X cards but choose only one to put in your hand. You must shuffle the leftover cards and put them at the bottom of your library.",
+      "Artist": "Mark Tedin"
+    },
+    "skus": [
+      {
+        "sku": 17238,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366184,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334668,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350426,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318910,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

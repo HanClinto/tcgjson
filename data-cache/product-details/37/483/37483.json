@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:55Z",
+  "tcgplayerProductId": 37483,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fallen Angel",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.4,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying<br>Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.",
+      "powerNumber": "3",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Angel",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "25",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "R",
+      "power": "3",
+      "flavorText": "<em>\"Angels are simply extensions of truth upon the fabric of life—and there is far more dark than light.\"—Baron Sengir</em>",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.08,
+    "productName": "Fallen Angel",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37483.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Beatdown Box Set",
+    "sellers": 118.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 166.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.67,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "25",
+      "Card Type": "Creature — Angel",
+      "P / T": "3 / 3",
+      "Description": "Flying<br>Sacrifice a creature: Fallen Angel gets +2/+1 until end of turn.",
+      "Flavor": "<em>\"Angels are simply extensions of truth upon the fabric of life—and there is far more dark than light.\"—Baron Sengir</em>",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 397502,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405490,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403080,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404285,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401875,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

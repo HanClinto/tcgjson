@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:39Z",
+  "tcgplayerProductId": 1161,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Juggernaut",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 179.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Must attack each turn if possible. Can’t be blocked by walls.",
+      "powerNumber": "5",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "5",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 200.0,
+    "productName": "Juggernaut",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1161.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 7.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 15.0,
+    "lowestPrice": 200.0,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Artifact Creature ",
+      "P / T": "5 / 3",
+      "Description": "Must attack each turn if possible. Can’t be blocked by walls.",
+      "Artist": "Dan Frazier"
+    },
+    "skus": [
+      {
+        "sku": 15309,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364255,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332739,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348497,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316981,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

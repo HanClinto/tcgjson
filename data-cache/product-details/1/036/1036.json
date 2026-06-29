@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:31Z",
+  "tcgplayerProductId": 1036,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Basalt Monolith",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 439.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to add 3 colorless mana to your mana pool. Does not untap as normal during untap phase; spend 3 to untap. Tapping this artifact can be played as an interrupt.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Mono Artifact ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 165.0,
+    "productName": "Basalt Monolith",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1036.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 4.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 11.0,
+    "lowestPrice": 165.0,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Mono Artifact ",
+      "Description": "Tap to add 3 colorless mana to your mana pool. Does not untap as normal during untap phase; spend 3 to untap. Tapping this artifact can be played as an interrupt.",
+      "Artist": "Jesper Myrfors"
+    },
+    "skus": [
+      {
+        "sku": 15189,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364135,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332619,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348377,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316861,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

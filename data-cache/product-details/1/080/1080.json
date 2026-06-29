@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:34Z",
+  "tcgplayerProductId": 1080,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Dark Ritual",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 245.97,
+    "customAttributes": {
+      "formats": null,
+      "description": "Add 3 black mana to your mana pool.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 169.95,
+    "productName": "Dark Ritual",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1080.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 13.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 30.0,
+    "lowestPrice": 169.95,
+    "medianPrice": 499.99,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Interrupt ",
+      "Description": "Add 3 black mana to your mana pool.",
+      "Artist": "Sandra Everingham"
+    },
+    "skus": [
+      {
+        "sku": 15232,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364178,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332662,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348420,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316904,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

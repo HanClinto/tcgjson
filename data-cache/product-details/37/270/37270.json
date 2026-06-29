@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:26Z",
+  "tcgplayerProductId": 37270,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Zombie Infestation",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.24,
+    "customAttributes": {
+      "formats": null,
+      "description": "Discard two cards: Put a 2/2 black Zombie creature token onto the battlefield.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Enchantment",
+      "releaseDate": "2010-06-18T00:00:00Z",
+      "number": "28",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>The nomads' funeral pyres are more practical than ceremonial.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Zombie Infestation",
+    "setId": 12.0,
+    "setCode": "ARC",
+    "productId": 37270.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Archenemy",
+    "sellers": 95.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 108.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.365,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "28",
+      "Card Type": "Enchantment",
+      "Description": "Discard two cards: Put a 2/2 black Zombie creature token onto the battlefield.",
+      "Flavor": "<em>The nomads' funeral pyres are more practical than ceremonial.</em>",
+      "Artist": "Thomas M. Baxa"
+    },
+    "skus": [
+      {
+        "sku": 397114,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405359,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402949,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404154,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401744,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

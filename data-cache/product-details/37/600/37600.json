@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:50Z",
+  "tcgplayerProductId": 37600,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ray of Command",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.69,
+    "customAttributes": {
+      "formats": null,
+      "description": "Untap target creature an opponent controls and gain control of it until end of turn. That creature gains haste until end of turn. <em>(It may attack and T the turn it comes under your control.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"Heel.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Ray of Command",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37600.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Battle Royale Box Set",
+    "sellers": 55.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 63.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 0.72,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant",
+      "Description": "Untap target creature an opponent controls and gain control of it until end of turn. That creature gains haste until end of turn. <em>(It may attack and T the turn it comes under your control.)</em>",
+      "Flavor": "<em>\"Heel.\"</em>",
+      "Artist": "Andrew Robinson"
+    },
+    "skus": [
+      {
+        "sku": 397407,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405420,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403010,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404215,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401805,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

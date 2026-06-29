@@ -1,0 +1,608 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:20:17Z",
+  "tcgplayerProductId": 2900,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Final Fortune",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 17.36,
+    "customAttributes": {
+      "formats": null,
+      "description": "Take an extra turn after this one. At the end of that turn, you lose the game.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2001-04-11T00:00:00Z",
+      "number": "182",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "<em>A reward is worthless if you aren't around to enjoy it.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 10.81,
+    "productName": "Final Fortune",
+    "setId": 2.0,
+    "setCode": "7ED",
+    "productId": 2900.0,
+    "imageCount": 1.0,
+    "score": 2.3384564,
+    "setName": "7th Edition",
+    "sellers": 71.0,
+    "foilOnly": false,
+    "setUrlName": "7th Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 83.0,
+    "lowestPrice": 10.37,
+    "medianPrice": 18.505,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "182",
+      "Card Type": "Instant",
+      "Description": "Take an extra turn after this one. At the end of that turn, you lose the game.",
+      "Flavor": "<em>A reward is worthless if you aren't around to enjoy it.</em>",
+      "Artist": "Greg & Tim Hildebrandt"
+    },
+    "skus": [
+      {
+        "sku": 2377635,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2377985,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2378335,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2378685,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2379035,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2379385,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2379735,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2380085,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2380435,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2380785,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Chinese (S)"
+      },
+      {
+        "sku": 2381135,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2381485,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2381835,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2382185,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2382535,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2382885,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2383235,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2383585,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2383935,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 2384285,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Chinese (T)"
+      },
+      {
+        "sku": 16991,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 365937,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334421,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350179,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318663,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 40795,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 830722,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 790800,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 810761,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 770839,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 2384635,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2384985,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2385335,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2385685,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2386035,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "French"
+      },
+      {
+        "sku": 2386385,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2386735,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2387085,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2387435,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2387785,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "French"
+      },
+      {
+        "sku": 2388135,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2388485,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2388835,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2389185,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2389535,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "German"
+      },
+      {
+        "sku": 2389885,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2390235,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2390585,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2390935,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2391285,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "German"
+      },
+      {
+        "sku": 2391635,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2391985,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2392335,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2392685,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2393035,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Italian"
+      },
+      {
+        "sku": 2393385,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2393735,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2394085,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2394435,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2394785,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Italian"
+      },
+      {
+        "sku": 2395135,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2395485,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2395835,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2396185,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2396535,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2396885,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2397235,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2397585,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2397935,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2398285,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Japanese"
+      },
+      {
+        "sku": 2398635,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2398985,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2399335,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2399685,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2400035,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2400385,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2400735,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2401085,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2401435,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2401785,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Portuguese"
+      },
+      {
+        "sku": 2402135,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2402485,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2402835,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2403185,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2403535,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2403885,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2404235,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2404585,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2404935,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "Spanish"
+      },
+      {
+        "sku": 2405285,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "Spanish"
+      }
+    ]
+  }
+}

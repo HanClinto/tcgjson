@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:38Z",
+  "tcgplayerProductId": 1143,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Hurricane",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 123.58,
+    "customAttributes": {
+      "formats": null,
+      "description": "All players and flying creatures suffer X damage.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 123.58,
+    "productName": "Hurricane",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1143.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 7.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 10.0,
+    "lowestPrice": 123.58,
+    "medianPrice": 197.0,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Sorcery ",
+      "Description": "All players and flying creatures suffer X damage.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 15293,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364239,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332723,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348481,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316965,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

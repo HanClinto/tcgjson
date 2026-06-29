@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:54Z",
+  "tcgplayerProductId": 37459,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Air Elemental",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.19,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "4",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature — Elemental ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "1",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "U",
+      "power": "4",
+      "flavorText": "<em> As insubstantial, and as powerful, as the wind that carries it. </em>",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.04,
+    "productName": "Air Elemental",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37459.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beatdown Box Set",
+    "sellers": 95.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 115.0,
+    "lowestPrice": 0.04,
+    "medianPrice": 0.34,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "1",
+      "Card Type": "Creature — Elemental ",
+      "P / T": "4 / 4",
+      "Description": "Flying",
+      "Flavor": "<em> As insubstantial, and as powerful, as the wind that carries it. </em>",
+      "Artist": "Doug Chaffee"
+    },
+    "skus": [
+      {
+        "sku": 397089,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405466,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403056,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404261,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401851,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

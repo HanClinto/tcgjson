@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:53Z",
+  "tcgplayerProductId": 3303,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Orcish Mechanics",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.43,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to do 2 points of damage to any target. Each time you use this ability, you must choose one of your artifacts in play and place it in the graveyard. This artifact cannot be one already on its way to the graveyard, and artifact creatures killed this way may not be regenerated.",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature Orcs",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Orcish Mechanics",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3303.0,
+    "imageCount": 1.0,
+    "score": 2.209515,
+    "setName": "Antiquities",
+    "sellers": 202.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 286.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.555,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Orcs",
+      "P / T": "1 / 1",
+      "Description": "Tap to do 2 points of damage to any target. Each time you use this ability, you must choose one of your artifacts in play and place it in the graveyard. This artifact cannot be one already on its way to the graveyard, and artifact creatures killed this way may not be regenerated.",
+      "Artist": "Pete Venters"
+    },
+    "skus": [
+      {
+        "sku": 17362,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366308,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334792,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350550,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319034,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

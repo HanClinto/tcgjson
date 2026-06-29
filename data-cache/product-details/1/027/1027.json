@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:31Z",
+  "tcgplayerProductId": 1027,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Animate Artifact",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 60.5,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target artifact is now a creature with both power and toughness equal to its casting cost; target retains all its original abilities as well. This will destroy artifacts with 0 casting cost.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Non—Creature Artifact ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 31.2,
+    "productName": "Animate Artifact",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1027.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Alpha Edition",
+    "sellers": 12.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 15.0,
+    "lowestPrice": 31.2,
+    "medianPrice": 74.99,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Non—Creature Artifact ",
+      "Description": "Target artifact is now a creature with both power and toughness equal to its casting cost; target retains all its original abilities as well. This will destroy artifacts with 0 casting cost.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 15180,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364126,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332610,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348368,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316852,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

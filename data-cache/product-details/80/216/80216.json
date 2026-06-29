@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:01Z",
+  "tcgplayerProductId": 80216,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mountain 85",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.38,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "85",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Mountain (85)",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 80216.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beatdown Box Set",
+    "sellers": 38.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 47.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "85",
+      "Card Type": "Basic Land ",
+      "Artist": "John Avon"
+    },
+    "skus": [
+      {
+        "sku": 1171765,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1171766,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1171767,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1171768,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1171769,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

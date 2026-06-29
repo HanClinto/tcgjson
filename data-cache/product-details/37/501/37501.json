@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:57Z",
+  "tcgplayerProductId": 37501,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lava Axe",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.09,
+    "customAttributes": {
+      "formats": null,
+      "description": "Lava Axe deals 5 damage to target player.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "40",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"Catch!\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Lava Axe",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37501.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beatdown Box Set",
+    "sellers": 79.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 86.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "40",
+      "Card Type": "Sorcery ",
+      "Description": "Lava Axe deals 5 damage to target player.",
+      "Flavor": "<em>\"Catch!\"</em>",
+      "Artist": "Brian Snoddy"
+    },
+    "skus": [
+      {
+        "sku": 396859,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405508,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403098,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404303,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401893,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

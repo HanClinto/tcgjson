@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:36Z",
+  "tcgplayerProductId": 1124,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Giant Growth",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 89.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gains +3/+3 until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 64.0,
+    "productName": "Giant Growth",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1124.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Alpha Edition",
+    "sellers": 18.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 25.0,
+    "lowestPrice": 64.0,
+    "medianPrice": 103.43,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "Target creature gains +3/+3 until end of turn.",
+      "Artist": "Sandra Everingham"
+    },
+    "skus": [
+      {
+        "sku": 15274,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364220,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332704,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348462,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316946,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

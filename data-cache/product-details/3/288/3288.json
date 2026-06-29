@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:51Z",
+  "tcgplayerProductId": 3288,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Haunting Wind",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 17.37,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each time an artifact in play is tapped or its activation cost is paid, Haunting Wind does 1 damage to that artifact’s controller. Is not triggered by continuous artifacts.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Enchantment ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 6.37,
+    "productName": "Haunting Wind",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3288.0,
+    "imageCount": 1.0,
+    "score": 2.1139433,
+    "setName": "Antiquities",
+    "sellers": 115.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 151.0,
+    "lowestPrice": 4.5,
+    "medianPrice": 17.37,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchantment ",
+      "Description": "Each time an artifact in play is tapped or its activation cost is paid, Haunting Wind does 1 damage to that artifact’s controller. Is not triggered by continuous artifacts.",
+      "Artist": "Jeff A. Menges"
+    },
+    "skus": [
+      {
+        "sku": 17350,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366296,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334780,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350538,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319022,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

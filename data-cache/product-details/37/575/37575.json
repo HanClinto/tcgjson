@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:46Z",
+  "tcgplayerProductId": 37575,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Infantry Veteran",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.2,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Target attacking creature gets +1/+1 until end of turn.",
+      "powerNumber": "1",
+      "color": [
+        "White"
+      ],
+      "fullType": "Creature — Soldier",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>\"The true dishonor for a soldier is surviving the war.\"<br>—Telim'Tor</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Infantry Veteran",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37575.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Battle Royale Box Set",
+    "sellers": 65.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 83.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature — Soldier",
+      "P / T": "1 / 1",
+      "Description": "T: Target attacking creature gets +1/+1 until end of turn.",
+      "Flavor": "<em>\"The true dishonor for a soldier is surviving the war.\"<br>—Telim'Tor</em>",
+      "Artist": "Christopher Rush"
+    },
+    "skus": [
+      {
+        "sku": 397662,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405395,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402985,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404190,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401780,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

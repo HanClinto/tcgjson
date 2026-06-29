@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:54Z",
+  "tcgplayerProductId": 37525,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Snapping Drake",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.14,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "3",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature — Drake ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "15",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": "3",
+      "flavorText": "<em>Drakes claim to be dragons—until the dragons show up.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Snapping Drake",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37525.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beatdown Box Set",
+    "sellers": 82.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 94.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.35,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "15",
+      "Card Type": "Creature — Drake ",
+      "P / T": "3 / 2",
+      "Description": "Flying",
+      "Flavor": "<em>Drakes claim to be dragons—until the dragons show up.</em>",
+      "Artist": "Christopher Rush"
+    },
+    "skus": [
+      {
+        "sku": 397339,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405532,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403122,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404327,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401917,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:39Z",
+  "tcgplayerProductId": 91381,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Island A",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 73.56,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Land ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 23.3,
+    "productName": "Island (A)",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 91381.0,
+    "imageCount": 1.0,
+    "score": 2.1139433,
+    "setName": "Alpha Edition",
+    "sellers": 30.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 49.0,
+    "lowestPrice": 23.3,
+    "medianPrice": 89.99,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "Card Type": "Land ",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 1233547,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233548,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233549,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233550,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233551,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:50Z",
+  "tcgplayerProductId": 37608,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sandstorm",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Sandstorm deals 1 damage to each attacking creature.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Even the landscape turned against Sarsour, first rising up and pelting him, then rearranging itself so he could no longer find his way.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Sandstorm",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37608.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Battle Royale Box Set",
+    "sellers": 53.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 57.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.94,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant",
+      "Description": "Sandstorm deals 1 damage to each attacking creature.",
+      "Flavor": "<em>Even the landscape turned against Sarsour, first rising up and pelting him, then rearranging itself so he could no longer find his way.</em>",
+      "Artist": "Brian Snoddy"
+    },
+    "skus": [
+      {
+        "sku": 397237,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405428,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403018,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404223,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401813,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

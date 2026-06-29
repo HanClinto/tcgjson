@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:17Z",
+  "tcgplayerProductId": 3222,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mountain Arabian Nights",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 230.4,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to add R to your mana pool.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Land ",
+      "releaseDate": "1993-12-17T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 155.0,
+    "productName": "Mountain (Arabian Nights)",
+    "setId": 11.0,
+    "setCode": "ARN",
+    "productId": 3222.0,
+    "imageCount": 1.0,
+    "score": 2.025306,
+    "setName": "Arabian Nights",
+    "sellers": 14.0,
+    "foilOnly": false,
+    "setUrlName": "Arabian Nights",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 30.0,
+    "lowestPrice": 150.0,
+    "medianPrice": 396.07,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Land ",
+      "Description": "Tap to add R to your mana pool.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 17291,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366237,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334721,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350479,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318963,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

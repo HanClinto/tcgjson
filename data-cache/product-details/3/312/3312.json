@@ -1,0 +1,92 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:53Z",
+  "tcgplayerProductId": 3312,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Reverse Polarity",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.45,
+    "customAttributes": {
+      "formats": null,
+      "description": "All damage done to you so far this turn by artifacts is retroactively added to your life total instead of subtracted. Further damage this turn is treated normally.",
+      "color": [
+        "White"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "flavorText": null
+    },
+    "lowestPriceWithShipping": 0.18,
+    "productName": "Reverse Polarity",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3312.0,
+    "imageCount": 1.0,
+    "score": 2.269513,
+    "setName": "Antiquities",
+    "sellers": 228.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 344.0,
+    "lowestPrice": 0.07,
+    "medianPrice": 0.65,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "All damage done to you so far this turn by artifacts is retroactively added to your life total instead of subtracted. Further damage this turn is treated normally.",
+      "Artist": "Justin Hampton"
+    },
+    "skus": [
+      {
+        "sku": 17371,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366317,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334801,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350559,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319043,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

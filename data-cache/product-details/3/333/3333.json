@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:55Z",
+  "tcgplayerProductId": 3333,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Urzas Chalice",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 1.02,
+    "customAttributes": {
+      "formats": null,
+      "description": "1: Any artifact cast by any player gives you 1 life. Can only give 1 life each time an artifact is cast.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Poly Artifact ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Urza's Chalice",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3333.0,
+    "imageCount": 1.0,
+    "score": 2.269513,
+    "setName": "Antiquities",
+    "sellers": 216.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 304.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.99,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Poly Artifact ",
+      "Description": "1: Any artifact cast by any player gives you 1 life. Can only give 1 life each time an artifact is cast.",
+      "Artist": "Jeff A. Menges"
+    },
+    "skus": [
+      {
+        "sku": 17389,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366335,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334819,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350577,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319061,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

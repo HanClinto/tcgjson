@@ -1,0 +1,92 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:48Z",
+  "tcgplayerProductId": 3252,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Amulet of Kroog",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.54,
+    "customAttributes": {
+      "formats": null,
+      "description": "2: Prevent 1 damage to any target.",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Mono Artifact ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "flavorText": null
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Amulet of Kroog",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3252.0,
+    "imageCount": 1.0,
+    "score": 2.164353,
+    "setName": "Antiquities",
+    "sellers": 259.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 389.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.6,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Mono Artifact ",
+      "Description": "2: Prevent 1 damage to any target.",
+      "Artist": "Margaret Organ-Kean"
+    },
+    "skus": [
+      {
+        "sku": 17314,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366260,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334744,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350502,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318986,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:44Z",
+  "tcgplayerProductId": 37565,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fecundity",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.63,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever a creature is put into a graveyard from play, that creature's controller may draw a card.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchantment",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>Life is eternal. A lifetime is ephemeral.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.5,
+    "productName": "Fecundity",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37565.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Battle Royale Box Set",
+    "sellers": 43.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 45.0,
+    "lowestPrice": 0.5,
+    "medianPrice": 1.0,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchantment",
+      "Description": "Whenever a creature is put into a graveyard from play, that creature's controller may draw a card.",
+      "Flavor": "<em>Life is eternal. A lifetime is ephemeral.</em>",
+      "Artist": "Rebecca Guay"
+    },
+    "skus": [
+      {
+        "sku": 397176,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405385,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402975,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404180,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401770,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

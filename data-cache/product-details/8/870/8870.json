@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:30Z",
+  "tcgplayerProductId": 8870,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Power Surge",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 106.02,
+    "customAttributes": {
+      "formats": null,
+      "description": "Before untapping lands at the start of a turn, each player takes 1 damage for each land he or she controls but did not tap during the previous turn.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Enchantment ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 80.49,
+    "productName": "Power Surge",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8870.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beta Edition",
+    "sellers": 7.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 17.0,
+    "lowestPrice": 80.49,
+    "medianPrice": 138.995,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Enchantment ",
+      "Description": "Before untapping lands at the start of a turn, each player takes 1 damage for each land he or she controls but did not tap during the previous turn.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 21686,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370967,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339451,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355209,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323693,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

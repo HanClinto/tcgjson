@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:29Z",
+  "tcgplayerProductId": 8853,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Orcish Artillery",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 27.5,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to do 2 damage to any target, but you suffer 3 damage as well.",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature Orcs",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 10.95,
+    "productName": "Orcish Artillery",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8853.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beta Edition",
+    "sellers": 15.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 20.0,
+    "lowestPrice": 10.78,
+    "medianPrice": 121.795,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Orcs",
+      "P / T": "1 / 3",
+      "Description": "Tap to do 2 damage to any target, but you suffer 3 damage as well.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 21671,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370952,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339436,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355194,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323678,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

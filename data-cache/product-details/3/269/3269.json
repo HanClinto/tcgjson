@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:50Z",
+  "tcgplayerProductId": 3269,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Citanul Druid",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 8.59,
+    "customAttributes": {
+      "formats": null,
+      "description": "Druid gains a +1/+1 counter each time opponent casts an artifact.",
+      "powerNumber": "1",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Druid",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 2.26,
+    "productName": "Citanul Druid",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3269.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Antiquities",
+    "sellers": 135.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 175.0,
+    "lowestPrice": 2.12,
+    "medianPrice": 9.31,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Druid",
+      "P / T": "1 / 1",
+      "Description": "Druid gains a +1/+1 counter each time opponent casts an artifact.",
+      "Artist": "Jeff A. Menges"
+    },
+    "skus": [
+      {
+        "sku": 17331,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366277,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334761,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350519,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319003,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

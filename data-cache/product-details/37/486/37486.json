@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:58Z",
+  "tcgplayerProductId": 37486,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fog",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.49,
+    "customAttributes": {
+      "formats": null,
+      "description": "Prevent all combat damage that would be dealt this turn.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "55",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.3,
+    "productName": "Fog",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37486.0,
+    "imageCount": 1.0,
+    "score": 1.9542425,
+    "setName": "Beatdown Box Set",
+    "sellers": 28.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 30.0,
+    "lowestPrice": 0.3,
+    "medianPrice": 0.49,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "55",
+      "Card Type": "Instant ",
+      "Description": "Prevent all combat damage that would be dealt this turn."
+    },
+    "skus": [
+      {
+        "sku": 397789,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405493,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403083,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404288,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401878,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

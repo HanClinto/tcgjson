@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:49Z",
+  "tcgplayerProductId": 3256,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Argothian Treefolk",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.52,
+    "customAttributes": {
+      "formats": null,
+      "description": "Any damage Argothian Treefolk take from an artifact source is reduced to 0.",
+      "powerNumber": "3",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Treefolk",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "C",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "5",
+      "toughness": "5"
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Argothian Treefolk",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3256.0,
+    "imageCount": 1.0,
+    "score": 2.3222194,
+    "setName": "Antiquities",
+    "sellers": 201.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 297.0,
+    "lowestPrice": 0.12,
+    "medianPrice": 0.695,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Treefolk",
+      "P / T": "3 / 5",
+      "Description": "Any damage Argothian Treefolk take from an artifact source is reduced to 0.",
+      "Artist": "Amy Weber"
+    },
+    "skus": [
+      {
+        "sku": 17318,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366264,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334748,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350506,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318990,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

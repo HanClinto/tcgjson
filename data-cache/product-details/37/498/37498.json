@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:01Z",
+  "tcgplayerProductId": 37498,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Island 81",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 1.37,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Basic Land — Island ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "81",
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.28,
+    "productName": "Island (81)",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37498.0,
+    "imageCount": 1.0,
+    "score": 1.9542425,
+    "setName": "Beatdown Box Set",
+    "sellers": 43.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 59.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 1.385,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "81",
+      "Card Type": "Basic Land — Island ",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 397858,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405505,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403095,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404300,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401890,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

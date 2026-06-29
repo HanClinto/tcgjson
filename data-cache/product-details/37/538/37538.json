@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:59Z",
+  "tcgplayerProductId": 37538,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wild Growth",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 1.38,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever enchanted land is tapped for mana, its controller adds G to his or her mana pool.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchantment Land",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "64",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.6,
+    "productName": "Wild Growth",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37538.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Beatdown Box Set",
+    "sellers": 51.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 62.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 1.385,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "64",
+      "Card Type": "Enchantment Land",
+      "Description": "Whenever enchanted land is tapped for mana, its controller adds G to his or her mana pool.",
+      "Artist": "Mike Raabe"
+    },
+    "skus": [
+      {
+        "sku": 397818,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405545,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403135,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404340,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401930,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

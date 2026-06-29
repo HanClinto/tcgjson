@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:37Z",
+  "tcgplayerProductId": 8961,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Web",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 81.58,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gains +0/+2 and can now block flying creatures, though it does not gain the power to fly.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 55.99,
+    "productName": "Web",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8961.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beta Edition",
+    "sellers": 9.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 14.0,
+    "lowestPrice": 55.99,
+    "medianPrice": 149.96,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Enchant Creature ",
+      "Description": "Target creature gains +0/+2 and can now block flying creatures, though it does not gain the power to fly.",
+      "Artist": "Rob Alexander"
+    },
+    "skus": [
+      {
+        "sku": 21775,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371056,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339540,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355298,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323782,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:40Z",
+  "tcgplayerProductId": 1178,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Llanowar Elves",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 177.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to add 1 green mana to your mana pool. This tap can be played as an interrupt.",
+      "powerNumber": "1",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Elves",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 129.46,
+    "productName": "Llanowar Elves",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1178.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Alpha Edition",
+    "sellers": 17.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 36.0,
+    "lowestPrice": 129.46,
+    "medianPrice": 324.99,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Elves",
+      "P / T": "1 / 1",
+      "Description": "Tap to add 1 green mana to your mana pool. This tap can be played as an interrupt.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 15326,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364272,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332756,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348514,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316998,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

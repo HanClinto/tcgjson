@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:35Z",
+  "tcgplayerProductId": 1107,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Feedback",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 50.62,
+    "customAttributes": {
+      "formats": null,
+      "description": "Feedback does 1 damage to controller of target enchantment during each upkeep.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Enchantment ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 24.5,
+    "productName": "Feedback",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1107.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Alpha Edition",
+    "sellers": 19.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 26.0,
+    "lowestPrice": 24.5,
+    "medianPrice": 74.99,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Enchantment ",
+      "Description": "Feedback does 1 damage to controller of target enchantment during each upkeep.",
+      "Artist": "Quinton Hoover"
+    },
+    "skus": [
+      {
+        "sku": 15259,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364205,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332689,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348447,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316931,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

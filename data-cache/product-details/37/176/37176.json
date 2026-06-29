@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:21Z",
+  "tcgplayerProductId": 37176,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lodestone Golem",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.39,
+    "customAttributes": {
+      "formats": null,
+      "description": "Nonartifact spells cost 1 more to cast.",
+      "powerNumber": "5",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Golem",
+      "releaseDate": "2010-06-18T00:00:00Z",
+      "number": "111",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": "5",
+      "flavorText": "<em>\"Somehow it warps the AEther. It brings a strange weight, a blockade in the flow of spellcraft.\"<br>—Noyan Dar, Tazeem lullmage</em>",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Lodestone Golem",
+    "setId": 12.0,
+    "setCode": "ARC",
+    "productId": 37176.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Archenemy",
+    "sellers": 85.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 97.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.45,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "111",
+      "Card Type": "Artifact Creature — Golem",
+      "P / T": "5 / 3",
+      "Description": "Nonartifact spells cost 1 more to cast.",
+      "Flavor": "<em>\"Somehow it warps the AEther. It brings a strange weight, a blockade in the flow of spellcraft.\"<br>—Noyan Dar, Tazeem lullmage</em>",
+      "Artist": "Chris Rahn"
+    },
+    "skus": [
+      {
+        "sku": 397262,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405265,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402855,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404060,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401650,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

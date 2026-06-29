@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:26Z",
+  "tcgplayerProductId": 8803,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Jade Monolith",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 77.36,
+    "customAttributes": {
+      "formats": null,
+      "description": "1: You may take damage done to any creature on yourself instead, but you must take all of it. Source of damage is unchanged.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Poly Artifact ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 70.0,
+    "productName": "Jade Monolith",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8803.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Beta Edition",
+    "sellers": 11.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 19.0,
+    "lowestPrice": 70.0,
+    "medianPrice": 214.99,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Poly Artifact ",
+      "Description": "1: You may take damage done to any creature on yourself instead, but you must take all of it. Source of damage is unchanged.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 21623,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370904,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339388,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355146,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323630,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

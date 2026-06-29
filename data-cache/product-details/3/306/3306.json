@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:53Z",
+  "tcgplayerProductId": 3306,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Power Artifact",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 190.47,
+    "customAttributes": {
+      "formats": null,
+      "description": "The activation cost of target artifact is reduced by 2. If this would reduce target artifact’s activation cost below 1, target artifact’s activation cost becomes 1. Power Artifact has no effect on artifacts that have no activation cost or whose activation cost is 0.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Artifact ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 110.99,
+    "productName": "Power Artifact",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3306.0,
+    "imageCount": 1.0,
+    "score": 2.0863597,
+    "setName": "Antiquities",
+    "sellers": 65.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 101.0,
+    "lowestPrice": 110.0,
+    "medianPrice": 220.245,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Artifact ",
+      "Description": "The activation cost of target artifact is reduced by 2. If this would reduce target artifact’s activation cost below 1, target artifact’s activation cost becomes 1. Power Artifact has no effect on artifacts that have no activation cost or whose activation cost is 0.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 17365,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366311,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334795,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350553,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319037,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

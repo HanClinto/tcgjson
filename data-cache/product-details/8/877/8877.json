@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:30Z",
+  "tcgplayerProductId": 8877,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Red Elemental Blast",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 87.41,
+    "customAttributes": {
+      "formats": null,
+      "description": "Counters a blue spell being cast or destroys a blue card in play.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 81.0,
+    "productName": "Red Elemental Blast",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8877.0,
+    "imageCount": 1.0,
+    "score": 1.9912261,
+    "setName": "Beta Edition",
+    "sellers": 15.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 21.0,
+    "lowestPrice": 81.0,
+    "medianPrice": 120.0,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Interrupt ",
+      "Description": "Counters a blue spell being cast or destroys a blue card in play.",
+      "Artist": "Richard Thomas"
+    },
+    "skus": [
+      {
+        "sku": 21693,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370974,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339458,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355216,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323700,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

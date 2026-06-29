@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:41Z",
+  "tcgplayerProductId": 1210,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Paralyze",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 24.57,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature is not untapped as normal during untap phase unless 4 mana are spent. Tap target creature when Paralyze is cast.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 21.99,
+    "productName": "Paralyze",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1210.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 20.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 23.0,
+    "lowestPrice": 21.99,
+    "medianPrice": 34.12,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Creature ",
+      "Description": "Target creature is not untapped as normal during untap phase unless 4 mana are spent. Tap target creature when Paralyze is cast.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 15356,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364302,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332786,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348544,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317028,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

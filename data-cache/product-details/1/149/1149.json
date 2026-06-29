@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:38Z",
+  "tcgplayerProductId": 1149,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Invisibility",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 30.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature can be blocked only by walls.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 13.49,
+    "productName": "Invisibility",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1149.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Alpha Edition",
+    "sellers": 25.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 30.0,
+    "lowestPrice": 12.19,
+    "medianPrice": 30.0,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Creature ",
+      "Description": "Target creature can be blocked only by walls.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 15299,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364245,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332729,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348487,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316971,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

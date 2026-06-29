@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:08Z",
+  "tcgplayerProductId": 8751,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fear",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 5.97,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature cannot be blocked by any creatures other than artifact creatures and black creatures.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 2.0,
+    "productName": "Fear",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8751.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Beta Edition",
+    "sellers": 50.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 70.0,
+    "lowestPrice": 2.0,
+    "medianPrice": 7.125,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Creature ",
+      "Description": "Target creature cannot be blocked by any creatures other than artifact creatures and black creatures.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 21575,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370856,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339340,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355098,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323582,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

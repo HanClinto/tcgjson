@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:42Z",
+  "tcgplayerProductId": 1224,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Power Sink",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 38.89,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target spell is countered unless its caster spends X more mana; caster of target spell can’t choose to let it be countered. If caster of target spell doesn’t have enough mana, all available mana from lands and mana pool must be paid but target spell will still be countered.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 23.0,
+    "productName": "Power Sink",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1224.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Alpha Edition",
+    "sellers": 14.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 28.0,
+    "lowestPrice": 23.0,
+    "medianPrice": 42.995,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Interrupt ",
+      "Description": "Target spell is countered unless its caster spends X more mana; caster of target spell can’t choose to let it be countered. If caster of target spell doesn’t have enough mana, all available mana from lands and mana pool must be paid but target spell will still be countered.",
+      "Artist": "Richard Thomas"
+    },
+    "skus": [
+      {
+        "sku": 15368,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364314,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332798,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348556,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317040,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

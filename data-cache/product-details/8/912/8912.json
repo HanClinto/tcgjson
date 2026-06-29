@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:33Z",
+  "tcgplayerProductId": 8912,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Steal Artifact",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 33.51,
+    "customAttributes": {
+      "formats": null,
+      "description": "You control target artifact until enchantment is discarded or game ends. If target artifact was tapped when stolen, it stays tapped until you can untap it. If destroyed, target artifact is put in its owner’s graveyard.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Artifact ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 17.8,
+    "productName": "Steal Artifact",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8912.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Beta Edition",
+    "sellers": 23.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 28.0,
+    "lowestPrice": 17.8,
+    "medianPrice": 249.43,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Artifact ",
+      "Description": "You control target artifact until enchantment is discarded or game ends. If target artifact was tapped when stolen, it stays tapped until you can untap it. If destroyed, target artifact is put in its owner’s graveyard.",
+      "Artist": "Amy Weber"
+    },
+    "skus": [
+      {
+        "sku": 21728,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371009,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339493,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355251,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323735,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:34Z",
+  "tcgplayerProductId": 1075,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Creature Bond",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 32.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "If target creature is destroyed, Creature Bond does an amount of damage equal to creature’s toughness to creature’s controller.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 17.04,
+    "productName": "Creature Bond",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1075.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Alpha Edition",
+    "sellers": 21.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 25.0,
+    "lowestPrice": 14.75,
+    "medianPrice": 33.535,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Creature ",
+      "Description": "If target creature is destroyed, Creature Bond does an amount of damage equal to creature’s toughness to creature’s controller.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 15227,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364173,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332657,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348415,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316899,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

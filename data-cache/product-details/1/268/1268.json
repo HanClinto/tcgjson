@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:45Z",
+  "tcgplayerProductId": 1268,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Stone Giant",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 29.78,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to make one of your own creatures a flying creature until end of turn. Target creature, which must have toughness less than Stone Giant’s power, is destroyed at end of turn.",
+      "powerNumber": "3",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature Giant",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 16.98,
+    "productName": "Stone Giant",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1268.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 16.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 20.0,
+    "lowestPrice": 16.98,
+    "medianPrice": 395.5,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Giant",
+      "P / T": "3 / 4",
+      "Description": "Tap to make one of your own creatures a flying creature until end of turn. Target creature, which must have toughness less than Stone Giant’s power, is destroyed at end of turn.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 15412,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364358,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332842,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348600,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317084,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

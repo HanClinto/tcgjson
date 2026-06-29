@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:46Z",
+  "tcgplayerProductId": 1280,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Thoughtlace",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 200.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "Changes the color of one card either being played or already in play to blue. Cost to cast, tap, maintain, or use a special ability of target card remains entirely unchanged.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 209.0,
+    "productName": "Thoughtlace",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1280.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 2.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 5.0,
+    "lowestPrice": 209.0,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Interrupt ",
+      "Description": "Changes the color of one card either being played or already in play to blue. Cost to cast, tap, maintain, or use a special ability of target card remains entirely unchanged.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 15422,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364368,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332852,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348610,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317094,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

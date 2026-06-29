@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:44Z",
+  "tcgplayerProductId": 37555,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Counterspell",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 2.27,
+    "customAttributes": {
+      "formats": null,
+      "description": "Counter target spell.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 4.69,
+    "productName": "Counterspell",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37555.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Battle Royale Box Set",
+    "sellers": 8.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 10.0,
+    "lowestPrice": 2.01,
+    "medianPrice": 7.0,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant",
+      "Description": "Counter target spell.",
+      "Artist": "Hannibal King"
+    },
+    "skus": [
+      {
+        "sku": 397773,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405375,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402965,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404170,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401760,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

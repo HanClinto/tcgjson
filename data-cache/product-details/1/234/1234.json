@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:43Z",
+  "tcgplayerProductId": 1234,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Regeneration",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 34.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "G: Target creature regenerates.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 13.5,
+    "productName": "Regeneration",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1234.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Alpha Edition",
+    "sellers": 26.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 30.0,
+    "lowestPrice": 13.5,
+    "medianPrice": 39.93,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Creature ",
+      "Description": "G: Target creature regenerates.",
+      "Artist": "Quinton Hoover"
+    },
+    "skus": [
+      {
+        "sku": 15378,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364324,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332808,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348566,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317050,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

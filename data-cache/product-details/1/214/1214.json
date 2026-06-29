@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:42Z",
+  "tcgplayerProductId": 1214,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Phantasmal Forces",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 40.93,
+    "customAttributes": {
+      "formats": null,
+      "description": "FlyingController must spend U during upkeep to maintain or Phantasmal Forces are destroyed.",
+      "powerNumber": "4",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature Phantasm",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "4",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 39.73,
+    "productName": "Phantasmal Forces",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1214.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Alpha Edition",
+    "sellers": 15.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 20.0,
+    "lowestPrice": 39.73,
+    "medianPrice": 115.0,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Phantasm",
+      "P / T": "4 / 1",
+      "Description": "FlyingController must spend U during upkeep to maintain or Phantasmal Forces are destroyed.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 15360,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364306,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332790,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348548,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317032,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

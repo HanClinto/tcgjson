@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:49Z",
+  "tcgplayerProductId": 3260,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Artifact Ward",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.56,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature cannot be blocked by artifact creatures, and any damage taken from an artifact source is reduced to 0. Target creature is unaffected by any artifact effects that target it.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.23,
+    "productName": "Artifact Ward",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3260.0,
+    "imageCount": 1.0,
+    "score": 2.025306,
+    "setName": "Antiquities",
+    "sellers": 193.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 287.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.7,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Creature ",
+      "Description": "Target creature cannot be blocked by artifact creatures, and any damage taken from an artifact source is reduced to 0. Target creature is unaffected by any artifact effects that target it.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 17322,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366268,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334752,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350510,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318994,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:54Z",
+  "tcgplayerProductId": 37645,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wrath of God",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 8.82,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy all creatures. They can't be regenerated.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 5.11,
+    "productName": "Wrath of God",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37645.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Battle Royale Box Set",
+    "sellers": 22.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 26.0,
+    "lowestPrice": 3.75,
+    "medianPrice": 60.105,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Sorcery",
+      "Description": "Destroy all creatures. They can't be regenerated.",
+      "Artist": "Quinton Hoover"
+    },
+    "skus": [
+      {
+        "sku": 397046,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405465,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403055,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404260,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401850,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

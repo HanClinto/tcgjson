@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:49Z",
+  "tcgplayerProductId": 3255,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Argothian Pixies",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 1.56,
+    "customAttributes": {
+      "formats": null,
+      "description": "Cannot be blocked by artifact creatures. Any damage Argothian Pixies take from artifact creatures is reduced to 0.",
+      "powerNumber": "2",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Faeries",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.24,
+    "productName": "Argothian Pixies",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3255.0,
+    "imageCount": 1.0,
+    "score": 2.4502492,
+    "setName": "Antiquities",
+    "sellers": 200.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 279.0,
+    "lowestPrice": 0.23,
+    "medianPrice": 1.745,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Faeries",
+      "P / T": "2 / 1",
+      "Description": "Cannot be blocked by artifact creatures. Any damage Argothian Pixies take from artifact creatures is reduced to 0.",
+      "Artist": "Amy Weber"
+    },
+    "skus": [
+      {
+        "sku": 17317,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366263,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334747,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350505,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318989,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

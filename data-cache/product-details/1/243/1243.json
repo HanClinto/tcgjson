@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:44Z",
+  "tcgplayerProductId": 1243,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sacrifice",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 169.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy one of your creatures without regenerating it, and add to your mana pool a number of black mana equal to creature’s casting cost.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 150.0,
+    "productName": "Sacrifice",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1243.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Alpha Edition",
+    "sellers": 2.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 3.0,
+    "lowestPrice": 150.0,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Interrupt ",
+      "Description": "Destroy one of your creatures without regenerating it, and add to your mana pool a number of black mana equal to creature’s casting cost.",
+      "Artist": "Dan Frazier"
+    },
+    "skus": [
+      {
+        "sku": 15387,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364333,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332817,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348575,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317059,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

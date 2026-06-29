@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:48Z",
+  "tcgplayerProductId": 1320,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wild Growth",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 75.06,
+    "customAttributes": {
+      "formats": null,
+      "description": "When tapped, target land provides 1 green mana in addition to the mana it normally provides.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchant Land ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 53.0,
+    "productName": "Wild Growth",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1320.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Alpha Edition",
+    "sellers": 16.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 18.0,
+    "lowestPrice": 51.75,
+    "medianPrice": 114.33,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Land ",
+      "Description": "When tapped, target land provides 1 green mana in addition to the mana it normally provides.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 15461,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364407,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332891,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348649,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317133,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

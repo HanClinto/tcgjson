@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:24Z",
+  "tcgplayerProductId": 8793,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Instill Energy",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 45.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "You may untap target creature both during your untap phase and one additional time during your turn. Target creature may attack the turn it comes into play.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 28.67,
+    "productName": "Instill Energy",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8793.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Beta Edition",
+    "sellers": 21.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 27.0,
+    "lowestPrice": 28.67,
+    "medianPrice": 78.5,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Creature ",
+      "Description": "You may untap target creature both during your untap phase and one additional time during your turn. Target creature may attack the turn it comes into play.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 21615,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370896,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339380,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355138,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323622,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

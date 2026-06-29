@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:35Z",
+  "tcgplayerProductId": 1103,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "False Orders",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 46.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "You decide whether and how one defending creature blocks, though you can’t make a choice the defender couldn’t legally make. Play after defender has chosen defense but before damage is dealt.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 11.32,
+    "productName": "False Orders",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1103.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Alpha Edition",
+    "sellers": 23.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 27.0,
+    "lowestPrice": 11.32,
+    "medianPrice": 45.995,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "You decide whether and how one defending creature blocks, though you can’t make a choice the defender couldn’t legally make. Play after defender has chosen defense but before damage is dealt.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 15255,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364201,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332685,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348443,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316927,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

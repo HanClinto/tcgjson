@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:42Z",
+  "tcgplayerProductId": 1223,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Power Leak",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 26.5,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target enchantment costs 2 extra mana each turn during upkeep. If target enchantment’s controller cannot or will not pay this extra mana, Power Leak does 1 damage to him or her for each unpaid mana.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Enchantment ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 14.3,
+    "productName": "Power Leak",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1223.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Alpha Edition",
+    "sellers": 17.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 20.0,
+    "lowestPrice": 14.3,
+    "medianPrice": 26.745,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchant Enchantment ",
+      "Description": "Target enchantment costs 2 extra mana each turn during upkeep. If target enchantment’s controller cannot or will not pay this extra mana, Power Leak does 1 damage to him or her for each unpaid mana.",
+      "Artist": "Drew Tucker"
+    },
+    "skus": [
+      {
+        "sku": 15367,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364313,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332797,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348555,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317039,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

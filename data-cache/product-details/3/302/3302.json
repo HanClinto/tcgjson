@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:53Z",
+  "tcgplayerProductId": 3302,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Onulet",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 1.76,
+    "customAttributes": {
+      "formats": null,
+      "description": "If Onulet goes to the graveyard, its controller gains 2 life.",
+      "powerNumber": "2",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.69,
+    "productName": "Onulet",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3302.0,
+    "imageCount": 1.0,
+    "score": 2.139879,
+    "setName": "Antiquities",
+    "sellers": 122.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 163.0,
+    "lowestPrice": 0.64,
+    "medianPrice": 2.49,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Artifact Creature ",
+      "P / T": "2 / 2",
+      "Description": "If Onulet goes to the graveyard, its controller gains 2 life.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 17361,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366307,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334791,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350549,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319033,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:50Z",
+  "tcgplayerProductId": 3265,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Battering Ram",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.48,
+    "customAttributes": {
+      "formats": null,
+      "description": "Bands, but only when attacking. Any wall blocking Battering Ram is destroyed. Walls destroyed this way deal their damage before dying.",
+      "powerNumber": "1",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.14,
+    "productName": "Battering Ram",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3265.0,
+    "imageCount": 1.0,
+    "score": 2.0863597,
+    "setName": "Antiquities",
+    "sellers": 233.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 349.0,
+    "lowestPrice": 0.14,
+    "medianPrice": 0.64,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Artifact Creature ",
+      "P / T": "1 / 1",
+      "Description": "Bands, but only when attacking. Any wall blocking Battering Ram is destroyed. Walls destroyed this way deal their damage before dying.",
+      "Artist": "Jeff A. Menges"
+    },
+    "skus": [
+      {
+        "sku": 17327,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366273,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334757,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350515,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318999,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

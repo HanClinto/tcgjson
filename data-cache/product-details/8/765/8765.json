@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:22Z",
+  "tcgplayerProductId": 8765,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Frozen Shade",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 6.08,
+    "customAttributes": {
+      "formats": null,
+      "description": "B: +1/+1",
+      "powerNumber": "0",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature Shade",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "0",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 2.75,
+    "productName": "Frozen Shade",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8765.0,
+    "imageCount": 1.0,
+    "score": 2.0863597,
+    "setName": "Beta Edition",
+    "sellers": 55.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 68.0,
+    "lowestPrice": 2.75,
+    "medianPrice": 8.815,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Shade",
+      "P / T": "0 / 1",
+      "Description": "B: +1/+1",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 21587,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370868,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339352,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355110,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323594,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

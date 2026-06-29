@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:33Z",
+  "tcgplayerProductId": 1064,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Clone",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 115.24,
+    "customAttributes": {
+      "formats": null,
+      "description": "Upon summoning, Clone acquires all characteristics, including color, of any one creature in play on either side; any creature enchantments on original creature are not copied. Clone retains these characteristics even after original creature is destroyed. Clone cannot be played if there are no creatures in play.",
+      "powerNumber": "*",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Summon Clone",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": "*",
+      "flavorText": "",
+      "toughnessNumber": "*",
+      "toughness": "*"
+    },
+    "lowestPriceWithShipping": 120.0,
+    "productName": "Clone",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1064.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 8.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 10.0,
+    "lowestPrice": 119.99,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Summon Clone",
+      "P / T": "* / *",
+      "Description": "Upon summoning, Clone acquires all characteristics, including color, of any one creature in play on either side; any creature enchantments on original creature are not copied. Clone retains these characteristics even after original creature is destroyed. Clone cannot be played if there are no creatures in play.",
+      "Artist": "Julie Baroh"
+    },
+    "skus": [
+      {
+        "sku": 15216,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364162,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332646,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348404,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316888,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

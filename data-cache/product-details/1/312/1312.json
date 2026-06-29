@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:47Z",
+  "tcgplayerProductId": 1312,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "War Mammoth",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 40.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "Trample",
+      "powerNumber": "3",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Mammoth",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 10.91,
+    "productName": "War Mammoth",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1312.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Alpha Edition",
+    "sellers": 20.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 26.0,
+    "lowestPrice": 10.91,
+    "medianPrice": 159.07,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Mammoth",
+      "P / T": "3 / 3",
+      "Description": "Trample",
+      "Artist": "Jeff A. Menges"
+    },
+    "skus": [
+      {
+        "sku": 15453,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364399,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332883,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348641,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317125,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

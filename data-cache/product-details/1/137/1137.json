@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:37Z",
+  "tcgplayerProductId": 1137,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Hill Giant",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 20.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "3",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature Giant",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": "3",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 7.62,
+    "productName": "Hill Giant",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1137.0,
+    "imageCount": 1.0,
+    "score": 2.025306,
+    "setName": "Alpha Edition",
+    "sellers": 20.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 30.0,
+    "lowestPrice": 7.62,
+    "medianPrice": 35.68,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Giant",
+      "P / T": "3 / 3",
+      "Artist": "Dan Frazier"
+    },
+    "skus": [
+      {
+        "sku": 15287,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364233,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332717,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348475,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316959,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

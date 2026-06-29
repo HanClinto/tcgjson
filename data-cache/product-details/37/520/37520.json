@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:57Z",
+  "tcgplayerProductId": 37520,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Shock",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.39,
+    "customAttributes": {
+      "formats": null,
+      "description": "Shock deals 2 damage to target creature or player.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "45",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Lightning tethers souls to the world.<br>—Kor saying</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Shock",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37520.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beatdown Box Set",
+    "sellers": 63.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 71.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "45",
+      "Card Type": "Instant ",
+      "Description": "Shock deals 2 damage to target creature or player.",
+      "Flavor": "<em>Lightning tethers souls to the world.<br>—Kor saying</em>",
+      "Artist": "Randy Gallegos"
+    },
+    "skus": [
+      {
+        "sku": 397538,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405527,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403117,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404322,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401912,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

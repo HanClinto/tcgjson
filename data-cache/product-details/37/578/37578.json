@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:47Z",
+  "tcgplayerProductId": 37578,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lhurgoyf",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 1.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.",
+      "powerNumber": "*",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Lhurgoyf ",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": "*",
+      "flavorText": "<em>Ach! Hands, run! It's the lhurgoyf!\"<br>—Saffi Eriksdotter, last words</em>",
+      "toughnessNumber": "1+*",
+      "toughness": "1+*"
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Lhurgoyf",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37578.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Battle Royale Box Set",
+    "sellers": 104.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 138.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 1.325,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Creature — Lhurgoyf ",
+      "P / T": "* / 1+*",
+      "Description": "Lhurgoyf's power is equal to the number of creature cards in all graveyards and its toughness is equal to that number plus 1.",
+      "Flavor": "<em>Ach! Hands, run! It's the lhurgoyf!\"<br>—Saffi Eriksdotter, last words</em>",
+      "Artist": "Pete Venters"
+    },
+    "skus": [
+      {
+        "sku": 397899,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405398,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402988,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404193,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401783,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

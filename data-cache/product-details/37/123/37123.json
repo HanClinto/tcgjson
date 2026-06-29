@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:32Z",
+  "tcgplayerProductId": 37123,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ethersworn Shieldmage",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flash <em>(You may cast this spell any time you could cast an instant.)</em>\r\n<br>\r\nWhen Ethersworn Shieldmage enters the battlefield, prevent all damage that would be dealt to artifact creatures this turn.",
+      "powerNumber": "2",
+      "color": [
+        "Blue",
+        "White"
+      ],
+      "fullType": "Artifact Creature — Vedalken Wizard",
+      "releaseDate": "2010-06-18T00:00:00Z",
+      "number": "84",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.16,
+    "productName": "Ethersworn Shieldmage",
+    "setId": 12.0,
+    "setCode": "ARC",
+    "productId": 37123.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Archenemy",
+    "sellers": 89.0,
+    "foilOnly": false,
+    "setUrlName": "Archenemy",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 107.0,
+    "lowestPrice": 0.16,
+    "medianPrice": 0.31,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "84",
+      "Card Type": "Artifact Creature — Vedalken Wizard",
+      "P / T": "2 / 2",
+      "Description": "Flash <em>(You may cast this spell any time you could cast an instant.)</em>\r\n<br>\r\nWhen Ethersworn Shieldmage enters the battlefield, prevent all damage that would be dealt to artifact creatures this turn.",
+      "Artist": "Daarken"
+    },
+    "skus": [
+      {
+        "sku": 397827,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405212,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402802,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404007,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401597,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

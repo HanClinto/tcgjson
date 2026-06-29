@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:45Z",
+  "tcgplayerProductId": 1279,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Thicket Basilisk",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 60.5,
+    "customAttributes": {
+      "formats": null,
+      "description": "Any non-wall creature blocking Basilisk is destroyed, as is any creature blocked by Basilisk. Creatures destroyed this way deal their damage before dying.",
+      "powerNumber": "2",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Basilisk",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 275.0,
+    "productName": "Thicket Basilisk",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1279.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Alpha Edition",
+    "sellers": 1.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 4.0,
+    "lowestPrice": 275.0,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Basilisk",
+      "P / T": "2 / 4",
+      "Description": "Any non-wall creature blocking Basilisk is destroyed, as is any creature blocked by Basilisk. Creatures destroyed this way deal their damage before dying.",
+      "Artist": "Dan Frazier"
+    },
+    "skus": [
+      {
+        "sku": 15421,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364367,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332851,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348609,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317093,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

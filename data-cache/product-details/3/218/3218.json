@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:17Z",
+  "tcgplayerProductId": 3218,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Metamorphosis",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 13.71,
+    "customAttributes": {
+      "formats": null,
+      "description": "Sacrifice a creature of yours in play for an amount of mana equal to its casting cost plus 1. This mana can be of any one color, and can only be used to summon creatures.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "1993-12-17T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 6.5,
+    "productName": "Metamorphosis",
+    "setId": 11.0,
+    "setCode": "ARN",
+    "productId": 3218.0,
+    "imageCount": 1.0,
+    "score": 2.269513,
+    "setName": "Arabian Nights",
+    "sellers": 50.0,
+    "foilOnly": false,
+    "setUrlName": "Arabian Nights",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 64.0,
+    "lowestPrice": 4.21,
+    "medianPrice": 17.965,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Sorcery ",
+      "Description": "Sacrifice a creature of yours in play for an amount of mana equal to its casting cost plus 1. This mana can be of any one color, and can only be used to summon creatures.",
+      "Artist": "Christopher Rush"
+    },
+    "skus": [
+      {
+        "sku": 17288,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366234,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334718,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350476,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318960,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

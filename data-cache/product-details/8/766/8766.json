@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:22Z",
+  "tcgplayerProductId": 8766,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fungusaur",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 90.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each time Fungusaur is damaged but not destroyed, put a +1/+1 counter on it.",
+      "powerNumber": "2",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Fungusaur",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 91.8,
+    "productName": "Fungusaur",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8766.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Beta Edition",
+    "sellers": 15.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 29.0,
+    "lowestPrice": 90.0,
+    "medianPrice": 194.97,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Creature Fungusaur",
+      "P / T": "2 / 2",
+      "Description": "Each time Fungusaur is damaged but not destroyed, put a +1/+1 counter on it.",
+      "Artist": "Daniel Gelon"
+    },
+    "skus": [
+      {
+        "sku": 21588,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370869,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339353,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355111,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323595,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

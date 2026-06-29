@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:32Z",
+  "tcgplayerProductId": 8896,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sea Serpent",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 3.67,
+    "customAttributes": {
+      "formats": null,
+      "description": "Serpent cannot attack unless opponent has islands in play. Serpent is destroyed immediately if at any time controller has no islands in play.",
+      "powerNumber": "5",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature Serpent",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "6",
+      "rarityDbName": "C",
+      "power": "5",
+      "flavorText": "",
+      "toughnessNumber": "5",
+      "toughness": "5"
+    },
+    "lowestPriceWithShipping": 1.75,
+    "productName": "Sea Serpent",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8896.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Beta Edition",
+    "sellers": 73.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 97.0,
+    "lowestPrice": 1.5,
+    "medianPrice": 7.185,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Serpent",
+      "P / T": "5 / 5",
+      "Description": "Serpent cannot attack unless opponent has islands in play. Serpent is destroyed immediately if at any time controller has no islands in play.",
+      "Artist": "Jeff A. Menges"
+    },
+    "skus": [
+      {
+        "sku": 21712,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370993,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339477,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355235,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323719,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

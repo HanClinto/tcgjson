@@ -1,0 +1,1422 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:25:43Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 21,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 21,
+    "name": "Champs Promos",
+    "urlName": "champs-promos",
+    "abbreviation": "CHAMPS",
+    "releaseDate": null,
+    "isSupplemental": true,
+    "productCount": 12,
+    "priceGuideRowCount": 39,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 12,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 38050,
+      "name": "Electrolyze",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38050_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 1.99,
+          "marketPrice": 1.65,
+          "tcgplayerSkuIds": [
+            408411
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 1.99,
+          "marketPrice": 1.73,
+          "tcgplayerSkuIds": [
+            409385
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1.99,
+          "marketPrice": 2.18,
+          "tcgplayerSkuIds": [
+            409872
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 1.99,
+          "marketPrice": 2.58,
+          "tcgplayerSkuIds": [
+            408898
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 1.99,
+          "marketPrice": 3.93,
+          "tcgplayerSkuIds": [
+            406802
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 408411,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409385,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409872,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 408898,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406802,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Electrolyze deals 2 damage divided as you choose among any number of target creatures and/or players.\r\n<br>\r\nDraw a card.",
+        "typeLine": "Instant",
+        "convertedCost": "3",
+        "colors": [
+          "Blue",
+          "Red"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Zoltan Boros & Gabor Szikszai",
+        "customAttributes": {
+          "description": "Electrolyze deals 2 damage divided as you choose among any number of target creatures and/or players.\r\n<br>\r\nDraw a card.",
+          "color": [
+            "Blue",
+            "Red"
+          ],
+          "fullType": "Instant",
+          "number": "1",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Instant",
+          "Description": "Electrolyze deals 2 damage divided as you choose among any number of target creatures and/or players.\r\n<br>\r\nDraw a card.",
+          "Artist": "Zoltan Boros & Gabor Szikszai"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38049,
+      "name": "Doran, the Siege Tower",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "10",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38049_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 170.49,
+          "marketPrice": 205.34,
+          "tcgplayerSkuIds": [
+            833883
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 170.49,
+          "marketPrice": 216.42,
+          "tcgplayerSkuIds": [
+            793961
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 170.49,
+          "marketPrice": 253.2,
+          "tcgplayerSkuIds": [
+            407589
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 774000,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 813922,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 833883,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 793961,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407589,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Each creature assigns combat damage equal to its toughness rather than its power.",
+        "typeLine": "Legendary Creature — Treefolk Shaman",
+        "convertedCost": "3",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Black",
+          "Green",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Artifact"
+        ],
+        "artist": "Mark Zug",
+        "customAttributes": {
+          "description": "Each creature assigns combat damage equal to its toughness rather than its power.",
+          "powerNumber": "0",
+          "color": [
+            "Black",
+            "Green",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Treefolk Shaman",
+          "number": "10",
+          "cardType": [
+            "Legendary",
+            "Artifact"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "0",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "10",
+          "Card Type": "Legendary Creature — Treefolk Shaman",
+          "P / T": "0 / 5",
+          "Description": "Each creature assigns combat damage equal to its toughness rather than its power.",
+          "Artist": "Mark Zug"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38048,
+      "name": "Bramblewood Paragon",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "11",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38048_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 39.36,
+          "marketPrice": 39.53,
+          "tcgplayerSkuIds": [
+            409870
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 39.36,
+          "marketPrice": 39.24,
+          "tcgplayerSkuIds": [
+            408896
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 39.36,
+          "marketPrice": 44.83,
+          "tcgplayerSkuIds": [
+            406410
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 408409,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409383,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409870,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 408896,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406410,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.\r\n<br>\r\nEach creature you control with a +1/+1 counter on it has trample.",
+        "typeLine": "Creature — Elf Warrior",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jim Murray",
+        "customAttributes": {
+          "description": "Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.\r\n<br>\r\nEach creature you control with a +1/+1 counter on it has trample.",
+          "powerNumber": "2",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elf Warrior",
+          "number": "11",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "11",
+          "Card Type": "Creature — Elf Warrior",
+          "P / T": "2 / 2",
+          "Description": "Each other Warrior creature you control enters the battlefield with an additional +1/+1 counter on it.\r\n<br>\r\nEach creature you control with a +1/+1 counter on it has trample.",
+          "Artist": "Jim Murray"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38053,
+      "name": "Mutavault",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "12",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38053_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 949.99,
+          "marketPrice": 758.66,
+          "tcgplayerSkuIds": [
+            833887
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 774004,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 813926,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 833887,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 793965,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407740,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Add 1 to your mana pool.\r\n<br>\r\n1: Mutavault becomes a 2/2 creature with all creature types until end of turn. It's still a land.",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Fred Fields",
+        "customAttributes": {
+          "description": "T: Add 1 to your mana pool.\r\n<br>\r\n1: Mutavault becomes a 2/2 creature with all creature types until end of turn. It's still a land.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "number": "12",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "12",
+          "Card Type": "Land",
+          "Description": "T: Add 1 to your mana pool.\r\n<br>\r\n1: Mutavault becomes a 2/2 creature with all creature types until end of turn. It's still a land.",
+          "Artist": "Fred Fields"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38054,
+      "name": "Niv-Mizzet, the Firemind",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38054_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 99.99,
+          "marketPrice": 99.99,
+          "tcgplayerSkuIds": [
+            774005
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 99.99,
+          "marketPrice": 112.77,
+          "tcgplayerSkuIds": [
+            833888
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 99.99,
+          "marketPrice": 104.26,
+          "tcgplayerSkuIds": [
+            793966
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 99.99,
+          "marketPrice": 121.15,
+          "tcgplayerSkuIds": [
+            407441
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 774005,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 813927,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 833888,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 793966,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407441,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nWhenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.\r\n<br>\r\nT: Draw a card.",
+        "typeLine": "Legendary Creature — Dragon Wizard",
+        "convertedCost": "6",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Blue",
+          "Red"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Todd Lockwood",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nWhenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.\r\n<br>\r\nT: Draw a card.",
+          "powerNumber": "4",
+          "color": [
+            "Blue",
+            "Red"
+          ],
+          "fullType": "Legendary Creature — Dragon Wizard",
+          "number": "2",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "4",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Legendary Creature — Dragon Wizard",
+          "P / T": "4 / 4",
+          "Description": "Flying\r\n<br>\r\nWhenever you draw a card, Niv-Mizzet, the Firemind deals 1 damage to target creature or player.\r\n<br>\r\nT: Draw a card.",
+          "Artist": "Todd Lockwood"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38055,
+      "name": "Rakdos Guildmage",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38055_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.46,
+          "marketPrice": 0.62,
+          "tcgplayerSkuIds": [
+            409877
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.46,
+          "marketPrice": 0.5,
+          "tcgplayerSkuIds": [
+            408903
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.46,
+          "marketPrice": 1.27,
+          "tcgplayerSkuIds": [
+            406661
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 408416,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409390,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409877,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 408903,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406661,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "3B, Discard a card: Target creature gets -2/-2 until end of turn.\r\n<br>\r\n3R: Put a 2/1 red Goblin creature token with haste into play. Remove it from the game at end of turn.",
+        "typeLine": "Creature — Zombie Shaman",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Black",
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jeremy Jarvis",
+        "customAttributes": {
+          "description": "3B, Discard a card: Target creature gets -2/-2 until end of turn.\r\n<br>\r\n3R: Put a 2/1 red Goblin creature token with haste into play. Remove it from the game at end of turn.",
+          "powerNumber": "2",
+          "color": [
+            "Black",
+            "Red"
+          ],
+          "fullType": "Creature — Zombie Shaman",
+          "number": "3",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Creature — Zombie Shaman",
+          "P / T": "2 / 2",
+          "Description": "3B, Discard a card: Target creature gets -2/-2 until end of turn.\r\n<br>\r\n3R: Put a 2/1 red Goblin creature token with haste into play. Remove it from the game at end of turn.",
+          "Artist": "Jeremy Jarvis"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38057,
+      "name": "Voidslime",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38057_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35.09,
+          "marketPrice": 34.99,
+          "tcgplayerSkuIds": [
+            813930
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35.09,
+          "marketPrice": 39.33,
+          "tcgplayerSkuIds": [
+            833891
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35.09,
+          "marketPrice": 43.07,
+          "tcgplayerSkuIds": [
+            793969
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 35.09,
+          "marketPrice": 90.46,
+          "tcgplayerSkuIds": [
+            407467
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 774008,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 813930,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 833891,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 793969,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407467,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Counter target spell, activated ability, or triggered ability.",
+        "typeLine": "Instant",
+        "convertedCost": "3",
+        "colors": [
+          "Blue",
+          "Green"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Jim Murray",
+        "customAttributes": {
+          "description": "Counter target spell, activated ability, or triggered ability.",
+          "color": [
+            "Blue",
+            "Green"
+          ],
+          "fullType": "Instant",
+          "number": "4",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Instant",
+          "Description": "Counter target spell, activated ability, or triggered ability.",
+          "Artist": "Jim Murray"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38056,
+      "name": "Urza's Factory",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38056_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 11.31,
+          "tcgplayerSkuIds": [
+            409391
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 14.76,
+          "tcgplayerSkuIds": [
+            409878
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 9.05,
+          "tcgplayerSkuIds": [
+            408904
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 16.37,
+          "tcgplayerSkuIds": [
+            406851
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 408417,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409391,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409878,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 408904,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406851,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Add 1 to your mana pool.\r\n<br>\r\n7, T: Put a 2/2 Assembly-Worker artifact creature token into play.",
+        "typeLine": "Land — Urza's",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Mark Tedin",
+        "customAttributes": {
+          "description": "T: Add 1 to your mana pool.\r\n<br>\r\n7, T: Put a 2/2 Assembly-Worker artifact creature token into play.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land — Urza's",
+          "number": "5",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Land — Urza's",
+          "Description": "T: Add 1 to your mana pool.\r\n<br>\r\n7, T: Put a 2/2 Assembly-Worker artifact creature token into play.",
+          "Artist": "Mark Tedin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38007,
+      "name": "Serra Avenger",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "6",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38007_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 44.53,
+          "marketPrice": 53.65,
+          "tcgplayerSkuIds": [
+            833880
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 44.53,
+          "marketPrice": 48.71,
+          "tcgplayerSkuIds": [
+            793958
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 44.53,
+          "marketPrice": 64.48,
+          "tcgplayerSkuIds": [
+            407749
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 773997,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 813919,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 833880,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 793958,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407749,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "You can't cast Serra Avenger during your first, second, or third turns of the game.\r\n<br>\r\nFlying, vigilance",
+        "typeLine": "Creature — Angel",
+        "convertedCost": "2",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Scott M. Fischer",
+        "customAttributes": {
+          "description": "You can't cast Serra Avenger during your first, second, or third turns of the game.\r\n<br>\r\nFlying, vigilance",
+          "powerNumber": "3",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Angel",
+          "number": "6",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "3",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "6",
+          "Card Type": "Creature — Angel",
+          "P / T": "3 / 3",
+          "Description": "You can't cast Serra Avenger during your first, second, or third turns of the game.\r\n<br>\r\nFlying, vigilance",
+          "Artist": "Scott M. Fischer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38047,
+      "name": "Blood Knight",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "7",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38047_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 6,
+          "marketPrice": 5.94,
+          "tcgplayerSkuIds": [
+            409869
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 6,
+          "marketPrice": 7.38,
+          "tcgplayerSkuIds": [
+            408895
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 6,
+          "marketPrice": 11.32,
+          "tcgplayerSkuIds": [
+            406710
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 408408,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409382,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409869,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 408895,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406710,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "First strike, protection from white",
+        "typeLine": "Creature — Human Knight",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Matt Cavotta",
+        "customAttributes": {
+          "description": "First strike, protection from white",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Human Knight",
+          "number": "7",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "7",
+          "Card Type": "Creature — Human Knight",
+          "P / T": "2 / 2",
+          "Description": "First strike, protection from white",
+          "Artist": "Matt Cavotta"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38051,
+      "name": "Groundbreaker",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "8",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38051_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 40.62,
+          "marketPrice": 35.97,
+          "tcgplayerSkuIds": [
+            833885
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 40.62,
+          "marketPrice": 30,
+          "tcgplayerSkuIds": [
+            793963
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 774002,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 813924,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 833885,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 793963,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407419,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Trample, haste\r\n<br>\r\nAt end of turn, sacrifice Groundbreaker.",
+        "typeLine": "Creature — Elemental",
+        "convertedCost": "3",
+        "power": "6",
+        "powerNumber": "6",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Matt Cavotta",
+        "customAttributes": {
+          "description": "Trample, haste\r\n<br>\r\nAt end of turn, sacrifice Groundbreaker.",
+          "powerNumber": "6",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elemental",
+          "number": "8",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "6",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "8",
+          "Card Type": "Creature — Elemental",
+          "P / T": "6 / 1",
+          "Description": "Trample, haste\r\n<br>\r\nAt end of turn, sacrifice Groundbreaker.",
+          "Artist": "Matt Cavotta"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38052,
+      "name": "Imperious Perfect",
+      "productLineId": 1,
+      "setId": 21,
+      "collectorNumber": "9",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38052_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 22.86,
+          "marketPrice": 10,
+          "tcgplayerSkuIds": [
+            409387
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 22.86,
+          "marketPrice": 24.52,
+          "tcgplayerSkuIds": [
+            409874
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 22.86,
+          "marketPrice": 17.03,
+          "tcgplayerSkuIds": [
+            408900
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 22.86,
+          "marketPrice": 17.93,
+          "tcgplayerSkuIds": [
+            406574
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 408413,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409387,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 409874,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 408900,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406574,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Other Elf creatures you control get +1/+1.\r\n<br>\r\nG, T: Put a 1/1 green Elf Warrior creature token into play.",
+        "typeLine": "Creature — Elf",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Scott M. Fischer",
+        "customAttributes": {
+          "description": "Other Elf creatures you control get +1/+1.\r\n<br>\r\nG, T: Put a 1/1 green Elf Warrior creature token into play.",
+          "powerNumber": "2",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elf",
+          "number": "9",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "9",
+          "Card Type": "Creature — Elf",
+          "P / T": "2 / 2",
+          "Description": "Other Elf creatures you control get +1/+1.\r\n<br>\r\nG, T: Put a 1/1 green Elf Warrior creature token into play.",
+          "Artist": "Scott M. Fischer"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:52Z",
+  "tcgplayerProductId": 3300,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mishras Workshop",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 3000.97,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to add 3 colorless mana to your mana pool. This mana may only be used to cast artifacts.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Land ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3099.99,
+    "productName": "Mishra's Workshop",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3300.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Antiquities",
+    "sellers": 7.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 19.0,
+    "lowestPrice": 2799.99,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Land ",
+      "Description": "Tap to add 3 colorless mana to your mana pool. This mana may only be used to cast artifacts.",
+      "Artist": "Kaja Foglio",
+      "TCGplayer Tip": "Mishra's Workshop is banned in Legacy because lands should not tap for three mana on turn one. The restriction that you can only use this mana to cast artifacts hardly matters, because historically the most busted cards in Magic have been artifacts."
+    },
+    "skus": [
+      {
+        "sku": 17359,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366305,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334789,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350547,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319031,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

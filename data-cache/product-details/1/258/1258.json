@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:44Z",
+  "tcgplayerProductId": 1258,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Simulacrum",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 74.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "All damage done to you so far this turn is instead retroactively applied to one of your creatures in play. If this damage kills the creature it can be regenerated; even if there’s more than enough damage to kill the creature, you don’t suffer any of it. Further damage this turn is treated normally.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 44.0,
+    "productName": "Simulacrum",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1258.0,
+    "imageCount": 1.0,
+    "score": 1.8692317,
+    "setName": "Alpha Edition",
+    "sellers": 5.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 6.0,
+    "lowestPrice": 44.0,
+    "medianPrice": 274.99,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Instant ",
+      "Description": "All damage done to you so far this turn is instead retroactively applied to one of your creatures in play. If this damage kills the creature it can be regenerated; even if there’s more than enough damage to kill the creature, you don’t suffer any of it. Further damage this turn is treated normally.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 15402,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364348,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332832,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348590,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317074,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:50Z",
+  "tcgplayerProductId": 3274,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Crumble",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 3.16,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target artifact; artifact creatures may not regenerate. Artifact’s controller gains life points equal to target artifact’s casting cost.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1994-03-07T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.74,
+    "productName": "Crumble",
+    "setId": 8.0,
+    "setCode": "ATQ",
+    "productId": 3274.0,
+    "imageCount": 1.0,
+    "score": 2.3838153,
+    "setName": "Antiquities",
+    "sellers": 95.0,
+    "foilOnly": false,
+    "setUrlName": "Antiquities",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 123.0,
+    "lowestPrice": 0.49,
+    "medianPrice": 3.36,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "Destroy target artifact; artifact creatures may not regenerate. Artifact’s controller gains life points equal to target artifact’s casting cost.",
+      "Artist": "Jesper Myrfors"
+    },
+    "skus": [
+      {
+        "sku": 17336,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366282,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334766,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350524,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 319008,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

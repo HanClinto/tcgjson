@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:50Z",
+  "tcgplayerProductId": 37601,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Reanimate",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 13.95,
+    "customAttributes": {
+      "formats": null,
+      "description": "Put target creature card from a graveyard into play under your control. You lose life equal to that creature's converted mana cost.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>\"You will learn to earn death.\"<br>—Volrath</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 9.99,
+    "productName": "Reanimate",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37601.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Battle Royale Box Set",
+    "sellers": 33.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 36.0,
+    "lowestPrice": 9.99,
+    "medianPrice": 14.725,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Sorcery",
+      "Description": "Put target creature card from a graveyard into play under your control. You lose life equal to that creature's converted mana cost.",
+      "Flavor": "<em>\"You will learn to earn death.\"<br>—Volrath</em>",
+      "Artist": "Robert Bliss"
+    },
+    "skus": [
+      {
+        "sku": 397898,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405421,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403011,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404216,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401806,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

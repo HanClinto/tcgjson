@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:19Z",
+  "tcgplayerProductId": 3242,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Singing Tree",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 140.03,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to reduce an attacking creature’s power to 0.",
+      "powerNumber": "0",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Singing Tree",
+      "releaseDate": "1993-12-17T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": "0",
+      "flavorText": "",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 55.11,
+    "productName": "Singing Tree",
+    "setId": 11.0,
+    "setCode": "ARN",
+    "productId": 3242.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Arabian Nights",
+    "sellers": 26.0,
+    "foilOnly": false,
+    "setUrlName": "Arabian Nights",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 40.0,
+    "lowestPrice": 55.11,
+    "medianPrice": 260.0,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Creature Singing Tree",
+      "P / T": "0 / 3",
+      "Description": "Tap to reduce an attacking creature’s power to 0.",
+      "Artist": "Rob Alexander"
+    },
+    "skus": [
+      {
+        "sku": 17307,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366253,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334737,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350495,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318979,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

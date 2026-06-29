@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:45Z",
+  "tcgplayerProductId": 1267,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Steal Artifact",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 95.46,
+    "customAttributes": {
+      "formats": null,
+      "description": "You control target artifact until enchantment is discarded or game ends. If target artifact was tapped when stolen, it stays tapped until you can untap it. If destroyed, target artifact is put in its owner’s graveyard.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Artifact ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 44.96,
+    "productName": "Steal Artifact",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1267.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Alpha Edition",
+    "sellers": 11.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 16.0,
+    "lowestPrice": 44.96,
+    "medianPrice": 106.95,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Artifact ",
+      "Description": "You control target artifact until enchantment is discarded or game ends. If target artifact was tapped when stolen, it stays tapped until you can untap it. If destroyed, target artifact is put in its owner’s graveyard.",
+      "Artist": "Amy Weber"
+    },
+    "skus": [
+      {
+        "sku": 15411,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364357,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332841,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348599,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317083,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

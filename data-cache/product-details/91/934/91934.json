@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:25Z",
+  "tcgplayerProductId": 91934,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Island B",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 34.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to add U to your mana pool.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Land ",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 12.5,
+    "productName": "Island (B)",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 91934.0,
+    "imageCount": 1.0,
+    "score": 2.4502492,
+    "setName": "Beta Edition",
+    "sellers": 54.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 77.0,
+    "lowestPrice": 11.99,
+    "medianPrice": 76.335,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "Card Type": "Land ",
+      "Description": "Tap to add U to your mana pool.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 1245361,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1245362,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1245363,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1245364,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1245365,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

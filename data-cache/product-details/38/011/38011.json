@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:37Z",
+  "tcgplayerProductId": 38011,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mise",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 8.9,
+    "customAttributes": {
+      "formats": null,
+      "description": "Name a nonland card, then reveal the top card of your library. If that card is the named card, draw three cards.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "10",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "<em>Statistically mind-staggering as it might seem, the term \"mise\" was in fact coined simultaneously by over one thousand <strong>Magic</strong> players.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 8.99,
+    "productName": "Mise",
+    "setId": 13.0,
+    "setCode": "ARENA",
+    "productId": 38011.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Arena Promos",
+    "sellers": 5.0,
+    "foilOnly": false,
+    "setUrlName": "Arena Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 5.0,
+    "lowestPrice": 5.86,
+    "medianPrice": 11.67,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "10",
+      "Card Type": "Instant",
+      "Description": "Name a nonland card, then reveal the top card of your library. If that card is the named card, draw three cards.",
+      "Flavor": "<em>Statistically mind-staggering as it might seem, the term \"mise\" was in fact coined simultaneously by over one thousand <strong>Magic</strong> players.</em>",
+      "Artist": "Mark Zug"
+    },
+    "skus": [
+      {
+        "sku": 406501,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 409832,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 408858,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 409345,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 408371,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

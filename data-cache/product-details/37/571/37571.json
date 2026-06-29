@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:46Z",
+  "tcgplayerProductId": 37571,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Gorilla Warrior",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.66,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "3",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Ape",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "3",
+      "flavorText": "<em>They were formidable even before they learned the use of weapons.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Gorilla Warrior",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37571.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Battle Royale Box Set",
+    "sellers": 67.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 79.0,
+    "lowestPrice": 0.07,
+    "medianPrice": 0.675,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature — Ape",
+      "P / T": "3 / 2",
+      "Flavor": "<em>They were formidable even before they learned the use of weapons.</em>",
+      "Artist": "John Matson"
+    },
+    "skus": [
+      {
+        "sku": 397281,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405391,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402981,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404186,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401776,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:24:03Z",
+  "tcgplayerProductId": 8685,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Birds of Paradise",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 1000.0,
+    "customAttributes": {
+      "formats": null,
+      "description": "FlyingTap to add one mana of any color to your mana pool. This tap may be played as an interrupt.",
+      "powerNumber": "0",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature Mana Birds",
+      "releaseDate": "1993-10-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "R",
+      "power": "0",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 2999.95,
+    "productName": "Birds of Paradise",
+    "setId": 17.0,
+    "setCode": "LEB",
+    "productId": 8685.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Beta Edition",
+    "sellers": 1.0,
+    "foilOnly": false,
+    "setUrlName": "Beta Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 11.0,
+    "lowestPrice": 1400.0,
+    "medianPrice": 4999.95,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Creature Mana Birds",
+      "P / T": "0 / 1",
+      "Description": "FlyingTap to add one mana of any color to your mana pool. This tap may be played as an interrupt.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 21509,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 370790,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339274,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355032,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323516,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

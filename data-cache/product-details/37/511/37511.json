@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:59Z",
+  "tcgplayerProductId": 37511,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Quirion Elves",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.13,
+    "customAttributes": {
+      "formats": null,
+      "description": "As Quirion Elves comes into play, choose a color.<br>T: Add G to your mana pool.<br>T: Add one mana of the chosen color to your mana pool.",
+      "powerNumber": "1",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Elf ",
+      "releaseDate": "2000-10-01T00:00:00Z",
+      "number": "60",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.4,
+    "productName": "Quirion Elves",
+    "setId": 16.0,
+    "setCode": "BTD",
+    "productId": 37511.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Beatdown Box Set",
+    "sellers": 54.0,
+    "foilOnly": false,
+    "setUrlName": "Beatdown Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 62.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.45,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "60",
+      "Card Type": "Creature — Elf ",
+      "P / T": "1 / 1",
+      "Description": "As Quirion Elves comes into play, choose a color.<br>T: Add G to your mana pool.<br>T: Add one mana of the chosen color to your mana pool.",
+      "Artist": "Randy Gallegos"
+    },
+    "skus": [
+      {
+        "sku": 397290,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405518,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403108,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404313,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401903,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

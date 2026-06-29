@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:36Z",
+  "tcgplayerProductId": 1113,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fog",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 59.8,
+    "customAttributes": {
+      "formats": null,
+      "description": "Creatures attack and block as normal, but none deal any damage. All attacking creatures are still tapped. Play any time before attack damage is dealt.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 42.99,
+    "productName": "Fog",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 1113.0,
+    "imageCount": 1.0,
+    "score": 1.8692317,
+    "setName": "Alpha Edition",
+    "sellers": 18.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 23.0,
+    "lowestPrice": 42.99,
+    "medianPrice": 89.99,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "Creatures attack and block as normal, but none deal any damage. All attacking creatures are still tapped. Play any time before attack damage is dealt.",
+      "Artist": "Jesper Myrfors"
+    },
+    "skus": [
+      {
+        "sku": 15265,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364211,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332695,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348453,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316937,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

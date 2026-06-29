@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:22:41Z",
+  "tcgplayerProductId": 91373,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mountain A",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 49.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to add R to your mana pool.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Land ",
+      "releaseDate": "1993-09-05T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 27.49,
+    "productName": "Mountain (A)",
+    "setId": 7.0,
+    "setCode": "LEA",
+    "productId": 91373.0,
+    "imageCount": 1.0,
+    "score": 2.1875207,
+    "setName": "Alpha Edition",
+    "sellers": 17.0,
+    "foilOnly": false,
+    "setUrlName": "Alpha Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 44.0,
+    "lowestPrice": 27.39,
+    "medianPrice": 99.99,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "Card Type": "Land ",
+      "Description": "Tap to add R to your mana pool.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 1233507,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233508,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233509,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233510,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1233511,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

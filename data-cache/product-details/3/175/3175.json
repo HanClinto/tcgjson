@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:13Z",
+  "tcgplayerProductId": 3175,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "City of Brass",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 789.99,
+    "customAttributes": {
+      "formats": null,
+      "description": "Tap to add 1 mana of any color to your mana pool. You suffer 1 damage whenever City of Brass becomes tapped.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Land ",
+      "releaseDate": "1993-12-17T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 549.99,
+    "productName": "City of Brass",
+    "setId": 11.0,
+    "setCode": "ARN",
+    "productId": 3175.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Arabian Nights",
+    "sellers": 9.0,
+    "foilOnly": false,
+    "setUrlName": "Arabian Nights",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 16.0,
+    "lowestPrice": 549.99,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Land ",
+      "Description": "Tap to add 1 mana of any color to your mana pool. You suffer 1 damage whenever City of Brass becomes tapped.",
+      "Artist": "Mark Tedin"
+    },
+    "skus": [
+      {
+        "sku": 17249,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 366195,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 334679,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 350437,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 318921,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

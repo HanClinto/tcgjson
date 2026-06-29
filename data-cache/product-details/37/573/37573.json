@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:23:46Z",
+  "tcgplayerProductId": 37573,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Heat Ray",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "formats": null,
+      "description": "Heat Ray deals X damage to target creature.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "1999-11-12T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>It's not known whether the Thran built the device to forge their wonders or to defend them.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.08,
+    "productName": "Heat Ray",
+    "setId": 15.0,
+    "setCode": "BRB",
+    "productId": 37573.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Battle Royale Box Set",
+    "sellers": 73.0,
+    "foilOnly": false,
+    "setUrlName": "Battle Royale Box Set",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 88.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.305,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant",
+      "Description": "Heat Ray deals X damage to target creature.",
+      "Flavor": "<em>It's not known whether the Thran built the device to forge their wonders or to defend them.</em>",
+      "Artist": "Brian Snoddy"
+    },
+    "skus": [
+      {
+        "sku": 397022,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405393,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402983,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404188,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 401778,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}
