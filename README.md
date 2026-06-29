@@ -77,6 +77,43 @@ tcgjson build --output release --with-skus
 tcgjson build --output release --product-line Pokemon --max-sets 2
 ```
 
+## Efficient Weekly Updates
+
+The first full export can take longer than is comfortable for GitHub-hosted
+runners, especially once SKU-level enrichment is enabled. The intended operating
+model is:
+
+1. Prime the catalog locally with a full read.
+2. Upload that local output as the first GitHub Release.
+3. Let scheduled GitHub Actions runs reuse the prior release and only refresh
+   missing sets plus a small number of recent sets per product line.
+
+Local priming:
+
+```bash
+tcgjson build --output release
+python -m tcgjson.validate release
+gh release create bootstrap-$(date +%Y-%m-%d) release/*.json \
+  --repo HanClinto/tcgjson \
+  --title "Bootstrap catalog $(date +%Y-%m-%d)" \
+  --notes "Initial locally primed tcgjson catalog export."
+```
+
+Incremental update from a previous release directory:
+
+```bash
+tcgjson build --output release \
+  --cache-dir release-cache \
+  --refresh-recent-sets 3
+```
+
+The scheduled workflow downloads the latest release into `release-cache` before
+building. Cached full catalogs are reused set-by-set; any missing sets are
+fetched, and the `--refresh-recent-sets` newest sets are refetched so new release
+activity stays fresh without recrawling entire back catalogs. A manual full
+refresh can still be run locally whenever older price-guide rows need a complete
+rebake.
+
 ## Release Layout
 
 ```text
@@ -104,117 +141,3 @@ This project is not produced by or endorsed by TCGplayer or any game publisher.
 TCGplayer and product-line names are trademarks of their respective owners.
 Catalog and price information should be treated as informational and may become
 stale.
-# tcgjson
-
-`tcgjson` builds weekly bulk JSON catalog files from TCGplayer catalog data. The goal is deliberately narrow: reliable consolidated catalog downloads for product lines such as Pokemon, Yu-Gi-Oh!, One Piece, Flesh and Blood, Star Wars Unlimited, and Disney Lorcana.
-
-It is inspired by Scryfall bulk data and MTGJSON, but it is not trying to become a gameplay rules database, image mirror, seller-listing archive, or storefront pricing API.
-
-## Scope
-
-Core deliverables:
-
-- One compact JSON file per product line, for basic set/product metadata.
-- One full JSON file per product line, including TCGplayer price-guide rows.
-- Optional SKU enrichment from TCGplayer product details for product/condition/printing/language SKU IDs.
-- A `bulk-data.json` manifest modeled after Scryfall's bulk data object list, with file type, description, size, SHA-256, timestamp, content type, and download URI.
-- A weekly GitHub Actions workflow that builds artifacts and attaches them to a rolling public release.
-
-Intentionally out of scope for now:
-
-- Building back catalogs of Listos, meaning TCGplayer listings with photos. The sibling `ccg_card_id` project has notes and endpoint knowledge for historical custom listings, but that should be a future dataset project, not part of this initial catalog delivery surface.
-- Downloading or republishing card images.
-- Nightly updates. Weekly is enough for catalog use.
-- Marketplace inventory, seller data, or live pricing guarantees.
-
-## Output Shape
-
-Each product line produces at least:
-
-- `{product-line}.compact.json`
-- `{product-line}.full.json`
-- gzip copies of each file for releases
-
-Example compact product entry:
-
-```json
-{
-  "tcgplayerProductId": 100,
-  "name": "Pikachu",
-  "collectorNumber": "025",
-  "rarity": "Common",
-  "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/100_in_1000x1000.jpg",
-  "foilingOptions": ["Normal"]
-}
-```
-
-Full files keep the same product/set structure and add `priceRows`; when `--include-skus` is used, products also include the SKU table from TCGplayer product details.
-
-The manifest is written to `bulk-data.json`:
-
-```json
-{
-  "object": "list",
-  "has_more": false,
-  "generated_at": "2026-06-29T00:00:00Z",
-  "data": [
-    {
-      "object": "bulk_data",
-      "type": "pokemon_compact",
-      "name": "pokemon compact catalog",
-      "download_uri": "pokemon.compact.json",
-      "content_type": "application/json",
-      "content_encoding": "identity"
-    }
-  ]
-}
-```
-
-## Why Price-Guide First
-
-The `ccg_card_id` TCGplayer exploration found that the price-guide endpoint is the faster bulk source:
-
-`https://infinite-api.tcgplayer.com/priceguide/set/{setId}/cards/?rows=5000&productTypeID=1`
-
-It provides enough for the initial catalog layer: product line, set, product ID, name, collector number, rarity, image URL derivation, foiling/printing options, condition rows, and market/low prices. Per-product details can be layered in later or enabled in a manual workflow run for SKU-heavy files.
-
-## Usage
-
-```bash
-python -m pip install '.[dev]'
-pytest
-tcgjson build --out dist/tcgjson --product-line Pokemon --max-sets 2 --no-gzip
-```
-
-Build the default product lines:
-
-```bash
-tcgjson build --out dist/tcgjson --workers 4 --rate-limit-delay 0.05
-```
-
-Build with SKU enrichment:
-
-```bash
-tcgjson build --out dist/tcgjson --product-line Pokemon --include-skus --rate-limit-delay 0.1
-```
-
-## Product Lines
-
-The initial default list is conservative:
-
-- Pokemon
-- YuGiOh
-- One Piece Card Game
-- Flesh and Blood TCG
-- Star Wars Unlimited
-- Disney Lorcana
-
-More TCGplayer product lines can be added by passing `--product-line` or by extending `DEFAULT_PRODUCT_LINES` in [tcgjson/build.py](tcgjson/build.py).
-
-## GitHub Releases
-
-[.github/workflows/build-release.yml](.github/workflows/build-release.yml) runs every Monday and publishes a rolling `weekly` release. Manual workflow dispatch can enable `include_skus` when a deeper file is needed and the extra API time is acceptable.
-
-## License
-
-MIT. See [LICENSE](LICENSE).

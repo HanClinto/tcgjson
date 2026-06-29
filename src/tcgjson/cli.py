@@ -18,6 +18,18 @@ def build_parser() -> argparse.ArgumentParser:
     build.add_argument("--max-sets", type=int, default=None)
     build.add_argument("--priceguide-rows", type=int, default=5000)
     build.add_argument("--with-skus", action="store_true")
+    build.add_argument(
+        "--cache-dir",
+        type=Path,
+        default=None,
+        help="Directory containing prior <slug>.full.json files to reuse as a baseline.",
+    )
+    build.add_argument(
+        "--refresh-recent-sets",
+        type=int,
+        default=0,
+        help="When using --cache-dir, refetch this many most-recent sets per product line.",
+    )
     return parser
 
 
@@ -31,6 +43,8 @@ def main(argv: list[str] | None = None) -> int:
             max_sets=args.max_sets,
             priceguide_rows=args.priceguide_rows,
             with_skus=args.with_skus,
+            cache_dir=args.cache_dir,
+            refresh_recent_sets=args.refresh_recent_sets,
         )
         print(f"Wrote {len(manifest['data'])} bulk files to {args.output}")
         return 0

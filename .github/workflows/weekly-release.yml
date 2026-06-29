@@ -23,12 +23,18 @@ jobs:
           python-version: '3.11'
       - name: Install
         run: python -m pip install -e .
+      - name: Download previous release as cache
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p release-cache
+          gh release download --repo "${{ github.repository }}" --pattern '*.json' --dir release-cache || true
       - name: Build bulk JSON
         run: |
           if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
-            tcgjson build --output release --with-skus
+            tcgjson build --output release --cache-dir release-cache --refresh-recent-sets 3 --with-skus
           else
-            tcgjson build --output release
+            tcgjson build --output release --cache-dir release-cache --refresh-recent-sets 3
           fi
       - name: Validate release files
         run: python -m tcgjson.validate release

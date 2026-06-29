@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import hashlib
+import json
 import mimetypes
 from pathlib import Path
 from typing import Any
@@ -11,6 +12,19 @@ from .atomic import atomic_write_json
 from .config import normalize_key, product_line_for_name
 from .normalize import compact_product, extract_skus, group_priceguide_products
 from .tcgplayer import TCGplayerClient, TCGplayerError
+
+
+def _utc_now_iso() -> str:
+    return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def _utc_timestamp_iso(timestamp: float) -> str:
+    return (
+        dt.datetime.fromtimestamp(timestamp, dt.timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
 
 
 def _resolve_product_line(client: TCGplayerClient, requested_name: str) -> dict[str, Any]:
@@ -24,6 +38,67 @@ def _resolve_product_line(client: TCGplayerClient, requested_name: str) -> dict[
     raise TCGplayerError(f"Unknown TCGplayer product line: {requested_name}")
 
 
+def _load_cached_catalog(cache_dir: Path | None, slug: str) -> dict[str, Any] | None:
+    if cache_dir is None:
+        return None
+    path = cache_dir / f"{slug}.full.json"
+    if not path.exists():
+        return None
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _recent_set_ids(set_rows: list[dict[str, Any]], refresh_recent_sets: int) -> set[int]:
+    if refresh_recent_sets <= 0:
+        return set()
+    sorted_rows = sorted(
+        set_rows,
+        key=lambda row: (row.get("releaseDate") or "", int(row.get("setNameId") or 0)),
+    )
+    return {int(row["setNameId"]) for row in sorted_rows[-refresh_recent_sets:]}
+
+
+def _cached_products_have_skus(products: list[dict[str, Any]]) -> bool:
+    return all("skus" in product for product in products)
+
+
+def _fetch_set_products(
+    client: TCGplayerClient,
+    *,
+    product_line_name: str,
+    product_line_id: int,
+    product_line_url_name: str,
+    set_row: dict[str, Any],
+    priceguide_rows: int,
+    with_skus: bool,
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    priceguide = client.get_priceguide_set_cards(set_row["setNameId"], rows=priceguide_rows)
+    rows = list(priceguide.get("result") or [])
+    set_products = group_priceguide_products(
+        rows,
+        product_line_name=product_line_name,
+        product_line_id=product_line_id,
+        product_line_url_name=product_line_url_name,
+        set_row=set_row,
+    )
+    if with_skus:
+        for product in set_products:
+            details = client.get_product_details(product["tcgplayerProductId"])
+            product["skus"] = extract_skus(details)
+    return (
+        {
+            "tcgplayerSetId": int(set_row["setNameId"]),
+            "name": set_row.get("name", ""),
+            "urlName": set_row.get("urlName", ""),
+            "abbreviation": set_row.get("abbreviation", ""),
+            "releaseDate": set_row.get("releaseDate", ""),
+            "isSupplemental": bool(set_row.get("isSupplemental")),
+            "productCount": len(set_products),
+            "priceGuideRowCount": len(rows),
+        },
+        set_products,
+    )
+
+
 def fetch_product_line(
     client: TCGplayerClient,
     product_line_name: str,
@@ -31,6 +106,8 @@ def fetch_product_line(
     max_sets: int | None = None,
     priceguide_rows: int = 5000,
     with_skus: bool = False,
+    cache_dir: Path | None = None,
+    refresh_recent_sets: int = 0,
 ) -> dict[str, Any]:
     resolved = product_line_for_name(product_line_name)
     product_line = _resolve_product_line(client, product_line_name)
@@ -40,37 +117,47 @@ def fetch_product_line(
     if max_sets is not None:
         set_rows = set_rows[:max_sets]
 
-    exported_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    exported_at = _utc_now_iso()
+    cached_catalog = _load_cached_catalog(cache_dir, resolved.slug)
+    cached_sets = {
+        int(set_payload["tcgplayerSetId"]): set_payload
+        for set_payload in (cached_catalog or {}).get("sets", [])
+    }
+    cached_products: dict[int, list[dict[str, Any]]] = {}
+    for product in (cached_catalog or {}).get("products", []):
+        set_id = int(product.get("set", {}).get("id") or 0)
+        cached_products.setdefault(set_id, []).append(product)
+    refresh_ids = _recent_set_ids(set_rows, refresh_recent_sets)
     sets = []
     products = []
+    reused_sets = 0
+    fetched_sets = 0
     for set_row in set_rows:
-        priceguide = client.get_priceguide_set_cards(set_row["setNameId"], rows=priceguide_rows)
-        rows = list(priceguide.get("result") or [])
-        set_products = group_priceguide_products(
-            rows,
-            product_line_name=product_line.get("productLineName", resolved.name),
-            product_line_id=product_line_id,
-            product_line_url_name=product_line_url_name,
-            set_row=set_row,
+        set_id = int(set_row["setNameId"])
+        cached_set_products = cached_products.get(set_id, [])
+        can_reuse = (
+            set_id in cached_sets
+            and cached_set_products
+            and set_id not in refresh_ids
+            and (not with_skus or _cached_products_have_skus(cached_set_products))
         )
-        sets.append(
-            {
-                "tcgplayerSetId": int(set_row["setNameId"]),
-                "name": set_row.get("name", ""),
-                "urlName": set_row.get("urlName", ""),
-                "abbreviation": set_row.get("abbreviation", ""),
-                "releaseDate": set_row.get("releaseDate", ""),
-                "isSupplemental": bool(set_row.get("isSupplemental")),
-                "productCount": len(set_products),
-                "priceGuideRowCount": len(rows),
-            }
-        )
+        if can_reuse:
+            sets.append(cached_sets[set_id])
+            set_products = cached_set_products
+            reused_sets += 1
+        else:
+            set_summary, set_products = _fetch_set_products(
+                client,
+                product_line_name=product_line.get("productLineName", resolved.name),
+                product_line_id=product_line_id,
+                product_line_url_name=product_line_url_name,
+                set_row=set_row,
+                priceguide_rows=priceguide_rows,
+                with_skus=with_skus,
+            )
+            sets.append(set_summary)
+            fetched_sets += 1
         products.extend(set_products)
-
-    if with_skus:
-        for product in products:
-            details = client.get_product_details(product["tcgplayerProductId"])
-            product["skus"] = extract_skus(details)
 
     sets.sort(key=lambda item: (item["name"], item["tcgplayerSetId"]))
     products.sort(key=lambda item: (item["set"]["name"], item.get("collectorNumber", ""), item["name"]))
@@ -85,6 +172,13 @@ def fetch_product_line(
             "slug": resolved.slug,
             "setCount": len(sets),
             "productCount": len(products),
+            "cache": {
+                "enabled": cache_dir is not None,
+                "sourceGeneratedAt": (cached_catalog or {}).get("meta", {}).get("generatedAt", ""),
+                "reusedSetCount": reused_sets,
+                "fetchedSetCount": fetched_sets,
+                "refreshRecentSetCount": refresh_recent_sets,
+            },
         },
         "sets": sets,
         "products": products,
@@ -110,7 +204,7 @@ def _file_manifest(path: Path, *, output_dir: Path, file_type: str, name: str, d
         "name": name,
         "description": description,
         "download_uri": path.relative_to(output_dir).as_posix(),
-        "updated_at": dt.datetime.fromtimestamp(stat.st_mtime, dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "updated_at": _utc_timestamp_iso(stat.st_mtime),
         "size": stat.st_size,
         "sha256": digest,
         "content_type": content_type,
@@ -145,7 +239,7 @@ def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[
 
 
 def write_bulk_manifest(output_dir: Path, files: list[dict[str, Any]]) -> dict[str, Any]:
-    generated_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    generated_at = _utc_now_iso()
     manifest = {
         "object": "list",
         "source": "tcgjson",
@@ -164,6 +258,8 @@ def build_release(
     max_sets: int | None = None,
     priceguide_rows: int = 5000,
     with_skus: bool = False,
+    cache_dir: Path | None = None,
+    refresh_recent_sets: int = 0,
     client: TCGplayerClient | None = None,
 ) -> dict[str, Any]:
     active_client = client or TCGplayerClient()
@@ -175,6 +271,8 @@ def build_release(
             max_sets=max_sets,
             priceguide_rows=priceguide_rows,
             with_skus=with_skus,
+            cache_dir=cache_dir,
+            refresh_recent_sets=refresh_recent_sets,
         )
         files.extend(write_product_line_files(output_dir, catalog))
     return write_bulk_manifest(output_dir, files)
