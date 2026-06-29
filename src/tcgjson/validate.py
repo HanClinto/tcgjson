@@ -22,7 +22,10 @@ def validate_release(output_dir: Path) -> None:
         if not path.exists():
             raise FileNotFoundError(path)
         payload = json.loads(path.read_text(encoding="utf-8"))
-        if "meta" not in payload or "products" not in payload or "sets" not in payload:
+        if payload.get("object") == "tcgjson_build_metrics":
+            if "durationSeconds" not in payload or "productLines" not in payload:
+                raise ValueError(f"{path} is missing required metrics keys")
+        elif "meta" not in payload or "products" not in payload or "sets" not in payload:
             raise ValueError(f"{path} is missing required catalog keys")
         if path.stat().st_size != item["size"]:
             raise ValueError(f"size mismatch for {path}")

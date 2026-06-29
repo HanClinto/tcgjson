@@ -35,6 +35,11 @@ The build also writes `bulk-data.json`, a Scryfall-style manifest with file
 types, descriptions, timestamps, sizes, SHA-256 digests, and relative download
 paths. GitHub Releases attach all generated JSON files weekly.
 
+Each build also writes `metrics.json`, which records total duration, per-product
+line duration, request counts, cache reuse, fetched set counts, and product/set
+throughput. This file is intended to be easy to ingest into later graphs so we
+can track whether incremental updates are saving enough runner time.
+
 ## Data Sources
 
 The first implementation uses the fast path from `ccg_card_id`:
@@ -46,6 +51,11 @@ The first implementation uses the fast path from `ccg_card_id`:
 Optional SKU enrichment uses:
 
 - `https://mp-search-api.tcgplayer.com/v2/product/{productId}/details`
+
+Default product-line selection also uses TCGplayer's popular-game navigation
+endpoint:
+
+- `https://marketplace-navigation.tcgplayer.com/marketplace-navigation-search-feature.json`
 
 The price-guide path is much faster than crawling search results and contains
 the core product, set, collector number, rarity, print/condition, price, and
@@ -75,7 +85,33 @@ tcgjson build --output release --with-skus
 
 # Faster smoke build for development.
 tcgjson build --output release --product-line Pokemon --max-sets 2
+
+# Report all TCGplayer product lines and default support status.
+tcgjson games --output games.md --json-output games.json
 ```
+
+## Product-Line Support
+
+When `tcgjson build` is run without `--product-line`, it includes every product
+line TCGplayer currently reports as popular, then adds manual inclusions from
+[src/tcgjson/config.py](src/tcgjson/config.py). Right now the manual inclusions
+are:
+
+- Riftbound: League of Legends Trading Card Game
+- Union Arena
+
+Run `tcgjson games` to generate a checkbox-style report:
+
+```markdown
+| Enabled | Product line | Popular | Manual include | Manual exclude | TCGplayer ID |
+| --- | --- | --- | --- | --- | --- |
+| [x] | Riftbound: League of Legends Trading Card Game |  | yes |  | 89 |
+| [x] | Union Arena |  | yes |  | 81 |
+```
+
+To turn support on or off, edit `MANUAL_INCLUDED_PRODUCT_LINES` or
+`MANUAL_EXCLUDED_PRODUCT_LINES` in [src/tcgjson/config.py](src/tcgjson/config.py).
+Popular games are included automatically unless manually excluded.
 
 ## Efficient Weekly Updates
 
@@ -114,11 +150,25 @@ activity stays fresh without recrawling entire back catalogs. A manual full
 refresh can still be run locally whenever older price-guide rows need a complete
 rebake.
 
+`metrics.json` makes the full-vs-incremental comparison explicit. Key fields for
+graphing are:
+
+- `durationSeconds`
+- `mode`
+- `productLines[].durationSeconds`
+- `productLines[].cache.reusedSetCount`
+- `productLines[].cache.fetchedSetCount`
+- `productLines[].requests.requests`
+- `productLines[].productCount`
+
 ## Release Layout
 
 ```text
 release/
   bulk-data.json
+  metrics.json
+  games.md
+  games.json
   pokemon.json
   pokemon.full.json
   yugioh.json

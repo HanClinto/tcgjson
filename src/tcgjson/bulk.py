@@ -5,13 +5,15 @@ import datetime as dt
 import hashlib
 import json
 import mimetypes
+import time
 from pathlib import Path
 from typing import Any
 
 from .atomic import atomic_write_json
 from .config import normalize_key, product_line_for_name
+from .games import default_enabled_product_line_names
 from .normalize import compact_product, extract_skus, group_priceguide_products
-from .tcgplayer import TCGplayerClient, TCGplayerError
+from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 
 def _utc_now_iso() -> str:
@@ -27,13 +29,31 @@ def _utc_timestamp_iso(timestamp: float) -> str:
     )
 
 
+def _stats_delta(before: RequestStats, after: RequestStats) -> dict[str, int]:
+    return {
+        "requests": after.requests - before.requests,
+        "retries": after.retries - before.retries,
+        "errors": after.errors - before.errors,
+    }
+
+
+def _stats_dict(stats: RequestStats) -> dict[str, int]:
+    return {"requests": stats.requests, "retries": stats.retries, "errors": stats.errors}
+
+
 def _resolve_product_line(client: TCGplayerClient, requested_name: str) -> dict[str, Any]:
     requested = product_line_for_name(requested_name)
     wanted = {normalize_key(requested.name), normalize_key(requested.slug)}
     wanted.update(normalize_key(alias) for alias in requested.aliases)
     for row in client.get_product_lines():
         candidates = [row.get("productLineName", ""), row.get("productLineUrlName", "")]
-        if any(normalize_key(candidate) in wanted for candidate in candidates):
+        if any(
+            key == normalize_key(candidate)
+            or key in normalize_key(candidate)
+            or normalize_key(candidate) in key
+            for key in wanted
+            for candidate in candidates
+        ):
             return row
     raise TCGplayerError(f"Unknown TCGplayer product line: {requested_name}")
 
@@ -109,6 +129,7 @@ def fetch_product_line(
     cache_dir: Path | None = None,
     refresh_recent_sets: int = 0,
 ) -> dict[str, Any]:
+    started = time.perf_counter()
     resolved = product_line_for_name(product_line_name)
     product_line = _resolve_product_line(client, product_line_name)
     product_line_id = int(product_line["productLineId"])
@@ -159,6 +180,7 @@ def fetch_product_line(
             fetched_sets += 1
         products.extend(set_products)
 
+    elapsed_seconds = time.perf_counter() - started
     sets.sort(key=lambda item: (item["name"], item["tcgplayerSetId"]))
     products.sort(key=lambda item: (item["set"]["name"], item.get("collectorNumber", ""), item["name"]))
     return {
@@ -178,6 +200,11 @@ def fetch_product_line(
                 "reusedSetCount": reused_sets,
                 "fetchedSetCount": fetched_sets,
                 "refreshRecentSetCount": refresh_recent_sets,
+            },
+            "metrics": {
+                "durationSeconds": round(elapsed_seconds, 3),
+                "setsPerSecond": round(len(sets) / max(elapsed_seconds, 0.001), 3),
+                "productsPerSecond": round(len(products) / max(elapsed_seconds, 0.001), 3),
             },
         },
         "sets": sets,
@@ -210,6 +237,18 @@ def _file_manifest(path: Path, *, output_dir: Path, file_type: str, name: str, d
         "content_type": content_type,
         "content_encoding": "identity",
     }
+
+
+def write_metrics_file(output_dir: Path, metrics: dict[str, Any]) -> dict[str, Any]:
+    path = output_dir / "metrics.json"
+    atomic_write_json(path, metrics)
+    return _file_manifest(
+        path,
+        output_dir=output_dir,
+        file_type="build_metrics",
+        name="Build Metrics",
+        description="Timing, request-count, and cache-efficiency metrics for this tcgjson build.",
+    )
 
 
 def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[dict[str, Any]]:
@@ -253,7 +292,7 @@ def write_bulk_manifest(output_dir: Path, files: list[dict[str, Any]]) -> dict[s
 
 def build_release(
     output_dir: Path,
-    product_lines: list[str],
+    product_lines: list[str] | None = None,
     *,
     max_sets: int | None = None,
     priceguide_rows: int = 5000,
@@ -263,8 +302,14 @@ def build_release(
     client: TCGplayerClient | None = None,
 ) -> dict[str, Any]:
     active_client = client or TCGplayerClient()
+    selected_product_lines = product_lines or default_enabled_product_line_names(active_client)
+    build_started_at = _utc_now_iso()
+    build_started = time.perf_counter()
     files: list[dict[str, Any]] = []
-    for product_line in product_lines:
+    product_line_metrics = []
+    for product_line in selected_product_lines:
+        line_started = time.perf_counter()
+        stats_before = active_client.stats()
         catalog = fetch_product_line(
             active_client,
             product_line,
@@ -274,5 +319,32 @@ def build_release(
             cache_dir=cache_dir,
             refresh_recent_sets=refresh_recent_sets,
         )
+        duration_seconds = round(time.perf_counter() - line_started, 3)
         files.extend(write_product_line_files(output_dir, catalog))
+        stats_after = active_client.stats()
+        product_line_metrics.append(
+            {
+                "productLine": catalog["meta"]["productLine"],
+                "slug": catalog["meta"]["slug"],
+                "durationSeconds": duration_seconds,
+                "setCount": catalog["meta"]["setCount"],
+                "productCount": catalog["meta"]["productCount"],
+                "cache": catalog["meta"].get("cache", {}),
+                "requests": _stats_delta(stats_before, stats_after),
+            }
+        )
+    metrics = {
+        "object": "tcgjson_build_metrics",
+        "startedAt": build_started_at,
+        "finishedAt": _utc_now_iso(),
+        "durationSeconds": round(time.perf_counter() - build_started, 3),
+        "mode": "incremental" if cache_dir is not None else "full",
+        "withSkus": with_skus,
+        "cacheDir": str(cache_dir) if cache_dir is not None else "",
+        "refreshRecentSetCount": refresh_recent_sets,
+        "productLineCount": len(selected_product_lines),
+        "productLines": product_line_metrics,
+        "requests": _stats_dict(active_client.stats()),
+    }
+    files.append(write_metrics_file(output_dir, metrics))
     return write_bulk_manifest(output_dir, files)

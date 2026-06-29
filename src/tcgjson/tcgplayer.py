@@ -16,6 +16,7 @@ import requests
 CATALOG_API_BASE = "https://mpapi.tcgplayer.com"
 SEARCH_API_BASE = "https://mp-search-api.tcgplayer.com"
 INFINITE_API_BASE = "https://infinite-api.tcgplayer.com"
+NAVIGATION_API_BASE = "https://marketplace-navigation.tcgplayer.com"
 
 
 class TCGplayerError(RuntimeError):
@@ -101,6 +102,16 @@ class TCGplayerClient:
         if not isinstance(payload, list):
             raise TCGplayerError("Unexpected product lines payload")
         return payload
+
+    def get_popular_games(self) -> list[dict[str, Any]]:
+        payload = self._request(
+            "GET",
+            f"{NAVIGATION_API_BASE}/marketplace-navigation-search-feature.json",
+        )
+        categories = payload.get("categories") if isinstance(payload, dict) else None
+        if not isinstance(categories, list):
+            raise TCGplayerError("Navigation payload missing categories")
+        return categories
 
     def get_set_names(self, product_line_id: int | str, *, active: bool = True) -> list[dict[str, Any]]:
         payload = self._request(
