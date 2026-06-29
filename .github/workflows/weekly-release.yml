@@ -13,9 +13,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: tcgjson-data-cache
+  cancel-in-progress: false
+
 jobs:
   build-release:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -40,6 +45,8 @@ jobs:
           fi
       - name: Validate release files
         run: python -m tcgjson.validate release
+      - name: Evaluate operational constraints
+        run: tcgjson ops evaluate --metrics release/metrics.json --data-cache-dir data-cache
       - name: Commit updated data cache
         if: github.ref == 'refs/heads/main'
         run: |

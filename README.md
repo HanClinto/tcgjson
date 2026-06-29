@@ -233,6 +233,37 @@ graphing are:
 - `productLines[].requests.cacheHits`
 - `productLines[].productCount`
 
+## Operational Constraints
+
+Scheduled update jobs are designed around GitHub-hosted Actions and a durable
+git-tracked `data-cache`. The target constraints are recorded in
+[`operations-constraints.json`](operations-constraints.json) so they can be
+reviewed and evaluated by automation instead of living only in prose.
+
+Current targets:
+
+- Job timeout: 300 minutes, leaving a 15 minute reserve for final cache flushes.
+- Cache flush cadence for future resumable jobs: every 15 minutes or before job
+  shutdown.
+- Intermediate cache push size: keep routine pushes under 100 MiB.
+- Data-cache size watchpoint: 2 GiB before reconsidering storage strategy.
+- Directory fanout: warn above 500 files in a directory; fail above 1000.
+- Concurrency: one cache-writing workflow at a time, using
+  `tcgjson-data-cache`.
+- Partial progress may update `data-cache`; public release artifacts are only
+  published after a complete build validates.
+
+Evaluate current metrics and cache shape with:
+
+```bash
+tcgjson ops evaluate \
+  --metrics release/metrics.json \
+  --data-cache-dir data-cache
+```
+
+The weekly workflow runs this evaluation after `python -m tcgjson.validate
+release` and before committing cache changes or publishing a release.
+
 ## Release Layout
 
 ```text

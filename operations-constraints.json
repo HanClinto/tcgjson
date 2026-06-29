@@ -1,0 +1,21 @@
+{
+  "object": "tcgjson_operations_constraints",
+  "version": 1,
+  "githubActions": {
+    "jobTimeoutMinutes": 300,
+    "finalFlushReserveMinutes": 15,
+    "cacheFlushIntervalMinutes": 15,
+    "maxIntermediatePushMegabytes": 100,
+    "concurrencyGroup": "tcgjson-data-cache"
+  },
+  "dataCache": {
+    "maxFilesPerDirectory": 1000,
+    "warnFilesPerDirectory": 500,
+    "maxTrackedCacheMegabytes": 2048,
+    "productDetailCacheLayout": "product-details/<previous-three-product-id-digits>/<last-three-product-id-digits>/<product-id>.json"
+  },
+  "release": {
+    "publishOnlyAfterValidation": true,
+    "allowPartialReleaseArtifacts": false
+  }
+}

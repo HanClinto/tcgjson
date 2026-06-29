@@ -8,6 +8,7 @@ from pathlib import Path
 
 from .bulk import build_release
 from .games import discover_game_support, write_game_support_report
+from .operations import DEFAULT_CONSTRAINTS_PATH, evaluate_operations, evaluation_text
 from .tcgplayer import TCGplayerClient
 
 
@@ -93,6 +94,14 @@ def build_parser() -> argparse.ArgumentParser:
     games = subparsers.add_parser("games", help="Report TCGplayer product-line support")
     games.add_argument("--output", type=Path, default=Path("games.md"))
     games.add_argument("--json-output", type=Path, default=Path("games.json"))
+
+    ops = subparsers.add_parser("ops", help="Evaluate operational constraints")
+    ops_subparsers = ops.add_subparsers(dest="ops_command", required=True)
+    evaluate = ops_subparsers.add_parser("evaluate", help="Evaluate cache and build metrics against constraints")
+    evaluate.add_argument("--constraints", type=Path, default=DEFAULT_CONSTRAINTS_PATH)
+    evaluate.add_argument("--metrics", type=Path, default=None)
+    evaluate.add_argument("--data-cache-dir", type=Path, default=Path("data-cache"))
+    evaluate.add_argument("--json", action="store_true", help="Write machine-readable evaluation JSON.")
     return parser
 
 
@@ -134,6 +143,19 @@ def main(argv: list[str] | None = None) -> int:
         enabled = sum(1 for row in report["games"] if row["enabled"])
         print(f"Wrote {args.output} with {enabled} enabled product lines")
         return 0
+    if args.command == "ops" and args.ops_command == "evaluate":
+        evaluation = evaluate_operations(
+            constraints_path=args.constraints,
+            metrics_path=args.metrics,
+            data_cache_dir=args.data_cache_dir,
+        )
+        if args.json:
+            import json
+
+            print(json.dumps(evaluation, indent=2, sort_keys=True))
+        else:
+            print(evaluation_text(evaluation))
+        return 0 if evaluation["passed"] else 1
     parser.error(f"Unknown command: {args.command}")
     return 2
 
