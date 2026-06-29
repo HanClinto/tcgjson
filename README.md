@@ -61,6 +61,9 @@ price-guide set IDs line up with catalog set IDs:
 - `https://mpapi.tcgplayer.com/v2/Catalog/SetNames`
 - `https://infinite-api.tcgplayer.com/priceguide/set/{setId}/cards/?rows=5000&productTypeID=1`
 
+See [docs/api-notes.md](docs/api-notes.md) for observed endpoint behavior,
+search payloads, sort caveats, metadata coverage, and caching notes.
+
 `productTypeID=1` is treated as the singles price-guide product type. The bulk
 catalog intentionally does not fetch sealed products or other non-single product
 types yet.
