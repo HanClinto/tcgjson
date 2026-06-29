@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:24:17Z",
+  "tcgplayerProductId": 477761,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Zombie Construct Double Sided Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.8,
+    "customAttributes": {
+      "formats": null,
+      "description": "<strong>Construct</strong>\r\n<br>\r\nThis creature gets +1/+1 for each artifact you control.",
+      "powerNumber": "2/0",
+      "color": [
+        "Black",
+        "Colorless"
+      ],
+      "fullType": "Token Creature — Zombie // Token Artifact Creature — Construct",
+      "releaseDate": "2023-01-13T00:00:00Z",
+      "number": "5 // 14",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "2/0",
+      "flavorText": "",
+      "toughnessNumber": "2/0",
+      "toughness": "2/0"
+    },
+    "lowestPriceWithShipping": 0.5,
+    "productName": "Zombie // Construct Double-Sided Token",
+    "setId": 17670.0,
+    "setCode": "DMR",
+    "productId": 477761.0,
+    "imageCount": 2.0,
+    "score": 1.6232493,
+    "setName": "Dominaria Remastered",
+    "sellers": 33.0,
+    "foilOnly": true,
+    "setUrlName": "Dominaria Remastered",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 33.0,
+    "lowestPrice": 0.5,
+    "medianPrice": 1.09,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "5 // 14",
+      "Card Type": "Token Creature — Zombie // Token Artifact Creature — Construct",
+      "P / T": "2/0 / 2/0",
+      "Description": "<strong>Construct</strong>\r\n<br>\r\nThis creature gets +1/+1 for each artifact you control.",
+      "Artist": "Antonio José Manzanedo // Victor Adame Minguez"
+    },
+    "skus": [
+      {
+        "sku": 6925101,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 6925102,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 6925103,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 6925104,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 6925105,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

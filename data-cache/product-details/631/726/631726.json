@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:31:33Z",
+  "tcgplayerProductId": 631726,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Peel Out",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 55.62,
+    "customAttributes": {
+      "formats": null,
+      "description": "Prevent all combat damage that would be dealt this turn. Create a colorless artifact token named Banana with \"T, Sacrifice this token: Add R or G. You gain 2 life.\"",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": null,
+    "productName": "Peel Out",
+    "setId": 23025.0,
+    "setCode": "UNK",
+    "productId": 631726.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Un-Known Event Playtest Cards",
+    "sellers": 0.0,
+    "foilOnly": false,
+    "setUrlName": "Un Known Event Playtest Cards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 0.0,
+    "lowestPrice": null,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant",
+      "Description": "Prevent all combat damage that would be dealt this turn. Create a colorless artifact token named Banana with \"T, Sacrifice this token: Add R or G. You gain 2 life.\""
+    },
+    "skus": [
+      {
+        "sku": 8714841,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8714842,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8714843,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8714844,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8714845,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

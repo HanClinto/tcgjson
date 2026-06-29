@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:43:43Z",
+  "tcgplayerProductId": 534619,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Deal Gone Bad",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.19,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gets -3/-3 until end of turn. Target player mills three cards. <em>(They put the top three cards of their library into their graveyard.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2024-02-23T00:00:00Z",
+      "number": "110",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"Feed the rumor mills with delicious treachery. Bad blood between those two is a good deal for us.\"<br>—Kamiz, Obscura Oculus</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Deal Gone Bad",
+    "setId": 23362.0,
+    "setCode": "CLU",
+    "productId": 534619.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Ravnica: Clue Edition",
+    "sellers": 163.0,
+    "foilOnly": false,
+    "setUrlName": "Ravnica Clue Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 171.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.22,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "110",
+      "Card Type": "Instant",
+      "Description": "Target creature gets -3/-3 until end of turn. Target player mills three cards. <em>(They put the top three cards of their library into their graveyard.)</em>",
+      "Flavor": "<em>\"Feed the rumor mills with delicious treachery. Bad blood between those two is a good deal for us.\"<br>—Kamiz, Obscura Oculus</em>",
+      "Artist": "Mathias Kollros"
+    },
+    "skus": [
+      {
+        "sku": 7695388,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7695389,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7695390,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7695391,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7695392,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

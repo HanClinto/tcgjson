@@ -1,0 +1,91 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:25:31Z",
+  "tcgplayerProductId": 493447,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Helper Card",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "<em>(You can use this card to represent a double-faced card.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "releaseDate": "2023-04-14T00:00:00Z",
+      "number": "1",
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Helper Card",
+    "setId": 22875.0,
+    "setCode": "MOM",
+    "productId": 493447.0,
+    "imageCount": 1.0,
+    "score": 2.4857213,
+    "setName": "March of the Machine",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "March of the Machine",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 112.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "1",
+      "Description": "<em>(You can use this card to represent a double-faced card.)</em>"
+    },
+    "skus": [
+      {
+        "sku": 7124766,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7124767,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7124768,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7124769,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7124770,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

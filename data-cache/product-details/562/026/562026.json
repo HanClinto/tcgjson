@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:27:00Z",
+  "tcgplayerProductId": 562026,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lightning Bolt",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 56.95,
+    "customAttributes": {
+      "formats": null,
+      "description": "Lightning Bolt deals 3 damage to target creature or player.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2023-02-17T00:00:00Z",
+      "number": "21",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 49.49,
+    "productName": "Lightning Bolt",
+    "setId": 22970.0,
+    "setCode": "SLP",
+    "productId": 562026.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Secret Lair Showdown",
+    "sellers": 12.0,
+    "foilOnly": true,
+    "setUrlName": "Secret Lair Showdown",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 12.0,
+    "lowestPrice": 49.48,
+    "medianPrice": 59.58,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "21",
+      "Card Type": "Instant",
+      "Description": "Lightning Bolt deals 3 damage to target creature or player.",
+      "Artist": "Toru Terada"
+    },
+    "skus": [
+      {
+        "sku": 8084873,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 8084874,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 8084875,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 8084876,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 8084877,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:31:39Z",
+  "tcgplayerProductId": 640240,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Twenty Lessons",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 8.66,
+    "customAttributes": {
+      "formats": null,
+      "description": "Cast a random Lesson spell without paying its mana color. If that spell has X in its mana cost, X is 3. <em>(As of today, there are 20 lessons. Perhaps look up a list and roll a d20?)</em>",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 20.0,
+    "productName": "Twenty Lessons",
+    "setId": 23025.0,
+    "setCode": "UNK",
+    "productId": 640240.0,
+    "imageCount": 0.0,
+    "score": 1.2552725,
+    "setName": "Un-Known Event Playtest Cards",
+    "sellers": 2.0,
+    "foilOnly": false,
+    "setUrlName": "Un Known Event Playtest Cards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 3.0,
+    "lowestPrice": 12.0,
+    "medianPrice": 32.975,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Sorcery",
+      "Description": "Cast a random Lesson spell without paying its mana color. If that spell has X in its mana cost, X is 3. <em>(As of today, there are 20 lessons. Perhaps look up a list and roll a d20?)</em>"
+    },
+    "skus": [
+      {
+        "sku": 8793293,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8793294,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8793295,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8793296,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8793297,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

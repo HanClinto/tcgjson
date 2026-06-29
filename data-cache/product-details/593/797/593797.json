@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:31:30Z",
+  "tcgplayerProductId": 593797,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "First Stage of Magic Design",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 32.97,
+    "customAttributes": {
+      "formats": null,
+      "description": "You gain 3 life. Draw three cards. Add BBB. This spell deals 3 damage to any target. Target creature gets +3/+3 until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "Black",
+        "Blue",
+        "Green",
+        "Red",
+        "White"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 24.99,
+    "productName": "First Stage of Magic Design",
+    "setId": 23025.0,
+    "setCode": "UNK",
+    "productId": 593797.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Un-Known Event Playtest Cards",
+    "sellers": 4.0,
+    "foilOnly": false,
+    "setUrlName": "Un Known Event Playtest Cards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 4.0,
+    "lowestPrice": 24.99,
+    "medianPrice": 32.975,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "Card Type": "Instant",
+      "Description": "You gain 3 life. Draw three cards. Add BBB. This spell deals 3 damage to any target. Target creature gets +3/+3 until end of turn."
+    },
+    "skus": [
+      {
+        "sku": 8357411,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8357412,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8357413,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8357414,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8357415,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

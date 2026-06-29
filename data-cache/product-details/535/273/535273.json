@@ -1,0 +1,91 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:44:27Z",
+  "tcgplayerProductId": 535273,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Gruul Clans Theme Card",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.08,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Theme Token Card",
+      "releaseDate": "2024-02-23T00:00:00Z",
+      "number": "7",
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Gruul Clans Theme Card",
+    "setId": 23362.0,
+    "setCode": "CLU",
+    "productId": 535273.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Ravnica: Clue Edition",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "Ravnica Clue Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 108.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.2,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "7",
+      "Card Type": "Theme Token Card",
+      "Artist": "Elizabeth Peiró"
+    },
+    "skus": [
+      {
+        "sku": 7702606,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7702607,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7702608,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7702609,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7702610,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

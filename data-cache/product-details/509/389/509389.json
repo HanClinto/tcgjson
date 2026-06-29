@@ -1,0 +1,88 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:36:28Z",
+  "tcgplayerProductId": 509389,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sol Ring Art Card",
+    "productTypeId": 1.0,
+    "rarityName": "Special",
+    "sealed": false,
+    "marketPrice": 1.61,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": null,
+      "releaseDate": "2023-08-04T00:00:00Z",
+      "number": "70",
+      "cardType": null,
+      "rarityDbName": "S",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 1.05,
+    "productName": "Sol Ring Art Card",
+    "setId": 23270.0,
+    "setCode": "ASCMM",
+    "productId": 509389.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Art Series: Commander Masters",
+    "sellers": 24.0,
+    "foilOnly": false,
+    "setUrlName": "Art Series Commander Masters",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 24.0,
+    "lowestPrice": 0.92,
+    "medianPrice": 1.69,
+    "formattedAttributes": {
+      "Rarity": "S",
+      "#": "70"
+    },
+    "skus": [
+      {
+        "sku": 7331090,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7331091,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7331092,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7331093,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 7331094,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

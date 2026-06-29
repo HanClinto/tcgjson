@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:27:00Z",
+  "tcgplayerProductId": 528387,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Spell Pierce",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 26.42,
+    "customAttributes": {
+      "formats": null,
+      "description": "Counter target noncreature spell unless its controller pays 2.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2023-02-17T00:00:00Z",
+      "number": "18",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "<em>\"You're trying to cast a spell? How quaint.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 25.99,
+    "productName": "Spell Pierce",
+    "setId": 22970.0,
+    "setCode": "SLP",
+    "productId": 528387.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Secret Lair Showdown",
+    "sellers": 27.0,
+    "foilOnly": true,
+    "setUrlName": "Secret Lair Showdown",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 28.0,
+    "lowestPrice": 23.4,
+    "medianPrice": 29.43,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "18",
+      "Card Type": "Instant",
+      "Description": "Counter target noncreature spell unless its controller pays 2.",
+      "Flavor": "<em>\"You're trying to cast a spell? How quaint.\"</em>",
+      "Artist": "Michael Koehler"
+    },
+    "skus": [
+      {
+        "sku": 7584242,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7584243,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7584244,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7584245,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7584246,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}
