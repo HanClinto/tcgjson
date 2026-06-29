@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:10Z",
+  "tcgplayerProductId": 314,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Gorilla Warrior",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.16,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "3",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Ape",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "128",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "3",
+      "flavorText": "<em>They were formidable even before they learned the use of weapons.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Gorilla Warrior",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 314.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 1999",
+    "sellers": 88.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 102.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.26,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "128",
+      "Card Type": "Creature — Ape",
+      "P / T": "3 / 2",
+      "Flavor": "<em>They were formidable even before they learned the use of weapons.</em>",
+      "Artist": "John Matson"
+    },
+    "skus": [
+      {
+        "sku": 14817,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363563,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332047,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347805,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316289,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

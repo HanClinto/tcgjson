@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:54:01Z",
+  "tcgplayerProductId": 1543,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Reverse Polarity",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.29,
+    "customAttributes": {
+      "formats": null,
+      "description": "All damage done to you by artifacts so far this turn is retroactively added to your life total instead of subtracted. Further damage this turn is treated normally.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Reverse Polarity",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1543.0,
+    "imageCount": 1.0,
+    "score": 2.3222194,
+    "setName": "Revised Edition",
+    "sellers": 367.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 531.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.33,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Instant ",
+      "Description": "All damage done to you by artifacts so far this turn is retroactively added to your life total instead of subtracted. Further damage this turn is treated normally.",
+      "Artist": "Justin Hampton"
+    },
+    "skus": [
+      {
+        "sku": 15676,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364622,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333106,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348864,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317348,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

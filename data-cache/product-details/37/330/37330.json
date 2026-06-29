@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:48:27Z",
+  "tcgplayerProductId": 37330,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Boros Guildmage",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.22,
+    "customAttributes": {
+      "formats": null,
+      "description": "1R: Target creature gains haste until end of the turn.\r\n<br>\r\n1W: Target creature gains first strike until end of turn.",
+      "powerNumber": "2",
+      "color": [
+        "Red",
+        "White"
+      ],
+      "fullType": "Creature — Human Wizard ",
+      "releaseDate": "2009-09-04T00:00:00Z",
+      "number": "99",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Boros Guildmage",
+    "setId": 84.0,
+    "setCode": "HOP",
+    "productId": 37330.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Planechase",
+    "sellers": 108.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 127.0,
+    "lowestPrice": 0.07,
+    "medianPrice": 0.32,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "99",
+      "Card Type": "Creature — Human Wizard ",
+      "P / T": "2 / 2",
+      "Description": "1R: Target creature gains haste until end of the turn.\r\n<br>\r\n1W: Target creature gains first strike until end of turn.",
+      "Artist": "Paolo Parete"
+    },
+    "skus": [
+      {
+        "sku": 397062,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406013,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403603,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404808,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402398,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

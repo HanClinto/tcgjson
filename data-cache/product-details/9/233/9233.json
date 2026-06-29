@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:00:03Z",
+  "tcgplayerProductId": 9233,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Tranquility",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.88,
+    "customAttributes": {
+      "formats": null,
+      "description": "All enchantments in play must be discarded.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "1993-12-06T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Tranquility",
+    "setId": 115.0,
+    "setCode": "2ED",
+    "productId": 9233.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Unlimited Edition",
+    "sellers": 127.0,
+    "foilOnly": false,
+    "setUrlName": "Unlimited Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 166.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 1.055,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Sorcery ",
+      "Description": "All enchantments in play must be discarded.",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 22037,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371318,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339802,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355560,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 324044,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:00:06Z",
+  "tcgplayerProductId": 9266,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "White Ward",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 1.2,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gains protection from white.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-12-06T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.4,
+    "productName": "White Ward",
+    "setId": 115.0,
+    "setCode": "2ED",
+    "productId": 9266.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Unlimited Edition",
+    "sellers": 75.0,
+    "foilOnly": false,
+    "setUrlName": "Unlimited Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 100.0,
+    "lowestPrice": 0.4,
+    "medianPrice": 1.44,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Creature ",
+      "Description": "Target creature gains protection from white.",
+      "Artist": "Dan Frazier"
+    },
+    "skus": [
+      {
+        "sku": 22070,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371351,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339835,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355593,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 324077,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

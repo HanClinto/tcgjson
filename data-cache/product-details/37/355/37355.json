@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:48:14Z",
+  "tcgplayerProductId": 37355,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Double Cleave",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.41,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gains double strike until end of turn. <em>(It deals both first-strike and regular combat damage.)</em>",
+      "powerNumber": null,
+      "color": [
+        "Red",
+        "White"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "2009-09-04T00:00:00Z",
+      "number": "100",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"When in doubt, kill 'em twice.\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.14,
+    "productName": "Double Cleave",
+    "setId": 84.0,
+    "setCode": "HOP",
+    "productId": 37355.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Planechase",
+    "sellers": 113.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 124.0,
+    "lowestPrice": 0.14,
+    "medianPrice": 0.45,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "100",
+      "Card Type": "Instant ",
+      "Description": "Target creature gains double strike until end of turn. <em>(It deals both first-strike and regular combat damage.)</em>",
+      "Flavor": "<em>\"When in doubt, kill 'em twice.\"</em>",
+      "Artist": "rk post"
+    },
+    "skus": [
+      {
+        "sku": 397842,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406038,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403628,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404833,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402423,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

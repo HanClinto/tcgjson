@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:00:01Z",
+  "tcgplayerProductId": 9210,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sol Ring",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 122.5,
+    "customAttributes": {
+      "formats": null,
+      "description": "Add 2 colorless mana to your mana pool. Tapping this artifact can be played as an interrupt.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Mono Artifact ",
+      "releaseDate": "1993-12-06T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 54.79,
+    "productName": "Sol Ring",
+    "setId": 115.0,
+    "setCode": "2ED",
+    "productId": 9210.0,
+    "imageCount": 1.0,
+    "score": 2.025306,
+    "setName": "Unlimited Edition",
+    "sellers": 27.0,
+    "foilOnly": false,
+    "setUrlName": "Unlimited Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 34.0,
+    "lowestPrice": 49.99,
+    "medianPrice": 225.0,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Mono Artifact ",
+      "Description": "Add 2 colorless mana to your mana pool. Tapping this artifact can be played as an interrupt.",
+      "Artist": "Mark Tedin"
+    },
+    "skus": [
+      {
+        "sku": 22016,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371297,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339781,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355539,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 324023,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

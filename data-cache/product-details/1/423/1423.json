@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:54:19Z",
+  "tcgplayerProductId": 1423,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Forest A",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.31,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Add G to your mana pool.",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Land ",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": "284",
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Forest (A)",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1423.0,
+    "imageCount": 1.0,
+    "score": 3.1238515,
+    "setName": "Revised Edition",
+    "sellers": 299.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 453.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.4,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "284",
+      "Card Type": "Land ",
+      "Description": "T: Add G to your mana pool.",
+      "Artist": "Christopher Rush"
+    },
+    "skus": [
+      {
+        "sku": 15564,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364510,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332994,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348752,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317236,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

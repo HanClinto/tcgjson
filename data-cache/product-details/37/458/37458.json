@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:48:16Z",
+  "tcgplayerProductId": 37458,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Wizard Replica",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.36,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying\r\n<br>\r\nU, Sacrifice Wizard Replica: Counter target spell unless its controller pays 2.",
+      "powerNumber": "1",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Wizard ",
+      "releaseDate": "2009-09-04T00:00:00Z",
+      "number": "129",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>It responds with unnatural precision.</em>",
+      "toughnessNumber": "3",
+      "toughness": "3"
+    },
+    "lowestPriceWithShipping": 0.13,
+    "productName": "Wizard Replica",
+    "setId": 84.0,
+    "setCode": "HOP",
+    "productId": 37458.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Planechase",
+    "sellers": 74.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 87.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.4,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "129",
+      "Card Type": "Artifact Creature — Wizard ",
+      "P / T": "1 / 3",
+      "Description": "Flying\r\n<br>\r\nU, Sacrifice Wizard Replica: Counter target spell unless its controller pays 2.",
+      "Flavor": "<em>It responds with unnatural precision.</em>",
+      "Artist": "Carl Critchlow"
+    },
+    "skus": [
+      {
+        "sku": 397862,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406141,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403731,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404936,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402526,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

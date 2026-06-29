@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:08Z",
+  "tcgplayerProductId": 321,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Hulking Goblin",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.14,
+    "customAttributes": {
+      "formats": null,
+      "description": "Hulking Goblin can’t block.",
+      "powerNumber": "2",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Goblin",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "107",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "2",
+      "flavorText": "<em>The bigger they are, the harder they avoid work.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.08,
+    "productName": "Hulking Goblin",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 321.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Starter 1999",
+    "sellers": 101.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 122.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "107",
+      "Card Type": "Creature — Goblin",
+      "P / T": "2 / 2",
+      "Description": "Hulking Goblin can’t block.",
+      "Flavor": "<em>The bigger they are, the harder they avoid work.</em>",
+      "Artist": "Pete Venters"
+    },
+    "skus": [
+      {
+        "sku": 14824,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363570,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332054,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347812,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316296,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

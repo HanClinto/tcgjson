@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:54:20Z",
+  "tcgplayerProductId": 18552,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mountain C",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.43,
+    "customAttributes": {
+      "formats": null,
+      "description": "[R]",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Basic Land ",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": "292",
+      "cardType": [
+        "Land"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.12,
+    "productName": "Mountain (C)",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 18552.0,
+    "imageCount": 1.0,
+    "score": 3.1708481,
+    "setName": "Revised Edition",
+    "sellers": 229.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 337.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "#": "292",
+      "Card Type": "Basic Land ",
+      "Description": "[R]",
+      "Artist": "Douglas Shuler"
+    },
+    "skus": [
+      {
+        "sku": 116734,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 377346,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 345830,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 361588,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 330072,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

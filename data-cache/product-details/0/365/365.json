@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:22Z",
+  "tcgplayerProductId": 365,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ravenous Rats",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.56,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Ravenous Rats comes into play, target player chooses and discards a card from his or her hand.",
+      "powerNumber": "1",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — Rat",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "86",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.18,
+    "productName": "Ravenous Rats",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 365.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 1999",
+    "sellers": 74.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 79.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.69,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "86",
+      "Card Type": "Creature — Rat",
+      "P / T": "1 / 1",
+      "Description": "When Ravenous Rats comes into play, target player chooses and discards a card from his or her hand.",
+      "Artist": "Carl Critchlow"
+    },
+    "skus": [
+      {
+        "sku": 14859,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363605,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332089,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347847,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316331,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

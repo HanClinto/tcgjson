@@ -1,0 +1,89 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:50:26Z",
+  "tcgplayerProductId": 96545,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Guild Token Orzhov",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 3.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Token ",
+      "releaseDate": null,
+      "number": null,
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3.25,
+    "productName": "Guild Token - Orzhov",
+    "setId": 92.0,
+    "setCode": "PRE",
+    "productId": 96545.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Prerelease Cards",
+    "sellers": 11.0,
+    "foilOnly": false,
+    "setUrlName": "Prerelease Cards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 12.0,
+    "lowestPrice": 1.59,
+    "medianPrice": 4.88,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "Card Type": "Token "
+    },
+    "skus": [
+      {
+        "sku": 2741949,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741950,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741951,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741952,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741953,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

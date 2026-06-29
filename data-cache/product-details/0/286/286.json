@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:11Z",
+  "tcgplayerProductId": 286,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Devout Monk",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.24,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Devout Monk comes into play, you gain 1 life.",
+      "powerNumber": "1",
+      "color": [
+        "White"
+      ],
+      "fullType": "Creature — Cleric",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "14",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Discipline wears many robes.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.16,
+    "productName": "Devout Monk",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 286.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Starter 1999",
+    "sellers": 89.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 105.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.33,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "14",
+      "Card Type": "Creature — Cleric",
+      "P / T": "1 / 1",
+      "Description": "When Devout Monk comes into play, you gain 1 life.",
+      "Flavor": "<em>Discipline wears many robes.</em>",
+      "Artist": "Daniel Gelon"
+    },
+    "skus": [
+      {
+        "sku": 14792,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363538,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332022,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347780,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316264,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

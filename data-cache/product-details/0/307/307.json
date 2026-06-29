@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:07Z",
+  "tcgplayerProductId": 307,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Goblin Commando",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.45,
+    "customAttributes": {
+      "formats": null,
+      "description": "When Goblin Commando comes into play, it deals 2 damage to target creature.",
+      "powerNumber": "2",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature — Goblin",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "100",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "<em>With a commando around, somebody's gonna get hurt.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Goblin Commando",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 307.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 1999",
+    "sellers": 96.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 114.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 1.01,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "100",
+      "Card Type": "Creature — Goblin",
+      "P / T": "2 / 2",
+      "Description": "When Goblin Commando comes into play, it deals 2 damage to target creature.",
+      "Flavor": "<em>With a commando around, somebody's gonna get hurt.</em>",
+      "Artist": "Todd Lockwood"
+    },
+    "skus": [
+      {
+        "sku": 14810,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363556,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332040,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347798,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316282,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

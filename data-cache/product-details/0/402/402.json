@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:18Z",
+  "tcgplayerProductId": 402,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Time Warp",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 33.53,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target player takes another turn after this one.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "56",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "<em>\"Let's do it again!\" —Squee, goblin cabin hand</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 11.01,
+    "productName": "Time Warp",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 402.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Starter 1999",
+    "sellers": 40.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 47.0,
+    "lowestPrice": 10.5,
+    "medianPrice": 37.52,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "56",
+      "Card Type": "Sorcery ",
+      "Description": "Target player takes another turn after this one.",
+      "Flavor": "<em>\"Let's do it again!\" —Squee, goblin cabin hand</em>",
+      "Artist": "Pete Venters"
+    },
+    "skus": [
+      {
+        "sku": 14893,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363639,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332123,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347881,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316365,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

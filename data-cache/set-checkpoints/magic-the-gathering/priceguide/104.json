@@ -1,0 +1,2202 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:06Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 104,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 104,
+    "name": "Special Occasion",
+    "urlName": "special-occasion",
+    "abbreviation": "SPECIAL",
+    "releaseDate": "2006-12-02T00:00:00",
+    "isSupplemental": true,
+    "productCount": 20,
+    "priceGuideRowCount": 53,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 20,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 181788,
+      "name": "Bog Humbugs",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/181788_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 24.93,
+          "marketPrice": 31.86,
+          "tcgplayerSkuIds": [
+            3923954
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 24.93,
+          "marketPrice": 36.91,
+          "tcgplayerSkuIds": [
+            3923953
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3923957,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3923956,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3923954,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3923955,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3923953,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>Whenever Bog Humbugs deals combat damage, hum that many notes of a festive song. If you can, put a +1/+1 counter on Bog Humbugs.",
+        "flavorText": "<em>Jingle Bells</em>",
+        "typeLine": "Creature — Insect",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Kieran Yanner",
+        "customAttributes": {
+          "description": "Flying\r\n<br>Whenever Bog Humbugs deals combat damage, hum that many notes of a festive song. If you can, put a +1/+1 counter on Bog Humbugs.",
+          "powerNumber": "1",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Insect",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "<em>Jingle Bells</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Insect",
+          "P / T": "1 / 1",
+          "Description": "Flying\r\n<br>Whenever Bog Humbugs deals combat damage, hum that many notes of a festive song. If you can, put a +1/+1 counter on Bog Humbugs.",
+          "Flavor": "<em>Jingle Bells</em>",
+          "Artist": "Kieran Yanner"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 455848,
+      "name": "Chaos Wrap",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/455848_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 22.23,
+          "marketPrice": 23.47,
+          "tcgplayerSkuIds": [
+            6768553
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 22.23,
+          "marketPrice": 19.98,
+          "tcgplayerSkuIds": [
+            6768554
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 22.23,
+          "marketPrice": 21.9,
+          "tcgplayerSkuIds": [
+            6768552
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6768556,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768555,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768553,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768554,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768552,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "The owner of target permanent shuffles it into their library. Then they may look at the top card of their library and may wrap it. If it’s a permanent card, they may put it onto the battlefield. Otherwise, they may put it onto the battlefield face down as a 4/4 red Present creature. <em>(To wrap a card, put it inside lots of sleeves. If it would be dealt damage or destroyed, remove a sleeve from it instead.)</em>",
+        "typeLine": "Instant",
+        "convertedCost": "3",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Zoltan Boros",
+        "customAttributes": {
+          "description": "The owner of target permanent shuffles it into their library. Then they may look at the top card of their library and may wrap it. If it’s a permanent card, they may put it onto the battlefield. Otherwise, they may put it onto the battlefield face down as a 4/4 red Present creature. <em>(To wrap a card, put it inside lots of sleeves. If it would be dealt damage or destroyed, remove a sleeve from it instead.)</em>",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Instant",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Instant",
+          "Description": "The owner of target permanent shuffles it into their library. Then they may look at the top card of their library and may wrap it. If it’s a permanent card, they may put it onto the battlefield. Otherwise, they may put it onto the battlefield face down as a 4/4 red Present creature. <em>(To wrap a card, put it inside lots of sleeves. If it would be dealt damage or destroyed, remove a sleeve from it instead.)</em>",
+          "Artist": "Zoltan Boros"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 664813,
+      "name": "Cheer",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/664813_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 45,
+          "marketPrice": 45,
+          "tcgplayerSkuIds": [
+            9026064
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 45,
+          "marketPrice": 59.02,
+          "tcgplayerSkuIds": [
+            9026061
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 45,
+          "marketPrice": 50.09,
+          "tcgplayerSkuIds": [
+            9026060
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 9026064,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9026063,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9026061,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9026062,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9026060,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Lifelink, haste\r\n<br>When this create enters, create two tokens that are copes of target token.\r\n<br>Evoke—Celebrate an opponent. <em>(To celebrate an opponent, give them a gift, toast to them, or even just tell them you're grateful to be playing Magic together.)</em>",
+        "typeLine": "Creature — Elemental Incarnation",
+        "convertedCost": "5",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Red",
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Alexandr Leskinen",
+        "customAttributes": {
+          "description": "Lifelink, haste\r\n<br>When this create enters, create two tokens that are copes of target token.\r\n<br>Evoke—Celebrate an opponent. <em>(To celebrate an opponent, give them a gift, toast to them, or even just tell them you're grateful to be playing Magic together.)</em>",
+          "powerNumber": "4",
+          "color": [
+            "Red",
+            "White"
+          ],
+          "fullType": "Creature — Elemental Incarnation",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "4",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Elemental Incarnation",
+          "P / T": "4 / 4",
+          "Description": "Lifelink, haste\r\n<br>When this create enters, create two tokens that are copes of target token.\r\n<br>Evoke—Celebrate an opponent. <em>(To celebrate an opponent, give them a gift, toast to them, or even just tell them you're grateful to be playing Magic together.)</em>",
+          "Artist": "Alexandr Leskinen"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 205180,
+      "name": "Decorated Knight",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/205180_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 19.99,
+          "marketPrice": 26.08,
+          "tcgplayerSkuIds": [
+            4279035
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 19.99,
+          "marketPrice": 23.73,
+          "tcgplayerSkuIds": [
+            4279036
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 19.99,
+          "marketPrice": 28.19,
+          "tcgplayerSkuIds": [
+            4279034
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 4279038,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4279037,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4279035,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4279036,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4279034,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "When ever Decorated Knight attacks, draw a card from your original deck if it's outside the game.\r\n<br>\r\n<br><strong>Present Arms</strong> 2U\r\n<br>Sorcery — Adventure\r\n<br><br>\r\nExchange your library with another deck you own from outside the game. Shuffle your library.",
+        "typeLine": "Creature — Human Knight",
+        "convertedCost": "4",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Zoltan Boros",
+        "customAttributes": {
+          "description": "When ever Decorated Knight attacks, draw a card from your original deck if it's outside the game.\r\n<br>\r\n<br><strong>Present Arms</strong> 2U\r\n<br>Sorcery — Adventure\r\n<br><br>\r\nExchange your library with another deck you own from outside the game. Shuffle your library.",
+          "powerNumber": "3",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Human Knight",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P",
+          "power": "3",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Human Knight",
+          "P / T": "3 / 3",
+          "Description": "When ever Decorated Knight attacks, draw a card from your original deck if it's outside the game.\r\n<br>\r\n<br><strong>Present Arms</strong> 2U\r\n<br>Sorcery — Adventure\r\n<br><br>\r\nExchange your library with another deck you own from outside the game. Shuffle your library.",
+          "Artist": "Zoltan Boros"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 600517,
+      "name": "Eggnogger's 'Stache",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/600517_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 20,
+          "marketPrice": 34.94,
+          "tcgplayerSkuIds": [
+            8396033
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 20,
+          "marketPrice": 24.65,
+          "tcgplayerSkuIds": [
+            8396034
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 20,
+          "marketPrice": 34.68,
+          "tcgplayerSkuIds": [
+            8396032
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 8396036,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8396035,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8396033,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8396034,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8396032,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Lands you control have \"T: Refill your mug with a festive drink.\" <em>(If you don't have a mug, go grab a mug! It's the holidays!)</em>\r\n<br>At the beginning of combat on your turn, if you have a drink 'stache, put two +1/+1 counters on each creature you control.",
+        "flavorText": "<em>Blend dingus egg yolks, milk, Eldraine spice blend, Muragandan vanilla, and absolutely nothing else.</em>",
+        "typeLine": "Artifact",
+        "convertedCost": "6",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Arif Wijaya",
+        "customAttributes": {
+          "description": "Lands you control have \"T: Refill your mug with a festive drink.\" <em>(If you don't have a mug, go grab a mug! It's the holidays!)</em>\r\n<br>At the beginning of combat on your turn, if you have a drink 'stache, put two +1/+1 counters on each creature you control.",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "flavorText": "<em>Blend dingus egg yolks, milk, Eldraine spice blend, Muragandan vanilla, and absolutely nothing else.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Artifact",
+          "Description": "Lands you control have \"T: Refill your mug with a festive drink.\" <em>(If you don't have a mug, go grab a mug! It's the holidays!)</em>\r\n<br>At the beginning of combat on your turn, if you have a drink 'stache, put two +1/+1 counters on each creature you control.",
+          "Flavor": "<em>Blend dingus egg yolks, milk, Eldraine spice blend, Muragandan vanilla, and absolutely nothing else.</em>",
+          "Artist": "Arif Wijaya"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 110267,
+      "name": "Goblin Sleigh Ride",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/110267_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.74,
+          "marketPrice": 11.74,
+          "tcgplayerSkuIds": [
+            3039036
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.74,
+          "marketPrice": 18.6,
+          "tcgplayerSkuIds": [
+            3039034
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.74,
+          "marketPrice": 22.28,
+          "tcgplayerSkuIds": [
+            3039035
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3039037,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3039036,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3039034,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3039035,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3039033,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Target creature you control climbs onto Goblin Sleigh Ride. You slide them on their merry way. If the creature stayed on, it deals damage equal to its toughness to each other creature touched during the slide.",
+        "typeLine": "Sorcery",
+        "convertedCost": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Mark Zug",
+        "customAttributes": {
+          "description": "Target creature you control climbs onto Goblin Sleigh Ride. You slide them on their merry way. If the creature stayed on, it deals damage equal to its toughness to each other creature touched during the slide.",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Sorcery",
+          "Description": "Target creature you control climbs onto Goblin Sleigh Ride. You slide them on their merry way. If the creature stayed on, it deals damage equal to its toughness to each other creature touched during the slide.",
+          "Artist": "Mark Zug"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 257182,
+      "name": "Last-Minute Chopping",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/257182_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 27,
+          "marketPrice": 28.1,
+          "tcgplayerSkuIds": [
+            5344409
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 27,
+          "marketPrice": 34.24,
+          "tcgplayerSkuIds": [
+            5344408
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 5344412,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5344411,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5344409,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5344410,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5344408,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Ask target opponent if they remembered to get you a present. If they say yes, they put a card they own from outside the game into your hand. Otherwise, you gain control of target permanent they control.",
+        "flavorText": "<em>“Dear brother, I couldn’t forget you if I tried, and I have tried.”</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "3",
+        "colors": [
+          "Black",
+          "Blue"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Marta Nael",
+        "customAttributes": {
+          "description": "Ask target opponent if they remembered to get you a present. If they say yes, they put a card they own from outside the game into your hand. Otherwise, you gain control of target permanent they control.",
+          "color": [
+            "Black",
+            "Blue"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "flavorText": "<em>“Dear brother, I couldn’t forget you if I tried, and I have tried.”</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Sorcery",
+          "Description": "Ask target opponent if they remembered to get you a present. If they say yes, they put a card they own from outside the game into your hand. Otherwise, you gain control of target permanent they control.",
+          "Flavor": "<em>“Dear brother, I couldn’t forget you if I tried, and I have tried.”</em>",
+          "Artist": "Marta Nael"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 95046,
+      "name": "Mishra's Toy Workshop",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Special",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/95046_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 59.99,
+          "marketPrice": 40,
+          "tcgplayerSkuIds": [
+            1275307
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 59.99,
+          "marketPrice": 56.76,
+          "tcgplayerSkuIds": [
+            1275304
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 59.99,
+          "marketPrice": 46.21,
+          "tcgplayerSkuIds": [
+            1275305
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 59.99,
+          "marketPrice": 72.14,
+          "tcgplayerSkuIds": [
+            1275303
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1275307,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1275306,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1275304,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1275305,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1275303,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Add 3 to your mana pool. Spend this mana only on spells and abilities that put tokens onto the battlefield. Use toys to represent the tokens.\r\n<em>This card is not tournament legal.</em>",
+        "typeLine": "Land ",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "customAttributes": {
+          "description": "T: Add 3 to your mana pool. Spend this mana only on spells and abilities that put tokens onto the battlefield. Use toys to represent the tokens.\r\n<em>This card is not tournament legal.</em>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land ",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "S"
+        },
+        "formattedAttributes": {
+          "Rarity": "S",
+          "#": "1",
+          "Card Type": "Land ",
+          "Description": "T: Add 3 to your mana pool. Spend this mana only on spells and abilities that put tokens onto the battlefield. Use toys to represent the tokens.\r\n<em>This card is not tournament legal.</em>"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 527738,
+      "name": "Seasonal Sequels",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/527738_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.67,
+          "marketPrice": 16.77,
+          "tcgplayerSkuIds": [
+            7579246
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.67,
+          "marketPrice": 13.82,
+          "tcgplayerSkuIds": [
+            7579247
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 14.67,
+          "marketPrice": 22.64,
+          "tcgplayerSkuIds": [
+            7579245
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7579249,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7579248,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7579246,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7579247,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7579245,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Pitch the titles of up to X holiday-themed sequels to target spell. Copy that spell for each title pitched, except the copy has that name. You may choose new targets for the copies. <em>(Simply adding numbers isn't festive enough.)</em>",
+        "flavorText": "<em>NOW SHOWING:</em> Sword of Hearth and Home Alone, Eight Crazy Knights' Charge, Holiday Incinerate, <em>and</em> Phyrexian Gremlins.",
+        "typeLine": "Instant",
+        "convertedCost": "3",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Adrián Rodríguez Pérez",
+        "customAttributes": {
+          "description": "Pitch the titles of up to X holiday-themed sequels to target spell. Copy that spell for each title pitched, except the copy has that name. You may choose new targets for the copies. <em>(Simply adding numbers isn't festive enough.)</em>",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Instant",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "flavorText": "<em>NOW SHOWING:</em> Sword of Hearth and Home Alone, Eight Crazy Knights' Charge, Holiday Incinerate, <em>and</em> Phyrexian Gremlins."
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Instant",
+          "Description": "Pitch the titles of up to X holiday-themed sequels to target spell. Copy that spell for each title pitched, except the copy has that name. You may choose new targets for the copies. <em>(Simply adding numbers isn't festive enough.)</em>",
+          "Flavor": "<em>NOW SHOWING:</em> Sword of Hearth and Home Alone, Eight Crazy Knights' Charge, Holiday Incinerate, <em>and</em> Phyrexian Gremlins.",
+          "Artist": "Adrián Rodríguez Pérez"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 154792,
+      "name": "Some Disassembly Required",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/154792_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14,
+          "marketPrice": 16.97,
+          "tcgplayerSkuIds": [
+            3558905
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14,
+          "marketPrice": 14.99,
+          "tcgplayerSkuIds": [
+            3558906
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 14,
+          "marketPrice": 20.72,
+          "tcgplayerSkuIds": [
+            3558904
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3558908,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3558907,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3558905,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3558906,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3558904,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "B, Sacrifice a creature: Distribute sacrificed creature's keyword abilities among any number of other target creatures until end of turn. If it's December, you gain 1 life for each of those keywords.",
+        "flavorText": "<em>Now all they needed was a jolly, happy soul.</em>",
+        "typeLine": "Enchantment",
+        "convertedCost": "1",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "artist": "Dmitry Burmak",
+        "customAttributes": {
+          "description": "B, Sacrifice a creature: Distribute sacrificed creature's keyword abilities among any number of other target creatures until end of turn. If it's December, you gain 1 life for each of those keywords.",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Enchantment",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "P",
+          "flavorText": "<em>Now all they needed was a jolly, happy soul.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Enchantment",
+          "Description": "B, Sacrifice a creature: Distribute sacrificed creature's keyword abilities among any number of other target creatures until end of turn. If it's December, you gain 1 life for each of those keywords.",
+          "Flavor": "<em>Now all they needed was a jolly, happy soul.</em>",
+          "Artist": "Dmitry Burmak"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 125324,
+      "name": "Thopter Pie Network",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/125324_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 24.18,
+          "marketPrice": 25.93,
+          "tcgplayerSkuIds": [
+            3251491
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 24.18,
+          "marketPrice": 24.22,
+          "tcgplayerSkuIds": [
+            3251492
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 24.18,
+          "marketPrice": 27.46,
+          "tcgplayerSkuIds": [
+            3251490
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3251494,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3251493,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3251491,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3251492,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3251490,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "At the beginning of your upkeep, if you're eating, create a 1/1 colorless Thopter artifact creature token with flying. Use food to represent the token.\r\n<br>Whenever a creature token you control dies, if it's represented by food, eat it.",
+        "flavorText": "<i>They all thought her dreams was just pie in the sky.",
+        "typeLine": "Enchantment",
+        "convertedCost": "4",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "customAttributes": {
+          "description": "At the beginning of your upkeep, if you're eating, create a 1/1 colorless Thopter artifact creature token with flying. Use food to represent the token.\r\n<br>Whenever a creature token you control dies, if it's represented by food, eat it.",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Enchantment",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P",
+          "flavorText": "<i>They all thought her dreams was just pie in the sky."
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Enchantment",
+          "Description": "At the beginning of your upkeep, if you're eating, create a 1/1 colorless Thopter artifact creature token with flying. Use food to represent the token.\r\n<br>Whenever a creature token you control dies, if it's represented by food, eat it.",
+          "Flavor": "<i>They all thought her dreams was just pie in the sky."
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 228752,
+      "name": "Topdeck the Halls",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/228752_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 25,
+          "marketPrice": 28.21,
+          "tcgplayerSkuIds": [
+            4688019
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 25,
+          "marketPrice": 28.96,
+          "tcgplayerSkuIds": [
+            4688018
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 4688022,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4688021,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4688019,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4688020,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4688018,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Decorated Cards in your hand have miracle S. <em>(Decorated cards include premiums, promos, and cards with alternate frames or art.)</em>\r\n<br>At the beginning of your upkeep, if you control twelve or more decorated permanents, you win the game.",
+        "typeLine": "Enchantment",
+        "convertedCost": "5",
+        "colors": [
+          "Red",
+          "White"
+        ],
+        "artist": "Kieran Yanner",
+        "customAttributes": {
+          "description": "Decorated Cards in your hand have miracle S. <em>(Decorated cards include premiums, promos, and cards with alternate frames or art.)</em>\r\n<br>At the beginning of your upkeep, if you control twelve or more decorated permanents, you win the game.",
+          "color": [
+            "Red",
+            "White"
+          ],
+          "fullType": "Enchantment",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "1",
+          "convertedCost": "5",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Enchantment",
+          "Description": "Decorated Cards in your hand have miracle S. <em>(Decorated cards include premiums, promos, and cards with alternate frames or art.)</em>\r\n<br>At the beginning of your upkeep, if you control twelve or more decorated permanents, you win the game.",
+          "Artist": "Kieran Yanner"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38444,
+      "name": "Fruitcake Elemental",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2006",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38444_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 150,
+          "marketPrice": 165,
+          "tcgplayerSkuIds": [
+            806945
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 150,
+          "marketPrice": 304.91,
+          "tcgplayerSkuIds": [
+            407543
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 786984,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 826906,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 846867,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 806945,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407543,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Fruitcake Elemental is indestructible.  At the end of your turn, Fruitcake Elemental deals 7 damage to you.  3: Target player gains control of Fruitcake Elemental.",
+        "typeLine": "Creature Elemental",
+        "convertedCost": "0",
+        "power": "7",
+        "powerNumber": "7",
+        "toughness": "7",
+        "toughnessNumber": "7",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Darrell Riche",
+        "customAttributes": {
+          "description": "Fruitcake Elemental is indestructible.  At the end of your turn, Fruitcake Elemental deals 7 damage to you.  3: Target player gains control of Fruitcake Elemental.",
+          "powerNumber": "7",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature Elemental",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2006",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "0",
+          "rarityDbName": "P",
+          "power": "7",
+          "toughnessNumber": "7",
+          "toughness": "7"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2006",
+          "Card Type": "Creature Elemental",
+          "P / T": "7 / 7",
+          "Description": "Fruitcake Elemental is indestructible.  At the end of your turn, Fruitcake Elemental deals 7 damage to you.  3: Target player gains control of Fruitcake Elemental.",
+          "Artist": "Darrell Riche"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38445,
+      "name": "Gifts Given",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2007",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38445_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 287.19,
+          "marketPrice": 300,
+          "tcgplayerSkuIds": [
+            846868
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 287.19,
+          "marketPrice": 287.19,
+          "tcgplayerSkuIds": [
+            806946
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 786985,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 826907,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 846868,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 806946,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407736,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Search target opponent's library for four cards with different names and reveal them. that player chooses two of those cards. put the chosen cards into that player's graveyard and the rest into your hand. then that player shuffles his or her library.",
+        "flavorText": "<em>\"Thanks! You shouldn't have.\"</em>",
+        "typeLine": "Instant ",
+        "convertedCost": "4",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Jason Chan",
+        "customAttributes": {
+          "description": "Search target opponent's library for four cards with different names and reveal them. that player chooses two of those cards. put the chosen cards into that player's graveyard and the rest into your hand. then that player shuffles his or her library.",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Instant ",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2007",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P",
+          "flavorText": "<em>\"Thanks! You shouldn't have.\"</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2007",
+          "Card Type": "Instant ",
+          "Description": "Search target opponent's library for four cards with different names and reveal them. that player chooses two of those cards. put the chosen cards into that player's graveyard and the rest into your hand. then that player shuffles his or her library.",
+          "Flavor": "<em>\"Thanks! You shouldn't have.\"</em>",
+          "Artist": "Jason Chan"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38446,
+      "name": "Evil Presents",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2008",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38446_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 144.95,
+          "marketPrice": 176.4,
+          "tcgplayerSkuIds": [
+            407440
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 786986,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 826908,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 846869,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 806947,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407440,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Put a creature card from your hand into play under target opponent's control. That creature attacks each turn if able... and always attacks its controller.",
+        "flavorText": "<em>'Tis better to give than to receive.</em>",
+        "typeLine": "Sorcery ",
+        "convertedCost": "4",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Paul Bonner",
+        "customAttributes": {
+          "description": "Put a creature card from your hand into play under target opponent's control. That creature attacks each turn if able... and always attacks its controller.",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Sorcery ",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2008",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P",
+          "flavorText": "<em>'Tis better to give than to receive.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2008",
+          "Card Type": "Sorcery ",
+          "Description": "Put a creature card from your hand into play under target opponent's control. That creature attacks each turn if able... and always attacks its controller.",
+          "Flavor": "<em>'Tis better to give than to receive.</em>",
+          "Artist": "Paul Bonner"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38447,
+      "name": "Season's Beatings",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2009",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38447_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 70,
+          "marketPrice": 110,
+          "tcgplayerSkuIds": [
+            407572
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 786987,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 826909,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 846870,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 806948,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407572,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Family gathering - Each creature target player controls deals damage equal to its power to another random creature that player controls.",
+        "typeLine": "Sorcery ",
+        "convertedCost": "0",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "customAttributes": {
+          "description": "Family gathering - Each creature target player controls deals damage equal to its power to another random creature that player controls.",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Sorcery ",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2009",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "0",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2009",
+          "Card Type": "Sorcery ",
+          "Description": "Family gathering - Each creature target player controls deals damage equal to its power to another random creature that player controls."
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 71898,
+      "name": "Snow Mercy",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2010",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/71898_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 159.95,
+          "marketPrice": 186.19,
+          "tcgplayerSkuIds": [
+            1137322
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 159.95,
+          "marketPrice": 165,
+          "tcgplayerSkuIds": [
+            1137323
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 159.95,
+          "marketPrice": 192,
+          "tcgplayerSkuIds": [
+            1137321
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1137325,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1137324,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1137322,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1137323,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1137321,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever a creature deals damage to you, put a globe counter on it.<br>\r\nTap, Untap, Tap, Untap, Tap: Tap all creatures with globe counters on them.",
+        "flavorText": "WARNING: Shake gently. Contents may cause choking, hypothermia, and/or planar invasion.",
+        "typeLine": "Snow Enchantment ",
+        "convertedCost": "4",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "artist": "rk post",
+        "customAttributes": {
+          "description": "Whenever a creature deals damage to you, put a globe counter on it.<br>\r\nTap, Untap, Tap, Untap, Tap: Tap all creatures with globe counters on them.",
+          "color": [
+            "White"
+          ],
+          "fullType": "Snow Enchantment ",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2010",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P",
+          "flavorText": "WARNING: Shake gently. Contents may cause choking, hypothermia, and/or planar invasion."
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2010",
+          "Card Type": "Snow Enchantment ",
+          "Description": "Whenever a creature deals damage to you, put a globe counter on it.<br>\r\nTap, Untap, Tap, Untap, Tap: Tap all creatures with globe counters on them.",
+          "Flavor": "WARNING: Shake gently. Contents may cause choking, hypothermia, and/or planar invasion.",
+          "Artist": "rk post"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 57653,
+      "name": "Yule Ooze",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2011",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/57653_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 69.99,
+          "marketPrice": 70.99,
+          "tcgplayerSkuIds": [
+            846871
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 69.99,
+          "marketPrice": 47,
+          "tcgplayerSkuIds": [
+            806949
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 69.99,
+          "marketPrice": 115.51,
+          "tcgplayerSkuIds": [
+            760369
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 786988,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 826910,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 846871,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 806949,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 760369,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "At the beginning of your upkeep, destroy another nonland permanent at random, then put a number of +1/+1 counters on Yule Ooze equal to that permanent's converted mana cost.<BR>RG, Eat some food: Regenerate Yule Ooze.",
+        "typeLine": "Creature Ooze",
+        "convertedCost": "0",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green",
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Steve Prescott",
+        "customAttributes": {
+          "description": "At the beginning of your upkeep, destroy another nonland permanent at random, then put a number of +1/+1 counters on Yule Ooze equal to that permanent's converted mana cost.<BR>RG, Eat some food: Regenerate Yule Ooze.",
+          "powerNumber": "1",
+          "color": [
+            "Green",
+            "Red"
+          ],
+          "fullType": "Creature Ooze",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2011",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "0",
+          "rarityDbName": "P",
+          "power": "1",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2011",
+          "Card Type": "Creature Ooze",
+          "P / T": "1 / 1",
+          "Description": "At the beginning of your upkeep, destroy another nonland permanent at random, then put a number of +1/+1 counters on Yule Ooze equal to that permanent's converted mana cost.<BR>RG, Eat some food: Regenerate Yule Ooze.",
+          "Artist": "Steve Prescott"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 67401,
+      "name": "Naughty // Nice",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2012",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/67401_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 40,
+          "marketPrice": 58.85,
+          "tcgplayerSkuIds": [
+            1067354
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 40,
+          "marketPrice": 22,
+          "tcgplayerSkuIds": [
+            1067324
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 40,
+          "marketPrice": 58.49,
+          "tcgplayerSkuIds": [
+            1067234
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1067309,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1067339,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1067354,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1067324,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1067234,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Search another target player's library for a card and put that card into your hand. Then shuffle that player's library.\r\n<br>\r\n<br><strong>Nice:</strong>\r\n<br>Search your library for a card and put it into another target player's hand. Then shuffle your library.",
+        "typeLine": "Sorcery ",
+        "convertedCost": "0",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Greg Staples",
+        "customAttributes": {
+          "description": "Search another target player's library for a card and put that card into your hand. Then shuffle that player's library.\r\n<br>\r\n<br><strong>Nice:</strong>\r\n<br>Search your library for a card and put it into another target player's hand. Then shuffle your library.",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Sorcery ",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2012",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "0",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2012",
+          "Card Type": "Sorcery ",
+          "Description": "Search another target player's library for a card and put that card into your hand. Then shuffle that player's library.\r\n<br>\r\n<br><strong>Nice:</strong>\r\n<br>Search your library for a card and put it into another target player's hand. Then shuffle your library.",
+          "Artist": "Greg Staples"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 78237,
+      "name": "Stocking Tiger",
+      "productLineId": 1,
+      "setId": 104,
+      "collectorNumber": "2013",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/78237_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35.92,
+          "marketPrice": 31.39,
+          "tcgplayerSkuIds": [
+            1161964
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35.92,
+          "marketPrice": 39.82,
+          "tcgplayerSkuIds": [
+            1161962
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35.92,
+          "marketPrice": 40.45,
+          "tcgplayerSkuIds": [
+            1161963
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 35.92,
+          "marketPrice": 70.75,
+          "tcgplayerSkuIds": [
+            1161961
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1161965,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1161964,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1161962,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1161963,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1161961,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Stocking Tiger enters the battlefield with a sealed Magic booster pack under it.<br>\r\nWhen Stocking Tiger deals combat damage to a player, unwrap the booster pack and put it into your hand.",
+        "flavorText": "<em>Just hope yours isn't full of coal golems.</em>",
+        "typeLine": "Artifact — Cat Construct",
+        "convertedCost": "5",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Terese Nielsen",
+        "customAttributes": {
+          "description": "Stocking Tiger enters the battlefield with a sealed Magic booster pack under it.<br>\r\nWhen Stocking Tiger deals combat damage to a player, unwrap the booster pack and put it into your hand.",
+          "powerNumber": "3",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact — Cat Construct",
+          "releaseDate": "2006-12-02T00:00:00Z",
+          "number": "2013",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "3",
+          "flavorText": "<em>Just hope yours isn't full of coal golems.</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2013",
+          "Card Type": "Artifact — Cat Construct",
+          "P / T": "3 / 3",
+          "Description": "Stocking Tiger enters the battlefield with a sealed Magic booster pack under it.<br>\r\nWhen Stocking Tiger deals combat damage to a player, unwrap the booster pack and put it into your hand.",
+          "Flavor": "<em>Just hope yours isn't full of coal golems.</em>",
+          "Artist": "Terese Nielsen"
+        }
+      }
+    }
+  ]
+}

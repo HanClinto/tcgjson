@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:54:04Z",
+  "tcgplayerProductId": 1586,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Terror",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.2,
+    "customAttributes": {
+      "formats": null,
+      "description": "Buries target creature. Cannot target black creatures or artifact creatures.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Terror",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1586.0,
+    "imageCount": 1.0,
+    "score": 2.5774918,
+    "setName": "Revised Edition",
+    "sellers": 455.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 664.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.27,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "Buries target creature. Cannot target black creatures or artifact creatures.",
+      "Artist": "Ron Spencer"
+    },
+    "skus": [
+      {
+        "sku": 15717,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364663,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333147,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348905,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317389,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

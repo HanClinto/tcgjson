@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:25Z",
+  "tcgplayerProductId": 916,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sheep Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 1.58,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Token",
+      "releaseDate": "1998-08-17T00:00:00Z",
+      "number": "93",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.49,
+    "productName": "Sheep Token",
+    "setId": 113.0,
+    "setCode": "UGL",
+    "productId": 916.0,
+    "imageCount": 1.0,
+    "score": 2.25042,
+    "setName": "Unglued",
+    "sellers": 63.0,
+    "foilOnly": false,
+    "setUrlName": "Unglued",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 78.0,
+    "lowestPrice": 0.49,
+    "medianPrice": 1.99,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "93",
+      "Card Type": "Token",
+      "Artist": "Kev Walker"
+    },
+    "skus": [
+      {
+        "sku": 15174,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364120,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332604,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348362,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316846,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

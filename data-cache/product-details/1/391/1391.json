@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:53:49Z",
+  "tcgplayerProductId": 1391,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Disenchant",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.26,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target enchantment or artifact is destroyed.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Disenchant",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1391.0,
+    "imageCount": 1.0,
+    "score": 2.7558749,
+    "setName": "Revised Edition",
+    "sellers": 439.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 632.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.3,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "Target enchantment or artifact is destroyed.",
+      "Artist": "Amy Weber"
+    },
+    "skus": [
+      {
+        "sku": 15532,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364478,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332962,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348720,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317204,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

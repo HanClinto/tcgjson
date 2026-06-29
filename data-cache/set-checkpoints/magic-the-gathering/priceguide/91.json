@@ -1,0 +1,5349 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:50:25Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 91,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 91,
+    "name": "Premium Deck Series: Slivers",
+    "urlName": "premium-deck-series-slivers",
+    "abbreviation": "PDS",
+    "releaseDate": "2009-11-20T00:00:00",
+    "isSupplemental": true,
+    "productCount": 41,
+    "priceGuideRowCount": 190,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 41,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 37066,
+      "name": "Metallic Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "1",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37066_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.24,
+          "marketPrice": 0.33,
+          "tcgplayerSkuIds": [
+            824687
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.24,
+          "marketPrice": 0.48,
+          "tcgplayerSkuIds": [
+            844648
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.24,
+          "marketPrice": 0.43,
+          "tcgplayerSkuIds": [
+            804726
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.24,
+          "marketPrice": 0.68,
+          "tcgplayerSkuIds": [
+            399205
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784765,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824687,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844648,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804726,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399205,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>When the clever counterfeit was accepted by the hive, Volrath's influence upon the slivers grew even stronger.</em>",
+        "typeLine": "Artifact Creature — Sliver",
+        "convertedCost": "1",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact",
+          "Creature"
+        ],
+        "artist": "L. A. Williams",
+        "customAttributes": {
+          "powerNumber": "1",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Artifact",
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>When the clever counterfeit was accepted by the hive, Volrath's influence upon the slivers grew even stronger.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "1",
+          "Card Type": "Artifact Creature — Sliver",
+          "P / T": "1 / 1",
+          "Flavor": "<em>When the clever counterfeit was accepted by the hive, Volrath's influence upon the slivers grew even stronger.</em>",
+          "Artist": "L. A. Williams"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37072,
+      "name": "Quick Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "10",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37072_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.88,
+          "marketPrice": 1.61,
+          "tcgplayerSkuIds": [
+            784771
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.88,
+          "marketPrice": 1.16,
+          "tcgplayerSkuIds": [
+            824693
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.88,
+          "marketPrice": 1.95,
+          "tcgplayerSkuIds": [
+            844654
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.88,
+          "marketPrice": 1.42,
+          "tcgplayerSkuIds": [
+            804732
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.88,
+          "marketPrice": 3.17,
+          "tcgplayerSkuIds": [
+            399403
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784771,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824693,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844654,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804732,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399403,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flash\r\n<br>\r\nAny player may play Sliver cards as though they had flash.",
+        "flavorText": "<em>The directors of the Riptide Project wanted instant results on the sliver experiments. They got their wish.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "Flash\r\n<br>\r\nAny player may play Sliver cards as though they had flash.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "10",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>The directors of the Riptide Project wanted instant results on the sliver experiments. They got their wish.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "10",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "Flash\r\n<br>\r\nAny player may play Sliver cards as though they had flash.",
+          "Flavor": "<em>The directors of the Riptide Project wanted instant results on the sliver experiments. They got their wish.</em>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37054,
+      "name": "Crystalline Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "11",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37054_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 1.7,
+          "tcgplayerSkuIds": [
+            784753
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 1.79,
+          "tcgplayerSkuIds": [
+            824675
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 4.03,
+          "tcgplayerSkuIds": [
+            844636
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 2.57,
+          "tcgplayerSkuIds": [
+            804714
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 7.57,
+          "tcgplayerSkuIds": [
+            400064
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784753,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824675,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844636,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804714,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400064,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Slivers have shroud.",
+        "flavorText": "<em>Bred as living shields, these slivers have proven unruly—they know they cannot be caught.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Blue",
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "L. A. Williams",
+        "customAttributes": {
+          "description": "All Slivers have shroud.",
+          "powerNumber": "2",
+          "color": [
+            "Blue",
+            "White"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "11",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>Bred as living shields, these slivers have proven unruly—they know they cannot be caught.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "11",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Slivers have shroud.",
+          "Flavor": "<em>Bred as living shields, these slivers have proven unruly—they know they cannot be caught.</em>",
+          "Artist": "L. A. Williams"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37063,
+      "name": "Hibernation Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "12",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37063_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.8,
+          "marketPrice": 1,
+          "tcgplayerSkuIds": [
+            784762
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.8,
+          "marketPrice": 1.12,
+          "tcgplayerSkuIds": [
+            824684
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.8,
+          "marketPrice": 1.97,
+          "tcgplayerSkuIds": [
+            844645
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.8,
+          "marketPrice": 1.51,
+          "tcgplayerSkuIds": [
+            804723
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.8,
+          "marketPrice": 4.36,
+          "tcgplayerSkuIds": [
+            400321
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784762,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824684,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844645,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804723,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400321,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Slivers have \"Pay 2 life: Return this permanent to its owner's hand.\"",
+        "flavorText": "<em>Mogglings have been known to play ball with hibernating slivers, completely unaware of their true nature.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Black",
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Scott Kirschner",
+        "customAttributes": {
+          "description": "All Slivers have \"Pay 2 life: Return this permanent to its owner's hand.\"",
+          "powerNumber": "2",
+          "color": [
+            "Black",
+            "Blue"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "12",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>Mogglings have been known to play ball with hibernating slivers, completely unaware of their true nature.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "12",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Slivers have \"Pay 2 life: Return this permanent to its owner's hand.\"",
+          "Flavor": "<em>Mogglings have been known to play ball with hibernating slivers, completely unaware of their true nature.</em>",
+          "Artist": "Scott Kirschner"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37045,
+      "name": "Acidic Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "13",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37045_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.34,
+          "marketPrice": 0.57,
+          "tcgplayerSkuIds": [
+            824666
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.34,
+          "marketPrice": 0.71,
+          "tcgplayerSkuIds": [
+            844627
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.34,
+          "marketPrice": 0.6,
+          "tcgplayerSkuIds": [
+            804705
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.34,
+          "marketPrice": 1.1,
+          "tcgplayerSkuIds": [
+            399924
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784744,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824666,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844627,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804705,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399924,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Slivers have \"2, Sacrifice this permanent: This permanent deals 2 damage to target creature or player.\"",
+        "flavorText": "<em>The first sliver burst against the cave wall, and others piled in behind to deepen the new tunnel.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Black",
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jeff Miracola",
+        "customAttributes": {
+          "description": "All Slivers have \"2, Sacrifice this permanent: This permanent deals 2 damage to target creature or player.\"",
+          "powerNumber": "2",
+          "color": [
+            "Black",
+            "Red"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "13",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>The first sliver burst against the cave wall, and others piled in behind to deepen the new tunnel.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "13",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Slivers have \"2, Sacrifice this permanent: This permanent deals 2 damage to target creature or player.\"",
+          "Flavor": "<em>The first sliver burst against the cave wall, and others piled in behind to deepen the new tunnel.</em>",
+          "Artist": "Jeff Miracola"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37077,
+      "name": "Spined Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "14",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37077_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.48,
+          "tcgplayerSkuIds": [
+            824698
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.66,
+          "tcgplayerSkuIds": [
+            844659
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            804737
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.86,
+          "tcgplayerSkuIds": [
+            400215
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784776,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824698,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844659,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804737,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400215,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.",
+        "flavorText": "<em>\"Slivers are evil and slivers are sly;\r\n<br>\r\nAnd if you get eaten, then no one will cry.\"\r\n<br>\r\n—Mogg children's rhyme</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green",
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Ron Spencer",
+        "customAttributes": {
+          "description": "Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.",
+          "powerNumber": "2",
+          "color": [
+            "Green",
+            "Red"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "14",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>\"Slivers are evil and slivers are sly;\r\n<br>\r\nAnd if you get eaten, then no one will cry.\"\r\n<br>\r\n—Mogg children's rhyme</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "14",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "Whenever a Sliver becomes blocked, that Sliver gets +1/+1 until end of turn for each creature blocking it.",
+          "Flavor": "<em>\"Slivers are evil and slivers are sly;\r\n<br>\r\nAnd if you get eaten, then no one will cry.\"\r\n<br>\r\n—Mogg children's rhyme</em>",
+          "Artist": "Ron Spencer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37080,
+      "name": "Victual Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "15",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37080_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.35,
+          "tcgplayerSkuIds": [
+            784779
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.51,
+          "tcgplayerSkuIds": [
+            824701
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.56,
+          "tcgplayerSkuIds": [
+            844662
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.54,
+          "tcgplayerSkuIds": [
+            804740
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.72,
+          "tcgplayerSkuIds": [
+            400310
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784779,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824701,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844662,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804740,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400310,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Slivers have \"2, Sacrifice this permanent: You gain 4 life.\"",
+        "flavorText": "<em>\"We are kinfolk,\" explained Karn to the sliver queen. \"Just as you need your progeny to complete you, so do I need the pieces of the Legacy to make me whole.\"</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green",
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Terese Nielsen",
+        "customAttributes": {
+          "description": "All Slivers have \"2, Sacrifice this permanent: You gain 4 life.\"",
+          "powerNumber": "2",
+          "color": [
+            "Green",
+            "White"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "15",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>\"We are kinfolk,\" explained Karn to the sliver queen. \"Just as you need your progeny to complete you, so do I need the pieces of the Legacy to make me whole.\"</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "15",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Slivers have \"2, Sacrifice this permanent: You gain 4 life.\"",
+          "Flavor": "<em>\"We are kinfolk,\" explained Karn to the sliver queen. \"Just as you need your progeny to complete you, so do I need the pieces of the Legacy to make me whole.\"</em>",
+          "Artist": "Terese Nielsen"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37049,
+      "name": "Armor Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "16",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37049_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.27,
+          "tcgplayerSkuIds": [
+            824670
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.35,
+          "tcgplayerSkuIds": [
+            844631
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.43,
+          "tcgplayerSkuIds": [
+            804709
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            399247
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784748,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824670,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844631,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804709,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399247,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have \"2: This creature gets +0/+1 until end of turn.\"",
+        "flavorText": "<em>Hanna: \"We must learn how they protect each other.\"\r\n<br>\r\nMirri: \"After they're done trying to kill us, all right?\"</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Scott Kirschner",
+        "customAttributes": {
+          "description": "All Sliver creatures have \"2: This creature gets +0/+1 until end of turn.\"",
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "16",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>Hanna: \"We must learn how they protect each other.\"\r\n<br>\r\nMirri: \"After they're done trying to kill us, all right?\"</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "16",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Sliver creatures have \"2: This creature gets +0/+1 until end of turn.\"",
+          "Flavor": "<em>Hanna: \"We must learn how they protect each other.\"\r\n<br>\r\nMirri: \"After they're done trying to kill us, all right?\"</em>",
+          "Artist": "Scott Kirschner"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37076,
+      "name": "Spectral Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "17",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37076_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.17,
+          "marketPrice": 0.22,
+          "tcgplayerSkuIds": [
+            824697
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.17,
+          "marketPrice": 0.39,
+          "tcgplayerSkuIds": [
+            844658
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.17,
+          "marketPrice": 0.29,
+          "tcgplayerSkuIds": [
+            804736
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.17,
+          "marketPrice": 0.38,
+          "tcgplayerSkuIds": [
+            399785
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784775,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824697,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844658,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804736,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399785,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have \"2: This creature gets +1/+1 until end of turn.\"",
+        "flavorText": "<em>\"Sure, I've seen agents of the Cabal here and there. Well, not here, and certainly not in any of the sliver labs. Oh dear, I've said too much.\"\r\n<br>\r\n—Apprentice researcher</em>",
+        "typeLine": "Creature — Sliver Spirit",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Pete Venters",
+        "customAttributes": {
+          "description": "All Sliver creatures have \"2: This creature gets +1/+1 until end of turn.\"",
+          "powerNumber": "2",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Sliver Spirit",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "17",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>\"Sure, I've seen agents of the Cabal here and there. Well, not here, and certainly not in any of the sliver labs. Oh dear, I've said too much.\"\r\n<br>\r\n—Apprentice researcher</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "17",
+          "Card Type": "Creature — Sliver Spirit",
+          "P / T": "2 / 2",
+          "Description": "All Sliver creatures have \"2: This creature gets +1/+1 until end of turn.\"",
+          "Flavor": "<em>\"Sure, I've seen agents of the Cabal here and there. Well, not here, and certainly not in any of the sliver labs. Oh dear, I've said too much.\"\r\n<br>\r\n—Apprentice researcher</em>",
+          "Artist": "Pete Venters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37050,
+      "name": "Barbed Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "18",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37050_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.49,
+          "tcgplayerSkuIds": [
+            824671
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.45,
+          "tcgplayerSkuIds": [
+            844632
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.37,
+          "tcgplayerSkuIds": [
+            804710
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.55,
+          "tcgplayerSkuIds": [
+            399681
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784749,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824671,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844632,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804710,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399681,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have \"2: This creature gets +1/+0 until end of turn.\"",
+        "flavorText": "<em>Spans of spines leapt from one sliver to the next, forming a deadly hedge around the</em> Weatherlight.",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Scott Kirschner",
+        "customAttributes": {
+          "description": "All Sliver creatures have \"2: This creature gets +1/+0 until end of turn.\"",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "18",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>Spans of spines leapt from one sliver to the next, forming a deadly hedge around the</em> Weatherlight.",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "18",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Sliver creatures have \"2: This creature gets +1/+0 until end of turn.\"",
+          "Flavor": "<em>Spans of spines leapt from one sliver to the next, forming a deadly hedge around the</em> Weatherlight.",
+          "Artist": "Scott Kirschner"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37064,
+      "name": "Homing Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "19",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37064_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.62,
+          "marketPrice": 0.83,
+          "tcgplayerSkuIds": [
+            784763
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.62,
+          "marketPrice": 0.9,
+          "tcgplayerSkuIds": [
+            824685
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.62,
+          "marketPrice": 1.08,
+          "tcgplayerSkuIds": [
+            844646
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.62,
+          "marketPrice": 0.89,
+          "tcgplayerSkuIds": [
+            804724
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.62,
+          "marketPrice": 1.24,
+          "tcgplayerSkuIds": [
+            399558
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784763,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824685,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844646,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804724,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399558,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Each Sliver card in each player's hand has slivercycling 3.\r\n<br>\r\nSlivercycling 3 <em>(3, Discard this card: Search your library for a Sliver card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Trevor Hairsine",
+        "customAttributes": {
+          "description": "Each Sliver card in each player's hand has slivercycling 3.\r\n<br>\r\nSlivercycling 3 <em>(3, Discard this card: Search your library for a Sliver card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "19",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "C",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "19",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "Each Sliver card in each player's hand has slivercycling 3.\r\n<br>\r\nSlivercycling 3 <em>(3, Discard this card: Search your library for a Sliver card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+          "Artist": "Trevor Hairsine"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37081,
+      "name": "Virulent Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "2",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37081_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.89,
+          "tcgplayerSkuIds": [
+            784780
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            824702
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.61,
+          "tcgplayerSkuIds": [
+            844663
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.62,
+          "tcgplayerSkuIds": [
+            804741
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.35,
+          "marketPrice": 0.98,
+          "tcgplayerSkuIds": [
+            399544
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784780,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824702,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844663,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804741,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399544,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have poisonous 1. <em>(Whenever a Sliver deals combat damage to a player, that player gets a poison counter. A player with ten or more poison counters loses the game.)</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "1",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Franz Vohwinkel",
+        "customAttributes": {
+          "description": "All Sliver creatures have poisonous 1. <em>(Whenever a Sliver deals combat damage to a player, that player gets a poison counter. A player with ten or more poison counters loses the game.)</em>",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "C",
+          "power": "1",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "2",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "All Sliver creatures have poisonous 1. <em>(Whenever a Sliver deals combat damage to a player, that player gets a poison counter. A player with ten or more poison counters loses the game.)</em>",
+          "Artist": "Franz Vohwinkel"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37070,
+      "name": "Necrotic Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "20",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37070_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.5,
+          "tcgplayerSkuIds": [
+            824691
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.72,
+          "tcgplayerSkuIds": [
+            844652
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.64,
+          "tcgplayerSkuIds": [
+            804730
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 2.31,
+          "tcgplayerSkuIds": [
+            399733
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784769,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824691,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844652,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804730,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399733,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Slivers have \"3, Sacrifice this permanent: Destroy target permanent.\"",
+        "flavorText": "<em>Though Volrath is long dead, the slivers have become everything he wanted them to be: mindless instruments of destruction and despair.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Black",
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Dave Allsop",
+        "customAttributes": {
+          "description": "All Slivers have \"3, Sacrifice this permanent: Destroy target permanent.\"",
+          "powerNumber": "2",
+          "color": [
+            "Black",
+            "White"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "20",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>Though Volrath is long dead, the slivers have become everything he wanted them to be: mindless instruments of destruction and despair.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "20",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Slivers have \"3, Sacrifice this permanent: Destroy target permanent.\"",
+          "Flavor": "<em>Though Volrath is long dead, the slivers have become everything he wanted them to be: mindless instruments of destruction and despair.</em>",
+          "Artist": "Dave Allsop"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37058,
+      "name": "Fungus Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "21",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37058_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.43,
+          "marketPrice": 0.99,
+          "tcgplayerSkuIds": [
+            784757
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.43,
+          "marketPrice": 0.7,
+          "tcgplayerSkuIds": [
+            824679
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.43,
+          "marketPrice": 0.81,
+          "tcgplayerSkuIds": [
+            844640
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.43,
+          "marketPrice": 0.66,
+          "tcgplayerSkuIds": [
+            804718
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.43,
+          "marketPrice": 0.79,
+          "tcgplayerSkuIds": [
+            399369
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784757,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824679,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844640,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804718,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399369,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have \"Whenever this creature is dealt damage, put a +1/+1 counter on it.\"",
+        "flavorText": "<em>\"When a sliver of this breed enters the hive, the others claw each other in frenzied fits, thereby ensuring their rapid growth.\"\r\n<br>\r\n—Rukarumel, field journal</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "4",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Daniel Gelon",
+        "customAttributes": {
+          "description": "All Sliver creatures have \"Whenever this creature is dealt damage, put a +1/+1 counter on it.\"",
+          "powerNumber": "2",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "21",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "R",
+          "power": "2",
+          "flavorText": "<em>\"When a sliver of this breed enters the hive, the others claw each other in frenzied fits, thereby ensuring their rapid growth.\"\r\n<br>\r\n—Rukarumel, field journal</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "21",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Sliver creatures have \"Whenever this creature is dealt damage, put a +1/+1 counter on it.\"",
+          "Flavor": "<em>\"When a sliver of this breed enters the hive, the others claw each other in frenzied fits, thereby ensuring their rapid growth.\"\r\n<br>\r\n—Rukarumel, field journal</em>",
+          "Artist": "Daniel Gelon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37051,
+      "name": "Brood Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "22",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37051_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 2.25,
+          "marketPrice": 2.43,
+          "tcgplayerSkuIds": [
+            784750
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.25,
+          "marketPrice": 2.84,
+          "tcgplayerSkuIds": [
+            824672
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.25,
+          "marketPrice": 4.33,
+          "tcgplayerSkuIds": [
+            844633
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.25,
+          "marketPrice": 4.34,
+          "tcgplayerSkuIds": [
+            804711
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.25,
+          "marketPrice": 5.29,
+          "tcgplayerSkuIds": [
+            400122
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784750,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824672,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844633,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804711,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400122,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever a Sliver deals combat damage to a player, its controller may put a 1/1 colorless Sliver creature token onto the battlefield.",
+        "flavorText": "<em>Within weeks, more slivers nested in Otaria than ever existed on Rath.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "5",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Ron Spears",
+        "customAttributes": {
+          "description": "Whenever a Sliver deals combat damage to a player, its controller may put a 1/1 colorless Sliver creature token onto the battlefield.",
+          "powerNumber": "3",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "22",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "R",
+          "power": "3",
+          "flavorText": "<em>Within weeks, more slivers nested in Otaria than ever existed on Rath.</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "22",
+          "Card Type": "Creature — Sliver",
+          "P / T": "3 / 3",
+          "Description": "Whenever a Sliver deals combat damage to a player, its controller may put a 1/1 colorless Sliver creature token onto the battlefield.",
+          "Flavor": "<em>Within weeks, more slivers nested in Otaria than ever existed on Rath.</em>",
+          "Artist": "Ron Spears"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37067,
+      "name": "Might Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "23",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37067_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 1.28,
+          "tcgplayerSkuIds": [
+            784766
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.6,
+          "tcgplayerSkuIds": [
+            824688
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            844649
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            804727
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.69,
+          "tcgplayerSkuIds": [
+            399642
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784766,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824688,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844649,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804727,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399642,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures get +2/+2.",
+        "flavorText": "<em>\"The colossal thing rumbled over the ridge, tree husks crumbling before it. The ones we were already fighting howled as it came, their muscles suddenly surging, and we knew it was time to flee.\"\r\n<br>\r\n—Llanach, Skyshroud ranger</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "5",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jeff Miracola",
+        "customAttributes": {
+          "description": "All Sliver creatures get +2/+2.",
+          "powerNumber": "2",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "23",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "U",
+          "power": "2",
+          "flavorText": "<em>\"The colossal thing rumbled over the ridge, tree husks crumbling before it. The ones we were already fighting howled as it came, their muscles suddenly surging, and we knew it was time to flee.\"\r\n<br>\r\n—Llanach, Skyshroud ranger</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "23",
+          "Card Type": "Creature — Sliver",
+          "P / T": "2 / 2",
+          "Description": "All Sliver creatures get +2/+2.",
+          "Flavor": "<em>\"The colossal thing rumbled over the ridge, tree husks crumbling before it. The ones we were already fighting howled as it came, their muscles suddenly surging, and we knew it was time to flee.\"\r\n<br>\r\n—Llanach, Skyshroud ranger</em>",
+          "Artist": "Jeff Miracola"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37075,
+      "name": "Sliver Overlord",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "24",
+      "rarity": "Mythic",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37075_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 27,
+          "marketPrice": 27.52,
+          "tcgplayerSkuIds": [
+            784774
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 27,
+          "marketPrice": 27.6,
+          "tcgplayerSkuIds": [
+            824696
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 27,
+          "marketPrice": 29.3,
+          "tcgplayerSkuIds": [
+            844657
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 27,
+          "marketPrice": 31.28,
+          "tcgplayerSkuIds": [
+            804735
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 27,
+          "marketPrice": 45.55,
+          "tcgplayerSkuIds": [
+            399356
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784774,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824696,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844657,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804735,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399356,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "3: Search your library for a Sliver card, reveal that card, and put it into your hand. Then shuffle your library.\r\n<br>\r\n3: Gain control of target Sliver.",
+        "flavorText": "<em>The end of evolution.</em>",
+        "typeLine": "Legendary Creature — Sliver Mutant",
+        "convertedCost": "5",
+        "power": "7",
+        "powerNumber": "7",
+        "toughness": "7",
+        "toughnessNumber": "7",
+        "colors": [
+          "Black",
+          "Blue",
+          "Green",
+          "Red",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Tony Szczudlo",
+        "customAttributes": {
+          "description": "3: Search your library for a Sliver card, reveal that card, and put it into your hand. Then shuffle your library.\r\n<br>\r\n3: Gain control of target Sliver.",
+          "powerNumber": "7",
+          "color": [
+            "Black",
+            "Blue",
+            "Green",
+            "Red",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Sliver Mutant",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "24",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "M",
+          "power": "7",
+          "flavorText": "<em>The end of evolution.</em>",
+          "toughnessNumber": "7",
+          "toughness": "7"
+        },
+        "formattedAttributes": {
+          "Rarity": "M",
+          "#": "24",
+          "Card Type": "Legendary Creature — Sliver Mutant",
+          "P / T": "7 / 7",
+          "Description": "3: Search your library for a Sliver card, reveal that card, and put it into your hand. Then shuffle your library.\r\n<br>\r\n3: Gain control of target Sliver.",
+          "Flavor": "<em>The end of evolution.</em>",
+          "Artist": "Tony Szczudlo",
+          "TCGplayer Tip": "Premium Deck Series: Sliver Overlord is a special release Magic: The Gathering product that features a pre-constructed deck of Sliver cards, all of which are premium foil. The deck is built around the Sliver Overlord, a powerful legendary creature that allows players to search for other Sliver cards and put them into their hand or onto the battlefield."
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37059,
+      "name": "Fury Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "25",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37059_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.45,
+          "marketPrice": 0.49,
+          "tcgplayerSkuIds": [
+            824680
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.45,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            844641
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.45,
+          "marketPrice": 0.49,
+          "tcgplayerSkuIds": [
+            804719
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.45,
+          "marketPrice": 0.78,
+          "tcgplayerSkuIds": [
+            399798
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784758,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824680,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844641,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804719,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399798,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have double strike.",
+        "flavorText": "<em>\"A rift opened, and our arrows were abruptly stilled. To move was to push the world. But the sliver's claw still twitched, red wounds appeared in Thed's chest, and ribbons of blood hung in the air.\"\r\n<br>\r\n—Adom Capashen, Benalish hero</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "6",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Parente",
+        "customAttributes": {
+          "description": "All Sliver creatures have double strike.",
+          "powerNumber": "3",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "25",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "U",
+          "power": "3",
+          "flavorText": "<em>\"A rift opened, and our arrows were abruptly stilled. To move was to push the world. But the sliver's claw still twitched, red wounds appeared in Thed's chest, and ribbons of blood hung in the air.\"\r\n<br>\r\n—Adom Capashen, Benalish hero</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "25",
+          "Card Type": "Creature — Sliver",
+          "P / T": "3 / 3",
+          "Description": "All Sliver creatures have double strike.",
+          "Flavor": "<em>\"A rift opened, and our arrows were abruptly stilled. To move was to push the world. But the sliver's claw still twitched, red wounds appeared in Thed's chest, and ribbons of blood hung in the air.\"\r\n<br>\r\n—Adom Capashen, Benalish hero</em>",
+          "Artist": "Parente"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37062,
+      "name": "Heartstone",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "26",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37062_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 2.06,
+          "marketPrice": 2.33,
+          "tcgplayerSkuIds": [
+            784761
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.06,
+          "marketPrice": 2.07,
+          "tcgplayerSkuIds": [
+            824683
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.06,
+          "marketPrice": 4.13,
+          "tcgplayerSkuIds": [
+            844644
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.06,
+          "marketPrice": 3.04,
+          "tcgplayerSkuIds": [
+            804722
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.06,
+          "marketPrice": 5.09,
+          "tcgplayerSkuIds": [
+            400040
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784761,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824683,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844644,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804722,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400040,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Activated abilities of creatures cost 1 less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.",
+        "flavorText": "<em>\"Finding a true heartstone is even harder than finding a true heart.\"\r\n<br>\r\n—Hanna,</em> Weatherlight <em>navigator</em>",
+        "typeLine": "Artifact",
+        "convertedCost": "3",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "John Matson",
+        "customAttributes": {
+          "description": "Activated abilities of creatures cost 1 less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "26",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "U",
+          "flavorText": "<em>\"Finding a true heartstone is even harder than finding a true heart.\"\r\n<br>\r\n—Hanna,</em> Weatherlight <em>navigator</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "26",
+          "Card Type": "Artifact",
+          "Description": "Activated abilities of creatures cost 1 less to activate. This effect can't reduce the amount of mana an ability costs to activate to less than one mana.",
+          "Flavor": "<em>\"Finding a true heartstone is even harder than finding a true heart.\"\r\n<br>\r\n—Hanna,</em> Weatherlight <em>navigator</em>",
+          "Artist": "John Matson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37055,
+      "name": "Distant Melody",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "27",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37055_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.57,
+          "marketPrice": 1.3,
+          "tcgplayerSkuIds": [
+            824676
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.57,
+          "marketPrice": 1.68,
+          "tcgplayerSkuIds": [
+            844637
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.57,
+          "marketPrice": 1.66,
+          "tcgplayerSkuIds": [
+            804715
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.57,
+          "marketPrice": 2.6,
+          "tcgplayerSkuIds": [
+            399442
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784754,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824676,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844637,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804715,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399442,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Choose a creature type. Draw a card for each permanent you control of that type.",
+        "flavorText": "<em>Oona's song is like a twisted dinner chime. All the faeries return home, but it is Oona who feasts—on the stolen dreams and rumors they serve her.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "4",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Omar Rayyan",
+        "customAttributes": {
+          "description": "Choose a creature type. Draw a card for each permanent you control of that type.",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "27",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "C",
+          "flavorText": "<em>Oona's song is like a twisted dinner chime. All the faeries return home, but it is Oona who feasts—on the stolen dreams and rumors they serve her.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "27",
+          "Card Type": "Sorcery",
+          "Description": "Choose a creature type. Draw a card for each permanent you control of that type.",
+          "Flavor": "<em>Oona's song is like a twisted dinner chime. All the faeries return home, but it is Oona who feasts—on the stolen dreams and rumors they serve her.</em>",
+          "Artist": "Omar Rayyan"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37048,
+      "name": "Aphetto Dredging",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "28",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37048_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.23,
+          "marketPrice": 0.45,
+          "tcgplayerSkuIds": [
+            784747
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.23,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            844630
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.23,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            804708
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.23,
+          "marketPrice": 0.55,
+          "tcgplayerSkuIds": [
+            400022
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784747,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824669,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844630,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804708,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400022,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Return up to three target creature cards of the creature type of your choice from your graveyard to your hand.",
+        "flavorText": "<em>Phage became both executioner and savior, helping others to the same rebirth she had found.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "4",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Monte Michael Moore",
+        "customAttributes": {
+          "description": "Return up to three target creature cards of the creature type of your choice from your graveyard to your hand.",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "28",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "C",
+          "flavorText": "<em>Phage became both executioner and savior, helping others to the same rebirth she had found.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "28",
+          "Card Type": "Sorcery",
+          "Description": "Return up to three target creature cards of the creature type of your choice from your graveyard to your hand.",
+          "Flavor": "<em>Phage became both executioner and savior, helping others to the same rebirth she had found.</em>",
+          "Artist": "Monte Michael Moore"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37053,
+      "name": "Coat of Arms",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "29",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37053_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 13.16,
+          "marketPrice": 12.91,
+          "tcgplayerSkuIds": [
+            784752
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.16,
+          "marketPrice": 13.89,
+          "tcgplayerSkuIds": [
+            824674
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.16,
+          "marketPrice": 17.16,
+          "tcgplayerSkuIds": [
+            844635
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.16,
+          "marketPrice": 15.64,
+          "tcgplayerSkuIds": [
+            804713
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 13.16,
+          "marketPrice": 24.1,
+          "tcgplayerSkuIds": [
+            399636
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784752,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824674,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844635,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804713,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399636,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it.",
+        "flavorText": "<em>\"Hup, two, three, four,\r\n<br>\r\nDunno how to count no more.\"\r\n<br>\r\n—Mogg march</em>",
+        "typeLine": "Artifact",
+        "convertedCost": "5",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Scott M. Fischer",
+        "customAttributes": {
+          "description": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Artifact",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "29",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "R",
+          "flavorText": "<em>\"Hup, two, three, four,\r\n<br>\r\nDunno how to count no more.\"\r\n<br>\r\n—Mogg march</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "29",
+          "Card Type": "Artifact",
+          "Description": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it.",
+          "Flavor": "<em>\"Hup, two, three, four,\r\n<br>\r\nDunno how to count no more.\"\r\n<br>\r\n—Mogg march</em>",
+          "Artist": "Scott M. Fischer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37046,
+      "name": "Amoeboid Changeling",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "3",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37046_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 2.45,
+          "tcgplayerSkuIds": [
+            824667
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 2.51,
+          "tcgplayerSkuIds": [
+            844628
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 2.37,
+          "tcgplayerSkuIds": [
+            804706
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1,
+          "marketPrice": 4.02,
+          "tcgplayerSkuIds": [
+            399152
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784745,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824667,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844628,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804706,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399152,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Changeling <em>(This card is every creature type at all times.)</em>\r\n<br>\r\nT: Target creature gains all creature types until end of turn. \r\n<br>\r\nT: Target creature loses all creature types until end of turn.",
+        "typeLine": "Creature — Shapeshifter",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Nils Hamm",
+        "customAttributes": {
+          "description": "Changeling <em>(This card is every creature type at all times.)</em>\r\n<br>\r\nT: Target creature gains all creature types until end of turn. \r\n<br>\r\nT: Target creature loses all creature types until end of turn.",
+          "powerNumber": "1",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Shapeshifter",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "3",
+          "Card Type": "Creature — Shapeshifter",
+          "P / T": "1 / 1",
+          "Description": "Changeling <em>(This card is every creature type at all times.)</em>\r\n<br>\r\nT: Target creature gains all creature types until end of turn. \r\n<br>\r\nT: Target creature loses all creature types until end of turn.",
+          "Artist": "Nils Hamm"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37084,
+      "name": "Wild Pair",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "30",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37084_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.71,
+          "marketPrice": 1.1,
+          "tcgplayerSkuIds": [
+            784783
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.71,
+          "marketPrice": 1.06,
+          "tcgplayerSkuIds": [
+            824705
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.71,
+          "marketPrice": 1.16,
+          "tcgplayerSkuIds": [
+            844666
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.71,
+          "marketPrice": 1.1,
+          "tcgplayerSkuIds": [
+            804744
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.71,
+          "marketPrice": 1.43,
+          "tcgplayerSkuIds": [
+            399488
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784783,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824705,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844666,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804744,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399488,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness and put it onto the battlefield. If you do, shuffle your library.",
+        "typeLine": "Enchantment",
+        "convertedCost": "6",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Enchantment"
+        ],
+        "artist": "Mark Brill",
+        "customAttributes": {
+          "description": "Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness and put it onto the battlefield. If you do, shuffle your library.",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Enchantment",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "30",
+          "cardType": [
+            "Enchantment"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "R"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "30",
+          "Card Type": "Enchantment",
+          "Description": "Whenever a creature enters the battlefield, if you cast it from your hand, you may search your library for a creature card with the same total power and toughness and put it onto the battlefield. If you do, shuffle your library.",
+          "Artist": "Mark Brill"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37047,
+      "name": "Ancient Ziggurat",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "31",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37047_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 1.82,
+          "tcgplayerSkuIds": [
+            784746
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 1.92,
+          "tcgplayerSkuIds": [
+            824668
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 2.81,
+          "tcgplayerSkuIds": [
+            844629
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 2.24,
+          "tcgplayerSkuIds": [
+            804707
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.82,
+          "marketPrice": 3.5,
+          "tcgplayerSkuIds": [
+            399738
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784746,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824668,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844629,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804707,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399738,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Add one mana of any color to your mana pool. Spend this mana only to cast creature spells.",
+        "flavorText": "<em>Built in honor of Alara's creatures, the ziggurat vanished long ago. When Progenitus awakened, the temple emerged again.</em>",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "T: Add one mana of any color to your mana pool. Spend this mana only to cast creature spells.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "31",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "U",
+          "flavorText": "<em>Built in honor of Alara's creatures, the ziggurat vanished long ago. When Progenitus awakened, the temple emerged again.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "31",
+          "Card Type": "Land",
+          "Description": "T: Add one mana of any color to your mana pool. Spend this mana only to cast creature spells.",
+          "Flavor": "<em>Built in honor of Alara's creatures, the ziggurat vanished long ago. When Progenitus awakened, the temple emerged again.</em>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37073,
+      "name": "Rootbound Crag",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "32",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37073_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.86,
+          "marketPrice": 0.86,
+          "tcgplayerSkuIds": [
+            784772
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.86,
+          "marketPrice": 1.05,
+          "tcgplayerSkuIds": [
+            824694
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.86,
+          "marketPrice": 1.67,
+          "tcgplayerSkuIds": [
+            844655
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.86,
+          "marketPrice": 1.27,
+          "tcgplayerSkuIds": [
+            804733
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.86,
+          "marketPrice": 2.21,
+          "tcgplayerSkuIds": [
+            399692
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784772,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824694,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844655,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804733,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399692,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\r\n<br>\r\nT: Add R or G to your mana pool.",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Matt Stewart",
+        "customAttributes": {
+          "description": "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\r\n<br>\r\nT: Add R or G to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "32",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "R"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "32",
+          "Card Type": "Land",
+          "Description": "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest.\r\n<br>\r\nT: Add R or G to your mana pool.",
+          "Artist": "Matt Stewart"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37074,
+      "name": "Rupture Spire",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "33",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37074_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.1,
+          "marketPrice": 0.15,
+          "tcgplayerSkuIds": [
+            784773
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.1,
+          "marketPrice": 0.13,
+          "tcgplayerSkuIds": [
+            824695
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.1,
+          "marketPrice": 0.34,
+          "tcgplayerSkuIds": [
+            844656
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.1,
+          "marketPrice": 0.31,
+          "tcgplayerSkuIds": [
+            804734
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.1,
+          "marketPrice": 0.34,
+          "tcgplayerSkuIds": [
+            400129
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784773,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824695,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844656,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804734,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400129,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Rupture Spire enters the battlefield tapped.\r\n<br>\r\nWhen Rupture Spire enters the battlefield, sacrifice it unless you pay 1.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Jaime Jones",
+        "customAttributes": {
+          "description": "Rupture Spire enters the battlefield tapped.\r\n<br>\r\nWhen Rupture Spire enters the battlefield, sacrifice it unless you pay 1.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "33",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "C"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "33",
+          "Card Type": "Land",
+          "Description": "Rupture Spire enters the battlefield tapped.\r\n<br>\r\nWhen Rupture Spire enters the battlefield, sacrifice it unless you pay 1.\r\n<br>\r\nT: Add one mana of any color to your mana pool.",
+          "Artist": "Jaime Jones"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37079,
+      "name": "Terramorphic Expanse",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "34",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37079_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.12,
+          "tcgplayerSkuIds": [
+            784778
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.21,
+          "tcgplayerSkuIds": [
+            824700
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.35,
+          "tcgplayerSkuIds": [
+            844661
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.36,
+          "tcgplayerSkuIds": [
+            804739
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.5,
+          "tcgplayerSkuIds": [
+            399874
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784778,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824700,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844661,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804739,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399874,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Dan Scott",
+        "customAttributes": {
+          "description": "T, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "34",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "C"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "34",
+          "Card Type": "Land",
+          "Description": "T, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.",
+          "Artist": "Dan Scott"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37082,
+      "name": "Vivid Creek",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "35",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37082_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.22,
+          "tcgplayerSkuIds": [
+            824703
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.3,
+          "tcgplayerSkuIds": [
+            844664
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.29,
+          "tcgplayerSkuIds": [
+            804742
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.52,
+          "tcgplayerSkuIds": [
+            399977
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784781,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824703,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844664,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804742,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399977,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Vivid Creek enters the battlefield tapped with two charge counters on it.\r\n<br>\r\nT: Add U to your mana pool. \r\n<br>\r\nT, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Fred Fields",
+        "customAttributes": {
+          "description": "Vivid Creek enters the battlefield tapped with two charge counters on it.\r\n<br>\r\nT: Add U to your mana pool. \r\n<br>\r\nT, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "35",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "U"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "35",
+          "Card Type": "Land",
+          "Description": "Vivid Creek enters the battlefield tapped with two charge counters on it.\r\n<br>\r\nT: Add U to your mana pool. \r\n<br>\r\nT, Remove a charge counter from Vivid Creek: Add one mana of any color to your mana pool.",
+          "Artist": "Fred Fields"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37083,
+      "name": "Vivid Grove",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "36",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37083_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            784782
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.23,
+          "tcgplayerSkuIds": [
+            824704
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.3,
+          "tcgplayerSkuIds": [
+            844665
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.32,
+          "tcgplayerSkuIds": [
+            804743
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.36,
+          "tcgplayerSkuIds": [
+            400264
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784782,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824704,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844665,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804743,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400264,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Vivid Grove enters the battlefield tapped with two charge counters on it.\r\n<br>\r\nT: Add G to your mana pool. \r\n<br>\r\nT, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.",
+        "typeLine": "Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Howard Lyon",
+        "customAttributes": {
+          "description": "Vivid Grove enters the battlefield tapped with two charge counters on it.\r\n<br>\r\nT: Add G to your mana pool. \r\n<br>\r\nT, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Land",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "36",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "U"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "#": "36",
+          "Card Type": "Land",
+          "Description": "Vivid Grove enters the battlefield tapped with two charge counters on it.\r\n<br>\r\nT: Add G to your mana pool. \r\n<br>\r\nT, Remove a charge counter from Vivid Grove: Add one mana of any color to your mana pool.",
+          "Artist": "Howard Lyon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37071,
+      "name": "Plains (37)",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "37",
+      "rarity": "Land",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37071_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.16,
+          "marketPrice": 0.36,
+          "tcgplayerSkuIds": [
+            824692
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.16,
+          "marketPrice": 0.52,
+          "tcgplayerSkuIds": [
+            844653
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.16,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            804731
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.16,
+          "marketPrice": 0.63,
+          "tcgplayerSkuIds": [
+            400179
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784770,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824692,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844653,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804731,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400179,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Terese Nielsen",
+        "customAttributes": {
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "37",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "L"
+        },
+        "formattedAttributes": {
+          "Rarity": "L",
+          "#": "37",
+          "Card Type": "Basic Land — Plains",
+          "Artist": "Terese Nielsen"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37065,
+      "name": "Island (38)",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "38",
+      "rarity": "Land",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37065_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.27,
+          "tcgplayerSkuIds": [
+            784764
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.42,
+          "tcgplayerSkuIds": [
+            824686
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.53,
+          "tcgplayerSkuIds": [
+            844647
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.49,
+          "tcgplayerSkuIds": [
+            804725
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.66,
+          "tcgplayerSkuIds": [
+            399986
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784764,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824686,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844647,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804725,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399986,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Randy Gallegos",
+        "customAttributes": {
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "38",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "L"
+        },
+        "formattedAttributes": {
+          "Rarity": "L",
+          "#": "38",
+          "Card Type": "Basic Land — Island",
+          "Artist": "Randy Gallegos"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37078,
+      "name": "Swamp (39)",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "39",
+      "rarity": "Land",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37078_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.27,
+          "tcgplayerSkuIds": [
+            784777
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.2,
+          "tcgplayerSkuIds": [
+            824699
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.37,
+          "tcgplayerSkuIds": [
+            844660
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.62,
+          "tcgplayerSkuIds": [
+            804738
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.21,
+          "marketPrice": 0.54,
+          "tcgplayerSkuIds": [
+            399445
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784777,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824699,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844660,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804738,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399445,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Brom",
+        "customAttributes": {
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "39",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "L"
+        },
+        "formattedAttributes": {
+          "Rarity": "L",
+          "#": "39",
+          "Card Type": "Basic Land — Swamp",
+          "Artist": "Brom"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37085,
+      "name": "Winged Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "4",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37085_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.94,
+          "tcgplayerSkuIds": [
+            784784
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.71,
+          "tcgplayerSkuIds": [
+            824706
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.93,
+          "tcgplayerSkuIds": [
+            844667
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.9,
+          "tcgplayerSkuIds": [
+            804745
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.98,
+          "tcgplayerSkuIds": [
+            399916
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784784,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824706,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844667,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804745,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399916,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have flying.",
+        "flavorText": "<em>\"Everything around here has cut a deal with gravity.\"\r\n<br>\r\n—Gerrard of the</em> Weatherlight",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "All Sliver creatures have flying.",
+          "powerNumber": "1",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>\"Everything around here has cut a deal with gravity.\"\r\n<br>\r\n—Gerrard of the</em> Weatherlight",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "4",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "All Sliver creatures have flying.",
+          "Flavor": "<em>\"Everything around here has cut a deal with gravity.\"\r\n<br>\r\n—Gerrard of the</em> Weatherlight",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37068,
+      "name": "Mountain (40)",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "40",
+      "rarity": "Land",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37068_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.15,
+          "marketPrice": 0.32,
+          "tcgplayerSkuIds": [
+            824689
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.15,
+          "marketPrice": 0.45,
+          "tcgplayerSkuIds": [
+            844650
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.15,
+          "marketPrice": 0.28,
+          "tcgplayerSkuIds": [
+            804728
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.15,
+          "marketPrice": 0.48,
+          "tcgplayerSkuIds": [
+            399922
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784767,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824689,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844650,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804728,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399922,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Mark Poole",
+        "customAttributes": {
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "40",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "L"
+        },
+        "formattedAttributes": {
+          "Rarity": "L",
+          "#": "40",
+          "Card Type": "Basic Land — Mountain",
+          "Artist": "Mark Poole"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37056,
+      "name": "Forest (41)",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "41",
+      "rarity": "Land",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37056_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.35,
+          "tcgplayerSkuIds": [
+            784755
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.27,
+          "tcgplayerSkuIds": [
+            824677
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.38,
+          "tcgplayerSkuIds": [
+            844638
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.41,
+          "tcgplayerSkuIds": [
+            804716
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.2,
+          "marketPrice": 0.49,
+          "tcgplayerSkuIds": [
+            399876
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784755,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824677,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844638,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804716,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399876,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Douglas Shuler",
+        "customAttributes": {
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "41",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "L"
+        },
+        "formattedAttributes": {
+          "Rarity": "L",
+          "#": "41",
+          "Card Type": "Basic Land — Forest",
+          "Artist": "Douglas Shuler"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37052,
+      "name": "Clot Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "5",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37052_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            784751
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.5,
+          "tcgplayerSkuIds": [
+            824673
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.67,
+          "tcgplayerSkuIds": [
+            844634
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.55,
+          "tcgplayerSkuIds": [
+            804712
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.25,
+          "marketPrice": 0.92,
+          "tcgplayerSkuIds": [
+            399355
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784751,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824673,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844634,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804712,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399355,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Slivers have \"2: Regenerate this permanent.\"",
+        "flavorText": "<em>\"One would think I would be accustomed to unexpected returns.\"\r\n<br>\r\n—Hanna,</em> Weatherlight <em>navigator</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jeff Laubenstein",
+        "customAttributes": {
+          "description": "All Slivers have \"2: Regenerate this permanent.\"",
+          "powerNumber": "1",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>\"One would think I would be accustomed to unexpected returns.\"\r\n<br>\r\n—Hanna,</em> Weatherlight <em>navigator</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "5",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "All Slivers have \"2: Regenerate this permanent.\"",
+          "Flavor": "<em>\"One would think I would be accustomed to unexpected returns.\"\r\n<br>\r\n—Hanna,</em> Weatherlight <em>navigator</em>",
+          "Artist": "Jeff Laubenstein"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37057,
+      "name": "Frenzy Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "6",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37057_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.26,
+          "marketPrice": 0.63,
+          "tcgplayerSkuIds": [
+            784756
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.26,
+          "marketPrice": 0.55,
+          "tcgplayerSkuIds": [
+            824678
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.26,
+          "marketPrice": 0.59,
+          "tcgplayerSkuIds": [
+            844639
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.26,
+          "marketPrice": 0.61,
+          "tcgplayerSkuIds": [
+            804717
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.26,
+          "marketPrice": 1.09,
+          "tcgplayerSkuIds": [
+            400290
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784756,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824678,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844639,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804717,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400290,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have frenzy 1. <em>(Whenever a Sliver attacks and isn't blocked, it gets +1/+0 until end of turn.)</em>",
+        "flavorText": "<em>The Arturan conjurers took the strange, alien fossil and patterned their own twisted creations in its image.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Glen Angus",
+        "customAttributes": {
+          "description": "All Sliver creatures have frenzy 1. <em>(Whenever a Sliver attacks and isn't blocked, it gets +1/+0 until end of turn.)</em>",
+          "powerNumber": "1",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "6",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>The Arturan conjurers took the strange, alien fossil and patterned their own twisted creations in its image.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "6",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "All Sliver creatures have frenzy 1. <em>(Whenever a Sliver attacks and isn't blocked, it gets +1/+0 until end of turn.)</em>",
+          "Flavor": "<em>The Arturan conjurers took the strange, alien fossil and patterned their own twisted creations in its image.</em>",
+          "Artist": "Glen Angus"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37061,
+      "name": "Heart Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "7",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37061_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 3.5,
+          "marketPrice": 4.1,
+          "tcgplayerSkuIds": [
+            784760
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.5,
+          "marketPrice": 4.35,
+          "tcgplayerSkuIds": [
+            824682
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.5,
+          "marketPrice": 5.23,
+          "tcgplayerSkuIds": [
+            844643
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.5,
+          "marketPrice": 4.39,
+          "tcgplayerSkuIds": [
+            804721
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.5,
+          "marketPrice": 8.43,
+          "tcgplayerSkuIds": [
+            399454
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784760,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824682,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844643,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804721,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399454,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures have haste.",
+        "flavorText": "<em>Gerrard looked all around for the source of the mysterious pulse, and at that moment the slivers boiled forth from the crevasses.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Ron Spencer",
+        "customAttributes": {
+          "description": "All Sliver creatures have haste.",
+          "powerNumber": "1",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "7",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>Gerrard looked all around for the source of the mysterious pulse, and at that moment the slivers boiled forth from the crevasses.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "7",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "All Sliver creatures have haste.",
+          "Flavor": "<em>Gerrard looked all around for the source of the mysterious pulse, and at that moment the slivers boiled forth from the crevasses.</em>",
+          "Artist": "Ron Spencer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37060,
+      "name": "Gemhide Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "8",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37060_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.36,
+          "marketPrice": 0.55,
+          "tcgplayerSkuIds": [
+            784759
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.36,
+          "marketPrice": 0.49,
+          "tcgplayerSkuIds": [
+            824681
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.36,
+          "marketPrice": 0.73,
+          "tcgplayerSkuIds": [
+            844642
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.36,
+          "marketPrice": 0.64,
+          "tcgplayerSkuIds": [
+            804720
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.36,
+          "marketPrice": 0.86,
+          "tcgplayerSkuIds": [
+            400232
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784759,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824681,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844642,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804720,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 400232,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Slivers have \"T: Add one mana of any color to your mana pool.\"",
+        "flavorText": "<em>\"The land is weary. Even Skyshroud is depleted. We must find another source of mana—one that is growing despite our withering world.\"\r\n<br>\r\n—Freyalise</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "John Matson",
+        "customAttributes": {
+          "description": "All Slivers have \"T: Add one mana of any color to your mana pool.\"",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "8",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>\"The land is weary. Even Skyshroud is depleted. We must find another source of mana—one that is growing despite our withering world.\"\r\n<br>\r\n—Freyalise</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "8",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "All Slivers have \"T: Add one mana of any color to your mana pool.\"",
+          "Flavor": "<em>\"The land is weary. Even Skyshroud is depleted. We must find another source of mana—one that is growing despite our withering world.\"\r\n<br>\r\n—Freyalise</em>",
+          "Artist": "John Matson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37069,
+      "name": "Muscle Sliver",
+      "productLineId": 1,
+      "setId": 91,
+      "collectorNumber": "9",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37069_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.85,
+          "tcgplayerSkuIds": [
+            824690
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.82,
+          "tcgplayerSkuIds": [
+            844651
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 0.87,
+          "tcgplayerSkuIds": [
+            804729
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.59,
+          "marketPrice": 1.56,
+          "tcgplayerSkuIds": [
+            399154
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784768,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824690,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844651,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804729,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 399154,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All Sliver creatures get +1/+1.",
+        "flavorText": "<em>The air was filled with the cracks and snaps of flesh hardening as the new sliver joined the battle.</em>",
+        "typeLine": "Creature — Sliver",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Richard Kane Ferguson",
+        "customAttributes": {
+          "description": "All Sliver creatures get +1/+1.",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Sliver",
+          "releaseDate": "2009-11-20T00:00:00Z",
+          "number": "9",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>The air was filled with the cracks and snaps of flesh hardening as the new sliver joined the battle.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "#": "9",
+          "Card Type": "Creature — Sliver",
+          "P / T": "1 / 1",
+          "Description": "All Sliver creatures get +1/+1.",
+          "Flavor": "<em>The air was filled with the cracks and snaps of flesh hardening as the new sliver joined the battle.</em>",
+          "Artist": "Richard Kane Ferguson"
+        }
+      }
+    }
+  ]
+}

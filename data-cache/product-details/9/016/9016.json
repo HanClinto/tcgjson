@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:44Z",
+  "tcgplayerProductId": 9016,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Control Magic",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 13.1,
+    "customAttributes": {
+      "formats": null,
+      "description": "You control target creature until enchantment is discarded or game ends. You can’t tap target creature this turn, but if it was already tapped it stays tapped until you can untap it. If destroyed, target creature is put in its owner’s graveyard.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Creature ",
+      "releaseDate": "1993-12-06T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3.5,
+    "productName": "Control Magic",
+    "setId": 115.0,
+    "setCode": "2ED",
+    "productId": 9016.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Unlimited Edition",
+    "sellers": 55.0,
+    "foilOnly": false,
+    "setUrlName": "Unlimited Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 72.0,
+    "lowestPrice": 3.5,
+    "medianPrice": 62.33,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Enchant Creature ",
+      "Description": "You control target creature until enchantment is discarded or game ends. You can’t tap target creature this turn, but if it was already tapped it stays tapped until you can untap it. If destroyed, target creature is put in its owner’s graveyard.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 21830,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371111,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339595,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355353,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323837,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

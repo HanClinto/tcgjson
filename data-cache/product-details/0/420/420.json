@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:12Z",
+  "tcgplayerProductId": 420,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Willow Elf",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "1",
+      "color": [
+        "Green"
+      ],
+      "fullType": "Creature — Elf",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "152",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>The forest lives in the elf as the elf lives in the forest.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.01,
+    "productName": "Willow Elf",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 420.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Starter 1999",
+    "sellers": 158.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 204.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.31,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "152",
+      "Card Type": "Creature — Elf",
+      "P / T": "1 / 1",
+      "Flavor": "<em>The forest lives in the elf as the elf lives in the forest.</em>",
+      "Artist": "DiTerlizzi"
+    },
+    "skus": [
+      {
+        "sku": 14911,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363657,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332141,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347899,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316383,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:28Z",
+  "tcgplayerProductId": 37899,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "My First Tome",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.4,
+    "customAttributes": {
+      "formats": null,
+      "description": "1, T: Say the flavor text on a card in your hand. Target opponent guesses that card's name. You may reveal that card. If you do and your opponent guessed wrong, draw a card.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact",
+      "releaseDate": "2004-11-19T00:00:00Z",
+      "number": "125",
+      "cardType": [
+        "Artifact"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>This card is named My First Tome.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "My First Tome",
+    "setId": 114.0,
+    "setCode": "UNH",
+    "productId": 37899.0,
+    "imageCount": 1.0,
+    "score": 1.9542425,
+    "setName": "Unhinged",
+    "sellers": 79.0,
+    "foilOnly": false,
+    "setUrlName": "Unhinged",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 85.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.44,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "125",
+      "Card Type": "Artifact",
+      "Description": "1, T: Say the flavor text on a card in your hand. Target opponent guesses that card's name. You may reveal that card. If you do and your opponent guessed wrong, draw a card.",
+      "Flavor": "<em>This card is named My First Tome.</em>",
+      "Artist": "Heather Hudson"
+    },
+    "skus": [
+      {
+        "sku": 396766,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406322,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403912,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405117,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402707,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

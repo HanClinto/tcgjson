@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:54:02Z",
+  "tcgplayerProductId": 1567,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Simulacrum",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.33,
+    "customAttributes": {
+      "formats": null,
+      "description": "All damage done to you so far this turn is instead retroactively applied to one of your creatures in play. Even if there’s more than enough damage to kill the creature, you don’t suffer any of it. Further damage this turn is treated normally.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Simulacrum",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1567.0,
+    "imageCount": 1.0,
+    "score": 2.507856,
+    "setName": "Revised Edition",
+    "sellers": 328.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 475.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.39,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Instant ",
+      "Description": "All damage done to you so far this turn is instead retroactively applied to one of your creatures in play. Even if there’s more than enough damage to kill the creature, you don’t suffer any of it. Further damage this turn is treated normally.",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 15700,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364646,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333130,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348888,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317372,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:18Z",
+  "tcgplayerProductId": 389,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Storm Crow",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.39,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "1",
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Creature — Bird",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "53",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Storm crow descending, winter unending. <br>Storm crow departing, summer is starting.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.09,
+    "productName": "Storm Crow",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 389.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Starter 1999",
+    "sellers": 91.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 98.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.495,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "53",
+      "Card Type": "Creature — Bird",
+      "P / T": "1 / 2",
+      "Description": "Flying",
+      "Flavor": "<em>Storm crow descending, winter unending. <br>Storm crow departing, summer is starting.</em>",
+      "Artist": "Una Fricker"
+    },
+    "skus": [
+      {
+        "sku": 14883,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363629,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332113,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347871,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316355,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

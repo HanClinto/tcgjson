@@ -1,0 +1,3905 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:53:02Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 93,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 93,
+    "name": "Pro Tour Promos",
+    "urlName": "pro-tour-promos",
+    "abbreviation": "PTP",
+    "releaseDate": null,
+    "isSupplemental": true,
+    "productCount": 25,
+    "priceGuideRowCount": 108,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 25,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 38408,
+      "name": "Char",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38408_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.65,
+          "marketPrice": 0.75,
+          "tcgplayerSkuIds": [
+            784840
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.65,
+          "marketPrice": 0.7,
+          "tcgplayerSkuIds": [
+            824762
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.65,
+          "marketPrice": 1.84,
+          "tcgplayerSkuIds": [
+            844723
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.65,
+          "marketPrice": 0.96,
+          "tcgplayerSkuIds": [
+            804801
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.65,
+          "marketPrice": 1.49,
+          "tcgplayerSkuIds": [
+            407753
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784840,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824762,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844723,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804801,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407753,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Char deals 4 damage to target creature or player and 2 damage to you.",
+        "flavorText": "<em>If you've never choked on the embers of your own spell, you aren't casting it hard enough.</em>",
+        "typeLine": "Instant",
+        "convertedCost": "3",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Dave Dorman",
+        "customAttributes": {
+          "description": "Char deals 4 damage to target creature or player and 2 damage to you.",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Instant",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "flavorText": "<em>If you've never choked on the embers of your own spell, you aren't casting it hard enough.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Instant",
+          "Description": "Char deals 4 damage to target creature or player and 2 damage to you.",
+          "Flavor": "<em>If you've never choked on the embers of your own spell, you aren't casting it hard enough.</em>",
+          "Artist": "Dave Dorman"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 658468,
+      "name": "Aerith Gainsborough",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/658468_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 250.99,
+          "marketPrice": 3600,
+          "tcgplayerSkuIds": [
+            8962732
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 250.99,
+          "marketPrice": 246.15,
+          "tcgplayerSkuIds": [
+            8962728
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 250.99,
+          "marketPrice": 250,
+          "tcgplayerSkuIds": [
+            8962729
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 250.99,
+          "marketPrice": 256.01,
+          "tcgplayerSkuIds": [
+            8962727
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 8962736,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962731,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962735,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962730,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962733,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962728,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962734,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962729,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962732,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8962727,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Lifelink\r\n<br>Whenever you gain life, put a +1/+1 counter on Aerith Gainsborough.\r\n<br>When Aerith Gainsborough dies, put X +1/+1 counters on each legendary creature you control, where X is the number of +1/+1 counters on Aerith Gainsborough.",
+        "typeLine": "Legendary Creature — Human Cleric",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Susumu Kuroi",
+        "customAttributes": {
+          "description": "Lifelink\r\n<br>Whenever you gain life, put a +1/+1 counter on Aerith Gainsborough.\r\n<br>When Aerith Gainsborough dies, put X +1/+1 counters on each legendary creature you control, where X is the number of +1/+1 counters on Aerith Gainsborough.",
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Legendary Creature — Human Cleric",
+          "number": "1",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Legendary Creature — Human Cleric",
+          "P / T": "2 / 2",
+          "Description": "Lifelink\r\n<br>Whenever you gain life, put a +1/+1 counter on Aerith Gainsborough.\r\n<br>When Aerith Gainsborough dies, put X +1/+1 counters on each legendary creature you control, where X is the number of +1/+1 counters on Aerith Gainsborough.",
+          "Artist": "Susumu Kuroi"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 638818,
+      "name": "Cloud, Midgar Mercenary",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/638818_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2750.69,
+          "marketPrice": 2750.99,
+          "tcgplayerSkuIds": [
+            8785056,
+            9063659
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 8785065,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8785060,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9063663,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 8785064,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8785059,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9063662,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 8785062,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8785057,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9063660,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 8785063,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8785058,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9063661,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 8785061,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8785056,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 9063659,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "Japanese"
+        }
+      ],
+      "metadata": {
+        "rulesText": "When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\r\n<br>As long as Cloud is equipped, if an ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.",
+        "typeLine": "Legendary Creature — Human Soldier Mercenary",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "TETSUYA NOMURA",
+        "customAttributes": {
+          "description": "When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\r\n<br>As long as Cloud is equipped, if an ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.",
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Legendary Creature — Human Soldier Mercenary",
+          "number": "1",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Legendary Creature — Human Soldier Mercenary",
+          "P / T": "2 / 1",
+          "Description": "When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.\r\n<br>As long as Cloud is equipped, if an ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time.",
+          "Artist": "TETSUYA NOMURA"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 207770,
+      "name": "Cryptic Command",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/207770_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.92,
+          "marketPrice": 7.66,
+          "tcgplayerSkuIds": [
+            4332461
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.92,
+          "marketPrice": 6.52,
+          "tcgplayerSkuIds": [
+            4332462
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 4.92,
+          "marketPrice": 6.3,
+          "tcgplayerSkuIds": [
+            4332460
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 4332464,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4332463,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4332461,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4332462,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 4332460,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Choose two —\r\n<br>• Counter target spell.\r\n<br>• Return target permanent to its owner's hand.\r\n<br>• Tap all creatures your opponents control.\r\n<br>• Draw a card.",
+        "typeLine": "Instant ",
+        "convertedCost": "4",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Jason Rainville",
+        "customAttributes": {
+          "description": "Choose two —\r\n<br>• Counter target spell.\r\n<br>• Return target permanent to its owner's hand.\r\n<br>• Tap all creatures your opponents control.\r\n<br>• Draw a card.",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Instant ",
+          "number": "1",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Instant ",
+          "Description": "Choose two —\r\n<br>• Counter target spell.\r\n<br>• Return target permanent to its owner's hand.\r\n<br>• Tap all creatures your opponents control.\r\n<br>• Draw a card.",
+          "Artist": "Jason Rainville"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 128632,
+      "name": "Emrakul, the Aeons Torn",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/128632_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 149,
+          "marketPrice": 79.58,
+          "tcgplayerSkuIds": [
+            3317116
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 149,
+          "marketPrice": 79.45,
+          "tcgplayerSkuIds": [
+            3317115
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 149,
+          "marketPrice": 81.08,
+          "tcgplayerSkuIds": [
+            3317113
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 149,
+          "marketPrice": 69.82,
+          "tcgplayerSkuIds": [
+            3317114
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 149,
+          "marketPrice": 116.74,
+          "tcgplayerSkuIds": [
+            3317112
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3317116,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3317115,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3317113,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3317114,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3317112,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Emrakul, the Aeons Torn can't be countered. \r\n<br>\r\nWhen you cast Emrakul, take an extra turn after this one.\r\n<br>\r\nFlying, protection from colored spells, Annihilator 6 \r\n<br>\r\nWhen Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.",
+        "typeLine": "Legendary Creature — Eldrazi",
+        "convertedCost": "15",
+        "power": "15",
+        "powerNumber": "15",
+        "toughness": "15",
+        "toughnessNumber": "15",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Vincent Proce",
+        "customAttributes": {
+          "description": "Emrakul, the Aeons Torn can't be countered. \r\n<br>\r\nWhen you cast Emrakul, take an extra turn after this one.\r\n<br>\r\nFlying, protection from colored spells, Annihilator 6 \r\n<br>\r\nWhen Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.",
+          "powerNumber": "15",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Legendary Creature — Eldrazi",
+          "number": "1",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "15",
+          "rarityDbName": "P",
+          "power": "15",
+          "toughnessNumber": "15",
+          "toughness": "15"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Legendary Creature — Eldrazi",
+          "P / T": "15 / 15",
+          "Description": "Emrakul, the Aeons Torn can't be countered. \r\n<br>\r\nWhen you cast Emrakul, take an extra turn after this one.\r\n<br>\r\nFlying, protection from colored spells, Annihilator 6 \r\n<br>\r\nWhen Emrakul is put into a graveyard from anywhere, its owner shuffles his or her graveyard into his or her library.",
+          "Artist": "Vincent Proce"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 449417,
+      "name": "Gideon, Ally of Zendikar",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/449417_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 6.51,
+          "marketPrice": 4.17,
+          "tcgplayerSkuIds": [
+            6653589
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 6.51,
+          "marketPrice": 8.87,
+          "tcgplayerSkuIds": [
+            6653588
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6652686,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653592,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652685,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653591,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652683,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653589,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652684,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653590,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652682,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653588,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "[+1]: Until end of turn, Gideon, Ally of Zendikar becomes a 5/5 Human Soldier Ally Creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.\r\n<br>\r\n[0]: Create a 2/2 white Knight Ally creature token.\r\n<br>\r\n[-4]: You get an emblem with \"Creatures you control get +1/+1.",
+        "typeLine": "Legendary Planeswalker — Gideon",
+        "convertedCost": "4",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Planeswalker"
+        ],
+        "artist": "Alexis Ziritt",
+        "customAttributes": {
+          "description": "[+1]: Until end of turn, Gideon, Ally of Zendikar becomes a 5/5 Human Soldier Ally Creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.\r\n<br>\r\n[0]: Create a 2/2 white Knight Ally creature token.\r\n<br>\r\n[-4]: You get an emblem with \"Creatures you control get +1/+1.",
+          "color": [
+            "White"
+          ],
+          "fullType": "Legendary Planeswalker — Gideon",
+          "number": "1",
+          "cardType": [
+            "Legendary",
+            "Planeswalker"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Legendary Planeswalker — Gideon",
+          "Description": "[+1]: Until end of turn, Gideon, Ally of Zendikar becomes a 5/5 Human Soldier Ally Creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.\r\n<br>\r\n[0]: Create a 2/2 white Knight Ally creature token.\r\n<br>\r\n[-4]: You get an emblem with \"Creatures you control get +1/+1.",
+          "Artist": "Alexis Ziritt"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 279848,
+      "name": "Lava Spike",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/279848_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.49,
+          "marketPrice": 3.02,
+          "tcgplayerSkuIds": [
+            5727792
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.49,
+          "marketPrice": 2.93,
+          "tcgplayerSkuIds": [
+            5727791
+          ]
+        },
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.49,
+          "marketPrice": 0.65,
+          "tcgplayerSkuIds": [
+            5727885
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.49,
+          "marketPrice": 0.72,
+          "tcgplayerSkuIds": [
+            5727884
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.49,
+          "marketPrice": 0.89,
+          "tcgplayerSkuIds": [
+            5727882
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.49,
+          "marketPrice": 0.83,
+          "tcgplayerSkuIds": [
+            5727883
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.49,
+          "marketPrice": 1.11,
+          "tcgplayerSkuIds": [
+            5727881
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 5727795,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727885,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727794,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727884,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727792,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727882,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727793,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727883,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727791,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5727881,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Lava Spike deals 3 damage to target player or planeswalker.",
+        "typeLine": "Sorcery — Arcane",
+        "convertedCost": "1",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Igor Kieryluk",
+        "customAttributes": {
+          "description": "Lava Spike deals 3 damage to target player or planeswalker.",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Sorcery — Arcane",
+          "number": "1",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Sorcery — Arcane",
+          "Description": "Lava Spike deals 3 damage to target player or planeswalker.",
+          "Artist": "Igor Kieryluk"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 98276,
+      "name": "Liliana of the Veil",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/98276_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 19.41,
+          "marketPrice": 20.47,
+          "tcgplayerSkuIds": [
+            2875139
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 19.41,
+          "marketPrice": 24.66,
+          "tcgplayerSkuIds": [
+            2875138
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 2875142,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2875141,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2875139,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2875140,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2875138,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "[+1]: Each player discards a card.\r\n<br>[-2]: Target player sacrifices a creature.\r\n<br>[-6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.",
+        "typeLine": "Planeswalker — Liliana",
+        "convertedCost": "3",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Planeswalker"
+        ],
+        "artist": "Steve Argyle",
+        "customAttributes": {
+          "description": "[+1]: Each player discards a card.\r\n<br>[-2]: Target player sacrifices a creature.\r\n<br>[-6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Planeswalker — Liliana",
+          "number": "1",
+          "cardType": [
+            "Planeswalker"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Planeswalker — Liliana",
+          "Description": "[+1]: Each player discards a card.\r\n<br>[-2]: Target player sacrifices a creature.\r\n<br>[-6]: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.",
+          "Artist": "Steve Argyle"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 479644,
+      "name": "Mystical Dispute",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/479644_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.5,
+          "marketPrice": 12.72,
+          "tcgplayerSkuIds": [
+            6966875
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.5,
+          "marketPrice": 16.99,
+          "tcgplayerSkuIds": [
+            6966876
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.5,
+          "marketPrice": 14.32,
+          "tcgplayerSkuIds": [
+            6966874
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 2.5,
+          "marketPrice": 2.38,
+          "tcgplayerSkuIds": [
+            6966872
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2.5,
+          "marketPrice": 3.22,
+          "tcgplayerSkuIds": [
+            6966870
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 2.5,
+          "marketPrice": 1.98,
+          "tcgplayerSkuIds": [
+            6966871
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2.5,
+          "marketPrice": 3.2,
+          "tcgplayerSkuIds": [
+            6966869
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6966878,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966873,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966877,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966872,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966875,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966870,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966876,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966871,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966874,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6966869,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "This spell costs 2 less to cast if it targets a blue spell.\r\n<br>Counter target spell unless its controller pays 3.",
+        "typeLine": "Instant",
+        "convertedCost": "3",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Instant"
+        ],
+        "artist": "Brigitte Roka",
+        "customAttributes": {
+          "description": "This spell costs 2 less to cast if it targets a blue spell.\r\n<br>Counter target spell unless its controller pays 3.",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Instant",
+          "number": "1",
+          "cardType": [
+            "Instant"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Instant",
+          "Description": "This spell costs 2 less to cast if it targets a blue spell.\r\n<br>Counter target spell unless its controller pays 3.",
+          "Artist": "Brigitte Roka"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 164074,
+      "name": "Noble Hierarch",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/164074_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 21.98,
+          "marketPrice": 15.27,
+          "tcgplayerSkuIds": [
+            3633997
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 21.98,
+          "marketPrice": 22.4,
+          "tcgplayerSkuIds": [
+            3633995
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 21.98,
+          "marketPrice": 18.45,
+          "tcgplayerSkuIds": [
+            3633996
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 21.98,
+          "marketPrice": 25.36,
+          "tcgplayerSkuIds": [
+            3633994
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3633998,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3633997,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3633995,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3633996,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3633994,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Exalted <em>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</em>\r\n<br>\r\nT: Add G, W, or U to your mana pool.",
+        "flavorText": "<em>She protects the sacred groves from blight, drought, and the Unbeholden.</em>",
+        "typeLine": "Creature — Human Druid",
+        "convertedCost": "1",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Matt Stewart",
+        "customAttributes": {
+          "description": "Exalted <em>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</em>\r\n<br>\r\nT: Add G, W, or U to your mana pool.",
+          "powerNumber": "0",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Human Druid",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "R",
+          "power": "0",
+          "flavorText": "<em>She protects the sacred groves from blight, drought, and the Unbeholden.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "#": "1",
+          "Card Type": "Creature — Human Druid",
+          "P / T": "0 / 1",
+          "Description": "Exalted <em>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</em>\r\n<br>\r\nT: Add G, W, or U to your mana pool.",
+          "Flavor": "<em>She protects the sacred groves from blight, drought, and the Unbeholden.</em>",
+          "Artist": "Matt Stewart"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 114834,
+      "name": "Snapcaster Mage",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/114834_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 36.33,
+          "marketPrice": 37.52,
+          "tcgplayerSkuIds": [
+            3092807
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 36.33,
+          "marketPrice": 36.33,
+          "tcgplayerSkuIds": [
+            3092808
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 36.33,
+          "marketPrice": 40.76,
+          "tcgplayerSkuIds": [
+            3092806
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3092810,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3092809,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3092807,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3092808,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3092806,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flash\r\n<br>\r\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. <em>(You may cast that card from your graveyard for its flashback cost. Then exile it.)</em>",
+        "typeLine": "Creature — Human Wizard",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Joseph Meehan",
+        "customAttributes": {
+          "description": "Flash\r\n<br>\r\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. <em>(You may cast that card from your graveyard for its flashback cost. Then exile it.)</em>",
+          "powerNumber": "2",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Human Wizard",
+          "number": "1",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Creature — Human Wizard",
+          "P / T": "2 / 1",
+          "Description": "Flash\r\n<br>\r\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. <em>(You may cast that card from your graveyard for its flashback cost. Then exile it.)</em>",
+          "Artist": "Joseph Meehan"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 449422,
+      "name": "Selfless Spirit",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/449422_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8,
+          "marketPrice": 34.18,
+          "tcgplayerSkuIds": [
+            6652728
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8,
+          "marketPrice": 27.69,
+          "tcgplayerSkuIds": [
+            6652729
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 8,
+          "marketPrice": 36.74,
+          "tcgplayerSkuIds": [
+            6652727
+          ]
+        },
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 6.63,
+          "tcgplayerSkuIds": [
+            6653582
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 9.83,
+          "tcgplayerSkuIds": [
+            6653579
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 9.09,
+          "tcgplayerSkuIds": [
+            6653580
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 9.22,
+          "tcgplayerSkuIds": [
+            6653578
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6652731,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653582,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652730,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653581,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652728,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653579,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652729,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653580,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652727,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653578,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nSacrifice Selfless Spirit: Creatures you control gain indestructible until end of turn.",
+        "typeLine": "Creature — Spirit Cleric",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Justine Jones",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nSacrifice Selfless Spirit: Creatures you control gain indestructible until end of turn.",
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Spirit Cleric",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Spirit Cleric",
+          "P / T": "2 / 1",
+          "Description": "Flying\r\n<br>\r\nSacrifice Selfless Spirit: Creatures you control gain indestructible until end of turn.",
+          "Artist": "Justine Jones"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 489666,
+      "name": "Snapcaster Mage (Regional Championship Qualifiers 2023)",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/489666_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 39.5,
+          "marketPrice": 600,
+          "tcgplayerSkuIds": [
+            7039425
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 39.5,
+          "marketPrice": 41.86,
+          "tcgplayerSkuIds": [
+            7198996
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 39.5,
+          "marketPrice": 41.92,
+          "tcgplayerSkuIds": [
+            7198995
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7039429,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7198999,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7039428,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7198998,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7039426,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7198996,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7039427,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7198997,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7039425,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7198995,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flash\r\n<br>\r\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to the mana cost.",
+        "typeLine": "Creature — Human Wizard",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jack Hughes",
+        "customAttributes": {
+          "description": "Flash\r\n<br>\r\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to the mana cost.",
+          "powerNumber": "2",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Human Wizard",
+          "number": "2",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Creature — Human Wizard",
+          "P / T": "2 / 1",
+          "Description": "Flash\r\n<br>\r\nWhen Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to the mana cost.",
+          "Artist": "Jack Hughes"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 455841,
+      "name": "Teferi, Hero of Dominaria",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/455841_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 7,
+          "marketPrice": 130.91,
+          "tcgplayerSkuIds": [
+            6768537
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 7,
+          "marketPrice": 10.28,
+          "tcgplayerSkuIds": [
+            6768533
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 7,
+          "marketPrice": 10.92,
+          "tcgplayerSkuIds": [
+            6768532
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6768541,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768536,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768540,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768535,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768538,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768533,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768539,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768534,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768537,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6768532,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "[+1]: Draw a card. At the beginning of the next end step, untap up to two lands.\r\n<br>\r\n[-3]: Put target nonland permanent into its owner's library third from the top.\r\n<br>\r\n[-8]: You get an emblem with \"Whenever you draw a card, exile target permanent an opponent controls.\"",
+        "typeLine": "Legendary Planeswalker — Teferi",
+        "convertedCost": "5",
+        "colors": [
+          "Blue",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Planeswalker"
+        ],
+        "artist": "Chris Rallis",
+        "customAttributes": {
+          "description": "[+1]: Draw a card. At the beginning of the next end step, untap up to two lands.\r\n<br>\r\n[-3]: Put target nonland permanent into its owner's library third from the top.\r\n<br>\r\n[-8]: You get an emblem with \"Whenever you draw a card, exile target permanent an opponent controls.\"",
+          "color": [
+            "Blue",
+            "White"
+          ],
+          "fullType": "Legendary Planeswalker — Teferi",
+          "number": "2",
+          "cardType": [
+            "Legendary",
+            "Planeswalker"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Legendary Planeswalker — Teferi",
+          "Description": "[+1]: Draw a card. At the beginning of the next end step, untap up to two lands.\r\n<br>\r\n[-3]: Put target nonland permanent into its owner's library third from the top.\r\n<br>\r\n[-8]: You get an emblem with \"Whenever you draw a card, exile target permanent an opponent controls.\"",
+          "Artist": "Chris Rallis"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 537913,
+      "name": "Seasoned Pyromancer",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "24",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/537913_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 15,
+          "marketPrice": 118.45,
+          "tcgplayerSkuIds": [
+            7746676
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 15,
+          "marketPrice": 172.37,
+          "tcgplayerSkuIds": [
+            7746674
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 15,
+          "marketPrice": 17.42,
+          "tcgplayerSkuIds": [
+            7746670
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 15,
+          "marketPrice": 17.28,
+          "tcgplayerSkuIds": [
+            7746669
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7746678,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746673,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746677,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746672,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746675,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746670,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746676,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746671,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746674,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7746669,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "When Seasoned Pyromancer enters the battlefield, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.\r\n<br>\r\n3RR, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.",
+        "typeLine": "Creature — Human Shaman",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jack Teagle",
+        "customAttributes": {
+          "description": "When Seasoned Pyromancer enters the battlefield, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.\r\n<br>\r\n3RR, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.",
+          "powerNumber": "2",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Human Shaman",
+          "number": "24",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "P",
+          "power": "2",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "24",
+          "Card Type": "Creature — Human Shaman",
+          "P / T": "2 / 2",
+          "Description": "When Seasoned Pyromancer enters the battlefield, discard two cards, then draw two cards. For each nonland card discarded this way, create a 1/1 red Elemental creature token.\r\n<br>\r\n3RR, Exile Seasoned Pyromancer from your graveyard: Create two 1/1 red Elemental creature tokens.",
+          "Artist": "Jack Teagle"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 562024,
+      "name": "Sleight of Hand",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "25",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/562024_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.3,
+          "marketPrice": 2.75,
+          "tcgplayerSkuIds": [
+            8084864
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.3,
+          "marketPrice": 2.5,
+          "tcgplayerSkuIds": [
+            8084863
+          ]
+        },
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.3,
+          "marketPrice": 0.45,
+          "tcgplayerSkuIds": [
+            8084862
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.3,
+          "marketPrice": 0.76,
+          "tcgplayerSkuIds": [
+            8084859
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.3,
+          "marketPrice": 0.59,
+          "tcgplayerSkuIds": [
+            8084860
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.3,
+          "marketPrice": 0.52,
+          "tcgplayerSkuIds": [
+            8084858
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 8084867,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084862,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084866,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084861,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084864,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084859,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084865,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084860,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084863,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 8084858,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.",
+        "typeLine": "Sorcery",
+        "convertedCost": "1",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Helvetica Blanc",
+        "customAttributes": {
+          "description": "Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Sorcery",
+          "number": "25",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "25",
+          "Card Type": "Sorcery",
+          "Description": "Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.",
+          "Artist": "Helvetica Blanc"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 498568,
+      "name": "Gandalf the White",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "299",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/498568_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2999.99,
+          "marketPrice": 2899.99,
+          "tcgplayerSkuIds": [
+            7246532
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 7180365,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7246536,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7180364,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7246535,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7180362,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7246533,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7180363,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7246534,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7180361,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 7246532,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flash\r\n<br>\r\nYou may cast legendary spells and artifact spells as though they had flash.\r\n<br>\r\nIf a legendary permanent or an artifact entering or leaving the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+        "typeLine": "Legendary Creature — Avatar Wizard",
+        "convertedCost": "5",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Leonardo Borazio",
+        "customAttributes": {
+          "description": "Flash\r\n<br>\r\nYou may cast legendary spells and artifact spells as though they had flash.\r\n<br>\r\nIf a legendary permanent or an artifact entering or leaving the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+          "powerNumber": "4",
+          "color": [
+            "White"
+          ],
+          "fullType": "Legendary Creature — Avatar Wizard",
+          "number": "299",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P",
+          "power": "4",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "299",
+          "Card Type": "Legendary Creature — Avatar Wizard",
+          "P / T": "4 / 5",
+          "Description": "Flash\r\n<br>\r\nYou may cast legendary spells and artifact spells as though they had flash.\r\n<br>\r\nIf a legendary permanent or an artifact entering or leaving the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+          "Artist": "Leonardo Borazio"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 278719,
+      "name": "Nykthos, Shrine to Nyx",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/278719_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 55.88,
+          "marketPrice": 240.62,
+          "tcgplayerSkuIds": [
+            5722665
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 55.88,
+          "marketPrice": 191.49,
+          "tcgplayerSkuIds": [
+            5722663
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 55.88,
+          "marketPrice": 181.99,
+          "tcgplayerSkuIds": [
+            5722664
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 55.88,
+          "marketPrice": 201.09,
+          "tcgplayerSkuIds": [
+            5722662
+          ]
+        },
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 55.88,
+          "marketPrice": 55.89,
+          "tcgplayerSkuIds": [
+            5722661
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 55.88,
+          "marketPrice": 65.59,
+          "tcgplayerSkuIds": [
+            5722658
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 55.88,
+          "marketPrice": 61.43,
+          "tcgplayerSkuIds": [
+            5722659
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 55.88,
+          "marketPrice": 71.97,
+          "tcgplayerSkuIds": [
+            5722657
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 5722666,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722661,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722665,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722660,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722663,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722658,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722664,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722659,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722662,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 5722657,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "T: Add 1 to your mana pool.\r\n<br>\r\n2, T: Choose a color. Add to your mana pool an amount of mana of that color equal to your devotion to that color.",
+        "typeLine": "Legendary Land",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Land"
+        ],
+        "artist": "Alayna Danner",
+        "customAttributes": {
+          "description": "T: Add 1 to your mana pool.\r\n<br>\r\n2, T: Choose a color. Add to your mana pool an amount of mana of that color equal to your devotion to that color.",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Legendary Land",
+          "number": "3",
+          "cardType": [
+            "Legendary",
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Legendary Land",
+          "Description": "T: Add 1 to your mana pool.\r\n<br>\r\n2, T: Choose a color. Add to your mana pool an amount of mana of that color equal to your devotion to that color.",
+          "Artist": "Alayna Danner"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 478247,
+      "name": "Thing in the Ice",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/478247_1_in_1000x1000.jpg",
+        "https://tcgplayer-cdn.tcgplayer.com/product/478247_2_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.14,
+          "marketPrice": 11.31,
+          "tcgplayerSkuIds": [
+            6928487
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 4.14,
+          "marketPrice": 12.31,
+          "tcgplayerSkuIds": [
+            6928486
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 4.14,
+          "marketPrice": 5.58,
+          "tcgplayerSkuIds": [
+            6928482
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 4.14,
+          "marketPrice": 5.24,
+          "tcgplayerSkuIds": [
+            6928483
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 4.14,
+          "marketPrice": 5.38,
+          "tcgplayerSkuIds": [
+            6928481
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6928490,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928485,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928489,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928484,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928487,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928482,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928488,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928483,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928486,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6928481,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Defender\r\n<br>\r\nThing in the Ice enters the battlefield with four ice counters on it.\r\n<br>\r\nWhenever you cast an instant or sorcery spell, remove an ice counter from Thing in the Ice. Then if it has no ice counters on it, transform it.\r\n<br>//<br>\r\n<strong>Awoken Horror</strong> \r\n<br>\r\nWhen this creature transforms into Awoken Horror, return all non-Horror creatures to their owner's hands.",
+        "typeLine": "Creature — Horror // Creature — Kraken Horror",
+        "convertedCost": "2",
+        "power": "0/7",
+        "powerNumber": "0/7",
+        "toughness": "4/8",
+        "toughnessNumber": "4/8",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Brandi Milne",
+        "customAttributes": {
+          "description": "Defender\r\n<br>\r\nThing in the Ice enters the battlefield with four ice counters on it.\r\n<br>\r\nWhenever you cast an instant or sorcery spell, remove an ice counter from Thing in the Ice. Then if it has no ice counters on it, transform it.\r\n<br>//<br>\r\n<strong>Awoken Horror</strong> \r\n<br>\r\nWhen this creature transforms into Awoken Horror, return all non-Horror creatures to their owner's hands.",
+          "powerNumber": "0/7",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Horror // Creature — Kraken Horror",
+          "number": "3",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "P",
+          "power": "0/7",
+          "toughnessNumber": "4/8",
+          "toughness": "4/8"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Creature — Horror // Creature — Kraken Horror",
+          "P / T": "0/7 / 4/8",
+          "Description": "Defender\r\n<br>\r\nThing in the Ice enters the battlefield with four ice counters on it.\r\n<br>\r\nWhenever you cast an instant or sorcery spell, remove an ice counter from Thing in the Ice. Then if it has no ice counters on it, transform it.\r\n<br>//<br>\r\n<strong>Awoken Horror</strong> \r\n<br>\r\nWhen this creature transforms into Awoken Horror, return all non-Horror creatures to their owner's hands.",
+          "Artist": "Brandi Milne"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 449427,
+      "name": "Thraben Inspector",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/449427_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.66,
+          "marketPrice": 4.41,
+          "tcgplayerSkuIds": [
+            6652773
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.66,
+          "marketPrice": 5.35,
+          "tcgplayerSkuIds": [
+            6652772
+          ]
+        },
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.66,
+          "marketPrice": 0.58,
+          "tcgplayerSkuIds": [
+            6653577
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.66,
+          "marketPrice": 0.57,
+          "tcgplayerSkuIds": [
+            6653576
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.66,
+          "marketPrice": 0.86,
+          "tcgplayerSkuIds": [
+            6653574
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.66,
+          "marketPrice": 0.97,
+          "tcgplayerSkuIds": [
+            6653575
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.66,
+          "marketPrice": 0.97,
+          "tcgplayerSkuIds": [
+            6653573
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 6652776,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653577,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652775,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653576,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652773,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653574,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652774,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653575,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6652772,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 6653573,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "When Thraben Inspector enters the battlefield, investigate.",
+        "typeLine": "Creature — Human Soldier",
+        "convertedCost": "1",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Yuko Shimizu",
+        "customAttributes": {
+          "description": "When Thraben Inspector enters the battlefield, investigate.",
+          "powerNumber": "1",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Human Soldier",
+          "number": "3",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "P",
+          "power": "1",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Creature — Human Soldier",
+          "P / T": "1 / 2",
+          "Description": "When Thraben Inspector enters the battlefield, investigate.",
+          "Artist": "Yuko Shimizu"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38410,
+      "name": "Eternal Dragon",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "PT 2007",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38410_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8.34,
+          "marketPrice": 29.85,
+          "tcgplayerSkuIds": [
+            844724
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8.34,
+          "marketPrice": 11.57,
+          "tcgplayerSkuIds": [
+            804802
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 8.34,
+          "marketPrice": 13.17,
+          "tcgplayerSkuIds": [
+            407649
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784841,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824763,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844724,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804802,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407649,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\n3WW: Return Eternal Dragon from your graveyard to your hand. Play this ability only during your upkeep.\r\n<br>\r\nPlainscycling 2 <em>(2, Discard this card from your hand: Search your library for a plains card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+        "typeLine": "Creature — Dragon Spirit",
+        "convertedCost": "7",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Adam Rex",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\n3WW: Return Eternal Dragon from your graveyard to your hand. Play this ability only during your upkeep.\r\n<br>\r\nPlainscycling 2 <em>(2, Discard this card from your hand: Search your library for a plains card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+          "powerNumber": "5",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Dragon Spirit",
+          "number": "PT 2007",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "P",
+          "power": "5",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "PT 2007",
+          "Card Type": "Creature — Dragon Spirit",
+          "P / T": "5 / 5",
+          "Description": "Flying\r\n<br>\r\n3WW: Return Eternal Dragon from your graveyard to your hand. Play this ability only during your upkeep.\r\n<br>\r\nPlainscycling 2 <em>(2, Discard this card from your hand: Search your library for a plains card, reveal it, and put it into your hand. Then shuffle your library.)</em>",
+          "Artist": "Adam Rex"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38412,
+      "name": "Mirari's Wake",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "PT 2008",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38412_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.68,
+          "marketPrice": 13.22,
+          "tcgplayerSkuIds": [
+            824765
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.68,
+          "marketPrice": 14.64,
+          "tcgplayerSkuIds": [
+            844726
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.68,
+          "marketPrice": 15.46,
+          "tcgplayerSkuIds": [
+            804804
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 14.68,
+          "marketPrice": 14.69,
+          "tcgplayerSkuIds": [
+            407481
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784843,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824765,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844726,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804804,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407481,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Creatures you control get +1/+1.\r\n<br>\r\nWhenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",
+        "typeLine": "Enchantment",
+        "convertedCost": "5",
+        "colors": [
+          "Green",
+          "White"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "Volkan Baga",
+        "customAttributes": {
+          "description": "Creatures you control get +1/+1.\r\n<br>\r\nWhenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",
+          "color": [
+            "Green",
+            "White"
+          ],
+          "fullType": "Enchantment",
+          "number": "PT 2008",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "PT 2008",
+          "Card Type": "Enchantment",
+          "Description": "Creatures you control get +1/+1.\r\n<br>\r\nWhenever you tap a land for mana, add one mana to your mana pool of any type that land produced.",
+          "Artist": "Volkan Baga"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38414,
+      "name": "Treva, the Renewer",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "PT 2009",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38414_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 21.1,
+          "marketPrice": 10.99,
+          "tcgplayerSkuIds": [
+            784844
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 21.1,
+          "marketPrice": 1.5,
+          "tcgplayerSkuIds": [
+            824766
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 21.1,
+          "marketPrice": 21.34,
+          "tcgplayerSkuIds": [
+            844727
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 21.1,
+          "marketPrice": 26.87,
+          "tcgplayerSkuIds": [
+            804805
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 21.1,
+          "marketPrice": 39.91,
+          "tcgplayerSkuIds": [
+            407802
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784844,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824766,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844727,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804805,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407802,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying\r\n<br>\r\nWhenever Treva, the Renewer deals combat damage to a player, you may pay 2W. If you do, choose a color. You gain 1 life for each permanent of that color.",
+        "typeLine": "Legendary Creature — Dragon",
+        "convertedCost": "6",
+        "power": "6",
+        "powerNumber": "6",
+        "toughness": "6",
+        "toughnessNumber": "6",
+        "colors": [
+          "Blue",
+          "Green",
+          "White"
+        ],
+        "cardTypes": [
+          "Legendary",
+          "Creature"
+        ],
+        "artist": "Jean-Sébastien Rossbach",
+        "customAttributes": {
+          "description": "Flying\r\n<br>\r\nWhenever Treva, the Renewer deals combat damage to a player, you may pay 2W. If you do, choose a color. You gain 1 life for each permanent of that color.",
+          "powerNumber": "6",
+          "color": [
+            "Blue",
+            "Green",
+            "White"
+          ],
+          "fullType": "Legendary Creature — Dragon",
+          "number": "PT 2009",
+          "cardType": [
+            "Legendary",
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "6",
+          "toughnessNumber": "6",
+          "toughness": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "PT 2009",
+          "Card Type": "Legendary Creature — Dragon",
+          "P / T": "6 / 6",
+          "Description": "Flying\r\n<br>\r\nWhenever Treva, the Renewer deals combat damage to a player, you may pay 2W. If you do, choose a color. You gain 1 life for each permanent of that color.",
+          "Artist": "Jean-Sébastien Rossbach"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 38406,
+      "name": "Avatar of Woe",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "PT 2010",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/38406_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 43.63,
+          "marketPrice": 24.55,
+          "tcgplayerSkuIds": [
+            784839
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 43.63,
+          "marketPrice": 43.11,
+          "tcgplayerSkuIds": [
+            844722
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 43.63,
+          "marketPrice": 37.33,
+          "tcgplayerSkuIds": [
+            804800
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 43.63,
+          "marketPrice": 50.9,
+          "tcgplayerSkuIds": [
+            407434
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 784839,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 824761,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 844722,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 804800,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 407434,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs 6 less to play.\r\n<br>\r\nFear\r\n<br>\r\nT: Destroy target creature. It can't be regenerated.",
+        "typeLine": "Creature — Avatar",
+        "convertedCost": "8",
+        "power": "6",
+        "powerNumber": "6",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Artifact"
+        ],
+        "artist": "rk post",
+        "customAttributes": {
+          "description": "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs 6 less to play.\r\n<br>\r\nFear\r\n<br>\r\nT: Destroy target creature. It can't be regenerated.",
+          "powerNumber": "6",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Creature — Avatar",
+          "number": "PT 2010",
+          "cardType": [
+            "Artifact"
+          ],
+          "convertedCost": "8",
+          "rarityDbName": "P",
+          "power": "6",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "PT 2010",
+          "Card Type": "Creature — Avatar",
+          "P / T": "6 / 5",
+          "Description": "If there are ten or more creature cards total in all graveyards, Avatar of Woe costs 6 less to play.\r\n<br>\r\nFear\r\n<br>\r\nT: Destroy target creature. It can't be regenerated.",
+          "Artist": "rk post"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 39335,
+      "name": "Ajani Goldmane (2011 Pro Tour)",
+      "productLineId": 1,
+      "setId": 93,
+      "collectorNumber": "PT 2011",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/39335_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.86,
+          "marketPrice": 7.72,
+          "tcgplayerSkuIds": [
+            844728,
+            3477234,
+            3477239,
+            3477244,
+            3477249,
+            3477254,
+            3477259,
+            3477264,
+            3477269,
+            3477274
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 5.86,
+          "marketPrice": 2.25
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5.86,
+          "marketPrice": 8.14,
+          "tcgplayerSkuIds": [
+            804806,
+            3477235,
+            3477240,
+            3477245,
+            3477250,
+            3477255,
+            3477260,
+            3477265,
+            3477270,
+            3477275
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 5.86,
+          "marketPrice": 10.2,
+          "tcgplayerSkuIds": [
+            416170,
+            3477233,
+            3477238,
+            3477243,
+            3477248,
+            3477253,
+            3477258,
+            3477263,
+            3477268,
+            3477273
+          ]
+        },
+        {
+          "condition": "Near Mint Foil - Japanese",
+          "printing": "Foil",
+          "lowPrice": 5.86,
+          "marketPrice": 1.09
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 3477237,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Chinese (S)"
+        },
+        {
+          "tcgplayerSkuId": 3477242,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Chinese (T)"
+        },
+        {
+          "tcgplayerSkuId": 784845,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3477247,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 3477252,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 3477257,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 3477262,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 3477267,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 3477272,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 3477277,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 3477236,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Chinese (S)"
+        },
+        {
+          "tcgplayerSkuId": 3477241,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Chinese (T)"
+        },
+        {
+          "tcgplayerSkuId": 824767,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3477246,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 3477251,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 3477256,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 3477261,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 3477266,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 3477271,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 3477276,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 3477234,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Chinese (S)"
+        },
+        {
+          "tcgplayerSkuId": 3477239,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Chinese (T)"
+        },
+        {
+          "tcgplayerSkuId": 844728,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3477244,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 3477249,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 3477254,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 3477259,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 3477264,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 3477269,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 3477274,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 3477235,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Chinese (S)"
+        },
+        {
+          "tcgplayerSkuId": 3477240,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Chinese (T)"
+        },
+        {
+          "tcgplayerSkuId": 804806,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3477245,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 3477250,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 3477255,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 3477260,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 3477265,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 3477270,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 3477275,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "Spanish"
+        },
+        {
+          "tcgplayerSkuId": 3477233,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Chinese (S)"
+        },
+        {
+          "tcgplayerSkuId": 3477238,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Chinese (T)"
+        },
+        {
+          "tcgplayerSkuId": 416170,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 3477243,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "French"
+        },
+        {
+          "tcgplayerSkuId": 3477248,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "German"
+        },
+        {
+          "tcgplayerSkuId": 3477253,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Italian"
+        },
+        {
+          "tcgplayerSkuId": 3477258,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Japanese"
+        },
+        {
+          "tcgplayerSkuId": 3477263,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Portuguese"
+        },
+        {
+          "tcgplayerSkuId": 3477268,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Russian"
+        },
+        {
+          "tcgplayerSkuId": 3477273,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "Spanish"
+        }
+      ],
+      "metadata": {
+        "rulesText": "[+1]: You gain 2 life. \r\n<br>\r\n[-1]: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.\r\n<br>\r\n[-6]: Put a white Avatar creature token onto the battlefield. It has \"This creature's power and toughness are each equal to your life total.\"",
+        "typeLine": "Planeswalker — Ajani",
+        "convertedCost": "4",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Planeswalker"
+        ],
+        "artist": "Christopher Moeller",
+        "customAttributes": {
+          "description": "[+1]: You gain 2 life. \r\n<br>\r\n[-1]: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.\r\n<br>\r\n[-6]: Put a white Avatar creature token onto the battlefield. It has \"This creature's power and toughness are each equal to your life total.\"",
+          "color": [
+            "White"
+          ],
+          "fullType": "Planeswalker — Ajani",
+          "number": "PT 2011",
+          "cardType": [
+            "Planeswalker"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "PT 2011",
+          "Card Type": "Planeswalker — Ajani",
+          "Description": "[+1]: You gain 2 life. \r\n<br>\r\n[-1]: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.\r\n<br>\r\n[-6]: Put a white Avatar creature token onto the battlefield. It has \"This creature's power and toughness are each equal to your life total.\"",
+          "Artist": "Christopher Moeller"
+        }
+      }
+    }
+  ]
+}

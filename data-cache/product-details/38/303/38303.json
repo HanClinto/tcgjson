@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:42:52Z",
+  "tcgplayerProductId": 38303,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Cryptic Command",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 20.71,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "1",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 11.98,
+    "productName": "Cryptic Command",
+    "setId": 71.0,
+    "setCode": "MPRP",
+    "productId": 38303.0,
+    "imageCount": 1.0,
+    "score": 2.1875207,
+    "setName": "Magic Player Rewards",
+    "sellers": 51.0,
+    "foilOnly": true,
+    "setUrlName": "Magic Player Rewards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 70.0,
+    "lowestPrice": 11.37,
+    "medianPrice": 24.99,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "1",
+      "Card Type": "Instant",
+      "Artist": "Wayne England"
+    },
+    "skus": [
+      {
+        "sku": 407462,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 841007,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 801085,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 821046,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 781124,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

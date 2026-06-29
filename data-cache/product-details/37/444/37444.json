@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:48:22Z",
+  "tcgplayerProductId": 37444,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Syphon Mind",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.49,
+    "customAttributes": {
+      "formats": null,
+      "description": "Each other player discards a card. You draw a card for each card discarded this way.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2009-09-04T00:00:00Z",
+      "number": "42",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>When tempers run high, it's easy to lose your head.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.4,
+    "productName": "Syphon Mind",
+    "setId": 84.0,
+    "setCode": "HOP",
+    "productId": 37444.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Planechase",
+    "sellers": 63.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 73.0,
+    "lowestPrice": 0.4,
+    "medianPrice": 0.65,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "42",
+      "Card Type": "Sorcery",
+      "Description": "Each other player discards a card. You draw a card for each card discarded this way.",
+      "Flavor": "<em>When tempers run high, it's easy to lose your head.</em>",
+      "Artist": "Jeff Easley"
+    },
+    "skus": [
+      {
+        "sku": 396762,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406127,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403717,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404922,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402512,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

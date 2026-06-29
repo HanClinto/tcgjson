@@ -1,0 +1,2341 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:25Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 106,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 106,
+    "name": "Starter 2000",
+    "urlName": "starter-2000",
+    "abbreviation": "S00",
+    "releaseDate": "2000-04-03T00:00:00",
+    "isSupplemental": true,
+    "productCount": 20,
+    "priceGuideRowCount": 64,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 20,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 37765,
+      "name": "Angelic Blessing",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37765_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.13,
+          "tcgplayerSkuIds": [
+            406188
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            403778
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.2,
+          "tcgplayerSkuIds": [
+            396942
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402573,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 404983,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406188,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403778,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 396942,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Target creature gets +3/+3 and gains flying until end of turn.",
+        "flavorText": "<em>Only the warrior who can admit mortal weakness will be bolstered by immortal strength.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "3",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Mark Zug",
+        "customAttributes": {
+          "description": "Target creature gets +3/+3 and gains flying until end of turn.",
+          "color": [
+            "White"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "C",
+          "flavorText": "<em>Only the warrior who can admit mortal weakness will be bolstered by immortal strength.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Sorcery",
+          "Description": "Target creature gets +3/+3 and gains flying until end of turn.",
+          "Flavor": "<em>Only the warrior who can admit mortal weakness will be bolstered by immortal strength.</em>",
+          "Artist": "Mark Zug"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37767,
+      "name": "Breath of Life",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37767_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.24,
+          "tcgplayerSkuIds": [
+            404985
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            406190
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.23,
+          "tcgplayerSkuIds": [
+            403780
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.32,
+          "tcgplayerSkuIds": [
+            397802
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402575,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 404985,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406190,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403780,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397802,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Return target creature card from your graveyard to the battlefield.",
+        "typeLine": "Sorcery",
+        "convertedCost": "4",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "DiTerlizzi",
+        "customAttributes": {
+          "description": "Return target creature card from your graveyard to the battlefield.",
+          "color": [
+            "White"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "U"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "Card Type": "Sorcery",
+          "Description": "Return target creature card from your graveyard to the battlefield.",
+          "Artist": "DiTerlizzi"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37772,
+      "name": "Durkwood Boars",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37772_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.23,
+          "tcgplayerSkuIds": [
+            406195
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402580,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 404990,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406195,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403785,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397571,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>\"And the unclean spirits went out, and entered the swine: and the herd ran violently . . . .\"</em>\r\n<br>\r\n—The Bible<em>, Mark 5:13</em>",
+        "typeLine": "Creature — Boar",
+        "convertedCost": "5",
+        "power": "4",
+        "powerNumber": "4",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Mike Kimble",
+        "customAttributes": {
+          "powerNumber": "4",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Boar",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "C",
+          "power": "4",
+          "flavorText": "<em>\"And the unclean spirits went out, and entered the swine: and the herd ran violently . . . .\"</em>\r\n<br>\r\n—The Bible<em>, Mark 5:13</em>",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Boar",
+          "P / T": "4 / 4",
+          "Flavor": "<em>\"And the unclean spirits went out, and entered the swine: and the herd ran violently . . . .\"</em>\r\n<br>\r\n—The Bible<em>, Mark 5:13</em>",
+          "Artist": "Mike Kimble"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37773,
+      "name": "Eager Cadet",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37773_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.01,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            406196
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.01,
+          "marketPrice": 0.09,
+          "tcgplayerSkuIds": [
+            396792
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402581,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 404991,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406196,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403786,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 396792,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>The enthusiasm of the young, sharpened by the discipline of a soldier.</em>",
+        "typeLine": "Creature — Soldier ",
+        "convertedCost": "1",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Scott M. Fischer",
+        "customAttributes": {
+          "powerNumber": "1",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Soldier ",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>The enthusiasm of the young, sharpened by the discipline of a soldier.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Soldier ",
+          "P / T": "1 / 1",
+          "Flavor": "<em>The enthusiasm of the young, sharpened by the discipline of a soldier.</em>",
+          "Artist": "Scott M. Fischer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37778,
+      "name": "Giant Octopus",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37778_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.54,
+          "tcgplayerSkuIds": [
+            406201
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            403791
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            397746
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402586,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 404996,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406201,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403791,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397746,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>At the sight of the thing the calamari vendor's eyes went wide, but from fear or avarice none could tell.</em>",
+        "typeLine": "Creature — Octopus",
+        "convertedCost": "4",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "John Matson",
+        "customAttributes": {
+          "powerNumber": "3",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Octopus",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "C",
+          "power": "3",
+          "flavorText": "<em>At the sight of the thing the calamari vendor's eyes went wide, but from fear or avarice none could tell.</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Octopus",
+          "P / T": "3 / 3",
+          "Flavor": "<em>At the sight of the thing the calamari vendor's eyes went wide, but from fear or avarice none could tell.</em>",
+          "Artist": "John Matson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37780,
+      "name": "Hand of Death",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37780_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.21,
+          "tcgplayerSkuIds": [
+            406203
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.44,
+          "tcgplayerSkuIds": [
+            403793
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.22,
+          "tcgplayerSkuIds": [
+            397251
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402588,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 404998,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406203,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403793,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397251,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Destroy target nonblack creature.",
+        "flavorText": "<em>The touch of death is never gentle.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "3",
+        "colors": [
+          "Black"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Heather Hudson",
+        "customAttributes": {
+          "description": "Destroy target nonblack creature.",
+          "color": [
+            "Black"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "C",
+          "flavorText": "<em>The touch of death is never gentle.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Sorcery",
+          "Description": "Destroy target nonblack creature.",
+          "Flavor": "<em>The touch of death is never gentle.</em>",
+          "Artist": "Heather Hudson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37784,
+      "name": "Knight Errant",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37784_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.08,
+          "marketPrice": 0.26,
+          "tcgplayerSkuIds": [
+            406207
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.08,
+          "marketPrice": 0.1,
+          "tcgplayerSkuIds": [
+            403797
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.08,
+          "marketPrice": 0.31,
+          "tcgplayerSkuIds": [
+            397783
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402592,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405002,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406207,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403797,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397783,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>\". . . Before honor is humility.\"</em>\r\n<br>\r\n—The Bible<em>, Proverbs 15:33</em>",
+        "typeLine": "Creature — Knight",
+        "convertedCost": "2",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Dan Frazier",
+        "customAttributes": {
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Knight",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "2",
+          "flavorText": "<em>\". . . Before honor is humility.\"</em>\r\n<br>\r\n—The Bible<em>, Proverbs 15:33</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Knight",
+          "P / T": "2 / 2",
+          "Flavor": "<em>\". . . Before honor is humility.\"</em>\r\n<br>\r\n—The Bible<em>, Proverbs 15:33</em>",
+          "Artist": "Dan Frazier"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37785,
+      "name": "Lava Axe",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37785_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.24,
+          "tcgplayerSkuIds": [
+            406208
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.09,
+          "tcgplayerSkuIds": [
+            403798
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.08,
+          "tcgplayerSkuIds": [
+            397020
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402593,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405003,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406208,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403798,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397020,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Lava Axe deals 5 damage to target player.",
+        "flavorText": "<em>Meant to cut through the body and burn straight to the soul.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "5",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Brian Snoddy",
+        "customAttributes": {
+          "description": "Lava Axe deals 5 damage to target player.",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "5",
+          "rarityDbName": "C",
+          "flavorText": "<em>Meant to cut through the body and burn straight to the soul.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Sorcery",
+          "Description": "Lava Axe deals 5 damage to target player.",
+          "Flavor": "<em>Meant to cut through the body and burn straight to the soul.</em>",
+          "Artist": "Brian Snoddy"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37788,
+      "name": "Mons's Goblin Raiders",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37788_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.21,
+          "tcgplayerSkuIds": [
+            402596
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            405006
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.21,
+          "tcgplayerSkuIds": [
+            406211
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.26,
+          "tcgplayerSkuIds": [
+            403801
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.15,
+          "tcgplayerSkuIds": [
+            397113
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402596,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405006,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406211,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403801,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397113,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>Just because they have a club doesn't mean they're organized.</em>",
+        "typeLine": "Creature — Goblin",
+        "convertedCost": "1",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Pete Venters",
+        "customAttributes": {
+          "powerNumber": "1",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Goblin",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>Just because they have a club doesn't mean they're organized.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Goblin",
+          "P / T": "1 / 1",
+          "Flavor": "<em>Just because they have a club doesn't mean they're organized.</em>",
+          "Artist": "Pete Venters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37789,
+      "name": "Monstrous Growth",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37789_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.14,
+          "tcgplayerSkuIds": [
+            402597
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.05,
+          "tcgplayerSkuIds": [
+            405007
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            406212
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.48,
+          "tcgplayerSkuIds": [
+            397390
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402597,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405007,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406212,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403802,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397390,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Target creature gets +4/+4 until end of turn.",
+        "flavorText": "<em>The nightstalkers' little game of tease-the-squirrel suddenly took an unexpected turn.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "2",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Una Fricker",
+        "customAttributes": {
+          "description": "Target creature gets +4/+4 until end of turn.",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "flavorText": "<em>The nightstalkers' little game of tease-the-squirrel suddenly took an unexpected turn.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Sorcery",
+          "Description": "Target creature gets +4/+4 until end of turn.",
+          "Flavor": "<em>The nightstalkers' little game of tease-the-squirrel suddenly took an unexpected turn.</em>",
+          "Artist": "Una Fricker"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37790,
+      "name": "Moon Sprite",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Uncommon",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37790_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            405008
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.42,
+          "tcgplayerSkuIds": [
+            406213
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.12,
+          "tcgplayerSkuIds": [
+            403803
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.11,
+          "marketPrice": 0.24,
+          "tcgplayerSkuIds": [
+            397825
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402598,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405008,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406213,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403803,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397825,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying",
+        "flavorText": "<em>\"I am that merry wanderer of the night.\"\r\n<br>\r\n—William Shakespeare,</em>\r\n<br>\r\nA Midsummer Night's Dream",
+        "typeLine": "Creature — Faerie",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Terese Nielsen",
+        "customAttributes": {
+          "description": "Flying",
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Faerie",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "U",
+          "power": "1",
+          "flavorText": "<em>\"I am that merry wanderer of the night.\"\r\n<br>\r\n—William Shakespeare,</em>\r\n<br>\r\nA Midsummer Night's Dream",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "U",
+          "Card Type": "Creature — Faerie",
+          "P / T": "1 / 1",
+          "Description": "Flying",
+          "Flavor": "<em>\"I am that merry wanderer of the night.\"\r\n<br>\r\n—William Shakespeare,</em>\r\n<br>\r\nA Midsummer Night's Dream",
+          "Artist": "Terese Nielsen"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37793,
+      "name": "Ogre Warrior",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37793_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.06,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            406216
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.06,
+          "marketPrice": 0.08,
+          "tcgplayerSkuIds": [
+            396843
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402601,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405011,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406216,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403806,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 396843,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>Assault and battery included.</em>",
+        "typeLine": "Creature — Ogre Warrior",
+        "convertedCost": "4",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jeff Miracola",
+        "customAttributes": {
+          "powerNumber": "3",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Ogre Warrior",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "4",
+          "rarityDbName": "C",
+          "power": "3",
+          "flavorText": "<em>Assault and battery included.</em>",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Ogre Warrior",
+          "P / T": "3 / 3",
+          "Flavor": "<em>Assault and battery included.</em>",
+          "Artist": "Jeff Miracola"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37799,
+      "name": "Royal Falcon",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37799_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.31,
+          "tcgplayerSkuIds": [
+            406222
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.27,
+          "tcgplayerSkuIds": [
+            403812
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.19,
+          "tcgplayerSkuIds": [
+            396879
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402607,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405017,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406222,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403812,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 396879,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying",
+        "flavorText": "<em>Hunter by instinct, weapon by training.</em>",
+        "typeLine": "Creature — Bird",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Carl Critchlow",
+        "customAttributes": {
+          "description": "Flying",
+          "powerNumber": "1",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Bird",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>Hunter by instinct, weapon by training.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Bird",
+          "P / T": "1 / 1",
+          "Description": "Flying",
+          "Flavor": "<em>Hunter by instinct, weapon by training.</em>",
+          "Artist": "Carl Critchlow"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37802,
+      "name": "Sea Eagle",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37802_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.1,
+          "tcgplayerSkuIds": [
+            406225
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.19,
+          "tcgplayerSkuIds": [
+            396970
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402610,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405020,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406225,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403815,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 396970,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying",
+        "flavorText": "<em>Where air meets water, fish meets talon.</em>",
+        "typeLine": "Creature — Bird",
+        "convertedCost": "2",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "Flying",
+          "powerNumber": "1",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Bird",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "2",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>Where air meets water, fish meets talon.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Bird",
+          "P / T": "1 / 1",
+          "Description": "Flying",
+          "Flavor": "<em>Where air meets water, fish meets talon.</em>",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37809,
+      "name": "Time Ebb",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37809_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.07,
+          "marketPrice": 0.07,
+          "tcgplayerSkuIds": [
+            402617
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.07,
+          "marketPrice": 0.11,
+          "tcgplayerSkuIds": [
+            406232
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.07,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            403822
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.07,
+          "marketPrice": 0.08,
+          "tcgplayerSkuIds": [
+            397444
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402617,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405027,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406232,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403822,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397444,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Put target creature on top of its owner's library.",
+        "flavorText": "<em>Like the tide, time both ebbs and flows.</em>",
+        "typeLine": "Sorcery",
+        "convertedCost": "3",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Sorcery"
+        ],
+        "artist": "Alan Rabinowitz",
+        "customAttributes": {
+          "description": "Put target creature on top of its owner's library.",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Sorcery",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Sorcery"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "C",
+          "flavorText": "<em>Like the tide, time both ebbs and flows.</em>"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Sorcery",
+          "Description": "Put target creature on top of its owner's library.",
+          "Flavor": "<em>Like the tide, time both ebbs and flows.</em>",
+          "Artist": "Alan Rabinowitz"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37810,
+      "name": "Trained Orgg",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37810_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.34,
+          "tcgplayerSkuIds": [
+            405028
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.09,
+          "tcgplayerSkuIds": [
+            406233
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.11,
+          "tcgplayerSkuIds": [
+            403823
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.09,
+          "marketPrice": 0.15,
+          "tcgplayerSkuIds": [
+            397885
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402618,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405028,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406233,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403823,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397885,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>All orggs know how to kill; training teaches them</em> what <em>to kill.</em>",
+        "typeLine": "Creature — Orgg",
+        "convertedCost": "7",
+        "power": "6",
+        "powerNumber": "6",
+        "toughness": "6",
+        "toughnessNumber": "6",
+        "colors": [
+          "Red"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Eric Peterson",
+        "customAttributes": {
+          "powerNumber": "6",
+          "color": [
+            "Red"
+          ],
+          "fullType": "Creature — Orgg",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "R",
+          "power": "6",
+          "flavorText": "<em>All orggs know how to kill; training teaches them</em> what <em>to kill.</em>",
+          "toughnessNumber": "6",
+          "toughness": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "Card Type": "Creature — Orgg",
+          "P / T": "6 / 6",
+          "Flavor": "<em>All orggs know how to kill; training teaches them</em> what <em>to kill.</em>",
+          "Artist": "Eric Peterson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37812,
+      "name": "Vizzerdrix",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Rare",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37812_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.24,
+          "tcgplayerSkuIds": [
+            402620
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.55,
+          "tcgplayerSkuIds": [
+            406235
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.35,
+          "tcgplayerSkuIds": [
+            403825
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.14,
+          "tcgplayerSkuIds": [
+            397548
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402620,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405030,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406235,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403825,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397548,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>Its swamp cousin may be meaner, but the vizzerdrix is much bigger.</em>",
+        "typeLine": "Creature — Beast ",
+        "convertedCost": "7",
+        "power": "6",
+        "powerNumber": "6",
+        "toughness": "6",
+        "toughnessNumber": "6",
+        "colors": [
+          "Blue"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Eric Peterson",
+        "customAttributes": {
+          "powerNumber": "6",
+          "color": [
+            "Blue"
+          ],
+          "fullType": "Creature — Beast ",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "7",
+          "rarityDbName": "R",
+          "power": "6",
+          "flavorText": "<em>Its swamp cousin may be meaner, but the vizzerdrix is much bigger.</em>",
+          "toughnessNumber": "6",
+          "toughness": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "R",
+          "Card Type": "Creature — Beast ",
+          "P / T": "6 / 6",
+          "Flavor": "<em>Its swamp cousin may be meaner, but the vizzerdrix is much bigger.</em>",
+          "Artist": "Eric Peterson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37813,
+      "name": "Wild Griffin",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37813_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.15,
+          "tcgplayerSkuIds": [
+            406236
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.05,
+          "marketPrice": 0.36,
+          "tcgplayerSkuIds": [
+            396770
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402621,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405031,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406236,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403826,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 396770,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Flying",
+        "flavorText": "<em>Two little goblins, out in the sun. Down came a griffin, and then there was one.</em>",
+        "typeLine": "Creature — Griffin",
+        "convertedCost": "3",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "colors": [
+          "White"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Jeff Miracola",
+        "customAttributes": {
+          "description": "Flying",
+          "powerNumber": "2",
+          "color": [
+            "White"
+          ],
+          "fullType": "Creature — Griffin",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "3",
+          "rarityDbName": "C",
+          "power": "2",
+          "flavorText": "<em>Two little goblins, out in the sun. Down came a griffin, and then there was one.</em>",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Griffin",
+          "P / T": "2 / 2",
+          "Description": "Flying",
+          "Flavor": "<em>Two little goblins, out in the sun. Down came a griffin, and then there was one.</em>",
+          "Artist": "Jeff Miracola"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 37814,
+      "name": "Willow Elf",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "",
+      "rarity": "Common",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/37814_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.15,
+          "marketPrice": 0.24,
+          "tcgplayerSkuIds": [
+            405032
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.15,
+          "marketPrice": 0.23,
+          "tcgplayerSkuIds": [
+            406237
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.15,
+          "marketPrice": 0.29,
+          "tcgplayerSkuIds": [
+            397053
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 402622,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 405032,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 406237,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 403827,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 397053,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "flavorText": "<em>The forest lives in the elf as the elf lives in the forest.</em>",
+        "typeLine": "Creature — Elf ",
+        "convertedCost": "1",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "DiTerlizzi",
+        "customAttributes": {
+          "powerNumber": "1",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Elf ",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "1",
+          "rarityDbName": "C",
+          "power": "1",
+          "flavorText": "<em>The forest lives in the elf as the elf lives in the forest.</em>",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "C",
+          "Card Type": "Creature — Elf ",
+          "P / T": "1 / 1",
+          "Flavor": "<em>The forest lives in the elf as the elf lives in the forest.</em>",
+          "Artist": "DiTerlizzi"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21705,
+      "name": "Rhox",
+      "productLineId": 1,
+      "setId": 106,
+      "collectorNumber": "112a",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21705_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.31,
+          "tcgplayerSkuIds": [
+            787162
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.25,
+          "tcgplayerSkuIds": [
+            827084
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.4,
+          "tcgplayerSkuIds": [
+            847045
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.45,
+          "tcgplayerSkuIds": [
+            807123
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.12,
+          "marketPrice": 0.91,
+          "tcgplayerSkuIds": [
+            130494
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 787162,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 827084,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 847045,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 807123,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 130494,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "You may have Rhox deal combat damage to defending player as though it weren’t blocked.\r\n<br>\r\n2G: Regenerate Rhox.",
+        "flavorText": "[Note: Comes with Starter 2000 and is foil]",
+        "typeLine": "Creature — Beast",
+        "convertedCost": "6",
+        "power": "5",
+        "powerNumber": "5",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "colors": [
+          "Green"
+        ],
+        "cardTypes": [
+          "Creature"
+        ],
+        "artist": "Mark Zug",
+        "customAttributes": {
+          "description": "You may have Rhox deal combat damage to defending player as though it weren’t blocked.\r\n<br>\r\n2G: Regenerate Rhox.",
+          "powerNumber": "5",
+          "color": [
+            "Green"
+          ],
+          "fullType": "Creature — Beast",
+          "releaseDate": "2000-04-03T00:00:00Z",
+          "number": "112a",
+          "cardType": [
+            "Creature"
+          ],
+          "convertedCost": "6",
+          "rarityDbName": "P",
+          "power": "5",
+          "flavorText": "[Note: Comes with Starter 2000 and is foil]",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "112a",
+          "Card Type": "Creature — Beast",
+          "P / T": "5 / 5",
+          "Description": "You may have Rhox deal combat damage to defending player as though it weren’t blocked.\r\n<br>\r\n2G: Regenerate Rhox.",
+          "Flavor": "[Note: Comes with Starter 2000 and is foil]",
+          "Artist": "Mark Zug"
+        }
+      }
+    }
+  ]
+}

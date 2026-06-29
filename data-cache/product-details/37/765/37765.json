@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:23Z",
+  "tcgplayerProductId": 37765,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Angelic Blessing",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.2,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target creature gets +3/+3 and gains flying until end of turn.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2000-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Only the warrior who can admit mortal weakness will be bolstered by immortal strength.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Angelic Blessing",
+    "setId": 106.0,
+    "setCode": "S00",
+    "productId": 37765.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 2000",
+    "sellers": 102.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 2000",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 126.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.31,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Sorcery",
+      "Description": "Target creature gets +3/+3 and gains flying until end of turn.",
+      "Flavor": "<em>Only the warrior who can admit mortal weakness will be bolstered by immortal strength.</em>",
+      "Artist": "Mark Zug"
+    },
+    "skus": [
+      {
+        "sku": 396942,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406188,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403778,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404983,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402573,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

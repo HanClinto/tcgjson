@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:16Z",
+  "tcgplayerProductId": 258,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Archangel",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.73,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying\r\n<br>Attacking doesn’t cause Archangel to tap.",
+      "powerNumber": "5",
+      "color": [
+        "White"
+      ],
+      "fullType": "Creature — Angel",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "4",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "7",
+      "rarityDbName": "R",
+      "power": "5",
+      "flavorText": "",
+      "toughnessNumber": "5",
+      "toughness": "5"
+    },
+    "lowestPriceWithShipping": 0.19,
+    "productName": "Archangel",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 258.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Starter 1999",
+    "sellers": 113.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 152.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.95,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "4",
+      "Card Type": "Creature — Angel",
+      "P / T": "5 / 5",
+      "Description": "Flying\r\n<br>Attacking doesn’t cause Archangel to tap.",
+      "Artist": "Quinton Hoover"
+    },
+    "skus": [
+      {
+        "sku": 14764,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363510,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 331994,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347752,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316236,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

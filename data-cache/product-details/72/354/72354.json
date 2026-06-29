@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:25Z",
+  "tcgplayerProductId": 72354,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Pegasus Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 0.91,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Token",
+      "releaseDate": "1998-08-17T00:00:00Z",
+      "number": "89",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.3,
+    "productName": "Pegasus Token",
+    "setId": 113.0,
+    "setCode": "UGL",
+    "productId": 72354.0,
+    "imageCount": 1.0,
+    "score": 2.3222194,
+    "setName": "Unglued",
+    "sellers": 111.0,
+    "foilOnly": false,
+    "setUrlName": "Unglued",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 150.0,
+    "lowestPrice": 0.3,
+    "medianPrice": 1.0,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "89",
+      "Card Type": "Token",
+      "Artist": "Mark Zug"
+    },
+    "skus": [
+      {
+        "sku": 1140629,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1140630,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1140631,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1140632,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1140633,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

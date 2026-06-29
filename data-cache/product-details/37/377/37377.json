@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:48:14Z",
+  "tcgplayerProductId": 37377,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Hearthfire Hobgoblin",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.13,
+    "customAttributes": {
+      "formats": null,
+      "description": "Double strike <em>(This creature deals both first-strike and regular combat damage.)</em>",
+      "powerNumber": "2",
+      "color": [
+        "Red",
+        "White"
+      ],
+      "fullType": "Creature — Goblin Soldier ",
+      "releaseDate": "2009-09-04T00:00:00Z",
+      "number": "102",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": "2",
+      "flavorText": "<em>Hobgoblins are best left alone.They sharpen their farm implements far more than is necessary for their work in the fields.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.06,
+    "productName": "Hearthfire Hobgoblin",
+    "setId": 84.0,
+    "setCode": "HOP",
+    "productId": 37377.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Planechase",
+    "sellers": 132.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 153.0,
+    "lowestPrice": 0.06,
+    "medianPrice": 0.3525,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "102",
+      "Card Type": "Creature — Goblin Soldier ",
+      "P / T": "2 / 2",
+      "Description": "Double strike <em>(This creature deals both first-strike and regular combat damage.)</em>",
+      "Flavor": "<em>Hobgoblins are best left alone.They sharpen their farm implements far more than is necessary for their work in the fields.</em>",
+      "Artist": "Steve Belledin"
+    },
+    "skus": [
+      {
+        "sku": 397624,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406060,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403650,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404855,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402445,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

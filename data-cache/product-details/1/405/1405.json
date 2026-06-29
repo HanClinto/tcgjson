@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:53:50Z",
+  "tcgplayerProductId": 1405,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "El Hajjaj",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.97,
+    "customAttributes": {
+      "formats": null,
+      "description": "You gain 1 life for every point of damage El-Hajjaj inflicts.",
+      "powerNumber": "1",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature — El—Hajjaj",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "R",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "El-Hajjaj",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1405.0,
+    "imageCount": 1.0,
+    "score": 2.209515,
+    "setName": "Revised Edition",
+    "sellers": 224.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 329.0,
+    "lowestPrice": 0.13,
+    "medianPrice": 1.02,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Creature — El—Hajjaj",
+      "P / T": "1 / 1",
+      "Description": "You gain 1 life for every point of damage El-Hajjaj inflicts.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 15546,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364492,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332976,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348734,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317218,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

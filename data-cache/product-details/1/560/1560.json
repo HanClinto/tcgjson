@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:54:02Z",
+  "tcgplayerProductId": 1560,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Sengir Vampire",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 1.1,
+    "customAttributes": {
+      "formats": null,
+      "description": "FlyingVampire gets a +1/+1 counter each time a creature dies during a turn in which Vampire damaged it.",
+      "powerNumber": "4",
+      "color": [
+        "Black"
+      ],
+      "fullType": "Creature Vampire",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "U",
+      "power": "4",
+      "flavorText": "",
+      "toughnessNumber": "4",
+      "toughness": "4"
+    },
+    "lowestPriceWithShipping": 0.15,
+    "productName": "Sengir Vampire",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1560.0,
+    "imageCount": 1.0,
+    "score": 2.683047,
+    "setName": "Revised Edition",
+    "sellers": 324.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 471.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 1.29,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "Card Type": "Creature Vampire",
+      "P / T": "4 / 4",
+      "Description": "FlyingVampire gets a +1/+1 counter each time a creature dies during a turn in which Vampire damaged it.",
+      "Artist": "Anson Maddocks"
+    },
+    "skus": [
+      {
+        "sku": 15693,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364639,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 333123,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348881,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317365,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:42:54Z",
+  "tcgplayerProductId": 38307,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Doom Blade",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 3.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "3",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 2.0,
+    "productName": "Doom Blade",
+    "setId": 71.0,
+    "setCode": "MPRP",
+    "productId": 38307.0,
+    "imageCount": 1.0,
+    "score": 1.8692317,
+    "setName": "Magic Player Rewards",
+    "sellers": 43.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Player Rewards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 50.0,
+    "lowestPrice": 1.73,
+    "medianPrice": 4.19,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "3",
+      "Card Type": "Instant",
+      "Artist": "Carl Critchlow"
+    },
+    "skus": [
+      {
+        "sku": 406665,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 410132,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 409158,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 409645,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 408671,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

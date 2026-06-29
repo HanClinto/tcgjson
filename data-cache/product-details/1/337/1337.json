@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:53:44Z",
+  "tcgplayerProductId": 1337,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Atog",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.24,
+    "customAttributes": {
+      "formats": null,
+      "description": "0: +2/+2. Each time you use this ability, you must sacrifice one of your artifacts in play.",
+      "powerNumber": "1",
+      "color": [
+        "Red"
+      ],
+      "fullType": "Creature Atog",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Atog",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1337.0,
+    "imageCount": 1.0,
+    "score": 3.0374265,
+    "setName": "Revised Edition",
+    "sellers": 466.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 661.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.26,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature Atog",
+      "P / T": "1 / 2",
+      "Description": "0: +2/+2. Each time you use this ability, you must sacrifice one of your artifacts in play.",
+      "Artist": "Jesper Myrfors"
+    },
+    "skus": [
+      {
+        "sku": 15478,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364424,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332908,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348666,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317150,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

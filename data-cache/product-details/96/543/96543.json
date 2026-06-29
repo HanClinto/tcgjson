@@ -1,0 +1,89 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:50:26Z",
+  "tcgplayerProductId": 96543,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Guild Token Selesnya",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 1.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Token ",
+      "releaseDate": null,
+      "number": null,
+      "cardType": null,
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 1.0,
+    "productName": "Guild Token - Selesnya",
+    "setId": 92.0,
+    "setCode": "PRE",
+    "productId": 96543.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Prerelease Cards",
+    "sellers": 13.0,
+    "foilOnly": false,
+    "setUrlName": "Prerelease Cards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 16.0,
+    "lowestPrice": 1.0,
+    "medianPrice": 1.3,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "Card Type": "Token "
+    },
+    "skus": [
+      {
+        "sku": 2741939,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741940,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741941,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741942,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 2741943,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

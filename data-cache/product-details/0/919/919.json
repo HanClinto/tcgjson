@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:25Z",
+  "tcgplayerProductId": 919,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Zombie Token",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 8.12,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Token",
+      "releaseDate": "1998-08-17T00:00:00Z",
+      "number": "91",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3.73,
+    "productName": "Zombie Token",
+    "setId": 113.0,
+    "setCode": "UGL",
+    "productId": 919.0,
+    "imageCount": 1.0,
+    "score": 2.25042,
+    "setName": "Unglued",
+    "sellers": 45.0,
+    "foilOnly": false,
+    "setUrlName": "Unglued",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 52.0,
+    "lowestPrice": 3.73,
+    "medianPrice": 8.0,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "#": "91",
+      "Card Type": "Token",
+      "Artist": "Christopher Rush"
+    },
+    "skus": [
+      {
+        "sku": 15177,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364123,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332607,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348365,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316849,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

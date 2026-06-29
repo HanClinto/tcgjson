@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:18Z",
+  "tcgplayerProductId": 856,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Fowl Play",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.28,
+    "customAttributes": {
+      "formats": null,
+      "description": "Enchanted creature loses all abilities and is a 1/1 creature that counts as a Chicken.",
+      "powerNumber": null,
+      "color": [
+        "Blue"
+      ],
+      "fullType": "Enchant Creature",
+      "releaseDate": "1998-08-17T00:00:00Z",
+      "number": "24",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>\"I feel like chicken tonight!\"</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.17,
+    "productName": "Fowl Play",
+    "setId": 113.0,
+    "setCode": "UGL",
+    "productId": 856.0,
+    "imageCount": 1.0,
+    "score": 1.9912261,
+    "setName": "Unglued",
+    "sellers": 181.0,
+    "foilOnly": false,
+    "setUrlName": "Unglued",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 216.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.34,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "24",
+      "Card Type": "Enchant Creature",
+      "Description": "Enchanted creature loses all abilities and is a 1/1 creature that counts as a Chicken.",
+      "Flavor": "<em>\"I feel like chicken tonight!\"</em>",
+      "Artist": "Mark Poole"
+    },
+    "skus": [
+      {
+        "sku": 15114,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364060,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332544,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348302,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316786,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:15Z",
+  "tcgplayerProductId": 372,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Royal Falcon",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.09,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "1",
+      "color": [
+        "White"
+      ],
+      "fullType": "Creature — Bird",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "24",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Hunter by instinct, weapon by training.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Royal Falcon",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 372.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 1999",
+    "sellers": 163.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 222.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.315,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "24",
+      "Card Type": "Creature — Bird",
+      "P / T": "1 / 1",
+      "Description": "Flying",
+      "Flavor": "<em>Hunter by instinct, weapon by training.</em>",
+      "Artist": "Thomas M. Baxa"
+    },
+    "skus": [
+      {
+        "sku": 14866,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363612,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332096,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347854,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316338,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

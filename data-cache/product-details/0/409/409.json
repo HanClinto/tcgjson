@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:15Z",
+  "tcgplayerProductId": 409,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Vengeance",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.35,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target tapped creature.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "29",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>Bitter as wormwood, sweet as mulled wine.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Vengeance",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 409.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 1999",
+    "sellers": 82.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 104.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.45,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "29",
+      "Card Type": "Sorcery ",
+      "Description": "Destroy target tapped creature.",
+      "Flavor": "<em>Bitter as wormwood, sweet as mulled wine.</em>",
+      "Artist": "Andrew Robinson"
+    },
+    "skus": [
+      {
+        "sku": 14900,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363646,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332130,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347888,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316372,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

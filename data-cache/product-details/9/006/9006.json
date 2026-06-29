@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:43Z",
+  "tcgplayerProductId": 9006,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Circle of Protection Blue",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.81,
+    "customAttributes": {
+      "formats": null,
+      "description": "1: Prevents all damage against you from one blue source. If a source does damage to you more than once in a turn, you must pay 1 mana each time you want to prevent the damage.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Enchantment ",
+      "releaseDate": "1993-12-06T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.35,
+    "productName": "Circle of Protection: Blue",
+    "setId": 115.0,
+    "setCode": "2ED",
+    "productId": 9006.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Unlimited Edition",
+    "sellers": 119.0,
+    "foilOnly": false,
+    "setUrlName": "Unlimited Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 169.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.96,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Enchantment ",
+      "Description": "1: Prevents all damage against you from one blue source. If a source does damage to you more than once in a turn, you must pay 1 mana each time you want to prevent the damage.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 21820,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371101,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339585,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355343,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323827,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

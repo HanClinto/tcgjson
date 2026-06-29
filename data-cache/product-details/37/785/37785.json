@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:24Z",
+  "tcgplayerProductId": 37785,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Lava Axe",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.08,
+    "customAttributes": {
+      "formats": null,
+      "description": "Lava Axe deals 5 damage to target player.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Sorcery",
+      "releaseDate": "2000-04-03T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "5",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>Meant to cut through the body and burn straight to the soul.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Lava Axe",
+    "setId": 106.0,
+    "setCode": "S00",
+    "productId": 37785.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 2000",
+    "sellers": 99.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 2000",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 120.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.33,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Sorcery",
+      "Description": "Lava Axe deals 5 damage to target player.",
+      "Flavor": "<em>Meant to cut through the body and burn straight to the soul.</em>",
+      "Artist": "Brian Snoddy"
+    },
+    "skus": [
+      {
+        "sku": 397020,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406208,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403798,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 405003,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402593,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

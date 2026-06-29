@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:42:51Z",
+  "tcgplayerProductId": 78626,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Myr Token MRD",
+    "productTypeId": 1.0,
+    "rarityName": "Token",
+    "sealed": false,
+    "marketPrice": 15.5,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": "1",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature Token — Myr",
+      "releaseDate": null,
+      "number": null,
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "0",
+      "rarityDbName": "T",
+      "power": "1",
+      "flavorText": "",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 6.13,
+    "productName": "Myr Token (MRD)",
+    "setId": 71.0,
+    "setCode": "MPRP",
+    "productId": 78626.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Magic Player Rewards",
+    "sellers": 29.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Player Rewards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 34.0,
+    "lowestPrice": 6.13,
+    "medianPrice": 19.745,
+    "formattedAttributes": {
+      "Rarity": "T",
+      "Card Type": "Artifact Creature Token — Myr",
+      "P / T": "1 / 1",
+      "Artist": "Wayne England"
+    },
+    "skus": [
+      {
+        "sku": 1163655,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163656,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163657,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163658,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1163659,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

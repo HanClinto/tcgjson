@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:48:16Z",
+  "tcgplayerProductId": 37434,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Silver Myr",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.67,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Add U to your mana pool.",
+      "powerNumber": "1",
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Artifact Creature — Myr",
+      "releaseDate": "2009-09-04T00:00:00Z",
+      "number": "126",
+      "cardType": [
+        "Artifact",
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>The vedalken saw the myr as toys, unaware of the intelligence lurking behind their empty eyes.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.48,
+    "productName": "Silver Myr",
+    "setId": 84.0,
+    "setCode": "HOP",
+    "productId": 37434.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Planechase",
+    "sellers": 51.0,
+    "foilOnly": false,
+    "setUrlName": "Planechase",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 54.0,
+    "lowestPrice": 0.42,
+    "medianPrice": 0.895,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "126",
+      "Card Type": "Artifact Creature — Myr",
+      "P / T": "1 / 1",
+      "Description": "T: Add U to your mana pool.",
+      "Flavor": "<em>The vedalken saw the myr as toys, unaware of the intelligence lurking behind their empty eyes.</em>",
+      "Artist": "Kev Walker"
+    },
+    "skus": [
+      {
+        "sku": 397428,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 406117,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 403707,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 404912,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 402502,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

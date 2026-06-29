@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:20Z",
+  "tcgplayerProductId": 860,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Get a Life",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.39,
+    "customAttributes": {
+      "formats": null,
+      "description": "Target player and each of his or her teammates exchange life totals.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "1998-08-17T00:00:00Z",
+      "number": "4",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "<em>Gimme five! (Or whatever you got.)</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.22,
+    "productName": "Get a Life",
+    "setId": 113.0,
+    "setCode": "UGL",
+    "productId": 860.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Unglued",
+    "sellers": 120.0,
+    "foilOnly": false,
+    "setUrlName": "Unglued",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 142.0,
+    "lowestPrice": 0.15,
+    "medianPrice": 0.485,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "4",
+      "Card Type": "Instant",
+      "Description": "Target player and each of his or her teammates exchange life totals.",
+      "Flavor": "<em>Gimme five! (Or whatever you got.)</em>",
+      "Artist": "Melissa A. Benson"
+    },
+    "skus": [
+      {
+        "sku": 15118,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364064,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332548,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348306,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316790,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:53:48Z",
+  "tcgplayerProductId": 1385,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Deathlace",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.6,
+    "customAttributes": {
+      "formats": null,
+      "description": "Changes the color of one card either being played or already in play to black. Cost to cast, tap, maintain, or use a special ability of target card remains entirely unchanged.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": "1994-04-04T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Deathlace",
+    "setId": 97.0,
+    "setCode": "3ED",
+    "productId": 1385.0,
+    "imageCount": 1.0,
+    "score": 2.1139433,
+    "setName": "Revised Edition",
+    "sellers": 223.0,
+    "foilOnly": false,
+    "setUrlName": "Revised Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 300.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.73,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Interrupt ",
+      "Description": "Changes the color of one card either being played or already in play to black. Cost to cast, tap, maintain, or use a special ability of target card remains entirely unchanged.",
+      "Artist": "Sandra Everingham"
+    },
+    "skus": [
+      {
+        "sku": 15526,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 364472,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 332956,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 348714,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 317198,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:43:09Z",
+  "tcgplayerProductId": 555013,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Park Heights Pegasus",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.22,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying, trample\r\n<br>\r\nWhenever Park Heights Pegasus deals combat damage to a player, draw a card if you had two or more creatures enter the battlefield under your control this turn.",
+      "powerNumber": "2",
+      "color": [
+        "Green",
+        "White"
+      ],
+      "fullType": "Creature — Pegasus",
+      "releaseDate": null,
+      "number": "211",
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "R",
+      "power": "2",
+      "flavorText": "<em>The burglar turned, bowed, and dropped from the ledge onto her waiting mount.</em>",
+      "toughnessNumber": "1",
+      "toughness": "1"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Park Heights Pegasus",
+    "setId": 72.0,
+    "setCode": "MEDIA",
+    "productId": 555013.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Media Promos",
+    "sellers": 121.0,
+    "foilOnly": true,
+    "setUrlName": "Media Promos",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 125.0,
+    "lowestPrice": 0.12,
+    "medianPrice": 0.265,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "211",
+      "Card Type": "Creature — Pegasus",
+      "P / T": "2 / 1",
+      "Description": "Flying, trample\r\n<br>\r\nWhenever Park Heights Pegasus deals combat damage to a player, draw a card if you had two or more creatures enter the battlefield under your control this turn.",
+      "Flavor": "<em>The burglar turned, bowed, and dropped from the ledge onto her waiting mount.</em>",
+      "Artist": "Randy Gallegos"
+    },
+    "skus": [
+      {
+        "sku": 7986270,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7986271,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7986272,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7986273,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 7986274,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

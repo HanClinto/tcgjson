@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:59:43Z",
+  "tcgplayerProductId": 9004,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Chaoslace",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 9.48,
+    "customAttributes": {
+      "formats": null,
+      "description": "Changes the color of one card either being played or already in play to red. Cost to cast, tap, maintain, or use a special ability of target card remains entirely unchanged.",
+      "powerNumber": null,
+      "color": [
+        "Red"
+      ],
+      "fullType": "Interrupt ",
+      "releaseDate": "1993-12-06T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 3.32,
+    "productName": "Chaoslace",
+    "setId": 115.0,
+    "setCode": "2ED",
+    "productId": 9004.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Unlimited Edition",
+    "sellers": 50.0,
+    "foilOnly": false,
+    "setUrlName": "Unlimited Edition",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 56.0,
+    "lowestPrice": 3.32,
+    "medianPrice": 11.01,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "Card Type": "Interrupt ",
+      "Description": "Changes the color of one card either being played or already in play to red. Cost to cast, tap, maintain, or use a special ability of target card remains entirely unchanged.",
+      "Artist": "Dameon Willich"
+    },
+    "skus": [
+      {
+        "sku": 21818,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 371099,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 339583,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 355341,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 323825,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

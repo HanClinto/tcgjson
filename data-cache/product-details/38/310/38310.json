@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:42:54Z",
+  "tcgplayerProductId": 38310,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Giant Growth",
+    "productTypeId": 1.0,
+    "rarityName": "Promo",
+    "sealed": false,
+    "marketPrice": 5.85,
+    "customAttributes": {
+      "formats": null,
+      "description": "",
+      "powerNumber": null,
+      "color": null,
+      "fullType": "Instant",
+      "releaseDate": null,
+      "number": "4",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "1",
+      "rarityDbName": "P",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 5.0,
+    "productName": "Giant Growth",
+    "setId": 71.0,
+    "setCode": "MPRP",
+    "productId": 38310.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Magic Player Rewards",
+    "sellers": 50.0,
+    "foilOnly": false,
+    "setUrlName": "Magic Player Rewards",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 62.0,
+    "lowestPrice": 2.78,
+    "medianPrice": 7.225,
+    "formattedAttributes": {
+      "Rarity": "P",
+      "#": "4",
+      "Card Type": "Instant",
+      "Artist": "Joel Thomas"
+    },
+    "skus": [
+      {
+        "sku": 406737,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 410135,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 409161,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 409648,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 408674,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

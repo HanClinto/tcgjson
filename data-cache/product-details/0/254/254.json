@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T21:57:20Z",
+  "tcgplayerProductId": 254,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Ancient Craving",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 2.09,
+    "customAttributes": {
+      "formats": null,
+      "description": "Draw three cards. You lose 3 life.",
+      "powerNumber": null,
+      "color": [
+        "Black"
+      ],
+      "fullType": "Sorcery ",
+      "releaseDate": "1999-04-05T00:00:00Z",
+      "number": "64",
+      "cardType": [
+        "Sorcery"
+      ],
+      "convertedCost": "4",
+      "rarityDbName": "R",
+      "power": null,
+      "flavorText": "<em>Knowledge demands sacrifice.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.75,
+    "productName": "Ancient Craving",
+    "setId": 105.0,
+    "setCode": "S99",
+    "productId": 254.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Starter 1999",
+    "sellers": 56.0,
+    "foilOnly": false,
+    "setUrlName": "Starter 1999",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 0.0,
+    "normalOnly": true,
+    "listings": 61.0,
+    "lowestPrice": 0.75,
+    "medianPrice": 2.505,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "64",
+      "Card Type": "Sorcery ",
+      "Description": "Draw three cards. You lose 3 life.",
+      "Flavor": "<em>Knowledge demands sacrifice.</em>",
+      "Artist": "Rob Alexander"
+    },
+    "skus": [
+      {
+        "sku": 14760,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 363506,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 331990,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 347748,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 316232,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

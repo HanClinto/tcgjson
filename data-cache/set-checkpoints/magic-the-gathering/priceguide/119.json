@@ -1,0 +1,3373 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:01:14Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 119,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 119,
+    "name": "Vanguard",
+    "urlName": "vanguard",
+    "abbreviation": "VNG",
+    "releaseDate": "1997-05-21T00:00:00",
+    "isSupplemental": true,
+    "productCount": 32,
+    "priceGuideRowCount": 98,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 32,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 21603,
+      "name": "Ashnod (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21603_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 7.5,
+          "marketPrice": 7,
+          "tcgplayerSkuIds": [
+            330518
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 7.5,
+          "marketPrice": 14.5,
+          "tcgplayerSkuIds": [
+            377792
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 7.5,
+          "marketPrice": 11.99,
+          "tcgplayerSkuIds": [
+            346276
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330518,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362034,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377792,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346276,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129892,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever a creature successfully damages you, destroy it.",
+        "flavorText": "Ashnod served as Mishra’s confidante while he led Fallaji weapons development before the Brothers’ War. Whereas Mishra works in metals and stone, however, Ashnod works in living flesh. She sees all living things as prototype machines; her “improvements” t",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "-8",
+        "toughnessNumber": "-8",
+        "artist": "Ron Spencer",
+        "customAttributes": {
+          "description": "Whenever a creature successfully damages you, destroy it.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "Ashnod served as Mishra’s confidante while he led Fallaji weapons development before the Brothers’ War. Whereas Mishra works in metals and stone, however, Ashnod works in living flesh. She sees all living things as prototype machines; her “improvements” t",
+          "toughnessNumber": "-8",
+          "toughness": "-8"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / -8",
+          "Description": "Whenever a creature successfully damages you, destroy it.",
+          "Flavor": "Ashnod served as Mishra’s confidante while he led Fallaji weapons development before the Brothers’ War. Whereas Mishra works in metals and stone, however, Ashnod works in living flesh. She sees all living things as prototype machines; her “improvements” t",
+          "Artist": "Ron Spencer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21604,
+      "name": "Barrin (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21604_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 4.95,
+          "marketPrice": 4.98,
+          "tcgplayerSkuIds": [
+            330519
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 4.95,
+          "marketPrice": 10.98,
+          "tcgplayerSkuIds": [
+            377793
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330519,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362035,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377793,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346277,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129893,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "You may sacrifice a permanent to return any creature to its owner’s hand. Play this ability as an instant.",
+        "flavorText": "An old and powerful wizard living on the mysterious isle of Tolaria, Barrin is the teacher who trained the young Ertai. He is also Hanna’s father, but for reasons known only to the two of them neither acknowledges the other—or their strained relationship.",
+        "typeLine": "Vanguard Character",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "6",
+        "toughnessNumber": "6",
+        "artist": "Christopher Rush",
+        "customAttributes": {
+          "description": "You may sacrifice a permanent to return any creature to its owner’s hand. Play this ability as an instant.",
+          "powerNumber": "0",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "0",
+          "flavorText": "An old and powerful wizard living on the mysterious isle of Tolaria, Barrin is the teacher who trained the young Ertai. He is also Hanna’s father, but for reasons known only to the two of them neither acknowledges the other—or their strained relationship.",
+          "toughnessNumber": "6",
+          "toughness": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "0 / 6",
+          "Description": "You may sacrifice a permanent to return any creature to its owner’s hand. Play this ability as an instant.",
+          "Flavor": "An old and powerful wizard living on the mysterious isle of Tolaria, Barrin is the teacher who trained the young Ertai. He is also Hanna’s father, but for reasons known only to the two of them neither acknowledges the other—or their strained relationship.",
+          "Artist": "Christopher Rush"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21605,
+      "name": "Crovax (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21605_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 2.58,
+          "marketPrice": 6.99,
+          "tcgplayerSkuIds": [
+            330520
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 2.58,
+          "marketPrice": 4.51,
+          "tcgplayerSkuIds": [
+            362036
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 2.58,
+          "marketPrice": 5.43,
+          "tcgplayerSkuIds": [
+            346278
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330520,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362036,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377794,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346278,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129894,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever any of your creatures damages any creature or player, gain 1 life.",
+        "flavorText": "How does one escape a curse? For Crovax, a wealthy noble, the answer may lie in joining the crew of the Weatherlight as they seek to rescue their abducted captain Sisay. Secretly, he hopes in his journeys to find Selenia, the angelic being who abandoned h",
+        "typeLine": "Vanguard Character",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "0",
+        "toughnessNumber": "0",
+        "artist": "Ron Spencer",
+        "customAttributes": {
+          "description": "Whenever any of your creatures damages any creature or player, gain 1 life.",
+          "powerNumber": "2",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "How does one escape a curse? For Crovax, a wealthy noble, the answer may lie in joining the crew of the Weatherlight as they seek to rescue their abducted captain Sisay. Secretly, he hopes in his journeys to find Selenia, the angelic being who abandoned h",
+          "toughnessNumber": "0",
+          "toughness": "0"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "2 / 0",
+          "Description": "Whenever any of your creatures damages any creature or player, gain 1 life.",
+          "Flavor": "How does one escape a curse? For Crovax, a wealthy noble, the answer may lie in joining the crew of the Weatherlight as they seek to rescue their abducted captain Sisay. Secretly, he hopes in his journeys to find Selenia, the angelic being who abandoned h",
+          "Artist": "Ron Spencer"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21606,
+      "name": "Eladamri (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21606_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 8.89,
+          "marketPrice": 9.64,
+          "tcgplayerSkuIds": [
+            346279
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 8.89,
+          "marketPrice": 25.8,
+          "tcgplayerSkuIds": [
+            129895
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330521,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362037,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377795,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346279,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129895,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "You may redirect to yourself any amount of damage dealt to creatures you control.",
+        "flavorText": "Proud, shrewd, and charismatic, Eladamri has a commitment to his people that is absolute. The guerilla war he wages against Volrath has convinced him that the only way to liberate the Skyshroud elves is to lead all Rath’s refugees to freedom. So be it.",
+        "typeLine": "Vanguard Character",
+        "power": "-1",
+        "powerNumber": "-1",
+        "toughness": "15",
+        "toughnessNumber": "15",
+        "artist": "Mark Zug",
+        "customAttributes": {
+          "description": "You may redirect to yourself any amount of damage dealt to creatures you control.",
+          "powerNumber": "-1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-1",
+          "flavorText": "Proud, shrewd, and charismatic, Eladamri has a commitment to his people that is absolute. The guerilla war he wages against Volrath has convinced him that the only way to liberate the Skyshroud elves is to lead all Rath’s refugees to freedom. So be it.",
+          "toughnessNumber": "15",
+          "toughness": "15"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-1 / 15",
+          "Description": "You may redirect to yourself any amount of damage dealt to creatures you control.",
+          "Flavor": "Proud, shrewd, and charismatic, Eladamri has a commitment to his people that is absolute. The guerilla war he wages against Volrath has convinced him that the only way to liberate the Skyshroud elves is to lead all Rath’s refugees to freedom. So be it.",
+          "Artist": "Mark Zug"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21607,
+      "name": "Ertai (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21607_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.4,
+          "marketPrice": 1.5,
+          "tcgplayerSkuIds": [
+            330522
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.4,
+          "marketPrice": 2.06,
+          "tcgplayerSkuIds": [
+            362038
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.4,
+          "marketPrice": 2.66,
+          "tcgplayerSkuIds": [
+            377796
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.4,
+          "marketPrice": 1.79,
+          "tcgplayerSkuIds": [
+            346280
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.4,
+          "marketPrice": 4.46,
+          "tcgplayerSkuIds": [
+            129896
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330522,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362038,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377796,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346280,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129896,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Your creatures can’t be the target of your opponents’ spells or abilities.",
+        "flavorText": "After serving his apprenticeship under Barrin of Tolaria, Ertai graced the Weatherlight crew with his presence as the ship’s “resident” wizard. He realizes that few recognize his greatness—but then how could they, when they lack his insight and wisdom?",
+        "typeLine": "Vanguard Character",
+        "power": "-1",
+        "powerNumber": "-1",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "artist": "Randy Gallegos",
+        "customAttributes": {
+          "description": "Your creatures can’t be the target of your opponents’ spells or abilities.",
+          "powerNumber": "-1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-1",
+          "flavorText": "After serving his apprenticeship under Barrin of Tolaria, Ertai graced the Weatherlight crew with his presence as the ship’s “resident” wizard. He realizes that few recognize his greatness—but then how could they, when they lack his insight and wisdom?",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-1 / 4",
+          "Description": "Your creatures can’t be the target of your opponents’ spells or abilities.",
+          "Flavor": "After serving his apprenticeship under Barrin of Tolaria, Ertai graced the Weatherlight crew with his presence as the ship’s “resident” wizard. He realizes that few recognize his greatness—but then how could they, when they lack his insight and wisdom?",
+          "Artist": "Randy Gallegos"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21608,
+      "name": "Gerrard (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21608_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 1,
+          "tcgplayerSkuIds": [
+            330523
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 1.48,
+          "tcgplayerSkuIds": [
+            362039
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 2.67,
+          "tcgplayerSkuIds": [
+            377797
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 2.29,
+          "tcgplayerSkuIds": [
+            346281
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 3.26,
+          "tcgplayerSkuIds": [
+            129897
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330523,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362039,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377797,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346281,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129897,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "During your draw phase, draw an additional card.",
+        "flavorText": "Soldier. Adventurer. Heir to the Legacy. Gerrard has, over the years, traveled much of Dominaria in search of fortune and glory. Now, after serving nobly in the Benalish army, he has returned to the Weatherlight to serve as captain in Sisay’s absence and",
+        "typeLine": "Vanguard Character",
+        "power": "-4",
+        "powerNumber": "-4",
+        "toughness": "0",
+        "toughnessNumber": "0",
+        "artist": "Douglas Shuler",
+        "customAttributes": {
+          "description": "During your draw phase, draw an additional card.",
+          "powerNumber": "-4",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-4",
+          "flavorText": "Soldier. Adventurer. Heir to the Legacy. Gerrard has, over the years, traveled much of Dominaria in search of fortune and glory. Now, after serving nobly in the Benalish army, he has returned to the Weatherlight to serve as captain in Sisay’s absence and",
+          "toughnessNumber": "0",
+          "toughness": "0"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-4 / 0",
+          "Description": "During your draw phase, draw an additional card.",
+          "Flavor": "Soldier. Adventurer. Heir to the Legacy. Gerrard has, over the years, traveled much of Dominaria in search of fortune and glory. Now, after serving nobly in the Benalish army, he has returned to the Weatherlight to serve as captain in Sisay’s absence and",
+          "Artist": "Douglas Shuler"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21609,
+      "name": "Gix (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21609_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 97.7,
+          "marketPrice": 79.99,
+          "tcgplayerSkuIds": [
+            346282
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330524,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362040,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377798,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346282,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129898,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "3: Return target creature card from your graveyard to your hand.",
+        "flavorText": "Through ruthlessness and raw ambition, Gix rose through the Phyrexian regime to the exalted rank of praetor. Even while overseeing many of Phyrexia’s most important undertakings, Gix continues his own quest for supremacy . . . for in Phyrexia, the weak be",
+        "typeLine": "Vanguard Character",
+        "power": "-2",
+        "powerNumber": "-2",
+        "toughness": "18",
+        "toughnessNumber": "18",
+        "artist": "Pete Venters",
+        "customAttributes": {
+          "description": "3: Return target creature card from your graveyard to your hand.",
+          "powerNumber": "-2",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-2",
+          "flavorText": "Through ruthlessness and raw ambition, Gix rose through the Phyrexian regime to the exalted rank of praetor. Even while overseeing many of Phyrexia’s most important undertakings, Gix continues his own quest for supremacy . . . for in Phyrexia, the weak be",
+          "toughnessNumber": "18",
+          "toughness": "18"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-2 / 18",
+          "Description": "3: Return target creature card from your graveyard to your hand.",
+          "Flavor": "Through ruthlessness and raw ambition, Gix rose through the Phyrexian regime to the exalted rank of praetor. Even while overseeing many of Phyrexia’s most important undertakings, Gix continues his own quest for supremacy . . . for in Phyrexia, the weak be",
+          "Artist": "Pete Venters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21610,
+      "name": "Greven il-Vec (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21610_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 4.6,
+          "marketPrice": 3.71,
+          "tcgplayerSkuIds": [
+            362041
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 4.6,
+          "marketPrice": 8.11,
+          "tcgplayerSkuIds": [
+            377799
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 4.6,
+          "marketPrice": 7.41,
+          "tcgplayerSkuIds": [
+            346283
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330525,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362041,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377799,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346283,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129899,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever any of your creatures damages any creature, bury the damaged creature.",
+        "flavorText": "As a ruthless leader for Volrath, Greven il -Vec serves his lord by commanding the flying ship Predator . Greven has attained his powerful rank through a series of underhanded schemes and assassinations, the majority of which were blessed by Volrath himse",
+        "typeLine": "Vanguard Character",
+        "power": "-1",
+        "powerNumber": "-1",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "artist": "Mark Tedin",
+        "customAttributes": {
+          "description": "Whenever any of your creatures damages any creature, bury the damaged creature.",
+          "powerNumber": "-1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-1",
+          "flavorText": "As a ruthless leader for Volrath, Greven il -Vec serves his lord by commanding the flying ship Predator . Greven has attained his powerful rank through a series of underhanded schemes and assassinations, the majority of which were blessed by Volrath himse",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-1 / 2",
+          "Description": "Whenever any of your creatures damages any creature, bury the damaged creature.",
+          "Flavor": "As a ruthless leader for Volrath, Greven il -Vec serves his lord by commanding the flying ship Predator . Greven has attained his powerful rank through a series of underhanded schemes and assassinations, the majority of which were blessed by Volrath himse",
+          "Artist": "Mark Tedin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21611,
+      "name": "Hanna (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21611_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 9,
+          "marketPrice": 8,
+          "tcgplayerSkuIds": [
+            362042
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 9,
+          "marketPrice": 13.61,
+          "tcgplayerSkuIds": [
+            377800
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 9,
+          "marketPrice": 12.46,
+          "tcgplayerSkuIds": [
+            346284
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330526,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362042,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377800,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346284,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129900,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Your spells cost 1 less to play.",
+        "flavorText": "Educated in Argive and highly knowledgeable in the field of artifacts, this expert navigator of the Weatherlight believes that scholarship does not necessarily lead to understanding. Her diligence in pursuing both is her greatest asset.",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "-5",
+        "toughnessNumber": "-5",
+        "artist": "Liz Danforth",
+        "customAttributes": {
+          "description": "Your spells cost 1 less to play.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "Educated in Argive and highly knowledgeable in the field of artifacts, this expert navigator of the Weatherlight believes that scholarship does not necessarily lead to understanding. Her diligence in pursuing both is her greatest asset.",
+          "toughnessNumber": "-5",
+          "toughness": "-5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / -5",
+          "Description": "Your spells cost 1 less to play.",
+          "Flavor": "Educated in Argive and highly knowledgeable in the field of artifacts, this expert navigator of the Weatherlight believes that scholarship does not necessarily lead to understanding. Her diligence in pursuing both is her greatest asset.",
+          "Artist": "Liz Danforth"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21612,
+      "name": "Karn (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21612_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 3.99,
+          "tcgplayerSkuIds": [
+            362043
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 6,
+          "tcgplayerSkuIds": [
+            377801
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 4.16,
+          "tcgplayerSkuIds": [
+            346285
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 1,
+          "marketPrice": 7.02,
+          "tcgplayerSkuIds": [
+            129901
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330527,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362043,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377801,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346285,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129901,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Each of your noncreature artifacts is also an artifact creature with power and toughness each equal to its total casting cost.",
+        "flavorText": "Both part of the Legacy and an individual in his own right, the silver golem Karn is haunted by a single, terrible incident: while serving to protect the young Gerrard, Karn accidentally took the life of another. Wakened from years spent as a statue, the",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "6",
+        "toughnessNumber": "6",
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "Each of your noncreature artifacts is also an artifact creature with power and toughness each equal to its total casting cost.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "Both part of the Legacy and an individual in his own right, the silver golem Karn is haunted by a single, terrible incident: while serving to protect the young Gerrard, Karn accidentally took the life of another. Wakened from years spent as a statue, the",
+          "toughnessNumber": "6",
+          "toughness": "6"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / 6",
+          "Description": "Each of your noncreature artifacts is also an artifact creature with power and toughness each equal to its total casting cost.",
+          "Flavor": "Both part of the Legacy and an individual in his own right, the silver golem Karn is haunted by a single, terrible incident: while serving to protect the young Gerrard, Karn accidentally took the life of another. Wakened from years spent as a statue, the",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21613,
+      "name": "Lyna (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21613_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 9.56,
+          "marketPrice": 9.98,
+          "tcgplayerSkuIds": [
+            362044
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 9.56,
+          "marketPrice": 12.03,
+          "tcgplayerSkuIds": [
+            346286
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 9.56,
+          "marketPrice": 33.75,
+          "tcgplayerSkuIds": [
+            129902
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330528,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362044,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377802,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346286,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129902,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All creatures you control gain shadow. (Those creatures can block and be blocked only by creatures with shadow.)",
+        "flavorText": "One of the few Soltari who can cross the shadow barrier, Lyna serves as an emissary to the outside world. A quick thinker and convincing speaker, she does whatever she can to lead her people out of the shadows and into substance.",
+        "typeLine": "Vanguard Character",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "-4",
+        "toughnessNumber": "-4",
+        "artist": "Adam Rex",
+        "customAttributes": {
+          "description": "All creatures you control gain shadow. (Those creatures can block and be blocked only by creatures with shadow.)",
+          "powerNumber": "2",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "One of the few Soltari who can cross the shadow barrier, Lyna serves as an emissary to the outside world. A quick thinker and convincing speaker, she does whatever she can to lead her people out of the shadows and into substance.",
+          "toughnessNumber": "-4",
+          "toughness": "-4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "2 / -4",
+          "Description": "All creatures you control gain shadow. (Those creatures can block and be blocked only by creatures with shadow.)",
+          "Flavor": "One of the few Soltari who can cross the shadow barrier, Lyna serves as an emissary to the outside world. A quick thinker and convincing speaker, she does whatever she can to lead her people out of the shadows and into substance.",
+          "Artist": "Adam Rex"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21614,
+      "name": "Maraxus (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21614_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.57,
+          "marketPrice": 1.97,
+          "tcgplayerSkuIds": [
+            362045
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.57,
+          "marketPrice": 2.73,
+          "tcgplayerSkuIds": [
+            377803
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.57,
+          "marketPrice": 2.64,
+          "tcgplayerSkuIds": [
+            346287
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.57,
+          "marketPrice": 3.2,
+          "tcgplayerSkuIds": [
+            129903
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330529,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362045,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377803,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346287,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129903,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Your creatures get +1/+0.",
+        "flavorText": "Too chaotic for even the other warlords of Keld, Maraxus has devoted himself to serving as a hired killer for the sinister Volrath. A man fond of his work, he’s more than willing to put in those extra hours needed to perfect his craft.",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "2",
+        "toughnessNumber": "2",
+        "artist": "Matthew D. Wilson",
+        "customAttributes": {
+          "description": "Your creatures get +1/+0.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "Too chaotic for even the other warlords of Keld, Maraxus has devoted himself to serving as a hired killer for the sinister Volrath. A man fond of his work, he’s more than willing to put in those extra hours needed to perfect his craft.",
+          "toughnessNumber": "2",
+          "toughness": "2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / 2",
+          "Description": "Your creatures get +1/+0.",
+          "Flavor": "Too chaotic for even the other warlords of Keld, Maraxus has devoted himself to serving as a hired killer for the sinister Volrath. A man fond of his work, he’s more than willing to put in those extra hours needed to perfect his craft.",
+          "Artist": "Matthew D. Wilson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21615,
+      "name": "Mirri (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21615_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 6.68,
+          "tcgplayerSkuIds": [
+            362046
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 8,
+          "tcgplayerSkuIds": [
+            377804
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 4.63,
+          "tcgplayerSkuIds": [
+            346288
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 3.51,
+          "tcgplayerSkuIds": [
+            129904
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330530,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362046,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377804,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346288,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129904,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Each of your basic lands may be tapped to produce any color of mana instead of its normal type.",
+        "flavorText": "Mirri and Gerrard have been the best of friends since they trained together under the maro-sorcerer Multani. A fierce and agile warrior, she rejoined Gerrard aboard the Weatherlight as his unofficial first mate shortly after he assumed command of the flyi",
+        "typeLine": "Vanguard Character",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "5",
+        "toughnessNumber": "5",
+        "artist": "Richard Kane Ferguson",
+        "customAttributes": {
+          "description": "Each of your basic lands may be tapped to produce any color of mana instead of its normal type.",
+          "powerNumber": "0",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "0",
+          "flavorText": "Mirri and Gerrard have been the best of friends since they trained together under the maro-sorcerer Multani. A fierce and agile warrior, she rejoined Gerrard aboard the Weatherlight as his unofficial first mate shortly after he assumed command of the flyi",
+          "toughnessNumber": "5",
+          "toughness": "5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "0 / 5",
+          "Description": "Each of your basic lands may be tapped to produce any color of mana instead of its normal type.",
+          "Flavor": "Mirri and Gerrard have been the best of friends since they trained together under the maro-sorcerer Multani. A fierce and agile warrior, she rejoined Gerrard aboard the Weatherlight as his unofficial first mate shortly after he assumed command of the flyi",
+          "Artist": "Richard Kane Ferguson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21616,
+      "name": "Mishra (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21616_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 5,
+          "marketPrice": 6.99,
+          "tcgplayerSkuIds": [
+            362047
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 5,
+          "marketPrice": 6.98,
+          "tcgplayerSkuIds": [
+            346289
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 5,
+          "marketPrice": 19.98,
+          "tcgplayerSkuIds": [
+            129905
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330531,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362047,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377805,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346289,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129905,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Double all damage dealt by creatures you control.",
+        "flavorText": "Both complement and antithesis to his older brother Urza, Mishra also mastered the intricacies of artifice. It was Mishra’s strength that first gave rise to the massive Phyrexian war engines on Dominaria, and it was his weakness that pushed him, Urza, and",
+        "typeLine": "Vanguard Character",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "-3",
+        "toughnessNumber": "-3",
+        "artist": "Anson Maddocks",
+        "customAttributes": {
+          "description": "Double all damage dealt by creatures you control.",
+          "powerNumber": "0",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "0",
+          "flavorText": "Both complement and antithesis to his older brother Urza, Mishra also mastered the intricacies of artifice. It was Mishra’s strength that first gave rise to the massive Phyrexian war engines on Dominaria, and it was his weakness that pushed him, Urza, and",
+          "toughnessNumber": "-3",
+          "toughness": "-3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "0 / -3",
+          "Description": "Double all damage dealt by creatures you control.",
+          "Flavor": "Both complement and antithesis to his older brother Urza, Mishra also mastered the intricacies of artifice. It was Mishra’s strength that first gave rise to the massive Phyrexian war engines on Dominaria, and it was his weakness that pushed him, Urza, and",
+          "Artist": "Anson Maddocks"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21617,
+      "name": "Multani (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21617_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 7.99,
+          "tcgplayerSkuIds": [
+            377806
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 3.11,
+          "tcgplayerSkuIds": [
+            346290
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 8,
+          "tcgplayerSkuIds": [
+            129906
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330532,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362048,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377806,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346290,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129906,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All creatures you control get +X/+0, where X is the number of cards in your hand.",
+        "flavorText": "In mentoring apprentice mages, the forest spirit Multani teaches each to respect nature while making use of its gifts. Multani taught Gerrard, Mirri, and Rofellos to hone their spellcasting in tandem with more physical disciplines so that both would be im",
+        "typeLine": "Vanguard Character",
+        "power": "-3",
+        "powerNumber": "-3",
+        "toughness": "-2",
+        "toughnessNumber": "-2",
+        "artist": "Brom",
+        "customAttributes": {
+          "description": "All creatures you control get +X/+0, where X is the number of cards in your hand.",
+          "powerNumber": "-3",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-3",
+          "flavorText": "In mentoring apprentice mages, the forest spirit Multani teaches each to respect nature while making use of its gifts. Multani taught Gerrard, Mirri, and Rofellos to hone their spellcasting in tandem with more physical disciplines so that both would be im",
+          "toughnessNumber": "-2",
+          "toughness": "-2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-3 / -2",
+          "Description": "All creatures you control get +X/+0, where X is the number of cards in your hand.",
+          "Flavor": "In mentoring apprentice mages, the forest spirit Multani teaches each to respect nature while making use of its gifts. Multani taught Gerrard, Mirri, and Rofellos to hone their spellcasting in tandem with more physical disciplines so that both would be im",
+          "Artist": "Brom"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21618,
+      "name": "Oracle (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21618_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 16.18,
+          "marketPrice": 20.74,
+          "tcgplayerSkuIds": [
+            346291
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330533,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362049,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377807,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346291,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129907,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "You may untap any attacking creatures you control and remove them from combat.",
+        "flavorText": "Known simply by her title, Oracle uses her gift of prophecy to aid her people. She believes Gerrard to be the Korvecdal , the one who will unite the people of Rath against Volrath’s tyranny. Her only doubt is whether she will be strong enough to guide him",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "9",
+        "toughnessNumber": "9",
+        "artist": "Dan Frazier",
+        "customAttributes": {
+          "description": "You may untap any attacking creatures you control and remove them from combat.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "Known simply by her title, Oracle uses her gift of prophecy to aid her people. She believes Gerrard to be the Korvecdal , the one who will unite the people of Rath against Volrath’s tyranny. Her only doubt is whether she will be strong enough to guide him",
+          "toughnessNumber": "9",
+          "toughness": "9"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / 9",
+          "Description": "You may untap any attacking creatures you control and remove them from combat.",
+          "Flavor": "Known simply by her title, Oracle uses her gift of prophecy to aid her people. She believes Gerrard to be the Korvecdal , the one who will unite the people of Rath against Volrath’s tyranny. Her only doubt is whether she will be strong enough to guide him",
+          "Artist": "Dan Frazier"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21619,
+      "name": "Orim (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21619_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 13.99,
+          "marketPrice": 20.96,
+          "tcgplayerSkuIds": [
+            377808
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 13.99,
+          "marketPrice": 8.53,
+          "tcgplayerSkuIds": [
+            346292
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 13.99,
+          "marketPrice": 23.97,
+          "tcgplayerSkuIds": [
+            129908
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330534,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362050,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377808,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346292,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129908,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Your creatures can block as though they had flying.",
+        "flavorText": "<em>Trained in the Samite arts, Orim serves as the healer aboard the Weatherlight . She is quick with languages and was educated at the same Argivian university as Hanna. A student by nature, Orim keeps a diary of all her new discoveries—both physical and spiritual—during her travels.</em>",
+        "typeLine": "Vanguard Character",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "12",
+        "toughnessNumber": "12",
+        "artist": "Rebecca Guay",
+        "customAttributes": {
+          "description": "Your creatures can block as though they had flying.",
+          "powerNumber": "0",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "0",
+          "flavorText": "<em>Trained in the Samite arts, Orim serves as the healer aboard the Weatherlight . She is quick with languages and was educated at the same Argivian university as Hanna. A student by nature, Orim keeps a diary of all her new discoveries—both physical and spiritual—during her travels.</em>",
+          "toughnessNumber": "12",
+          "toughness": "12"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "0 / 12",
+          "Description": "Your creatures can block as though they had flying.",
+          "Flavor": "<em>Trained in the Samite arts, Orim serves as the healer aboard the Weatherlight . She is quick with languages and was educated at the same Argivian university as Hanna. A student by nature, Orim keeps a diary of all her new discoveries—both physical and spiritual—during her travels.</em>",
+          "Artist": "Rebecca Guay"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21620,
+      "name": "Rofellos (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21620_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 10.82,
+          "marketPrice": 12.31,
+          "tcgplayerSkuIds": [
+            346293
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330535,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362051,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377809,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346293,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129909,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever a creature you control is put into a graveyard from play, draw a card.",
+        "flavorText": "Gerrard’s longtime friend and fellow student under the maro-sorcerer Multani, Rofellos is an excellent warrior and excellent company. Though adept at both magic and swordplay, he’s far more comfortable with a flagon in his hand and a good companion at his",
+        "typeLine": "Vanguard Character",
+        "power": "-2",
+        "powerNumber": "-2",
+        "toughness": "4",
+        "toughnessNumber": "4",
+        "artist": "Daren Bader",
+        "customAttributes": {
+          "description": "Whenever a creature you control is put into a graveyard from play, draw a card.",
+          "powerNumber": "-2",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-2",
+          "flavorText": "Gerrard’s longtime friend and fellow student under the maro-sorcerer Multani, Rofellos is an excellent warrior and excellent company. Though adept at both magic and swordplay, he’s far more comfortable with a flagon in his hand and a good companion at his",
+          "toughnessNumber": "4",
+          "toughness": "4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-2 / 4",
+          "Description": "Whenever a creature you control is put into a graveyard from play, draw a card.",
+          "Flavor": "Gerrard’s longtime friend and fellow student under the maro-sorcerer Multani, Rofellos is an excellent warrior and excellent company. Though adept at both magic and swordplay, he’s far more comfortable with a flagon in his hand and a good companion at his",
+          "Artist": "Daren Bader"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21621,
+      "name": "Selenia (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21621_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 2.79,
+          "marketPrice": 14.97,
+          "tcgplayerSkuIds": [
+            362052
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2.79,
+          "marketPrice": 20.81,
+          "tcgplayerSkuIds": [
+            377810
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330536,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362052,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377810,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346294,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129910,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Attacking doesn’t cause your creatures to tap.",
+        "flavorText": "Once a guardian of Crovax’s estate, Selenia was freed from her magical bindings by the wealthy noble. Instead of remaining at his side, the angel chose to venture out into the world. For reasons unknown to Crovax, Selenia now serves the evil Volrath in hi",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "7",
+        "toughnessNumber": "7",
+        "artist": "Quinton Hoover",
+        "customAttributes": {
+          "description": "Attacking doesn’t cause your creatures to tap.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "Once a guardian of Crovax’s estate, Selenia was freed from her magical bindings by the wealthy noble. Instead of remaining at his side, the angel chose to venture out into the world. For reasons unknown to Crovax, Selenia now serves the evil Volrath in hi",
+          "toughnessNumber": "7",
+          "toughness": "7"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / 7",
+          "Description": "Attacking doesn’t cause your creatures to tap.",
+          "Flavor": "Once a guardian of Crovax’s estate, Selenia was freed from her magical bindings by the wealthy noble. Instead of remaining at his side, the angel chose to venture out into the world. For reasons unknown to Crovax, Selenia now serves the evil Volrath in hi",
+          "Artist": "Quinton Hoover"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21622,
+      "name": "Serra (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21622_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 15.79,
+          "marketPrice": 17.52,
+          "tcgplayerSkuIds": [
+            377811
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 15.79,
+          "marketPrice": 18.91,
+          "tcgplayerSkuIds": [
+            129911
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330537,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362053,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377811,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346295,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129911,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "All creatures you control get +0/+2.",
+        "flavorText": "Named for a benevolent goddess at birth, Serra fulfilled the prophecy of that goddess’s coming. As a planeswalker, she embodies white mana and helps whole civilizations develop while both directly and indirectly inspiring countless individuals to be stead",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "1",
+        "toughnessNumber": "1",
+        "artist": "Matthew D. Wilson",
+        "customAttributes": {
+          "description": "All creatures you control get +0/+2.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "Named for a benevolent goddess at birth, Serra fulfilled the prophecy of that goddess’s coming. As a planeswalker, she embodies white mana and helps whole civilizations develop while both directly and indirectly inspiring countless individuals to be stead",
+          "toughnessNumber": "1",
+          "toughness": "1"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / 1",
+          "Description": "All creatures you control get +0/+2.",
+          "Flavor": "Named for a benevolent goddess at birth, Serra fulfilled the prophecy of that goddess’s coming. As a planeswalker, she embodies white mana and helps whole civilizations develop while both directly and indirectly inspiring countless individuals to be stead",
+          "Artist": "Matthew D. Wilson"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21623,
+      "name": "Sidar Kondo (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21623_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 9.29,
+          "marketPrice": 16.47,
+          "tcgplayerSkuIds": [
+            377812
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 9.29,
+          "marketPrice": 11.95,
+          "tcgplayerSkuIds": [
+            346296
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 9.29,
+          "marketPrice": 15,
+          "tcgplayerSkuIds": [
+            129912
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330538,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362054,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377812,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346296,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129912,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "3: Target creature gets +3/+3 until end of turn.",
+        "flavorText": "Kondo served as guardian to the infant Gerrard and raised him alongside his own son, Vuel. He taught both boys to be strong and to lead, but whereas Gerrard became a champion of honor, Vuel’s bitterness led him to become an equally devastating force of ma",
+        "typeLine": "Vanguard Character",
+        "power": "-1",
+        "powerNumber": "-1",
+        "toughness": "12",
+        "toughnessNumber": "12",
+        "artist": "Kev Walker",
+        "customAttributes": {
+          "description": "3: Target creature gets +3/+3 until end of turn.",
+          "powerNumber": "-1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-1",
+          "flavorText": "Kondo served as guardian to the infant Gerrard and raised him alongside his own son, Vuel. He taught both boys to be strong and to lead, but whereas Gerrard became a champion of honor, Vuel’s bitterness led him to become an equally devastating force of ma",
+          "toughnessNumber": "12",
+          "toughness": "12"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-1 / 12",
+          "Description": "3: Target creature gets +3/+3 until end of turn.",
+          "Flavor": "Kondo served as guardian to the infant Gerrard and raised him alongside his own son, Vuel. He taught both boys to be strong and to lead, but whereas Gerrard became a champion of honor, Vuel’s bitterness led him to become an equally devastating force of ma",
+          "Artist": "Kev Walker"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21624,
+      "name": "Sisay (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21624_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.59,
+          "marketPrice": 2.04,
+          "tcgplayerSkuIds": [
+            330539
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.59,
+          "marketPrice": 2.42,
+          "tcgplayerSkuIds": [
+            362055
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.59,
+          "marketPrice": 2.28,
+          "tcgplayerSkuIds": [
+            377813
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.59,
+          "marketPrice": 2.72,
+          "tcgplayerSkuIds": [
+            346297
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.59,
+          "marketPrice": 1,
+          "tcgplayerSkuIds": [
+            129913
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330539,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362055,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377813,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346297,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129913,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever you tap a land for mana, it produces one additional mana of the same type.",
+        "flavorText": "While captain of the Weatherlight , Sisay undertook a quest for the Legacy, a collection of artifacts needed to defeat the Lord of the Wastes. She continued this quest even when Gerrard, heir to the Legacy, chose to abandon it. Sisay is devoted to the cau",
+        "typeLine": "Vanguard Character",
+        "power": "-2",
+        "powerNumber": "-2",
+        "toughness": "-3",
+        "toughnessNumber": "-3",
+        "artist": "Kaja Foglio",
+        "customAttributes": {
+          "description": "Whenever you tap a land for mana, it produces one additional mana of the same type.",
+          "powerNumber": "-2",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-2",
+          "flavorText": "While captain of the Weatherlight , Sisay undertook a quest for the Legacy, a collection of artifacts needed to defeat the Lord of the Wastes. She continued this quest even when Gerrard, heir to the Legacy, chose to abandon it. Sisay is devoted to the cau",
+          "toughnessNumber": "-3",
+          "toughness": "-3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-2 / -3",
+          "Description": "Whenever you tap a land for mana, it produces one additional mana of the same type.",
+          "Flavor": "While captain of the Weatherlight , Sisay undertook a quest for the Legacy, a collection of artifacts needed to defeat the Lord of the Wastes. She continued this quest even when Gerrard, heir to the Legacy, chose to abandon it. Sisay is devoted to the cau",
+          "Artist": "Kaja Foglio"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21625,
+      "name": "Sliver Queen, Brood Mother (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21625_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 49.47,
+          "marketPrice": 62.98,
+          "tcgplayerSkuIds": [
+            377814
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 49.47,
+          "marketPrice": 47.5,
+          "tcgplayerSkuIds": [
+            346298
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 49.47,
+          "marketPrice": 79.99,
+          "tcgplayerSkuIds": [
+            129914
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330540,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362056,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377814,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346298,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129914,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "3: Put a Sliver token into play. Treat this token as a 1/1 colorless creature.",
+        "flavorText": "Though long held captive beneath Volrath’s stronghold, the sliver queen is actually freer than most of Rath’s denizens. Her maternal instincts always take precedence—even when they conflict with the evincar’s agenda—and through her numerous litters, she r",
+        "typeLine": "Vanguard Character",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "8",
+        "toughnessNumber": "8",
+        "artist": "rk post",
+        "customAttributes": {
+          "description": "3: Put a Sliver token into play. Treat this token as a 1/1 colorless creature.",
+          "powerNumber": "0",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "0",
+          "flavorText": "Though long held captive beneath Volrath’s stronghold, the sliver queen is actually freer than most of Rath’s denizens. Her maternal instincts always take precedence—even when they conflict with the evincar’s agenda—and through her numerous litters, she r",
+          "toughnessNumber": "8",
+          "toughness": "8"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "0 / 8",
+          "Description": "3: Put a Sliver token into play. Treat this token as a 1/1 colorless creature.",
+          "Flavor": "Though long held captive beneath Volrath’s stronghold, the sliver queen is actually freer than most of Rath’s denizens. Her maternal instincts always take precedence—even when they conflict with the evincar’s agenda—and through her numerous litters, she r",
+          "Artist": "rk post"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21626,
+      "name": "Squee (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21626_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 1.5,
+          "marketPrice": 3.49,
+          "tcgplayerSkuIds": [
+            362057
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1.5,
+          "marketPrice": 4.17,
+          "tcgplayerSkuIds": [
+            377815
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 1.5,
+          "marketPrice": 3.08,
+          "tcgplayerSkuIds": [
+            346299
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 1.5,
+          "marketPrice": 5.6,
+          "tcgplayerSkuIds": [
+            129915
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330541,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362057,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377815,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346299,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129915,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Your opponents play with their hands face up.",
+        "flavorText": "The smartest—and only—goblin cabin boy aboard the Weatherlight , Squee has learned that intelligence and common sense are very different things. This matters little, however, since he has neither. Fortunately, he doesn’t know what he’s missing.",
+        "typeLine": "Vanguard Character",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "-4",
+        "toughnessNumber": "-4",
+        "artist": "Daniel Gelon",
+        "customAttributes": {
+          "description": "Your opponents play with their hands face up.",
+          "powerNumber": "3",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "3",
+          "flavorText": "The smartest—and only—goblin cabin boy aboard the Weatherlight , Squee has learned that intelligence and common sense are very different things. This matters little, however, since he has neither. Fortunately, he doesn’t know what he’s missing.",
+          "toughnessNumber": "-4",
+          "toughness": "-4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "3 / -4",
+          "Description": "Your opponents play with their hands face up.",
+          "Flavor": "The smartest—and only—goblin cabin boy aboard the Weatherlight , Squee has learned that intelligence and common sense are very different things. This matters little, however, since he has neither. Fortunately, he doesn’t know what he’s missing.",
+          "Artist": "Daniel Gelon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21627,
+      "name": "Starke (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21627_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 5.99,
+          "marketPrice": 2.99,
+          "tcgplayerSkuIds": [
+            330542
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 5.99,
+          "marketPrice": 4.23,
+          "tcgplayerSkuIds": [
+            362058
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 5.99,
+          "marketPrice": 12.99,
+          "tcgplayerSkuIds": [
+            377816
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 5.99,
+          "marketPrice": 4.4,
+          "tcgplayerSkuIds": [
+            346300
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330542,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362058,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377816,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346300,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129916,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "During your draw phase, you may draw an additional card and then put any card in your hand on the bottom of your library.",
+        "flavorText": "Starke believes in situational ethics—the situation determines the ethics. He’s switched sides so often that he has become everyone’s ally yet no one’s friend. This former merchant of Rath accompanies the Weatherlight crew on their journey to his home wor",
+        "typeLine": "Vanguard Character",
+        "power": "0",
+        "powerNumber": "0",
+        "toughness": "-2",
+        "toughnessNumber": "-2",
+        "artist": "Donato Giancola",
+        "customAttributes": {
+          "description": "During your draw phase, you may draw an additional card and then put any card in your hand on the bottom of your library.",
+          "powerNumber": "0",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "0",
+          "flavorText": "Starke believes in situational ethics—the situation determines the ethics. He’s switched sides so often that he has become everyone’s ally yet no one’s friend. This former merchant of Rath accompanies the Weatherlight crew on their journey to his home wor",
+          "toughnessNumber": "-2",
+          "toughness": "-2"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "0 / -2",
+          "Description": "During your draw phase, you may draw an additional card and then put any card in your hand on the bottom of your library.",
+          "Flavor": "Starke believes in situational ethics—the situation determines the ethics. He’s switched sides so often that he has become everyone’s ally yet no one’s friend. This former merchant of Rath accompanies the Weatherlight crew on their journey to his home wor",
+          "Artist": "Donato Giancola"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21628,
+      "name": "Tahngarth (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21628_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.52,
+          "marketPrice": 0.9,
+          "tcgplayerSkuIds": [
+            330543
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.52,
+          "marketPrice": 1.01,
+          "tcgplayerSkuIds": [
+            362059
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.52,
+          "marketPrice": 2.74,
+          "tcgplayerSkuIds": [
+            377817
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.52,
+          "marketPrice": 1.13,
+          "tcgplayerSkuIds": [
+            346301
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.52,
+          "marketPrice": 1.67,
+          "tcgplayerSkuIds": [
+            129917
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330543,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362059,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377817,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346301,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129917,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Your creatures are unaffected by summoning sickness.",
+        "flavorText": "Tahngarth, first mate of the Weatherlight under Sisay, knows that there are really only two forms of life: the ugly ones and the minotaurs. A narcissist, he considers the condition of his hide as important as the accuracy of his blade.",
+        "typeLine": "Vanguard Character",
+        "power": "-1",
+        "powerNumber": "-1",
+        "toughness": "7",
+        "toughnessNumber": "7",
+        "artist": "Pete Venters",
+        "customAttributes": {
+          "description": "Your creatures are unaffected by summoning sickness.",
+          "powerNumber": "-1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-1",
+          "flavorText": "Tahngarth, first mate of the Weatherlight under Sisay, knows that there are really only two forms of life: the ugly ones and the minotaurs. A narcissist, he considers the condition of his hide as important as the accuracy of his blade.",
+          "toughnessNumber": "7",
+          "toughness": "7"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-1 / 7",
+          "Description": "Your creatures are unaffected by summoning sickness.",
+          "Flavor": "Tahngarth, first mate of the Weatherlight under Sisay, knows that there are really only two forms of life: the ugly ones and the minotaurs. A narcissist, he considers the condition of his hide as important as the accuracy of his blade.",
+          "Artist": "Pete Venters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21629,
+      "name": "Takara (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21629_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 0.99,
+          "marketPrice": 0.78,
+          "tcgplayerSkuIds": [
+            330544
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 0.99,
+          "marketPrice": 4.99,
+          "tcgplayerSkuIds": [
+            362060
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.99,
+          "marketPrice": 7.62,
+          "tcgplayerSkuIds": [
+            377818
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 0.99,
+          "marketPrice": 5.98,
+          "tcgplayerSkuIds": [
+            346302
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 0.99,
+          "marketPrice": 14.69,
+          "tcgplayerSkuIds": [
+            129918
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330544,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362060,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377818,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346302,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129918,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Sacrifice a creature: Takara deals 1 damage to target creature or player.",
+        "flavorText": "Takara banishes the shadow of her father’s ignoble reputation through the dedication, plain speaking, and swift action of a warrior. By refusing Starke’s path of self-interest and opportunism, she has learned what he never will know: the value of sacrific",
+        "typeLine": "Vanguard Character",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "-8",
+        "toughnessNumber": "-8",
+        "artist": "DiTerlizzi",
+        "customAttributes": {
+          "description": "Sacrifice a creature: Takara deals 1 damage to target creature or player.",
+          "powerNumber": "3",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "3",
+          "flavorText": "Takara banishes the shadow of her father’s ignoble reputation through the dedication, plain speaking, and swift action of a warrior. By refusing Starke’s path of self-interest and opportunism, she has learned what he never will know: the value of sacrific",
+          "toughnessNumber": "-8",
+          "toughness": "-8"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "3 / -8",
+          "Description": "Sacrifice a creature: Takara deals 1 damage to target creature or player.",
+          "Flavor": "Takara banishes the shadow of her father’s ignoble reputation through the dedication, plain speaking, and swift action of a warrior. By refusing Starke’s path of self-interest and opportunism, she has learned what he never will know: the value of sacrific",
+          "Artist": "DiTerlizzi"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21630,
+      "name": "Tawnos (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21630_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 10,
+          "marketPrice": 19.07,
+          "tcgplayerSkuIds": [
+            346303
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330545,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362061,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377819,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346303,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129919,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "You may play artifact, creature, and enchantment spells any time you could play an instant.",
+        "flavorText": "Tawnos brings a childlike wonder and an inherent skill to Urza’s studio and bridges the wizardry of the workshop with the grandeur of the royal court. His speed and flexibility quickly earned him promotion from apprentice to master artificer.",
+        "typeLine": "Vanguard Character",
+        "power": "3",
+        "powerNumber": "3",
+        "toughness": "-4",
+        "toughnessNumber": "-4",
+        "artist": "Stephen Daniele",
+        "customAttributes": {
+          "description": "You may play artifact, creature, and enchantment spells any time you could play an instant.",
+          "powerNumber": "3",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "3",
+          "flavorText": "Tawnos brings a childlike wonder and an inherent skill to Urza’s studio and bridges the wizardry of the workshop with the grandeur of the royal court. His speed and flexibility quickly earned him promotion from apprentice to master artificer.",
+          "toughnessNumber": "-4",
+          "toughness": "-4"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "3 / -4",
+          "Description": "You may play artifact, creature, and enchantment spells any time you could play an instant.",
+          "Flavor": "Tawnos brings a childlike wonder and an inherent skill to Urza’s studio and bridges the wizardry of the workshop with the grandeur of the royal court. His speed and flexibility quickly earned him promotion from apprentice to master artificer.",
+          "Artist": "Stephen Daniele"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21631,
+      "name": "Titania (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21631_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 94.5,
+          "marketPrice": 111.67,
+          "tcgplayerSkuIds": [
+            377820
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330546,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362062,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377820,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346304,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129920,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "You may play an additional land each of your turns.",
+        "flavorText": "Voice of the Argoth forest, defender of its creatures, and enforcer of its laws, Titania is literally an aspect of the forest itself. Her power and her very existence are linked to the land: when the forest is healthy, Titania is ascendant. When Argoth su",
+        "typeLine": "Vanguard Character",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "-5",
+        "toughnessNumber": "-5",
+        "artist": "Rebecca Guay",
+        "customAttributes": {
+          "description": "You may play an additional land each of your turns.",
+          "powerNumber": "2",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "Voice of the Argoth forest, defender of its creatures, and enforcer of its laws, Titania is literally an aspect of the forest itself. Her power and her very existence are linked to the land: when the forest is healthy, Titania is ascendant. When Argoth su",
+          "toughnessNumber": "-5",
+          "toughness": "-5"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "2 / -5",
+          "Description": "You may play an additional land each of your turns.",
+          "Flavor": "Voice of the Argoth forest, defender of its creatures, and enforcer of its laws, Titania is literally an aspect of the forest itself. Her power and her very existence are linked to the land: when the forest is healthy, Titania is ascendant. When Argoth su",
+          "Artist": "Rebecca Guay"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21632,
+      "name": "Urza (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21632_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 3.99,
+          "tcgplayerSkuIds": [
+            330547
+          ]
+        },
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 10.8,
+          "tcgplayerSkuIds": [
+            362063
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 10.01,
+          "tcgplayerSkuIds": [
+            377821
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 13.37,
+          "tcgplayerSkuIds": [
+            346305
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 8,
+          "marketPrice": 54,
+          "tcgplayerSkuIds": [
+            129921
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330547,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362063,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377821,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346305,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129921,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "3: Urza deals 1 damage to target creature or player.",
+        "flavorText": "An artificer of unparalleled renown, Urza was a powerful cipher even before he was able to planeswalk. Seeing the world as a large, integrated machine is his greatest strength and weakness, enabling him to solve almost any problem but blinding him to his",
+        "typeLine": "Vanguard Character",
+        "power": "-1",
+        "powerNumber": "-1",
+        "toughness": "10",
+        "toughnessNumber": "10",
+        "artist": "Mark Tedin",
+        "customAttributes": {
+          "description": "3: Urza deals 1 damage to target creature or player.",
+          "powerNumber": "-1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "-1",
+          "flavorText": "An artificer of unparalleled renown, Urza was a powerful cipher even before he was able to planeswalk. Seeing the world as a large, integrated machine is his greatest strength and weakness, enabling him to solve almost any problem but blinding him to his",
+          "toughnessNumber": "10",
+          "toughness": "10"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "-1 / 10",
+          "Description": "3: Urza deals 1 damage to target creature or player.",
+          "Flavor": "An artificer of unparalleled renown, Urza was a powerful cipher even before he was able to planeswalk. Seeing the world as a large, integrated machine is his greatest strength and weakness, enabling him to solve almost any problem but blinding him to his",
+          "Artist": "Mark Tedin"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21633,
+      "name": "Volrath (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21633_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 10.08,
+          "tcgplayerSkuIds": [
+            362064
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 11.2,
+          "tcgplayerSkuIds": [
+            377822
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 7.99,
+          "tcgplayerSkuIds": [
+            346306
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 10.16,
+          "marketPrice": 11,
+          "tcgplayerSkuIds": [
+            129922
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330548,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362064,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377822,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346306,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129922,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Whenever any of your creatures is put into your graveyard from play, you may put that creature on top of your library.",
+        "flavorText": "The son of Gerrard’s surrogate father, Sidar Kondo, Volrath stole Gerrard’s Legacy and rose to power selling it off piece by piece. Now, he is an evincar, or agent, of the Lord of the Wastes. Armed with exceptional magical powers, he plots to conquer the",
+        "typeLine": "Vanguard Character",
+        "power": "2",
+        "powerNumber": "2",
+        "toughness": "-3",
+        "toughnessNumber": "-3",
+        "artist": "Anson Maddocks",
+        "customAttributes": {
+          "description": "Whenever any of your creatures is put into your graveyard from play, you may put that creature on top of your library.",
+          "powerNumber": "2",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "2",
+          "flavorText": "The son of Gerrard’s surrogate father, Sidar Kondo, Volrath stole Gerrard’s Legacy and rose to power selling it off piece by piece. Now, he is an evincar, or agent, of the Lord of the Wastes. Armed with exceptional magical powers, he plots to conquer the",
+          "toughnessNumber": "-3",
+          "toughness": "-3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "2 / -3",
+          "Description": "Whenever any of your creatures is put into your graveyard from play, you may put that creature on top of your library.",
+          "Flavor": "The son of Gerrard’s surrogate father, Sidar Kondo, Volrath stole Gerrard’s Legacy and rose to power selling it off piece by piece. Now, he is an evincar, or agent, of the Lord of the Wastes. Armed with exceptional magical powers, he plots to conquer the",
+          "Artist": "Anson Maddocks"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 21634,
+      "name": "Xantcha (Oversize)",
+      "productLineId": 1,
+      "setId": 119,
+      "collectorNumber": "",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/21634_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 39.4,
+          "marketPrice": 49.97,
+          "tcgplayerSkuIds": [
+            129923
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 330549,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 362065,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 377823,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 346307,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 129923,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "Sacrifice a permanent: Regenerate target creature.",
+        "flavorText": "A Phyrexian “sleeper agent,” Xantcha has developed an inviolate sense of self. This aberration earned her a death sentence, but she was rescued by Urza and joined his crusade. Her Phyrexian credo of “Waste not, want not” has helped Urza more than even he",
+        "typeLine": "Vanguard Character",
+        "power": "1",
+        "powerNumber": "1",
+        "toughness": "3",
+        "toughnessNumber": "3",
+        "artist": "Heather Hudson",
+        "customAttributes": {
+          "description": "Sacrifice a permanent: Regenerate target creature.",
+          "powerNumber": "1",
+          "fullType": "Vanguard Character",
+          "releaseDate": "1997-05-21T00:00:00Z",
+          "rarityDbName": "P",
+          "power": "1",
+          "flavorText": "A Phyrexian “sleeper agent,” Xantcha has developed an inviolate sense of self. This aberration earned her a death sentence, but she was rescued by Urza and joined his crusade. Her Phyrexian credo of “Waste not, want not” has helped Urza more than even he",
+          "toughnessNumber": "3",
+          "toughness": "3"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "Card Type": "Vanguard Character",
+          "P / T": "1 / 3",
+          "Description": "Sacrifice a permanent: Regenerate target creature.",
+          "Flavor": "A Phyrexian “sleeper agent,” Xantcha has developed an inviolate sense of self. This aberration earned her a death sentence, but she was rescued by Urza and joined his crusade. Her Phyrexian credo of “Waste not, want not” has helped Urza more than even he",
+          "Artist": "Heather Hudson"
+        }
+      }
+    }
+  ]
+}
