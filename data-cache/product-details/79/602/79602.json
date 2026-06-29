@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:09:47Z",
+  "tcgplayerProductId": 79602,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Disenchant",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.51,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target artifact or enchantment.",
+      "powerNumber": null,
+      "color": [
+        "White"
+      ],
+      "fullType": "Instant ",
+      "releaseDate": "1998-11-02T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.21,
+    "productName": "Disenchant",
+    "setId": 1275.0,
+    "setCode": "ATH",
+    "productId": 79602.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Anthologies",
+    "sellers": 76.0,
+    "foilOnly": false,
+    "setUrlName": "Anthologies",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 86.0,
+    "lowestPrice": 0.18,
+    "medianPrice": 0.555,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Instant ",
+      "Description": "Destroy target artifact or enchantment.",
+      "Artist": "Amy Weber"
+    },
+    "skus": [
+      {
+        "sku": 1168667,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168668,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168669,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168670,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168671,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:09:44Z",
+  "tcgplayerProductId": 79370,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Naturalize",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.55,
+    "customAttributes": {
+      "formats": null,
+      "description": "Destroy target artifact or enchantment.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Instant",
+      "releaseDate": "2009-06-17T00:00:00Z",
+      "number": "76",
+      "cardType": [
+        "Instant"
+      ],
+      "convertedCost": "2",
+      "rarityDbName": "C",
+      "power": null,
+      "flavorText": "<em>If you want to destroy something lifeless, make it live.</em>",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.12,
+    "productName": "Naturalize",
+    "setId": 1274.0,
+    "setCode": "DPA",
+    "productId": 79370.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Duels of the Planeswalkers",
+    "sellers": 75.0,
+    "foilOnly": false,
+    "setUrlName": "Duels of the Planeswalkers",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 86.0,
+    "lowestPrice": 0.12,
+    "medianPrice": 0.59,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "#": "76",
+      "Card Type": "Instant",
+      "Description": "Destroy target artifact or enchantment.",
+      "Flavor": "<em>If you want to destroy something lifeless, make it live.</em>",
+      "Artist": "Tim Hildebrandt"
+    },
+    "skus": [
+      {
+        "sku": 1167719,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1167720,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1167721,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1167722,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1167723,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:09:46Z",
+  "tcgplayerProductId": 79599,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Armored Pegasus",
+    "productTypeId": 1.0,
+    "rarityName": "Common",
+    "sealed": false,
+    "marketPrice": 0.31,
+    "customAttributes": {
+      "formats": null,
+      "description": "Flying",
+      "powerNumber": "1",
+      "color": [
+        "White"
+      ],
+      "fullType": "Creature — Pegasus",
+      "releaseDate": "1998-11-02T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "C",
+      "power": "1",
+      "flavorText": "<em>Asked how it survived a run-in with a bog imp, the pegasus just shook its mane and burped.</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 0.16,
+    "productName": "Armored Pegasus",
+    "setId": 1275.0,
+    "setCode": "ATH",
+    "productId": 79599.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Anthologies",
+    "sellers": 76.0,
+    "foilOnly": false,
+    "setUrlName": "Anthologies",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 85.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.33,
+    "formattedAttributes": {
+      "Rarity": "C",
+      "Card Type": "Creature — Pegasus",
+      "P / T": "1 / 2",
+      "Description": "Flying",
+      "Flavor": "<em>Asked how it survived a run-in with a bog imp, the pegasus just shook its mane and burped.</em>",
+      "Artist": "Andrew Robinson"
+    },
+    "skus": [
+      {
+        "sku": 1168652,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168653,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168654,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168655,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168656,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:09:50Z",
+  "tcgplayerProductId": 79568,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Mountain Mirage",
+    "productTypeId": 1.0,
+    "rarityName": "Land",
+    "sealed": false,
+    "marketPrice": 0.46,
+    "customAttributes": {
+      "formats": null,
+      "description": "T: Add R to your mana pool.",
+      "powerNumber": null,
+      "color": [
+        "Colorless"
+      ],
+      "fullType": "Land ",
+      "releaseDate": "1998-11-02T00:00:00Z",
+      "number": null,
+      "cardType": [
+        "Land"
+      ],
+      "rarityDbName": "L",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Mountain (Mirage)",
+    "setId": 1275.0,
+    "setCode": "ATH",
+    "productId": 79568.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Anthologies",
+    "sellers": 65.0,
+    "foilOnly": false,
+    "setUrlName": "Anthologies",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 77.0,
+    "lowestPrice": 0.09,
+    "medianPrice": 0.575,
+    "formattedAttributes": {
+      "Rarity": "L",
+      "Card Type": "Land ",
+      "Description": "T: Add R to your mana pool.",
+      "Artist": "John Avon"
+    },
+    "skus": [
+      {
+        "sku": 1168497,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168498,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168499,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168500,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 1168501,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}
