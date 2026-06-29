@@ -1,0 +1,101 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:05:26Z",
+  "tcgplayerProductId": 67176,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Edric Spymaster of Trest",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 5.66,
+    "customAttributes": {
+      "formats": null,
+      "description": "Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.",
+      "powerNumber": "2",
+      "color": [
+        "Blue",
+        "Green"
+      ],
+      "fullType": "Legendary Creature — Elf Rogue",
+      "releaseDate": "2012-11-02T00:00:00Z",
+      "number": "8",
+      "cardType": [
+        "Legendary",
+        "Creature"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "R",
+      "power": "2",
+      "flavorText": "<em>“I am not at liberty to reveal my sources, but I can assure you, the price on your head is high.”</em>",
+      "toughnessNumber": "2",
+      "toughness": "2"
+    },
+    "lowestPriceWithShipping": 5.4,
+    "productName": "Edric, Spymaster of Trest",
+    "setId": 568.0,
+    "setCode": "CM1",
+    "productId": 67176.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Commander's Arsenal",
+    "sellers": 32.0,
+    "foilOnly": true,
+    "setUrlName": "Commanders Arsenal",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": false,
+    "listings": 35.0,
+    "lowestPrice": 3.0,
+    "medianPrice": 7.5,
+    "formattedAttributes": {
+      "Rarity": "R",
+      "#": "8",
+      "Card Type": "Legendary Creature — Elf Rogue",
+      "P / T": "2 / 2",
+      "Description": "Whenever a creature deals combat damage to one of your opponents, its controller may draw a card.",
+      "Flavor": "<em>“I am not at liberty to reveal my sources, but I can assure you, the price on your head is high.”</em>",
+      "Artist": "Volkan Baga"
+    },
+    "skus": [
+      {
+        "sku": 1062484,
+        "condition": "Near Mint",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1062628,
+        "condition": "Lightly Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1062592,
+        "condition": "Moderately Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1062610,
+        "condition": "Heavily Played",
+        "variant": "Foil",
+        "language": "English"
+      },
+      {
+        "sku": 1062574,
+        "condition": "Damaged",
+        "variant": "Foil",
+        "language": "English"
+      }
+    ]
+  }
+}

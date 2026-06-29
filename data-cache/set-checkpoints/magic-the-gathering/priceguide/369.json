@@ -1,0 +1,5851 @@
+{
+  "object": "tcgjson_set_checkpoint",
+  "version": 1,
+  "generatedAt": "2026-06-29T22:04:47Z",
+  "source": "priceguide",
+  "productLineId": 1,
+  "slug": "magic-the-gathering",
+  "tcgplayerSetId": 369,
+  "withSkus": true,
+  "priceguideRows": 5000,
+  "set": {
+    "tcgplayerSetId": 369,
+    "name": "Magic Premiere Shop",
+    "urlName": "magic-premiere-shop",
+    "abbreviation": "PREM",
+    "releaseDate": "2006-01-07T00:00:00",
+    "isSupplemental": true,
+    "productCount": 50,
+    "priceGuideRowCount": 123,
+    "detailErrorCount": 0,
+    "detailCacheHitCount": 0,
+    "detailFetchCount": 50,
+    "source": "priceguide"
+  },
+  "products": [
+    {
+      "tcgplayerProductId": 58217,
+      "name": "Plains (2006)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58217_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 11.99,
+          "marketPrice": 4,
+          "tcgplayerSkuIds": [
+            852791
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.99,
+          "marketPrice": 8.14,
+          "tcgplayerSkuIds": [
+            852986
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.99,
+          "marketPrice": 7.87,
+          "tcgplayerSkuIds": [
+            852856
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852791,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852921,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852986,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852856,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852401,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Daren Bader",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Daren Bader"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58222,
+      "name": "Plains (2007)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58222_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 25.45,
+          "marketPrice": 9.99,
+          "tcgplayerSkuIds": [
+            853043
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852848,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852588,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852978,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852718,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853043,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852783,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852913,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852653,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852458,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852393,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58233,
+      "name": "Plains (2008)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58233_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.66,
+          "marketPrice": 11.9,
+          "tcgplayerSkuIds": [
+            853020
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 3.66,
+          "marketPrice": 5,
+          "tcgplayerSkuIds": [
+            852760
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852825,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852565,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852955,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852695,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853020,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852760,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852890,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852630,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852435,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852370,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58243,
+      "name": "Plains (2009)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58243_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.49,
+          "marketPrice": 2.75,
+          "tcgplayerSkuIds": [
+            852988
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.49,
+          "marketPrice": 5.23,
+          "tcgplayerSkuIds": [
+            852403
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1.49,
+          "marketPrice": 2.99,
+          "tcgplayerSkuIds": [
+            852728
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852793,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852533,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852923,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852663,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852988,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852728,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852858,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852598,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852403,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852338,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Rob Alexander",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Rob Alexander"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58252,
+      "name": "Plains (2010)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58252_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.26,
+          "marketPrice": 2.29,
+          "tcgplayerSkuIds": [
+            852940
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.26,
+          "marketPrice": 2.5,
+          "tcgplayerSkuIds": [
+            853005
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 2.26,
+          "marketPrice": 5.28,
+          "tcgplayerSkuIds": [
+            852420
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852810,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852550,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852940,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852680,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853005,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852745,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852875,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852615,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852420,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852355,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 80285,
+      "name": "Plains (2011)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "1",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/80285_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.99,
+          "marketPrice": 5,
+          "tcgplayerSkuIds": [
+            1172164
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.99,
+          "marketPrice": 1.5,
+          "tcgplayerSkuIds": [
+            1172159
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1172167,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172162,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172166,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172161,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172164,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172159,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172165,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172160,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172163,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172158,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Adam Paquette",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "1",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "1",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Adam Paquette"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58218,
+      "name": "Island (2006)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58218_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 29.99,
+          "marketPrice": 17.99,
+          "tcgplayerSkuIds": [
+            852816
+          ]
+        },
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 29.99,
+          "marketPrice": 16.79,
+          "tcgplayerSkuIds": [
+            852946
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 29.99,
+          "marketPrice": 22.09,
+          "tcgplayerSkuIds": [
+            853011
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 29.99,
+          "marketPrice": 19.33,
+          "tcgplayerSkuIds": [
+            852881
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852816,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852946,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853011,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852881,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852426,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58224,
+      "name": "Island (2007)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58224_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 1.89,
+          "marketPrice": 3.27,
+          "tcgplayerSkuIds": [
+            852628
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852823,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852563,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852953,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852693,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853018,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852758,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852888,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852628,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852433,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852368,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58235,
+      "name": "Island (2008)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58235_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5,
+          "marketPrice": 5.56,
+          "tcgplayerSkuIds": [
+            853003
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 5,
+          "marketPrice": 4.57,
+          "tcgplayerSkuIds": [
+            852613
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852808,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852548,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852938,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852678,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853003,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852743,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852873,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852613,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852418,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852353,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58245,
+      "name": "Island (2009)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58245_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.96,
+          "marketPrice": 3.91,
+          "tcgplayerSkuIds": [
+            853042
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.96,
+          "marketPrice": 4.87,
+          "tcgplayerSkuIds": [
+            852457
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1.96,
+          "marketPrice": 1.75,
+          "tcgplayerSkuIds": [
+            852782
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852847,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852587,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852977,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852717,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853042,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852782,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852912,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852652,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852457,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852392,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Rob Alexander",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Rob Alexander"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58254,
+      "name": "Island (2010)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58254_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.98,
+          "marketPrice": 3.94,
+          "tcgplayerSkuIds": [
+            852983
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2.98,
+          "marketPrice": 3.52,
+          "tcgplayerSkuIds": [
+            852723
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2.98,
+          "marketPrice": 3.79,
+          "tcgplayerSkuIds": [
+            852333
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852788,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852528,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852918,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852658,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852983,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852723,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852853,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852593,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852398,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852333,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 101548,
+      "name": "Island (2011)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "2",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/101548_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.4,
+          "marketPrice": 4.39,
+          "tcgplayerSkuIds": [
+            2938101
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1.4,
+          "marketPrice": 1.25,
+          "tcgplayerSkuIds": [
+            2938096
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 2938104,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938099,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938103,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938098,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938101,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938096,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938102,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938097,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938100,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 2938095,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Adam Paquette",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "2",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "2",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Adam Paquette"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58197,
+      "name": "Plains (The Orzhov Syndicate)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "287",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58197_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 36.99,
+          "marketPrice": 14.99,
+          "tcgplayerSkuIds": [
+            852792
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 36.99,
+          "marketPrice": 49.93,
+          "tcgplayerSkuIds": [
+            852987
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852792,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852922,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852987,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852857,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852402,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Stephan Martiniere",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "287",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "287",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Stephan Martiniere"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58199,
+      "name": "Plains (The Selesnya Conclave)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "288",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58199_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.65,
+          "marketPrice": 14.99,
+          "tcgplayerSkuIds": [
+            853033
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852838,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852968,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853033,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852903,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852448,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Christopher Moeller",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "288",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "288",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Christopher Moeller"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58211,
+      "name": "Plains (The Azorius Senate)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "289",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58211_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 10.73,
+          "marketPrice": 14.72,
+          "tcgplayerSkuIds": [
+            852980
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852785,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852915,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852980,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852850,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852395,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "289",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "289",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58213,
+      "name": "Plains (The Boros Legion)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "290",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58213_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 8.45,
+          "marketPrice": 4.5,
+          "tcgplayerSkuIds": [
+            852836
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8.45,
+          "marketPrice": 14.99,
+          "tcgplayerSkuIds": [
+            853031
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 8.45,
+          "marketPrice": 7.54,
+          "tcgplayerSkuIds": [
+            852901
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 8.45,
+          "marketPrice": 16.95,
+          "tcgplayerSkuIds": [
+            852446
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852836,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852966,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853031,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852901,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852446,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Plains",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Richard Wright",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Plains",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "290",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "290",
+          "Card Type": "Basic Land — Plains",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Richard Wright"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58198,
+      "name": "Island (The Azorius Senate)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "291",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58198_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.5,
+          "marketPrice": 18.39,
+          "tcgplayerSkuIds": [
+            853016
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.5,
+          "marketPrice": 13.08,
+          "tcgplayerSkuIds": [
+            852886
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852821,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852951,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853016,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852886,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852431,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Stephan Martiniere",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "291",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "291",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Stephan Martiniere"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58207,
+      "name": "Island (The Izzet League)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "292",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58207_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 65,
+          "marketPrice": 74.99,
+          "tcgplayerSkuIds": [
+            853025
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 65,
+          "marketPrice": 79.99,
+          "tcgplayerSkuIds": [
+            852440
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852830,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852960,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853025,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852895,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852440,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Christopher Moeller",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "292",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "292",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Christopher Moeller"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58209,
+      "name": "Island (The Simic Combine)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "293",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58209_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 7.95,
+          "marketPrice": 9.75,
+          "tcgplayerSkuIds": [
+            852995
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 7.95,
+          "marketPrice": 8.5,
+          "tcgplayerSkuIds": [
+            852865
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852800,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852930,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852995,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852865,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852410,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "293",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "293",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58215,
+      "name": "Island (The House Dimir)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "294",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58215_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.75,
+          "marketPrice": 19.45,
+          "tcgplayerSkuIds": [
+            853008
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.75,
+          "marketPrice": 14.98,
+          "tcgplayerSkuIds": [
+            852878
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 11.75,
+          "marketPrice": 24.95,
+          "tcgplayerSkuIds": [
+            852423
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852813,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852943,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853008,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852878,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852423,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Island",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Richard Wright",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Island",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "294",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "294",
+          "Card Type": "Basic Land — Island",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Richard Wright"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58201,
+      "name": "Swamp (The Golgari Swarm)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "295",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58201_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 24,
+          "marketPrice": 28.48,
+          "tcgplayerSkuIds": [
+            853019
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 24,
+          "marketPrice": 25.5,
+          "tcgplayerSkuIds": [
+            852889
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 24,
+          "marketPrice": 37.94,
+          "tcgplayerSkuIds": [
+            852434
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852824,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852954,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853019,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852889,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852434,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Stephan Martiniere",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "295",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "295",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Stephan Martiniere"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58203,
+      "name": "Swamp (The House Dimir)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "296",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58203_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 16.99,
+          "marketPrice": 19.99,
+          "tcgplayerSkuIds": [
+            852996
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 16.99,
+          "marketPrice": 25.99,
+          "tcgplayerSkuIds": [
+            852411
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852801,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852931,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852996,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852866,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852411,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Christopher Moeller",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "296",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "296",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Christopher Moeller"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58208,
+      "name": "Swamp (The Orzhov Syndicate)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "297",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58208_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 15.25,
+          "marketPrice": 17.36,
+          "tcgplayerSkuIds": [
+            852984
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 15.25,
+          "marketPrice": 18.97,
+          "tcgplayerSkuIds": [
+            852399
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852789,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852919,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852984,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852854,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852399,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "297",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "297",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58212,
+      "name": "Swamp (The Cult of Rakdos)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "298",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58212_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 22.8,
+          "marketPrice": 36,
+          "tcgplayerSkuIds": [
+            852419
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852809,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852939,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853004,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852874,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852419,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Richard Wright",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "298",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "298",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Richard Wright"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58200,
+      "name": "Mountain (The Cult of Rakdos)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "299",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58200_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 32.99,
+          "marketPrice": 40,
+          "tcgplayerSkuIds": [
+            852992
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 32.99,
+          "marketPrice": 42,
+          "tcgplayerSkuIds": [
+            852407
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852797,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852927,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852992,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852862,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852407,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Stephan Martiniere",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "299",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "299",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Stephan Martiniere"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58219,
+      "name": "Swamp (2006)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58219_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.15,
+          "marketPrice": 19.36,
+          "tcgplayerSkuIds": [
+            853029
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.15,
+          "marketPrice": 13.39,
+          "tcgplayerSkuIds": [
+            852899
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852834,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852964,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853029,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852899,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852444,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Puddnhead",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Puddnhead"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58226,
+      "name": "Swamp (2007)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58226_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 5,
+          "marketPrice": 12.2,
+          "tcgplayerSkuIds": [
+            852998
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 5,
+          "marketPrice": 4.52,
+          "tcgplayerSkuIds": [
+            852608
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852803,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852543,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852933,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852673,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852998,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852738,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852868,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852608,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852413,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852348,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58237,
+      "name": "Swamp (2008)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58237_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.49,
+          "marketPrice": 3.42,
+          "tcgplayerSkuIds": [
+            852991
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.49,
+          "marketPrice": 2.49,
+          "tcgplayerSkuIds": [
+            852861
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2.49,
+          "marketPrice": 5.29,
+          "tcgplayerSkuIds": [
+            852341
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852796,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852536,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852926,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852666,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852991,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852731,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852861,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852601,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852406,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852341,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58247,
+      "name": "Swamp (2009)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58247_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 1.49,
+          "marketPrice": 2.99,
+          "tcgplayerSkuIds": [
+            852832
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.49,
+          "marketPrice": 4.26,
+          "tcgplayerSkuIds": [
+            853027
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.49,
+          "marketPrice": 3.76,
+          "tcgplayerSkuIds": [
+            852897
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.49,
+          "marketPrice": 5.49,
+          "tcgplayerSkuIds": [
+            852442
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 1.49,
+          "marketPrice": 3.61,
+          "tcgplayerSkuIds": [
+            852637
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 1.49,
+          "marketPrice": 5,
+          "tcgplayerSkuIds": [
+            852377
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852832,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852572,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852962,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852702,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853027,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852767,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852897,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852637,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852442,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852377,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Rob Alexander",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Rob Alexander"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58257,
+      "name": "Swamp (2010)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58257_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2.38,
+          "marketPrice": 3.77,
+          "tcgplayerSkuIds": [
+            852733
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2.38,
+          "marketPrice": 5.12,
+          "tcgplayerSkuIds": [
+            852343
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852798,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852538,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852928,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852668,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852993,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852733,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852863,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852603,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852408,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852343,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 80286,
+      "name": "Swamp (2011)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "3",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/80286_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.49,
+          "marketPrice": 8.04,
+          "tcgplayerSkuIds": [
+            1172174
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 3.49,
+          "marketPrice": 0.5,
+          "tcgplayerSkuIds": [
+            1172175
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 3.49,
+          "marketPrice": 6,
+          "tcgplayerSkuIds": [
+            1172173
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 3.49,
+          "marketPrice": 4.43,
+          "tcgplayerSkuIds": [
+            1172169
+          ]
+        },
+        {
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "lowPrice": 3.49,
+          "marketPrice": 6.84,
+          "tcgplayerSkuIds": [
+            1172170
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 3.49,
+          "marketPrice": 8.3,
+          "tcgplayerSkuIds": [
+            1172168
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1172177,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172172,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172176,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172171,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172174,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172169,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172175,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172170,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172173,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172168,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Swamp",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Adam Paquette",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Swamp",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "3",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "3",
+          "Card Type": "Basic Land — Swamp",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Adam Paquette"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58202,
+      "name": "Mountain (The Gruul Clans)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "300",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58202_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.78,
+          "marketPrice": 12.46,
+          "tcgplayerSkuIds": [
+            853037
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 13.78,
+          "marketPrice": 14.95,
+          "tcgplayerSkuIds": [
+            852452
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852842,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852972,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853037,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852907,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852452,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Christopher Moeller",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "300",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "300",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Christopher Moeller"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58205,
+      "name": "Mountain (The Izzet League)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "301",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58205_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 27.95,
+          "marketPrice": 43.99,
+          "tcgplayerSkuIds": [
+            852455
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852845,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852975,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853040,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852910,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852455,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "301",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "301",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58210,
+      "name": "Mountain (The Boros Legion)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "302",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58210_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 19,
+          "marketPrice": 6.29,
+          "tcgplayerSkuIds": [
+            852956
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 19,
+          "marketPrice": 22.2,
+          "tcgplayerSkuIds": [
+            853021
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 19,
+          "marketPrice": 7.19,
+          "tcgplayerSkuIds": [
+            852891
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 19,
+          "marketPrice": 22.99,
+          "tcgplayerSkuIds": [
+            852436
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852826,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852956,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853021,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852891,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852436,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Richard Wright",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "302",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "302",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Richard Wright"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58204,
+      "name": "Forest (The Golgari Swarm)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "303",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58204_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 25,
+          "marketPrice": 20,
+          "tcgplayerSkuIds": [
+            853013
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852818,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852948,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853013,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852883,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852428,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Stephan Martiniere",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "303",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "303",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Stephan Martiniere"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58206,
+      "name": "Forest (The Selesnya Conclave)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "304",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58206_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 13.98,
+          "marketPrice": 16.58,
+          "tcgplayerSkuIds": [
+            852999
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852804,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852934,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852999,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852869,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852414,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Christopher Moeller",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "304",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "304",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Christopher Moeller"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58214,
+      "name": "Forest (The Gruul Clans)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "305",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58214_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 14.98,
+          "marketPrice": 19.74,
+          "tcgplayerSkuIds": [
+            852982
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852787,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852917,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852982,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852852,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852397,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Anthony S. Waters",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "305",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "305",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Anthony S. Waters"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58216,
+      "name": "Forest (The Simic Combine)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "306",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58216_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 12.98,
+          "marketPrice": 19.28,
+          "tcgplayerSkuIds": [
+            852450
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852840,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852970,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853035,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852905,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852450,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Richard Wright",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "306",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "306",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Richard Wright"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58220,
+      "name": "Mountain (2006)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58220_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.75,
+          "marketPrice": 7,
+          "tcgplayerSkuIds": [
+            852924
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.75,
+          "marketPrice": 14.24,
+          "tcgplayerSkuIds": [
+            852989
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 11.75,
+          "marketPrice": 11.41,
+          "tcgplayerSkuIds": [
+            852859
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852794,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852924,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852989,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852859,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852404,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Kev Walker",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Kev Walker"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58228,
+      "name": "Mountain (2007)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58228_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.99,
+          "marketPrice": 5.46,
+          "tcgplayerSkuIds": [
+            852911
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.99,
+          "marketPrice": 6,
+          "tcgplayerSkuIds": [
+            852456
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852846,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852586,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852976,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852716,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853041,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852781,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852911,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852651,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852456,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852391,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58239,
+      "name": "Mountain (2008)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58239_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.37,
+          "marketPrice": 4.99,
+          "tcgplayerSkuIds": [
+            853034
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 4.37,
+          "marketPrice": 5.17,
+          "tcgplayerSkuIds": [
+            852449
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 4.37,
+          "marketPrice": 5.51,
+          "tcgplayerSkuIds": [
+            852384
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852839,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852579,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852969,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852709,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853034,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852774,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852904,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852644,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852449,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852384,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58249,
+      "name": "Mountain (2009)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58249_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.99,
+          "marketPrice": 1.49,
+          "tcgplayerSkuIds": [
+            852802
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.99,
+          "marketPrice": 3.24,
+          "tcgplayerSkuIds": [
+            852997
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 0.99,
+          "marketPrice": 2.43,
+          "tcgplayerSkuIds": [
+            852412
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852802,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852542,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852932,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852672,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852997,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852737,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852867,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852607,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852412,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852347,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Rob Alexander",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Rob Alexander"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58259,
+      "name": "Mountain (2010)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58259_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 0.54,
+          "tcgplayerSkuIds": [
+            852577
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 2.77,
+          "tcgplayerSkuIds": [
+            852772
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 2,
+          "marketPrice": 3.25,
+          "tcgplayerSkuIds": [
+            852382
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852837,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852577,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852967,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852707,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853032,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852772,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852902,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852642,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852447,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852382,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 80287,
+      "name": "Mountain (2011)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "4",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/80287_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Heavily Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.94,
+          "marketPrice": 2.34,
+          "tcgplayerSkuIds": [
+            1172186
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 2.94,
+          "marketPrice": 3.39,
+          "tcgplayerSkuIds": [
+            1172184
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 2.94,
+          "marketPrice": 3,
+          "tcgplayerSkuIds": [
+            1172179
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1172187,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172182,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172186,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172181,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172184,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172179,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172185,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172180,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172183,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172178,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Mountain",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Adam Paquette",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Mountain",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "4",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "4",
+          "Card Type": "Basic Land — Mountain",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Adam Paquette"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58221,
+      "name": "Forest (2006)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58221_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35,
+          "marketPrice": 33.66,
+          "tcgplayerSkuIds": [
+            853015
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 35,
+          "marketPrice": 29.99,
+          "tcgplayerSkuIds": [
+            852885
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 35,
+          "marketPrice": 39.99,
+          "tcgplayerSkuIds": [
+            852430
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852820,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852950,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853015,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852885,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852430,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Martina Pilcerova",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Martina Pilcerova"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58230,
+      "name": "Forest (2007)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58230_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 5,
+          "marketPrice": 7.37,
+          "tcgplayerSkuIds": [
+            852441
+          ]
+        },
+        {
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "lowPrice": 5,
+          "marketPrice": 5.49,
+          "tcgplayerSkuIds": [
+            852376
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852831,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852571,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852961,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852701,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853026,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852766,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852896,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852636,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852441,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852376,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58241,
+      "name": "Forest (2008)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58241_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.29,
+          "marketPrice": 4.53,
+          "tcgplayerSkuIds": [
+            853012
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 4.29,
+          "marketPrice": 3.56,
+          "tcgplayerSkuIds": [
+            852882
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852817,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852557,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852947,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852687,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 853012,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852752,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852882,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852622,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852427,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852362,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58251,
+      "name": "Forest (2009)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58251_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.7,
+          "marketPrice": 1.5,
+          "tcgplayerSkuIds": [
+            852981
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.7,
+          "marketPrice": 2.52,
+          "tcgplayerSkuIds": [
+            852851
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1.7,
+          "marketPrice": 1.99,
+          "tcgplayerSkuIds": [
+            852721
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852786,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852526,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852916,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852656,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852981,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852721,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852851,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852591,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852396,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852331,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Rob Alexander",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Rob Alexander"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 58260,
+      "name": "Forest (2010)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/58260_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Damaged Foil",
+          "printing": "Foil",
+          "lowPrice": 0.61,
+          "marketPrice": 2.99,
+          "tcgplayerSkuIds": [
+            852795
+          ]
+        },
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.61,
+          "marketPrice": 12.39,
+          "tcgplayerSkuIds": [
+            852990
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 0.61,
+          "marketPrice": 0.1,
+          "tcgplayerSkuIds": [
+            852860
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 0.61,
+          "marketPrice": 2.7,
+          "tcgplayerSkuIds": [
+            852730
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 852795,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852535,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852925,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852665,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852990,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852730,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852860,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852600,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852405,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 852340,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "John Avon",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "John Avon"
+        }
+      }
+    },
+    {
+      "tcgplayerProductId": 80288,
+      "name": "Forest (2011)",
+      "productLineId": 1,
+      "setId": 369,
+      "collectorNumber": "5",
+      "rarity": "Promo",
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/80288_in_1000x1000.jpg"
+      ],
+      "foilings": [
+        "Foil",
+        "Normal"
+      ],
+      "priceGuide": [
+        {
+          "condition": "Lightly Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 3.44,
+          "tcgplayerSkuIds": [
+            1172194
+          ]
+        },
+        {
+          "condition": "Moderately Played Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 3,
+          "tcgplayerSkuIds": [
+            1172195
+          ]
+        },
+        {
+          "condition": "Near Mint Foil",
+          "printing": "Foil",
+          "lowPrice": 1.78,
+          "marketPrice": 4.56,
+          "tcgplayerSkuIds": [
+            1172193
+          ]
+        },
+        {
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "lowPrice": 1.78,
+          "marketPrice": 2.26,
+          "tcgplayerSkuIds": [
+            1172189
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "tcgplayerSkuId": 1172197,
+          "condition": "Damaged",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172192,
+          "condition": "Damaged",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172196,
+          "condition": "Heavily Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172191,
+          "condition": "Heavily Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172194,
+          "condition": "Lightly Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172189,
+          "condition": "Lightly Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172195,
+          "condition": "Moderately Played",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172190,
+          "condition": "Moderately Played",
+          "printing": "Normal",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172193,
+          "condition": "Near Mint",
+          "printing": "Foil",
+          "language": "English"
+        },
+        {
+          "tcgplayerSkuId": 1172188,
+          "condition": "Near Mint",
+          "printing": "Normal",
+          "language": "English"
+        }
+      ],
+      "metadata": {
+        "rulesText": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+        "typeLine": "Basic Land — Forest",
+        "colors": [
+          "Colorless"
+        ],
+        "cardTypes": [
+          "Land"
+        ],
+        "artist": "Adam Paquette",
+        "customAttributes": {
+          "description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "color": [
+            "Colorless"
+          ],
+          "fullType": "Basic Land — Forest",
+          "releaseDate": "2006-01-07T00:00:00Z",
+          "number": "5",
+          "cardType": [
+            "Land"
+          ],
+          "rarityDbName": "P"
+        },
+        "formattedAttributes": {
+          "Rarity": "P",
+          "#": "5",
+          "Card Type": "Basic Land — Forest",
+          "Description": "<span style=\"color:DarkRed\"><em>This Magic Premiere Shop (MPS) land was only printed in Japanese</em></span>",
+          "Artist": "Adam Paquette"
+        }
+      }
+    }
+  ]
+}
