@@ -41,7 +41,7 @@ jobs:
         run: |
           mkdir -p release-cache
           gh release download --repo "${{ github.repository }}" --pattern '*.json' --dir release-cache || true
-      - name: Build Magic: The Gathering
+      - name: "Build Magic: The Gathering"
         shell: bash
         env:
           CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
@@ -143,7 +143,7 @@ jobs:
           scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
           cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
 
-      - name: Build Star Wars: Unlimited
+      - name: "Build Star Wars: Unlimited"
         shell: bash
         env:
           CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
