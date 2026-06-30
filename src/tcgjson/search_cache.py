@@ -67,6 +67,16 @@ class SearchProductCache:
                 ON search_products(product_line_id, set_name);
             CREATE INDEX IF NOT EXISTS idx_search_products_release_date
                 ON search_products(product_line_id, release_date);
+            CREATE TABLE IF NOT EXISTS search_sets (
+                product_line_id INTEGER NOT NULL,
+                set_id INTEGER NOT NULL,
+                set_name TEXT NOT NULL,
+                row_count INTEGER NOT NULL,
+                last_full_fetched_at TEXT NOT NULL,
+                PRIMARY KEY (product_line_id, set_id)
+            );
+            CREATE INDEX IF NOT EXISTS idx_search_sets_line_set_name
+                ON search_sets(product_line_id, set_name);
             CREATE TABLE IF NOT EXISTS product_skus (
                 product_id INTEGER NOT NULL,
                 sku_id INTEGER NOT NULL,
@@ -143,6 +153,30 @@ class SearchProductCache:
                 )
         return changed
 
+    def mark_set_complete(
+        self,
+        *,
+        product_line_id: int,
+        set_id: int,
+        set_name: str,
+        row_count: int,
+        fetched_at: str | None = None,
+    ) -> None:
+        fetched_at = fetched_at or _utc_now_iso()
+        with self.connection:
+            self.connection.execute(
+                """
+                INSERT INTO search_sets (
+                    product_line_id, set_id, set_name, row_count, last_full_fetched_at
+                ) VALUES (?, ?, ?, ?, ?)
+                ON CONFLICT(product_line_id, set_id) DO UPDATE SET
+                    set_name = excluded.set_name,
+                    row_count = excluded.row_count,
+                    last_full_fetched_at = excluded.last_full_fetched_at
+                """,
+                (product_line_id, set_id, set_name, row_count, fetched_at),
+            )
+
     def get_set_rows(
         self,
         *,
@@ -151,6 +185,16 @@ class SearchProductCache:
         set_name: str,
         refresh_recent_after: dt.date | None = None,
     ) -> list[dict[str, Any]] | None:
+        completed_set = self.connection.execute(
+            """
+            SELECT row_count
+            FROM search_sets
+            WHERE product_line_id = ? AND (set_id = ? OR set_name = ?)
+            """,
+            (product_line_id, set_id, set_name),
+        ).fetchone()
+        if completed_set is None:
+            return None
         cached_rows = self.connection.execute(
             """
             SELECT payload_json, release_date
@@ -160,7 +204,7 @@ class SearchProductCache:
             """,
             (product_line_id, set_id, set_name),
         ).fetchall()
-        if not cached_rows:
+        if len(cached_rows) != int(completed_set["row_count"]):
             return None
         if refresh_recent_after is not None:
             for row in cached_rows:

@@ -275,6 +275,7 @@ def test_fetch_product_line_reuses_sqlite_search_metadata_cache(tmp_path) -> Non
             product_line_id=79,
             product_line_name="Star Wars: Unlimited",
         )
+        search_cache.mark_set_complete(product_line_id=79, set_id=23405, set_name="Spark of Rebellion", row_count=1)
 
         catalog = fetch_product_line(
             SearchCacheOnlyClient(),

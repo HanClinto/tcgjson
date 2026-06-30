@@ -80,8 +80,10 @@ Normalized search rows are cached by TCGplayer product ID in per-product-line
 SQLite files under `data-cache/search-products/` by default. Each build refreshes
 recent search rows sorted by product `release-date`, then reuses cached search
 metadata for older products. This keeps spoiler-season and recently released
-cards fresh without recrawling old search rows every week. Each SQLite database
-also creates a `product_skus` table reserved for future product-to-SKU mappings.
+cards fresh without recrawling old search rows every week. Set-level reuse is
+guarded by a `search_sets` completion table so partial recent-refresh rows cannot
+stand in for a full set search. Each SQLite database also creates a
+`product_skus` table reserved for future product-to-SKU mappings.
 
 Optional SKU, formatted-attribute, and extra-image enrichment uses:
 
@@ -222,11 +224,12 @@ Use `--no-checkpoints` to disable them entirely.
 
 The data cache is intended to be tracked in git, but only for expensive durable
 inputs. Normalized search rows are cached in
-`data-cache/search-products/<slug>.sqlite` by product ID. Product-detail responses are cached under
-`data-cache/product-details` by product ID, which preserves SKU IDs, metadata,
-and multi-image information across weekly runs. Those internal cache files are
-not republished as release assets. Git then transfers changed cache data instead
-of re-uploading a full cache archive every week.
+`data-cache/search-products/<slug>.sqlite` by product ID, with set-completion
+markers stored alongside them for safe set-level reuse. Product-detail responses
+are cached under `data-cache/product-details` by product ID, which preserves SKU
+IDs, metadata, and multi-image information across weekly runs. Those internal
+cache files are not republished as release assets. Git then transfers changed
+cache data instead of re-uploading a full cache archive every week.
 
 Use `--detail-cache-dir` to place product-detail cache files directly, or
 `--no-detail-cache` to force detail refetches during `--with-details` builds.

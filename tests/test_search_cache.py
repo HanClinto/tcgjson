@@ -15,11 +15,28 @@ def test_search_product_cache_upserts_and_reuses_set_rows(tmp_path) -> None:
     with SearchProductCache(tmp_path / "search-products.sqlite") as cache:
         assert cache.upsert_search_rows([row], product_line_id=79, product_line_name="Star Wars: Unlimited") == 1
         assert cache.upsert_search_rows([row], product_line_id=79, product_line_name="Star Wars: Unlimited") == 0
+        cache.mark_set_complete(product_line_id=79, set_id=23405, set_name="Spark of Rebellion", row_count=1)
         assert cache.count_products() == 1
 
         rows = cache.get_set_rows(product_line_id=79, set_id=23405, set_name="Spark of Rebellion")
 
     assert rows == [row]
+
+
+def test_search_product_cache_does_not_reuse_incomplete_set_rows(tmp_path) -> None:
+    row = {
+        "productId": 540213,
+        "productName": "Overwhelming Barrage",
+        "setId": 23405,
+        "setName": "Spark of Rebellion",
+        "customAttributes": {"number": "092/252", "releaseDate": "2024-03-08T00:00:00Z"},
+    }
+    with SearchProductCache(tmp_path / "search-products.sqlite") as cache:
+        cache.upsert_search_rows([row], product_line_id=79, product_line_name="Star Wars: Unlimited")
+
+        rows = cache.get_set_rows(product_line_id=79, set_id=23405, set_name="Spark of Rebellion")
+
+    assert rows is None
 
 
 def test_search_product_cache_treats_recent_rows_as_stale(tmp_path) -> None:
@@ -32,6 +49,7 @@ def test_search_product_cache_treats_recent_rows_as_stale(tmp_path) -> None:
     }
     with SearchProductCache(tmp_path / "search-products.sqlite") as cache:
         cache.upsert_search_rows([row], product_line_id=1, product_line_name="Magic")
+        cache.mark_set_complete(product_line_id=1, set_id=2, set_name="Old Promo Set", row_count=1)
 
         assert cache.get_set_rows(
             product_line_id=1,

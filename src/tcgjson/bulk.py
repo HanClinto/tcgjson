@@ -323,6 +323,12 @@ def _fetch_set_products(
                 product_line_id=product_line_id,
                 product_line_name=product_line_name,
             )
+            search_cache.mark_set_complete(
+                product_line_id=product_line_id,
+                set_id=int(set_row["setNameId"]),
+                set_name=set_row.get("name", ""),
+                row_count=len(fetched_rows),
+            )
         return fetched_rows
 
     if rows:
