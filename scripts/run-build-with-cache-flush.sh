@@ -78,8 +78,19 @@ terminate_build() {
 trap 'terminate_build; exit 130' INT TERM
 
 while kill -0 "$build_pid" 2>/dev/null; do
-  sleep "$cache_flush_interval_seconds"
-  commit_data_cache_if_needed "periodic"
+  waited_seconds=0
+  while kill -0 "$build_pid" 2>/dev/null && [ "$waited_seconds" -lt "$cache_flush_interval_seconds" ]; do
+    remaining_seconds=$((cache_flush_interval_seconds - waited_seconds))
+    sleep_seconds=5
+    if [ "$remaining_seconds" -lt "$sleep_seconds" ]; then
+      sleep_seconds="$remaining_seconds"
+    fi
+    sleep "$sleep_seconds"
+    waited_seconds=$((waited_seconds + sleep_seconds))
+  done
+  if kill -0 "$build_pid" 2>/dev/null; then
+    commit_data_cache_if_needed "periodic"
+  fi
 done
 
 set +e
