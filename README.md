@@ -76,16 +76,11 @@ are promoted when they use shared names. Product-line-specific fields remain in
 Star Wars Unlimited, Riftbound, Union Arena, and Flesh and Blood can keep their
 native catalog fields without forcing a single cross-game schema.
 
-Normalized search rows are cached by TCGplayer product ID in per-product-line
-SQLite files under `data-cache/search-products/` by default. These SQLite shards
-are ignored by git because large product lines exceed GitHub's single-file size
-limit; builds can regenerate them from the release-cache baseline and recent set
-refreshes. Each build refreshes recent search rows sorted by product
-`release-date`, then reuses cached search metadata for older products when the
-local SQLite cache is available. Set-level reuse is guarded by a `search_sets`
-completion table so partial recent-refresh rows cannot stand in for a full set
-search. Each SQLite database also creates a `product_skus` table reserved for
-future product-to-SKU mappings.
+Weekly builds use the previous release's full JSON files as the durable cache.
+Unchanged sets are reused from `<slug>.full.json`; only recent or missing sets
+are refetched from TCGplayer. The project intentionally does not publish an
+internal SQLite search cache today. A JSON-to-SQLite importer may become useful
+later for low-memory runtime querying, but the release contract remains JSON.
 
 Optional SKU, formatted-attribute, and extra-image enrichment uses:
 
@@ -227,19 +222,14 @@ Use `--no-checkpoints` to disable them entirely.
 The data cache is intended to be tracked in git, but only for expensive durable
 inputs that fit normal git hosting limits. Product-detail responses are cached
 under `data-cache/product-details` by product ID, which preserves SKU IDs,
-metadata, and multi-image information across weekly runs. Normalized search rows
-are cached in ignored per-line SQLite shards under
-`data-cache/search-products/<slug>.sqlite`; those shards can speed local or
-runner builds, but are regenerated rather than pushed to git. Internal cache
-files are not republished as release assets. Git then transfers changed tracked
-cache data instead of re-uploading a full cache archive every week.
+metadata, and multi-image information across weekly runs. Lean builds primarily
+reuse the previous release's `<slug>.full.json` files, downloaded into
+`release-cache`, so unchanged sets do not need to be fetched again. Internal
+cache files are not republished as release assets. Git then transfers changed
+tracked cache data instead of re-uploading a full cache archive every week.
 
 Use `--detail-cache-dir` to place product-detail cache files directly, or
 `--no-detail-cache` to force detail refetches during `--with-details` builds.
-Use `--search-cache-dir` to place the per-product-line SQLite caches directly,
-`--search-cache-db` to force a single SQLite database, `--search-cache-refresh-recent-days`
-to tune the recent-card refresh window, or `--no-search-cache` to disable durable
-search-row caching.
 
 Local builds also use a short-lived HTTP response cache by default under
 `.tcgjson-cache/http/<UTC date>`. This cache is ignored by git and is meant to

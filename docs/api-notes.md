@@ -275,24 +275,15 @@ only. Multi-image URLs require product details.
 
 Recommended durable caches:
 
-- product details by product ID for explicit full-detail/SKU builds;
-- normalized search metadata by product ID in SQLite for lean builds.
+- previous full catalog JSON artifacts downloaded from GitHub Releases;
+- product details by product ID for explicit full-detail/SKU builds.
 
-The SQLite search cache lives under `data-cache/search-products/` by default,
-with one database per product-line slug such as `magic-the-gathering.sqlite`.
-Each database stores one normalized search row per `tcgplayerProductId`, plus
-product line, set, release date, payload hash, first-seen time, last-fetched
-time, and last-changed time. A `search_sets` table records which set-specific
-searches have been fully fetched; recent global refresh rows do not create those
-markers and therefore cannot be reused as complete set results. Each database
-also creates a `product_skus` table so later SKU mapping work can expand in the
-same durable cache without inventing a second storage format.
-
-These SQLite shards are ignored by git because large product lines exceed
-GitHub's 100 MB per-file limit. Weekly releases should treat them as local or
-runner-side acceleration, not as tracked repository cache. The tracked release
-cache remains the previous full catalog artifacts downloaded from GitHub
-Releases, plus any tracked product-detail responses that fit git hosting limits.
+The previous release's `<slug>.full.json` files are the primary lean cache.
+Unchanged sets can be reused directly from those files, while recent or missing
+sets are rebuilt from priceguide/search endpoints. This keeps the weekly runner
+path simple and avoids publishing internal SQLite cache files. A future importer
+could load release JSON into SQLite for low-memory per-ID querying, but that
+should be a consumer/runtime optimization rather than a required build cache.
 
 Avoid durable raw HTTP search cache. Raw search responses contain facets,
 aggregations, listing-shaped fields, and seller/listing data that are larger and
@@ -300,13 +291,11 @@ broader than the catalog data `tcgjson` needs.
 
 Recommended incremental lean behavior:
 
-1. Refresh recent product search rows per product line with
-   `sort: {"field": "release-date", "order": "desc"}`.
-2. Continue paging until search row release dates are outside the configured
-   recent-card window.
-3. Reuse cached normalized search rows for older products and sets.
-4. For missing or refreshed sets, fetch priceguide/search and update the SQLite
-   search cache by product ID.
-5. Store normalized metadata only, not raw search responses.
+1. Download the previous release's full JSON catalog files into `release-cache`.
+2. Reuse unchanged sets from `<slug>.full.json`.
+3. For missing or refreshed sets, fetch priceguide rows and use search rows for
+  metadata or search-only fallback sets.
+4. Store normalized metadata in the generated full JSON files, not raw search
+  responses.
 
 No reliable `updatedAt` field or sort has been found in search responses yet.

@@ -5,7 +5,6 @@ import requests
 from tcgjson.cli import build_parser
 
 from tcgjson.bulk import (
-    _refresh_recent_search_cache,
     assemble_release,
     build_release,
     fetch_product_line,
@@ -13,7 +12,6 @@ from tcgjson.bulk import (
     write_product_line_files,
     write_product_schema_files,
 )
-from tcgjson.search_cache import SearchProductCache
 from tcgjson.tcgplayer import RequestStats
 
 
@@ -98,45 +96,6 @@ class CheckpointOnlyClient(SearchFallbackClient):
         raise AssertionError("set checkpoint should be reused before search fallback")
 
 
-class SearchCacheOnlyClient(PriceguideWithSearchMetadataClient):
-    def iter_search_products(self, *, product_line_name, set_name=None, page_size=50, **kwargs):
-        raise AssertionError("search metadata should be loaded from the SQLite cache")
-
-    def search_products(self, **kwargs):
-        raise AssertionError("recent search cache refresh should be disabled for this test")
-
-
-class MixedRecentSearchClient:
-    def search_products(self, **kwargs):
-        assert kwargs["sort"] == {"field": "release-date", "order": "desc"}
-        return {
-            "totalResults": 3,
-            "results": [
-                {
-                    "productId": 1,
-                    "productName": "Recent Card",
-                    "setId": 10,
-                    "setName": "Recent Set",
-                    "customAttributes": {"releaseDate": "9999-01-01T00:00:00Z"},
-                },
-                {
-                    "productId": 2,
-                    "productName": "Old Card",
-                    "setId": 11,
-                    "setName": "Old Set",
-                    "customAttributes": {"releaseDate": "2024-01-01T00:00:00Z"},
-                },
-                {
-                    "productId": 3,
-                    "productName": "Undated Card",
-                    "setId": 12,
-                    "setName": "Unknown Set",
-                    "customAttributes": {},
-                },
-            ],
-        }
-
-
 class DetailsErrorClient(SearchFallbackClient):
     def get_product_details(self, product_id):
         raise requests.HTTPError("400 Client Error")
@@ -202,9 +161,6 @@ def test_build_parser_accepts_with_details_and_legacy_with_skus() -> None:
     assert parser.parse_args(["build"]).data_cache_dir.name == "data-cache"
     assert parser.parse_args(["build", "--data-cache-dir", "cache-data"]).data_cache_dir.name == "cache-data"
     assert parser.parse_args(["build", "--detail-cache-dir", "details"]).detail_cache_dir.name == "details"
-    assert parser.parse_args(["build", "--search-cache-dir", "search-cache"]).search_cache_dir.name == "search-cache"
-    assert parser.parse_args(["build", "--search-cache-db", "search.sqlite"]).search_cache_db.name == "search.sqlite"
-    assert parser.parse_args(["build", "--no-search-cache"]).no_search_cache is True
 
 
 def test_write_product_schema_files_profiles_full_catalog_fields(tmp_path) -> None:
@@ -290,67 +246,6 @@ def test_fetch_product_line_enriches_priceguide_products_with_search_metadata() 
     assert catalog["sets"][0]["source"] == "priceguide"
     assert catalog["sets"][0]["searchMetadataProductCount"] == 1
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
-
-
-def test_fetch_product_line_reuses_sqlite_search_metadata_cache(tmp_path) -> None:
-    with SearchProductCache(tmp_path / "search-products.sqlite") as search_cache:
-        search_cache.upsert_search_rows(
-            [
-                {
-                    "productId": 540213,
-                    "productName": "Overwhelming Barrage",
-                    "setId": 23405,
-                    "setName": "Spark of Rebellion",
-                    "rarityName": "Uncommon",
-                    "customAttributes": {"number": "092/252", "releaseDate": "2024-03-08T00:00:00Z"},
-                }
-            ],
-            product_line_id=79,
-            product_line_name="Star Wars: Unlimited",
-        )
-        search_cache.mark_set_complete(product_line_id=79, set_id=23405, set_name="Spark of Rebellion", row_count=1)
-
-        catalog = fetch_product_line(
-            SearchCacheOnlyClient(),
-            79,
-            search_cache=search_cache,
-            search_cache_refresh_recent_days=0,
-        )
-
-    assert catalog["sets"][0]["searchMetadataCacheHit"] is True
-    assert catalog["meta"]["cache"]["searchMetadataCacheHitCount"] == 1
-    assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
-
-
-def test_fetch_product_line_writes_product_line_search_cache_db(tmp_path) -> None:
-    search_cache_dir = tmp_path / "search-products"
-
-    catalog = fetch_product_line(
-        PriceguideWithSearchMetadataClient(),
-        79,
-        search_cache_dir=search_cache_dir,
-        search_cache_refresh_recent_days=0,
-    )
-
-    assert (search_cache_dir / "star-wars-unlimited.sqlite").exists()
-    assert catalog["meta"]["cache"]["searchCachePath"].endswith("star-wars-unlimited.sqlite")
-    assert catalog["meta"]["cache"]["searchMetadataCacheWriteCount"] == 1
-
-
-def test_refresh_recent_search_cache_only_writes_recent_dated_rows(tmp_path) -> None:
-    with SearchProductCache(tmp_path / "search-products.sqlite") as search_cache:
-        cached_rows, changed_rows = _refresh_recent_search_cache(
-            MixedRecentSearchClient(),
-            search_cache,
-            product_line_name="Magic: The Gathering",
-            product_line_id=1,
-            refresh_recent_days=45,
-        )
-        rows = search_cache.connection.execute("SELECT product_id FROM search_products ORDER BY product_id").fetchall()
-
-    assert cached_rows == 1
-    assert changed_rows == 1
-    assert [row[0] for row in rows] == [1]
 
 
 def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:
@@ -464,9 +359,6 @@ def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> Non
                 "cacheDir": "release-cache",
                 "checkpointDir": "",
                 "detailCacheDir": "",
-                "searchCacheDir": "data-cache/search-products",
-                "searchCacheDb": "",
-                "searchCacheRefreshRecentDays": 45,
                 "refreshRecentSetCount": 3,
                 "productLineCount": 1,
                 "productLines": [

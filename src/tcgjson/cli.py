@@ -74,29 +74,6 @@ def build_parser() -> argparse.ArgumentParser:
         help="Disable the durable per-product detail cache used by --with-details.",
     )
     build.add_argument(
-        "--search-cache-dir",
-        type=Path,
-        default=None,
-        help="Directory for per-product-line SQLite search caches. Defaults to <data-cache-dir>/search-products.",
-    )
-    build.add_argument(
-        "--search-cache-db",
-        type=Path,
-        default=None,
-        help="Single SQLite database override for durable normalized search rows.",
-    )
-    build.add_argument(
-        "--search-cache-refresh-recent-days",
-        type=int,
-        default=45,
-        help="Refresh products with search release dates inside this many days on every build.",
-    )
-    build.add_argument(
-        "--no-search-cache",
-        action="store_true",
-        help="Disable the durable SQLite cache for normalized search rows.",
-    )
-    build.add_argument(
         "--request-cache-dir",
         type=Path,
         default=None,
@@ -148,8 +125,6 @@ def main(argv: list[str] | None = None) -> int:
         detail_cache_dir = None
         if args.with_details and not args.no_detail_cache:
             detail_cache_dir = args.detail_cache_dir or args.data_cache_dir / "product-details"
-        search_cache_dir = None if args.no_search_cache else args.search_cache_dir or args.data_cache_dir / "search-products"
-        search_cache_db = None if args.no_search_cache else args.search_cache_db
         request_cache_dir = None
         if not args.no_request_cache:
             utc_date = dt.datetime.now(dt.timezone.utc).date().isoformat()
@@ -170,9 +145,6 @@ def main(argv: list[str] | None = None) -> int:
             progress=not args.no_progress and sys.stderr.isatty(),
             checkpoint_dir=checkpoint_dir,
             detail_cache_dir=detail_cache_dir,
-            search_cache_dir=search_cache_dir,
-            search_cache_db=search_cache_db,
-            search_cache_refresh_recent_days=args.search_cache_refresh_recent_days,
         )
         print(f"Wrote {len(manifest['data'])} bulk files to {args.output}")
         return 0
