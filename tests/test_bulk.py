@@ -5,6 +5,7 @@ import requests
 from tcgjson.cli import build_parser
 
 from tcgjson.bulk import (
+    _refresh_recent_search_cache,
     build_release,
     fetch_product_line,
     write_bulk_manifest,
@@ -102,6 +103,37 @@ class SearchCacheOnlyClient(PriceguideWithSearchMetadataClient):
 
     def search_products(self, **kwargs):
         raise AssertionError("recent search cache refresh should be disabled for this test")
+
+
+class MixedRecentSearchClient:
+    def search_products(self, **kwargs):
+        assert kwargs["sort"] == {"field": "release-date", "order": "desc"}
+        return {
+            "totalResults": 3,
+            "results": [
+                {
+                    "productId": 1,
+                    "productName": "Recent Card",
+                    "setId": 10,
+                    "setName": "Recent Set",
+                    "customAttributes": {"releaseDate": "9999-01-01T00:00:00Z"},
+                },
+                {
+                    "productId": 2,
+                    "productName": "Old Card",
+                    "setId": 11,
+                    "setName": "Old Set",
+                    "customAttributes": {"releaseDate": "2024-01-01T00:00:00Z"},
+                },
+                {
+                    "productId": 3,
+                    "productName": "Undated Card",
+                    "setId": 12,
+                    "setName": "Unknown Set",
+                    "customAttributes": {},
+                },
+            ],
+        }
 
 
 class DetailsErrorClient(SearchFallbackClient):
@@ -302,6 +334,22 @@ def test_fetch_product_line_writes_product_line_search_cache_db(tmp_path) -> Non
     assert (search_cache_dir / "star-wars-unlimited.sqlite").exists()
     assert catalog["meta"]["cache"]["searchCachePath"].endswith("star-wars-unlimited.sqlite")
     assert catalog["meta"]["cache"]["searchMetadataCacheWriteCount"] == 1
+
+
+def test_refresh_recent_search_cache_only_writes_recent_dated_rows(tmp_path) -> None:
+    with SearchProductCache(tmp_path / "search-products.sqlite") as search_cache:
+        cached_rows, changed_rows = _refresh_recent_search_cache(
+            MixedRecentSearchClient(),
+            search_cache,
+            product_line_name="Magic: The Gathering",
+            product_line_id=1,
+            refresh_recent_days=45,
+        )
+        rows = search_cache.connection.execute("SELECT product_id FROM search_products ORDER BY product_id").fetchall()
+
+    assert cached_rows == 1
+    assert changed_rows == 1
+    assert [row[0] for row in rows] == [1]
 
 
 def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:

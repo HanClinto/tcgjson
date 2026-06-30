@@ -604,15 +604,17 @@ def _refresh_recent_search_cache(
         rows = list(page.get("results") or [])
         if not rows:
             break
-        changed_rows += search_cache.upsert_search_rows(
-            rows,
-            product_line_id=product_line_id,
-            product_line_name=product_line_name,
-        )
-        cached_rows += len(rows)
+        recent_rows = [row for row in rows if (release_date := _search_row_release_date(row)) is not None and release_date >= refresh_after]
+        if recent_rows:
+            changed_rows += search_cache.upsert_search_rows(
+                recent_rows,
+                product_line_id=product_line_id,
+                product_line_name=product_line_name,
+            )
+            cached_rows += len(recent_rows)
         offset += len(rows)
         release_dates = [release_date for row in rows if (release_date := _search_row_release_date(row)) is not None]
-        if release_dates and max(release_dates) < refresh_after:
+        if (release_dates and max(release_dates) < refresh_after) or not release_dates:
             break
         total_results = int(page.get("totalResults") or 0)
         if offset >= total_results:
