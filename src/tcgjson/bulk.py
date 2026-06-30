@@ -11,7 +11,7 @@ from typing import Any, Iterable, TypeVar
 
 import requests
 
-from .atomic import atomic_write_json, atomic_write_text
+from .atomic import atomic_write_json
 from .config import normalize_key, product_line_for_id, product_line_for_name
 from .games import default_enabled_product_line_ids
 from .normalize import (
@@ -21,7 +21,7 @@ from .normalize import (
     group_priceguide_products,
     normalize_search_products,
 )
-from .schema import product_schema_markdown, product_schema_profile
+from .schema import product_schema_profile
 from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 
@@ -602,9 +602,7 @@ def write_product_schema_files(output_dir: Path, catalog: dict[str, Any]) -> lis
     product_line = catalog["meta"]["productLine"]
     profile = product_schema_profile(catalog)
     json_path = output_dir / f"{slug}.schema.json"
-    markdown_path = output_dir / f"{slug}.schema.md"
     atomic_write_json(json_path, profile)
-    atomic_write_text(markdown_path, product_schema_markdown(profile))
     return [
         _file_manifest(
             json_path,
@@ -612,14 +610,7 @@ def write_product_schema_files(output_dir: Path, catalog: dict[str, Any]) -> lis
             file_type=f"{slug}_schema",
             name=f"{product_line} Product Schema Profile",
             description=f"Observed product fields and population stats for {product_line}.",
-        ),
-        _file_manifest(
-            markdown_path,
-            output_dir=output_dir,
-            file_type=f"{slug}_schema_markdown",
-            name=f"{product_line} Product Schema Guide",
-            description=f"Markdown product schema guide for {product_line}.",
-        ),
+        )
     ]
 
 

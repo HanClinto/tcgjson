@@ -194,6 +194,25 @@ jobs:
         run: python -m tcgjson.validate release
       - name: Evaluate operational constraints
         run: tcgjson ops evaluate --metrics release/metrics.json --data-cache-dir data-cache
+      - name: Generate catalog docs
+        run: |
+          tcgjson docs generate \
+            --release-dir release \
+            --previous-release-dir release-cache \
+            --output docs/catalog \
+            --release-tag weekly-${{ github.run_id }} \
+            --release-url https://github.com/${{ github.repository }}/releases/tag/weekly-${{ github.run_id }}
+      - name: Commit generated docs
+        if: github.ref == 'refs/heads/main'
+        run: |
+          set -euo pipefail
+          git add docs/catalog README.md
+          if git diff --cached --quiet; then
+            echo "No generated docs changes to commit"
+          else
+            git commit -m "Update generated catalog docs"
+            git push
+          fi
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -203,4 +222,4 @@ jobs:
             Weekly tcgjson catalog export.
 
             Start with `bulk-data.json` to discover generated files, sizes, and hashes.
-          files: release/*
+          files: release/*.json

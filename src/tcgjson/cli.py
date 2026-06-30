@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 from .bulk import assemble_release, build_release
+from .docs import generate_catalog_docs
 from .games import discover_game_support, write_game_support_report
 from .operations import DEFAULT_CONSTRAINTS_PATH, data_cache_delta_megabytes, evaluate_operations, evaluation_text
 from .tcgplayer import TCGplayerClient
@@ -104,6 +105,15 @@ def build_parser() -> argparse.ArgumentParser:
     games.add_argument("--output", type=Path, default=Path("games.md"))
     games.add_argument("--json-output", type=Path, default=Path("games.json"))
 
+    docs = subparsers.add_parser("docs", help="Generate source-controlled catalog documentation")
+    docs_subparsers = docs.add_subparsers(dest="docs_command", required=True)
+    docs_generate = docs_subparsers.add_parser("generate", help="Generate Markdown docs from release artifacts")
+    docs_generate.add_argument("--release-dir", type=Path, default=Path("release"))
+    docs_generate.add_argument("--previous-release-dir", type=Path, default=None)
+    docs_generate.add_argument("--output", type=Path, default=Path("docs/catalog"))
+    docs_generate.add_argument("--release-tag", default="")
+    docs_generate.add_argument("--release-url", default="")
+
     ops = subparsers.add_parser("ops", help="Evaluate operational constraints")
     ops_subparsers = ops.add_subparsers(dest="ops_command", required=True)
     evaluate = ops_subparsers.add_parser("evaluate", help="Evaluate cache and build metrics against constraints")
@@ -159,6 +169,16 @@ def main(argv: list[str] | None = None) -> int:
         write_game_support_report(report, args.output, json_output=args.json_output)
         enabled = sum(1 for row in report["games"] if row["enabled"])
         print(f"Wrote {args.output} with {enabled} enabled product lines")
+        return 0
+    if args.command == "docs" and args.docs_command == "generate":
+        written = generate_catalog_docs(
+            release_dir=args.release_dir,
+            output_dir=args.output,
+            previous_release_dir=args.previous_release_dir,
+            release_tag=args.release_tag,
+            release_url=args.release_url,
+        )
+        print(f"Wrote {len(written)} catalog doc files to {args.output}")
         return 0
     if args.command == "ops" and args.ops_command == "evaluate":
         evaluation = evaluate_operations(

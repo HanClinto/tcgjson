@@ -183,11 +183,9 @@ def test_write_product_schema_files_profiles_full_catalog_fields(tmp_path) -> No
 
     files = write_product_schema_files(tmp_path, catalog)
     profile = json.loads((tmp_path / "pokemon.schema.json").read_text(encoding="utf-8"))
-    markdown = (tmp_path / "pokemon.schema.md").read_text(encoding="utf-8")
 
-    assert {item["type"] for item in files} == {"pokemon_schema", "pokemon_schema_markdown"}
+    assert {item["type"] for item in files} == {"pokemon_schema"}
     assert any(field["path"] == "metadata.rulesText" for field in profile["fields"])
-    assert "metadata.colors[]" in markdown
 
 
 def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
@@ -420,7 +418,6 @@ def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> Non
         "pokemon_catalog",
         "pokemon_catalog_full",
         "pokemon_schema",
-        "pokemon_schema_markdown",
         "build_metrics",
     } == {
         item["type"] for item in manifest["data"]

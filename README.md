@@ -13,6 +13,10 @@ The shape is inspired by Scryfall bulk data and MTGJSON:
 - compact files for common catalog use;
 - full files that keep product, price-guide, and optional SKU-level identifiers.
 
+Human-readable catalog documentation is generated into [docs/catalog](docs/catalog/README.md).
+Start there for object explanations, product-line pages, release history, and
+links back to the weekly JSON releases.
+
 ## Current Scope
 
 The default build targets singles from popular card-game product lines that
@@ -21,9 +25,11 @@ TCGplayer exposes through its catalog and price-guide endpoints:
 - Pokemon
 - YuGiOh
 - One Piece Card Game
-- Flesh and Blood TCG
 - Star Wars Unlimited
 - Disney Lorcana
+- Digimon Card Game
+- Riftbound: League of Legends Trading Card Game
+- Union Arena
 
 Each product line produces at least two files:
 
@@ -31,11 +37,11 @@ Each product line produces at least two files:
 - `<slug>.full.json`: full normalized catalog data, including price-guide rows
   and optional SKU IDs/card metadata when `--with-details` is enabled.
 - `<slug>.schema.json`: observed full-product schema and field population stats.
-- `<slug>.schema.md`: Markdown schema guide for people reading the catalog.
 
 The build also writes `bulk-data.json`, a Scryfall-style manifest with file
 types, descriptions, timestamps, sizes, SHA-256 digests, and relative download
-paths. GitHub Releases attach all generated JSON and Markdown files weekly.
+paths. GitHub Releases attach generated JSON files weekly; generated Markdown
+guides are checked into the source tree under [docs/catalog](docs/catalog/README.md).
 
 Each build also writes `metrics.json`, which records total duration, per-product
 line duration, request counts, cache reuse, fetched set counts, and product/set
@@ -146,6 +152,9 @@ tcgjson build --output release --no-progress --no-checkpoints --no-request-cache
 
 # Report all TCGplayer product lines and default support status.
 tcgjson games --output games.md --json-output games.json
+
+# Generate human-readable docs from a completed release directory.
+tcgjson docs generate --release-dir release --output docs/catalog
 ```
 
 ## Product-Line Support
@@ -222,11 +231,11 @@ Use `--no-checkpoints` to disable them entirely.
 
 The durable weekly cache is the previous release's JSON, not a git-tracked data
 cache. Lean builds reuse previous release JSON files downloaded into
-`release-cache`; set-level cache shards are preferred when present, with
-`<slug>.full.json` retained as a fallback for older releases. Product-detail
-responses for `--with-details` builds may still be cached locally under
-`data-cache/product-details`, but `data-cache/` is ignored by git and is not part
-of the release workflow's checkout or commit path.
+`release-cache`; each `<slug>.full.json` catalog is loaded one product line at a
+time and reused set-by-set. Product-detail responses for `--with-details` builds
+may still be cached locally under `data-cache/product-details`, but `data-cache/`
+is ignored by git and is not part of the release workflow's checkout or commit
+path.
 
 Use `--detail-cache-dir` to place product-detail cache files directly, or
 `--no-detail-cache` to force detail refetches during `--with-details` builds.
@@ -297,12 +306,13 @@ release` and before publishing a release.
 release/
   bulk-data.json
   metrics.json
-  games.md
   games.json
   pokemon.json
   pokemon.full.json
+  pokemon.schema.json
   yugioh.json
   yugioh.full.json
+  yugioh.schema.json
   ...
 ```
 
@@ -312,8 +322,9 @@ then fetch the files they need by `type`.
 ## GitHub Actions
 
 The weekly workflow runs on Monday, builds the catalog, validates the generated
-manifest, and publishes a GitHub Release named `weekly-YYYY-MM-DD`. It can also
-be started manually from the Actions tab.
+manifest, commits generated Markdown docs under [docs/catalog](docs/catalog/README.md),
+and publishes a GitHub Release named `weekly-<run-id>`. It can also be started
+manually from the Actions tab.
 
 ## Legal Notes
 
