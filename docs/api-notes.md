@@ -288,6 +288,12 @@ markers and therefore cannot be reused as complete set results. Each database
 also creates a `product_skus` table so later SKU mapping work can expand in the
 same durable cache without inventing a second storage format.
 
+These SQLite shards are ignored by git because large product lines exceed
+GitHub's 100 MB per-file limit. Weekly releases should treat them as local or
+runner-side acceleration, not as tracked repository cache. The tracked release
+cache remains the previous full catalog artifacts downloaded from GitHub
+Releases, plus any tracked product-detail responses that fit git hosting limits.
+
 Avoid durable raw HTTP search cache. Raw search responses contain facets,
 aggregations, listing-shaped fields, and seller/listing data that are larger and
 broader than the catalog data `tcgjson` needs.

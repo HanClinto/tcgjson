@@ -61,7 +61,7 @@ jobs:
       - name: Commit updated data cache
         if: github.ref == 'refs/heads/main'
         run: |
-          git add data-cache
+          git add data-cache/README.md data-cache/product-details
           if ! git diff --cached --quiet; then
             git commit -m "Update catalog data cache"
             git push
