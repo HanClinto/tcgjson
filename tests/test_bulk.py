@@ -169,6 +169,7 @@ def test_build_parser_accepts_with_details_and_legacy_with_skus() -> None:
     assert parser.parse_args(["build"]).data_cache_dir.name == "data-cache"
     assert parser.parse_args(["build", "--data-cache-dir", "cache-data"]).data_cache_dir.name == "cache-data"
     assert parser.parse_args(["build", "--detail-cache-dir", "details"]).detail_cache_dir.name == "details"
+    assert parser.parse_args(["build", "--search-cache-dir", "search-cache"]).search_cache_dir.name == "search-cache"
     assert parser.parse_args(["build", "--search-cache-db", "search.sqlite"]).search_cache_db.name == "search.sqlite"
     assert parser.parse_args(["build", "--no-search-cache"]).no_search_cache is True
 
@@ -285,6 +286,21 @@ def test_fetch_product_line_reuses_sqlite_search_metadata_cache(tmp_path) -> Non
     assert catalog["sets"][0]["searchMetadataCacheHit"] is True
     assert catalog["meta"]["cache"]["searchMetadataCacheHitCount"] == 1
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
+
+
+def test_fetch_product_line_writes_product_line_search_cache_db(tmp_path) -> None:
+    search_cache_dir = tmp_path / "search-products"
+
+    catalog = fetch_product_line(
+        PriceguideWithSearchMetadataClient(),
+        79,
+        search_cache_dir=search_cache_dir,
+        search_cache_refresh_recent_days=0,
+    )
+
+    assert (search_cache_dir / "star-wars-unlimited.sqlite").exists()
+    assert catalog["meta"]["cache"]["searchCachePath"].endswith("star-wars-unlimited.sqlite")
+    assert catalog["meta"]["cache"]["searchMetadataCacheWriteCount"] == 1
 
 
 def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:

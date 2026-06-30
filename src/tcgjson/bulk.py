@@ -420,6 +420,8 @@ def fetch_product_line(
     checkpoint_dir: Path | None = None,
     detail_cache_dir: Path | None = None,
     search_cache: SearchProductCache | None = None,
+    search_cache_dir: Path | None = None,
+    search_cache_db: Path | None = None,
     search_cache_refresh_recent_days: int = 45,
 ) -> dict[str, Any]:
     started = time.perf_counter()
@@ -427,6 +429,14 @@ def fetch_product_line(
     product_line_id = int(product_line["productLineId"])
     resolved = product_line_for_id(product_line_id, product_line.get("productLineName", ""))
     product_line_url_name = product_line.get("productLineUrlName", "")
+    owns_search_cache = False
+    if search_cache is None:
+        if search_cache_db is not None:
+            search_cache = SearchProductCache(search_cache_db)
+            owns_search_cache = True
+        elif search_cache_dir is not None:
+            search_cache = SearchProductCache(search_cache_dir / f"{resolved.slug}.sqlite")
+            owns_search_cache = True
     set_rows = client.get_set_names(product_line_id)
     if max_sets is not None:
         set_rows = set_rows[:max_sets]
@@ -450,73 +460,78 @@ def fetch_product_line(
     fetched_sets = 0
     recent_search_cache_rows = 0
     recent_search_cache_changed_rows = 0
-    if search_cache is not None:
-        recent_search_cache_rows, recent_search_cache_changed_rows = _refresh_recent_search_cache(
-            client,
-            search_cache,
-            product_line_name=product_line.get("productLineName", resolved.name),
-            product_line_id=product_line_id,
-            refresh_recent_days=search_cache_refresh_recent_days,
-        )
-    set_iterator = _progress(
-        set_rows,
-        enabled=progress,
-        desc=f"{resolved.slug} sets",
-        unit="set",
-        leave=False,
-        position=1,
-    )
-    for set_row in set_iterator:
-        set_id = int(set_row["setNameId"])
-        cached_set_products = cached_products.get(set_id, [])
-        can_reuse = (
-            set_id in cached_sets
-            and cached_set_products
-            and set_id not in refresh_ids
-            and (not with_skus or _cached_products_have_skus(cached_set_products))
-        )
-        if can_reuse:
-            sets.append(cached_sets[set_id])
-            set_products = cached_set_products
-            reused_sets += 1
-        else:
-            checkpoint = _load_set_checkpoint(
-                checkpoint_dir,
-                slug=resolved.slug,
+
+    try:
+        if search_cache is not None:
+            recent_search_cache_rows, recent_search_cache_changed_rows = _refresh_recent_search_cache(
+                client,
+                search_cache,
+                product_line_name=product_line.get("productLineName", resolved.name),
                 product_line_id=product_line_id,
-                set_id=set_id,
-                with_skus=with_skus,
-                priceguide_rows=priceguide_rows,
+                refresh_recent_days=search_cache_refresh_recent_days,
             )
-            if checkpoint is not None:
-                set_summary, set_products = checkpoint
-                reused_checkpoint_sets += 1
+        set_iterator = _progress(
+            set_rows,
+            enabled=progress,
+            desc=f"{resolved.slug} sets",
+            unit="set",
+            leave=False,
+            position=1,
+        )
+        for set_row in set_iterator:
+            set_id = int(set_row["setNameId"])
+            cached_set_products = cached_products.get(set_id, [])
+            can_reuse = (
+                set_id in cached_sets
+                and cached_set_products
+                and set_id not in refresh_ids
+                and (not with_skus or _cached_products_have_skus(cached_set_products))
+            )
+            if can_reuse:
+                sets.append(cached_sets[set_id])
+                set_products = cached_set_products
+                reused_sets += 1
             else:
-                set_summary, set_products = _fetch_set_products(
-                    client,
-                    product_line_name=product_line.get("productLineName", resolved.name),
-                    product_line_id=product_line_id,
-                    product_line_url_name=product_line_url_name,
-                    set_row=set_row,
-                    priceguide_rows=priceguide_rows,
-                    with_skus=with_skus,
-                    progress=progress,
-                    detail_cache_dir=detail_cache_dir,
-                    search_cache=search_cache,
-                    search_cache_refresh_recent_days=search_cache_refresh_recent_days,
-                )
-                _write_set_checkpoint(
+                checkpoint = _load_set_checkpoint(
                     checkpoint_dir,
                     slug=resolved.slug,
                     product_line_id=product_line_id,
-                    set_summary=set_summary,
-                    products=set_products,
+                    set_id=set_id,
                     with_skus=with_skus,
                     priceguide_rows=priceguide_rows,
                 )
-                fetched_sets += 1
-            sets.append(set_summary)
-        products.extend(set_products)
+                if checkpoint is not None:
+                    set_summary, set_products = checkpoint
+                    reused_checkpoint_sets += 1
+                else:
+                    set_summary, set_products = _fetch_set_products(
+                        client,
+                        product_line_name=product_line.get("productLineName", resolved.name),
+                        product_line_id=product_line_id,
+                        product_line_url_name=product_line_url_name,
+                        set_row=set_row,
+                        priceguide_rows=priceguide_rows,
+                        with_skus=with_skus,
+                        progress=progress,
+                        detail_cache_dir=detail_cache_dir,
+                        search_cache=search_cache,
+                        search_cache_refresh_recent_days=search_cache_refresh_recent_days,
+                    )
+                    _write_set_checkpoint(
+                        checkpoint_dir,
+                        slug=resolved.slug,
+                        product_line_id=product_line_id,
+                        set_summary=set_summary,
+                        products=set_products,
+                        with_skus=with_skus,
+                        priceguide_rows=priceguide_rows,
+                    )
+                    fetched_sets += 1
+                sets.append(set_summary)
+            products.extend(set_products)
+    finally:
+        if owns_search_cache and search_cache is not None:
+            search_cache.close()
 
     elapsed_seconds = time.perf_counter() - started
     sets.sort(key=lambda item: (item["name"], item["tcgplayerSetId"]))
@@ -540,6 +555,7 @@ def fetch_product_line(
                 "fetchedSetCount": fetched_sets,
                 "refreshRecentSetCount": refresh_recent_sets,
                 "searchCacheEnabled": search_cache is not None,
+                "searchCachePath": str(search_cache.path) if search_cache is not None else "",
                 "searchCacheRefreshRecentDays": search_cache_refresh_recent_days,
                 "recentSearchCacheRows": recent_search_cache_rows,
                 "recentSearchCacheChangedRows": recent_search_cache_changed_rows,
@@ -716,6 +732,7 @@ def build_release(
     progress: bool = False,
     checkpoint_dir: Path | None = None,
     detail_cache_dir: Path | None = None,
+    search_cache_dir: Path | None = None,
     search_cache_db: Path | None = None,
     search_cache_refresh_recent_days: int = 45,
 ) -> dict[str, Any]:
@@ -732,43 +749,39 @@ def build_release(
         unit="line",
         position=0,
     )
-    search_cache = SearchProductCache(search_cache_db) if search_cache_db is not None else None
-    try:
-        for product_line in product_line_iterator:
-            line_started = time.perf_counter()
-            stats_before = active_client.stats()
-            catalog = fetch_product_line(
-                active_client,
-                product_line,
-                max_sets=max_sets,
-                priceguide_rows=priceguide_rows,
-                with_skus=with_skus,
-                cache_dir=cache_dir,
-                refresh_recent_sets=refresh_recent_sets,
-                progress=progress,
-                checkpoint_dir=checkpoint_dir,
-                detail_cache_dir=detail_cache_dir,
-                search_cache=search_cache,
-                search_cache_refresh_recent_days=search_cache_refresh_recent_days,
-            )
-            duration_seconds = round(time.perf_counter() - line_started, 3)
-            files.extend(write_product_line_files(output_dir, catalog))
-            files.extend(write_product_schema_files(output_dir, catalog))
-            stats_after = active_client.stats()
-            product_line_metrics.append(
-                {
-                    "productLine": catalog["meta"]["productLine"],
-                    "slug": catalog["meta"]["slug"],
-                    "durationSeconds": duration_seconds,
-                    "setCount": catalog["meta"]["setCount"],
-                    "productCount": catalog["meta"]["productCount"],
-                    "cache": catalog["meta"].get("cache", {}),
-                    "requests": _stats_delta(stats_before, stats_after),
-                }
-            )
-    finally:
-        if search_cache is not None:
-            search_cache.close()
+    for product_line in product_line_iterator:
+        line_started = time.perf_counter()
+        stats_before = active_client.stats()
+        catalog = fetch_product_line(
+            active_client,
+            product_line,
+            max_sets=max_sets,
+            priceguide_rows=priceguide_rows,
+            with_skus=with_skus,
+            cache_dir=cache_dir,
+            refresh_recent_sets=refresh_recent_sets,
+            progress=progress,
+            checkpoint_dir=checkpoint_dir,
+            detail_cache_dir=detail_cache_dir,
+            search_cache_dir=search_cache_dir,
+            search_cache_db=search_cache_db,
+            search_cache_refresh_recent_days=search_cache_refresh_recent_days,
+        )
+        duration_seconds = round(time.perf_counter() - line_started, 3)
+        files.extend(write_product_line_files(output_dir, catalog))
+        files.extend(write_product_schema_files(output_dir, catalog))
+        stats_after = active_client.stats()
+        product_line_metrics.append(
+            {
+                "productLine": catalog["meta"]["productLine"],
+                "slug": catalog["meta"]["slug"],
+                "durationSeconds": duration_seconds,
+                "setCount": catalog["meta"]["setCount"],
+                "productCount": catalog["meta"]["productCount"],
+                "cache": catalog["meta"].get("cache", {}),
+                "requests": _stats_delta(stats_before, stats_after),
+            }
+        )
     metrics = {
         "object": "tcgjson_build_metrics",
         "startedAt": build_started_at,
@@ -779,6 +792,7 @@ def build_release(
         "cacheDir": str(cache_dir) if cache_dir is not None else "",
         "checkpointDir": str(checkpoint_dir) if checkpoint_dir is not None else "",
         "detailCacheDir": str(detail_cache_dir) if detail_cache_dir is not None else "",
+        "searchCacheDir": str(search_cache_dir) if search_cache_dir is not None else "",
         "searchCacheDb": str(search_cache_db) if search_cache_db is not None else "",
         "searchCacheRefreshRecentDays": search_cache_refresh_recent_days,
         "refreshRecentSetCount": refresh_recent_sets,

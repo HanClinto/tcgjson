@@ -278,12 +278,13 @@ Recommended durable caches:
 - product details by product ID for explicit full-detail/SKU builds;
 - normalized search metadata by product ID in SQLite for lean builds.
 
-The SQLite search cache lives at `data-cache/search-products.sqlite` by default.
-It stores one normalized search row per `tcgplayerProductId`, plus product line,
-set, release date, payload hash, first-seen time, last-fetched time, and
-last-changed time. The database also creates a `product_skus` table so later SKU
-mapping work can expand in the same durable cache without inventing a second
-storage format.
+The SQLite search cache lives under `data-cache/search-products/` by default,
+with one database per product-line slug such as `magic-the-gathering.sqlite`.
+Each database stores one normalized search row per `tcgplayerProductId`, plus
+product line, set, release date, payload hash, first-seen time, last-fetched
+time, and last-changed time. Each database also creates a `product_skus` table so
+later SKU mapping work can expand in the same durable cache without inventing a
+second storage format.
 
 Avoid durable raw HTTP search cache. Raw search responses contain facets,
 aggregations, listing-shaped fields, and seller/listing data that are larger and
