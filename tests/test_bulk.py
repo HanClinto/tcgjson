@@ -13,6 +13,7 @@ from tcgjson.bulk import (
     write_product_schema_files,
     write_set_cache_files,
 )
+from tcgjson.validate import validate_release
 from tcgjson.tcgplayer import RequestStats
 
 
@@ -158,6 +159,41 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
     assert json.loads((tmp_path / "bulk-data.json").read_text())["object"] == "list"
     for item in manifest["data"]:
         assert (tmp_path / item["download_uri"]).stat().st_size == item["size"]
+
+
+def test_validate_release_accepts_set_cache_artifacts(tmp_path) -> None:
+    catalog = {
+        "meta": {
+            "object": "tcgjson_catalog",
+            "version": 1,
+            "source": "tcgplayer",
+            "sourceMode": "priceguide",
+            "generatedAt": "2026-06-29T00:00:00Z",
+            "productLine": "Pokemon",
+            "slug": "pokemon",
+            "setCount": 1,
+            "productCount": 1,
+        },
+        "sets": [{"tcgplayerSetId": 1, "name": "Set", "productCount": 1}],
+        "products": [
+            {
+                "tcgplayerProductId": 10,
+                "name": "Card",
+                "productLineId": 3,
+                "setId": 1,
+                "collectorNumber": "1",
+                "rarity": "Common",
+                "foilings": [],
+                "imageUrls": [],
+                "priceGuide": [],
+            }
+        ],
+    }
+    files = write_product_line_files(tmp_path, catalog)
+    files.extend(write_set_cache_files(tmp_path, catalog))
+    write_bulk_manifest(tmp_path, files)
+
+    validate_release(tmp_path)
 
 
 def test_build_parser_accepts_with_details_and_legacy_with_skus() -> None:
