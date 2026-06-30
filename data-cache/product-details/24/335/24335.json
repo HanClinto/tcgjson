@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:33Z",
+  "tcgplayerProductId": 24335,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "After the Struggle",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.26,
+    "customAttributes": {
+      "description": "This card can only be activated during Main Phase 1. All monsters on both sides of the field that have been involved in damage calculation are destroyed during the End Step of the turn.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN195",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "After the Struggle",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24335.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Dark Beginning 2",
+    "sellers": 73.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 100.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.27,
+    "formattedAttributes": {
+      "Number": "DB2-EN195",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "This card can only be activated during Main Phase 1. All monsters on both sides of the field that have been involved in damage calculation are destroyed during the End Step of the turn."
+    },
+    "skus": [
+      {
+        "sku": 265896,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568773,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576987,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560559,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552345,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

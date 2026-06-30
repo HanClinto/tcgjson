@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:22:41Z",
+  "tcgplayerProductId": 80329,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Hanewata Red",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 1.55,
+    "customAttributes": {
+      "description": "During either player's turn, you can discard this card to make any effect damage you take this turn 0.",
+      "attribute": [
+        "LIGHT"
+      ],
+      "releaseDate": "2003-01-01T00:00:00Z",
+      "number": "DL11-EN011",
+      "cardType": null,
+      "monsterType": [
+        "Fairy"
+      ],
+      "cardTypeB": "Tuner Monster",
+      "rarityDbName": "Rare",
+      "level": "1",
+      "defense": "300",
+      "flavorText": null,
+      "attack": "200"
+    },
+    "lowestPriceWithShipping": 1.13,
+    "productName": "Hanewata (Red)",
+    "setId": 182.0,
+    "setCode": "DL",
+    "productId": 80329.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Duelist League Promo",
+    "sellers": 12.0,
+    "foilOnly": false,
+    "setUrlName": "Duelist League Promo",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 16.0,
+    "lowestPrice": 1.13,
+    "medianPrice": 1.59,
+    "formattedAttributes": {
+      "Number": "DL11-EN011",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "LIGHT Fairy/Tuner Monster",
+      "Level": "1",
+      "A / D": "200 / 300",
+      "Description": "During either player's turn, you can discard this card to make any effect damage you take this turn 0."
+    },
+    "skus": [
+      {
+        "sku": 1173554,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173555,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173556,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173557,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173558,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

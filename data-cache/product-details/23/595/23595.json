@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:55Z",
+  "tcgplayerProductId": 23595,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Gaia Power",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.45,
+    "customAttributes": {
+      "description": "Increase the ATK of all EARTH monsters by 500 points and decrease their DEF by 400 points.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN059",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Field Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Gaia Power",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23595.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Dark Beginning 1",
+    "sellers": 61.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 70.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.47,
+    "formattedAttributes": {
+      "Number": "DB1-EN059",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Field Spell",
+      "A / D": "0 / 0",
+      "Description": "Increase the ATK of all EARTH monsters by 500 points and decrease their DEF by 400 points."
+    },
+    "skus": [
+      {
+        "sku": 265156,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568447,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576661,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560233,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552019,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

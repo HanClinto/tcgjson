@@ -1,0 +1,95 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:56Z",
+  "tcgplayerProductId": 33571,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Card Destruction",
+    "productTypeId": 1.0,
+    "rarityName": "Super Rare",
+    "sealed": false,
+    "marketPrice": 13.54,
+    "customAttributes": {
+      "description": "Each player discards their hand and draws the same number of cards they discarded.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2008-11-21T00:00:00Z",
+      "number": "DLG1-EN085",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Super Rare",
+      "level": "0",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 3.07,
+    "productName": "Card Destruction",
+    "setId": 167.0,
+    "setCode": "DLG1",
+    "productId": 33571.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Legends",
+    "sellers": 12.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Legends",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 13.0,
+    "lowestPrice": 3.07,
+    "medianPrice": 115.195,
+    "formattedAttributes": {
+      "Number": "DLG1-EN085",
+      "Rarity": "Super Rare",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "Level": "0",
+      "A / D": "0 / 0",
+      "Description": "Each player discards their hand and draws the same number of cards they discarded."
+    },
+    "skus": [
+      {
+        "sku": 379120,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569095,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577309,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560881,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552667,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

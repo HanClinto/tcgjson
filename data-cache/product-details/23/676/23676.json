@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:02Z",
+  "tcgplayerProductId": 23676,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Feral Imp",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.28,
+    "customAttributes": {
+      "description": "<em>A playful little fiend that lurks in the dark, waiting to attack an unwary enemy.</em>",
+      "attribute": [
+        "DARK"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN140",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Fiend"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Common",
+      "level": "4",
+      "defense": "1400",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "1300"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Feral Imp",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23676.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 59.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 71.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.4,
+    "formattedAttributes": {
+      "Number": "DB1-EN140",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "DARK Fiend/Normal Monster",
+      "Level": "4",
+      "A / D": "1300 / 1400",
+      "Description": "<em>A playful little fiend that lurks in the dark, waiting to attack an unwary enemy.</em>"
+    },
+    "skus": [
+      {
+        "sku": 265237,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568528,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576742,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560314,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552100,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:21Z",
+  "tcgplayerProductId": 24214,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Little Chimera",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.15,
+    "customAttributes": {
+      "description": "As long as this card remains face-up on the field, increase the ATK of all FIRE monsters by 500 points and decrease the ATK of all WATER monsters by 400 points.",
+      "attribute": [
+        "FIRE"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN067",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Beast"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "2",
+      "defense": "550",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "600"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Little Chimera",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24214.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 2",
+    "sellers": 54.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 59.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.26,
+    "formattedAttributes": {
+      "Number": "DB2-EN067",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "FIRE Beast/Effect Monster",
+      "Level": "2",
+      "A / D": "600 / 550",
+      "Description": "As long as this card remains face-up on the field, increase the ATK of all FIRE monsters by 500 points and decrease the ATK of all WATER monsters by 400 points."
+    },
+    "skus": [
+      {
+        "sku": 265775,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568652,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576866,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560438,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552224,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

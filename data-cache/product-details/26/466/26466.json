@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:18:59Z",
+  "tcgplayerProductId": 26466,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Ring of Destruction",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 10.21,
+    "customAttributes": {
+      "description": "Destroy 1 face-up monster and inflict damage to both players equal to its ATK.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2007-02-06T00:00:00Z",
+      "number": "CP02-EN008",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Normal Trap",
+      "rarityDbName": "Rare",
+      "level": "0",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 16.06,
+    "productName": "Ring of Destruction",
+    "setId": 150.0,
+    "setCode": "CP02",
+    "productId": 26466.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Champion Pack 2",
+    "sellers": 7.0,
+    "foilOnly": false,
+    "setUrlName": "Champion Pack 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 8.0,
+    "lowestPrice": 11.54,
+    "medianPrice": 17.95,
+    "formattedAttributes": {
+      "Number": "CP02-EN008",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "TRAP /Normal Trap",
+      "Level": "0",
+      "A / D": "0 / 0",
+      "Description": "Destroy 1 face-up monster and inflict damage to both players equal to its ATK."
+    },
+    "skus": [
+      {
+        "sku": 268027,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 567934,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576148,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 559720,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551506,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

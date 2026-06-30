@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:52Z",
+  "tcgplayerProductId": 23559,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Confiscation",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 1.07,
+    "customAttributes": {
+      "description": "Pay 1000 Life Points. Look at your opponent's hand, select 1 card among them and discard it to the Graveyard.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN023",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Confiscation",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23559.0,
+    "imageCount": 1.0,
+    "score": 1.9542425,
+    "setName": "Dark Beginning 1",
+    "sellers": 51.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 60.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 1.295,
+    "formattedAttributes": {
+      "Number": "DB1-EN023",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Pay 1000 Life Points. Look at your opponent's hand, select 1 card among them and discard it to the Graveyard."
+    },
+    "skus": [
+      {
+        "sku": 265120,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568411,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576625,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560197,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551983,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

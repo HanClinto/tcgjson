@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:16Z",
+  "tcgplayerProductId": 24400,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Destruction Punch",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.2,
+    "customAttributes": {
+      "description": "If the ATK of an attacking monster on your opponent's side of the field is lower than the DEF of the attacked Defense Position monster, destroy the attacking monster at the end of the Damage Step. (Damage calculation is applied normally.)",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN018",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Normal Trap",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Destruction Punch",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24400.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Dark Beginning 2",
+    "sellers": 76.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 95.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Number": "DB2-EN018",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "TRAP /Normal Trap",
+      "A / D": "0 / 0",
+      "Description": "If the ATK of an attacking monster on your opponent's side of the field is lower than the DEF of the attacked Defense Position monster, destroy the attacking monster at the end of the Damage Step. (Damage calculation is applied normally.)"
+    },
+    "skus": [
+      {
+        "sku": 265961,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568838,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577052,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560624,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552410,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

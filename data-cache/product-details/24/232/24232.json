@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:19Z",
+  "tcgplayerProductId": 24232,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Thousand Dragon",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.64,
+    "customAttributes": {
+      "description": "\"Time Wizard\" + \"Baby Dragon\"",
+      "attribute": [
+        "WIND"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN045",
+      "cardType": [
+        "Extra Deck Monster"
+      ],
+      "monsterType": [
+        "Dragon"
+      ],
+      "cardTypeB": "Fusion Monster",
+      "rarityDbName": "Common",
+      "level": "7",
+      "defense": "2000",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "2400"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Thousand Dragon",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24232.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 2",
+    "sellers": 56.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 68.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.67,
+    "formattedAttributes": {
+      "Number": "DB2-EN045",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "WIND Dragon/Fusion Monster",
+      "Level": "7",
+      "A / D": "2400 / 2000",
+      "Description": "\"Time Wizard\" + \"Baby Dragon\""
+    },
+    "skus": [
+      {
+        "sku": 265793,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568670,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576884,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560456,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552242,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

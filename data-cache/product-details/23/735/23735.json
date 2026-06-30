@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:08Z",
+  "tcgplayerProductId": 23735,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Gradius",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.51,
+    "customAttributes": {
+      "description": "<em>A high-performance jet fighter with power capsules for variable attack capabilities.</em>",
+      "attribute": [
+        "LIGHT"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN199",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Machine"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Common",
+      "level": "4",
+      "defense": "800",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "1200"
+    },
+    "lowestPriceWithShipping": 0.06,
+    "productName": "Gradius",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23735.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 55.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 72.0,
+    "lowestPrice": 0.06,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Number": "DB1-EN199",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "LIGHT Machine/Normal Monster",
+      "Level": "4",
+      "A / D": "1200 / 800",
+      "Description": "<em>A high-performance jet fighter with power capsules for variable attack capabilities.</em>"
+    },
+    "skus": [
+      {
+        "sku": 265296,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568587,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576801,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560373,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552159,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

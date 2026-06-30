@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-29T23:55:42Z",
+  "tcgplayerProductId": 563290,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "Magic",
+    "productTypeName": "Cards",
+    "productUrlName": "Triumph of Ferocity Future Sight",
+    "productTypeId": 1.0,
+    "rarityName": "Uncommon",
+    "sealed": false,
+    "marketPrice": 0.3,
+    "customAttributes": {
+      "formats": null,
+      "description": "At the beginning of your upkeep, draw a card if you control the creature with the greatest power or tied for the greatest power.",
+      "powerNumber": null,
+      "color": [
+        "Green"
+      ],
+      "fullType": "Enchantment",
+      "releaseDate": "2024-10-25T00:00:00Z",
+      "number": "135",
+      "cardType": [
+        "Enchantment"
+      ],
+      "convertedCost": "3",
+      "rarityDbName": "U",
+      "power": null,
+      "flavorText": "",
+      "toughnessNumber": null,
+      "toughness": null
+    },
+    "lowestPriceWithShipping": 0.04,
+    "productName": "Triumph of Ferocity (Future Sight)",
+    "setId": 23580.0,
+    "setCode": "MB2",
+    "productId": 563290.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Mystery Booster 2",
+    "sellers": 283.0,
+    "foilOnly": false,
+    "setUrlName": "Mystery Booster 2",
+    "sellerListable": true,
+    "productLineId": 1.0,
+    "productStatusId": 1.0,
+    "productLineName": "Magic: The Gathering",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 285.0,
+    "lowestPrice": 0.01,
+    "medianPrice": 0.32,
+    "formattedAttributes": {
+      "Rarity": "U",
+      "#": "135",
+      "Card Type": "Enchantment",
+      "Description": "At the beginning of your upkeep, draw a card if you control the creature with the greatest power or tied for the greatest power.",
+      "Artist": "Karl Kopinski"
+    },
+    "skus": [
+      {
+        "sku": 8094615,
+        "condition": "Near Mint",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8094616,
+        "condition": "Lightly Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8094617,
+        "condition": "Moderately Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8094618,
+        "condition": "Heavily Played",
+        "variant": "Normal",
+        "language": "English"
+      },
+      {
+        "sku": 8094619,
+        "condition": "Damaged",
+        "variant": "Normal",
+        "language": "English"
+      }
+    ]
+  }
+}

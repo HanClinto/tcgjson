@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:19Z",
+  "tcgplayerProductId": 24002,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Cost Down",
+    "productTypeId": 1.0,
+    "rarityName": "Ultra Rare",
+    "sealed": false,
+    "marketPrice": 2.04,
+    "customAttributes": {
+      "description": "Discard 1 card from your hand. Downgrade all monster Cards in your hand by 2 Levels until the End Phase of the turn this card is activated.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN215",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Ultra Rare",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.45,
+    "productName": "Cost Down",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 24002.0,
+    "imageCount": 1.0,
+    "score": 1.819544,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 40.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 41.0,
+    "lowestPrice": 0.43,
+    "medianPrice": 2.04,
+    "formattedAttributes": {
+      "Number": "DR1-EN215",
+      "Rarity": "Ultra Rare",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Discard 1 card from your hand. Downgrade all monster Cards in your hand by 2 Levels until the End Phase of the turn this card is activated."
+    },
+    "skus": [
+      {
+        "sku": 265563,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569338,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577552,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561124,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552910,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

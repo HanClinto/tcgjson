@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:02Z",
+  "tcgplayerProductId": 26484,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Confiscation",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 1.88,
+    "customAttributes": {
+      "description": "Pay 1000 Life Points to look at your opponent's hand.  Select 1 card and discard it to the Graveyard.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2007-09-06T00:00:00Z",
+      "number": "CP04-EN006",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Rare",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.99,
+    "productName": "Confiscation",
+    "setId": 152.0,
+    "setCode": "CP04",
+    "productId": 26484.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Champion Pack 4",
+    "sellers": 21.0,
+    "foilOnly": false,
+    "setUrlName": "Champion Pack 4",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 26.0,
+    "lowestPrice": 0.99,
+    "medianPrice": 3.49,
+    "formattedAttributes": {
+      "Number": "CP04-EN006",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Pay 1000 Life Points to look at your opponent's hand.  Select 1 card and discard it to the Graveyard."
+    },
+    "skus": [
+      {
+        "sku": 268045,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 567972,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576186,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 559758,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551544,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

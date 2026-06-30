@@ -1,0 +1,97 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:22:37Z",
+  "tcgplayerProductId": 80300,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": false,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Dark Magician Green",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 67.98,
+    "customAttributes": {
+      "description": "",
+      "attribute": [
+        "DARK"
+      ],
+      "releaseDate": "2003-01-01T00:00:00Z",
+      "number": "DL11-EN001",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Spellcaster"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Rare",
+      "level": "7",
+      "defense": "2100",
+      "flavorText": null,
+      "attack": "2500"
+    },
+    "lowestPriceWithShipping": 77.27,
+    "productName": "Dark Magician (Green)",
+    "setId": 182.0,
+    "setCode": "DL",
+    "productId": 80300.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Duelist League Promo",
+    "sellers": 6.0,
+    "foilOnly": false,
+    "setUrlName": "Duelist League Promo",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 6.0,
+    "lowestPrice": 77.27,
+    "medianPrice": 77.39,
+    "formattedAttributes": {
+      "Number": "DL11-EN001",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "DARK Spellcaster/Normal Monster",
+      "Level": "7",
+      "A / D": "2500 / 2100"
+    },
+    "skus": [
+      {
+        "sku": 1173409,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173410,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173411,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173412,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 1173413,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:20Z",
+  "tcgplayerProductId": 24255,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "The Bistro Butcher",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.33,
+    "customAttributes": {
+      "description": "When this card inflicts Battle Damage to your opponent's Life Points, your opponent draws 2 cards from their Deck.",
+      "attribute": [
+        "DARK"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN063",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Fiend"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "4",
+      "defense": "1000",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "1800"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "The Bistro Butcher",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24255.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Dark Beginning 2",
+    "sellers": 37.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 43.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.315,
+    "formattedAttributes": {
+      "Number": "DB2-EN063",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "DARK Fiend/Effect Monster",
+      "Level": "4",
+      "A / D": "1800 / 1000",
+      "Description": "When this card inflicts Battle Damage to your opponent's Life Points, your opponent draws 2 cards from their Deck."
+    },
+    "skus": [
+      {
+        "sku": 265816,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568693,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576907,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560479,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552265,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

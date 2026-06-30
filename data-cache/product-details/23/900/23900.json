@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:10Z",
+  "tcgplayerProductId": 23900,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Luster Dragon",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.59,
+    "customAttributes": {
+      "description": "A very beautiful dragon covered with sapphire. It does not like fights, but has incredibly high attack power.",
+      "attribute": [
+        "WIND"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN113",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Dragon"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Common",
+      "level": "4",
+      "defense": "1600",
+      "flavorText": null,
+      "attack": "1900"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Luster Dragon",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 23900.0,
+    "imageCount": 1.0,
+    "score": 1.9138138,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 42.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 49.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.525,
+    "formattedAttributes": {
+      "Number": "DR1-EN113",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "WIND Dragon/Normal Monster",
+      "Level": "4",
+      "A / D": "1900 / 1600",
+      "Description": "A very beautiful dragon covered with sapphire. It does not like fights, but has incredibly high attack power."
+    },
+    "skus": [
+      {
+        "sku": 265461,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569236,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577450,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561022,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552808,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

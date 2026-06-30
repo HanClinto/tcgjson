@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:56Z",
+  "tcgplayerProductId": 33568,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Luminous Spark",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.4,
+    "customAttributes": {
+      "description": "Increase the ATK of all LIGHT monsters by 500 points and decreases their DEF by 400 points.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2008-11-21T00:00:00Z",
+      "number": "DLG1-EN082",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Luminous Spark",
+    "setId": 167.0,
+    "setCode": "DLG1",
+    "productId": 33568.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Legends",
+    "sellers": 30.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Legends",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 34.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.73,
+    "formattedAttributes": {
+      "Number": "DLG1-EN082",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Increase the ATK of all LIGHT monsters by 500 points and decreases their DEF by 400 points."
+    },
+    "skus": [
+      {
+        "sku": 379122,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569092,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577306,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560878,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552664,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

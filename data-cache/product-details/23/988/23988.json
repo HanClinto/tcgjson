@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:18Z",
+  "tcgplayerProductId": 23988,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Rod of the Minds Eye",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.17,
+    "customAttributes": {
+      "description": "When a monster equipped with this card inflicts Battle Damage to your opponent, the damage becomes 1000 points.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN201",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Equip Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Rod of the Mind's Eye",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 23988.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 54.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 61.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Number": "DR1-EN201",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Equip Spell",
+      "A / D": "0 / 0",
+      "Description": "When a monster equipped with this card inflicts Battle Damage to your opponent, the damage becomes 1000 points."
+    },
+    "skus": [
+      {
+        "sku": 265549,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569324,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577538,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561110,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552896,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

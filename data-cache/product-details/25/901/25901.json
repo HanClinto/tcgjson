@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:56Z",
+  "tcgplayerProductId": 25901,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Ballista of Rampart Smashing",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.49,
+    "customAttributes": {
+      "description": "If the equipped monster attacks a face-down Defense Position monster, it gains 1500 ATK during damage calculation only.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2006-11-25T00:00:00Z",
+      "number": "DR3-EN106",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Equip Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.2,
+    "productName": "Ballista of Rampart Smashing",
+    "setId": 174.0,
+    "setCode": "DR3",
+    "productId": 25901.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 3",
+    "sellers": 19.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 3",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 26.0,
+    "lowestPrice": 0.2,
+    "medianPrice": 0.55,
+    "formattedAttributes": {
+      "Number": "DR3-EN106",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Equip Spell",
+      "A / D": "0 / 0",
+      "Description": "If the equipped monster attacks a face-down Defense Position monster, it gains 1500 ATK during damage calculation only."
+    },
+    "skus": [
+      {
+        "sku": 267462,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569720,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577934,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561506,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 553292,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

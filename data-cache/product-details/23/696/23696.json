@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:05Z",
+  "tcgplayerProductId": 23696,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Mystic Lamp",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.45,
+    "customAttributes": {
+      "description": "This monster may attack your opponent's Life Points directly.",
+      "attribute": [
+        "DARK"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN160",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Spellcaster"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "1",
+      "defense": "300",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "400"
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Mystic Lamp",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23696.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 57.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 72.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.47,
+    "formattedAttributes": {
+      "Number": "DB1-EN160",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "DARK Spellcaster/Effect Monster",
+      "Level": "1",
+      "A / D": "400 / 300",
+      "Description": "This monster may attack your opponent's Life Points directly."
+    },
+    "skus": [
+      {
+        "sku": 265257,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568548,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576762,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560334,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552120,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

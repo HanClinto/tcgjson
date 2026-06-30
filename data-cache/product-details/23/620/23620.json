@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:57Z",
+  "tcgplayerProductId": 23620,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Light of Intervention",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.23,
+    "customAttributes": {
+      "description": "Monster Cards cannot be Set face-down. Monsters Set in Defense Position are Normal Summoned in face-up Defense Position.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN084",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Continuous Trap",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Light of Intervention",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23620.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Dark Beginning 1",
+    "sellers": 86.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 104.0,
+    "lowestPrice": 0.07,
+    "medianPrice": 0.315,
+    "formattedAttributes": {
+      "Number": "DB1-EN084",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "TRAP /Continuous Trap",
+      "A / D": "0 / 0",
+      "Description": "Monster Cards cannot be Set face-down. Monsters Set in Defense Position are Normal Summoned in face-up Defense Position."
+    },
+    "skus": [
+      {
+        "sku": 265181,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568472,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576686,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560258,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552044,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

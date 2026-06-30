@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:18:44Z",
+  "tcgplayerProductId": 33483,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Solar Recharge",
+    "productTypeId": 1.0,
+    "rarityName": "Super Rare",
+    "sealed": false,
+    "marketPrice": 3.25,
+    "customAttributes": {
+      "description": "Discard 1 \"Lightsworn\" monster. Draw 2 cards then send the top 2 cards of your Deck to the Graveyard.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2009-09-01T00:00:00Z",
+      "number": "ANPR-ENSE1",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Super Rare",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": "",
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 2.0,
+    "productName": "Solar Recharge",
+    "setId": 145.0,
+    "setCode": "ANPR-ENSE",
+    "productId": 33483.0,
+    "imageCount": 1.0,
+    "score": 2.2878017,
+    "setName": "Ancient Prophecy SE",
+    "sellers": 26.0,
+    "foilOnly": false,
+    "setUrlName": "Ancient Prophecy SE",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 29.0,
+    "lowestPrice": 1.98,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Number": "ANPR-ENSE1",
+      "Rarity": "Super Rare",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Discard 1 \"Lightsworn\" monster. Draw 2 cards then send the top 2 cards of your Deck to the Graveyard."
+    },
+    "skus": [
+      {
+        "sku": 682779,
+        "condition": "Near Mint",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 666351,
+        "condition": "Lightly Played",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 674565,
+        "condition": "Moderately Played",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 658137,
+        "condition": "Heavily Played",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 649923,
+        "condition": "Damaged",
+        "variant": "Limited",
+        "language": "English"
+      }
+    ]
+  }
+}

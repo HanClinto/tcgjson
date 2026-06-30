@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:57Z",
+  "tcgplayerProductId": 25905,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Divine Wrath",
+    "productTypeId": 1.0,
+    "rarityName": "Super Rare",
+    "sealed": false,
+    "marketPrice": 13.95,
+    "customAttributes": {
+      "description": "Discard 1 card from your hand. Negate the activation and the effect of an Effect Monster and destroy it.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2006-11-25T00:00:00Z",
+      "number": "DR3-EN110",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Counter Trap",
+      "rarityDbName": "Super Rare",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 10.26,
+    "productName": "Divine Wrath",
+    "setId": 174.0,
+    "setCode": "DR3",
+    "productId": 25905.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 3",
+    "sellers": 4.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 3",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 5.0,
+    "lowestPrice": 10.26,
+    "medianPrice": 32.74,
+    "formattedAttributes": {
+      "Number": "DR3-EN110",
+      "Rarity": "Super Rare",
+      "Attribute Monster Type/Card Type": "TRAP /Counter Trap",
+      "A / D": "0 / 0",
+      "Description": "Discard 1 card from your hand. Negate the activation and the effect of an Effect Monster and destroy it."
+    },
+    "skus": [
+      {
+        "sku": 267466,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569724,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577938,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561510,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 553296,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

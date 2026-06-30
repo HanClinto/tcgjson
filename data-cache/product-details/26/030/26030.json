@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:22:09Z",
+  "tcgplayerProductId": 26030,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Rock Bombardment",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.33,
+    "customAttributes": {
+      "description": "Select 1 Rock-Type monster in your Deck and send it to the Graveyard. Inflict 500 damage to your opponent. Then shuffle the Deck.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2006-11-25T00:00:00Z",
+      "number": "DR3-EN235",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Normal Trap",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Rock Bombardment",
+    "setId": 174.0,
+    "setCode": "DR3",
+    "productId": 26030.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 3",
+    "sellers": 26.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 3",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 28.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.42,
+    "formattedAttributes": {
+      "Number": "DR3-EN235",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "TRAP /Normal Trap",
+      "A / D": "0 / 0",
+      "Description": "Select 1 Rock-Type monster in your Deck and send it to the Graveyard. Inflict 500 damage to your opponent. Then shuffle the Deck."
+    },
+    "skus": [
+      {
+        "sku": 267591,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569849,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 578063,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561635,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 553421,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

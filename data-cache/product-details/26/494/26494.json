@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:03Z",
+  "tcgplayerProductId": 26494,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Robbin Goblin",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.36,
+    "customAttributes": {
+      "description": "Each time 1 of your monsters inflicts damage to your opponent's Life Points, 1 card is randomly selected from your opponent's hand and discarded to the Graveyard.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2007-09-06T00:00:00Z",
+      "number": "CP04-EN016",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Continuous Trap",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.24,
+    "productName": "Robbin' Goblin",
+    "setId": 152.0,
+    "setCode": "CP04",
+    "productId": 26494.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Champion Pack 4",
+    "sellers": 20.0,
+    "foilOnly": false,
+    "setUrlName": "Champion Pack 4",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 23.0,
+    "lowestPrice": 0.24,
+    "medianPrice": 0.74,
+    "formattedAttributes": {
+      "Number": "CP04-EN016",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "TRAP /Continuous Trap",
+      "A / D": "0 / 0",
+      "Description": "Each time 1 of your monsters inflicts damage to your opponent's Life Points, 1 card is randomly selected from your opponent's hand and discarded to the Graveyard."
+    },
+    "skus": [
+      {
+        "sku": 268055,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 567982,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576196,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 559768,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551554,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

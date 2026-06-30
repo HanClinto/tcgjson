@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:21Z",
+  "tcgplayerProductId": 24395,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Magic Jammer",
+    "productTypeId": 1.0,
+    "rarityName": "Super Rare",
+    "sealed": false,
+    "marketPrice": 3.39,
+    "customAttributes": {
+      "description": "Discard 1 card from your hand. Negate the activation of a Spell Card and destroy it.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN074",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Counter Trap",
+      "rarityDbName": "Super Rare",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.44,
+    "productName": "Magic Jammer",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24395.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Dark Beginning 2",
+    "sellers": 37.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 43.0,
+    "lowestPrice": 0.44,
+    "medianPrice": 4.1,
+    "formattedAttributes": {
+      "Number": "DB2-EN074",
+      "Rarity": "Super Rare",
+      "Attribute Monster Type/Card Type": "TRAP /Counter Trap",
+      "A / D": "0 / 0",
+      "Description": "Discard 1 card from your hand. Negate the activation of a Spell Card and destroy it."
+    },
+    "skus": [
+      {
+        "sku": 265956,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568833,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577047,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560619,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552405,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

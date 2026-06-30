@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:06Z",
+  "tcgplayerProductId": 33063,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Mage Power",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 1.04,
+    "customAttributes": {
+      "description": "The equipped monster gains 500 ATK and DEF for each Spell and Trap Card you control.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2008-05-12T00:00:00Z",
+      "number": "CP06-EN011",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Rare",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.4,
+    "productName": "Mage Power",
+    "setId": 154.0,
+    "setCode": "CP06",
+    "productId": 33063.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Champion Pack 6",
+    "sellers": 26.0,
+    "foilOnly": false,
+    "setUrlName": "Champion Pack 6",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 31.0,
+    "lowestPrice": 0.3,
+    "medianPrice": 1.09,
+    "formattedAttributes": {
+      "Number": "CP06-EN011",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "The equipped monster gains 500 ATK and DEF for each Spell and Trap Card you control."
+    },
+    "skus": [
+      {
+        "sku": 311913,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568017,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576231,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 559803,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551589,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

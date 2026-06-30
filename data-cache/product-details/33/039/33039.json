@@ -1,0 +1,96 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:04Z",
+  "tcgplayerProductId": 33039,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Blowback Dragon",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 1.15,
+    "customAttributes": {
+      "description": "Once per turn, you can toss a coin 3 times. If at least 2 of the results are Heads, destroy 1 card your opponent controls.",
+      "attribute": [
+        "Dark"
+      ],
+      "releaseDate": "2008-01-08T00:00:00Z",
+      "number": "CP05-EN007",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Machine"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Rare",
+      "defense": "1200",
+      "flavorText": null,
+      "attack": "2300"
+    },
+    "lowestPriceWithShipping": 0.8,
+    "productName": "Blowback Dragon",
+    "setId": 153.0,
+    "setCode": "CP05",
+    "productId": 33039.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Champion Pack 5",
+    "sellers": 19.0,
+    "foilOnly": false,
+    "setUrlName": "Champion Pack 5",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 21.0,
+    "lowestPrice": 0.8,
+    "medianPrice": 1.25,
+    "formattedAttributes": {
+      "Number": "CP05-EN007",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "Dark Machine/Effect Monster",
+      "A / D": "2300 / 1200",
+      "Description": "Once per turn, you can toss a coin 3 times. If at least 2 of the results are Heads, destroy 1 card your opponent controls."
+    },
+    "skus": [
+      {
+        "sku": 311714,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 567993,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576207,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 559779,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551565,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

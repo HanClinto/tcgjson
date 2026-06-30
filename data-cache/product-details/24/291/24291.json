@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:20Z",
+  "tcgplayerProductId": 24291,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Muka Muka",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.24,
+    "customAttributes": {
+      "description": "As long as this card remains face-up on the field, increase the ATK and DEF of this card by 300 points for every card in the controller's hand.",
+      "attribute": [
+        "EARTH"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN062",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Rock"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "2",
+      "defense": "300",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "600"
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "Muka Muka",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24291.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 2",
+    "sellers": 70.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 91.0,
+    "lowestPrice": 0.07,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Number": "DB2-EN062",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "EARTH Rock/Effect Monster",
+      "Level": "2",
+      "A / D": "600 / 300",
+      "Description": "As long as this card remains face-up on the field, increase the ATK and DEF of this card by 300 points for every card in the controller's hand."
+    },
+    "skus": [
+      {
+        "sku": 265852,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568729,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576943,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560515,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552301,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:18:57Z",
+  "tcgplayerProductId": 26066,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Pot of Avarice",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 10.98,
+    "customAttributes": {
+      "description": "Select 5 Monster Cards from your Graveyard, then add them to your Deck and shuffle it. After that, draw 2 cards.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2006-11-11T00:00:00Z",
+      "number": "CP01-EN011",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Rare",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 5.2,
+    "productName": "Pot of Avarice",
+    "setId": 149.0,
+    "setCode": "CP01",
+    "productId": 26066.0,
+    "imageCount": 1.0,
+    "score": 1.4149734,
+    "setName": "Champion Pack 1",
+    "sellers": 17.0,
+    "foilOnly": false,
+    "setUrlName": "Champion Pack 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 18.0,
+    "lowestPrice": 5.2,
+    "medianPrice": 14.97,
+    "formattedAttributes": {
+      "Number": "CP01-EN011",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Select 5 Monster Cards from your Graveyard, then add them to your Deck and shuffle it. After that, draw 2 cards."
+    },
+    "skus": [
+      {
+        "sku": 267627,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 567917,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576131,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 559703,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551489,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

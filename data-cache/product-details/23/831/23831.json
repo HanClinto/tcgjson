@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:04Z",
+  "tcgplayerProductId": 23831,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Raigeki Break",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 2.28,
+    "customAttributes": {
+      "description": "Discard 1 card from your hand to the Graveyard to destroy 1 card on the field.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN044",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Normal Trap",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.95,
+    "productName": "Raigeki Break",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 23831.0,
+    "imageCount": 1.0,
+    "score": 2.0863597,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 19.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 20.0,
+    "lowestPrice": 0.95,
+    "medianPrice": 2.745,
+    "formattedAttributes": {
+      "Number": "DR1-EN044",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "TRAP /Normal Trap",
+      "A / D": "0 / 0",
+      "Description": "Discard 1 card from your hand to the Graveyard to destroy 1 card on the field."
+    },
+    "skus": [
+      {
+        "sku": 265392,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569167,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577381,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560953,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552739,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

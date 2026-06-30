@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:52Z",
+  "tcgplayerProductId": 23565,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "The Forceful Sentry",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 3.41,
+    "customAttributes": {
+      "description": "Look at your opponent's hand. Select 1 card among them and return it to his/her Deck. The Deck is then shuffled.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN029",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Rare",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.97,
+    "productName": "The Forceful Sentry",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23565.0,
+    "imageCount": 1.0,
+    "score": 2.025306,
+    "setName": "Dark Beginning 1",
+    "sellers": 21.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 22.0,
+    "lowestPrice": 0.97,
+    "medianPrice": 4.495,
+    "formattedAttributes": {
+      "Number": "DB1-EN029",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Look at your opponent's hand. Select 1 card among them and return it to his/her Deck. The Deck is then shuffled."
+    },
+    "skus": [
+      {
+        "sku": 265126,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568417,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576631,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560203,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551989,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

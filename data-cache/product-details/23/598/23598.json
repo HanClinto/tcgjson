@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:55Z",
+  "tcgplayerProductId": 23598,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Rising Air Current",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.74,
+    "customAttributes": {
+      "description": "Increase the ATK of all WIND monsters by 500 points and decrease their DEF by 400 points.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN062",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Field Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Rising Air Current",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23598.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Dark Beginning 1",
+    "sellers": 53.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 68.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.74,
+    "formattedAttributes": {
+      "Number": "DB1-EN062",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Field Spell",
+      "A / D": "0 / 0",
+      "Description": "Increase the ATK of all WIND monsters by 500 points and decrease their DEF by 400 points."
+    },
+    "skus": [
+      {
+        "sku": 265159,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568450,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576664,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560236,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552022,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

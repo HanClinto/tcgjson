@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:18Z",
+  "tcgplayerProductId": 23991,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Morale Boost",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.27,
+    "customAttributes": {
+      "description": "Each time a player equips an Equip Spell Card, that player''s Life Points increase by 1000 points. Each time an Equip Spell Card is destroyed or removed form the field, inflict 1000 damage to the Life Points of the controller of that Equip Spell Card.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN204",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Continuous Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Morale Boost",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 23991.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 56.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 67.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.325,
+    "formattedAttributes": {
+      "Number": "DR1-EN204",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Continuous Spell",
+      "A / D": "0 / 0",
+      "Description": "Each time a player equips an Equip Spell Card, that player''s Life Points increase by 1000 points. Each time an Equip Spell Card is destroyed or removed form the field, inflict 1000 damage to the Life Points of the controller of that Equip Spell Card."
+    },
+    "skus": [
+      {
+        "sku": 265552,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569327,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577541,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561113,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552899,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

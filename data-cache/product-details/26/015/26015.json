@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:22:07Z",
+  "tcgplayerProductId": 26015,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Double Attack",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.62,
+    "customAttributes": {
+      "description": "Discard 1 Monster Card from your hand to the Graveyard. Select 1 monster on your side of the field with a lower Level than the discarded monster. The selected monster can attack twice this turn.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2006-11-25T00:00:00Z",
+      "number": "DR3-EN220",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.14,
+    "productName": "Double Attack",
+    "setId": 174.0,
+    "setCode": "DR3",
+    "productId": 26015.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Dark Revelation Volume 3",
+    "sellers": 23.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 3",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 27.0,
+    "lowestPrice": 0.14,
+    "medianPrice": 0.745,
+    "formattedAttributes": {
+      "Number": "DR3-EN220",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Discard 1 Monster Card from your hand to the Graveyard. Select 1 monster on your side of the field with a lower Level than the discarded monster. The selected monster can attack twice this turn."
+    },
+    "skus": [
+      {
+        "sku": 267576,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569834,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 578048,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561620,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 553406,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

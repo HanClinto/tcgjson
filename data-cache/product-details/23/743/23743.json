@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:09Z",
+  "tcgplayerProductId": 23743,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Humanoid Slime",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.59,
+    "customAttributes": {
+      "description": "<em>This slime apparently has some human genes in its genetic makeup.</em>",
+      "attribute": [
+        "WATER"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN207",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Aqua"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Common",
+      "level": "4",
+      "defense": "2000",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "800"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Humanoid Slime",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23743.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Dark Beginning 1",
+    "sellers": 58.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 76.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 0.675,
+    "formattedAttributes": {
+      "Number": "DB1-EN207",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "WATER Aqua/Normal Monster",
+      "Level": "4",
+      "A / D": "800 / 2000",
+      "Description": "<em>This slime apparently has some human genes in its genetic makeup.</em>"
+    },
+    "skus": [
+      {
+        "sku": 265304,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568595,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576809,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560381,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552167,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

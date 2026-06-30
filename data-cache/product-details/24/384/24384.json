@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:29Z",
+  "tcgplayerProductId": 24384,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "The Dragons Bead",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.17,
+    "customAttributes": {
+      "description": "Discard 1 card from your hand. Negate the effect of a Trap Card that targets 1 face-up Dragon-Type monster and destroy the Trap Card.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN158",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Continuous Trap",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.07,
+    "productName": "The Dragon's Bead",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24384.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 2",
+    "sellers": 53.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 68.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.3,
+    "formattedAttributes": {
+      "Number": "DB2-EN158",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "TRAP /Continuous Trap",
+      "A / D": "0 / 0",
+      "Description": "Discard 1 card from your hand. Negate the effect of a Trap Card that targets 1 face-up Dragon-Type monster and destroy the Trap Card."
+    },
+    "skus": [
+      {
+        "sku": 265945,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568822,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577036,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560608,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552394,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

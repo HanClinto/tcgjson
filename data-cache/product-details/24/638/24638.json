@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:26Z",
+  "tcgplayerProductId": 24638,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Chaos Necromancer",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.26,
+    "customAttributes": {
+      "description": "The ATK of this card becomes the number of Monster Cards in your Graveyard x 300 points.",
+      "attribute": [
+        "DARK"
+      ],
+      "releaseDate": "2005-10-20T00:00:00Z",
+      "number": "DR2-EN017",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Fiend"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "1",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Chaos Necromancer",
+    "setId": 173.0,
+    "setCode": "DR2",
+    "productId": 24638.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 2",
+    "sellers": 31.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 39.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Number": "DR2-EN017",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "DARK Fiend/Effect Monster",
+      "Level": "1",
+      "A / D": "0 / 0",
+      "Description": "The ATK of this card becomes the number of Monster Cards in your Graveyard x 300 points."
+    },
+    "skus": [
+      {
+        "sku": 266199,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569407,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577621,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561193,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552979,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

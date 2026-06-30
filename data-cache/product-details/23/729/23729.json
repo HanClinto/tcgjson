@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:08Z",
+  "tcgplayerProductId": 23729,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Deepsea Warrior",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.23,
+    "customAttributes": {
+      "description": "As long as \"Umi\" is face-up on the field, this card is unaffected by any Spell Cards.",
+      "attribute": [
+        "WATER"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN193",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Warrior"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "5",
+      "defense": "1800",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "1600"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Deepsea Warrior",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23729.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 58.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 72.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Number": "DB1-EN193",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "WATER Warrior/Effect Monster",
+      "Level": "5",
+      "A / D": "1600 / 1800",
+      "Description": "As long as \"Umi\" is face-up on the field, this card is unaffected by any Spell Cards."
+    },
+    "skus": [
+      {
+        "sku": 265290,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568581,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576795,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560367,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552153,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

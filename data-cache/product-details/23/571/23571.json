@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:53Z",
+  "tcgplayerProductId": 23571,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Labyrinth Wall",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.3,
+    "customAttributes": {
+      "description": "<em>These walls form a labyrinth with no exit for enemies.</em>",
+      "attribute": [
+        "EARTH"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN035",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Rock"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Common",
+      "level": "5",
+      "defense": "3000",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.04,
+    "productName": "Labyrinth Wall",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23571.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 69.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 83.0,
+    "lowestPrice": 0.04,
+    "medianPrice": 0.52,
+    "formattedAttributes": {
+      "Number": "DB1-EN035",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "EARTH Rock/Normal Monster",
+      "Level": "5",
+      "A / D": "0 / 3000",
+      "Description": "<em>These walls form a labyrinth with no exit for enemies.</em>"
+    },
+    "skus": [
+      {
+        "sku": 265132,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568423,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576637,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560209,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551995,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

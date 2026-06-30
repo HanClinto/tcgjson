@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:24Z",
+  "tcgplayerProductId": 24402,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Royal Decree",
+    "productTypeId": 1.0,
+    "rarityName": "Super Rare",
+    "sealed": false,
+    "marketPrice": 28.3,
+    "customAttributes": {
+      "description": "As long as this card remains face-up on the field, negate the effects of all Trap Cards on the field except this card.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN106",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Normal Trap",
+      "rarityDbName": "Super Rare",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 6.26,
+    "productName": "Royal Decree",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24402.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 2",
+    "sellers": 17.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 22.0,
+    "lowestPrice": 0.49,
+    "medianPrice": 39.99,
+    "formattedAttributes": {
+      "Number": "DB2-EN106",
+      "Rarity": "Super Rare",
+      "Attribute Monster Type/Card Type": "TRAP /Normal Trap",
+      "A / D": "0 / 0",
+      "Description": "As long as this card remains face-up on the field, negate the effects of all Trap Cards on the field except this card."
+    },
+    "skus": [
+      {
+        "sku": 265963,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568840,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577054,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560626,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552412,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:28Z",
+  "tcgplayerProductId": 24664,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Thunder Crash",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.2,
+    "customAttributes": {
+      "description": "Destroy all monsters on your side of the field. Inflict damage to your opponent''s Life Points equal to the number of monsters destroyed x 300 points.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2005-10-20T00:00:00Z",
+      "number": "DR2-EN043",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Normal Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Thunder Crash",
+    "setId": 173.0,
+    "setCode": "DR2",
+    "productId": 24664.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 2",
+    "sellers": 20.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 30.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.555,
+    "formattedAttributes": {
+      "Number": "DR2-EN043",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Normal Spell",
+      "A / D": "0 / 0",
+      "Description": "Destroy all monsters on your side of the field. Inflict damage to your opponent''s Life Points equal to the number of monsters destroyed x 300 points."
+    },
+    "skus": [
+      {
+        "sku": 266225,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569433,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577647,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561219,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 553005,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

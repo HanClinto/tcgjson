@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:01Z",
+  "tcgplayerProductId": 23662,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Red Eyes B Dragon",
+    "productTypeId": 1.0,
+    "rarityName": "Super Rare",
+    "sealed": false,
+    "marketPrice": 4.61,
+    "customAttributes": {
+      "description": "<em>A ferocious dragon with a deadly attack.</em>",
+      "attribute": [
+        "DARK"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN126",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Dragon"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Super Rare",
+      "level": "7",
+      "defense": "2000",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "2400"
+    },
+    "lowestPriceWithShipping": 1.36,
+    "productName": "Red-Eyes B. Dragon",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23662.0,
+    "imageCount": 1.0,
+    "score": 1.69897,
+    "setName": "Dark Beginning 1",
+    "sellers": 41.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 46.0,
+    "lowestPrice": 0.83,
+    "medianPrice": 5.03,
+    "formattedAttributes": {
+      "Number": "DB1-EN126",
+      "Rarity": "Super Rare",
+      "Attribute Monster Type/Card Type": "DARK Dragon/Normal Monster",
+      "Level": "7",
+      "A / D": "2400 / 2000",
+      "Description": "<em>A ferocious dragon with a deadly attack.</em>"
+    },
+    "skus": [
+      {
+        "sku": 265223,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568514,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576728,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560300,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552086,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

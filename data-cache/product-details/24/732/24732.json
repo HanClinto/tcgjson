@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:34Z",
+  "tcgplayerProductId": 24732,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Trap Jammer",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.55,
+    "customAttributes": {
+      "description": "You can only activate this card when your opponent activates a Trap Card during the Battle Phase. Negate the activation of the Trap Card and destroy it.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2005-10-20T00:00:00Z",
+      "number": "DR2-EN111",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Counter Trap",
+      "rarityDbName": "Rare",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Trap Jammer",
+    "setId": 173.0,
+    "setCode": "DR2",
+    "productId": 24732.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 2",
+    "sellers": 35.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 43.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 1.75,
+    "formattedAttributes": {
+      "Number": "DR2-EN111",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "TRAP /Counter Trap",
+      "A / D": "0 / 0",
+      "Description": "You can only activate this card when your opponent activates a Trap Card during the Battle Phase. Negate the activation of the Trap Card and destroy it."
+    },
+    "skus": [
+      {
+        "sku": 266293,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569501,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577715,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561287,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 553073,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

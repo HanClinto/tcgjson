@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:09Z",
+  "tcgplayerProductId": 33092,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Counter Counter",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.75,
+    "customAttributes": {
+      "description": "Negate the activation of a Counter Trap Card, and destroy it.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2008-09-01T00:00:00Z",
+      "number": "CP07-EN020",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Normal Trap",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.49,
+    "productName": "Counter Counter",
+    "setId": 155.0,
+    "setCode": "CP07",
+    "productId": 33092.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Champion Pack 7",
+    "sellers": 17.0,
+    "foilOnly": false,
+    "setUrlName": "Champion Pack 7",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 21.0,
+    "lowestPrice": 0.49,
+    "medianPrice": 1.0,
+    "formattedAttributes": {
+      "Number": "CP07-EN020",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "TRAP /Normal Trap",
+      "A / D": "0 / 0",
+      "Description": "Negate the activation of a Counter Trap Card, and destroy it."
+    },
+    "skus": [
+      {
+        "sku": 311936,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568046,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576260,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 559832,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551618,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

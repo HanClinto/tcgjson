@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:22:01Z",
+  "tcgplayerProductId": 25953,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Poison Fangs",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.21,
+    "customAttributes": {
+      "description": "Each time a Beast-Type monster inflicts Battle Damage to your opponent, inflict 500 damage to your opponent.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2006-11-25T00:00:00Z",
+      "number": "DR3-EN158",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Continuous Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.03,
+    "productName": "Poison Fangs",
+    "setId": 174.0,
+    "setCode": "DR3",
+    "productId": 25953.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 3",
+    "sellers": 31.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 3",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 35.0,
+    "lowestPrice": 0.03,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Number": "DR3-EN158",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Continuous Spell",
+      "A / D": "0 / 0",
+      "Description": "Each time a Beast-Type monster inflicts Battle Damage to your opponent, inflict 500 damage to your opponent."
+    },
+    "skus": [
+      {
+        "sku": 267514,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569772,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577986,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561558,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 553344,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:17:55Z",
+  "tcgplayerProductId": 24515,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Rocket Warrior",
+    "productTypeId": 1.0,
+    "rarityName": "Secret Rare",
+    "sealed": false,
+    "marketPrice": 7.31,
+    "customAttributes": {
+      "description": "This effect is only active during the Battle Phase of your turn. Battle Damage to this card and this card's controller that they take from a battle involving this card becomes 0. After damage calculation, decrease the ATK of the monster that was attacked by this card by 500 points until the end of this turn.",
+      "attribute": [
+        "LIGHT"
+      ],
+      "releaseDate": "2005-09-01T00:00:00Z",
+      "number": "CT2-EN005",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Warrior"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Secret Rare",
+      "level": "4",
+      "defense": "1300",
+      "linkArrows": null,
+      "flavorText": "",
+      "attack": "1500"
+    },
+    "lowestPriceWithShipping": 1.25,
+    "productName": "Rocket Warrior",
+    "setId": 128.0,
+    "setCode": "CT2",
+    "productId": 24515.0,
+    "imageCount": 1.0,
+    "score": 2.25042,
+    "setName": "2005 Collectors Tin",
+    "sellers": 67.0,
+    "foilOnly": false,
+    "setUrlName": "2005 Collectors Tin",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 73.0,
+    "lowestPrice": 1.25,
+    "medianPrice": null,
+    "formattedAttributes": {
+      "Number": "CT2-EN005",
+      "Rarity": "Secret Rare",
+      "Attribute Monster Type/Card Type": "LIGHT Warrior/Effect Monster",
+      "Level": "4",
+      "A / D": "1500 / 1300",
+      "Description": "This effect is only active during the Battle Phase of your turn. Battle Damage to this card and this card's controller that they take from a battle involving this card becomes 0. After damage calculation, decrease the ATK of the monster that was attacked by this card by 500 points until the end of this turn."
+    },
+    "skus": [
+      {
+        "sku": 682441,
+        "condition": "Near Mint",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 666013,
+        "condition": "Lightly Played",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 674227,
+        "condition": "Moderately Played",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 657799,
+        "condition": "Heavily Played",
+        "variant": "Limited",
+        "language": "English"
+      },
+      {
+        "sku": 649585,
+        "condition": "Damaged",
+        "variant": "Limited",
+        "language": "English"
+      }
+    ]
+  }
+}

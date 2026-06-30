@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:50Z",
+  "tcgplayerProductId": 23543,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Electric Snake",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.27,
+    "customAttributes": {
+      "description": "When this card is discarded from your hand to the Graveyard by an effect of a card controlled by your opponent, draw 2 cards from your Deck.",
+      "attribute": [
+        "LIGHT"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN007",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Thunder"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "3",
+      "defense": "900",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "800"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Electric Snake",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23543.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 65.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 81.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.315,
+    "formattedAttributes": {
+      "Number": "DB1-EN007",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "LIGHT Thunder/Effect Monster",
+      "Level": "3",
+      "A / D": "800 / 900",
+      "Description": "When this card is discarded from your hand to the Graveyard by an effect of a card controlled by your opponent, draw 2 cards from your Deck."
+    },
+    "skus": [
+      {
+        "sku": 265104,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568395,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576609,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560181,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551967,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

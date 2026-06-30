@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:20Z",
+  "tcgplayerProductId": 24204,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Star Boy",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.41,
+    "customAttributes": {
+      "description": "As long as this card remains face-up on the field, increase the ATK of all WATER monsters by 500 points and decrease the ATK of all FIRE monsters by 400 points.",
+      "attribute": [
+        "WATER"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN064",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Aqua"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "2",
+      "defense": "500",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "550"
+    },
+    "lowestPriceWithShipping": 0.13,
+    "productName": "Star Boy",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24204.0,
+    "imageCount": 1.0,
+    "score": 1.5314789,
+    "setName": "Dark Beginning 2",
+    "sellers": 56.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 61.0,
+    "lowestPrice": 0.13,
+    "medianPrice": 0.43,
+    "formattedAttributes": {
+      "Number": "DB2-EN064",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "WATER Aqua/Effect Monster",
+      "Level": "2",
+      "A / D": "550 / 500",
+      "Description": "As long as this card remains face-up on the field, increase the ATK of all WATER monsters by 500 points and decrease the ATK of all FIRE monsters by 400 points."
+    },
+    "skus": [
+      {
+        "sku": 265765,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568642,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576856,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560428,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552214,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

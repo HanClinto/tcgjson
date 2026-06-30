@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:23Z",
+  "tcgplayerProductId": 24050,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Spell Vanishing",
+    "productTypeId": 1.0,
+    "rarityName": "Rare",
+    "sealed": false,
+    "marketPrice": 0.61,
+    "customAttributes": {
+      "description": "Discard 2 cards from your hand to negate the activation of a Spell Card and destroy it. Also, check your opponent''s hand and Deck and if you find any Spell Cards of the same name as the destroyed Spell Card, send all of them to the Graveyard.",
+      "attribute": [
+        "TRAP"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN263",
+      "cardType": [
+        "Trap"
+      ],
+      "cardTypeB": "Counter Trap",
+      "rarityDbName": "Rare",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Spell Vanishing",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 24050.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 61.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 69.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.67,
+    "formattedAttributes": {
+      "Number": "DR1-EN263",
+      "Rarity": "Rare",
+      "Attribute Monster Type/Card Type": "TRAP /Counter Trap",
+      "A / D": "0 / 0",
+      "Description": "Discard 2 cards from your hand to negate the activation of a Spell Card and destroy it. Also, check your opponent''s hand and Deck and if you find any Spell Cards of the same name as the destroyed Spell Card, send all of them to the Graveyard."
+    },
+    "skus": [
+      {
+        "sku": 265611,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569386,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577600,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561172,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552958,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:03Z",
+  "tcgplayerProductId": 23820,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Buster Rancher",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.29,
+    "customAttributes": {
+      "description": "Only a monster with an ATK equal to 1000 or less can be equipped with this card. During damage calculation, increase the ATK of the monster equipped with this card by 2500 points only when the opponent''s monster that battles is in Attack Position and its ATK is equal to 2500 or more, OR when the opponent''s monster that battles is in Defense Position and its DEF is equal to 2500 or more.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN033",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Equip Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.02,
+    "productName": "Buster Rancher",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 23820.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 71.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 86.0,
+    "lowestPrice": 0.02,
+    "medianPrice": 0.5,
+    "formattedAttributes": {
+      "Number": "DR1-EN033",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Equip Spell",
+      "A / D": "0 / 0",
+      "Description": "Only a monster with an ATK equal to 1000 or less can be equipped with this card. During damage calculation, increase the ATK of the monster equipped with this card by 2500 points only when the opponent''s monster that battles is in Attack Position and its ATK is equal to 2500 or more, OR when the opponent''s monster that battles is in Defense Position and its DEF is equal to 2500 or more."
+    },
+    "skus": [
+      {
+        "sku": 265381,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569156,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577370,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560942,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552728,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

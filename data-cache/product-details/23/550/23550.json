@@ -1,0 +1,99 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:19:51Z",
+  "tcgplayerProductId": 23550,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Slot Machine",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.37,
+    "customAttributes": {
+      "description": "<em>The machine's ability is said to vary according to its slot results.</em>",
+      "attribute": [
+        "DARK"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN014",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Machine"
+      ],
+      "cardTypeB": "Normal Monster",
+      "rarityDbName": "Common",
+      "level": "7",
+      "defense": "2300",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "2000"
+    },
+    "lowestPriceWithShipping": 0.05,
+    "productName": "Slot Machine",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23550.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 55.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 69.0,
+    "lowestPrice": 0.05,
+    "medianPrice": 0.38,
+    "formattedAttributes": {
+      "Number": "DB1-EN014",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "DARK Machine/Normal Monster",
+      "Level": "7",
+      "A / D": "2000 / 2300",
+      "Description": "<em>The machine's ability is said to vary according to its slot results.</em>"
+    },
+    "skus": [
+      {
+        "sku": 265111,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568402,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576616,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560188,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 551974,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

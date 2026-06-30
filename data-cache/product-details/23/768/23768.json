@@ -1,0 +1,94 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:11Z",
+  "tcgplayerProductId": 23768,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Card of Safe Return",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.25,
+    "customAttributes": {
+      "description": "When a monster is Special Summoned to the field from your Graveyard, you can draw 1 card from your Deck.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN232",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Continuous Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "linkArrows": null,
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Card of Safe Return",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23768.0,
+    "imageCount": 1.0,
+    "score": 1.6232493,
+    "setName": "Dark Beginning 1",
+    "sellers": 58.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 78.0,
+    "lowestPrice": 0.1,
+    "medianPrice": 0.57,
+    "formattedAttributes": {
+      "Number": "DB1-EN232",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Continuous Spell",
+      "A / D": "0 / 0",
+      "Description": "When a monster is Special Summoned to the field from your Graveyard, you can draw 1 card from your Deck."
+    },
+    "skus": [
+      {
+        "sku": 265329,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568620,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576834,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560406,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552192,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

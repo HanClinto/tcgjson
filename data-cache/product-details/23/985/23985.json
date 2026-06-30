@@ -1,0 +1,93 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:21:18Z",
+  "tcgplayerProductId": 23985,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Rod of Silence Kayest",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.54,
+    "customAttributes": {
+      "description": "A monster equipped with this card increases its DEF by 500 points. Negate the effect of a Spell Card (excluding this card) that specifically designates a monster equipped with this card as a target and destroy it.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2005-03-19T00:00:00Z",
+      "number": "DR1-EN198",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Equip Spell",
+      "rarityDbName": "Common",
+      "defense": "0",
+      "flavorText": null,
+      "attack": "0"
+    },
+    "lowestPriceWithShipping": 0.1,
+    "productName": "Rod of Silence - Kay'est",
+    "setId": 172.0,
+    "setCode": "DR1",
+    "productId": 23985.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Revelation Volume 1",
+    "sellers": 55.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Revelation Volume 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 61.0,
+    "lowestPrice": 0.08,
+    "medianPrice": 0.63,
+    "formattedAttributes": {
+      "Number": "DR1-EN198",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Equip Spell",
+      "A / D": "0 / 0",
+      "Description": "A monster equipped with this card increases its DEF by 500 points. Negate the effect of a Spell Card (excluding this card) that specifically designates a monster equipped with this card as a target and destroy it."
+    },
+    "skus": [
+      {
+        "sku": 265546,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 569321,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 577535,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 561107,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552893,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

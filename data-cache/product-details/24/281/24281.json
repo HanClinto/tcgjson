@@ -1,0 +1,98 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:24Z",
+  "tcgplayerProductId": 24281,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Machine King",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.95,
+    "customAttributes": {
+      "description": "Increase the ATK of this card by 100 points for each face-up Machine-Type monster on the field.",
+      "attribute": [
+        "EARTH"
+      ],
+      "releaseDate": "2005-07-25T00:00:00Z",
+      "number": "DB2-EN099",
+      "cardType": [
+        "Main Deck Monster"
+      ],
+      "monsterType": [
+        "Machine"
+      ],
+      "cardTypeB": "Effect Monster",
+      "rarityDbName": "Common",
+      "level": "6",
+      "defense": "2000",
+      "flavorText": null,
+      "attack": "2200"
+    },
+    "lowestPriceWithShipping": 0.25,
+    "productName": "Machine King",
+    "setId": 164.0,
+    "setCode": "DB2",
+    "productId": 24281.0,
+    "imageCount": 1.0,
+    "score": 1.763428,
+    "setName": "Dark Beginning 2",
+    "sellers": 18.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 2",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 21.0,
+    "lowestPrice": 0.25,
+    "medianPrice": 1.515,
+    "formattedAttributes": {
+      "Number": "DB2-EN099",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "EARTH Machine/Effect Monster",
+      "Level": "6",
+      "A / D": "2200 / 2000",
+      "Description": "Increase the ATK of this card by 100 points for each face-up Machine-Type monster on the field."
+    },
+    "skus": [
+      {
+        "sku": 265842,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568719,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576933,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560505,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552291,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}

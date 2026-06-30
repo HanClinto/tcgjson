@@ -1,0 +1,91 @@
+{
+  "object": "tcgjson_product_detail_cache_entry",
+  "version": 1,
+  "generatedAt": "2026-06-30T00:20:13Z",
+  "tcgplayerProductId": 23779,
+  "details": {
+    "customListings": 0.0,
+    "shippingCategoryId": 1.0,
+    "duplicate": true,
+    "productLineUrlName": "YuGiOh",
+    "productTypeName": "Cards",
+    "productUrlName": "Scroll of Bewitchment",
+    "productTypeId": 1.0,
+    "rarityName": "Common / Short Print",
+    "sealed": false,
+    "marketPrice": 0.18,
+    "customAttributes": {
+      "description": "Select 1 Attribute. Change the Attribute of the equipped monster to the one you select.",
+      "attribute": [
+        "SPELL"
+      ],
+      "releaseDate": "2017-12-01T00:00:00Z",
+      "number": "DB1-EN243",
+      "cardType": [
+        "Spell"
+      ],
+      "cardTypeB": "Equip Spell",
+      "rarityDbName": "Common",
+      "linkArrows": null,
+      "flavorText": null
+    },
+    "lowestPriceWithShipping": 0.04,
+    "productName": "Scroll of Bewitchment",
+    "setId": 163.0,
+    "setCode": "DB1",
+    "productId": 23779.0,
+    "imageCount": 1.0,
+    "score": 1.2552725,
+    "setName": "Dark Beginning 1",
+    "sellers": 59.0,
+    "foilOnly": false,
+    "setUrlName": "Dark Beginning 1",
+    "sellerListable": true,
+    "productLineId": 2.0,
+    "productStatusId": 1.0,
+    "productLineName": "YuGiOh",
+    "maxFulfillableQuantity": 255.0,
+    "normalOnly": true,
+    "listings": 71.0,
+    "lowestPrice": 0.04,
+    "medianPrice": 0.25,
+    "formattedAttributes": {
+      "Number": "DB1-EN243",
+      "Rarity": "Common",
+      "Attribute Monster Type/Card Type": "SPELL /Equip Spell",
+      "Description": "Select 1 Attribute. Change the Attribute of the equipped monster to the one you select."
+    },
+    "skus": [
+      {
+        "sku": 265340,
+        "condition": "Near Mint",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 568631,
+        "condition": "Lightly Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 576845,
+        "condition": "Moderately Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 560417,
+        "condition": "Heavily Played",
+        "variant": "Unlimited",
+        "language": "English"
+      },
+      {
+        "sku": 552203,
+        "condition": "Damaged",
+        "variant": "Unlimited",
+        "language": "English"
+      }
+    ]
+  }
+}
