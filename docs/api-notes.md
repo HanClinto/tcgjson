@@ -276,7 +276,7 @@ only. Multi-image URLs require product details.
 Recommended durable caches:
 
 - previous set-level and full catalog JSON artifacts downloaded from GitHub Releases;
-- product details by product ID for explicit full-detail/SKU builds.
+- optional local product details by product ID for explicit full-detail/SKU builds.
 
 Each release emits set-level cache shards named
 `<slug>.set.<tcgplayerSetId>.json`, alongside the public compact and full catalog
@@ -287,6 +287,10 @@ format. This keeps the weekly runner path simple and avoids publishing internal
 SQLite cache files. A future importer could load release JSON into SQLite for
 low-memory per-ID querying, but that should be a consumer/runtime optimization
 rather than a required build cache.
+
+`data-cache/` is ignored by git. It may be useful for local `--with-details`
+experiments, but scheduled lean releases should not depend on checking out or
+committing it.
 
 Avoid durable raw HTTP search cache. Raw search responses contain facets,
 aggregations, listing-shaped fields, and seller/listing data that are larger and

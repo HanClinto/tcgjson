@@ -218,18 +218,17 @@ by default. Checkpoints are separated by product-line slug and source
 (`priceguide` versus `search`) so a search-fallback set cannot overwrite a richer
 price-guide set. They are useful for resuming interrupted local runs, but they
 duplicate normalized product rows and can be regenerated from TCGplayer set data
-plus the durable product-detail cache. For that reason, set checkpoints are
+plus any local product-detail cache. For that reason, set checkpoints are
 ignored by git unless you explicitly place them elsewhere with `--checkpoint-dir`.
 Use `--no-checkpoints` to disable them entirely.
 
-The data cache is intended to be tracked in git, but only for expensive durable
-inputs that fit normal git hosting limits. Product-detail responses are cached
-under `data-cache/product-details` by product ID, which preserves SKU IDs,
-metadata, and multi-image information across weekly runs. Lean builds primarily
-reuse previous release JSON files downloaded into `release-cache`; set-level
-cache shards are preferred when present, with `<slug>.full.json` retained as a
-fallback for older releases. Git then transfers changed tracked cache data
-instead of re-uploading a full cache archive every week.
+The durable weekly cache is the previous release's JSON, not a git-tracked data
+cache. Lean builds reuse previous release JSON files downloaded into
+`release-cache`; set-level cache shards are preferred when present, with
+`<slug>.full.json` retained as a fallback for older releases. Product-detail
+responses for `--with-details` builds may still be cached locally under
+`data-cache/product-details`, but `data-cache/` is ignored by git and is not part
+of the release workflow's checkout or commit path.
 
 Use `--detail-cache-dir` to place product-detail cache files directly, or
 `--no-detail-cache` to force detail refetches during `--with-details` builds.
@@ -257,7 +256,7 @@ graphing are:
 ## Operational Constraints
 
 Scheduled update jobs are designed around GitHub-hosted Actions and a durable
-git-tracked `data-cache`. The target constraints are recorded in
+release JSON cache. The target constraints are recorded in
 [`operations-constraints.json`](operations-constraints.json) so they can be
 reviewed and evaluated by automation instead of living only in prose.
 
@@ -265,26 +264,17 @@ Current targets:
 
 - Job timeout: 300 minutes, leaving a 15 minute reserve for final cache flushes.
 - Cache flush cadence for future resumable jobs: every 15 minutes or before job
-  shutdown.
-- Intermediate cache push size: keep routine pushes under 100 MiB.
-- Data-cache size watchpoint: 2 GiB before reconsidering storage strategy.
+  shutdown, if a future tracked cache is reintroduced.
+- Intermediate cache push size: keep any future routine cache pushes under 100 MiB.
+- Data-cache size watchpoint: 2 GiB before reconsidering local storage strategy.
 - Directory fanout: warn above 500 files in a directory; fail above 1000.
-- Concurrency: one cache-writing workflow at a time, using
-  `tcgjson-data-cache`.
-- Partial progress may update `data-cache`; public release artifacts are only
-  published after a complete build validates.
+- Concurrency: one release workflow at a time, using `tcgjson-weekly-release`.
+- Public release artifacts are only published after a complete build validates.
 
-During scheduled builds, the workflow checks the uncommitted `data-cache` delta
-on the configured flush cadence. If that delta is at or above
-`maxIntermediatePushMegabytes`, the runner commits and pushes `data-cache` while
-the build keeps running. It also performs a final cache flush after the build
-process exits, even when the build fails, so useful partial progress survives a
-timeout or transient API failure.
-
-The workflow uses `scripts/run-build-with-cache-flush.sh` for this behavior. For
-local testing, set `CACHE_WRITES_ENABLED=true`; cache checkpoint pushes are
-enabled by default when cache writes are enabled. Set `CACHE_PUSH_ENABLED=false`
-to create local checkpoint commits without pushing them.
+The workflow still uses `scripts/run-build-with-cache-flush.sh`, but scheduled
+lean releases leave cache writes disabled. The wrapper remains useful if a future
+resumable tracked cache is reintroduced or for local experiments with
+`CACHE_WRITES_ENABLED=true`.
 
 Evaluate current metrics and cache shape with:
 
@@ -301,7 +291,7 @@ when an intentionally hard gate is useful, such as a local policy check or a
 separate CI job that should fail on drift.
 
 The weekly workflow runs this evaluation after `python -m tcgjson.validate
-release` and before committing cache changes or publishing a release.
+release` and before publishing a release.
 
 ## Release Layout
 

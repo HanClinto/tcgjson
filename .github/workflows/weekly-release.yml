@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: tcgjson-data-cache
+  group: tcgjson-weekly-release
   cancel-in-progress: false
 
 jobs:
@@ -22,18 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
-      - name: Checkout lean build inputs
-        if: github.event.inputs.with_skus != 'true'
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-          sparse-checkout-cone-mode: false
-          sparse-checkout: |
-            /*
-            !/data-cache/
-      - name: Checkout full build inputs
-        if: github.event.inputs.with_skus == 'true'
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 1
       - uses: actions/setup-python@v5
@@ -58,8 +47,6 @@ jobs:
       - name: Build Union Arena
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '81'
           PRODUCT_LINE_SLUG: union-arena
         run: |
@@ -75,8 +62,6 @@ jobs:
       - name: Build Riftbound
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '89'
           PRODUCT_LINE_SLUG: riftbound
         run: |
@@ -92,8 +77,6 @@ jobs:
       - name: "Build Star Wars: Unlimited"
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '79'
           PRODUCT_LINE_SLUG: star-wars-unlimited
         run: |
@@ -109,8 +92,6 @@ jobs:
       - name: Build Disney Lorcana
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '71'
           PRODUCT_LINE_SLUG: lorcana
         run: |
@@ -126,8 +107,6 @@ jobs:
       - name: Build One Piece Card Game
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '68'
           PRODUCT_LINE_SLUG: one-piece
         run: |
@@ -143,8 +122,6 @@ jobs:
       - name: Build Digimon Card Game
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '63'
           PRODUCT_LINE_SLUG: digimon-card-game
         run: |
@@ -160,8 +137,6 @@ jobs:
       - name: Build Pokemon
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '3'
           PRODUCT_LINE_SLUG: pokemon
         run: |
@@ -177,8 +152,6 @@ jobs:
       - name: Build YuGiOh
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '2'
           PRODUCT_LINE_SLUG: yugioh
         run: |
@@ -194,8 +167,6 @@ jobs:
       - name: "Build Magic: The Gathering"
         shell: bash
         env:
-          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
-          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           PRODUCT_LINE: '1'
           PRODUCT_LINE_SLUG: magic-the-gathering
         run: |
@@ -214,25 +185,6 @@ jobs:
         run: python -m tcgjson.validate release
       - name: Evaluate operational constraints
         run: tcgjson ops evaluate --metrics release/metrics.json --data-cache-dir data-cache
-      - name: Commit updated data cache
-        if: github.ref == 'refs/heads/main'
-        run: |
-          cache_add_paths=()
-          if [ -e data-cache/README.md ]; then
-            cache_add_paths+=(data-cache/README.md)
-          fi
-          if [ -e data-cache/product-details ]; then
-            cache_add_paths+=(data-cache/product-details)
-          fi
-          if [ "${#cache_add_paths[@]}" -eq 0 ]; then
-            echo "No git-safe data cache paths to commit."
-            exit 0
-          fi
-          git add "${cache_add_paths[@]}"
-          if ! git diff --cached --quiet; then
-            git commit -m "Update catalog data cache"
-            git push
-          fi
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:

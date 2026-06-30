@@ -22,7 +22,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--data-cache-dir",
         type=Path,
         default=Path("data-cache"),
-        help="Directory for durable catalog cache files. Defaults to data-cache.",
+        help="Directory for local generated cache files such as product details. Defaults to data-cache.",
     )
     build.add_argument("--product-line", action="append", dest="product_lines", help="TCGplayer product-line ID or name")
     build.add_argument("--max-sets", type=int, default=None)
