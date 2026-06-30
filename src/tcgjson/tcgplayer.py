@@ -204,26 +204,31 @@ class TCGplayerClient:
         self,
         *,
         product_line_name: str,
-        set_name: str,
+        set_name: str | None = None,
         offset: int = 0,
         size: int = SEARCH_PAGE_SIZE_LIMIT,
+        algorithm: str = "sales_exp_fields_synonym",
+        range_filters: dict[str, Any] | None = None,
+        sort: dict[str, str] | None = None,
     ) -> dict[str, Any]:
+        term_filters: dict[str, list[str]] = {
+            "productLineName": [product_line_name],
+            "productTypeName": ["Cards"],
+        }
+        if set_name:
+            term_filters["setName"] = [set_name]
         payload = {
-            "algorithm": "sales_exp_fields_synonym",
+            "algorithm": algorithm,
             "from": offset,
             "size": size,
             "filters": {
-                "term": {
-                    "productLineName": [product_line_name],
-                    "setName": [set_name],
-                    "productTypeName": ["Cards"],
-                },
-                "range": {},
+                "term": term_filters,
+                "range": range_filters or {},
                 "match": {},
             },
             "context": {"cart": {}, "shippingCountry": "US", "userProfile": {}},
             "settings": {"useFuzzySearch": False, "didYouMean": {}},
-            "sort": {},
+            "sort": sort or {},
         }
         raw = self._request("POST", f"{SEARCH_API_BASE}/v1/search/request", json=payload)
         results = self._unwrap_results(raw)
@@ -237,8 +242,11 @@ class TCGplayerClient:
         self,
         *,
         product_line_name: str,
-        set_name: str,
+        set_name: str | None = None,
         page_size: int = SEARCH_PAGE_SIZE_LIMIT,
+        algorithm: str = "sales_exp_fields_synonym",
+        range_filters: dict[str, Any] | None = None,
+        sort: dict[str, str] | None = None,
     ):
         offset = 0
         total_results: int | None = None
@@ -248,6 +256,9 @@ class TCGplayerClient:
                 set_name=set_name,
                 offset=offset,
                 size=page_size,
+                algorithm=algorithm,
+                range_filters=range_filters,
+                sort=sort,
             )
             products = list(page.get("results") or [])
             if total_results is None:

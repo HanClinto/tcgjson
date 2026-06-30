@@ -276,7 +276,14 @@ only. Multi-image URLs require product details.
 Recommended durable caches:
 
 - product details by product ID for explicit full-detail/SKU builds;
-- normalized search metadata by product line and set ID for lean builds.
+- normalized search metadata by product ID in SQLite for lean builds.
+
+The SQLite search cache lives at `data-cache/search-products.sqlite` by default.
+It stores one normalized search row per `tcgplayerProductId`, plus product line,
+set, release date, payload hash, first-seen time, last-fetched time, and
+last-changed time. The database also creates a `product_skus` table so later SKU
+mapping work can expand in the same durable cache without inventing a second
+storage format.
 
 Avoid durable raw HTTP search cache. Raw search responses contain facets,
 aggregations, listing-shaped fields, and seller/listing data that are larger and
@@ -284,12 +291,13 @@ broader than the catalog data `tcgjson` needs.
 
 Recommended incremental lean behavior:
 
-1. Use release-cache full catalogs to reuse older sets.
-2. Refresh the newest sets by `SetNames.releaseDate`.
-3. For refreshed or missing sets, fetch priceguide/search and normalized search
-   metadata.
-4. Periodically run a small `release-date desc` search probe per product line to
-  catch newly added products in older sets.
+1. Refresh recent product search rows per product line with
+   `sort: {"field": "release-date", "order": "desc"}`.
+2. Continue paging until search row release dates are outside the configured
+   recent-card window.
+3. Reuse cached normalized search rows for older products and sets.
+4. For missing or refreshed sets, fetch priceguide/search and update the SQLite
+   search cache by product ID.
 5. Store normalized metadata only, not raw search responses.
 
 No reliable `updatedAt` field or sort has been found in search responses yet.

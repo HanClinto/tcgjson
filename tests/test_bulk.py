@@ -11,6 +11,7 @@ from tcgjson.bulk import (
     write_product_line_files,
     write_product_schema_files,
 )
+from tcgjson.search_cache import SearchProductCache
 from tcgjson.tcgplayer import RequestStats
 
 
@@ -95,6 +96,14 @@ class CheckpointOnlyClient(SearchFallbackClient):
         raise AssertionError("set checkpoint should be reused before search fallback")
 
 
+class SearchCacheOnlyClient(PriceguideWithSearchMetadataClient):
+    def iter_search_products(self, *, product_line_name, set_name=None, page_size=50, **kwargs):
+        raise AssertionError("search metadata should be loaded from the SQLite cache")
+
+    def search_products(self, **kwargs):
+        raise AssertionError("recent search cache refresh should be disabled for this test")
+
+
 class DetailsErrorClient(SearchFallbackClient):
     def get_product_details(self, product_id):
         raise requests.HTTPError("400 Client Error")
@@ -160,6 +169,8 @@ def test_build_parser_accepts_with_details_and_legacy_with_skus() -> None:
     assert parser.parse_args(["build"]).data_cache_dir.name == "data-cache"
     assert parser.parse_args(["build", "--data-cache-dir", "cache-data"]).data_cache_dir.name == "cache-data"
     assert parser.parse_args(["build", "--detail-cache-dir", "details"]).detail_cache_dir.name == "details"
+    assert parser.parse_args(["build", "--search-cache-db", "search.sqlite"]).search_cache_db.name == "search.sqlite"
+    assert parser.parse_args(["build", "--no-search-cache"]).no_search_cache is True
 
 
 def test_write_product_schema_files_profiles_full_catalog_fields(tmp_path) -> None:
@@ -244,6 +255,35 @@ def test_fetch_product_line_enriches_priceguide_products_with_search_metadata() 
 
     assert catalog["sets"][0]["source"] == "priceguide"
     assert catalog["sets"][0]["searchMetadataProductCount"] == 1
+    assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
+
+
+def test_fetch_product_line_reuses_sqlite_search_metadata_cache(tmp_path) -> None:
+    with SearchProductCache(tmp_path / "search-products.sqlite") as search_cache:
+        search_cache.upsert_search_rows(
+            [
+                {
+                    "productId": 540213,
+                    "productName": "Overwhelming Barrage",
+                    "setId": 23405,
+                    "setName": "Spark of Rebellion",
+                    "rarityName": "Uncommon",
+                    "customAttributes": {"number": "092/252", "releaseDate": "2024-03-08T00:00:00Z"},
+                }
+            ],
+            product_line_id=79,
+            product_line_name="Star Wars: Unlimited",
+        )
+
+        catalog = fetch_product_line(
+            SearchCacheOnlyClient(),
+            79,
+            search_cache=search_cache,
+            search_cache_refresh_recent_days=0,
+        )
+
+    assert catalog["sets"][0]["searchMetadataCacheHit"] is True
+    assert catalog["meta"]["cache"]["searchMetadataCacheHitCount"] == 1
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
 
 

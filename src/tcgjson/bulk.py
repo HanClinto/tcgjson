@@ -22,6 +22,7 @@ from .normalize import (
     normalize_search_products,
 )
 from .schema import product_schema_markdown, product_schema_profile
+from .search_cache import SearchProductCache
 from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 
@@ -40,6 +41,21 @@ def _utc_timestamp_iso(timestamp: float) -> str:
         .isoformat()
         .replace("+00:00", "Z")
     )
+
+
+def _refresh_recent_after(days: int) -> dt.date | None:
+    if days <= 0:
+        return None
+    return dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=days)
+
+
+def _search_row_release_date(row: dict[str, Any]) -> dt.date | None:
+    custom_attributes = row.get("customAttributes") if isinstance(row.get("customAttributes"), dict) else {}
+    value = custom_attributes.get("releaseDate") or row.get("releaseDate") or ""
+    try:
+        return dt.datetime.fromisoformat(str(value).replace("Z", "+00:00")).date()
+    except ValueError:
+        return None
 
 
 def _stats_delta(before: RequestStats, after: RequestStats) -> dict[str, int]:
@@ -271,12 +287,44 @@ def _fetch_set_products(
     with_skus: bool,
     progress: bool,
     detail_cache_dir: Path | None,
+    search_cache: SearchProductCache | None,
+    search_cache_refresh_recent_days: int,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     priceguide = client.get_priceguide_set_cards(set_row["setNameId"], rows=priceguide_rows)
     rows = list(priceguide.get("result") or [])
     source = "priceguide"
     search_metadata_product_count = 0
     search_metadata_error_count = 0
+    search_metadata_cache_hit = False
+    search_metadata_cache_write_count = 0
+
+    def search_rows_for_set() -> list[dict[str, Any]]:
+        nonlocal search_metadata_cache_hit, search_metadata_cache_write_count
+        refresh_after = _refresh_recent_after(search_cache_refresh_recent_days)
+        if search_cache is not None:
+            cached_rows = search_cache.get_set_rows(
+                product_line_id=product_line_id,
+                set_id=int(set_row["setNameId"]),
+                set_name=set_row.get("name", ""),
+                refresh_recent_after=refresh_after,
+            )
+            if cached_rows is not None:
+                search_metadata_cache_hit = True
+                return cached_rows
+        fetched_rows = list(
+            client.iter_search_products(
+                product_line_name=product_line_name,
+                set_name=set_row.get("name", ""),
+            )
+        )
+        if search_cache is not None:
+            search_metadata_cache_write_count += search_cache.upsert_search_rows(
+                fetched_rows,
+                product_line_id=product_line_id,
+                product_line_name=product_line_name,
+            )
+        return fetched_rows
+
     if rows:
         set_products = group_priceguide_products(
             rows,
@@ -288,10 +336,7 @@ def _fetch_set_products(
         if not with_skus:
             products_by_id = {product["tcgplayerProductId"]: product for product in set_products}
             try:
-                for search_row in client.iter_search_products(
-                    product_line_name=product_line_name,
-                    set_name=set_row.get("name", ""),
-                ):
+                for search_row in search_rows_for_set():
                     product_id = int(search_row.get("productId") or 0)
                     product = products_by_id.get(product_id)
                     if product is None:
@@ -303,12 +348,7 @@ def _fetch_set_products(
             except (requests.RequestException, TCGplayerError):
                 search_metadata_error_count += 1
     else:
-        search_rows = list(
-            client.iter_search_products(
-                product_line_name=product_line_name,
-                set_name=set_row.get("name", ""),
-            )
-        )
+        search_rows = search_rows_for_set()
         set_products = normalize_search_products(
             search_rows,
             product_line_name=product_line_name,
@@ -359,6 +399,8 @@ def _fetch_set_products(
             "detailFetchCount": detail_fetch_count,
             "searchMetadataProductCount": search_metadata_product_count,
             "searchMetadataErrorCount": search_metadata_error_count,
+            "searchMetadataCacheHit": search_metadata_cache_hit,
+            "searchMetadataCacheWriteCount": search_metadata_cache_write_count,
             "source": source,
         },
         set_products,
@@ -377,6 +419,8 @@ def fetch_product_line(
     progress: bool = False,
     checkpoint_dir: Path | None = None,
     detail_cache_dir: Path | None = None,
+    search_cache: SearchProductCache | None = None,
+    search_cache_refresh_recent_days: int = 45,
 ) -> dict[str, Any]:
     started = time.perf_counter()
     product_line = _resolve_product_line(client, product_line_name)
@@ -404,6 +448,16 @@ def fetch_product_line(
     reused_sets = 0
     reused_checkpoint_sets = 0
     fetched_sets = 0
+    recent_search_cache_rows = 0
+    recent_search_cache_changed_rows = 0
+    if search_cache is not None:
+        recent_search_cache_rows, recent_search_cache_changed_rows = _refresh_recent_search_cache(
+            client,
+            search_cache,
+            product_line_name=product_line.get("productLineName", resolved.name),
+            product_line_id=product_line_id,
+            refresh_recent_days=search_cache_refresh_recent_days,
+        )
     set_iterator = _progress(
         set_rows,
         enabled=progress,
@@ -448,6 +502,8 @@ def fetch_product_line(
                     with_skus=with_skus,
                     progress=progress,
                     detail_cache_dir=detail_cache_dir,
+                    search_cache=search_cache,
+                    search_cache_refresh_recent_days=search_cache_refresh_recent_days,
                 )
                 _write_set_checkpoint(
                     checkpoint_dir,
@@ -483,6 +539,14 @@ def fetch_product_line(
                 "reusedSetCheckpointCount": reused_checkpoint_sets,
                 "fetchedSetCount": fetched_sets,
                 "refreshRecentSetCount": refresh_recent_sets,
+                "searchCacheEnabled": search_cache is not None,
+                "searchCacheRefreshRecentDays": search_cache_refresh_recent_days,
+                "recentSearchCacheRows": recent_search_cache_rows,
+                "recentSearchCacheChangedRows": recent_search_cache_changed_rows,
+                "searchMetadataCacheHitCount": sum(1 for item in sets if item.get("searchMetadataCacheHit")),
+                "searchMetadataCacheWriteCount": sum(
+                    int(item.get("searchMetadataCacheWriteCount") or 0) for item in sets
+                ),
             },
             "metrics": {
                 "durationSeconds": round(elapsed_seconds, 3),
@@ -493,6 +557,45 @@ def fetch_product_line(
         "sets": sets,
         "products": products,
     }
+
+
+def _refresh_recent_search_cache(
+    client: TCGplayerClient,
+    search_cache: SearchProductCache,
+    *,
+    product_line_name: str,
+    product_line_id: int,
+    refresh_recent_days: int,
+) -> tuple[int, int]:
+    refresh_after = _refresh_recent_after(refresh_recent_days)
+    if refresh_after is None:
+        return 0, 0
+    offset = 0
+    cached_rows = 0
+    changed_rows = 0
+    while True:
+        page = client.search_products(
+            product_line_name=product_line_name,
+            offset=offset,
+            sort={"field": "release-date", "order": "desc"},
+        )
+        rows = list(page.get("results") or [])
+        if not rows:
+            break
+        changed_rows += search_cache.upsert_search_rows(
+            rows,
+            product_line_id=product_line_id,
+            product_line_name=product_line_name,
+        )
+        cached_rows += len(rows)
+        offset += len(rows)
+        release_dates = [release_date for row in rows if (release_date := _search_row_release_date(row)) is not None]
+        if release_dates and max(release_dates) < refresh_after:
+            break
+        total_results = int(page.get("totalResults") or 0)
+        if offset >= total_results:
+            break
+    return cached_rows, changed_rows
 
 
 def compact_catalog(full_catalog: dict[str, Any]) -> dict[str, Any]:
@@ -613,6 +716,8 @@ def build_release(
     progress: bool = False,
     checkpoint_dir: Path | None = None,
     detail_cache_dir: Path | None = None,
+    search_cache_db: Path | None = None,
+    search_cache_refresh_recent_days: int = 45,
 ) -> dict[str, Any]:
     active_client = client or TCGplayerClient()
     selected_product_lines = product_lines or default_enabled_product_line_ids(active_client)
@@ -627,36 +732,43 @@ def build_release(
         unit="line",
         position=0,
     )
-    for product_line in product_line_iterator:
-        line_started = time.perf_counter()
-        stats_before = active_client.stats()
-        catalog = fetch_product_line(
-            active_client,
-            product_line,
-            max_sets=max_sets,
-            priceguide_rows=priceguide_rows,
-            with_skus=with_skus,
-            cache_dir=cache_dir,
-            refresh_recent_sets=refresh_recent_sets,
-            progress=progress,
-            checkpoint_dir=checkpoint_dir,
-            detail_cache_dir=detail_cache_dir,
-        )
-        duration_seconds = round(time.perf_counter() - line_started, 3)
-        files.extend(write_product_line_files(output_dir, catalog))
-        files.extend(write_product_schema_files(output_dir, catalog))
-        stats_after = active_client.stats()
-        product_line_metrics.append(
-            {
-                "productLine": catalog["meta"]["productLine"],
-                "slug": catalog["meta"]["slug"],
-                "durationSeconds": duration_seconds,
-                "setCount": catalog["meta"]["setCount"],
-                "productCount": catalog["meta"]["productCount"],
-                "cache": catalog["meta"].get("cache", {}),
-                "requests": _stats_delta(stats_before, stats_after),
-            }
-        )
+    search_cache = SearchProductCache(search_cache_db) if search_cache_db is not None else None
+    try:
+        for product_line in product_line_iterator:
+            line_started = time.perf_counter()
+            stats_before = active_client.stats()
+            catalog = fetch_product_line(
+                active_client,
+                product_line,
+                max_sets=max_sets,
+                priceguide_rows=priceguide_rows,
+                with_skus=with_skus,
+                cache_dir=cache_dir,
+                refresh_recent_sets=refresh_recent_sets,
+                progress=progress,
+                checkpoint_dir=checkpoint_dir,
+                detail_cache_dir=detail_cache_dir,
+                search_cache=search_cache,
+                search_cache_refresh_recent_days=search_cache_refresh_recent_days,
+            )
+            duration_seconds = round(time.perf_counter() - line_started, 3)
+            files.extend(write_product_line_files(output_dir, catalog))
+            files.extend(write_product_schema_files(output_dir, catalog))
+            stats_after = active_client.stats()
+            product_line_metrics.append(
+                {
+                    "productLine": catalog["meta"]["productLine"],
+                    "slug": catalog["meta"]["slug"],
+                    "durationSeconds": duration_seconds,
+                    "setCount": catalog["meta"]["setCount"],
+                    "productCount": catalog["meta"]["productCount"],
+                    "cache": catalog["meta"].get("cache", {}),
+                    "requests": _stats_delta(stats_before, stats_after),
+                }
+            )
+    finally:
+        if search_cache is not None:
+            search_cache.close()
     metrics = {
         "object": "tcgjson_build_metrics",
         "startedAt": build_started_at,
@@ -667,6 +779,8 @@ def build_release(
         "cacheDir": str(cache_dir) if cache_dir is not None else "",
         "checkpointDir": str(checkpoint_dir) if checkpoint_dir is not None else "",
         "detailCacheDir": str(detail_cache_dir) if detail_cache_dir is not None else "",
+        "searchCacheDb": str(search_cache_db) if search_cache_db is not None else "",
+        "searchCacheRefreshRecentDays": search_cache_refresh_recent_days,
         "refreshRecentSetCount": refresh_recent_sets,
         "productLineCount": len(selected_product_lines),
         "productLines": product_line_metrics,
