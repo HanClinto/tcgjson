@@ -273,6 +273,37 @@ def test_fetch_product_line_reuses_cached_set_file(tmp_path) -> None:
     assert catalog["products"][0]["name"] == "Cached Card"
 
 
+def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
+    cached = {
+        "object": "tcgjson_set_cache",
+        "version": 1,
+        "generatedAt": "2026-06-01T00:00:00Z",
+        "sourceGeneratedAt": "2026-06-01T00:00:00Z",
+        "productLineId": 3,
+        "slug": "pokemon",
+        "tcgplayerSetId": 10,
+        "set": {"tcgplayerSetId": 10, "name": "Cached Set", "productCount": 1},
+        "products": [
+            {
+                "tcgplayerProductId": 100,
+                "name": "Cached Card",
+                "productLineId": 3,
+                "setId": 10,
+                "imageUrls": [],
+                "priceGuide": [],
+            }
+        ],
+    }
+    (tmp_path / "pokemon.set.10.json").write_text(json.dumps(cached), encoding="utf-8")
+
+    fetch_product_line(CachedSetClient(), 3, cache_dir=tmp_path, log_progress=True)
+
+    output = capsys.readouterr().out
+    assert "pokemon: starting 1 set(s)" in output
+    assert "pokemon: set 1/1 10 'Cached Set' reused 1 product(s)" in output
+    assert "pokemon: finished 1 set(s), 1 product(s)" in output
+
+
 def test_fetch_product_line_falls_back_to_search_when_priceguide_is_empty() -> None:
     catalog = fetch_product_line(SearchFallbackClient(), 79)
 

@@ -37,7 +37,7 @@ def build_parser() -> argparse.ArgumentParser:
     build.add_argument(
         "--no-progress",
         action="store_true",
-        help="Disable progress bars during catalog builds.",
+        help="Disable progress bars and plain progress logs during catalog builds.",
     )
     build.add_argument(
         "--cache-dir",
@@ -143,6 +143,7 @@ def main(argv: list[str] | None = None) -> int:
             refresh_recent_sets=args.refresh_recent_sets,
             client=client,
             progress=not args.no_progress and sys.stderr.isatty(),
+            log_progress=not args.no_progress,
             checkpoint_dir=checkpoint_dir,
             detail_cache_dir=detail_cache_dir,
         )

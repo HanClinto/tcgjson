@@ -72,6 +72,11 @@ def _progress(iterable: Iterable[T], *, enabled: bool, **kwargs: Any) -> Iterabl
     return tqdm(iterable, **kwargs)
 
 
+def _log_progress(enabled: bool, message: str) -> None:
+    if enabled:
+        print(f"[{_utc_now_iso()}] {message}", flush=True)
+
+
 ProductLineRequest = int | str
 
 
@@ -447,6 +452,7 @@ def fetch_product_line(
     cache_dir: Path | None = None,
     refresh_recent_sets: int = 0,
     progress: bool = False,
+    log_progress: bool = False,
     checkpoint_dir: Path | None = None,
     detail_cache_dir: Path | None = None,
 ) -> dict[str, Any]:
@@ -468,6 +474,10 @@ def fetch_product_line(
     reused_sets = 0
     reused_checkpoint_sets = 0
     fetched_sets = 0
+    _log_progress(
+        log_progress,
+        f"{resolved.slug}: starting {len(set_rows)} set(s), refreshRecentSets={refresh_recent_sets}, cacheDir={cache_dir or ''}",
+    )
     set_iterator = _progress(
         set_rows,
         enabled=progress,
@@ -476,8 +486,10 @@ def fetch_product_line(
         leave=False,
         position=1,
     )
-    for set_row in set_iterator:
+    for set_index, set_row in enumerate(set_iterator, start=1):
+        set_started = time.perf_counter()
         set_id = int(set_row["setNameId"])
+        set_name = set_row.get("name", "")
         cached_set = _load_cached_set_file(
             cache_dir,
             slug=resolved.slug,
@@ -502,7 +514,15 @@ def fetch_product_line(
                 cached_source_generated_at = set_source_generated_at
             sets.append(set_summary)
             reused_sets += 1
+            _log_progress(
+                log_progress,
+                f"{resolved.slug}: set {set_index}/{len(set_rows)} {set_id} {set_name!r} reused {len(set_products)} product(s) in {time.perf_counter() - set_started:.1f}s",
+            )
         else:
+            _log_progress(
+                log_progress,
+                f"{resolved.slug}: set {set_index}/{len(set_rows)} {set_id} {set_name!r} fetching",
+            )
             checkpoint = _load_set_checkpoint(
                 checkpoint_dir,
                 slug=resolved.slug,
@@ -514,6 +534,10 @@ def fetch_product_line(
             if checkpoint is not None:
                 set_summary, set_products = checkpoint
                 reused_checkpoint_sets += 1
+                _log_progress(
+                    log_progress,
+                    f"{resolved.slug}: set {set_index}/{len(set_rows)} {set_id} {set_name!r} reused checkpoint with {len(set_products)} product(s) in {time.perf_counter() - set_started:.1f}s",
+                )
             else:
                 set_summary, set_products = _fetch_set_products(
                     client,
@@ -536,12 +560,20 @@ def fetch_product_line(
                     priceguide_rows=priceguide_rows,
                 )
                 fetched_sets += 1
+                _log_progress(
+                    log_progress,
+                    f"{resolved.slug}: set {set_index}/{len(set_rows)} {set_id} {set_name!r} fetched {len(set_products)} product(s) via {set_summary.get('source', 'unknown')} in {time.perf_counter() - set_started:.1f}s",
+                )
             sets.append(set_summary)
         products.extend(set_products)
 
     elapsed_seconds = time.perf_counter() - started
     sets.sort(key=lambda item: (item["name"], item["tcgplayerSetId"]))
     products.sort(key=lambda item: (item["setId"], item.get("collectorNumber", ""), item["name"]))
+    _log_progress(
+        log_progress,
+        f"{resolved.slug}: finished {len(sets)} set(s), {len(products)} product(s), reused={reused_sets}, checkpoints={reused_checkpoint_sets}, fetched={fetched_sets}, duration={elapsed_seconds:.1f}s",
+    )
     return {
         "meta": {
             "object": "tcgjson_catalog",
@@ -777,6 +809,7 @@ def build_release(
     refresh_recent_sets: int = 0,
     client: TCGplayerClient | None = None,
     progress: bool = False,
+    log_progress: bool = False,
     checkpoint_dir: Path | None = None,
     detail_cache_dir: Path | None = None,
 ) -> dict[str, Any]:
@@ -793,9 +826,11 @@ def build_release(
         unit="line",
         position=0,
     )
+    _log_progress(log_progress, f"build: starting {len(selected_product_lines)} product line(s)")
     for product_line in product_line_iterator:
         line_started = time.perf_counter()
         stats_before = active_client.stats()
+        _log_progress(log_progress, f"build: starting product line {product_line}")
         catalog = fetch_product_line(
             active_client,
             product_line,
@@ -805,6 +840,7 @@ def build_release(
             cache_dir=cache_dir,
             refresh_recent_sets=refresh_recent_sets,
             progress=progress,
+            log_progress=log_progress,
             checkpoint_dir=checkpoint_dir,
             detail_cache_dir=detail_cache_dir,
         )
@@ -823,6 +859,10 @@ def build_release(
                 "cache": catalog["meta"].get("cache", {}),
                 "requests": _stats_delta(stats_before, stats_after),
             }
+        )
+        _log_progress(
+            log_progress,
+            f"build: finished {catalog['meta']['slug']} in {duration_seconds:.1f}s, sets={catalog['meta']['setCount']}, products={catalog['meta']['productCount']}, requests={_stats_delta(stats_before, stats_after)['requests']}",
         )
     metrics = {
         "object": "tcgjson_build_metrics",
