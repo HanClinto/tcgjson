@@ -22,7 +22,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout lean build inputs
+        if: github.event.inputs.with_skus != 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/data-cache/
+      - name: Checkout full build inputs
+        if: github.event.inputs.with_skus == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -204,7 +217,18 @@ jobs:
       - name: Commit updated data cache
         if: github.ref == 'refs/heads/main'
         run: |
-          git add data-cache/README.md data-cache/product-details
+          cache_add_paths=()
+          if [ -e data-cache/README.md ]; then
+            cache_add_paths+=(data-cache/README.md)
+          fi
+          if [ -e data-cache/product-details ]; then
+            cache_add_paths+=(data-cache/product-details)
+          fi
+          if [ "${#cache_add_paths[@]}" -eq 0 ]; then
+            echo "No git-safe data cache paths to commit."
+            exit 0
+          fi
+          git add "${cache_add_paths[@]}"
           if ! git diff --cached --quiet; then
             git commit -m "Update catalog data cache"
             git push
