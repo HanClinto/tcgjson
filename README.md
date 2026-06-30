@@ -76,11 +76,14 @@ are promoted when they use shared names. Product-line-specific fields remain in
 Star Wars Unlimited, Riftbound, Union Arena, and Flesh and Blood can keep their
 native catalog fields without forcing a single cross-game schema.
 
-Weekly builds use the previous release's full JSON files as the durable cache.
-Unchanged sets are reused from `<slug>.full.json`; only recent or missing sets
-are refetched from TCGplayer. The project intentionally does not publish an
-internal SQLite search cache today. A JSON-to-SQLite importer may become useful
-later for low-memory runtime querying, but the release contract remains JSON.
+Weekly builds use JSON from the previous release as the durable cache. Full
+catalog files remain the public starting point, and each release also emits
+set-level cache shards named `<slug>.set.<tcgplayerSetId>.json`. The set shards
+let builds reuse or inspect one set at a time without loading a whole game file;
+only recent or missing sets are refetched from TCGplayer. The project
+intentionally does not publish an internal SQLite search cache today. A
+JSON-to-SQLite importer may become useful later for low-memory runtime querying,
+but the release contract remains JSON.
 
 Optional SKU, formatted-attribute, and extra-image enrichment uses:
 
@@ -223,10 +226,10 @@ The data cache is intended to be tracked in git, but only for expensive durable
 inputs that fit normal git hosting limits. Product-detail responses are cached
 under `data-cache/product-details` by product ID, which preserves SKU IDs,
 metadata, and multi-image information across weekly runs. Lean builds primarily
-reuse the previous release's `<slug>.full.json` files, downloaded into
-`release-cache`, so unchanged sets do not need to be fetched again. Internal
-cache files are not republished as release assets. Git then transfers changed
-tracked cache data instead of re-uploading a full cache archive every week.
+reuse previous release JSON files downloaded into `release-cache`; set-level
+cache shards are preferred when present, with `<slug>.full.json` retained as a
+fallback for older releases. Git then transfers changed tracked cache data
+instead of re-uploading a full cache archive every week.
 
 Use `--detail-cache-dir` to place product-detail cache files directly, or
 `--no-detail-cache` to force detail refetches during `--with-details` builds.
