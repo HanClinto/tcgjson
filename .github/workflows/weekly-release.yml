@@ -7,6 +7,10 @@ on:
         description: Include per-product details for SKU IDs, metadata, and multi-image URLs
         required: false
         default: 'false'
+      cache_release_tag:
+        description: Optional release tag to use as the JSON cache source
+        required: false
+        default: ''
   schedule:
     - cron: '17 10 * * 1'
 
@@ -40,9 +44,14 @@ jobs:
       - name: Download previous release as cache
         env:
           GH_TOKEN: ${{ github.token }}
+          CACHE_RELEASE_TAG: ${{ github.event.inputs.cache_release_tag }}
         run: |
           mkdir -p release-cache
-          gh release download --repo "${{ github.repository }}" --pattern '*.json' --dir release-cache || true
+          if [ -n "$CACHE_RELEASE_TAG" ]; then
+            gh release download "$CACHE_RELEASE_TAG" --repo "${{ github.repository }}" --pattern '*.full.json' --dir release-cache || true
+          else
+            gh release download --repo "${{ github.repository }}" --pattern '*.full.json' --dir release-cache || true
+          fi
 
       - name: Build Union Arena
         shell: bash
