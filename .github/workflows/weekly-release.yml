@@ -41,6 +41,24 @@ jobs:
         run: |
           mkdir -p release-cache
           gh release download --repo "${{ github.repository }}" --pattern '*.json' --dir release-cache || true
+          mkdir -p .tcgjson-cache/release-search-cache
+          gh release download --repo "${{ github.repository }}" --pattern 'search-cache-v1-*.sqlite.gz' --dir .tcgjson-cache/release-search-cache || true
+      - name: Restore search cache from previous release
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          mkdir -p data-cache/search-products
+          restored=0
+          for cache_asset in .tcgjson-cache/release-search-cache/search-cache-v1-*.sqlite.gz; do
+            asset_name="${cache_asset##*/}"
+            slug="${asset_name#search-cache-v1-}"
+            slug="${slug%.sqlite.gz}"
+            gzip -dc "$cache_asset" > "data-cache/search-products/${slug}.sqlite"
+            restored=$((restored + 1))
+            echo "Restored search cache for ${slug}"
+          done
+          echo "Restored ${restored} search cache shard(s)."
       - name: "Build Magic: The Gathering"
         shell: bash
         env:
@@ -208,6 +226,20 @@ jobs:
             git commit -m "Update catalog data cache"
             git push
           fi
+      - name: Package search cache assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          packaged=0
+          for search_cache in data-cache/search-products/*.sqlite; do
+            slug="${search_cache##*/}"
+            slug="${slug%.sqlite}"
+            gzip -c -9 "$search_cache" > "release/search-cache-v1-${slug}.sqlite.gz"
+            packaged=$((packaged + 1))
+            echo "Packaged search cache for ${slug}"
+          done
+          echo "Packaged ${packaged} search cache shard(s)."
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
