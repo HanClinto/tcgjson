@@ -11,9 +11,7 @@ from tcgjson.bulk import (
     write_bulk_manifest,
     write_product_line_files,
     write_product_schema_files,
-    write_set_cache_files,
 )
-from tcgjson.validate import validate_release
 from tcgjson.tcgplayer import RequestStats
 
 
@@ -148,52 +146,15 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
         ],
     }
     files = write_product_line_files(tmp_path, catalog)
-    files.extend(write_set_cache_files(tmp_path, catalog))
     manifest = write_bulk_manifest(tmp_path, files)
 
     assert [item["type"] for item in manifest["data"]] == [
         "pokemon_catalog",
         "pokemon_catalog_full",
-        "pokemon_set_1_cache",
     ]
     assert json.loads((tmp_path / "bulk-data.json").read_text())["object"] == "list"
     for item in manifest["data"]:
         assert (tmp_path / item["download_uri"]).stat().st_size == item["size"]
-
-
-def test_validate_release_accepts_set_cache_artifacts(tmp_path) -> None:
-    catalog = {
-        "meta": {
-            "object": "tcgjson_catalog",
-            "version": 1,
-            "source": "tcgplayer",
-            "sourceMode": "priceguide",
-            "generatedAt": "2026-06-29T00:00:00Z",
-            "productLine": "Pokemon",
-            "slug": "pokemon",
-            "setCount": 1,
-            "productCount": 1,
-        },
-        "sets": [{"tcgplayerSetId": 1, "name": "Set", "productCount": 1}],
-        "products": [
-            {
-                "tcgplayerProductId": 10,
-                "name": "Card",
-                "productLineId": 3,
-                "setId": 1,
-                "collectorNumber": "1",
-                "rarity": "Common",
-                "foilings": [],
-                "imageUrls": [],
-                "priceGuide": [],
-            }
-        ],
-    }
-    files = write_product_line_files(tmp_path, catalog)
-    files.extend(write_set_cache_files(tmp_path, catalog))
-    write_bulk_manifest(tmp_path, files)
-
-    validate_release(tmp_path)
 
 
 def test_build_parser_accepts_with_details_and_legacy_with_skus() -> None:
@@ -270,55 +231,15 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
     assert "imageUrl" not in catalog["products"][0]
 
 
-def test_fetch_product_line_reuses_cached_set_file(tmp_path) -> None:
-    cached = {
-        "object": "tcgjson_set_cache",
-        "version": 1,
-        "generatedAt": "2026-06-01T00:00:00Z",
-        "sourceGeneratedAt": "2026-06-01T00:00:00Z",
-        "productLineId": 3,
-        "slug": "pokemon",
-        "tcgplayerSetId": 10,
-        "set": {
-            "tcgplayerSetId": 10,
-            "name": "Cached Set",
-            "urlName": "cached-set",
-            "productCount": 1,
-            "priceGuideRowCount": 1,
-        },
-        "products": [
-            {
-                "tcgplayerProductId": 100,
-                "name": "Cached Card",
-                "productLineId": 3,
-                "setId": 10,
-                "collectorNumber": "001",
-                "rarity": "Common",
-                "foilings": ["Normal"],
-                "imageUrls": ["https://tcgplayer-cdn.tcgplayer.com/product/100_in_1000x1000.jpg"],
-                "priceGuide": [],
-            }
-        ],
-    }
-    (tmp_path / "pokemon.set.10.json").write_text(json.dumps(cached), encoding="utf-8")
-
-    catalog = fetch_product_line(CachedSetClient(), 3, cache_dir=tmp_path)
-
-    assert catalog["meta"]["cache"]["reusedSetCount"] == 1
-    assert catalog["meta"]["cache"]["sourceGeneratedAt"] == "2026-06-01T00:00:00Z"
-    assert catalog["products"][0]["name"] == "Cached Card"
-
-
 def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
     cached = {
-        "object": "tcgjson_set_cache",
-        "version": 1,
-        "generatedAt": "2026-06-01T00:00:00Z",
-        "sourceGeneratedAt": "2026-06-01T00:00:00Z",
-        "productLineId": 3,
-        "slug": "pokemon",
-        "tcgplayerSetId": 10,
-        "set": {"tcgplayerSetId": 10, "name": "Cached Set", "productCount": 1},
+        "meta": {
+            "object": "tcgjson_catalog",
+            "generatedAt": "2026-06-01T00:00:00Z",
+            "productLine": "Pokemon",
+            "slug": "pokemon",
+        },
+        "sets": [{"tcgplayerSetId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [
             {
                 "tcgplayerProductId": 100,
@@ -330,7 +251,7 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
             }
         ],
     }
-    (tmp_path / "pokemon.set.10.json").write_text(json.dumps(cached), encoding="utf-8")
+    (tmp_path / "pokemon.full.json").write_text(json.dumps(cached), encoding="utf-8")
 
     fetch_product_line(CachedSetClient(), 3, cache_dir=tmp_path, log_progress=True)
 
@@ -500,7 +421,6 @@ def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> Non
         "pokemon_catalog_full",
         "pokemon_schema",
         "pokemon_schema_markdown",
-        "pokemon_set_10_cache",
         "build_metrics",
     } == {
         item["type"] for item in manifest["data"]

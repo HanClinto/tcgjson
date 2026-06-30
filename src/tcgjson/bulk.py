@@ -27,7 +27,6 @@ from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 T = TypeVar("T")
 SET_CHECKPOINT_VERSION = 2
-SET_CACHE_VERSION = 1
 
 
 def _utc_now_iso() -> str:
@@ -118,45 +117,6 @@ def _load_cached_catalog(cache_dir: Path | None, slug: str) -> dict[str, Any] | 
     if not path.exists():
         return None
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def _set_cache_path(cache_dir: Path, slug: str, set_id: int) -> Path:
-    return cache_dir / f"{slug}.set.{set_id}.json"
-
-
-def _has_set_cache(cache_dir: Path | None, slug: str) -> bool:
-    return cache_dir is not None and next(cache_dir.glob(f"{slug}.set.*.json"), None) is not None
-
-
-def _load_cached_set_file(
-    cache_dir: Path | None,
-    *,
-    slug: str,
-    product_line_id: int,
-    set_id: int,
-    with_skus: bool,
-) -> tuple[dict[str, Any], list[dict[str, Any]], str] | None:
-    if cache_dir is None:
-        return None
-    path = _set_cache_path(cache_dir, slug, set_id)
-    if not path.exists():
-        return None
-    payload = json.loads(path.read_text(encoding="utf-8"))
-    if (
-        payload.get("object") != "tcgjson_set_cache"
-        or int(payload.get("version") or 0) != SET_CACHE_VERSION
-        or int(payload.get("productLineId") or 0) != product_line_id
-        or int(payload.get("tcgplayerSetId") or 0) != set_id
-    ):
-        return None
-    set_summary = payload.get("set")
-    products = payload.get("products")
-    if not isinstance(set_summary, dict) or not isinstance(products, list):
-        return None
-    migrated_products = [_migrate_cached_product(product, product_line_id) for product in products]
-    if with_skus and not _cached_products_have_skus(migrated_products):
-        return None
-    return set_summary, migrated_products, str(payload.get("sourceGeneratedAt") or payload.get("generatedAt") or "")
 
 
 def _load_cached_set_from_catalog(
@@ -466,7 +426,7 @@ def fetch_product_line(
         set_rows = set_rows[:max_sets]
 
     exported_at = _utc_now_iso()
-    cached_catalog = None if _has_set_cache(cache_dir, resolved.slug) else _load_cached_catalog(cache_dir, resolved.slug)
+    cached_catalog = _load_cached_catalog(cache_dir, resolved.slug)
     cached_source_generated_at = str((cached_catalog or {}).get("meta", {}).get("generatedAt") or "")
     refresh_ids = _recent_set_ids(set_rows, refresh_recent_sets)
     sets = []
@@ -490,20 +450,12 @@ def fetch_product_line(
         set_started = time.perf_counter()
         set_id = int(set_row["setNameId"])
         set_name = set_row.get("name", "")
-        cached_set = _load_cached_set_file(
-            cache_dir,
-            slug=resolved.slug,
+        cached_set = _load_cached_set_from_catalog(
+            cached_catalog,
             product_line_id=product_line_id,
             set_id=set_id,
             with_skus=with_skus,
         )
-        if cached_set is None:
-            cached_set = _load_cached_set_from_catalog(
-                cached_catalog,
-                product_line_id=product_line_id,
-                set_id=set_id,
-                with_skus=with_skus,
-            )
         can_reuse = (
             cached_set is not None
             and set_id not in refresh_ids
@@ -697,48 +649,6 @@ def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[
     ]
 
 
-def write_set_cache_files(output_dir: Path, catalog: dict[str, Any]) -> list[dict[str, Any]]:
-    output_dir.mkdir(parents=True, exist_ok=True)
-    slug = catalog["meta"]["slug"]
-    product_line = catalog["meta"]["productLine"]
-    product_line_id = int(
-        catalog.get("meta", {}).get("productLineId")
-        or next((product.get("productLineId") for product in catalog.get("products", []) if product.get("productLineId")), 0)
-    )
-    products_by_set: dict[int, list[dict[str, Any]]] = {}
-    for product in catalog.get("products", []):
-        products_by_set.setdefault(int(product.get("setId") or 0), []).append(product)
-
-    files = []
-    for set_summary in catalog.get("sets", []):
-        set_id = int(set_summary["tcgplayerSetId"])
-        path = _set_cache_path(output_dir, slug, set_id)
-        atomic_write_json(
-            path,
-            {
-                "object": "tcgjson_set_cache",
-                "version": SET_CACHE_VERSION,
-                "generatedAt": _utc_now_iso(),
-                "sourceGeneratedAt": catalog.get("meta", {}).get("generatedAt", ""),
-                "productLineId": product_line_id,
-                "slug": slug,
-                "tcgplayerSetId": set_id,
-                "set": set_summary,
-                "products": products_by_set.get(set_id, []),
-            },
-        )
-        files.append(
-            _file_manifest(
-                path,
-                output_dir=output_dir,
-                file_type=f"{slug}_set_{set_id}_cache",
-                name=f"{product_line} Set Cache {set_id}",
-                description=f"Set-level cache JSON for TCGplayer set {set_id} in {product_line}.",
-            )
-        )
-    return files
-
-
 def write_bulk_manifest(output_dir: Path, files: list[dict[str, Any]]) -> dict[str, Any]:
     generated_at = _utc_now_iso()
     manifest = {
@@ -765,7 +675,6 @@ def assemble_release(output_dir: Path, *, metrics_dir: Path | None = None) -> di
     for full_catalog_path in sorted(output_dir.glob("*.full.json")):
         catalog = json.loads(full_catalog_path.read_text(encoding="utf-8"))
         files.extend(write_product_line_files(output_dir, catalog))
-        files.extend(write_set_cache_files(output_dir, catalog))
         files.extend(write_product_schema_files(output_dir, catalog))
 
     for fragment in metric_fragments:
@@ -846,7 +755,6 @@ def build_release(
         )
         duration_seconds = round(time.perf_counter() - line_started, 3)
         files.extend(write_product_line_files(output_dir, catalog))
-        files.extend(write_set_cache_files(output_dir, catalog))
         files.extend(write_product_schema_files(output_dir, catalog))
         stats_after = active_client.stats()
         product_line_metrics.append(

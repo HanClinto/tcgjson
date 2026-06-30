@@ -77,13 +77,11 @@ Star Wars Unlimited, Riftbound, Union Arena, and Flesh and Blood can keep their
 native catalog fields without forcing a single cross-game schema.
 
 Weekly builds use JSON from the previous release as the durable cache. Full
-catalog files remain the public starting point, and each release also emits
-set-level cache shards named `<slug>.set.<tcgplayerSetId>.json`. The set shards
-let builds reuse or inspect one set at a time without loading a whole game file;
-only recent or missing sets are refetched from TCGplayer. The project
-intentionally does not publish an internal SQLite search cache today. A
-JSON-to-SQLite importer may become useful later for low-memory runtime querying,
-but the release contract remains JSON.
+catalog files are both the public starting point and the build cache source; the
+runner loads one product line at a time and reuses unchanged sets from that
+catalog. The project intentionally does not publish per-set cache shards or an
+internal SQLite search cache today. A JSON-to-SQLite importer may become useful
+later for low-memory runtime querying, but the release contract remains JSON.
 
 Optional SKU, formatted-attribute, and extra-image enrichment uses:
 

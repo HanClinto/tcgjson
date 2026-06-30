@@ -36,9 +36,6 @@ def validate_release(output_dir: Path) -> None:
         elif payload.get("object") == "tcgjson_product_schema_profile":
             if "fields" not in payload or "productCount" not in payload:
                 raise ValueError(f"{path} is missing required schema profile keys")
-        elif payload.get("object") == "tcgjson_set_cache":
-            if "version" not in payload or "set" not in payload or "products" not in payload:
-                raise ValueError(f"{path} is missing required set cache keys")
         elif "meta" not in payload or "products" not in payload or "sets" not in payload:
             raise ValueError(f"{path} is missing required catalog keys")
         if path.stat().st_size != item["size"]:

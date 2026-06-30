@@ -275,18 +275,16 @@ only. Multi-image URLs require product details.
 
 Recommended durable caches:
 
-- previous set-level and full catalog JSON artifacts downloaded from GitHub Releases;
+- previous full catalog JSON artifacts downloaded from GitHub Releases;
 - optional local product details by product ID for explicit full-detail/SKU builds.
 
-Each release emits set-level cache shards named
-`<slug>.set.<tcgplayerSetId>.json`, alongside the public compact and full catalog
-files. Unchanged sets can be reused directly from those shards, while recent or
-missing sets are rebuilt from priceguide/search endpoints. Full catalog JSON is
-retained as a fallback cache for older releases and as the public bulk download
-format. This keeps the weekly runner path simple and avoids publishing internal
-SQLite cache files. A future importer could load release JSON into SQLite for
-low-memory per-ID querying, but that should be a consumer/runtime optimization
-rather than a required build cache.
+Each release emits compact and full catalog JSON files. Scheduled builds use the
+previous full catalog JSON for a product line as the durable cache, loading one
+game at a time and reusing unchanged sets from that catalog. This keeps the
+weekly runner path simple, avoids thousands of release assets, and avoids
+publishing internal SQLite cache files. A future importer could load release JSON
+into SQLite for low-memory per-ID querying, but that should be a consumer/runtime
+optimization rather than a required build cache.
 
 `data-cache/` is ignored by git. It may be useful for local `--with-details`
 experiments, but scheduled lean releases should not depend on checking out or
@@ -299,8 +297,7 @@ broader than the catalog data `tcgjson` needs.
 Recommended incremental lean behavior:
 
 1. Download the previous release's JSON files into `release-cache`.
-2. Reuse unchanged sets from `<slug>.set.<tcgplayerSetId>.json` when present,
-  falling back to `<slug>.full.json` for older releases.
+2. Reuse unchanged sets from each product line's `<slug>.full.json` cache file.
 3. For missing or refreshed sets, fetch priceguide rows and use search rows for
   metadata or search-only fallback sets.
 4. Store normalized metadata in the generated full JSON files, not raw search
