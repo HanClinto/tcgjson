@@ -6,7 +6,7 @@ import datetime as dt
 import sys
 from pathlib import Path
 
-from .bulk import build_release
+from .bulk import assemble_release, build_release
 from .games import discover_game_support, write_game_support_report
 from .operations import DEFAULT_CONSTRAINTS_PATH, data_cache_delta_megabytes, evaluate_operations, evaluation_text
 from .tcgplayer import TCGplayerClient
@@ -114,6 +114,15 @@ def build_parser() -> argparse.ArgumentParser:
         help="Disable the short-lived HTTP response cache.",
     )
 
+    assemble = subparsers.add_parser("assemble-release", help="Assemble manifest and metrics from per-line release outputs")
+    assemble.add_argument("--output", type=Path, default=Path("release"))
+    assemble.add_argument(
+        "--metrics-dir",
+        type=Path,
+        default=None,
+        help="Directory containing per-product-line metrics JSON files. Defaults to <output>/.metrics.",
+    )
+
     games = subparsers.add_parser("games", help="Report TCGplayer product-line support")
     games.add_argument("--output", type=Path, default=Path("games.md"))
     games.add_argument("--json-output", type=Path, default=Path("games.json"))
@@ -166,6 +175,10 @@ def main(argv: list[str] | None = None) -> int:
             search_cache_refresh_recent_days=args.search_cache_refresh_recent_days,
         )
         print(f"Wrote {len(manifest['data'])} bulk files to {args.output}")
+        return 0
+    if args.command == "assemble-release":
+        manifest = assemble_release(args.output, metrics_dir=args.metrics_dir)
+        print(f"Assembled {len(manifest['data'])} bulk files in {args.output}")
         return 0
     if args.command == "games":
         client = TCGplayerClient()

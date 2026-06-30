@@ -41,19 +41,161 @@ jobs:
         run: |
           mkdir -p release-cache
           gh release download --repo "${{ github.repository }}" --pattern '*.json' --dir release-cache || true
-      - name: Build bulk JSON
+      - name: Build Magic: The Gathering
         shell: bash
         env:
           CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
           CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '1'
+          PRODUCT_LINE_SLUG: magic-the-gathering
         run: |
           set -euo pipefail
-
+          mkdir -p release/.metrics
+          detail_flag=()
           if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
-            scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --with-details
-          else
-            scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3
+            detail_flag=(--with-details)
           fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build YuGiOh
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '2'
+          PRODUCT_LINE_SLUG: yugioh
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build Pokemon
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '3'
+          PRODUCT_LINE_SLUG: pokemon
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build Digimon Card Game
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '63'
+          PRODUCT_LINE_SLUG: digimon-card-game
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build One Piece Card Game
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '68'
+          PRODUCT_LINE_SLUG: one-piece
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build Disney Lorcana
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '71'
+          PRODUCT_LINE_SLUG: lorcana
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build Star Wars: Unlimited
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '79'
+          PRODUCT_LINE_SLUG: star-wars-unlimited
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build Riftbound
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '89'
+          PRODUCT_LINE_SLUG: riftbound
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Build Union Arena
+        shell: bash
+        env:
+          CACHE_WRITES_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          CACHE_PUSH_ENABLED: ${{ github.ref == 'refs/heads/main' }}
+          PRODUCT_LINE: '81'
+          PRODUCT_LINE_SLUG: union-arena
+        run: |
+          set -euo pipefail
+          mkdir -p release/.metrics
+          detail_flag=()
+          if [ "${{ github.event.inputs.with_skus }}" = "true" ]; then
+            detail_flag=(--with-details)
+          fi
+          scripts/run-build-with-cache-flush.sh -- tcgjson build --output release --data-cache-dir data-cache --cache-dir release-cache --refresh-recent-sets 3 --product-line "$PRODUCT_LINE" "${detail_flag[@]}"
+          cp release/metrics.json "release/.metrics/${PRODUCT_LINE_SLUG}.json"
+
+      - name: Assemble bulk release
+        run: tcgjson assemble-release --output release
       - name: Validate release files
         run: python -m tcgjson.validate release
       - name: Evaluate operational constraints

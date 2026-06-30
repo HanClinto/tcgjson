@@ -39,7 +39,19 @@ commit_data_cache_if_needed() {
     return 0
   fi
 
-  git add "$data_cache_dir"
+  cache_add_paths=()
+  if [ -e "$data_cache_dir/README.md" ]; then
+    cache_add_paths+=("$data_cache_dir/README.md")
+  fi
+  if [ -e "$data_cache_dir/product-details" ]; then
+    cache_add_paths+=("$data_cache_dir/product-details")
+  fi
+  if [ "${#cache_add_paths[@]}" -eq 0 ]; then
+    echo "No git-safe data cache paths to flush."
+    return 0
+  fi
+
+  git add "${cache_add_paths[@]}"
   if git diff --cached --quiet; then
     echo "No data cache changes to flush."
     return 0

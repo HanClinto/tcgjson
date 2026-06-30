@@ -6,6 +6,7 @@ from tcgjson.cli import build_parser
 
 from tcgjson.bulk import (
     _refresh_recent_search_cache,
+    assemble_release,
     build_release,
     fetch_product_line,
     write_bulk_manifest,
@@ -424,3 +425,73 @@ def test_build_release_writes_metrics_file(tmp_path) -> None:
     assert "build_metrics" in {item["type"] for item in manifest["data"]}
     assert metrics["mode"] == "incremental"
     assert metrics["productLines"][0]["cache"]["reusedSetCount"] == 1
+
+
+def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> None:
+    output_dir = tmp_path / "release"
+    metrics_dir = output_dir / ".metrics"
+    metrics_dir.mkdir(parents=True)
+    catalog = {
+        "meta": {
+            "object": "tcgjson_catalog",
+            "generatedAt": "2026-06-01T00:00:00Z",
+            "productLine": "Pokemon",
+            "slug": "pokemon",
+            "setCount": 1,
+            "productCount": 1,
+        },
+        "sets": [{"tcgplayerSetId": 10, "name": "Set", "productCount": 1}],
+        "products": [
+            {
+                "tcgplayerProductId": 100,
+                "name": "Card",
+                "set": {"id": 10, "name": "Set"},
+                "imageUrls": [],
+                "priceGuide": [],
+            }
+        ],
+    }
+    write_product_line_files(output_dir, catalog)
+    (metrics_dir / "pokemon.json").write_text(
+        json.dumps(
+            {
+                "object": "tcgjson_build_metrics",
+                "startedAt": "2026-06-01T00:00:00Z",
+                "finishedAt": "2026-06-01T00:00:05Z",
+                "durationSeconds": 5,
+                "mode": "incremental",
+                "withSkus": False,
+                "cacheDir": "release-cache",
+                "checkpointDir": "",
+                "detailCacheDir": "",
+                "searchCacheDir": "data-cache/search-products",
+                "searchCacheDb": "",
+                "searchCacheRefreshRecentDays": 45,
+                "refreshRecentSetCount": 3,
+                "productLineCount": 1,
+                "productLines": [
+                    {
+                        "productLine": "Pokemon",
+                        "slug": "pokemon",
+                        "durationSeconds": 5,
+                        "setCount": 1,
+                        "productCount": 1,
+                        "cache": {"reusedSetCount": 1},
+                        "requests": {"requests": 2, "retries": 0, "errors": 0, "cacheHits": 0},
+                    }
+                ],
+                "requests": {"requests": 2, "retries": 0, "errors": 0, "cacheHits": 0},
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    manifest = assemble_release(output_dir)
+    metrics = json.loads((output_dir / "metrics.json").read_text(encoding="utf-8"))
+
+    assert "bulk-data.json" not in [item["download_uri"] for item in manifest["data"]]
+    assert {"pokemon_catalog", "pokemon_catalog_full", "pokemon_schema", "pokemon_schema_markdown", "build_metrics"} == {
+        item["type"] for item in manifest["data"]
+    }
+    assert metrics["productLineCount"] == 1
+    assert metrics["requests"]["requests"] == 2

@@ -727,6 +727,54 @@ def write_bulk_manifest(output_dir: Path, files: list[dict[str, Any]]) -> dict[s
     return manifest
 
 
+def assemble_release(output_dir: Path, *, metrics_dir: Path | None = None) -> dict[str, Any]:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    files: list[dict[str, Any]] = []
+    product_line_metrics = []
+    metric_fragments = []
+    metrics_source_dir = metrics_dir or output_dir / ".metrics"
+    if metrics_source_dir.exists():
+        for path in sorted(metrics_source_dir.glob("*.json")):
+            metric_fragments.append(json.loads(path.read_text(encoding="utf-8")))
+
+    for full_catalog_path in sorted(output_dir.glob("*.full.json")):
+        catalog = json.loads(full_catalog_path.read_text(encoding="utf-8"))
+        files.extend(write_product_line_files(output_dir, catalog))
+        files.extend(write_product_schema_files(output_dir, catalog))
+
+    for fragment in metric_fragments:
+        product_line_metrics.extend(fragment.get("productLines", []))
+
+    started_at_values = [fragment.get("startedAt") for fragment in metric_fragments if fragment.get("startedAt")]
+    finished_at_values = [fragment.get("finishedAt") for fragment in metric_fragments if fragment.get("finishedAt")]
+    request_totals = {"requests": 0, "retries": 0, "errors": 0, "cacheHits": 0}
+    for product_line in product_line_metrics:
+        for key, value in product_line.get("requests", {}).items():
+            request_totals[key] = request_totals.get(key, 0) + int(value or 0)
+
+    first_fragment = metric_fragments[0] if metric_fragments else {}
+    metrics = {
+        "object": "tcgjson_build_metrics",
+        "startedAt": min(started_at_values) if started_at_values else _utc_now_iso(),
+        "finishedAt": max(finished_at_values) if finished_at_values else _utc_now_iso(),
+        "durationSeconds": round(sum(float(fragment.get("durationSeconds") or 0) for fragment in metric_fragments), 3),
+        "mode": first_fragment.get("mode", "assembled"),
+        "withSkus": bool(first_fragment.get("withSkus", False)),
+        "cacheDir": first_fragment.get("cacheDir", ""),
+        "checkpointDir": first_fragment.get("checkpointDir", ""),
+        "detailCacheDir": first_fragment.get("detailCacheDir", ""),
+        "searchCacheDir": first_fragment.get("searchCacheDir", ""),
+        "searchCacheDb": first_fragment.get("searchCacheDb", ""),
+        "searchCacheRefreshRecentDays": int(first_fragment.get("searchCacheRefreshRecentDays") or 0),
+        "refreshRecentSetCount": int(first_fragment.get("refreshRecentSetCount") or 0),
+        "productLineCount": len(product_line_metrics),
+        "productLines": product_line_metrics,
+        "requests": request_totals,
+    }
+    files.append(write_metrics_file(output_dir, metrics))
+    return write_bulk_manifest(output_dir, files)
+
+
 def build_release(
     output_dir: Path,
     product_lines: list[ProductLineRequest] | None = None,
