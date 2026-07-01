@@ -70,7 +70,7 @@ def test_game_support_report_uses_checkbox_rows() -> None:
     assert rows["Digimon Card Game"]["popular"] is False
     assert rows["Digimon Card Game"]["manualInclude"] is True
     assert rows["Popular Game"]["resources"]["tcgplayer"]["searchUrl"] == "https://www.tcgplayer.com/search/popular/product?productLineName=popular&page=1"
-    assert rows["Popular Game"]["resources"]["tcgplayer"]["latestSets"][0]["iconUrl"] == "https://tcgplayer-cdn.tcgplayer.com/set_icon/123SampleSet.png"
+    assert rows["Popular Game"]["resources"]["tcgplayer"]["latestSets"] == [123]
     assert rows["Other Game"]["enabled"] is False
     assert "| [x] | Riftbound: League of Legends Trading Card Game |" in markdown
     assert "| [ ] | Other Game |" in markdown

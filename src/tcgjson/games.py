@@ -18,7 +18,6 @@ from .tcgplayer import TCGplayerClient, TCGplayerError
 
 
 TCGPLAYER_WEB_BASE = "https://www.tcgplayer.com"
-TCGPLAYER_CDN_BASE = "https://tcgplayer-cdn.tcgplayer.com"
 
 
 def _line_names(lines: tuple[Any, ...]) -> set[str]:
@@ -105,15 +104,7 @@ def _resource_links(product_line: dict[str, Any], popular_row: dict[str, Any] | 
     return resources
 
 
-def _set_icon_url(set_row: dict[str, Any]) -> str:
-    clean_name = str(set_row.get("cleanSetName") or set_row.get("setName") or "")
-    if not clean_name or not set_row.get("setNameId"):
-        return ""
-    compact_name = "".join(clean_name.split())
-    return f"{TCGPLAYER_CDN_BASE}/set_icon/{set_row.get('setNameId')}{compact_name}.png"
-
-
-def _latest_set_resources(client: TCGplayerClient, product_line_id: int, product_line_url_name: str) -> list[dict[str, Any]]:
+def _latest_set_ids(client: TCGplayerClient, product_line_id: int) -> list[int]:
     try:
         payload = client.get_latest_sets(product_line_id)
     except (requests.RequestException, TCGplayerError):
@@ -124,24 +115,13 @@ def _latest_set_resources(client: TCGplayerClient, product_line_id: int, product
             continue
         latest_sets = list(group.get("latestSets") or [])
         break
-    resources = []
+    set_ids = []
     for set_row in latest_sets[:10]:
-        icon_url = _set_icon_url(set_row)
-        if not icon_url:
+        set_id = int(set_row.get("setNameId") or 0)
+        if not set_id:
             continue
-        clean_name = str(set_row.get("cleanSetName") or set_row.get("setName") or "")
-        resources.append(
-            {
-                "name": set_row.get("setName", clean_name),
-                "tcgplayerSetId": int(set_row.get("setNameId") or 0),
-                "releaseDate": set_row.get("releaseDate", ""),
-                "isFeaturedSet": bool(set_row.get("isFeaturedSet")),
-                "isPreOrder": bool(set_row.get("isPreOrder")),
-                "iconUrl": icon_url,
-                "searchUrl": _absolute_tcgplayer_url(f"/search/{product_line_url_name}/{slugify(clean_name)}"),
-            }
-        )
-    return resources
+        set_ids.append(set_id)
+    return set_ids
 
 
 def default_enabled_product_line_ids(client: TCGplayerClient) -> list[int]:
@@ -188,11 +168,7 @@ def discover_game_support(client: TCGplayerClient) -> dict[str, Any]:
         popular_row = popular_by_name.get(normalize_key(name))
         resources = _resource_links(product_line, popular_row)
         if is_enabled:
-            resources["tcgplayer"]["latestSets"] = _latest_set_resources(
-                client,
-                product_line_id,
-                product_line.get("productLineUrlName", ""),
-            )
+            resources["tcgplayer"]["latestSets"] = _latest_set_ids(client, product_line_id)
         rows.append(
             {
                 "name": name,
