@@ -259,8 +259,8 @@ details pre {
   position: fixed;
   z-index: 20;
   display: grid;
-  grid-template-columns: minmax(6.5rem, 8.5rem) minmax(12rem, 18rem);
-  max-width: min(28rem, calc(100vw - 1.5rem));
+  grid-template-columns: minmax(8rem, 12rem) minmax(18rem, 28rem);
+  max-width: min(42rem, calc(100vw - 1.5rem));
   max-height: calc(100vh - 1.5rem);
   overflow: hidden;
   border: 1px solid rgba(48, 39, 28, 0.18);
@@ -275,6 +275,13 @@ details pre {
   display: none;
 }
 
+.tcg-card-popover::before {
+  content: "";
+  position: absolute;
+  inset: -0.75rem;
+  z-index: -1;
+}
+
 .tcg-card-popover img {
   display: block;
   width: 100%;
@@ -287,13 +294,13 @@ details pre {
 .tcg-card-popover-body {
   max-height: calc(100vh - 1.5rem);
   overflow: auto;
-  padding: 0.72rem 0.82rem;
+  padding: 0.82rem 0.95rem;
 }
 
 .tcg-card-popover-title {
   margin: 0;
   color: #17130f;
-  font-size: 0.92rem;
+  font-size: 1rem;
   font-weight: 800;
   line-height: 1.22;
 }
@@ -301,15 +308,15 @@ details pre {
 .tcg-card-popover-subtitle {
   margin: 0.18rem 0 0.7rem;
   color: #676056;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
 }
 
 .tcg-card-popover dl {
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr);
-  gap: 0.24rem 0.58rem;
+  gap: 0.24rem 0.7rem;
   margin: 0;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
 }
 
 .tcg-card-popover dt {
@@ -342,7 +349,7 @@ details pre {
   padding-top: 0.45rem;
   border-top: 1px solid #e0d7c8;
   color: #2f2a23;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   line-height: 1.35;
   white-space: pre-line;
 }
@@ -537,7 +544,8 @@ blockquote,
   }
 
   .tcg-card-popover {
-    grid-template-columns: 5.8rem minmax(0, 1fr);
+    grid-template-columns: minmax(5.8rem, 7.5rem) minmax(0, 1fr);
+    max-width: calc(100vw - 1rem);
   }
 
   h1 {
@@ -565,6 +573,8 @@ CARD_PREVIEW_SCRIPT = r"""
   popover.className = "tcg-card-popover";
   popover.hidden = true;
   document.body.appendChild(popover);
+  let activeLink = null;
+  let hideTimer = 0;
 
   const decodePayload = (value) => {
     try {
@@ -672,23 +682,46 @@ CARD_PREVIEW_SCRIPT = r"""
   const show = (link) => {
     const card = decodePayload(link.dataset.cardPreview || "");
     if (!card) return;
+    window.clearTimeout(hideTimer);
+    activeLink = link;
     render(card);
     popover.hidden = false;
     position(link);
   };
 
-  const hide = () => {
+  const hide = (force = false) => {
+    window.clearTimeout(hideTimer);
+    if (!force && (popover.matches(":hover") || activeLink?.matches(":hover") || activeLink === document.activeElement)) {
+      return;
+    }
     popover.hidden = true;
+    activeLink = null;
+  };
+
+  const scheduleHide = () => {
+    window.clearTimeout(hideTimer);
+    hideTimer = window.setTimeout(() => hide(), 180);
   };
 
   links.forEach((link) => {
     link.addEventListener("mouseenter", () => show(link));
     link.addEventListener("focus", () => show(link));
-    link.addEventListener("mouseleave", hide);
-    link.addEventListener("blur", hide);
+    link.addEventListener("mouseleave", scheduleHide);
+    link.addEventListener("blur", scheduleHide);
   });
-  window.addEventListener("scroll", hide, { passive: true });
-  window.addEventListener("resize", hide);
+  popover.addEventListener("mouseenter", () => window.clearTimeout(hideTimer));
+  popover.addEventListener("mouseleave", scheduleHide);
+  popover.addEventListener("focusin", () => window.clearTimeout(hideTimer));
+  popover.addEventListener("focusout", scheduleHide);
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") hide(true);
+  });
+  window.addEventListener("scroll", () => {
+    if (activeLink && !popover.hidden) position(activeLink);
+  }, { passive: true });
+  window.addEventListener("resize", () => {
+    if (activeLink && !popover.hidden) position(activeLink);
+  });
 })();
 """.strip()
 
