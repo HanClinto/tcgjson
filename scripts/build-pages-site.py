@@ -691,7 +691,6 @@ CARD_PREVIEW_SCRIPT = r"""
         ["Products", card.productCount],
         ["Price Guide Rows", card.priceGuideRowCount],
         ["URL Name", card.urlName],
-        ["Source", card.source],
       ].filter(([, value]) => textValue(value));
     }
     const metadata = card.metadata && typeof card.metadata === "object" ? card.metadata : {};

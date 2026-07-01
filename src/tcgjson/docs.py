@@ -494,6 +494,7 @@ def _write_game_page(
         f"- Build duration: {_duration(line_metrics.get('durationSeconds'))}",
         f"- Cache reuse: {cache.get('reusedSetCount', 0)} reused sets, {cache.get('fetchedSetCount', 0)} fetched sets",
         "",
+        *_json_details("Game object raw JSON", game),
         "## Files",
         "",
         f"- Compact catalog: {_asset_link(f'{slug}.json', by_name, release_url)}",
