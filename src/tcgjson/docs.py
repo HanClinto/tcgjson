@@ -358,13 +358,14 @@ def _write_games_index(path: Path, games: dict[str, Any], catalogs: list[dict[st
         "# Game Index",
         "",
         "This page lists TCGplayer product lines discovered by tcgjson. Enabled games have generated catalog pages.",
+        "`games.json` is the discovery/support report behind this page; `bulk-data.json` is the release manifest that lists downloadable catalog artifacts, sizes, and hashes.",
         "",
         _generated_note({}, release_tag, release_url),
         "",
         "## Enabled Catalogs",
         "",
-        "| Game | TCGplayer ID | Sets | Products | Catalog Page |",
-        "| --- | ---: | ---: | ---: | --- |",
+        "| Game | TCGplayer Category ID | Sets | Products |",
+        "| --- | ---: | ---: | ---: |",
     ]
     for row in games.get("games", []):
         if row.get("slug") not in enabled_slugs:
@@ -372,15 +373,48 @@ def _write_games_index(path: Path, games: dict[str, Any], catalogs: list[dict[st
         catalog = catalog_by_slug.get(row.get("slug"), {})
         meta = catalog.get("meta", {})
         lines.append(
-            f"| {_escape_table(row.get('name', ''))} | {row.get('tcgplayerProductLineId', '')} | "
-            f"{meta.get('setCount', 0)} | {meta.get('productCount', 0)} | [Open](games/{row.get('slug')}.md) |"
+            f"| [{_escape_table(row.get('name', ''))}](games/{row.get('slug')}.md) | "
+            f"{row.get('tcgplayerProductLineId', '')} | {meta.get('setCount', 0)} | {meta.get('productCount', 0)} |"
         )
     disabled = [row for row in games.get("games", []) if not row.get("enabled")]
     if disabled:
-        lines.extend(["", "## Discovered But Not Enabled", "", "| Game | TCGplayer ID | URL Name |", "| --- | ---: | --- |"])
+        lines.extend(
+            [
+                "",
+                "## Discovered But Not Enabled",
+                "",
+                "Want one of these product lines added? Open a prefilled GitHub issue from the Request column.",
+                "",
+                "| Game | TCGplayer Category ID | URL Name | Request |",
+                "| --- | ---: | --- | --- |",
+            ]
+        )
         for row in disabled:
-            lines.append(f"| {_escape_table(row.get('name', ''))} | {row.get('tcgplayerProductLineId', '')} | `{row.get('tcgplayerUrlName', '')}` |")
+            lines.append(
+                f"| {_escape_table(row.get('name', ''))} | {row.get('tcgplayerProductLineId', '')} | "
+                f"`{row.get('tcgplayerUrlName', '')}` | [Request]({_request_game_issue_url(row)}) |"
+            )
     return _write(path, lines)
+
+
+def _request_game_issue_url(row: dict[str, Any]) -> str:
+    name = str(row.get("name") or "").strip()
+    category_id = row.get("tcgplayerProductLineId", "")
+    url_name = str(row.get("tcgplayerUrlName") or "").strip()
+    title = f"Request catalog support for {name}" if name else "Request catalog support for a TCGplayer category"
+    body = "\n".join(
+        [
+            "Please add this TCGplayer product line to tcgjson.",
+            "",
+            f"- Game: {name}",
+            f"- TCGplayer Category ID: {category_id}",
+            f"- TCGplayer URL Name: {url_name}",
+            "",
+            "Notes:",
+            "- ",
+        ]
+    )
+    return f"{PROJECT_URL}/issues/new?title={quote_plus(title)}&body={quote_plus(body)}"
 
 
 def _write_game_page(

@@ -86,6 +86,16 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
                             "priceGuideUrl": "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides",
                         }
                     },
+                },
+                {
+                    "name": "Alpha Clash",
+                    "slug": "alpha-clash",
+                    "tcgplayerProductLineId": 78,
+                    "tcgplayerUrlName": "alpha-clash",
+                    "popular": False,
+                    "manualInclude": False,
+                    "manualExclude": False,
+                    "enabled": False,
                 }
             ],
         },
@@ -115,6 +125,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     }
     index = (docs_dir / "README.md").read_text(encoding="utf-8")
     game = (docs_dir / "games" / "pokemon.md").read_text(encoding="utf-8")
+    games_index = (docs_dir / "games.md").read_text(encoding="utf-8")
     history = (docs_dir / "release-history.md").read_text(encoding="utf-8")
 
     assert "[Pokemon](games/pokemon.md)" in index
@@ -128,6 +139,15 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "- Reviewable formats: these docs are generated from source each release to document the format of game-specific information available for each card." in index
     assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
     assert "TCGplayer" in game
+    assert "`games.json` is the discovery/support report behind this page; `bulk-data.json` is the release manifest" in games_index
+    assert "| Game | TCGplayer Category ID | Sets | Products |" in games_index
+    assert "| [Pokemon](games/pokemon.md) | 3 | 1 | 1 |" in games_index
+    assert "Catalog Page" not in games_index
+    assert "TCGplayer ID" not in games_index
+    assert "Want one of these product lines added? Open a prefilled GitHub issue from the Request column." in games_index
+    assert "| Game | TCGplayer Category ID | URL Name | Request |" in games_index
+    assert "| Alpha Clash | 78 | `alpha-clash` | [Request](https://github.com/HanClinto/tcgjson/issues/new?" in games_index
+    assert "Request+catalog+support+for+Alpha+Clash" in games_index
     assert "## TCGplayer Resources" in game
     assert "[Price guide](https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides)" in game
     assert "Compact catalog: [`pokemon.json`](https://example.test/release/pokemon.json) (" in game
