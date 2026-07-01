@@ -150,6 +150,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
         "games/pokemon.md",
     }
     index = (docs_dir / "README.md").read_text(encoding="utf-8")
+    objects = (docs_dir / "objects.md").read_text(encoding="utf-8")
     game = (docs_dir / "games" / "pokemon.md").read_text(encoding="utf-8")
     games_index = (docs_dir / "games.md").read_text(encoding="utf-8")
     history = (docs_dir / "release-history.md").read_text(encoding="utf-8")
@@ -166,6 +167,16 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "- Reviewable formats: these docs are generated from source each release to document the format of game-specific information available for each card." in index
     assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
     assert "## Release Artifacts" not in index
+    assert "<summary>Example bulk manifest object</summary>" in objects
+    assert "<summary>Example bulk manifest item object</summary>" in objects
+    assert "<summary>Example catalog object shape</summary>" in objects
+    assert "<summary>Example full set object</summary>" in objects
+    assert "<summary>Example full product object</summary>" in objects
+    assert '"products": [' in objects
+    assert '"priceGuide":' not in objects
+    assert '"lowPrice":' not in objects
+    assert '"marketPrice":' not in objects
+    assert '"medianPrice":' not in objects
     assert "TCGplayer" in game
     assert "`games.json` is the discovery/support report behind this page; `bulk-data.json` is the release manifest" in games_index
     assert "| Game | TCGplayer Category ID | Sets | Products |" in games_index

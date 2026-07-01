@@ -253,6 +253,7 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
     example_catalog = catalogs[0] if catalogs else {}
     example_product = next(iter(example_catalog.get("products", [])), {}) if example_catalog else {}
     example_set = next(iter(example_catalog.get("sets", [])), {}) if example_catalog else {}
+    example_manifest_item = next(iter(manifest.get("data", [])), {}) if manifest else {}
     lines = [
         "# Object Guide",
         "",
@@ -266,29 +267,60 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "`bulk-data.json` is the entry point. It is a list object whose `data` array describes each downloadable JSON artifact.",
         "Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_at`, and a short description.",
         "",
+        *_json_details("Example bulk manifest object", manifest),
+        *_json_details("Example bulk manifest item object", example_manifest_item),
         "## Catalog Object",
         "",
         "A full catalog file is named `<slug>.full.json`. The compact companion is named `<slug>.json` and omits fields intended mainly for auditing or deeper integrations.",
         "",
         _field_table(example_catalog, ["meta", "sets", "products"]),
         "",
+        *_json_details("Example catalog object shape", _catalog_object_example(example_catalog, example_set, example_product)),
         "## Set Object",
         "",
         "A set summarizes a TCGplayer set/category grouping. Set pages link back to TCGplayer search pages so a person can inspect the source storefront context.",
         "",
         _field_table(example_set, ["tcgplayerSetId", "name", "urlName", "releaseDate", "iconUrl", "productCount", "priceGuideRowCount", "source"]),
         "",
+        *_json_details("Example full set object", example_set),
         "## Product Object",
         "",
         "A product is one catalog card/product record. Most integrations should start with `tcgplayerProductId`, `name`, `setId`, `collectorNumber`, `rarity`, and `imageUrls`.",
         "",
         _field_table(example_product, ["tcgplayerProductId", "name", "productLineId", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "skus"]),
         "",
+        *_json_details("Example full product object", _without_price_fields(example_product)),
         "## Pricing",
         "",
         "Pricing fields are intentionally omitted from release files. Weekly catalog snapshots are intended for product identity and metadata, not current market prices.",
     ]
     return _write(path, lines)
+
+
+def _catalog_object_example(catalog: dict[str, Any], set_row: dict[str, Any], product: dict[str, Any]) -> dict[str, Any]:
+    if not catalog:
+        return {}
+    return {
+        "meta": catalog.get("meta", {}),
+        "sets": [set_row] if set_row else [],
+        "products": [_without_price_fields(product)] if product else [],
+    }
+
+
+def _json_details(summary: str, value: Any) -> list[str]:
+    if value in ({}, []):
+        return []
+    return [
+        "<details>",
+        f"<summary>{summary}</summary>",
+        "",
+        "```json",
+        _json_example(value),
+        "```",
+        "",
+        "</details>",
+        "",
+    ]
 
 
 def _write_release_history(
