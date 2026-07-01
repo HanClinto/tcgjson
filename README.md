@@ -328,7 +328,8 @@ then fetch the files they need by `type`.
 
 The weekly workflow runs on Monday, builds the catalog, validates the generated
 manifest, commits generated Markdown docs under [docs/catalog](docs/catalog/README.md),
-and publishes a GitHub Release named `weekly-<run-id>`. It can also be started
+and publishes a GitHub Release named `weekly-<YYYYMMDD>` using the UTC release
+date. It can also be started
 manually from the Actions tab.
 
 ## Legal Notes

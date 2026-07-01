@@ -39,6 +39,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Compute release metadata
+        id: release
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_date="$(date -u +%Y%m%d)"
+          echo "date=$release_date" >> "$GITHUB_OUTPUT"
+          echo "tag=weekly-$release_date" >> "$GITHUB_OUTPUT"
+          echo "name=Weekly catalog $release_date" >> "$GITHUB_OUTPUT"
       - name: Report TCGplayer product-line support
         run: tcgjson games --output release/games.md --json-output release/games.json
       - name: Download previous release as cache
@@ -197,8 +206,8 @@ jobs:
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: weekly-${{ github.run_id }}
-          name: Weekly catalog ${{ github.run_id }}
+          tag_name: ${{ steps.release.outputs.tag }}
+          name: ${{ steps.release.outputs.name }}
           body: |
             Weekly tcgjson catalog export.
 
@@ -210,8 +219,8 @@ jobs:
             --release-dir release \
             --previous-release-dir release-cache \
             --output docs/catalog \
-            --release-tag weekly-${{ github.run_id }} \
-            --release-url https://github.com/${{ github.repository }}/releases/tag/weekly-${{ github.run_id }}
+            --release-tag ${{ steps.release.outputs.tag }} \
+            --release-url https://github.com/${{ github.repository }}/releases/tag/${{ steps.release.outputs.tag }}
       - name: Commit generated docs
         if: github.ref == 'refs/heads/main'
         run: |
