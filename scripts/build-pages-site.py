@@ -331,6 +331,24 @@ details pre {
 }
 
 .tcg-card-popover dd {
+
+.tcg-card-popover details {
+  clear: both;
+  margin: 0.45rem 0 0;
+  border-color: #ded5c6;
+  background: #f7efe1;
+}
+
+.tcg-card-popover summary {
+  padding: 0.48rem 0.62rem;
+  font-size: 0.78rem;
+}
+
+.tcg-card-popover pre {
+  max-height: 18rem;
+  margin: 0 0.62rem 0.62rem;
+  font-size: 0.72rem;
+}
   display: inline;
   margin: 0;
   overflow-wrap: anywhere;
@@ -701,7 +719,10 @@ CARD_PREVIEW_SCRIPT = r"""
     const rows = detailRows(card)
       .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${renderValue(value)}</dd>`)
       .join("");
-    popover.innerHTML = `<div class="tcg-card-popover-body">${image}<h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl></div>`;
+    const rawJson = card.rawJson && typeof card.rawJson === "object"
+      ? `<details><summary>Raw JSON</summary><pre><code>${escapeHtml(JSON.stringify(card.rawJson, null, 2))}</code></pre></details>`
+      : "";
+    popover.innerHTML = `<div class="tcg-card-popover-body">${image}<h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl>${rawJson}</div>`;
   };
 
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (char) => ({

@@ -39,7 +39,7 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
         "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)\n\n"
         "| Card | Set | Rarity |\n"
         "| --- | --- | --- |\n"
-        "| <a class=\"tcg-card-link\" href=\"https://www.tcgplayer.com/product/42382\" data-card-preview=\"%7B%22name%22%3A%22Alakazam%22%2C%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22%7D\">Alakazam</a> | Base Set | Holo Rare |\n\n"
+        "| <a class=\"tcg-card-link\" href=\"https://www.tcgplayer.com/product/42382\" data-card-preview=\"%7B%22name%22%3A%22Alakazam%22%2C%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22%2C%22rawJson%22%3A%7B%22tcgplayerProductId%22%3A42382%2C%22name%22%3A%22Alakazam%22%7D%7D\">Alakazam</a> | Base Set | Holo Rare |\n\n"
         "| Banner | Set | Products | TCGplayer |\n"
         "| --- | --- | ---: | --- |\n"
         "| ![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | Base Set | [1](https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set) | [Search](https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set) |\n",
@@ -74,8 +74,9 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert '<pre><code class="language-json">' in game
     assert '&quot;name&quot;: &quot;Alakazam&quot;' in game
     assert '<img src="https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png" alt="" loading="lazy" referrerpolicy="no-referrer" onload="this.dataset.loaded=\'true\'" onerror="this.remove()">' in game
-    assert '<a class="tcg-card-link" href="https://www.tcgplayer.com/product/42382" data-card-preview="%7B%22name%22%3A%22Alakazam%22%2C%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22%7D">Alakazam</a>' in game
+    assert '<a class="tcg-card-link" href="https://www.tcgplayer.com/product/42382" data-card-preview="%7B%22name%22%3A%22Alakazam%22%2C%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22%2C%22rawJson%22%3A%7B%22tcgplayerProductId%22%3A42382%2C%22name%22%3A%22Alakazam%22%7D%7D">Alakazam</a>' in game
     assert (output_dir / "assets" / "card-preview.js").exists()
+    assert "<summary>Raw JSON</summary>" in (output_dir / "assets" / "card-preview.js").read_text(encoding="utf-8")
     assert '<div class="table-wrap banner-table"><table>' in index
     assert '<th>Banner</th>' not in index
     assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in index

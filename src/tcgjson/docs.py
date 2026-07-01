@@ -925,6 +925,7 @@ def _tcgplayer_product_link(product: dict[str, Any], product_line: str, product_
 
 def _card_preview_link(product: dict[str, Any], product_line: str, product_name: str, set_name: str) -> str:
     href = _tcgplayer_product_link(product, product_line, product_name, set_name)
+    raw_product = _without_price_fields(product)
     payload = {
         "tcgplayerProductId": product.get("tcgplayerProductId"),
         "name": product_name,
@@ -935,6 +936,7 @@ def _card_preview_link(product: dict[str, Any], product_line: str, product_name:
         "foilings": product.get("foilings") or [],
         "imageUrl": next(iter(product.get("imageUrls") or []), ""),
         "metadata": product.get("metadata") or {},
+        "rawJson": raw_product,
     }
     encoded = quote(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), safe="")
     label = html.escape(str(product_name)).replace("|", "&#124;")

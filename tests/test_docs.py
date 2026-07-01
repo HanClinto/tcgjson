@@ -211,6 +211,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert '| <a class="tcg-card-link" href="https://www.tcgplayer.com/product/42382" data-card-preview="' in game
     assert 'Alakazam</a> | Base Set | 1999-01-09 | [weekly-test](https://example.test/release) | Holo Rare |' in game
     assert "%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22" in game
+    assert "%22rawJson%22%3A%7B%22tcgplayerProductId%22%3A42382" in game
     assert "## Product Field Coverage" in game
     assert "| `tcgplayerProductId` | integer | 1 / 1 | 100% | `42382` |" in game
     assert "## Game-Specific Metadata Coverage" in game
