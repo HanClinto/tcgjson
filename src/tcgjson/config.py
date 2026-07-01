@@ -32,6 +32,13 @@ KNOWN_PRODUCT_LINES: tuple[ProductLine, ...] = (
 )
 
 MANUAL_INCLUDED_PRODUCT_LINES: tuple[ProductLine, ...] = (
+    ProductLine("Magic: The Gathering", "magic-the-gathering", 1, ("magic", "mtg")),
+    ProductLine("YuGiOh", "yugioh", 2, ("yu-gi-oh", "yugioh")),
+    ProductLine("Pokemon", "pokemon", 3, ("pokemon", "pokemon-tcg")),
+    ProductLine("Digimon Card Game", "digimon-card-game", 63, ("digimon",)),
+    ProductLine("One Piece Card Game", "one-piece", 68, ("one-piece", "one piece")),
+    ProductLine("Disney Lorcana", "lorcana", 71, ("lorcana", "disney lorcana")),
+    ProductLine("Star Wars: Unlimited", "star-wars-unlimited", 79, ("star wars unlimited",)),
     ProductLine(
         "Riftbound: League of Legends Trading Card Game",
         "riftbound",

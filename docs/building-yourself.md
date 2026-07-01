@@ -40,10 +40,17 @@ python scripts/build-pages-site.py --input docs/catalog --output _site
 
 ## Product-Line Support
 
-When `tcgjson build` is run without `--product-line`, it includes every product line TCGplayer currently reports as popular, then adds manual inclusions from [src/tcgjson/config.py](../src/tcgjson/config.py). Configuration is keyed by TCGplayer product-line IDs so catalog downloads are not brittle when display names change. Names and aliases are kept only for readable output, stable slugs, and explicit CLI fallbacks.
+When `tcgjson build` is run without `--product-line`, it includes every product line TCGplayer currently reports as popular, then adds manual inclusions from [src/tcgjson/config.py](../src/tcgjson/config.py). Current release product lines are kept in the manual inclusion list so a supported catalog keeps building even if it later falls off TCGplayer's popular navigation. Configuration is keyed by TCGplayer product-line IDs so catalog downloads are not brittle when display names change. Names and aliases are kept only for readable output, stable slugs, and explicit CLI fallbacks.
 
 Current manual inclusions:
 
+- `1`: Magic: The Gathering
+- `2`: YuGiOh
+- `3`: Pokemon
+- `63`: Digimon Card Game
+- `68`: One Piece Card Game
+- `71`: Disney Lorcana
+- `79`: Star Wars: Unlimited
 - `89`: Riftbound: League of Legends Trading Card Game
 - `81`: Union Arena
 
