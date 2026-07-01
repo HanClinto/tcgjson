@@ -640,6 +640,7 @@ CARD_PREVIEW_SCRIPT = r"""
       ["Collector #", card.collectorNumber],
       ["Rarity", card.rarity],
       ["Foilings", card.foilings],
+      ["Description", descriptionText(card)],
     ];
     const metadataRows = Object.entries(metadata)
       .filter(([key, value]) => !bodyTextKeys.has(key) && textValue(value))
@@ -648,9 +649,16 @@ CARD_PREVIEW_SCRIPT = r"""
     return rows.concat(metadataRows).filter(([, value]) => textValue(value));
   };
 
-  const rulesText = (card) => {
+  const descriptionText = (card) => {
     const metadata = card.metadata && typeof card.metadata === "object" ? card.metadata : {};
-    return textValue(metadata.oracleText || metadata.rulesText || metadata.description || metadata.text);
+    const customAttributes = metadata.customAttributes && typeof metadata.customAttributes === "object" ? metadata.customAttributes : {};
+    return textValue(
+      metadata.description
+      || metadata.oracleText
+      || metadata.rulesText
+      || metadata.text
+      || customAttributes.description
+    );
   };
 
   const render = (card) => {
@@ -661,8 +669,7 @@ CARD_PREVIEW_SCRIPT = r"""
     const rows = detailRows(card)
       .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${renderValue(value)}</dd>`)
       .join("");
-    const text = rulesText(card);
-    popover.innerHTML = `<div class="tcg-card-popover-body">${image}<h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl>${text ? `<p class="tcg-card-popover-text">${escapeHtml(text)}</p>` : ""}</div>`;
+    popover.innerHTML = `<div class="tcg-card-popover-body">${image}<h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl></div>`;
   };
 
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (char) => ({
