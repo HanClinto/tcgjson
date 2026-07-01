@@ -116,9 +116,16 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
             "",
             "## What Is Included",
             "",
-            "tcgjson focuses on singles catalog data: products, sets, collector numbers, rarities, image URLs, and price-guide rows where TCGplayer exposes them.",
-            "It does not publish marketplace listings, seller inventory, sealed products, or downloaded card images.",
+            "tcgjson focuses on singles catalog data: products, sets, collector numbers, rarities, image URLs, and metadata where TCGplayer exposes it.",
+            "It does not publish pricing data, marketplace listings, seller inventory, sealed products, or downloaded card images.",
             "Each game page includes product field coverage and game-specific metadata coverage generated from the schema profile for that release.",
+            "The build may use TCGplayer priceguide endpoints as a catalog discovery path, but price values are stripped from release files because weekly catalog snapshots are not a reliable pricing source.",
+            "",
+            "## Publishing Schedule",
+            "",
+            "Catalogs are rebuilt automatically on GitHub Actions once per week. The goal is to scrape TCGplayer's public catalog endpoints once, package the results into bulk downloads, and reduce repeated API traffic from people who only need semi-regular catalog snapshots.",
+            "",
+            "This is intentionally not an hourly or daily scraper. If you need card pricing or near-real-time market data, tcgjson is not the right source.",
             "",
             "## Release Artifacts",
             "",
@@ -132,13 +139,11 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
     example_catalog = catalogs[0] if catalogs else {}
     example_product = next(iter(example_catalog.get("products", [])), {}) if example_catalog else {}
     example_set = next(iter(example_catalog.get("sets", [])), {}) if example_catalog else {}
-    price_rows = example_product.get("priceGuide") or []
-    example_price = price_rows[0] if price_rows else {}
     lines = [
         "# Object Guide",
         "",
         "These object notes are generated from the release files and written for people exploring the data for the first time.",
-        "The names are intentionally plain: catalogs contain sets and products; products may contain price-guide rows and optional metadata.",
+        "The names are intentionally plain: catalogs contain sets and products; products may contain optional metadata but never published pricing fields.",
         "",
         _generated_note({}, release_tag, release_url),
         "",
@@ -161,15 +166,13 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "",
         "## Product Object",
         "",
-        "A product is one catalog card/product record. Most integrations should start with `tcgplayerProductId`, `name`, `setId`, `collectorNumber`, `rarity`, `imageUrls`, and `priceGuide`.",
+        "A product is one catalog card/product record. Most integrations should start with `tcgplayerProductId`, `name`, `setId`, `collectorNumber`, `rarity`, and `imageUrls`.",
         "",
-        _field_table(example_product, ["tcgplayerProductId", "name", "productLineId", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "priceGuide"]),
+        _field_table(example_product, ["tcgplayerProductId", "name", "productLineId", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "skus"]),
         "",
-        "## Price Guide Row",
+        "## Pricing",
         "",
-        "Price-guide rows are normalized from TCGplayer's priceguide endpoint when available. Search-only fallback sets may have aggregate price fields instead of condition-by-printing rows.",
-        "",
-        _field_table(example_price, sorted(example_price) if example_price else []),
+        "Pricing fields are intentionally omitted from release files. Weekly catalog snapshots are intended for product identity and metadata, not current market prices.",
     ]
     return _write(path, lines)
 
@@ -323,7 +326,6 @@ def _write_game_page(
             "- `setId`: TCGplayer set identifier matching the set table.",
             "- `collectorNumber` and `rarity`: normalized card catalog fields when available.",
             "- `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.",
-            "- `priceGuide`: price-guide rows when the endpoint exposes them for the set.",
             "- `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.",
         ]
     )
@@ -417,7 +419,7 @@ def _schema_field_sort_key(field: dict[str, Any]) -> tuple[int, float, str]:
         "foilings": 7,
         "imageUrls": 8,
         "metadata": 9,
-        "priceGuide": 10,
+        "skus": 10,
     }
     path = str(field.get("path", ""))
     return (priority.get(path, 100), -float(field.get("populatedPercent") or 0), path)
@@ -498,7 +500,7 @@ def _field_description(field: str) -> str:
         "foilings": "Observed printings or foil treatments.",
         "imageUrls": "Linked TCGplayer CDN image URLs.",
         "metadata": "Game-specific metadata preserved from search/details payloads.",
-        "priceGuide": "Normalized price-guide rows for this product.",
+        "skus": "Optional SKU rows from product details builds.",
     }
     return descriptions.get(field, "Observed field in the generated JSON.")
 

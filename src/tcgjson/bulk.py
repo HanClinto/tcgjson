@@ -293,6 +293,7 @@ def _migrate_cached_product(product: dict[str, Any], product_line_id: int) -> di
         image_url = migrated.get("imageUrl", "")
         migrated["imageUrls"] = [image_url] if image_url else []
     migrated.pop("imageUrl", None)
+    migrated.pop("priceGuide", None)
     return migrated
 
 
@@ -620,6 +621,7 @@ def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[
     product_line = catalog["meta"]["productLine"]
     compact_path = output_dir / f"{slug}.json"
     full_path = output_dir / f"{slug}.full.json"
+    catalog = _without_price_fields(catalog)
     atomic_write_json(compact_path, compact_catalog(catalog))
     atomic_write_json(full_path, catalog)
     return [
@@ -635,9 +637,20 @@ def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[
             output_dir=output_dir,
             file_type=f"{slug}_catalog_full",
             name=f"{product_line} Full Catalog",
-            description=f"Full TCGplayer catalog export for {product_line}, including price-guide rows and optional SKU IDs.",
+            description=f"Full TCGplayer catalog export for {product_line}, including metadata and optional SKU IDs.",
         ),
     ]
+
+
+def _without_price_fields(catalog: dict[str, Any]) -> dict[str, Any]:
+    sanitized = dict(catalog)
+    sanitized["products"] = []
+    for product in catalog.get("products", []):
+        product = dict(product)
+        for field in ("priceGuide", "lowPrice", "marketPrice", "medianPrice"):
+            product.pop(field, None)
+        sanitized["products"].append(product)
+    return sanitized
 
 
 def write_bulk_manifest(output_dir: Path, files: list[dict[str, Any]]) -> dict[str, Any]:

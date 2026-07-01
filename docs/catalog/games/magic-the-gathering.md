@@ -42,12 +42,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 47 product fields across 100380 product records.
+The schema profile observed 40 product fields across 100380 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -60,8 +59,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 100380 / 100380 | 100% | `Uncommon` |
 | `foilings` | array | 100380 / 100380 | 100% | `["Foil", "Normal"]` |
 | `imageUrls` | array | 100380 / 100380 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/15032_in_1000x1000.jpg"]` |
-| `metadata` | object | 99909 / 100380 | 99.53% | `{"rulesText": "First strike <em>(This creature deals combat damage before creatures wit...` |
-| `priceGuide` | array | 100380 / 100380 | 100% | `[{"condition": "Lightly Played Foil", "printing": "Foil", "lowPrice": 0.05, "marketPric...` |
+| `metadata` | object | 99909 / 100380 | 99.53% | `{"cardTypes": ["Creature"], "colors": ["White"], "convertedCost": "7", "customAttribute...` |
 
 ## Game-Specific Metadata Coverage
 

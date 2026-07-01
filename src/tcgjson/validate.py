@@ -38,11 +38,22 @@ def validate_release(output_dir: Path) -> None:
                 raise ValueError(f"{path} is missing required schema profile keys")
         elif "meta" not in payload or "products" not in payload or "sets" not in payload:
             raise ValueError(f"{path} is missing required catalog keys")
+        elif "products" in payload:
+            _validate_no_published_prices(path, payload)
         if path.stat().st_size != item["size"]:
             raise ValueError(f"size mismatch for {path}")
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         if digest != item["sha256"]:
             raise ValueError(f"sha256 mismatch for {path}")
+
+
+def _validate_no_published_prices(path: Path, catalog: dict) -> None:
+    forbidden_fields = {"priceGuide", "lowPrice", "marketPrice", "medianPrice"}
+    for product in catalog.get("products", []):
+        present = forbidden_fields & set(product)
+        if present:
+            product_id = product.get("tcgplayerProductId", "")
+            raise ValueError(f"{path} product {product_id} includes price field(s): {sorted(present)}")
 
 
 def main(argv: list[str] | None = None) -> int:

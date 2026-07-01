@@ -34,8 +34,8 @@ yugioh.schema.json
 For each supported game/product line:
 
 - `<slug>.json`: compact catalog data for common product and set lookups.
-- `<slug>.full.json`: fuller normalized catalog data, including price-guide rows
-  and deeper metadata when available.
+- `<slug>.full.json`: metadata-rich normalized catalog data with deeper fields
+  when available, but no pricing fields.
 - `<slug>.schema.json`: observed product-field coverage for that game, including
   field paths, types, populated counts, percentages, and examples.
 
@@ -59,7 +59,21 @@ that TCGplayer exposes through catalog, price-guide, and search endpoints:
 
 The dataset is intentionally narrow. It does not publish sealed products,
 storefront inventory, seller data, downloaded image files, marketplace listing
-archives, or live pricing guarantees.
+archives, or pricing data.
+
+## Publishing Schedule
+
+Catalogs are rebuilt automatically on GitHub Actions once per week. The goal is
+to scrape TCGplayer's public catalog endpoints once, package the results into a
+small set of bulk downloads, and reduce repeated API traffic from people who only
+need semi-regular catalog snapshots.
+
+As long as GitHub Actions and TCGplayer's public catalog endpoints remain broadly
+compatible with the current workflow, these releases are expected to keep
+updating weekly without manual intervention.
+
+This is intentionally not an hourly or daily scraper. If you need card pricing
+or near-real-time market data, `tcgjson` is not the right source.
 
 ## Using The Data
 
@@ -80,8 +94,13 @@ curl -L -O https://github.com/HanClinto/tcgjson/releases/latest/download/pokemon
 ```
 
 Use the compact file when you need a smaller product/set catalog. Use the full
-file when you need richer metadata or price-guide rows. Use the schema file to
-understand which fields are present for that game and how complete they are.
+file when you need richer metadata. Use the schema file to understand which
+fields are present for that game and how complete they are.
+
+Pricing is intentionally not published. The build may use TCGplayer priceguide
+endpoints as a catalog discovery path, but price values are stripped from release
+files because weekly bulk catalog snapshots are a poor fit for current market
+data.
 
 Minimal Python example:
 
@@ -118,15 +137,17 @@ weakness.
 ## Caveats
 
 - TCGplayer catalog fields vary by game and by source endpoint.
-- Some games use price-guide data heavily; newer games may rely more on search
-  fallback data.
+- Some games use priceguide endpoints heavily as a catalog source; newer games
+  may rely more on search fallback data.
+- Published catalogs do not include price fields. Pricing changes faster than
+  weekly catalog snapshots and should be fetched from an appropriate pricing
+  source instead.
 - Search fallback exports product identity, set, collector number, rarity, image
-  URLs, and aggregate price fields, but not the same per-condition price-guide
-  rows as the price-guide path.
+  URLs, and metadata when available.
 - Image URLs point at TCGplayer CDN assets. This project does not download or
   republish card images.
-- Catalog and price information is informational and may become stale between
-  weekly releases.
+- Catalog information is informational and may become stale between weekly
+  releases.
 
 See [docs/api-notes.md](docs/api-notes.md) for endpoint behavior, metadata notes,
 and implementation caveats.
@@ -141,5 +162,4 @@ on the GitHub Actions release flow, see [docs/building-yourself.md](docs/buildin
 
 This project is not produced by or endorsed by TCGplayer or any game publisher.
 TCGplayer and product-line names are trademarks of their respective owners.
-Catalog and price information should be treated as informational and may become
-stale.
+Catalog information should be treated as informational and may become stale.

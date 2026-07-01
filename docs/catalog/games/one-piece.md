@@ -42,12 +42,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 42 product fields across 19324 product records.
+The schema profile observed 35 product fields across 19324 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -60,8 +59,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 19324 / 19324 | 100% | `DON!!` |
 | `foilings` | array | 18753 / 19324 | 97.05% | `["Foil"]` |
 | `imageUrls` | array | 19324 / 19324 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/456059_in_1000x1000.jpg"]` |
-| `metadata` | object | 19324 / 19324 | 100% | `{"rulesText": "Your Turn +1000", "cardTypes": ["DON!!"], "customAttributes": {"descript...` |
-| `priceGuide` | array | 19324 / 19324 | 100% | `[{"condition": "", "printing": "", "lowPrice": 7.0, "marketPrice": 20.9, "medianPrice":...` |
+| `metadata` | object | 19324 / 19324 | 100% | `{"cardTypes": ["DON!!"], "customAttributes": {"cardType": ["DON!!"], "description": "Yo...` |
 
 ## Game-Specific Metadata Coverage
 

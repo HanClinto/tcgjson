@@ -85,7 +85,7 @@ tcgjson build --output release \
   --refresh-recent-sets 3
 ```
 
-The scheduled workflow downloads the latest release into `release-cache` before building. Cached full catalogs are reused set-by-set; any missing sets are fetched, and the `--refresh-recent-sets` newest sets are refetched so new release activity stays fresh without recrawling entire back catalogs. A manual full refresh can still be run locally whenever older price-guide rows need a complete rebake.
+The scheduled workflow downloads the latest release into `release-cache` before building. Cached full catalogs are reused set-by-set; any missing sets are fetched, and the `--refresh-recent-sets` newest sets are refetched so new release activity stays fresh without recrawling entire back catalogs. A manual full refresh can still be run locally when you need to rebuild older catalog rows from source.
 
 Builds also write per-set checkpoint files under `.tcgjson-cache/set-checkpoints` by default. Checkpoints are separated by product-line slug and source (`priceguide` versus `search`) so a search-fallback set cannot overwrite a richer price-guide set. They are useful for resuming interrupted local runs, but they duplicate normalized product rows and can be regenerated from TCGplayer set data plus any local product-detail cache. For that reason, set checkpoints are ignored by git unless you explicitly place them elsewhere with `--checkpoint-dir`. Use `--no-checkpoints` to disable them entirely.
 

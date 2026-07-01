@@ -42,12 +42,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 50 product fields across 35693 product records.
+The schema profile observed 43 product fields across 35693 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -60,8 +59,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 35693 / 35693 | 100% | `None` |
 | `foilings` | array | 34687 / 35693 | 97.18% | `["Normal"]` |
 | `imageUrls` | array | 35693 / 35693 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/234508_in_1000x1000.jpg"]` |
-| `metadata` | object | 35693 / 35693 | 100% | `{"colors": ["Blue"], "customAttributes": {"origins": "Release Special Booster V.1.0", "...` |
-| `priceGuide` | array | 35693 / 35693 | 100% | `[{"condition": "", "printing": "", "lowPrice": 0.1, "marketPrice": null, "medianPrice":...` |
+| `metadata` | object | 35693 / 35693 | 100% | `{"colors": ["Blue"], "customAttributes": {"color": ["Blue"], "origins": "Release Specia...` |
 
 ## Game-Specific Metadata Coverage
 

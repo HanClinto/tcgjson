@@ -42,12 +42,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 42 product fields across 45084 product records.
+The schema profile observed 35 product fields across 45084 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -60,8 +59,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 45084 / 45084 | 100% | `Secret Rare` |
 | `foilings` | array | 45080 / 45084 | 99.99% | `["Unlimited"]` |
 | `imageUrls` | array | 45084 / 45084 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/22800_in_1000x1000.jpg"]` |
-| `metadata` | object | 44971 / 45084 | 99.75% | `{"rulesText": "<em>The ultimate wizard in terms of attack and defense.</em>", "cardType...` |
-| `priceGuide` | array | 45084 / 45084 | 100% | `[{"condition": "Damaged Unlimited", "printing": "Unlimited", "lowPrice": 2.49, "marketP...` |
+| `metadata` | object | 44971 / 45084 | 99.75% | `{"cardTypes": ["Main Deck Monster"], "customAttributes": {"attack": "2500", "attribute"...` |
 
 ## Game-Specific Metadata Coverage
 

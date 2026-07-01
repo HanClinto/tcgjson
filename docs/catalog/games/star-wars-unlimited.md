@@ -42,12 +42,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 37 product fields across 7808 product records.
+The schema profile observed 30 product fields across 7808 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -60,8 +59,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 7808 / 7808 | 100% | `Common` |
 | `foilings` | array | 7066 / 7808 | 90.5% | `["Normal"]` |
 | `imageUrls` | array | 7808 / 7808 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/540376_in_1000x1000.jpg"]` |
-| `metadata` | object | 7808 / 7808 | 100% | `{"rulesText": "Each friendly damaged unit gets +1/+0.<br>\n[Deployed Leader Unit]<br>\n...` |
-| `priceGuide` | array | 7808 / 7808 | 100% | `[{"condition": "", "printing": "", "lowPrice": 0.01, "marketPrice": 0.04, "medianPrice"...` |
+| `metadata` | object | 7808 / 7808 | 100% | `{"cardTypes": ["Leader"], "customAttributes": {"aspect": "Vigilance;Villainy", "cardTyp...` |
 
 ## Game-Specific Metadata Coverage
 

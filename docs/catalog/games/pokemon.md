@@ -42,12 +42,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 43 product fields across 28410 product records.
+The schema profile observed 36 product fields across 28410 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -60,8 +59,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 28410 / 28410 | 100% | `Holo Rare` |
 | `foilings` | array | 28387 / 28410 | 99.92% | `["Holofoil"]` |
 | `imageUrls` | array | 28410 / 28410 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/42346_in_1000x1000.jpg"]` |
-| `metadata` | object | 28188 / 28410 | 99.22% | `{"rulesText": "<strong>Pokémon Power: Damage Swap</strong> As often as you like during ...` |
-| `priceGuide` | array | 28410 / 28410 | 100% | `[{"condition": "Damaged Holofoil", "printing": "Holofoil", "lowPrice": 13, "marketPrice...` |
+| `metadata` | object | 28188 / 28410 | 99.22% | `{"cardTypes": ["Pokemon"], "customAttributes": {"attack1": "[PPP] Confuse Ray (30)\r\n<...` |
 
 ## Game-Specific Metadata Coverage
 

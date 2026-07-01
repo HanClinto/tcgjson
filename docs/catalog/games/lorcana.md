@@ -42,12 +42,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 42 product fields across 3107 product records.
+The schema profile observed 35 product fields across 3107 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -60,8 +59,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 3107 / 3107 | 100% | `Promo` |
 | `foilings` | array | 3091 / 3107 | 99.49% | `["Normal"]` |
 | `imageUrls` | array | 3107 / 3107 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/454233_in_1000x1000.jpg"]` |
-| `metadata` | object | 3107 / 3107 | 100% | `{"rulesText": "<strong>Evasive</strong> <em>(Only characters with Evasive can challenge...` |
-| `priceGuide` | array | 3107 / 3107 | 100% | `[{"condition": "", "printing": "", "lowPrice": 1500.0, "marketPrice": 866.01, "medianPr...` |
+| `metadata` | object | 3107 / 3107 | 100% | `{"cardTypes": ["Character"], "customAttributes": {"cardType": ["Character"], "character...` |
 
 ## Game-Specific Metadata Coverage
 

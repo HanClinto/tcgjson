@@ -1,4 +1,4 @@
-"""Normalize TCGplayer price-guide and details payloads into tcgjson files."""
+"""Normalize TCGplayer catalog and details payloads into tcgjson files."""
 from __future__ import annotations
 
 from typing import Any
@@ -8,22 +8,6 @@ from .tcgplayer import TCGplayerClient
 
 def _image_urls(product_id: int, image_count: int = 1) -> list[str]:
     return TCGplayerClient.product_image_urls(product_id, image_count)
-
-
-def _base_condition(condition: str, printing: str) -> str:
-    condition = condition.strip()
-    printing = printing.strip()
-    if printing and condition.lower().endswith(f" {printing}".lower()):
-        return condition[: -len(printing)].strip()
-    return condition
-
-
-def _sku_lookup(skus: list[dict[str, Any]]) -> dict[tuple[str, str], list[int]]:
-    lookup: dict[tuple[str, str], list[int]] = {}
-    for sku in skus:
-        key = (sku.get("condition", "").casefold(), sku.get("printing", "").casefold())
-        lookup.setdefault(key, []).append(sku["tcgplayerSkuId"])
-    return lookup
 
 
 def _text(value: Any) -> str:
@@ -98,25 +82,15 @@ def group_priceguide_products(
                 "rarity": _text(row.get("rarity")),
                 "imageUrls": _image_urls(product_id),
                 "foilings": [],
-                "priceGuide": [],
             },
         )
         printing = row.get("printing", "")
         if printing and printing not in product["foilings"]:
             product["foilings"].append(printing)
-        product["priceGuide"].append(
-            {
-                "condition": row.get("condition", ""),
-                "printing": printing,
-                "lowPrice": row.get("lowPrice"),
-                "marketPrice": row.get("marketPrice"),
-            }
-        )
 
     products = list(grouped.values())
     for product in products:
         product["foilings"].sort()
-        product["priceGuide"].sort(key=lambda item: (item["printing"], item["condition"]))
     products.sort(key=lambda item: (item["setId"], item["collectorNumber"], item["name"]))
     return products
 
@@ -150,15 +124,6 @@ def normalize_search_products(
                 "rarity": _text(row.get("rarityName", custom_attributes.get("rarityDbName"))),
                 "imageUrls": _image_urls(product_id),
                 "foilings": foilings,
-                "priceGuide": [
-                    {
-                        "condition": "",
-                        "printing": "",
-                        "lowPrice": row.get("lowestPrice"),
-                        "marketPrice": row.get("marketPrice"),
-                        "medianPrice": row.get("medianPrice"),
-                    }
-                ],
             }
         )
         apply_search_product_metadata(product, row)
@@ -173,13 +138,6 @@ def apply_product_details(product: dict[str, Any], details_payload: dict[str, An
     metadata = extract_metadata(details_payload)
     if metadata:
         product["metadata"] = metadata
-    sku_lookup = _sku_lookup(product["skus"])
-    for price_row in product.get("priceGuide", []):
-        condition = _base_condition(price_row.get("condition", ""), price_row.get("printing", ""))
-        printing = price_row.get("printing", "")
-        sku_ids = sku_lookup.get((condition.casefold(), printing.casefold()))
-        if sku_ids:
-            price_row["tcgplayerSkuIds"] = sorted(sku_ids)
 
 
 def compact_product(product: dict[str, Any]) -> dict[str, Any]:

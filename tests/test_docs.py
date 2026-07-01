@@ -39,7 +39,6 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
                 "foilings": ["Holofoil"],
                 "imageUrls": ["https://tcgplayer-cdn.tcgplayer.com/product/42382_in_1000x1000.jpg"],
                 "metadata": {"stage": "Stage 2"},
-                "priceGuide": [{"condition": "Near Mint", "marketPrice": 10.0}],
             }
         ],
     }

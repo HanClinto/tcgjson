@@ -50,12 +50,12 @@ def test_group_priceguide_products_merges_printings() -> None:
 
     assert len(products) == 1
     assert products[0]["foilings"] == ["Foil", "Normal"]
-    assert len(products[0]["priceGuide"]) == 2
     assert products[0]["productLineId"] == 3
     assert products[0]["setId"] == 99
     assert "imageUrl" not in products[0]
-    assert "sales" not in products[0]["priceGuide"][0]
-    assert "tcgplayerProductConditionId" not in products[0]["priceGuide"][0]
+    assert "priceGuide" not in products[0]
+    assert "lowPrice" not in products[0]
+    assert "marketPrice" not in products[0]
     compact = compact_product(products[0])
     assert compact["tcgplayerProductId"] == 123
     assert "imageUrl" not in compact
@@ -111,16 +111,13 @@ def test_apply_search_product_metadata_preserves_custom_attributes() -> None:
     assert product["metadata"]["customAttributes"]["traits"] == "Official;Imperial"
 
 
-def test_apply_product_details_adds_skus_to_matching_priceguide_rows_and_multiple_images() -> None:
+def test_apply_product_details_adds_skus_and_multiple_images() -> None:
     product = {
         "tcgplayerProductId": 100191,
         "name": "Jace, Vryn's Prodigy",
         "productLineId": 1,
         "setId": 1512,
         "imageUrls": ["https://tcgplayer-cdn.tcgplayer.com/product/100191_in_1000x1000.jpg"],
-        "priceGuide": [
-            {"condition": "Near Mint Foil", "printing": "Foil", "lowPrice": 1.0, "marketPrice": 2.0}
-        ],
     }
 
     apply_product_details(
@@ -138,4 +135,4 @@ def test_apply_product_details_adds_skus_to_matching_priceguide_rows_and_multipl
         "https://tcgplayer-cdn.tcgplayer.com/product/100191_in_1000x1000.jpg",
         "https://tcgplayer-cdn.tcgplayer.com/product/100191_1_in_1000x1000.jpg",
     ]
-    assert product["priceGuide"][0]["tcgplayerSkuIds"] == [10]
+    assert product["skus"][0]["tcgplayerSkuId"] == 10

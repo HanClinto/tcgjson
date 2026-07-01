@@ -51,9 +51,13 @@ GET https://infinite-api.tcgplayer.com/priceguide/set/<setId>/cards/?rows=5000&p
 ```
 
 This is the fast path for many established games. It provides card products,
-collector numbers, rarity, printings, conditions, and price rows. It does not
-provide rich card metadata such as rules text for every game, SKU lists, formatted
-attributes, or multi-image counts.
+collector numbers, rarity, printings, conditions, and price rows. `tcgjson` uses
+the product identity and catalog fields from this endpoint, but intentionally
+strips price values from published release files. Weekly catalog snapshots are
+not a reliable source for current market pricing.
+
+It does not provide rich card metadata such as rules text for every game, SKU
+lists, formatted attributes, or multi-image counts.
 
 Observed caveat: newer product lines can return an empty payload here even when
 the same set has searchable card products. In those cases, use search fallback.
@@ -299,7 +303,7 @@ Recommended incremental lean behavior:
 1. Download the previous release's JSON files into `release-cache`.
 2. Reuse unchanged sets from each product line's `<slug>.full.json` cache file.
 3. For missing or refreshed sets, fetch priceguide rows and use search rows for
-  metadata or search-only fallback sets.
+  product identity, metadata, or search-only fallback sets.
 4. Store normalized metadata in the generated full JSON files, not raw search
   responses.
 

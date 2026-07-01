@@ -141,17 +141,19 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
                 "rarity": "Common",
                 "foilings": [],
                 "imageUrls": [],
-                "priceGuide": [],
+                "priceGuide": [{"condition": "Near Mint", "marketPrice": 1.0}],
             }
         ],
     }
     files = write_product_line_files(tmp_path, catalog)
     manifest = write_bulk_manifest(tmp_path, files)
+    full_catalog = json.loads((tmp_path / "pokemon.full.json").read_text(encoding="utf-8"))
 
     assert [item["type"] for item in manifest["data"]] == [
         "pokemon_catalog",
         "pokemon_catalog_full",
     ]
+    assert "priceGuide" not in full_catalog["products"][0]
     assert json.loads((tmp_path / "bulk-data.json").read_text())["object"] == "list"
     for item in manifest["data"]:
         assert (tmp_path / item["download_uri"]).stat().st_size == item["size"]
@@ -214,7 +216,7 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
                 "rarity": "Common",
                 "foilings": ["Normal"],
                 "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/100_in_1000x1000.jpg",
-                "priceGuide": [],
+                "priceGuide": [{"condition": "Near Mint", "marketPrice": 1.23}],
             }
         ],
     }
@@ -227,6 +229,7 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
     assert catalog["products"][0]["name"] == "Cached Card"
     assert catalog["products"][0]["imageUrls"] == ["https://tcgplayer-cdn.tcgplayer.com/product/100_in_1000x1000.jpg"]
     assert "imageUrl" not in catalog["products"][0]
+    assert "priceGuide" not in catalog["products"][0]
 
 
 def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
@@ -245,7 +248,6 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
                 "productLineId": 3,
                 "setId": 10,
                 "imageUrls": [],
-                "priceGuide": [],
             }
         ],
     }
@@ -267,7 +269,8 @@ def test_fetch_product_line_falls_back_to_search_when_priceguide_is_empty() -> N
     assert catalog["sets"][0]["productCount"] == 1
     assert catalog["products"][0]["name"] == "Overwhelming Barrage"
     assert catalog["products"][0]["collectorNumber"] == "092/252"
-    assert catalog["products"][0]["priceGuide"][0]["marketPrice"] == 0.63
+    assert "priceGuide" not in catalog["products"][0]
+    assert "marketPrice" not in catalog["products"][0]
     assert catalog["sets"][0]["searchMetadataProductCount"] == 1
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
 
@@ -335,7 +338,6 @@ def test_build_release_writes_metrics_file(tmp_path) -> None:
                 "rarity": "Common",
                 "foilings": ["Normal"],
                 "imageUrls": [],
-                "priceGuide": [],
             }
         ],
     }
@@ -374,7 +376,6 @@ def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> Non
                 "name": "Card",
                 "set": {"id": 10, "name": "Set"},
                 "imageUrls": [],
-                "priceGuide": [],
             }
         ],
     }

@@ -39,12 +39,11 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `setId`: TCGplayer set identifier matching the set table.
 - `collectorNumber` and `rarity`: normalized card catalog fields when available.
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
-- `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
 
 ## Product Field Coverage
 
-The schema profile observed 36 product fields across 1199 product records.
+The schema profile observed 29 product fields across 1199 product records.
 Population counts show how often a field had a non-empty value in this release.
 
 | Field | Types | Products | Populated | Example |
@@ -57,8 +56,7 @@ Population counts show how often a field had a non-empty value in this release.
 | `rarity` | string | 1199 / 1199 | 100% | `Promo` |
 | `foilings` | array | 1179 / 1199 | 98.33% | `["Foil"]` |
 | `imageUrls` | array | 1199 / 1199 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/663004_in_1000x1000.jpg"]` |
-| `metadata` | object | 1199 / 1199 | 100% | `{"rulesText": "A unit may have no more than one buff at a time.", "cardTypes": ["None"]...` |
-| `priceGuide` | array | 1199 / 1199 | 100% | `[{"condition": "", "printing": "", "lowPrice": 55.0, "marketPrice": 89.3, "medianPrice"...` |
+| `metadata` | object | 1199 / 1199 | 100% | `{"cardTypes": ["None"], "customAttributes": {"cardType": ["None"], "description": "A un...` |
 
 ## Game-Specific Metadata Coverage
 
