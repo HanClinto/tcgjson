@@ -495,7 +495,7 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
 A full catalog file is named `<slug>.full.json`. The compact companion is named `<slug>.json` and omits fields intended mainly for auditing or deeper integrations.
 
 <details>
-<summary>Example catalog object shape</summary>
+<summary>Example full catalog object shape</summary>
 
 ```json
 {
@@ -569,6 +569,75 @@ A full catalog file is named `<slug>.full.json`. The compact companion is named 
           "rarityDbName": "None"
         }
       }
+    }
+  ]
+}
+```
+
+</details>
+
+<details>
+<summary>Example compact catalog object shape</summary>
+
+```json
+{
+  "meta": {
+    "object": "tcgjson_compact_catalog",
+    "version": 1,
+    "source": "tcgplayer",
+    "sourceMode": "priceguide",
+    "generatedAt": "2026-06-29T23:33:01Z",
+    "productLine": "Digimon Card Game",
+    "slug": "digimon-card-game",
+    "setCount": 100,
+    "productCount": 35693,
+    "cache": {
+      "enabled": false,
+      "sourceGeneratedAt": "",
+      "reusedSetCount": 0,
+      "reusedSetCheckpointCount": 0,
+      "fetchedSetCount": 100,
+      "refreshRecentSetCount": 0
+    },
+    "metrics": {
+      "durationSeconds": 462.119,
+      "setsPerSecond": 0.216,
+      "productsPerSecond": 77.238
+    }
+  },
+  "sets": [
+    {
+      "tcgplayerSetId": 23012,
+      "name": "Across Time",
+      "urlName": "across-time",
+      "abbreviation": "BT-12",
+      "releaseDate": "2023-04-28T00:00:00",
+      "isSupplemental": false,
+      "productCount": 192,
+      "priceGuideRowCount": 0,
+      "detailErrorCount": 0,
+      "detailCacheHitCount": 0,
+      "detailFetchCount": 0,
+      "searchMetadataProductCount": 192,
+      "searchMetadataErrorCount": 0,
+      "source": "search",
+      "iconUrl": "https://tcgplayer-cdn.tcgplayer.com/set_icon/23012AcrossTime.png"
+    }
+  ],
+  "products": [
+    {
+      "tcgplayerProductId": 234508,
+      "name": "Release Special Booster Ver.1.0 Index Card (Player 1)",
+      "productLineId": 63,
+      "setId": 2733,
+      "collectorNumber": "",
+      "rarity": "None",
+      "foilings": [
+        "Normal"
+      ],
+      "imageUrls": [
+        "https://tcgplayer-cdn.tcgplayer.com/product/234508_in_1000x1000.jpg"
+      ]
     }
   ]
 }
@@ -656,6 +725,28 @@ A product is one catalog card/product record. Most integrations should start wit
       "rarityDbName": "None"
     }
   }
+}
+```
+
+</details>
+
+<details>
+<summary>Example compact product object</summary>
+
+```json
+{
+  "tcgplayerProductId": 234508,
+  "name": "Release Special Booster Ver.1.0 Index Card (Player 1)",
+  "productLineId": 63,
+  "setId": 2733,
+  "collectorNumber": "",
+  "rarity": "None",
+  "foilings": [
+    "Normal"
+  ],
+  "imageUrls": [
+    "https://tcgplayer-cdn.tcgplayer.com/product/234508_in_1000x1000.jpg"
+  ]
 }
 ```
 

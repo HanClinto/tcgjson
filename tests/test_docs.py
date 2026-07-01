@@ -169,12 +169,16 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "## Release Artifacts" not in index
     assert "<summary>Example bulk manifest object</summary>" in objects
     assert "<summary>Example bulk manifest item object</summary>" in objects
-    assert "<summary>Example catalog object shape</summary>" in objects
+    assert "<summary>Example full catalog object shape</summary>" in objects
+    assert "<summary>Example compact catalog object shape</summary>" in objects
     assert "<summary>Example full set object</summary>" in objects
     assert "<summary>Example full product object</summary>" in objects
-    assert objects.index("<summary>Example catalog object shape</summary>") < objects.index("| `meta` | Build metadata for the catalog.")
+    assert "<summary>Example compact product object</summary>" in objects
+    assert objects.index("<summary>Example full catalog object shape</summary>") < objects.index("| `meta` | Build metadata for the catalog.")
+    assert objects.index("<summary>Example compact catalog object shape</summary>") < objects.index("| `meta` | Build metadata for the catalog.")
     assert objects.index("<summary>Example full set object</summary>") < objects.index("| `tcgplayerSetId` | TCGplayer set identifier.")
     assert objects.index("<summary>Example full product object</summary>") < objects.index("| `tcgplayerProductId` | TCGplayer product identifier.")
+    assert objects.index("<summary>Example compact product object</summary>") < objects.index("| `tcgplayerProductId` | TCGplayer product identifier.")
     assert '"products": [' in objects
     assert '"priceGuide":' not in objects
     assert '"lowPrice":' not in objects

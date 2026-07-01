@@ -10,6 +10,7 @@ from urllib.parse import quote, quote_plus
 import requests
 
 from .atomic import atomic_write_text
+from .bulk import compact_catalog
 from .normalize import compact_product
 
 
@@ -273,7 +274,8 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "",
         "A full catalog file is named `<slug>.full.json`. The compact companion is named `<slug>.json` and omits fields intended mainly for auditing or deeper integrations.",
         "",
-        *_json_details("Example catalog object shape", _catalog_object_example(example_catalog, example_set, example_product)),
+        *_json_details("Example full catalog object shape", _catalog_object_example(example_catalog, example_set, example_product, compact=False)),
+        *_json_details("Example compact catalog object shape", _catalog_object_example(example_catalog, example_set, example_product, compact=True)),
         _field_table(example_catalog, ["meta", "sets", "products"]),
         "",
         "## Set Object",
@@ -288,6 +290,7 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "A product is one catalog card/product record. Most integrations should start with `tcgplayerProductId`, `name`, `setId`, `collectorNumber`, `rarity`, and `imageUrls`.",
         "",
         *_json_details("Example full product object", _without_price_fields(example_product)),
+        *_json_details("Example compact product object", compact_product(_without_price_fields(example_product)) if example_product else {}),
         _field_table(example_product, ["tcgplayerProductId", "name", "productLineId", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "skus"]),
         "",
         "## Pricing",
@@ -297,14 +300,15 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
     return _write(path, lines)
 
 
-def _catalog_object_example(catalog: dict[str, Any], set_row: dict[str, Any], product: dict[str, Any]) -> dict[str, Any]:
+def _catalog_object_example(catalog: dict[str, Any], set_row: dict[str, Any], product: dict[str, Any], *, compact: bool) -> dict[str, Any]:
     if not catalog:
         return {}
-    return {
+    example = {
         "meta": catalog.get("meta", {}),
         "sets": [set_row] if set_row else [],
         "products": [_without_price_fields(product)] if product else [],
     }
+    return compact_catalog(example) if compact else example
 
 
 def _json_details(summary: str, value: Any) -> list[str]:
