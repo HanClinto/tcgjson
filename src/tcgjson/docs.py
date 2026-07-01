@@ -1,6 +1,7 @@
 """Generate source-controlled Markdown documentation from release artifacts."""
 from __future__ import annotations
 
+import html
 import json
 from pathlib import Path
 from typing import Any
@@ -402,9 +403,9 @@ def _write_game_page(
         for product in recently_added_products:
             product_name = product.get("name", "")
             set_name = product.get("setName", "")
-            product_link = _tcgplayer_product_link(product, meta.get("productLine", ""), product_name, set_name)
+            product_link = _card_preview_link(product, meta.get("productLine", ""), product_name, set_name)
             lines.append(
-                f"| [{_escape_table(product_name)}]({product_link}) | {_escape_table(set_name)} | "
+                f"| {product_link} | {_escape_table(set_name)} | "
                 f"{_escape_table(_date_only(product.get('setReleaseDate', '')))} | {added_to_tcgjson} | {_escape_table(product.get('rarity', ''))} |"
             )
     lines.extend(
@@ -788,6 +789,27 @@ def _tcgplayer_product_link(product: dict[str, Any], product_line: str, product_
     if product_id:
         return f"https://www.tcgplayer.com/product/{product_id}"
     return _tcgplayer_card_search_link(product_line, product_name, set_name)
+
+
+def _card_preview_link(product: dict[str, Any], product_line: str, product_name: str, set_name: str) -> str:
+    href = _tcgplayer_product_link(product, product_line, product_name, set_name)
+    payload = {
+        "tcgplayerProductId": product.get("tcgplayerProductId"),
+        "name": product_name,
+        "productLine": product_line,
+        "setName": set_name,
+        "collectorNumber": product.get("collectorNumber"),
+        "rarity": product.get("rarity"),
+        "foilings": product.get("foilings") or [],
+        "imageUrl": next(iter(product.get("imageUrls") or []), ""),
+        "metadata": product.get("metadata") or {},
+    }
+    encoded = quote(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), safe="")
+    label = html.escape(str(product_name)).replace("|", "&#124;")
+    return (
+        f'<a class="tcg-card-link" href="{html.escape(href, quote=True)}" '
+        f'data-card-preview="{encoded}">{label}</a>'
+    )
 
 
 def _write(path: Path, lines: list[str]) -> Path:

@@ -35,6 +35,9 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
         "# Pokemon\n\n- Compact catalog: [pokemon.json](https://example.test/pokemon.json)\n\n"
         "<details>\n<summary>Example compact product object</summary>\n\n```json\n{\n  \"name\": \"Alakazam\"\n}\n```\n\n</details>\n\n"
         "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)\n\n"
+        "| Card | Set | Rarity |\n"
+        "| --- | --- | --- |\n"
+        "| <a class=\"tcg-card-link\" href=\"https://www.tcgplayer.com/product/42382\" data-card-preview=\"%7B%22name%22%3A%22Alakazam%22%2C%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22%7D\">Alakazam</a> | Base Set | Holo Rare |\n\n"
         "| Banner | Set | Products | TCGplayer |\n"
         "| --- | --- | ---: | --- |\n"
         "| ![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | Base Set | [1](https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set) | [Search](https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set) |\n",
@@ -60,12 +63,16 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert "tcgjson Catalog Docs" in index
     assert '<link rel="stylesheet" href="assets/site.css">' in index
     assert '<link rel="stylesheet" href="../assets/site.css">' in game
+    assert '<script src="assets/card-preview.js" defer></script>' in index
+    assert '<script src="../assets/card-preview.js" defer></script>' in game
     assert '<a class="project-link" href="https://github.com/HanClinto/tcgjson">View project on GitHub</a>' in index
     assert '<details>' in game
     assert '<summary>Example compact product object</summary>' in game
     assert '<pre><code class="language-json">' in game
     assert '&quot;name&quot;: &quot;Alakazam&quot;' in game
     assert '<img src="https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png" alt="" loading="lazy" referrerpolicy="no-referrer" onload="this.dataset.loaded=\'true\'" onerror="this.remove()">' in game
+    assert '<a class="tcg-card-link" href="https://www.tcgplayer.com/product/42382" data-card-preview="%7B%22name%22%3A%22Alakazam%22%2C%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22%7D">Alakazam</a>' in game
+    assert (output_dir / "assets" / "card-preview.js").exists()
     assert '<div class="table-wrap banner-table"><table>' in game
     assert '<th>Banner</th>' not in game
     assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in game

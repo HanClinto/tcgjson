@@ -24,6 +24,7 @@ class Page:
 INLINE_CODE_RE = re.compile(r"`([^`]+)`")
 IMAGE_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+CARD_LINK_RE = re.compile(r'<a class="tcg-card-link" href="[^"]+" data-card-preview="[^"]+">.*?</a>')
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$")
 PROJECT_URL = "https://github.com/HanClinto/tcgjson"
 
@@ -249,6 +250,85 @@ details pre {
   margin: 0 0.78rem 0.78rem;
 }
 
+.tcg-card-link {
+  font-weight: 700;
+  text-decoration-style: dotted;
+}
+
+.tcg-card-popover {
+  position: fixed;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: minmax(7.8rem, 10.5rem) minmax(14rem, 22rem);
+  max-width: min(36rem, calc(100vw - 1.5rem));
+  overflow: hidden;
+  border: 1px solid rgba(48, 39, 28, 0.18);
+  border-radius: 0.55rem;
+  background: #fffaf0;
+  box-shadow: 0 22px 48px rgba(58, 43, 24, 0.24);
+  color: #201d18;
+  font-family: Avenir Next, Avenir, Segoe UI, sans-serif;
+}
+
+.tcg-card-popover[hidden] {
+  display: none;
+}
+
+.tcg-card-popover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 13rem;
+  object-fit: cover;
+  background: var(--code-bg);
+}
+
+.tcg-card-popover-body {
+  padding: 0.9rem 1rem;
+}
+
+.tcg-card-popover-title {
+  margin: 0;
+  color: #17130f;
+  font-size: 1.02rem;
+  font-weight: 800;
+  line-height: 1.22;
+}
+
+.tcg-card-popover-subtitle {
+  margin: 0.18rem 0 0.7rem;
+  color: #676056;
+  font-size: 0.84rem;
+}
+
+.tcg-card-popover dl {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.28rem 0.7rem;
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.tcg-card-popover dt {
+  color: #514838;
+  font-weight: 800;
+}
+
+.tcg-card-popover dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.tcg-card-popover-text {
+  margin-top: 0.45rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid #e0d7c8;
+  color: #2f2a23;
+  line-height: 1.35;
+  white-space: pre-line;
+}
+
 .table-wrap {
   overflow: auto;
   margin: 1rem 0 1.5rem;
@@ -438,6 +518,14 @@ blockquote,
     padding: 0.95rem;
   }
 
+  .tcg-card-popover {
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+  }
+
+  .tcg-card-popover img {
+    min-height: 9rem;
+  }
+
   h1 {
     font-size: 2rem;
   }
@@ -451,6 +539,118 @@ blockquote,
     font-size: 0.98rem;
   }
 }
+""".strip()
+
+
+CARD_PREVIEW_SCRIPT = r"""
+(() => {
+  const links = document.querySelectorAll(".tcg-card-link[data-card-preview]");
+  if (!links.length) return;
+
+  const popover = document.createElement("aside");
+  popover.className = "tcg-card-popover";
+  popover.hidden = true;
+  document.body.appendChild(popover);
+
+  const decodePayload = (value) => {
+    try {
+      return JSON.parse(decodeURIComponent(value));
+    } catch {
+      return null;
+    }
+  };
+
+  const labelFor = (key) => key
+    .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+    .replace(/^./, (letter) => letter.toUpperCase());
+
+  const textValue = (value) => {
+    if (Array.isArray(value)) return value.map(textValue).filter(Boolean).join(", ");
+    if (value && typeof value === "object") return JSON.stringify(value);
+    if (value == null) return "";
+    return String(value)
+      .replace(/<br\s*\/?>/gi, "\n")
+      .replace(/<[^>]*>/g, "")
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
+  };
+
+  const detailRows = (card) => {
+    const metadata = card.metadata && typeof card.metadata === "object" ? card.metadata : {};
+    const rows = [
+      ["Product ID", card.tcgplayerProductId],
+      ["Set", card.setName],
+      ["Collector #", card.collectorNumber],
+      ["Rarity", card.rarity],
+      ["Foilings", card.foilings],
+    ];
+    const metadataRows = Object.entries(metadata)
+      .filter(([key, value]) => !["description", "flavorText", "oracleText", "rulesText", "text"].includes(key) && textValue(value))
+      .slice(0, 6)
+      .map(([key, value]) => [labelFor(key), value]);
+    return rows.concat(metadataRows).filter(([, value]) => textValue(value));
+  };
+
+  const rulesText = (card) => {
+    const metadata = card.metadata && typeof card.metadata === "object" ? card.metadata : {};
+    return textValue(metadata.oracleText || metadata.rulesText || metadata.description || metadata.text);
+  };
+
+  const render = (card) => {
+    const image = card.imageUrl
+      ? `<img src="${escapeHtml(card.imageUrl)}" alt="" referrerpolicy="no-referrer">`
+      : "";
+    const subtitle = [card.productLine, card.rarity].filter(Boolean).join(" - ");
+    const rows = detailRows(card)
+      .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(textValue(value))}</dd>`)
+      .join("");
+    const text = rulesText(card);
+    popover.innerHTML = `${image}<div class="tcg-card-popover-body"><h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl>${text ? `<p class="tcg-card-popover-text">${escapeHtml(text)}</p>` : ""}</div>`;
+  };
+
+  const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+  }[char]));
+
+  const position = (link) => {
+    const rect = link.getBoundingClientRect();
+    const gap = 12;
+    const width = popover.offsetWidth;
+    const height = popover.offsetHeight;
+    let left = rect.right + gap;
+    if (left + width > window.innerWidth - gap) left = rect.left - width - gap;
+    left = Math.max(gap, Math.min(left, window.innerWidth - width - gap));
+    let top = rect.top - 18;
+    if (top + height > window.innerHeight - gap) top = window.innerHeight - height - gap;
+    top = Math.max(gap, top);
+    popover.style.left = `${left}px`;
+    popover.style.top = `${top}px`;
+  };
+
+  const show = (link) => {
+    const card = decodePayload(link.dataset.cardPreview || "");
+    if (!card) return;
+    render(card);
+    popover.hidden = false;
+    position(link);
+  };
+
+  const hide = () => {
+    popover.hidden = true;
+  };
+
+  links.forEach((link) => {
+    link.addEventListener("mouseenter", () => show(link));
+    link.addEventListener("focus", () => show(link));
+    link.addEventListener("mouseleave", hide);
+    link.addEventListener("blur", hide);
+  });
+  window.addEventListener("scroll", hide, { passive: true });
+  window.addEventListener("resize", hide);
+})();
 """.strip()
 
 
@@ -468,6 +668,7 @@ def main() -> int:
     args.output.mkdir(parents=True, exist_ok=True)
     (args.output / "assets").mkdir(parents=True, exist_ok=True)
     (args.output / "assets" / "site.css").write_text(STYLE + "\n", encoding="utf-8")
+    (args.output / "assets" / "card-preview.js").write_text(CARD_PREVIEW_SCRIPT + "\n", encoding="utf-8")
 
     for page in pages:
         page.output.parent.mkdir(parents=True, exist_ok=True)
@@ -524,6 +725,7 @@ def render_page(page: Page, markdown: str, pages: list[Page]) -> str:
     content = markdown_to_html(markdown, page.source.parent)
     nav = render_nav(page, pages)
     css_path = "../assets/site.css" if "/" in page.href else "assets/site.css"
+    script_path = "../assets/card-preview.js" if "/" in page.href else "assets/card-preview.js"
     return f"""<!doctype html>
 <html lang=\"en\">
 <head>
@@ -549,6 +751,7 @@ def render_page(page: Page, markdown: str, pages: list[Page]) -> str:
       <footer class=\"footer\">Generated from source-controlled Markdown. JSON catalog files are published through GitHub Releases. <a href=\"{PROJECT_URL}\">View the project on GitHub</a>.</footer>
     </main>
   </div>
+  <script src="{script_path}" defer></script>
 </body>
 </html>
 """
@@ -686,8 +889,13 @@ def split_table_row(line: str) -> list[str]:
 
 
 def render_inline(text: str, source_dir: Path) -> str:
+  card_link_values: list[str] = []
   code_values: list[str] = []
   image_values: list[str] = []
+
+  def store_card_link(match: re.Match[str]) -> str:
+    card_link_values.append(match.group(0))
+    return f"\u0000CARD{len(card_link_values) - 1}\u0000"
 
   def store_code(match: re.Match[str]) -> str:
     code_values.append(f"<code>{html.escape(match.group(1))}</code>")
@@ -701,6 +909,7 @@ def render_inline(text: str, source_dir: Path) -> str:
     )
     return f"\u0000IMAGE{len(image_values) - 1}\u0000"
 
+  text = CARD_LINK_RE.sub(store_card_link, text)
   text = INLINE_CODE_RE.sub(store_code, text)
   text = IMAGE_RE.sub(store_image, text)
   text = html.escape(text)
@@ -717,6 +926,8 @@ def render_inline(text: str, source_dir: Path) -> str:
     text = text.replace(f"\u0000IMAGE{index}\u0000", value)
   for index, value in enumerate(code_values):
     text = text.replace(f"\u0000CODE{index}\u0000", value)
+  for index, value in enumerate(card_link_values):
+    text = text.replace(f"\u0000CARD{index}\u0000", value)
   return text
 
 
