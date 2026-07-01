@@ -505,7 +505,7 @@ def _resource_section(resources: dict[str, Any]) -> list[str]:
 
 
 def _catalog_example_blocks(catalog: dict[str, Any]) -> list[str]:
-    product = next(iter(catalog.get("products", [])), {})
+    product = _without_price_fields(next(iter(catalog.get("products", [])), {}))
     if not product:
         return []
     compact_example = compact_product(product)
@@ -794,6 +794,13 @@ def _markdown_example(value: Any) -> str:
     if len(text) > 90:
         text = text[:87] + "..."
     return f"`{text}`"
+
+
+def _without_price_fields(product: dict[str, Any]) -> dict[str, Any]:
+    cleaned = dict(product)
+    for field in ("priceGuide", "lowPrice", "marketPrice", "medianPrice"):
+        cleaned.pop(field, None)
+    return cleaned
 
 
 def _json_example(value: Any) -> str:

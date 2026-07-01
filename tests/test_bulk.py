@@ -190,6 +190,29 @@ def test_write_product_schema_files_profiles_full_catalog_fields(tmp_path) -> No
     assert any(field["path"] == "metadata.rulesText" for field in profile["fields"])
 
 
+def test_write_product_schema_files_omits_price_fields(tmp_path) -> None:
+    catalog = {
+        "meta": {"productLine": "Pokemon", "slug": "pokemon"},
+        "products": [
+            {
+                "tcgplayerProductId": 10,
+                "name": "Card",
+                "productLineId": 3,
+                "setId": 1,
+                "priceGuide": [{"marketPrice": 1.23}],
+                "marketPrice": 1.23,
+            }
+        ],
+    }
+
+    write_product_schema_files(tmp_path, catalog)
+
+    profile = json.loads((tmp_path / "pokemon.schema.json").read_text(encoding="utf-8"))
+    field_paths = {field["path"] for field in profile["fields"]}
+    assert "priceGuide" not in field_paths
+    assert "marketPrice" not in field_paths
+
+
 def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
     cached = {
         "meta": {

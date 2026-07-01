@@ -632,6 +632,7 @@ def write_metrics_file(output_dir: Path, metrics: dict[str, Any]) -> dict[str, A
 
 def write_product_schema_files(output_dir: Path, catalog: dict[str, Any]) -> list[dict[str, Any]]:
     output_dir.mkdir(parents=True, exist_ok=True)
+    catalog = _without_price_fields(catalog)
     slug = catalog["meta"]["slug"]
     product_line = catalog["meta"]["productLine"]
     profile = product_schema_profile(catalog)
