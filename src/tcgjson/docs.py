@@ -209,10 +209,6 @@ def _write_index(
             "Catalogs are rebuilt automatically on GitHub Actions once per week. The goal is to scrape TCGplayer's public catalog endpoints once, package the results into bulk downloads, and reduce repeated API traffic from people who only need semi-regular catalog snapshots.",
             "",
             "This is intentionally not an hourly or daily scraper. If you need card pricing or near-real-time market data, tcgjson is not the right source.",
-            "",
-            "## Release Artifacts",
-            "",
-            f"The current manifest lists {len(manifest.get('data', []))} JSON artifacts. Start with `bulk-data.json` in the release to discover filenames, sizes, hashes, and stable file types.",
         ]
     )
     return _write(path, lines)

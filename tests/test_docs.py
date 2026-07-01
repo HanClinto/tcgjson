@@ -138,6 +138,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "- Practical downloads: inspired by [mtgjson](https://mtgjson.com/) and [Scryfall bulk data](https://scryfall.com/docs/api/bulk-data)" in index
     assert "- Reviewable formats: these docs are generated from source each release to document the format of game-specific information available for each card." in index
     assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
+    assert "## Release Artifacts" not in index
     assert "TCGplayer" in game
     assert "`games.json` is the discovery/support report behind this page; `bulk-data.json` is the release manifest" in games_index
     assert "| Game | TCGplayer Category ID | Sets | Products |" in games_index
