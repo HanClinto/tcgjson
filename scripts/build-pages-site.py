@@ -417,11 +417,11 @@ th:nth-child(2) {
 
 .banner-table tbody tr {
   background-image:
-    linear-gradient(90deg, rgba(45, 41, 34, 0.58), rgba(45, 41, 34, 0.2) 10rem, rgba(240, 229, 212, 0.38) 17rem, #f0e5d4 25rem),
+    linear-gradient(90deg, rgba(45, 41, 34, 0.66), rgba(45, 41, 34, 0.34) 12rem, rgba(240, 229, 212, 0.72) 24rem, #f0e5d4 34rem),
     var(--banner-image, none);
   background-position: left center, left center;
   background-repeat: no-repeat;
-  background-size: 100% 100%, 26rem auto;
+  background-size: 100% 100%, 34rem auto;
 }
 
 .banner-table tbody td {
@@ -438,14 +438,31 @@ th:nth-child(2) {
 }
 
 .banner-table tbody td:first-child a {
+  display: inline-block;
+  padding: 0.16rem 0.42rem 0.18rem;
+  border: 1px solid rgba(255, 247, 232, 0.42);
+  border-radius: 0.34rem;
+  background: rgba(35, 31, 25, 0.62);
+  box-shadow: 0 2px 7px rgba(35, 31, 25, 0.28);
   color: #fff7e8;
   text-decoration-color: rgba(255, 247, 232, 0.55);
   text-shadow: inherit;
 }
 
 .banner-table tbody td:first-child a:hover {
+  background: rgba(35, 31, 25, 0.74);
   color: #fffef7;
   text-decoration-color: currentColor;
+}
+
+.banner-table tbody td:not(:first-child),
+.banner-table tbody td:not(:first-child) a {
+  color: #241f18;
+  font-weight: 700;
+  text-shadow:
+    0 0 2px #f0e5d4,
+    0 0 5px #f0e5d4,
+    0 1px 1px rgba(255, 252, 245, 0.82);
 }
 
 td img {
