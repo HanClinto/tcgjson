@@ -24,7 +24,7 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     games_dir = docs_dir / "games"
     games_dir.mkdir(parents=True)
     (docs_dir / "README.md").write_text(
-        "# tcgjson Catalog Docs\n\nWelcome to [objects](objects.md).\n\n"
+        "# tcgjson Catalog Docs\n\nWelcome to [objects](objects.md).\n\n## Current Catalogs\n\n"
         "| Banner | Game | Products |\n"
         "| --- | --- | ---: |\n"
         "| ![Pokemon](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | [Pokemon](games/pokemon.md) | 1 |\n",
@@ -64,6 +64,10 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     styles = (output_dir / "assets" / "site.css").read_text(encoding="utf-8")
 
     assert "tcgjson Catalog Docs" in index
+    assert '<h1 id="tcgjson-catalog-docs"><a class="heading-anchor" href="#tcgjson-catalog-docs" aria-label="Link to tcgjson Catalog Docs">#</a>tcgjson Catalog Docs</h1>' in index
+    assert '<h2 id="current-catalogs"><a class="heading-anchor" href="#current-catalogs" aria-label="Link to Current Catalogs">#</a>Current Catalogs</h2>' in index
+    assert ".heading-anchor" in styles
+    assert "h2:hover .heading-anchor" in styles
     assert '<link rel="stylesheet" href="assets/site.css">' in index
     assert '<link rel="stylesheet" href="../assets/site.css">' in game
     assert '<script src="assets/card-preview.js" defer></script>' in index

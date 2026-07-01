@@ -161,10 +161,10 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "| ![Pokemon](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | [Pokemon](games/pokemon.md) | 1 | 1 |" in index
     assert "tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games listed on TCGplayer." in index
     assert "## Project Goals" in index
-    assert "- Reliable bulk data: dependable card, set, and metadata snapshots that other sites and applications can build on." in index
-    assert "- Automatic updates: catalog refreshes run on [GitHub Actions](https://github.com/HanClinto/tcgjson/actions/workflows/weekly-release.yml)" in index
-    assert "- Practical downloads: inspired by [mtgjson](https://mtgjson.com/) and [Scryfall bulk data](https://scryfall.com/docs/api/bulk-data)" in index
-    assert "- Reviewable formats: these docs are generated from source each release to document the format of game-specific information available for each card." in index
+    assert "- **Reliable bulk data:** dependable card, set, and metadata snapshots that other sites and applications can build on." in index
+    assert "- **Automatic updates:** catalog refreshes run on [GitHub Actions](https://github.com/HanClinto/tcgjson/actions/workflows/weekly-release.yml)" in index
+    assert "- **Practical downloads:** inspired by [mtgjson](https://mtgjson.com/) and [Scryfall bulk data](https://scryfall.com/docs/api/bulk-data)" in index
+    assert "- **Reviewable formats:** these docs are generated from source each release to document the format of game-specific information available for each card." in index
     assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
     assert "## Release Artifacts" not in index
     assert "<summary>Example bulk manifest object</summary>" in objects
