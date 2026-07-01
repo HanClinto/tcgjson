@@ -13,9 +13,11 @@ The shape is inspired by Scryfall bulk data and MTGJSON:
 - compact files for common catalog use;
 - full files that keep product, price-guide, and optional SKU-level identifiers.
 
-Human-readable catalog documentation is generated into [docs/catalog](docs/catalog/README.md).
-Start there for object explanations, product-line pages, release history, and
-links back to the weekly JSON releases.
+Human-readable catalog documentation is generated into [docs/catalog](docs/catalog/README.md)
+and published as a styled GitHub Pages site at
+[hanclinto.github.io/tcgjson](https://hanclinto.github.io/tcgjson/). Start there
+for object explanations, product-line pages, release history, and links back to
+the weekly JSON releases.
 
 ## Current Scope
 
@@ -155,6 +157,9 @@ tcgjson games --output games.md --json-output games.json
 
 # Generate human-readable docs from a completed release directory.
 tcgjson docs generate --release-dir release --output docs/catalog
+
+# Build the styled GitHub Pages site from the generated Markdown docs.
+python scripts/build-pages-site.py --input docs/catalog --output _site
 ```
 
 ## Product-Line Support
