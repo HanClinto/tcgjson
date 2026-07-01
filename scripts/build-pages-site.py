@@ -259,8 +259,9 @@ details pre {
   position: fixed;
   z-index: 20;
   display: grid;
-  grid-template-columns: minmax(7.8rem, 10.5rem) minmax(14rem, 22rem);
-  max-width: min(36rem, calc(100vw - 1.5rem));
+  grid-template-columns: minmax(6.5rem, 8.5rem) minmax(12rem, 18rem);
+  max-width: min(28rem, calc(100vw - 1.5rem));
+  max-height: calc(100vh - 1.5rem);
   overflow: hidden;
   border: 1px solid rgba(48, 39, 28, 0.18);
   border-radius: 0.55rem;
@@ -277,20 +278,22 @@ details pre {
 .tcg-card-popover img {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 13rem;
-  object-fit: cover;
-  background: var(--code-bg);
+  height: auto;
+  max-height: calc(100vh - 1.5rem);
+  object-fit: contain;
+  background: #211a14;
 }
 
 .tcg-card-popover-body {
-  padding: 0.9rem 1rem;
+  max-height: calc(100vh - 1.5rem);
+  overflow: auto;
+  padding: 0.72rem 0.82rem;
 }
 
 .tcg-card-popover-title {
   margin: 0;
   color: #17130f;
-  font-size: 1.02rem;
+  font-size: 0.92rem;
   font-weight: 800;
   line-height: 1.22;
 }
@@ -298,15 +301,15 @@ details pre {
 .tcg-card-popover-subtitle {
   margin: 0.18rem 0 0.7rem;
   color: #676056;
-  font-size: 0.84rem;
+  font-size: 0.78rem;
 }
 
 .tcg-card-popover dl {
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr);
-  gap: 0.28rem 0.7rem;
+  gap: 0.24rem 0.58rem;
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 0.76rem;
 }
 
 .tcg-card-popover dt {
@@ -320,11 +323,26 @@ details pre {
   overflow-wrap: anywhere;
 }
 
+.tcg-card-popover-list {
+  margin: 0.08rem 0 0;
+  padding-left: 1rem;
+}
+
+.tcg-card-popover-list li {
+  font-size: inherit;
+  line-height: 1.35;
+}
+
+.tcg-card-popover-list strong {
+  color: #514838;
+}
+
 .tcg-card-popover-text {
   margin-top: 0.45rem;
   padding-top: 0.45rem;
   border-top: 1px solid #e0d7c8;
   color: #2f2a23;
+  font-size: 0.76rem;
   line-height: 1.35;
   white-space: pre-line;
 }
@@ -519,11 +537,7 @@ blockquote,
   }
 
   .tcg-card-popover {
-    grid-template-columns: 6.5rem minmax(0, 1fr);
-  }
-
-  .tcg-card-popover img {
-    min-height: 9rem;
+    grid-template-columns: 5.8rem minmax(0, 1fr);
   }
 
   h1 {
@@ -566,13 +580,38 @@ CARD_PREVIEW_SCRIPT = r"""
 
   const textValue = (value) => {
     if (Array.isArray(value)) return value.map(textValue).filter(Boolean).join(", ");
-    if (value && typeof value === "object") return JSON.stringify(value);
+    if (value && typeof value === "object") {
+      return Object.entries(value)
+        .map(([key, nestedValue]) => `${labelFor(key)}: ${textValue(nestedValue)}`)
+        .filter((line) => !line.endsWith(": "))
+        .join(", ");
+    }
     if (value == null) return "";
     return String(value)
       .replace(/<br\s*\/?>/gi, "\n")
       .replace(/<[^>]*>/g, "")
       .replace(/\n{3,}/g, "\n\n")
       .trim();
+  };
+
+  const renderValue = (value, depth = 0) => {
+    if (Array.isArray(value)) {
+      const nested = value.map((item) => renderValue(item, depth + 1)).filter(Boolean);
+      if (!nested.length) return "";
+      if (nested.every((item) => !item.startsWith("<"))) return escapeHtml(nested.join(", "));
+      return `<ul class="tcg-card-popover-list">${nested.map((item) => `<li>${item}</li>`).join("")}</ul>`;
+    }
+    if (value && typeof value === "object") {
+      const items = Object.entries(value)
+        .map(([key, nestedValue]) => {
+          const rendered = renderValue(nestedValue, depth + 1);
+          return rendered ? `<li><strong>${escapeHtml(labelFor(key))}:</strong> ${rendered}</li>` : "";
+        })
+        .filter(Boolean)
+        .join("");
+      return items ? `<ul class="tcg-card-popover-list">${items}</ul>` : "";
+    }
+    return escapeHtml(textValue(value));
   };
 
   const detailRows = (card) => {
@@ -602,7 +641,7 @@ CARD_PREVIEW_SCRIPT = r"""
       : "";
     const subtitle = [card.productLine, card.rarity].filter(Boolean).join(" - ");
     const rows = detailRows(card)
-      .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(textValue(value))}</dd>`)
+      .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${renderValue(value)}</dd>`)
       .join("");
     const text = rulesText(card);
     popover.innerHTML = `${image}<div class="tcg-card-popover-body"><h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl>${text ? `<p class="tcg-card-popover-text">${escapeHtml(text)}</p>` : ""}</div>`;
