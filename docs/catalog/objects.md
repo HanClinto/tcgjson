@@ -29,6 +29,8 @@ A set summarizes a TCGplayer set/category grouping. Set pages link back to TCGpl
 | `tcgplayerSetId` | TCGplayer set identifier. | `23012` |
 | `name` | Display name from TCGplayer. | `Across Time` |
 | `urlName` | TCGplayer URL-friendly name when exposed. | `across-time` |
+| `releaseDate` | Set release date from TCGplayer when exposed. | `2023-04-28T00:00:00` |
+| `iconUrl` | Linked TCGplayer CDN set banner URL derived from the set ID and clean set name. | `https://tcgplayer-cdn.tcgplayer.com/set_icon/23012AcrossTime.png` |
 | `productCount` | Number of products associated with this object. | `192` |
 | `priceGuideRowCount` | Number of raw price-guide rows observed for the set. | `0` |
 | `source` | Endpoint path used for this set, usually priceguide or search. | `search` |

@@ -4,12 +4,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote_plus
+from urllib.parse import quote, quote_plus
 
 from .atomic import atomic_write_text
 
 
 CATALOG_DOCS_VERSION = 1
+PROJECT_URL = "https://github.com/HanClinto/tcgjson"
 
 
 def generate_catalog_docs(
@@ -29,7 +30,7 @@ def generate_catalog_docs(
     game_dir.mkdir(parents=True, exist_ok=True)
 
     catalog_items = [item for item in manifest.get("data", []) if item.get("type", "").endswith("_catalog_full")]
-    catalogs = [_load_json(release_dir / item["download_uri"]) for item in catalog_items]
+    catalogs = [_catalog_with_set_icon_urls(_load_json(release_dir / item["download_uri"])) for item in catalog_items]
     catalogs.sort(key=lambda catalog: catalog.get("meta", {}).get("productLine", ""))
     schema_profiles = _load_schema_profiles(release_dir, catalogs)
 
@@ -48,6 +49,7 @@ def generate_catalog_docs(
         )
     )
     written.append(_write_games_index(output_dir / "games.md", games, catalogs, release_tag, release_url))
+    games_by_slug = {game.get("slug"): game for game in games.get("games", [])}
     for catalog in catalogs:
         slug = catalog["meta"]["slug"]
         written.append(
@@ -56,6 +58,8 @@ def generate_catalog_docs(
                 catalog,
                 metrics,
                 schema_profiles.get(slug, {}),
+                games_by_slug.get(slug, {}),
+                previous_release_dir,
                 release_tag,
                 release_url,
             )
@@ -77,6 +81,48 @@ def _load_schema_profiles(release_dir: Path, catalogs: list[dict[str, Any]]) -> 
     return profiles
 
 
+def _catalog_with_set_icon_urls(catalog: dict[str, Any]) -> dict[str, Any]:
+    hydrated = dict(catalog)
+    hydrated["sets"] = [_set_with_icon_url(set_row) for set_row in catalog.get("sets", [])]
+    return hydrated
+
+
+def _set_with_icon_url(set_row: dict[str, Any]) -> dict[str, Any]:
+    if set_row.get("iconUrl"):
+        return set_row
+    hydrated = dict(set_row)
+    set_id = hydrated.get("tcgplayerSetId")
+    set_name = hydrated.get("name", "")
+    if set_id and set_name:
+        hydrated["iconUrl"] = _tcgplayer_set_icon_url(set_id, set_name)
+    return hydrated
+
+
+def _tcgplayer_set_icon_url(set_id: Any, set_name: str) -> str:
+    compact_name = _compact_set_icon_name(set_name)
+    if not compact_name:
+        return ""
+    return f"https://tcgplayer-cdn.tcgplayer.com/set_icon/{set_id}{compact_name}.png"
+
+
+def _compact_set_icon_name(value: str) -> str:
+    replacements = {
+        "&": "and",
+        "+": "plus",
+        "%": "pct",
+        ".com": "-dotcom",
+        ".net": "-dotnet",
+        ".org": "-dotorg",
+        ".biz": "-dotbiz",
+    }
+    text = value
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    for char in ":®@[](){}<>|#*`‛’′!?.\"'=/\\":
+        text = text.replace(char, "")
+    return "".join(text.split())
+
+
 def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, Any], manifest: dict[str, Any], release_tag: str, release_url: str) -> Path:
     lines = [
         "# tcgjson Catalog Docs",
@@ -91,6 +137,7 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
         "- [Object guide](objects.md) explains the catalog, set, product, price, and manifest shapes.",
         "- [Game index](games.md) lists supported and discovered TCGplayer product lines.",
         "- [Release history](release-history.md) summarizes each generated release and its changes.",
+        f"- [View the project on GitHub]({PROJECT_URL}) for source, issues, and release automation.",
         "",
         "## Current Catalogs",
         "",
@@ -162,7 +209,7 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "",
         "A set summarizes a TCGplayer set/category grouping. Set pages link back to TCGplayer search pages so a person can inspect the source storefront context.",
         "",
-        _field_table(example_set, ["tcgplayerSetId", "name", "urlName", "productCount", "priceGuideRowCount", "source"]),
+        _field_table(example_set, ["tcgplayerSetId", "name", "urlName", "releaseDate", "iconUrl", "productCount", "priceGuideRowCount", "source"]),
         "",
         "## Product Object",
         "",
@@ -274,6 +321,8 @@ def _write_game_page(
     catalog: dict[str, Any],
     metrics: dict[str, Any],
     schema_profile: dict[str, Any],
+    game: dict[str, Any],
+    previous_release_dir: Path | None,
     release_tag: str,
     release_url: str,
 ) -> Path:
@@ -283,7 +332,16 @@ def _write_game_page(
     cache = line_metrics.get("cache", {})
     sets = sorted(catalog.get("sets", []), key=lambda item: item.get("name", ""))
     products = catalog.get("products", [])
-    top_sets = sorted(sets, key=lambda item: int(item.get("productCount") or 0), reverse=True)[:12]
+    added_to_tcgjson = _release_reference(metrics, release_tag, release_url)
+    recent_sets = sorted(
+        sets,
+        key=lambda item: (str(item.get("releaseDate") or ""), int(item.get("tcgplayerSetId") or 0)),
+        reverse=True,
+    )[:12]
+    recently_added_products = _recently_added_products(
+        catalog,
+        previous_release_dir / f"{slug}.full.json" if previous_release_dir else None,
+    )
     lines = [
         f"# {meta.get('productLine', slug)}",
         "",
@@ -303,17 +361,38 @@ def _write_game_page(
         f"- Full catalog: {_download_link(f'{slug}.full.json', release_url)}",
         f"- Schema profile: {_download_link(f'{slug}.schema.json', release_url)}",
         "",
-        "## Largest Sets",
+        *_resource_section(game.get("resources", {})),
+        "## Recently Released Sets",
         "",
-        "| Set | Products | Source | TCGplayer |",
-        "| --- | ---: | --- | --- |",
+        "| Banner | Set | Release Date | Products | Source |",
+        "| --- | --- | --- | ---: | --- |",
     ]
-    for set_row in top_sets:
+    for set_row in recent_sets:
         set_name = set_row.get("name", "")
+        icon_url = set_row.get("iconUrl", "")
+        icon_cell = f"![{_escape_table(set_name)}]({icon_url})" if icon_url else ""
+        search_link = _tcgplayer_set_product_link(set_row, game.get("tcgplayerUrlName", ""), meta.get("productLine", ""), set_name)
         lines.append(
-            f"| {_escape_table(set_name)} | {set_row.get('productCount', 0)} | `{set_row.get('source', '')}` | "
-            f"[Search]({_tcgplayer_search_link(meta.get('productLine', ''), set_name)}) |"
+            f"| {icon_cell} | [{_escape_table(set_name)}]({search_link}) | {_escape_table(_date_only(set_row.get('releaseDate', '')))} | {set_row.get('productCount', 0)} | `{set_row.get('source', '')}` |"
         )
+    if recently_added_products:
+        lines.extend(
+            [
+                "",
+                "## Recently Added Cards",
+                "",
+                "| Card | Set | Set Release Date | Added To tcgjson | Rarity |",
+                "| --- | --- | --- | --- | --- |",
+            ]
+        )
+        for product in recently_added_products:
+            product_name = product.get("name", "")
+            set_name = product.get("setName", "")
+            product_link = _tcgplayer_product_link(product, meta.get("productLine", ""), product_name, set_name)
+            lines.append(
+                f"| [{_escape_table(product_name)}]({product_link}) | {_escape_table(set_name)} | "
+                f"{_escape_table(_date_only(product.get('setReleaseDate', '')))} | {added_to_tcgjson} | {_escape_table(product.get('rarity', ''))} |"
+            )
     lines.extend(
         [
             "",
@@ -331,6 +410,28 @@ def _write_game_page(
     )
     lines.extend(_schema_profile_sections(schema_profile))
     return _write(path, lines)
+
+
+def _resource_section(resources: dict[str, Any]) -> list[str]:
+    tcgplayer = resources.get("tcgplayer", {}) if isinstance(resources, dict) else {}
+    links = []
+    for label, key in [
+        ("Shop/Search on TCGplayer", "searchUrl"),
+        ("Price guide", "priceGuideUrl"),
+        ("Articles", "articlesUrl"),
+        ("Decks", "decksUrl"),
+        ("Advanced search", "advancedSearchUrl"),
+    ]:
+        url = tcgplayer.get(key)
+        if url:
+            links.append(f"- [{label}]({url})")
+    feature = tcgplayer.get("feature")
+    if isinstance(feature, dict) and feature.get("title") and feature.get("url"):
+        links.append(f"- Featured on TCGplayer: [{feature.get('title')}]({feature.get('url')})")
+    if not links:
+        return []
+    lines = ["## TCGplayer Resources", "", *links, ""]
+    return lines
 
 
 def _schema_profile_sections(profile: dict[str, Any]) -> list[str]:
@@ -463,6 +564,27 @@ def _compare_catalog(catalog: dict[str, Any], previous_path: Path | None) -> str
     return f"{len(added)} added, {len(removed)} removed, {len(changed)} changed product records"
 
 
+def _recently_added_products(catalog: dict[str, Any], previous_path: Path | None, limit: int = 12) -> list[dict[str, Any]]:
+    if previous_path is None or not previous_path.exists():
+        return []
+    previous = _load_json(previous_path)
+    current_products = _products_by_id(catalog)
+    previous_ids = set(_products_by_id(previous))
+    sets_by_id = {int(set_row.get("tcgplayerSetId") or 0): set_row for set_row in catalog.get("sets", [])}
+    added_products = []
+    for product_id in sorted(set(current_products) - previous_ids, reverse=True):
+        product = dict(current_products[product_id])
+        set_row = sets_by_id.get(int(product.get("setId") or 0), {})
+        product["setName"] = set_row.get("name", "")
+        product["setReleaseDate"] = set_row.get("releaseDate", "")
+        added_products.append(product)
+    added_products.sort(
+        key=lambda product: (str(product.get("setReleaseDate") or ""), int(product.get("tcgplayerProductId") or 0)),
+        reverse=True,
+    )
+    return added_products[:limit]
+
+
 def _products_by_id(catalog: dict[str, Any]) -> dict[int, dict[str, Any]]:
     products = {}
     for product in catalog.get("products", []):
@@ -489,6 +611,8 @@ def _field_description(field: str) -> str:
         "tcgplayerSetId": "TCGplayer set identifier.",
         "name": "Display name from TCGplayer.",
         "urlName": "TCGplayer URL-friendly name when exposed.",
+        "releaseDate": "Set release date from TCGplayer when exposed.",
+        "iconUrl": "Linked TCGplayer CDN set banner URL derived from the set ID and clean set name.",
         "productCount": "Number of products associated with this object.",
         "priceGuideRowCount": "Number of raw price-guide rows observed for the set.",
         "source": "Endpoint path used for this set, usually priceguide or search.",
@@ -572,9 +696,46 @@ def _escape_table(value: Any) -> str:
     return str(value).replace("|", "\\|")
 
 
+def _date_only(value: Any) -> str:
+    return str(value).split("T", 1)[0]
+
+
+def _release_reference(metrics: dict[str, Any], release_tag: str, release_url: str) -> str:
+    label = release_tag or _date_only(metrics.get("finishedAt", "")) or "this release"
+    if release_url:
+        return f"[{_escape_table(label)}]({release_url})"
+    return _escape_table(label)
+
+
 def _tcgplayer_search_link(product_line: str, set_name: str) -> str:
     query = quote_plus(f"{product_line} {set_name}".strip())
-    return f"https://www.tcgplayer.com/search/all/product?q={query}"
+    return f"https://www.tcgplayer.com/search/all/product?q={query}&productTypeName=Cards"
+
+
+def _tcgplayer_set_product_link(set_row: dict[str, Any], product_line_url_name: str, product_line: str, set_name: str) -> str:
+    set_url_name = str(set_row.get("urlName") or "").strip()
+    product_line_url_name = str(product_line_url_name or "").strip()
+    if product_line_url_name and set_url_name:
+        return (
+            f"https://www.tcgplayer.com/search/{quote(product_line_url_name, safe='')}/{quote(set_url_name, safe='')}"
+            f"?productLineName={quote_plus(product_line_url_name)}&setName={quote_plus(set_url_name)}&view=grid&ProductTypeName=Cards&page=1"
+        )
+    set_id = set_row.get("tcgplayerSetId")
+    if set_id:
+        return f"https://www.tcgplayer.com/search/all/product?setId={set_id}&productTypeName=Cards"
+    return _tcgplayer_search_link(product_line, set_name)
+
+
+def _tcgplayer_card_search_link(product_line: str, product_name: str, set_name: str) -> str:
+    query = quote_plus(f"{product_line} {product_name} {set_name}".strip())
+    return f"https://www.tcgplayer.com/search/all/product?q={query}&productTypeName=Cards"
+
+
+def _tcgplayer_product_link(product: dict[str, Any], product_line: str, product_name: str, set_name: str) -> str:
+    product_id = product.get("tcgplayerProductId")
+    if product_id:
+        return f"https://www.tcgplayer.com/product/{product_id}"
+    return _tcgplayer_card_search_link(product_line, product_name, set_name)
 
 
 def _write(path: Path, lines: list[str]) -> Path:

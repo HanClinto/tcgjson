@@ -22,8 +22,10 @@ class Page:
 
 
 INLINE_CODE_RE = re.compile(r"`([^`]+)`")
+IMAGE_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$")
+PROJECT_URL = "https://github.com/HanClinto/tcgjson"
 
 
 STYLE = """
@@ -94,6 +96,22 @@ body {
   margin-top: 0.15rem;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.project-link {
+  display: inline-flex;
+  margin: 0 0 0.65rem;
+  color: var(--accent-dark);
+  font-family: Avenir Next, Avenir, Segoe UI, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration-color: rgba(47, 125, 103, 0.35);
+  text-underline-offset: 0.16em;
+}
+
+.project-link:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
 }
 
 .nav-section {
@@ -213,6 +231,10 @@ table {
   min-width: 42rem;
 }
 
+.banner-table table {
+  min-width: 48rem;
+}
+
 th,
 td {
   padding: 0.65rem 0.78rem;
@@ -237,6 +259,60 @@ tr:last-child td {
 td:nth-child(n + 2):not(:last-child),
 th:nth-child(n + 2):not(:last-child) {
   text-align: right;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+  text-align: left;
+}
+
+.banner-table tbody tr {
+  background-image:
+    linear-gradient(90deg, rgba(45, 41, 34, 0.58), rgba(45, 41, 34, 0.2) 10rem, rgba(240, 229, 212, 0.38) 17rem, #f0e5d4 25rem),
+    var(--banner-image, none);
+  background-position: left center, left center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 26rem auto;
+}
+
+.banner-table tbody td {
+  background: transparent;
+}
+
+.banner-table tbody td:first-child {
+  width: 28%;
+  min-width: 14rem;
+  color: #fff7e8;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(45, 41, 34, 0.75);
+}
+
+.banner-table tbody td:first-child a {
+  color: #fff7e8;
+  text-decoration-color: rgba(255, 247, 232, 0.55);
+  text-shadow: inherit;
+}
+
+.banner-table tbody td:first-child a:hover {
+  color: #fffef7;
+  text-decoration-color: currentColor;
+}
+
+td img {
+  display: block;
+  width: 11rem;
+  max-width: 100%;
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+  opacity: 0;
+}
+
+td img[data-loaded="true"] {
+  border: 1px solid rgba(128, 101, 58, 0.18);
+  border-radius: 0.35rem;
+  box-shadow: 0 3px 10px rgba(58, 43, 24, 0.1);
+  opacity: 1;
 }
 
 ul {
@@ -283,6 +359,11 @@ blockquote,
   }
 
   .brand-subtitle {
+    font-size: 0.78rem;
+  }
+
+  .project-link {
+    margin-bottom: 0.25rem;
     font-size: 0.78rem;
   }
 
@@ -426,13 +507,14 @@ def render_page(page: Page, markdown: str, pages: list[Page]) -> str:
         <span class=\"brand-title\">tcgjson</span>
         <span class=\"brand-subtitle\">Bulk TCGplayer catalog docs</span>
       </a>
+      <a class=\"project-link\" href=\"{PROJECT_URL}\">View project on GitHub</a>
       {nav}
     </aside>
     <main class=\"content-wrap\">
       <article class=\"page doc-card\">
         {content}
       </article>
-      <footer class=\"footer\">Generated from source-controlled Markdown. JSON catalog files are published through GitHub Releases.</footer>
+      <footer class=\"footer\">Generated from source-controlled Markdown. JSON catalog files are published through GitHub Releases. <a href=\"{PROJECT_URL}\">View the project on GitHub</a>.</footer>
     </main>
   </div>
 </body>
@@ -521,15 +603,28 @@ def render_table(lines: list[str]) -> str:
     rows = [split_table_row(line) for line in lines]
     header = rows[0]
     body = rows[2:]
-    html_rows = ["<div class=\"table-wrap\"><table>", "<thead><tr>"]
-    html_rows.extend(f"<th>{render_inline(cell, Path('.'))}</th>" for cell in header)
+    banner_table = bool(header) and header[0].lower() == "banner"
+    visible_header = header[1:] if banner_table else header
+    table_class = "table-wrap banner-table" if banner_table else "table-wrap"
+    html_rows = [f"<div class=\"{table_class}\"><table>", "<thead><tr>"]
+    html_rows.extend(f"<th>{render_inline(cell, Path('.'))}</th>" for cell in visible_header)
     html_rows.append("</tr></thead><tbody>")
     for row in body:
-        html_rows.append("<tr>")
-        html_rows.extend(f"<td>{render_inline(cell, Path('.'))}</td>" for cell in row)
+        banner_url = image_src_from_markdown(row[0]) if banner_table and row else ""
+        visible_row = row[1:] if banner_table else row
+        row_style = f' style="--banner-image: url(&quot;{html.escape(banner_url, quote=True)}&quot;)"' if banner_url else ""
+        html_rows.append(f"<tr{row_style}>")
+        html_rows.extend(f"<td>{render_inline(cell, Path('.'))}</td>" for cell in visible_row)
         html_rows.append("</tr>")
     html_rows.append("</tbody></table></div>")
     return "".join(html_rows)
+
+
+def image_src_from_markdown(value: str) -> str:
+    match = IMAGE_RE.search(value)
+    if not match:
+        return ""
+    return convert_link(html.unescape(match.group(2)), Path('.'))
 
 
 def split_table_row(line: str) -> list[str]:
@@ -537,26 +632,38 @@ def split_table_row(line: str) -> list[str]:
 
 
 def render_inline(text: str, source_dir: Path) -> str:
-    code_values: list[str] = []
+  code_values: list[str] = []
+  image_values: list[str] = []
 
-    def store_code(match: re.Match[str]) -> str:
-        code_values.append(f"<code>{html.escape(match.group(1))}</code>")
-        return f"\u0000CODE{len(code_values) - 1}\u0000"
+  def store_code(match: re.Match[str]) -> str:
+    code_values.append(f"<code>{html.escape(match.group(1))}</code>")
+    return f"\u0000CODE{len(code_values) - 1}\u0000"
 
-    text = INLINE_CODE_RE.sub(store_code, text)
-    text = html.escape(text)
-    text = text.replace("_Generated by", "<em>Generated by").replace("._", ".</em>")
+  def store_image(match: re.Match[str]) -> str:
+    target = html.unescape(match.group(2))
+    src = convert_link(target, source_dir)
+    image_values.append(
+      f'<img src="{html.escape(src, quote=True)}" alt="" loading="lazy" referrerpolicy="no-referrer" onload="this.dataset.loaded=\'true\'" onerror="this.remove()">'
+    )
+    return f"\u0000IMAGE{len(image_values) - 1}\u0000"
 
-    def link(match: re.Match[str]) -> str:
-        label = match.group(1)
-        target = html.unescape(match.group(2))
-        href = convert_link(target, source_dir)
-        return f'<a href="{html.escape(href, quote=True)}">{label}</a>'
+  text = INLINE_CODE_RE.sub(store_code, text)
+  text = IMAGE_RE.sub(store_image, text)
+  text = html.escape(text)
+  text = text.replace("_Generated by", "<em>Generated by").replace("._", ".</em>")
 
-    text = LINK_RE.sub(link, text)
-    for index, value in enumerate(code_values):
-        text = text.replace(f"\u0000CODE{index}\u0000", value)
-    return text
+  def link(match: re.Match[str]) -> str:
+    label = match.group(1)
+    target = html.unescape(match.group(2))
+    href = convert_link(target, source_dir)
+    return f'<a href="{html.escape(href, quote=True)}">{label}</a>'
+
+  text = LINK_RE.sub(link, text)
+  for index, value in enumerate(image_values):
+    text = text.replace(f"\u0000IMAGE{index}\u0000", value)
+  for index, value in enumerate(code_values):
+    text = text.replace(f"\u0000CODE{index}\u0000", value)
+  return text
 
 
 def convert_link(target: str, source_dir: Path) -> str:

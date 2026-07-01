@@ -17,6 +17,23 @@ class FakeGamesClient:
             {"productLineId": 100, "productLineName": "Other Game", "productLineUrlName": "other"},
         ]
 
+    def get_latest_sets(self, product_line_id):
+        return [
+            {
+                "categoryId": product_line_id,
+                "latestSets": [
+                    {
+                        "setName": "Sample Set",
+                        "setNameId": 123,
+                        "cleanSetName": "Sample Set",
+                        "releaseDate": "2026-01-01",
+                        "isFeaturedSet": True,
+                        "isPreOrder": False,
+                    }
+                ],
+            }
+        ]
+
 
 def test_default_enabled_product_lines_include_popular_and_manual() -> None:
     ids = default_enabled_product_line_ids(FakeGamesClient())
@@ -37,6 +54,8 @@ def test_game_support_report_uses_checkbox_rows() -> None:
 
     assert rows["Riftbound: League of Legends Trading Card Game"]["enabled"] is True
     assert rows["Riftbound: League of Legends Trading Card Game"]["manualInclude"] is True
+    assert rows["Popular Game"]["resources"]["tcgplayer"]["searchUrl"] == "https://www.tcgplayer.com/search/popular/product?productLineName=popular&page=1"
+    assert rows["Popular Game"]["resources"]["tcgplayer"]["latestSets"][0]["iconUrl"] == "https://tcgplayer-cdn.tcgplayer.com/set_icon/123SampleSet.png"
     assert rows["Other Game"]["enabled"] is False
     assert "| [x] | Riftbound: League of Legends Trading Card Game |" in markdown
     assert "| [ ] | Other Game |" in markdown

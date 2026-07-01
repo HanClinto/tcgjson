@@ -23,6 +23,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
                 "tcgplayerSetId": 604,
                 "name": "Base Set",
                 "urlName": "base-set",
+                "releaseDate": "1999-01-09",
                 "productCount": 1,
                 "priceGuideRowCount": 1,
                 "source": "priceguide",
@@ -79,6 +80,12 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
                     "manualInclude": False,
                     "manualExclude": False,
                     "enabled": True,
+                    "resources": {
+                        "tcgplayer": {
+                            "searchUrl": "https://www.tcgplayer.com/search/pokemon/product?productLineName=pokemon&page=1",
+                            "priceGuideUrl": "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides",
+                        }
+                    },
                 }
             ],
         },
@@ -86,11 +93,15 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
         json_output=release_dir / "games.json",
     )
     write_bulk_manifest(release_dir, files)
+    previous_dir = tmp_path / "previous"
+    previous_catalog = {**catalog, "products": []}
+    previous_files = write_product_line_files(previous_dir, previous_catalog)
+    write_bulk_manifest(previous_dir, previous_files)
 
     written = generate_catalog_docs(
         release_dir=release_dir,
         output_dir=docs_dir,
-        previous_release_dir=tmp_path / "missing-previous",
+        previous_release_dir=previous_dir,
         release_tag="weekly-test",
         release_url="https://example.test/release",
     )
@@ -107,11 +118,22 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     history = (docs_dir / "release-history.md").read_text(encoding="utf-8")
 
     assert "[Pokemon](games/pokemon.md)" in index
+    assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
     assert "TCGplayer" in game
+    assert "## TCGplayer Resources" in game
+    assert "[Price guide](https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides)" in game
+    assert "Latest Set Icons" not in game
+    assert "## Recently Released Sets" in game
+    assert "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)" in game
+    assert "| ![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | [Base Set](https://www.tcgplayer.com/search/pokemon/base-set?productLineName=pokemon&setName=base-set&view=grid&ProductTypeName=Cards&page=1) | 1999-01-09 | 1 | `priceguide` |" in game
+    assert "TCGplayer |" not in game
+    assert "## Recently Added Cards" in game
+    assert "| Card | Set | Set Release Date | Added To tcgjson | Rarity |" in game
+    assert "| [Alakazam](https://www.tcgplayer.com/product/42382) | Base Set | 1999-01-09 | [weekly-test](https://example.test/release) | Holo Rare |" in game
     assert "## Product Field Coverage" in game
     assert "| `tcgplayerProductId` | integer | 1 / 1 | 100% | `42382` |" in game
     assert "## Game-Specific Metadata Coverage" in game
     assert "| `stage` | string | 1 / 1 | 100% | `Stage 2` |" in game
     assert "weekly-test" in history
-    assert "no previous full catalog available" in history
+    assert "1 added, 0 removed, 0 changed product records" in history
     assert json.loads((release_dir / "bulk-data.json").read_text(encoding="utf-8"))["object"] == "list"

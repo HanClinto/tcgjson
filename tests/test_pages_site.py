@@ -32,7 +32,11 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     (docs_dir / "games.md").write_text("# Game Index\n\n- [Pokemon](games/pokemon.md)\n", encoding="utf-8")
     (docs_dir / "release-history.md").write_text("# Release History\n\nNothing yet.\n", encoding="utf-8")
     (games_dir / "pokemon.md").write_text(
-        "# Pokemon\n\n- Compact catalog: [pokemon.json](https://example.test/pokemon.json)\n",
+        "# Pokemon\n\n- Compact catalog: [pokemon.json](https://example.test/pokemon.json)\n\n"
+        "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)\n\n"
+        "| Banner | Set | Products | TCGplayer |\n"
+        "| --- | --- | ---: | --- |\n"
+        "| ![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | Base Set | [1](https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set) | [Search](https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set) |\n",
         encoding="utf-8",
     )
 
@@ -55,6 +59,12 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert "tcgjson Catalog Docs" in index
     assert '<link rel="stylesheet" href="assets/site.css">' in index
     assert '<link rel="stylesheet" href="../assets/site.css">' in game
+    assert '<a class="project-link" href="https://github.com/HanClinto/tcgjson">View project on GitHub</a>' in index
+    assert '<img src="https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png" alt="" loading="lazy" referrerpolicy="no-referrer" onload="this.dataset.loaded=\'true\'" onerror="this.remove()">' in game
+    assert '<div class="table-wrap banner-table"><table>' in game
+    assert '<th>Banner</th>' not in game
+    assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in game
+    assert '<td><a href="https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set">1</a></td>' in game
     assert '<a class="nav-link" href="games/pokemon.html">Pokemon</a>' in index
     assert '<a class="nav-link" href="../index.html">Overview</a>' in game
     assert (output_dir / ".nojekyll").exists()

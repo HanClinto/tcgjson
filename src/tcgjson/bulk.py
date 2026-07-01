@@ -141,7 +141,39 @@ def _load_cached_set_from_catalog(
             cached_products.append(migrated_product)
     if not cached_products or (with_skus and not _cached_products_have_skus(cached_products)):
         return None
-    return cached_set, cached_products, str(cached_catalog.get("meta", {}).get("generatedAt") or "")
+    return _migrate_cached_set(cached_set), cached_products, str(cached_catalog.get("meta", {}).get("generatedAt") or "")
+
+
+def _compact_set_icon_name(value: str) -> str:
+    replacements = {
+        "&": "and",
+        "+": "plus",
+        "%": "pct",
+        ".com": "-dotcom",
+        ".net": "-dotnet",
+        ".org": "-dotorg",
+        ".biz": "-dotbiz",
+    }
+    text = value
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    for char in ":®@[](){}<>|#*`‛’′!?.\"'=/\\":
+        text = text.replace(char, "")
+    return "".join(text.split())
+
+
+def _set_icon_url(set_id: int | str, set_name: str) -> str:
+    compact_name = _compact_set_icon_name(set_name)
+    if not compact_name:
+        return ""
+    return f"https://tcgplayer-cdn.tcgplayer.com/set_icon/{set_id}{compact_name}.png"
+
+
+def _migrate_cached_set(set_summary: dict[str, Any]) -> dict[str, Any]:
+    migrated = dict(set_summary)
+    if "iconUrl" not in migrated:
+        migrated["iconUrl"] = _set_icon_url(migrated.get("tcgplayerSetId", ""), migrated.get("name", ""))
+    return migrated
 
 
 def _set_checkpoint_path(checkpoint_dir: Path, slug: str, source: str, set_id: int) -> Path:
@@ -389,6 +421,7 @@ def _fetch_set_products(
             "urlName": set_row.get("urlName", ""),
             "abbreviation": set_row.get("abbreviation", ""),
             "releaseDate": set_row.get("releaseDate", ""),
+            "iconUrl": _set_icon_url(set_row["setNameId"], set_row.get("cleanSetName") or set_row.get("name", "")),
             "isSupplemental": bool(set_row.get("isSupplemental")),
             "productCount": len(set_products),
             "priceGuideRowCount": len(rows),

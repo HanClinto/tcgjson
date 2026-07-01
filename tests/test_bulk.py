@@ -225,6 +225,7 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
     catalog = fetch_product_line(CachedSetClient(), 3, cache_dir=tmp_path)
 
     assert catalog["meta"]["cache"]["reusedSetCount"] == 1
+    assert catalog["sets"][0]["iconUrl"] == "https://tcgplayer-cdn.tcgplayer.com/set_icon/10CachedSet.png"
     assert catalog["meta"]["cache"]["fetchedSetCount"] == 0
     assert catalog["products"][0]["name"] == "Cached Card"
     assert catalog["products"][0]["imageUrls"] == ["https://tcgplayer-cdn.tcgplayer.com/product/100_in_1000x1000.jpg"]

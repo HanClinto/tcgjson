@@ -176,6 +176,12 @@ class TCGplayerClient:
             raise TCGplayerError("Navigation payload missing categories")
         return categories
 
+    def get_latest_sets(self, product_line_id: int | str) -> list[dict[str, Any]]:
+        payload = self._request("GET", f"{SEARCH_API_BASE}/v1/product/latestsets/{product_line_id}")
+        if not isinstance(payload, list):
+            raise TCGplayerError("Unexpected latest sets payload")
+        return payload
+
     def get_set_names(self, product_line_id: int | str, *, active: bool = True) -> list[dict[str, Any]]:
         payload = self._request(
             "GET",

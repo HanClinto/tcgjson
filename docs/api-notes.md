@@ -27,6 +27,34 @@ The navigation payload exposes product lines TCGplayer currently treats as
 popular. `tcgjson` uses this as the default product-line source, then applies
 manual includes and excludes from `src/tcgjson/config.py`.
 
+Useful navigation resource fields include `url`, `shopAllUrl`, `articlesUrl`,
+`decksUrl`, `advancedSearchUrl`, and `priceGuideUrl`. `tcgjson` normalizes
+these into per-game resource links when generating `games.json` and catalog
+docs.
+
+Popular game rows can include a `feature` object with `title`, `ctaUrl`,
+`imageUrl`, and/or `imageUrlSm`, but local probes found the relative feature
+image path did not resolve as a directly embeddable public CDN URL.
+
+The website's homepage/header code also calls:
+
+```text
+GET https://mp-search-api.tcgplayer.com/v1/product/latestsets/<productLineId>
+```
+
+This returns `latestSets` rows with `setName`, `setNameId`, `cleanSetName`,
+`releaseDate`, `isFeaturedSet`, and `isPreOrder`. The frontend builds public set
+banner image URLs from those fields:
+
+```text
+https://tcgplayer-cdn.tcgplayer.com/set_icon/<setNameId><cleanSetName-without-spaces>.png
+```
+
+The same pattern works for non-latest sets in local probes, for example
+`https://tcgplayer-cdn.tcgplayer.com/set_icon/23462TwoLegends.png`. These are
+banner-style images rather than small icons. `tcgjson` derives `iconUrl` for set
+summaries from the TCGplayer set ID and a cleaned, compacted set name.
+
 ## Set Names
 
 Endpoint:
