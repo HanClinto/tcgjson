@@ -313,22 +313,30 @@ details pre {
 }
 
 .tcg-card-popover dl {
-  display: grid;
-  grid-template-columns: max-content minmax(0, 1fr);
-  gap: 0.24rem 0.7rem;
   margin: 0;
   font-size: 0.8rem;
 }
 
 .tcg-card-popover dt {
+  display: inline;
   color: #514838;
   font-weight: 800;
 }
 
+.tcg-card-popover dt::after {
+  content: ": ";
+}
+
 .tcg-card-popover dd {
+  display: inline;
   margin: 0;
-  min-width: 0;
   overflow-wrap: anywhere;
+}
+
+.tcg-card-popover dd::after {
+  content: "";
+  display: block;
+  margin-bottom: 0.24rem;
 }
 
 .tcg-card-popover-list {
