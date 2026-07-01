@@ -44,3 +44,40 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 42 product fields across 19324 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 19324 / 19324 | 100% | `456059` |
+| `name` | string | 19324 / 19324 | 100% | `DON!! Card (Manga) (Alternate Art)` |
+| `productLineId` | integer | 19324 / 19324 | 100% | `68` |
+| `setId` | integer | 19324 / 19324 | 100% | `3188` |
+| `collectorNumber` | string | 18771 / 19324 | 97.14% | `OP01-001` |
+| `rarity` | string | 19324 / 19324 | 100% | `DON!!` |
+| `foilings` | array | 18753 / 19324 | 97.05% | `["Foil"]` |
+| `imageUrls` | array | 19324 / 19324 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/456059_in_1000x1000.jpg"]` |
+| `metadata` | object | 19324 / 19324 | 100% | `{"rulesText": "Your Turn +1000", "cardTypes": ["DON!!"], "customAttributes": {"descript...` |
+| `priceGuide` | array | 19324 / 19324 | 100% | `[{"condition": "", "printing": "", "lowPrice": 7.0, "marketPrice": 20.9, "medianPrice":...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 19324 / 19324 | 100% | `DON!!` |
+| `customAttributes.releaseDate` | string | 19324 / 19324 | 100% | `2022-12-02T00:00:00Z` |
+| `customAttributes.number` | string | 18771 / 19324 | 97.14% | `OP01-001` |
+| `customAttributes.cost` | string | 17676 / 19324 | 91.47% | `2` |
+| `customAttributes.description` | string | 17676 / 19324 | 91.47% | `Your Turn +1000` |
+| `rulesText` | string | 17676 / 19324 | 91.47% | `Your Turn +1000` |
+| `customAttributes.power` | string | 15805 / 19324 | 81.79% | `5000` |
+| `power` | string | 15805 / 19324 | 81.79% | `5000` |
+| `customAttributes.counter` | string | 11483 / 19324 | 59.42% | `2000` |
+| `customAttributes.detailNote` | string | 11264 / 19324 | 58.29% | `This product is a Presale item with an estimated shipping date of 12/02/2022. Please ke...` |
+| `customAttributes.life` | string | 991 / 19324 | 5.13% | `5` |

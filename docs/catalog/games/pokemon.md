@@ -44,3 +44,47 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 43 product fields across 28410 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 28410 / 28410 | 100% | `42346` |
+| `name` | string | 28410 / 28410 | 100% | `Alakazam` |
+| `productLineId` | integer | 28410 / 28410 | 100% | `3` |
+| `setId` | integer | 28410 / 28410 | 100% | `604` |
+| `collectorNumber` | string | 27187 / 28410 | 95.7% | `001/102` |
+| `rarity` | string | 28410 / 28410 | 100% | `Holo Rare` |
+| `foilings` | array | 28387 / 28410 | 99.92% | `["Holofoil"]` |
+| `imageUrls` | array | 28410 / 28410 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/42346_in_1000x1000.jpg"]` |
+| `metadata` | object | 28188 / 28410 | 99.22% | `{"rulesText": "<strong>Pokémon Power: Damage Swap</strong> As often as you like during ...` |
+| `priceGuide` | array | 28410 / 28410 | 100% | `[{"condition": "Damaged Holofoil", "printing": "Holofoil", "lowPrice": 13, "marketPrice...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 28188 / 28410 | 99.22% | `Holo Rare` |
+| `customAttributes.cardTypeB` | string | 27233 / 28410 | 95.86% | `Psychic` |
+| `customAttributes.number` | string | 26989 / 28410 | 95% | `001/102` |
+| `customAttributes.releaseDate` | string | 26847 / 28410 | 94.5% | `1999-01-09T00:00:00Z` |
+| `customAttributes.hp` | string | 22128 / 28410 | 77.89% | `80` |
+| `customAttributes.stage` | string | 22104 / 28410 | 77.8% | `Stage 2` |
+| `customAttributes.attack1` | string | 22038 / 28410 | 77.57% | `[PPP] Confuse Ray (30)  <br>Flip a coin. If heads, the Defending Pokémon is now Confused.` |
+| `customAttributes.weakness` | string | 21295 / 28410 | 74.96% | `P` |
+| `customAttributes.retreatCost` | string | 21183 / 28410 | 74.56% | `3` |
+| `customAttributes.resistance` | string | 13358 / 28410 | 47.02% | `P-30` |
+| `customAttributes.attack2` | string | 12680 / 28410 | 44.63% | `[4] Double-edge (80)  <br>Chansey does 80 damage to itself.` |
+| `customAttributes.description` | string | 11698 / 28410 | 41.18% | `<strong>Pokémon Power: Damage Swap</strong> As often as you like during your turn <em>(...` |
+| `rulesText` | string | 11698 / 28410 | 41.18% | `<strong>Pokémon Power: Damage Swap</strong> As often as you like during your turn <em>(...` |
+| `customAttributes.flavorText` | string | 6978 / 28410 | 24.56% | `<em>Psi Pokémon. Length: 4'11", Weight: 106 lbs.  <br>  Its brain can outperform a supe...` |
+| `flavorText` | string | 6978 / 28410 | 24.56% | `<em>Psi Pokémon. Length: 4'11", Weight: 106 lbs.  <br>  Its brain can outperform a supe...` |
+| `customAttributes.detailNote` | string | 4702 / 28410 | 16.55% | `This product is a Presale item with an estimated shipping date of 11/28/2025. Please ke...` |
+| `customAttributes.attack3` | string | 419 / 28410 | 1.47% | `[2MM] Heavy Impact (70)` |
+| `customAttributes.attack4` | string | 41 / 28410 | 0.14% | `[1DDF]   <br>Losing Control (120) Discard the top 3 cards of your deck.` |

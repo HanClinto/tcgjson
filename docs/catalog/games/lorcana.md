@@ -44,3 +44,48 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 42 product fields across 3107 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 3107 / 3107 | 100% | `454233` |
+| `name` | string | 3107 / 3107 | 100% | `Mickey Mouse - Brave Little Tailor` |
+| `productLineId` | integer | 3107 / 3107 | 100% | `71` |
+| `setId` | integer | 3107 / 3107 | 100% | `17690` |
+| `collectorNumber` | string | 3067 / 3107 | 98.71% | `1` |
+| `rarity` | string | 3107 / 3107 | 100% | `Promo` |
+| `foilings` | array | 3091 / 3107 | 99.49% | `["Normal"]` |
+| `imageUrls` | array | 3107 / 3107 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/454233_in_1000x1000.jpg"]` |
+| `metadata` | object | 3107 / 3107 | 100% | `{"rulesText": "<strong>Evasive</strong> <em>(Only characters with Evasive can challenge...` |
+| `priceGuide` | array | 3107 / 3107 | 100% | `[{"condition": "", "printing": "", "lowPrice": 1500.0, "marketPrice": 866.01, "medianPr...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 3107 / 3107 | 100% | `Promo` |
+| `customAttributes.releaseDate` | string | 3107 / 3107 | 100% | `2022-09-11T00:00:00Z` |
+| `customAttributes.inkwellIcononCard` | string | 3084 / 3107 | 99.26% | `Yes` |
+| `customAttributes.property` | string | 3077 / 3107 | 99.03% | `Standard Characters` |
+| `customAttributes.number` | string | 3067 / 3107 | 98.71% | `1` |
+| `customAttributes.costInk` | string | 3066 / 3107 | 98.68% | `8` |
+| `customAttributes.inkType` | string | 3003 / 3107 | 96.65% | `Ruby` |
+| `customAttributes.description` | string | 2768 / 3107 | 89.09% | `<strong>Evasive</strong> <em>(Only characters with Evasive can challenge this character...` |
+| `rulesText` | string | 2768 / 3107 | 89.09% | `<strong>Evasive</strong> <em>(Only characters with Evasive can challenge this character...` |
+| `customAttributes.classification` | string | 2511 / 3107 | 80.82% | `Dreamborn;Hero` |
+| `customAttributes.willpower` | string | 2449 / 3107 | 78.82% | `5` |
+| `customAttributes.loreValue` | string | 2375 / 3107 | 76.44% | `4` |
+| `customAttributes.characterVersion` | string | 2370 / 3107 | 76.28% | `Brave Little Tailor` |
+| `customAttributes.strength` | string | 2347 / 3107 | 75.54% | `5` |
+| `customAttributes.detailNote` | string | 1758 / 3107 | 56.58% | `This product is a Presale item with an estimated shipping date of 8/18/2023. Please kee...` |
+| `customAttributes.flavorText` | string | 731 / 3107 | 23.53% | `<em>When defeat looms and victory hangs by a thread, a hero bolts to the rescue, patchi...` |
+| `flavorText` | string | 731 / 3107 | 23.53% | `<em>When defeat looms and victory hangs by a thread, a hero bolts to the rescue, patchi...` |
+| `customAttributes.promoType` | string | 128 / 3107 | 4.12% | `D23 Promo` |
+| `customAttributes.moveCost` | string | 101 / 3107 | 3.25% | `1` |

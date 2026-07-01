@@ -44,3 +44,49 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 47 product fields across 100380 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 100380 / 100380 | 100% | `15032` |
+| `name` | string | 100380 / 100380 | 100% | `Ancestor's Chosen` |
+| `productLineId` | integer | 100380 / 100380 | 100% | `1` |
+| `setId` | integer | 100380 / 100380 | 100% | `1` |
+| `collectorNumber` | string | 92344 / 100380 | 91.99% | `1` |
+| `rarity` | string | 100380 / 100380 | 100% | `Uncommon` |
+| `foilings` | array | 100380 / 100380 | 100% | `["Foil", "Normal"]` |
+| `imageUrls` | array | 100380 / 100380 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/15032_in_1000x1000.jpg"]` |
+| `metadata` | object | 99909 / 100380 | 99.53% | `{"rulesText": "First strike <em>(This creature deals combat damage before creatures wit...` |
+| `priceGuide` | array | 100380 / 100380 | 100% | `[{"condition": "Lightly Played Foil", "printing": "Foil", "lowPrice": 0.05, "marketPric...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 99909 / 100380 | 99.53% | `U` |
+| `customAttributes.fullType` | string | 94582 / 100380 | 94.22% | `Creature — Human Cleric ` |
+| `typeLine` | string | 94582 / 100380 | 94.22% | `Creature — Human Cleric ` |
+| `customAttributes.number` | string | 91977 / 100380 | 91.63% | `1` |
+| `customAttributes.releaseDate` | string | 91185 / 100380 | 90.84% | `2007-07-13T00:00:00Z` |
+| `customAttributes.description` | string | 90175 / 100380 | 89.83% | `First strike <em>(This creature deals combat damage before creatures without first stri...` |
+| `rulesText` | string | 90175 / 100380 | 89.83% | `First strike <em>(This creature deals combat damage before creatures without first stri...` |
+| `convertedCost` | string | 84455 / 100380 | 84.14% | `7` |
+| `customAttributes.convertedCost` | string | 84455 / 100380 | 84.14% | `7` |
+| `customAttributes.flavorText` | string | 47498 / 100380 | 47.32% | `<em>The cave floods with light. A thousand rays shine forth and meld into one.</em>` |
+| `flavorText` | string | 47498 / 100380 | 47.32% | `<em>The cave floods with light. A thousand rays shine forth and meld into one.</em>` |
+| `customAttributes.powerNumber` | string | 47362 / 100380 | 47.18% | `4` |
+| `customAttributes.toughnessNumber` | string | 47356 / 100380 | 47.18% | `4` |
+| `powerNumber` | string | 47362 / 100380 | 47.18% | `4` |
+| `toughnessNumber` | string | 47356 / 100380 | 47.18% | `4` |
+| `customAttributes.power` | string | 46702 / 100380 | 46.53% | `4` |
+| `power` | string | 46702 / 100380 | 46.53% | `4` |
+| `customAttributes.toughness` | string | 46696 / 100380 | 46.52% | `4` |
+| `toughness` | string | 46696 / 100380 | 46.52% | `4` |
+| `customAttributes.detailNote` | string | 29505 / 100380 | 29.39% | `This product is a Presale item with an estimated shipping date of 09/26/2025. Please ke...` |

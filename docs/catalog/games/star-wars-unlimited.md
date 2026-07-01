@@ -44,3 +44,43 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 37 product fields across 7808 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 7808 / 7808 | 100% | `540376` |
+| `name` | string | 7808 / 7808 | 100% | `Director Krennic - Aspiring to Authority` |
+| `productLineId` | integer | 7808 / 7808 | 100% | `79` |
+| `setId` | integer | 7808 / 7808 | 100% | `23405` |
+| `collectorNumber` | string | 7768 / 7808 | 99.49% | `001/252` |
+| `rarity` | string | 7808 / 7808 | 100% | `Common` |
+| `foilings` | array | 7066 / 7808 | 90.5% | `["Normal"]` |
+| `imageUrls` | array | 7808 / 7808 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/540376_in_1000x1000.jpg"]` |
+| `metadata` | object | 7808 / 7808 | 100% | `{"rulesText": "Each friendly damaged unit gets +1/+0.<br>\n[Deployed Leader Unit]<br>\n...` |
+| `priceGuide` | array | 7808 / 7808 | 100% | `[{"condition": "", "printing": "", "lowPrice": 0.01, "marketPrice": 0.04, "medianPrice"...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 7808 / 7808 | 100% | `Common` |
+| `customAttributes.releaseDate` | string | 7802 / 7808 | 99.92% | `2024-03-08T00:00:00Z` |
+| `customAttributes.traits` | string | 7775 / 7808 | 99.58% | `Imperial;Official` |
+| `customAttributes.number` | string | 7768 / 7808 | 99.49% | `001/252` |
+| `customAttributes.cost` | string | 7617 / 7808 | 97.55% | `5` |
+| `customAttributes.aspect` | string | 7600 / 7808 | 97.34% | `Vigilance;Villainy` |
+| `customAttributes.description` | string | 7390 / 7808 | 94.65% | `Each friendly damaged unit gets +1/+0.<br> [Deployed Leader Unit]<br> <strong>Restore 2...` |
+| `rulesText` | string | 7390 / 7808 | 94.65% | `Each friendly damaged unit gets +1/+0.<br> [Deployed Leader Unit]<br> <strong>Restore 2...` |
+| `customAttributes.hp` | string | 7125 / 7808 | 91.25% | `7` |
+| `customAttributes.power` | string | 6972 / 7808 | 89.29% | `2` |
+| `power` | string | 6972 / 7808 | 89.29% | `2` |
+| `customAttributes.detailNote` | string | 6123 / 7808 | 78.42% | `This product is a Presale item with an estimated shipping date of 3/6/2024. Please keep...` |
+| `customAttributes.arenaType` | string | 5639 / 7808 | 72.22% | `Space` |
+| `customAttributes.epicAction` | string | 520 / 7808 | 6.66% | `<strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader.` |

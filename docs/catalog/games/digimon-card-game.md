@@ -44,3 +44,52 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 50 product fields across 35693 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 35693 / 35693 | 100% | `234508` |
+| `name` | string | 35693 / 35693 | 100% | `Release Special Booster Ver.1.0 Index Card (Player 1)` |
+| `productLineId` | integer | 35693 / 35693 | 100% | `63` |
+| `setId` | integer | 35693 / 35693 | 100% | `2733` |
+| `collectorNumber` | string | 35622 / 35693 | 99.8% | `BT1-001 R` |
+| `rarity` | string | 35693 / 35693 | 100% | `None` |
+| `foilings` | array | 34687 / 35693 | 97.18% | `["Normal"]` |
+| `imageUrls` | array | 35693 / 35693 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/234508_in_1000x1000.jpg"]` |
+| `metadata` | object | 35693 / 35693 | 100% | `{"colors": ["Blue"], "customAttributes": {"origins": "Release Special Booster V.1.0", "...` |
+| `priceGuide` | array | 35693 / 35693 | 100% | `[{"condition": "", "printing": "", "lowPrice": 0.1, "marketPrice": null, "medianPrice":...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 35693 / 35693 | 100% | `None` |
+| `customAttributes.number` | string | 35622 / 35693 | 99.8% | `BT1-001 R` |
+| `customAttributes.releaseDate` | string | 35480 / 35693 | 99.4% | `2020-01-24T00:00:00Z` |
+| `customAttributes.playCost` | string | 33373 / 35693 | 93.5% | `2` |
+| `customAttributes.description` | string | 31402 / 35693 | 87.98% | `[On Play] Reveal 5 cards from the top of your deck. Add 1 Tamer card among them to your...` |
+| `rulesText` | string | 31402 / 35693 | 87.98% | `[On Play] Reveal 5 cards from the top of your deck. Add 1 Tamer card among them to your...` |
+| `customAttributes.digimonType` | string | 30059 / 35693 | 84.22% | `Bulb` |
+| `customAttributes.digimonForm` | string | 27926 / 35693 | 78.24% | `In-Training` |
+| `customAttributes.levelLv` | string | 27891 / 35693 | 78.14% | `2` |
+| `customAttributes.digimonAttribute` | string | 25948 / 35693 | 72.7% | `Vaccine` |
+| `customAttributes.digimonPowerDp` | string | 25949 / 35693 | 72.7% | `3000` |
+| `customAttributes.digivolve1Color` | string | 25450 / 35693 | 71.3% | `Red` |
+| `customAttributes.digivolve1Cost` | string | 25309 / 35693 | 70.91% | `0` |
+| `customAttributes.digivolve1Level` | string | 25205 / 35693 | 70.62% | `2` |
+| `customAttributes.detailNote` | string | 22410 / 35693 | 62.79% | `This product is a Presale item with a delayed estimated shipping date of 11/26/2021. Pl...` |
+| `customAttributes.inheritedEffect` | string | 15024 / 35693 | 42.09% | `[When Attacking] When you attack an opponent's Digimon, this Digimon gets +1000 DP for ...` |
+| `customAttributes.digivolve2Color` | string | 8974 / 35693 | 25.14% | `Blue` |
+| `customAttributes.digivolve2Level` | string | 8646 / 35693 | 24.22% | `6` |
+| `customAttributes.digivolve2Cost` | string | 8643 / 35693 | 24.21% | `6` |
+| `customAttributes.securityEffect` | string | 6936 / 35693 | 19.43% | `[Security] Play this card without paying its memory cost.` |
+| `customAttributes.origins` | string | 4088 / 35693 | 11.45% | `Release Special Booster V.1.0` |
+| `customAttributes.digivolve3Level` | string | 439 / 35693 | 1.23% | `5` |
+| `customAttributes.disclaimer` | string | 113 / 35693 | 0.32% | `Marked “Not For Sale” by BANDAI as the manufacturer prefers that Stores do not sell the...` |

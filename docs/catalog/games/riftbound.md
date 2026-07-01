@@ -41,3 +41,42 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 36 product fields across 1199 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 1199 / 1199 | 100% | `663004` |
+| `name` | string | 1199 / 1199 | 100% | `Buff // Buff (Fist Bump Promo)` |
+| `productLineId` | integer | 1199 / 1199 | 100% | `89` |
+| `setId` | integer | 1199 / 1199 | 100% | `24343` |
+| `collectorNumber` | string | 1197 / 1199 | 99.83% | `036a/298` |
+| `rarity` | string | 1199 / 1199 | 100% | `Promo` |
+| `foilings` | array | 1179 / 1199 | 98.33% | `["Foil"]` |
+| `imageUrls` | array | 1199 / 1199 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/663004_in_1000x1000.jpg"]` |
+| `metadata` | object | 1199 / 1199 | 100% | `{"rulesText": "A unit may have no more than one buff at a time.", "cardTypes": ["None"]...` |
+| `priceGuide` | array | 1199 / 1199 | 100% | `[{"condition": "", "printing": "", "lowPrice": 55.0, "marketPrice": 89.3, "medianPrice"...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 1199 / 1199 | 100% | `Promo` |
+| `customAttributes.releaseDate` | string | 1199 / 1199 | 100% | `2025-10-31T00:00:00Z` |
+| `customAttributes.number` | string | 1197 / 1199 | 99.83% | `036a/298` |
+| `customAttributes.domain` | string | 1169 / 1199 | 97.5% | `Fury` |
+| `customAttributes.energyCost` | string | 1137 / 1199 | 94.83% | `2` |
+| `customAttributes.description` | string | 1131 / 1199 | 94.33% | `A unit may have no more than one buff at a time.` |
+| `rulesText` | string | 1131 / 1199 | 94.33% | `A unit may have no more than one buff at a time.` |
+| `customAttributes.might` | string | 1038 / 1199 | 86.57% | `3` |
+| `customAttributes.detailNote` | string | 968 / 1199 | 80.73% | `This product is a Presale item with an estimated shipping date of 10/31/2025. Please ke...` |
+| `customAttributes.powerCost` | string | 951 / 1199 | 79.32% | `1` |
+| `customAttributes.tag` | string | 833 / 1199 | 69.47% | `Piltover;Vi` |
+| `customAttributes.flavorText` | string | 318 / 1199 | 26.52% | `<em>"We are what we overcome."<br>—Pantheon</em>` |
+| `flavorText` | string | 318 / 1199 | 26.52% | `<em>"We are what we overcome."<br>—Pantheon</em>` |

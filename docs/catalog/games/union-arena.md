@@ -44,3 +44,43 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 37 product fields across 18504 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 18504 / 18504 | 100% | `583525` |
+| `name` | string | 18504 / 18504 | 100% | `Abengane` |
+| `productLineId` | integer | 18504 / 18504 | 100% | `81` |
+| `setId` | integer | 18504 / 18504 | 100% | `23521` |
+| `collectorNumber` | string | 18459 / 18504 | 99.76% | `UE02BT/HTR-1-001` |
+| `rarity` | string | 18504 / 18504 | 100% | `U` |
+| `foilings` | array | 17854 / 18504 | 96.49% | `["Normal"]` |
+| `imageUrls` | array | 18504 / 18504 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/583525_in_1000x1000.jpg"]` |
+| `metadata` | object | 18504 / 18504 | 100% | `{"rulesText": "[When Played] Choose up to one site on your opponent's field and place i...` |
+| `priceGuide` | array | 18504 / 18504 | 100% | `[{"condition": "", "printing": "", "lowPrice": 0.02, "marketPrice": 0.05, "medianPrice"...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 18504 / 18504 | 100% | `Uncommon` |
+| `customAttributes.releaseDate` | string | 18504 / 18504 | 100% | `2024-10-04T00:00:00Z` |
+| `customAttributes.number` | string | 18459 / 18504 | 99.76% | `UE02BT/HTR-1-001` |
+| `customAttributes.seriesName` | string | 18100 / 18504 | 97.82% | `HUNTER X HUNTER` |
+| `customAttributes.actionPointCost` | string | 17259 / 18504 | 93.27% | `1` |
+| `customAttributes.requiredEnergy` | string | 17259 / 18504 | 93.27% | `4` |
+| `customAttributes.activationEnergy` | string | 17239 / 18504 | 93.16% | `Blue` |
+| `customAttributes.description` | string | 15852 / 18504 | 85.67% | `[When Played] Choose up to one site on your opponent's field and place it on the bottom...` |
+| `rulesText` | string | 15852 / 18504 | 85.67% | `[When Played] Choose up to one site on your opponent's field and place it on the bottom...` |
+| `customAttributes.generatedEnergy` | string | 14992 / 18504 | 81.02% | `U` |
+| `customAttributes.battlePointBp` | string | 14523 / 18504 | 78.49% | `3500` |
+| `customAttributes.trigger` | string | 12042 / 18504 | 65.08% | `[Active] Choose one character on your field and switch it to active. It gains 3000 BP u...` |
+| `customAttributes.detailNote` | string | 11860 / 18504 | 64.09% | `This product is a Presale item with an estimated shipping date of 10/4/2024. Please kee...` |
+| `customAttributes.affinities` | string | 8665 / 18504 | 46.83% | `Specified Slot` |

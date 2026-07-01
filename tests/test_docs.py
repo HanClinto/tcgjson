@@ -109,6 +109,10 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
 
     assert "[Pokemon](games/pokemon.md)" in index
     assert "TCGplayer" in game
+    assert "## Product Field Coverage" in game
+    assert "| `tcgplayerProductId` | integer | 1 / 1 | 100% | `42382` |" in game
+    assert "## Game-Specific Metadata Coverage" in game
+    assert "| `stage` | string | 1 / 1 | 100% | `Stage 2` |" in game
     assert "weekly-test" in history
     assert "no previous full catalog available" in history
     assert json.loads((release_dir / "bulk-data.json").read_text(encoding="utf-8"))["object"] == "list"

@@ -44,3 +44,42 @@ Use the generated schema JSON in the release for the complete observed field lis
 - `imageUrls`: TCGplayer CDN URLs derived from product IDs; images are linked, not republished.
 - `priceGuide`: price-guide rows when the endpoint exposes them for the set.
 - `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.
+
+## Product Field Coverage
+
+The schema profile observed 42 product fields across 45084 product records.
+Population counts show how often a field had a non-empty value in this release.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `tcgplayerProductId` | integer | 45084 / 45084 | 100% | `22800` |
+| `name` | string | 45084 / 45084 | 100% | `Dark Magician` |
+| `productLineId` | integer | 45084 / 45084 | 100% | `2` |
+| `setId` | integer | 45084 / 45084 | 100% | `126` |
+| `collectorNumber` | string | 44972 / 45084 | 99.75% | `BPT-007` |
+| `rarity` | string | 45084 / 45084 | 100% | `Secret Rare` |
+| `foilings` | array | 45080 / 45084 | 99.99% | `["Unlimited"]` |
+| `imageUrls` | array | 45084 / 45084 | 100% | `["https://tcgplayer-cdn.tcgplayer.com/product/22800_in_1000x1000.jpg"]` |
+| `metadata` | object | 44971 / 45084 | 99.75% | `{"rulesText": "<em>The ultimate wizard in terms of attack and defense.</em>", "cardType...` |
+| `priceGuide` | array | 45084 / 45084 | 100% | `[{"condition": "Damaged Unlimited", "printing": "Unlimited", "lowPrice": 2.49, "marketP...` |
+
+## Game-Specific Metadata Coverage
+
+These fields come from TCGplayer search/detail metadata and vary by game.
+The table shows the most-populated non-container metadata fields first.
+
+| Field | Types | Products | Populated | Example |
+| --- | --- | ---: | ---: | --- |
+| `customAttributes.rarityDbName` | string | 44971 / 45084 | 99.75% | `Secret Rare` |
+| `customAttributes.number` | string | 44860 / 45084 | 99.5% | `BPT-007` |
+| `customAttributes.releaseDate` | string | 44736 / 45084 | 99.23% | `2003-09-01T00:00:00Z` |
+| `customAttributes.cardTypeB` | string | 44644 / 45084 | 99.02% | `Normal Monster` |
+| `customAttributes.description` | string | 44390 / 45084 | 98.46% | `<em>The ultimate wizard in terms of attack and defense.</em>` |
+| `rulesText` | string | 44390 / 45084 | 98.46% | `<em>The ultimate wizard in terms of attack and defense.</em>` |
+| `customAttributes.attack` | string | 33700 / 45084 | 74.75% | `2500` |
+| `customAttributes.defense` | string | 32428 / 45084 | 71.93% | `2100` |
+| `customAttributes.level` | string | 28077 / 45084 | 62.28% | `7` |
+| `customAttributes.detailNote` | string | 13179 / 45084 | 29.23% | `This product is a Presale item and will ship after 08/28/2012.` |
+| `customAttributes.linkRating` | string | 1258 / 45084 | 2.79% | `1` |
+| `customAttributes.flavorText` | string | 30 / 45084 | 0.07% | `"This legendary dragon is a powerful engine of destruction. Virtually invincible, very ...` |
+| `flavorText` | string | 30 / 45084 | 0.07% | `"This legendary dragon is a powerful engine of destruction. Virtually invincible, very ...` |

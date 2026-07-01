@@ -31,6 +31,7 @@ def generate_catalog_docs(
     catalog_items = [item for item in manifest.get("data", []) if item.get("type", "").endswith("_catalog_full")]
     catalogs = [_load_json(release_dir / item["download_uri"]) for item in catalog_items]
     catalogs.sort(key=lambda catalog: catalog.get("meta", {}).get("productLine", ""))
+    schema_profiles = _load_schema_profiles(release_dir, catalogs)
 
     written: list[Path] = []
     written.append(_write_index(output_dir / "README.md", catalogs, metrics, manifest, release_tag, release_url))
@@ -48,12 +49,32 @@ def generate_catalog_docs(
     )
     written.append(_write_games_index(output_dir / "games.md", games, catalogs, release_tag, release_url))
     for catalog in catalogs:
-        written.append(_write_game_page(game_dir / f"{catalog['meta']['slug']}.md", catalog, metrics, release_tag, release_url))
+        slug = catalog["meta"]["slug"]
+        written.append(
+            _write_game_page(
+                game_dir / f"{slug}.md",
+                catalog,
+                metrics,
+                schema_profiles.get(slug, {}),
+                release_tag,
+                release_url,
+            )
+        )
     return written
 
 
 def _load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _load_schema_profiles(release_dir: Path, catalogs: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    profiles = {}
+    for catalog in catalogs:
+        slug = catalog.get("meta", {}).get("slug", "")
+        path = release_dir / f"{slug}.schema.json"
+        if path.exists():
+            profiles[slug] = _load_json(path)
+    return profiles
 
 
 def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, Any], manifest: dict[str, Any], release_tag: str, release_url: str) -> Path:
@@ -97,6 +118,7 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
             "",
             "tcgjson focuses on singles catalog data: products, sets, collector numbers, rarities, image URLs, and price-guide rows where TCGplayer exposes them.",
             "It does not publish marketplace listings, seller inventory, sealed products, or downloaded card images.",
+            "Each game page includes product field coverage and game-specific metadata coverage generated from the schema profile for that release.",
             "",
             "## Release Artifacts",
             "",
@@ -244,7 +266,14 @@ def _write_games_index(path: Path, games: dict[str, Any], catalogs: list[dict[st
     return _write(path, lines)
 
 
-def _write_game_page(path: Path, catalog: dict[str, Any], metrics: dict[str, Any], release_tag: str, release_url: str) -> Path:
+def _write_game_page(
+    path: Path,
+    catalog: dict[str, Any],
+    metrics: dict[str, Any],
+    schema_profile: dict[str, Any],
+    release_tag: str,
+    release_url: str,
+) -> Path:
     meta = catalog.get("meta", {})
     slug = meta.get("slug", "")
     line_metrics = next((line for line in metrics.get("productLines", []) if line.get("slug") == slug), {})
@@ -298,7 +327,110 @@ def _write_game_page(path: Path, catalog: dict[str, Any], metrics: dict[str, Any
             "- `metadata`: promoted and raw search metadata, especially useful for game-specific text fields.",
         ]
     )
+    lines.extend(_schema_profile_sections(schema_profile))
     return _write(path, lines)
+
+
+def _schema_profile_sections(profile: dict[str, Any]) -> list[str]:
+    fields = profile.get("fields", [])
+    if not fields:
+        return [
+            "",
+            "## Product Field Coverage",
+            "",
+            "No schema profile was available for this catalog release.",
+        ]
+
+    product_count = int(profile.get("productCount") or 0)
+    top_level_fields = [field for field in fields if _is_top_level_schema_field(field)]
+    metadata_fields = [field for field in fields if _is_metadata_leaf_field(field)]
+
+    lines = [
+        "",
+        "## Product Field Coverage",
+        "",
+        f"The schema profile observed {profile.get('fieldCount', len(fields))} product fields across {product_count} product records.",
+        "Population counts show how often a field had a non-empty value in this release.",
+        "",
+        _schema_field_table(top_level_fields, product_count, limit=30),
+    ]
+    if metadata_fields:
+        lines.extend(
+            [
+                "",
+                "## Game-Specific Metadata Coverage",
+                "",
+                "These fields come from TCGplayer search/detail metadata and vary by game.",
+                "The table shows the most-populated non-container metadata fields first.",
+                "",
+                _schema_field_table(metadata_fields, product_count, limit=30, strip_prefix="metadata."),
+            ]
+        )
+    return lines
+
+
+def _is_top_level_schema_field(field: dict[str, Any]) -> bool:
+    path = field.get("path", "")
+    return "." not in path and "[]" not in path
+
+
+def _is_metadata_leaf_field(field: dict[str, Any]) -> bool:
+    path = field.get("path", "")
+    types = set(field.get("types", []))
+    if not path.startswith("metadata.") or path.endswith("[]"):
+        return False
+    return types != {"object"} and types != {"array"}
+
+
+def _schema_field_table(
+    fields: list[dict[str, Any]],
+    product_count: int,
+    *,
+    limit: int,
+    strip_prefix: str = "",
+) -> str:
+    if not fields:
+        return "No populated fields were available in this release."
+    lines = ["| Field | Types | Products | Populated | Example |", "| --- | --- | ---: | ---: | --- |"]
+    for field in sorted(fields, key=_schema_field_sort_key)[:limit]:
+        path = str(field.get("path", ""))
+        if strip_prefix and path.startswith(strip_prefix):
+            path = path[len(strip_prefix) :]
+        populated_count = int(field.get("populatedCount") or 0)
+        lines.append(
+            f"| `{_escape_table(path)}` | {_escape_table(', '.join(field.get('types', [])))} | "
+            f"{populated_count} / {product_count} | {_format_percent(field.get('populatedPercent'))} | "
+            f"{_markdown_example(field.get('example'))} |"
+        )
+    return "\n".join(lines)
+
+
+def _schema_field_sort_key(field: dict[str, Any]) -> tuple[int, float, str]:
+    priority = {
+        "tcgplayerProductId": 0,
+        "name": 1,
+        "productLineId": 2,
+        "setId": 3,
+        "setName": 4,
+        "collectorNumber": 5,
+        "rarity": 6,
+        "foilings": 7,
+        "imageUrls": 8,
+        "metadata": 9,
+        "priceGuide": 10,
+    }
+    path = str(field.get("path", ""))
+    return (priority.get(path, 100), -float(field.get("populatedPercent") or 0), path)
+
+
+def _format_percent(value: Any) -> str:
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return "0%"
+    if number.is_integer():
+        return f"{int(number)}%"
+    return f"{number:.2f}".rstrip("0").rstrip(".") + "%"
 
 
 def _change_notes(catalogs: list[dict[str, Any]], previous_release_dir: Path | None) -> list[str]:
@@ -428,7 +560,7 @@ def _markdown_example(value: Any) -> str:
         text = json.dumps(value, ensure_ascii=False)
     else:
         text = str(value)
-    text = text.replace("\n", " ").replace("|", "\\|")
+    text = text.replace("\r", " ").replace("\n", " ").replace("|", "\\|")
     if len(text) > 90:
         text = text[:87] + "..."
     return f"`{text}`"
