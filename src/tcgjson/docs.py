@@ -11,6 +11,7 @@ from .atomic import atomic_write_text
 
 CATALOG_DOCS_VERSION = 1
 PROJECT_URL = "https://github.com/HanClinto/tcgjson"
+WEEKLY_WORKFLOW_URL = "https://github.com/HanClinto/tcgjson/actions/workflows/weekly-release.yml"
 
 
 def generate_catalog_docs(
@@ -130,6 +131,8 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
         "tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games hosted on TCGplayer.",
         "It is built for people who want dependable card, set, and metadata snapshots without scraping TCGplayer themselves.",
         "The project is inspired by [mtgjson](https://mtgjson.com/) and [Scryfall bulk data](https://scryfall.com/docs/api/bulk-data): practical, downloadable data files that can power collection tools, indexes, research, and offline workflows.",
+        f"Updates are automatic and hosted on [GitHub Actions]({WEEKLY_WORKFLOW_URL}), so future catalog refreshes are not dependent on manual releases or human follow-through.",
+        "The goal is to be a reliable data source that other sites and applications can build on.",
         "Release files are published through GitHub Releases, and these source-controlled docs make each catalog shape and weekly change easy to review.",
         "",
         _generated_note(metrics, release_tag, release_url),

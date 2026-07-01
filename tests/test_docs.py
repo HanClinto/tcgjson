@@ -121,6 +121,8 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games hosted on TCGplayer." in index
     assert "[mtgjson](https://mtgjson.com/)" in index
     assert "[Scryfall bulk data](https://scryfall.com/docs/api/bulk-data)" in index
+    assert "[GitHub Actions](https://github.com/HanClinto/tcgjson/actions/workflows/weekly-release.yml)" in index
+    assert "The goal is to be a reliable data source that other sites and applications can build on." in index
     assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
     assert "TCGplayer" in game
     assert "## TCGplayer Resources" in game
