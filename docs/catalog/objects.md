@@ -494,12 +494,6 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
 
 A full catalog file is named `<slug>.full.json`. The compact companion is named `<slug>.json` and omits fields intended mainly for auditing or deeper integrations.
 
-| Field | Meaning | Example |
-| --- | --- | --- |
-| `meta` | Build metadata for the catalog. | `{"object": "tcgjson_catalog", "version": 1, "source": "tcgplayer", "sourceMode": "price...` |
-| `sets` | Array of set summary objects. | `[{"tcgplayerSetId": 23012, "name": "Across Time", "urlName": "across-time", "abbreviati...` |
-| `products` | Array of product/card objects. | `[{"tcgplayerProductId": 234508, "name": "Release Special Booster Ver.1.0 Index Card (Pl...` |
-
 <details>
 <summary>Example catalog object shape</summary>
 
@@ -582,20 +576,15 @@ A full catalog file is named `<slug>.full.json`. The compact companion is named 
 
 </details>
 
+| Field | Meaning | Example |
+| --- | --- | --- |
+| `meta` | Build metadata for the catalog. | `{"object": "tcgjson_catalog", "version": 1, "source": "tcgplayer", "sourceMode": "price...` |
+| `sets` | Array of set summary objects. | `[{"tcgplayerSetId": 23012, "name": "Across Time", "urlName": "across-time", "abbreviati...` |
+| `products` | Array of product/card objects. | `[{"tcgplayerProductId": 234508, "name": "Release Special Booster Ver.1.0 Index Card (Pl...` |
+
 ## Set Object
 
 A set summarizes a TCGplayer set/category grouping. Set pages link back to TCGplayer search pages so a person can inspect the source storefront context.
-
-| Field | Meaning | Example |
-| --- | --- | --- |
-| `tcgplayerSetId` | TCGplayer set identifier. | `23012` |
-| `name` | Display name from TCGplayer. | `Across Time` |
-| `urlName` | TCGplayer URL-friendly name when exposed. | `across-time` |
-| `releaseDate` | Set release date from TCGplayer when exposed. | `2023-04-28T00:00:00` |
-| `iconUrl` | Linked TCGplayer CDN set banner URL derived from the set ID and clean set name. | `https://tcgplayer-cdn.tcgplayer.com/set_icon/23012AcrossTime.png` |
-| `productCount` | Number of products associated with this object. | `192` |
-| `priceGuideRowCount` | Number of raw price-guide rows observed for the set. | `0` |
-| `source` | Endpoint path used for this set, usually priceguide or search. | `search` |
 
 <details>
 <summary>Example full set object</summary>
@@ -622,22 +611,20 @@ A set summarizes a TCGplayer set/category grouping. Set pages link back to TCGpl
 
 </details>
 
+| Field | Meaning | Example |
+| --- | --- | --- |
+| `tcgplayerSetId` | TCGplayer set identifier. | `23012` |
+| `name` | Display name from TCGplayer. | `Across Time` |
+| `urlName` | TCGplayer URL-friendly name when exposed. | `across-time` |
+| `releaseDate` | Set release date from TCGplayer when exposed. | `2023-04-28T00:00:00` |
+| `iconUrl` | Linked TCGplayer CDN set banner URL derived from the set ID and clean set name. | `https://tcgplayer-cdn.tcgplayer.com/set_icon/23012AcrossTime.png` |
+| `productCount` | Number of products associated with this object. | `192` |
+| `priceGuideRowCount` | Number of raw price-guide rows observed for the set. | `0` |
+| `source` | Endpoint path used for this set, usually priceguide or search. | `search` |
+
 ## Product Object
 
 A product is one catalog card/product record. Most integrations should start with `tcgplayerProductId`, `name`, `setId`, `collectorNumber`, `rarity`, and `imageUrls`.
-
-| Field | Meaning | Example |
-| --- | --- | --- |
-| `tcgplayerProductId` | TCGplayer product identifier. | `234508` |
-| `name` | Display name from TCGplayer. | `Release Special Booster Ver.1.0 Index Card (Player 1)` |
-| `productLineId` | TCGplayer product-line identifier. | `63` |
-| `setId` | TCGplayer set identifier for this product. | `2733` |
-| `collectorNumber` | Card number or collector number when available. | `` |
-| `rarity` | Rarity label when available. | `None` |
-| `foilings` | Observed printings or foil treatments. | `["Normal"]` |
-| `imageUrls` | Linked TCGplayer CDN image URLs. | `["https://tcgplayer-cdn.tcgplayer.com/product/234508_in_1000x1000.jpg"]` |
-| `metadata` | Game-specific metadata preserved from search/details payloads. | `{"colors": ["Blue"], "customAttributes": {"origins": "Release Special Booster V.1.0", "...` |
-| `skus` | Optional SKU rows from product details builds. |  |
 
 <details>
 <summary>Example full product object</summary>
@@ -673,6 +660,19 @@ A product is one catalog card/product record. Most integrations should start wit
 ```
 
 </details>
+
+| Field | Meaning | Example |
+| --- | --- | --- |
+| `tcgplayerProductId` | TCGplayer product identifier. | `234508` |
+| `name` | Display name from TCGplayer. | `Release Special Booster Ver.1.0 Index Card (Player 1)` |
+| `productLineId` | TCGplayer product-line identifier. | `63` |
+| `setId` | TCGplayer set identifier for this product. | `2733` |
+| `collectorNumber` | Card number or collector number when available. | `` |
+| `rarity` | Rarity label when available. | `None` |
+| `foilings` | Observed printings or foil treatments. | `["Normal"]` |
+| `imageUrls` | Linked TCGplayer CDN image URLs. | `["https://tcgplayer-cdn.tcgplayer.com/product/234508_in_1000x1000.jpg"]` |
+| `metadata` | Game-specific metadata preserved from search/details payloads. | `{"colors": ["Blue"], "customAttributes": {"origins": "Release Special Booster V.1.0", "...` |
+| `skus` | Optional SKU rows from product details builds. |  |
 
 ## Pricing
 
