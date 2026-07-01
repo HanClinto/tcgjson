@@ -1,12 +1,12 @@
 # tcgjson Catalog Docs
 
-tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games hosted on TCGplayer.
+tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games listed on TCGplayer.
 
 ## Project Goals
 
 - Reliable bulk data: dependable card, set, and metadata snapshots that other sites and applications can build on.
 - Automatic updates: catalog refreshes run on [GitHub Actions](https://github.com/HanClinto/tcgjson/actions/workflows/weekly-release.yml) so future updates are not dependent on manual releases or human follow-through.
-- Broad TCGplayer coverage: weekly catalog files for multiple card games hosted on TCGplayer, not just one product line.
+- Broad TCGplayer coverage: weekly catalog files for multiple card games listed on TCGplayer, not just one product line.
 - Practical downloads: inspired by [mtgjson](https://mtgjson.com/) and [Scryfall bulk data](https://scryfall.com/docs/api/bulk-data), with release files published through [GitHub Releases](https://github.com/HanClinto/tcgjson/releases).
 - Reviewable formats: these docs are generated from source each release to document the format of game-specific information available for each card.
 
