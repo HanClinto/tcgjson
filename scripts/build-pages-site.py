@@ -268,27 +268,74 @@ blockquote,
   .sidebar {
     position: relative;
     height: auto;
+    overflow: visible;
+    padding: 0.75rem 0.72rem 0.55rem;
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
 
+  .brand {
+    margin-bottom: 0.65rem;
+  }
+
+  .brand-title {
+    font-size: 1.18rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.78rem;
+  }
+
   .nav-section {
-    display: inline-block;
-    width: min(100%, 20rem);
-    margin-right: 1rem;
-    vertical-align: top;
+    display: block;
+    width: 100%;
+    margin: 0.55rem 0 0;
+    overflow-x: auto;
+    padding-bottom: 0.15rem;
+    scroll-snap-type: x proximity;
+    white-space: nowrap;
+  }
+
+  .nav-heading {
+    margin-bottom: 0.3rem;
+    font-size: 0.66rem;
+  }
+
+  .nav-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    margin: 0 0.35rem 0.35rem 0;
+    max-width: 17rem;
+    overflow: hidden;
+    padding: 0.28rem 0.5rem;
+    border: 1px solid var(--line);
+    background: rgba(255, 253, 247, 0.74);
+    font-size: 0.84rem;
+    line-height: 1.25;
+    scroll-snap-align: start;
+    text-overflow: ellipsis;
   }
 
   .content-wrap {
-    padding: 1rem 0.8rem 3rem;
+    padding: 0.85rem 0.72rem 3rem;
   }
 
   .doc-card {
-    padding: 1rem;
+    padding: 0.95rem;
   }
 
   h1 {
-    font-size: 2.1rem;
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  p,
+  li {
+    font-size: 0.98rem;
   }
 }
 """.strip()
@@ -437,7 +484,7 @@ def markdown_to_html(markdown: str, source_dir: Path) -> str:
             continue
         next_line = lines[index + 1] if index + 1 < len(lines) else ""
         separator_chars = set(
-          next_line.replace("|", "").replace(":", "").replace("-", "").strip()
+            next_line.replace("|", "").replace(":", "").replace("-", "").strip()
         )
         if stripped.startswith("| ") and index + 1 < len(lines) and not separator_chars:
             flush_paragraph()
