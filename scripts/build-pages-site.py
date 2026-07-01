@@ -970,6 +970,7 @@ def render_table(lines: list[str]) -> str:
     body = rows[2:]
     banner_table = bool(header) and header[0].lower() == "banner"
     visible_header = header[1:] if banner_table else header
+    current_catalogs_table = banner_table and bool(visible_header) and visible_header[0].strip().lower() == "game"
     table_class = "table-wrap banner-table" if banner_table else "table-wrap"
     html_rows = [f"<div class=\"{table_class}\"><table>", "<thead><tr>"]
     html_rows.extend(f"<th>{render_inline(cell, Path('.'))}</th>" for cell in visible_header)
@@ -981,7 +982,7 @@ def render_table(lines: list[str]) -> str:
         html_rows.append(f"<tr{row_style}>")
         for column_index, cell in enumerate(visible_row):
           header_name = visible_header[column_index].strip().lower() if column_index < len(visible_header) else ""
-          class_attr = ' class="banner-count-cell"' if banner_table and header_name in {"sets", "products"} else ""
+          class_attr = ' class="banner-count-cell"' if current_catalogs_table and header_name in {"sets", "products"} else ""
           html_rows.append(f"<td{class_attr}>{render_inline(cell, Path('.'))}</td>")
         html_rows.append("</tr>")
     html_rows.append("</tbody></table></div>")

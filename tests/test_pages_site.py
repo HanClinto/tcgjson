@@ -79,10 +79,11 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert '<div class="table-wrap banner-table"><table>' in index
     assert '<th>Banner</th>' not in index
     assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in index
+    assert '<td class="banner-count-cell">1</td>' in index
     assert '<div class="table-wrap banner-table"><table>' in game
     assert '<th>Banner</th>' not in game
     assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in game
-    assert '<td class="banner-count-cell"><a href="https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set">1</a></td>' in game
+    assert '<td><a href="https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set">1</a></td>' in game
     assert ".banner-table tbody td:first-child a" in styles
     assert "background: rgba(35, 31, 25, 0.62);" in styles
     assert ".banner-table tbody td.banner-count-cell" in styles
