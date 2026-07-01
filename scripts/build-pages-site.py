@@ -258,8 +258,7 @@ details pre {
 .tcg-card-popover {
   position: fixed;
   z-index: 20;
-  display: grid;
-  grid-template-columns: minmax(8rem, 12rem) minmax(18rem, 28rem);
+  display: block;
   max-width: min(42rem, calc(100vw - 1.5rem));
   max-height: calc(100vh - 1.5rem);
   overflow: hidden;
@@ -283,10 +282,12 @@ details pre {
 }
 
 .tcg-card-popover img {
-  display: block;
-  width: 100%;
+  float: right;
+  width: min(11rem, 38%);
   height: auto;
   max-height: calc(100vh - 1.5rem);
+  margin: 0 0 0.7rem 1rem;
+  border-radius: 0.35rem;
   object-fit: contain;
   background: #211a14;
 }
@@ -544,8 +545,12 @@ blockquote,
   }
 
   .tcg-card-popover {
-    grid-template-columns: minmax(5.8rem, 7.5rem) minmax(0, 1fr);
     max-width: calc(100vw - 1rem);
+  }
+
+  .tcg-card-popover img {
+    width: min(7.5rem, 36%);
+    margin-left: 0.7rem;
   }
 
   h1 {
@@ -588,6 +593,8 @@ CARD_PREVIEW_SCRIPT = r"""
     .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
     .replace(/^./, (letter) => letter.toUpperCase());
 
+  const bodyTextKeys = new Set(["description", "flavorText", "oracleText", "rulesText", "text"]);
+
   const textValue = (value) => {
     if (Array.isArray(value)) return value.map(textValue).filter(Boolean).join(", ");
     if (value && typeof value === "object") {
@@ -613,6 +620,7 @@ CARD_PREVIEW_SCRIPT = r"""
     }
     if (value && typeof value === "object") {
       const items = Object.entries(value)
+        .filter(([key]) => !bodyTextKeys.has(key))
         .map(([key, nestedValue]) => {
           const rendered = renderValue(nestedValue, depth + 1);
           return rendered ? `<li><strong>${escapeHtml(labelFor(key))}:</strong> ${rendered}</li>` : "";
@@ -634,7 +642,7 @@ CARD_PREVIEW_SCRIPT = r"""
       ["Foilings", card.foilings],
     ];
     const metadataRows = Object.entries(metadata)
-      .filter(([key, value]) => !["description", "flavorText", "oracleText", "rulesText", "text"].includes(key) && textValue(value))
+      .filter(([key, value]) => !bodyTextKeys.has(key) && textValue(value))
       .slice(0, 6)
       .map(([key, value]) => [labelFor(key), value]);
     return rows.concat(metadataRows).filter(([, value]) => textValue(value));
@@ -654,7 +662,7 @@ CARD_PREVIEW_SCRIPT = r"""
       .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${renderValue(value)}</dd>`)
       .join("");
     const text = rulesText(card);
-    popover.innerHTML = `${image}<div class="tcg-card-popover-body"><h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl>${text ? `<p class="tcg-card-popover-text">${escapeHtml(text)}</p>` : ""}</div>`;
+    popover.innerHTML = `<div class="tcg-card-popover-body">${image}<h3 class="tcg-card-popover-title">${escapeHtml(card.name || "Card")}</h3><p class="tcg-card-popover-subtitle">${escapeHtml(subtitle)}</p><dl>${rows}</dl>${text ? `<p class="tcg-card-popover-text">${escapeHtml(text)}</p>` : ""}</div>`;
   };
 
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (char) => ({
