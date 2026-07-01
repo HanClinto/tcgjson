@@ -118,6 +118,9 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     history = (docs_dir / "release-history.md").read_text(encoding="utf-8")
 
     assert "[Pokemon](games/pokemon.md)" in index
+    assert "tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games hosted on TCGplayer." in index
+    assert "[mtgjson](https://mtgjson.com/)" in index
+    assert "[Scryfall bulk data](https://scryfall.com/docs/api/bulk-data)" in index
     assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
     assert "TCGplayer" in game
     assert "## TCGplayer Resources" in game
