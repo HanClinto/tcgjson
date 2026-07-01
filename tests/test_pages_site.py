@@ -86,8 +86,8 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert ".banner-table tbody td:first-child a" in styles
     assert "background: rgba(35, 31, 25, 0.62);" in styles
     assert ".banner-table tbody td.banner-count-cell" in styles
-    assert "background: rgba(35, 31, 25, 0.78);" in styles
     assert "color: #fff7e8;" in styles
+    assert "0 1px 2px rgba(35, 31, 25, 0.92)" in styles
     assert '<a class="nav-link" href="games/pokemon.html">Pokemon</a>' in index
     assert '<a class="nav-link" href="../index.html">Overview</a>' in game
     assert (output_dir / ".nojekyll").exists()

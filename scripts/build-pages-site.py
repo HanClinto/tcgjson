@@ -456,15 +456,11 @@ th:nth-child(2) {
 }
 
 .banner-table tbody td.banner-count-cell {
-  background: rgba(35, 31, 25, 0.78);
   color: #fff7e8;
   font-weight: 700;
-  box-shadow:
-    inset 0 0 0 1px rgba(255, 247, 232, 0.18),
-    0 2px 8px rgba(35, 31, 25, 0.16);
   text-shadow:
-    0 1px 1px rgba(0, 0, 0, 0.9),
-    0 0 4px rgba(0, 0, 0, 0.55);
+    0 1px 2px rgba(35, 31, 25, 0.92),
+    0 0 5px rgba(35, 31, 25, 0.62);
 }
 
 .banner-table tbody td.banner-count-cell a {
