@@ -113,6 +113,11 @@ def build_parser() -> argparse.ArgumentParser:
     docs_generate.add_argument("--output", type=Path, default=Path("docs/catalog"))
     docs_generate.add_argument("--release-tag", default="")
     docs_generate.add_argument("--release-url", default="")
+    docs_generate.add_argument(
+        "--no-probe-catalog-banners",
+        action="store_true",
+        help="Skip CDN probes used to pick representative current-catalog row backgrounds.",
+    )
 
     ops = subparsers.add_parser("ops", help="Evaluate operational constraints")
     ops_subparsers = ops.add_subparsers(dest="ops_command", required=True)
@@ -177,6 +182,7 @@ def main(argv: list[str] | None = None) -> int:
             previous_release_dir=args.previous_release_dir,
             release_tag=args.release_tag,
             release_url=args.release_url,
+            probe_catalog_banners=not args.no_probe_catalog_banners,
         )
         print(f"Wrote {len(written)} catalog doc files to {args.output}")
         return 0

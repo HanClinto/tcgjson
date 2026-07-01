@@ -25,7 +25,9 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     games_dir.mkdir(parents=True)
     (docs_dir / "README.md").write_text(
         "# tcgjson Catalog Docs\n\nWelcome to [objects](objects.md).\n\n"
-        "| Game | Products |\n| --- | ---: |\n| [Pokemon](games/pokemon.md) | 1 |\n",
+        "| Banner | Game | Products |\n"
+        "| --- | --- | ---: |\n"
+        "| ![Pokemon](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | [Pokemon](games/pokemon.md) | 1 |\n",
         encoding="utf-8",
     )
     (docs_dir / "objects.md").write_text("# Object Guide\n\nSee [home](README.md).\n", encoding="utf-8")
@@ -73,6 +75,9 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert '<img src="https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png" alt="" loading="lazy" referrerpolicy="no-referrer" onload="this.dataset.loaded=\'true\'" onerror="this.remove()">' in game
     assert '<a class="tcg-card-link" href="https://www.tcgplayer.com/product/42382" data-card-preview="%7B%22name%22%3A%22Alakazam%22%2C%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22%7D">Alakazam</a>' in game
     assert (output_dir / "assets" / "card-preview.js").exists()
+    assert '<div class="table-wrap banner-table"><table>' in index
+    assert '<th>Banner</th>' not in index
+    assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in index
     assert '<div class="table-wrap banner-table"><table>' in game
     assert '<th>Banner</th>' not in game
     assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in game

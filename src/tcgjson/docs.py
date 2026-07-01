@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote, quote_plus
 
+import requests
+
 from .atomic import atomic_write_text
 from .normalize import compact_product
 
@@ -24,6 +26,7 @@ def generate_catalog_docs(
     previous_release_dir: Path | None = None,
     release_tag: str = "",
     release_url: str = "",
+    probe_catalog_banners: bool = False,
 ) -> list[Path]:
     manifest = _load_json(release_dir / "bulk-data.json")
     metrics = _load_json(release_dir / "metrics.json")
@@ -39,7 +42,17 @@ def generate_catalog_docs(
     schema_profiles = _load_schema_profiles(release_dir, catalogs)
 
     written: list[Path] = []
-    written.append(_write_index(output_dir / "README.md", catalogs, metrics, manifest, release_tag, release_url))
+    written.append(
+        _write_index(
+            output_dir / "README.md",
+            catalogs,
+            metrics,
+            manifest,
+            release_tag,
+            release_url,
+            probe_catalog_banners,
+        )
+    )
     written.append(_write_objects(output_dir / "objects.md", catalogs, manifest, release_tag, release_url))
     written.append(
         _write_release_history(
@@ -128,7 +141,15 @@ def _compact_set_icon_name(value: str) -> str:
     return "".join(text.split())
 
 
-def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, Any], manifest: dict[str, Any], release_tag: str, release_url: str) -> Path:
+def _write_index(
+    path: Path,
+    catalogs: list[dict[str, Any]],
+    metrics: dict[str, Any],
+    manifest: dict[str, Any],
+    release_tag: str,
+    release_url: str,
+    probe_catalog_banners: bool,
+) -> Path:
     lines = [
         "# tcgjson Catalog Docs",
         "",
@@ -153,8 +174,8 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
         "",
         "## Current Catalogs",
         "",
-        "| Game | Sets | Products | Full JSON | Compact JSON | Schema |",
-        "| --- | ---: | ---: | --- | --- | --- |",
+        "| Banner | Game | Sets | Products | Full JSON | Compact JSON | Schema |",
+        "| --- | --- | ---: | ---: | --- | --- | --- |",
     ]
     by_name = _manifest_by_download(manifest)
     for catalog in catalogs:
@@ -163,8 +184,11 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
         full_name = f"{slug}.full.json"
         compact_name = f"{slug}.json"
         schema_name = f"{slug}.schema.json"
+        banner_url = _representative_set_icon_url(catalog, probe_catalog_banners)
+        banner_cell = f"![{_escape_table(meta.get('productLine', slug))}]({banner_url})" if banner_url else ""
         lines.append(
             "| "
+            f"{banner_cell} | "
             f"[{_escape_table(meta.get('productLine', slug))}](games/{slug}.md) | "
             f"{meta.get('setCount', len(catalog.get('sets', [])))} | "
             f"{meta.get('productCount', len(catalog.get('products', [])))} | "
@@ -192,6 +216,37 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
         ]
     )
     return _write(path, lines)
+
+
+def _representative_set_icon_url(catalog: dict[str, Any], probe: bool, limit: int = 24) -> str:
+    candidates = [
+        str(set_row.get("iconUrl") or "")
+        for set_row in sorted(
+            catalog.get("sets", []),
+            key=lambda item: (str(item.get("releaseDate") or ""), int(item.get("tcgplayerSetId") or 0)),
+            reverse=True,
+        )[:limit]
+        if set_row.get("iconUrl")
+    ]
+    if not candidates:
+        return ""
+    if not probe:
+        return candidates[0]
+    for url in candidates:
+        if _http_image_exists(url):
+            return url
+    return ""
+
+
+def _http_image_exists(url: str) -> bool:
+    try:
+        response = requests.head(url, allow_redirects=True, timeout=1.5)
+        if response.status_code == 405:
+            response = requests.get(url, stream=True, timeout=1.5)
+        content_type = response.headers.get("content-type", "")
+        return response.ok and content_type.startswith("image/")
+    except requests.RequestException:
+        return False
 
 
 def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[str, Any], release_tag: str, release_url: str) -> Path:

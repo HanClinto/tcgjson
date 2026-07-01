@@ -118,6 +118,8 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     history = (docs_dir / "release-history.md").read_text(encoding="utf-8")
 
     assert "[Pokemon](games/pokemon.md)" in index
+    assert "| Banner | Game | Sets | Products | Full JSON | Compact JSON | Schema |" in index
+    assert "| ![Pokemon](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | [Pokemon](games/pokemon.md) | 1 | 1 |" in index
     assert "tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games listed on TCGplayer." in index
     assert "## Project Goals" in index
     assert "- Reliable bulk data: dependable card, set, and metadata snapshots that other sites and applications can build on." in index
