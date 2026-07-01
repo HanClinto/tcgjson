@@ -265,7 +265,9 @@ details pre {
   border: 1px solid rgba(48, 39, 28, 0.18);
   border-radius: 0.55rem;
   background: #fffaf0;
-  box-shadow: 0 22px 48px rgba(58, 43, 24, 0.24);
+  box-shadow:
+    0 2.2rem 5rem rgba(45, 34, 22, 0.34),
+    0 0.45rem 1.25rem rgba(45, 34, 22, 0.16);
   color: #201d18;
   font-family: Avenir Next, Avenir, Segoe UI, sans-serif;
 }
@@ -288,6 +290,7 @@ details pre {
   max-height: calc(100vh - 1.5rem);
   margin: 0 0 0.7rem 1rem;
   border-radius: 0.35rem;
+  box-shadow: 0 0.55rem 1.15rem rgba(45, 34, 22, 0.28);
   object-fit: contain;
   background: #211a14;
 }
