@@ -283,7 +283,7 @@ details pre {
 
 .tcg-card-popover img {
   float: right;
-  width: min(11rem, 38%);
+  width: min(18rem, 52%);
   height: auto;
   max-height: calc(100vh - 1.5rem);
   margin: 0 0 0.7rem 1rem;
@@ -549,7 +549,7 @@ blockquote,
   }
 
   .tcg-card-popover img {
-    width: min(7.5rem, 36%);
+    width: min(11rem, 48%);
     margin-left: 0.7rem;
   }
 
