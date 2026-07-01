@@ -28,18 +28,18 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$")
 
 STYLE = """
 :root {
-  --bg: #f7f3ea;
-  --paper: #fffdf7;
-  --ink: #252218;
-  --muted: #6f695d;
-  --line: #ded4c3;
-  --line-strong: #c9b99f;
-  --accent: #2f7d67;
-  --accent-dark: #1f5b4a;
-  --accent-soft: #dceee7;
-  --gold: #a77528;
-  --code-bg: #f0eadf;
-  --shadow: 0 18px 45px rgba(67, 48, 24, 0.12);
+  --bg: #e4d9c8;
+  --paper: #f0e5d4;
+  --ink: #2d2922;
+  --muted: #756c5e;
+  --line: #c7b9a5;
+  --line-strong: #ac987a;
+  --accent: #3b6b5e;
+  --accent-dark: #2c5348;
+  --accent-soft: #cddbd2;
+  --gold: #80653a;
+  --code-bg: #ded2bf;
+  --shadow: 0 10px 24px rgba(58, 43, 24, 0.07);
   color-scheme: light;
 }
 
@@ -50,8 +50,8 @@ STYLE = """
 body {
   margin: 0;
   background:
-    linear-gradient(180deg, rgba(255, 253, 247, 0.8), rgba(247, 243, 234, 0.95)),
-    radial-gradient(circle at top left, rgba(47, 125, 103, 0.12), transparent 34rem),
+    linear-gradient(180deg, rgba(240, 229, 212, 0.68), rgba(228, 217, 200, 0.98)),
+    radial-gradient(circle at top left, rgba(59, 107, 94, 0.055), transparent 34rem),
     var(--bg);
   color: var(--ink);
   font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
@@ -71,7 +71,7 @@ body {
   overflow: auto;
   padding: 1.25rem 1rem 2rem;
   border-right: 1px solid var(--line);
-  background: rgba(255, 253, 247, 0.86);
+  background: rgba(240, 229, 212, 0.92);
   backdrop-filter: blur(12px);
 }
 
@@ -139,7 +139,7 @@ body {
   padding: clamp(1.25rem, 3vw, 2.5rem);
   border: 1px solid var(--line);
   border-radius: 0.5rem;
-  background: rgba(255, 253, 247, 0.92);
+  background: rgba(240, 229, 212, 0.95);
   box-shadow: var(--shadow);
 }
 
@@ -152,7 +152,7 @@ h4 {
 
 h1 {
   margin: 0 0 1rem;
-  color: #1f1c14;
+  color: #2a261f;
   font-size: clamp(2.2rem, 5vw, 4.4rem);
   letter-spacing: 0;
 }
@@ -167,7 +167,7 @@ h2 {
 
 h3 {
   margin-top: 1.75rem;
-  color: #4b3f2f;
+  color: #544735;
   font-size: 1.25rem;
 }
 
@@ -177,7 +177,7 @@ li {
 }
 
 p:first-of-type {
-  color: #433c31;
+  color: #51493d;
 }
 
 a {
@@ -204,7 +204,7 @@ code {
   margin: 1rem 0 1.5rem;
   border: 1px solid var(--line);
   border-radius: 0.45rem;
-  background: #fffefb;
+  background: #f0e5d4;
 }
 
 table {
@@ -222,8 +222,8 @@ td {
 }
 
 th {
-  background: #f3eadc;
-  color: #4e3f2c;
+  background: #ded0b9;
+  color: #554833;
   font-family: Avenir Next, Avenir, Segoe UI, sans-serif;
   font-size: 0.78rem;
   letter-spacing: 0.04em;
@@ -249,7 +249,7 @@ blockquote,
   padding: 0.75rem 1rem;
   border-left: 0.25rem solid var(--accent);
   background: var(--accent-soft);
-  color: #345548;
+  color: #3e5b51;
 }
 
 .footer {
@@ -310,7 +310,7 @@ blockquote,
     overflow: hidden;
     padding: 0.28rem 0.5rem;
     border: 1px solid var(--line);
-    background: rgba(255, 253, 247, 0.74);
+    background: rgba(240, 229, 212, 0.82);
     font-size: 0.84rem;
     line-height: 1.25;
     scroll-snap-align: start;
