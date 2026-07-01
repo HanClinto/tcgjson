@@ -24,7 +24,7 @@ class Page:
 INLINE_CODE_RE = re.compile(r"`([^`]+)`")
 IMAGE_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
-CARD_LINK_RE = re.compile(r'<a class="tcg-card-link" href="[^"]+" data-card-preview="[^"]+">.*?</a>')
+PREVIEW_LINK_RE = re.compile(r'<a class="tcg-(?:card|set)-link" href="[^"]+" data-(?:card|set)-preview="[^"]+">.*?</a>')
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$")
 PROJECT_URL = "https://github.com/HanClinto/tcgjson"
 
@@ -250,7 +250,8 @@ details pre {
   margin: 0 0.78rem 0.78rem;
 }
 
-.tcg-card-link {
+.tcg-card-link,
+.tcg-set-link {
   font-weight: 700;
   text-decoration-style: dotted;
 }
@@ -621,7 +622,7 @@ blockquote,
 
 CARD_PREVIEW_SCRIPT = r"""
 (() => {
-  const links = document.querySelectorAll(".tcg-card-link[data-card-preview]");
+  const links = document.querySelectorAll(".tcg-card-link[data-card-preview], .tcg-set-link[data-set-preview]");
   if (!links.length) return;
 
   const popover = document.createElement("aside");
@@ -683,6 +684,16 @@ CARD_PREVIEW_SCRIPT = r"""
   };
 
   const detailRows = (card) => {
+    if (card.type === "set") {
+      return [
+        ["Set ID", card.tcgplayerSetId],
+        ["Release Date", card.releaseDate],
+        ["Products", card.productCount],
+        ["Price Guide Rows", card.priceGuideRowCount],
+        ["URL Name", card.urlName],
+        ["Source", card.source],
+      ].filter(([, value]) => textValue(value));
+    }
     const metadata = card.metadata && typeof card.metadata === "object" ? card.metadata : {};
     const rows = [
       ["Product ID", card.tcgplayerProductId],
@@ -715,7 +726,7 @@ CARD_PREVIEW_SCRIPT = r"""
     const image = card.imageUrl
       ? `<img src="${escapeHtml(card.imageUrl)}" alt="" referrerpolicy="no-referrer">`
       : "";
-    const subtitle = [card.productLine, card.rarity].filter(Boolean).join(" - ");
+    const subtitle = [card.productLine, card.type === "set" ? "Set" : card.rarity].filter(Boolean).join(" - ");
     const rows = detailRows(card)
       .map(([label, value]) => `<dt>${escapeHtml(label)}</dt><dd>${renderValue(value)}</dd>`)
       .join("");
@@ -748,7 +759,7 @@ CARD_PREVIEW_SCRIPT = r"""
   };
 
   const show = (link) => {
-    const card = decodePayload(link.dataset.cardPreview || "");
+    const card = decodePayload(link.dataset.cardPreview || link.dataset.setPreview || "");
     if (!card) return;
     window.clearTimeout(hideTimer);
     activeLink = link;
@@ -1033,13 +1044,13 @@ def split_table_row(line: str) -> list[str]:
 
 
 def render_inline(text: str, source_dir: Path) -> str:
-  card_link_values: list[str] = []
+  preview_link_values: list[str] = []
   code_values: list[str] = []
   image_values: list[str] = []
 
-  def store_card_link(match: re.Match[str]) -> str:
-    card_link_values.append(match.group(0))
-    return f"\u0000CARD{len(card_link_values) - 1}\u0000"
+  def store_preview_link(match: re.Match[str]) -> str:
+    preview_link_values.append(match.group(0))
+    return f"\u0000PREVIEW{len(preview_link_values) - 1}\u0000"
 
   def store_code(match: re.Match[str]) -> str:
     code_values.append(f"<code>{html.escape(match.group(1))}</code>")
@@ -1053,7 +1064,7 @@ def render_inline(text: str, source_dir: Path) -> str:
     )
     return f"\u0000IMAGE{len(image_values) - 1}\u0000"
 
-  text = CARD_LINK_RE.sub(store_card_link, text)
+  text = PREVIEW_LINK_RE.sub(store_preview_link, text)
   text = INLINE_CODE_RE.sub(store_code, text)
   text = IMAGE_RE.sub(store_image, text)
   text = html.escape(text)
@@ -1070,8 +1081,8 @@ def render_inline(text: str, source_dir: Path) -> str:
     text = text.replace(f"\u0000IMAGE{index}\u0000", value)
   for index, value in enumerate(code_values):
     text = text.replace(f"\u0000CODE{index}\u0000", value)
-  for index, value in enumerate(card_link_values):
-    text = text.replace(f"\u0000CARD{index}\u0000", value)
+  for index, value in enumerate(preview_link_values):
+    text = text.replace(f"\u0000PREVIEW{index}\u0000", value)
   return text
 
 

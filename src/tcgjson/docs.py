@@ -512,8 +512,9 @@ def _write_game_page(
         icon_url = set_row.get("iconUrl", "")
         icon_cell = f"![{_escape_table(set_name)}]({icon_url})" if icon_url else ""
         search_link = _tcgplayer_set_product_link(set_row, game.get("tcgplayerUrlName", ""), meta.get("productLine", ""), set_name)
+        set_link = _set_preview_link(set_row, search_link, meta.get("productLine", ""), set_name)
         lines.append(
-            f"| {icon_cell} | [{_escape_table(set_name)}]({search_link}) | {_escape_table(_date_only(set_row.get('releaseDate', '')))} | {set_row.get('productCount', 0)} | `{set_row.get('source', '')}` |"
+            f"| {icon_cell} | {set_link} | {_escape_table(_date_only(set_row.get('releaseDate', '')))} | {set_row.get('productCount', 0)} | `{set_row.get('source', '')}` |"
         )
     if recently_added_products:
         lines.extend(
@@ -921,6 +922,28 @@ def _tcgplayer_product_link(product: dict[str, Any], product_line: str, product_
     if product_id:
         return f"https://www.tcgplayer.com/product/{product_id}"
     return _tcgplayer_card_search_link(product_line, product_name, set_name)
+
+
+def _set_preview_link(set_row: dict[str, Any], href: str, product_line: str, set_name: str) -> str:
+    payload = {
+        "type": "set",
+        "tcgplayerSetId": set_row.get("tcgplayerSetId"),
+        "name": set_name,
+        "productLine": product_line,
+        "urlName": set_row.get("urlName"),
+        "releaseDate": _date_only(set_row.get("releaseDate", "")),
+        "productCount": set_row.get("productCount"),
+        "priceGuideRowCount": set_row.get("priceGuideRowCount"),
+        "source": set_row.get("source"),
+        "imageUrl": set_row.get("iconUrl", ""),
+        "rawJson": set_row,
+    }
+    encoded = quote(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), safe="")
+    label = html.escape(str(set_name)).replace("|", "&#124;")
+    return (
+        f'<a class="tcg-set-link" href="{html.escape(href, quote=True)}" '
+        f'data-set-preview="{encoded}">{label}</a>'
+    )
 
 
 def _card_preview_link(product: dict[str, Any], product_line: str, product_name: str, set_name: str) -> str:
