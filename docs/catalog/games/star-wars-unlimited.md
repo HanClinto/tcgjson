@@ -90,21 +90,21 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
-| `customAttributes.rarityDbName` | string | 7667 / 7667 | 100% | `Common` |
-| `customAttributes.releaseDate` | string | 7661 / 7667 | 99.92% | `2024-03-08T00:00:00Z` |
-| `customAttributes.number` | string | 7627 / 7667 | 99.48% | `001/252` |
-| `customAttributes.description` | string | 7253 / 7667 | 94.6% | `Each friendly damaged unit gets +1/+0.<br> [Deployed Leader Unit]<br> <strong>Restore 2...` |
-| `rulesText` | string | 7253 / 7667 | 94.6% | `Each friendly damaged unit gets +1/+0.<br> [Deployed Leader Unit]<br> <strong>Restore 2...` |
-| `customAttributes.traits` | string | 6958 / 7667 | 90.75% | `Imperial;Official` |
+| `customAttributes.arenaType` | string | 5033 / 7667 | 65.64% | `Space` |
 | `customAttributes.aspect` | string | 6799 / 7667 | 88.68% | `Vigilance;Villainy` |
 | `customAttributes.cost` | string | 6798 / 7667 | 88.67% | `5` |
-| `customAttributes.hp` | string | 6315 / 7667 | 82.37% | `7` |
-| `customAttributes.power` | string | 6160 / 7667 | 80.34% | `2` |
-| `power` | string | 6160 / 7667 | 80.34% | `2` |
+| `customAttributes.description` | string | 7253 / 7667 | 94.6% | `Each friendly damaged unit gets +1/+0.<br> [Deployed Leader Unit]<br> <strong>Restore 2...` |
 | `customAttributes.detailNote` | string | 5981 / 7667 | 78.01% | `This product is a Presale item with an estimated shipping date of 3/6/2024. Please keep...` |
-| `customAttributes.arenaType` | string | 5033 / 7667 | 65.64% | `Space` |
 | `customAttributes.epicAction` | string | 521 / 7667 | 6.8% | `<strong>Epic Action:</strong> If you control 5 or more resources, deploy this leader.` |
+| `customAttributes.hp` | string | 6315 / 7667 | 82.37% | `7` |
+| `customAttributes.number` | string | 7627 / 7667 | 99.48% | `001/252` |
+| `customAttributes.power` | string | 6160 / 7667 | 80.34% | `2` |
+| `customAttributes.rarityDbName` | string | 7667 / 7667 | 100% | `Common` |
+| `customAttributes.releaseDate` | string | 7661 / 7667 | 99.92% | `2024-03-08T00:00:00Z` |
+| `customAttributes.traits` | string | 6958 / 7667 | 90.75% | `Imperial;Official` |
+| `power` | string | 6160 / 7667 | 80.34% | `2` |
+| `rulesText` | string | 7253 / 7667 | 94.6% | `Each friendly damaged unit gets +1/+0.<br> [Deployed Leader Unit]<br> <strong>Restore 2...` |

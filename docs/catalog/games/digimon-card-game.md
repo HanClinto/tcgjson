@@ -90,30 +90,30 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
-| `customAttributes.rarityDbName` | string | 35693 / 35693 | 100% | `None` |
-| `customAttributes.number` | string | 35626 / 35693 | 99.81% | `BT1-001 R` |
-| `customAttributes.releaseDate` | string | 35478 / 35693 | 99.4% | `2020-01-24T00:00:00Z` |
-| `customAttributes.playCost` | string | 33354 / 35693 | 93.45% | `2` |
 | `customAttributes.description` | string | 31408 / 35693 | 87.99% | `[On Play] Reveal 5 cards from the top of your deck. Add 1 Tamer card among them to your...` |
-| `rulesText` | string | 31408 / 35693 | 87.99% | `[On Play] Reveal 5 cards from the top of your deck. Add 1 Tamer card among them to your...` |
-| `customAttributes.digimonType` | string | 29998 / 35693 | 84.04% | `Bulb` |
-| `customAttributes.digimonForm` | string | 27857 / 35693 | 78.05% | `In-Training` |
-| `customAttributes.levelLv` | string | 27822 / 35693 | 77.95% | `2` |
-| `customAttributes.digimonPowerDp` | string | 25859 / 35693 | 72.45% | `3000` |
+| `customAttributes.detailNote` | string | 22461 / 35693 | 62.93% | `This product is a Presale item with a delayed estimated shipping date of 11/26/2021. Pl...` |
 | `customAttributes.digimonAttribute` | string | 25857 / 35693 | 72.44% | `Vaccine` |
+| `customAttributes.digimonForm` | string | 27857 / 35693 | 78.05% | `In-Training` |
+| `customAttributes.digimonPowerDp` | string | 25859 / 35693 | 72.45% | `3000` |
+| `customAttributes.digimonType` | string | 29998 / 35693 | 84.04% | `Bulb` |
 | `customAttributes.digivolve1Color` | string | 25378 / 35693 | 71.1% | `Red` |
 | `customAttributes.digivolve1Cost` | string | 25226 / 35693 | 70.67% | `0` |
 | `customAttributes.digivolve1Level` | string | 25121 / 35693 | 70.38% | `2` |
-| `customAttributes.detailNote` | string | 22461 / 35693 | 62.93% | `This product is a Presale item with a delayed estimated shipping date of 11/26/2021. Pl...` |
-| `customAttributes.inheritedEffect` | string | 15001 / 35693 | 42.03% | `[When Attacking] When you attack an opponent's Digimon, this Digimon gets +1000 DP for ...` |
 | `customAttributes.digivolve2Color` | string | 9003 / 35693 | 25.22% | `Blue` |
-| `customAttributes.digivolve2Level` | string | 8664 / 35693 | 24.27% | `6` |
 | `customAttributes.digivolve2Cost` | string | 8660 / 35693 | 24.26% | `6` |
-| `customAttributes.securityEffect` | string | 6982 / 35693 | 19.56% | `[Security] Play this card without paying its memory cost.` |
-| `customAttributes.origins` | string | 4072 / 35693 | 11.41% | `Release Special Booster V.1.0` |
+| `customAttributes.digivolve2Level` | string | 8664 / 35693 | 24.27% | `6` |
 | `customAttributes.digivolve3Level` | string | 458 / 35693 | 1.28% | `5` |
 | `customAttributes.disclaimer` | string | 108 / 35693 | 0.3% | `Marked “Not For Sale” by BANDAI as the manufacturer prefers that Stores do not sell the...` |
+| `customAttributes.inheritedEffect` | string | 15001 / 35693 | 42.03% | `[When Attacking] When you attack an opponent's Digimon, this Digimon gets +1000 DP for ...` |
+| `customAttributes.levelLv` | string | 27822 / 35693 | 77.95% | `2` |
+| `customAttributes.number` | string | 35626 / 35693 | 99.81% | `BT1-001 R` |
+| `customAttributes.origins` | string | 4072 / 35693 | 11.41% | `Release Special Booster V.1.0` |
+| `customAttributes.playCost` | string | 33354 / 35693 | 93.45% | `2` |
+| `customAttributes.rarityDbName` | string | 35693 / 35693 | 100% | `None` |
+| `customAttributes.releaseDate` | string | 35478 / 35693 | 99.4% | `2020-01-24T00:00:00Z` |
+| `customAttributes.securityEffect` | string | 6982 / 35693 | 19.56% | `[Security] Play this card without paying its memory cost.` |
+| `rulesText` | string | 31408 / 35693 | 87.99% | `[On Play] Reveal 5 cards from the top of your deck. Add 1 Tamer card among them to your...` |

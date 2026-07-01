@@ -91,27 +91,27 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
-| `customAttributes.rarityDbName` | string | 99778 / 100344 | 99.44% | `U` |
-| `customAttributes.fullType` | string | 94465 / 100344 | 94.14% | `Creature — Human Cleric ` |
-| `typeLine` | string | 94465 / 100344 | 94.14% | `Creature — Human Cleric ` |
-| `customAttributes.number` | string | 91830 / 100344 | 91.52% | `1` |
-| `customAttributes.releaseDate` | string | 91128 / 100344 | 90.82% | `2007-07-13T00:00:00Z` |
-| `customAttributes.description` | string | 90080 / 100344 | 89.77% | `First strike <em>(This creature deals combat damage before creatures without first stri...` |
-| `rulesText` | string | 90080 / 100344 | 89.77% | `First strike <em>(This creature deals combat damage before creatures without first stri...` |
 | `convertedCost` | string | 84344 / 100344 | 84.05% | `7` |
 | `customAttributes.convertedCost` | string | 84344 / 100344 | 84.05% | `7` |
-| `customAttributes.flavorText` | string | 47462 / 100344 | 47.3% | `<em>The cave floods with light. A thousand rays shine forth and meld into one.</em>` |
-| `flavorText` | string | 47462 / 100344 | 47.3% | `<em>The cave floods with light. A thousand rays shine forth and meld into one.</em>` |
-| `customAttributes.powerNumber` | string | 47298 / 100344 | 47.14% | `4` |
-| `powerNumber` | string | 47298 / 100344 | 47.14% | `4` |
-| `customAttributes.toughnessNumber` | string | 47293 / 100344 | 47.13% | `4` |
-| `toughnessNumber` | string | 47293 / 100344 | 47.13% | `4` |
-| `customAttributes.power` | string | 46641 / 100344 | 46.48% | `4` |
-| `customAttributes.toughness` | string | 46636 / 100344 | 46.48% | `4` |
-| `power` | string | 46641 / 100344 | 46.48% | `4` |
-| `toughness` | string | 46636 / 100344 | 46.48% | `4` |
+| `customAttributes.description` | string | 90080 / 100344 | 89.77% | `First strike <em>(This creature deals combat damage before creatures without first stri...` |
 | `customAttributes.detailNote` | string | 29465 / 100344 | 29.36% | `This product is a Presale item with an estimated shipping date of 09/26/2025. Please ke...` |
+| `customAttributes.flavorText` | string | 47462 / 100344 | 47.3% | `<em>The cave floods with light. A thousand rays shine forth and meld into one.</em>` |
+| `customAttributes.fullType` | string | 94465 / 100344 | 94.14% | `Creature — Human Cleric ` |
+| `customAttributes.number` | string | 91830 / 100344 | 91.52% | `1` |
+| `customAttributes.power` | string | 46641 / 100344 | 46.48% | `4` |
+| `customAttributes.powerNumber` | string | 47298 / 100344 | 47.14% | `4` |
+| `customAttributes.rarityDbName` | string | 99778 / 100344 | 99.44% | `U` |
+| `customAttributes.releaseDate` | string | 91128 / 100344 | 90.82% | `2007-07-13T00:00:00Z` |
+| `customAttributes.toughness` | string | 46636 / 100344 | 46.48% | `4` |
+| `customAttributes.toughnessNumber` | string | 47293 / 100344 | 47.13% | `4` |
+| `flavorText` | string | 47462 / 100344 | 47.3% | `<em>The cave floods with light. A thousand rays shine forth and meld into one.</em>` |
+| `power` | string | 46641 / 100344 | 46.48% | `4` |
+| `powerNumber` | string | 47298 / 100344 | 47.14% | `4` |
+| `rulesText` | string | 90080 / 100344 | 89.77% | `First strike <em>(This creature deals combat damage before creatures without first stri...` |
+| `toughness` | string | 46636 / 100344 | 46.48% | `4` |
+| `toughnessNumber` | string | 47293 / 100344 | 47.13% | `4` |
+| `typeLine` | string | 94465 / 100344 | 94.14% | `Creature — Human Cleric ` |

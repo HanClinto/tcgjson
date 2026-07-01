@@ -91,25 +91,25 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
-| `customAttributes.rarityDbName` | string | 28197 / 28404 | 99.27% | `Holo Rare` |
-| `customAttributes.cardTypeB` | string | 27241 / 28404 | 95.91% | `Psychic` |
-| `customAttributes.number` | string | 26997 / 28404 | 95.05% | `001/102` |
-| `customAttributes.releaseDate` | string | 26854 / 28404 | 94.54% | `1999-01-09T00:00:00Z` |
-| `customAttributes.hp` | string | 22138 / 28404 | 77.94% | `80` |
-| `customAttributes.stage` | string | 22114 / 28404 | 77.86% | `Stage 2` |
 | `customAttributes.attack1` | string | 22048 / 28404 | 77.62% | `[PPP] Confuse Ray (30)  <br>Flip a coin. If heads, the Defending Pokémon is now Confused.` |
-| `customAttributes.weakness` | string | 21307 / 28404 | 75.01% | `P` |
-| `customAttributes.retreatCost` | string | 21195 / 28404 | 74.62% | `3` |
-| `customAttributes.resistance` | string | 13357 / 28404 | 47.03% | `P-30` |
 | `customAttributes.attack2` | string | 12688 / 28404 | 44.67% | `[4] Double-edge (80)  <br>Chansey does 80 damage to itself.` |
-| `customAttributes.description` | string | 11704 / 28404 | 41.21% | `<strong>Pokémon Power: Damage Swap</strong> As often as you like during your turn <em>(...` |
-| `rulesText` | string | 11704 / 28404 | 41.21% | `<strong>Pokémon Power: Damage Swap</strong> As often as you like during your turn <em>(...` |
-| `customAttributes.flavorText` | string | 6990 / 28404 | 24.61% | `<em>Psi Pokémon. Length: 4'11", Weight: 106 lbs.  <br>  Its brain can outperform a supe...` |
-| `flavorText` | string | 6990 / 28404 | 24.61% | `<em>Psi Pokémon. Length: 4'11", Weight: 106 lbs.  <br>  Its brain can outperform a supe...` |
-| `customAttributes.detailNote` | string | 4700 / 28404 | 16.55% | `This product is a Presale item with an estimated shipping date of 11/28/2025. Please ke...` |
 | `customAttributes.attack3` | string | 418 / 28404 | 1.47% | `[2MM] Heavy Impact (70)` |
 | `customAttributes.attack4` | string | 41 / 28404 | 0.14% | `[1DDF]   <br>Losing Control (120) Discard the top 3 cards of your deck.` |
+| `customAttributes.cardTypeB` | string | 27241 / 28404 | 95.91% | `Psychic` |
+| `customAttributes.description` | string | 11704 / 28404 | 41.21% | `<strong>Pokémon Power: Damage Swap</strong> As often as you like during your turn <em>(...` |
+| `customAttributes.detailNote` | string | 4700 / 28404 | 16.55% | `This product is a Presale item with an estimated shipping date of 11/28/2025. Please ke...` |
+| `customAttributes.flavorText` | string | 6990 / 28404 | 24.61% | `<em>Psi Pokémon. Length: 4'11", Weight: 106 lbs.  <br>  Its brain can outperform a supe...` |
+| `customAttributes.hp` | string | 22138 / 28404 | 77.94% | `80` |
+| `customAttributes.number` | string | 26997 / 28404 | 95.05% | `001/102` |
+| `customAttributes.rarityDbName` | string | 28197 / 28404 | 99.27% | `Holo Rare` |
+| `customAttributes.releaseDate` | string | 26854 / 28404 | 94.54% | `1999-01-09T00:00:00Z` |
+| `customAttributes.resistance` | string | 13357 / 28404 | 47.03% | `P-30` |
+| `customAttributes.retreatCost` | string | 21195 / 28404 | 74.62% | `3` |
+| `customAttributes.stage` | string | 22114 / 28404 | 77.86% | `Stage 2` |
+| `customAttributes.weakness` | string | 21307 / 28404 | 75.01% | `P` |
+| `flavorText` | string | 6990 / 28404 | 24.61% | `<em>Psi Pokémon. Length: 4'11", Weight: 106 lbs.  <br>  Its brain can outperform a supe...` |
+| `rulesText` | string | 11704 / 28404 | 41.21% | `<strong>Pokémon Power: Damage Swap</strong> As often as you like during your turn <em>(...` |

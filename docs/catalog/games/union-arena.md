@@ -86,21 +86,21 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
+| `customAttributes.actionPointCost` | string | 17246 / 18504 | 93.2% | `1` |
+| `customAttributes.activationEnergy` | string | 17221 / 18504 | 93.07% | `Blue` |
+| `customAttributes.affinities` | string | 8667 / 18504 | 46.84% | `Specified Slot` |
+| `customAttributes.battlePointBp` | string | 14499 / 18504 | 78.36% | `3500` |
+| `customAttributes.description` | string | 15843 / 18504 | 85.62% | `[When Played] Choose up to one site on your opponent's field and place it on the bottom...` |
+| `customAttributes.detailNote` | string | 11860 / 18504 | 64.09% | `This product is a Presale item with an estimated shipping date of 10/4/2024. Please kee...` |
+| `customAttributes.generatedEnergy` | string | 14986 / 18504 | 80.99% | `U` |
+| `customAttributes.number` | string | 18459 / 18504 | 99.76% | `UE02BT/HTR-1-001` |
 | `customAttributes.rarityDbName` | string | 18504 / 18504 | 100% | `Uncommon` |
 | `customAttributes.releaseDate` | string | 18504 / 18504 | 100% | `2024-10-04T00:00:00Z` |
-| `customAttributes.number` | string | 18459 / 18504 | 99.76% | `UE02BT/HTR-1-001` |
-| `customAttributes.seriesName` | string | 18091 / 18504 | 97.77% | `HUNTER X HUNTER` |
-| `customAttributes.actionPointCost` | string | 17246 / 18504 | 93.2% | `1` |
 | `customAttributes.requiredEnergy` | string | 17246 / 18504 | 93.2% | `4` |
-| `customAttributes.activationEnergy` | string | 17221 / 18504 | 93.07% | `Blue` |
-| `customAttributes.description` | string | 15843 / 18504 | 85.62% | `[When Played] Choose up to one site on your opponent's field and place it on the bottom...` |
-| `rulesText` | string | 15843 / 18504 | 85.62% | `[When Played] Choose up to one site on your opponent's field and place it on the bottom...` |
-| `customAttributes.generatedEnergy` | string | 14986 / 18504 | 80.99% | `U` |
-| `customAttributes.battlePointBp` | string | 14499 / 18504 | 78.36% | `3500` |
+| `customAttributes.seriesName` | string | 18091 / 18504 | 97.77% | `HUNTER X HUNTER` |
 | `customAttributes.trigger` | string | 12045 / 18504 | 65.09% | `[Active] Choose one character on your field and switch it to active. It gains 3000 BP u...` |
-| `customAttributes.detailNote` | string | 11860 / 18504 | 64.09% | `This product is a Presale item with an estimated shipping date of 10/4/2024. Please kee...` |
-| `customAttributes.affinities` | string | 8667 / 18504 | 46.84% | `Specified Slot` |
+| `rulesText` | string | 15843 / 18504 | 85.62% | `[When Played] Choose up to one site on your opponent's field and place it on the bottom...` |

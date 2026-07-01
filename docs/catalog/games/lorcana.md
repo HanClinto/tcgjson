@@ -91,26 +91,26 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
+| `customAttributes.characterVersion` | string | 2369 / 3107 | 76.25% | `Brave Little Tailor` |
+| `customAttributes.classification` | string | 2510 / 3107 | 80.79% | `Dreamborn;Hero` |
+| `customAttributes.costInk` | string | 3066 / 3107 | 98.68% | `8` |
+| `customAttributes.description` | string | 2767 / 3107 | 89.06% | `<strong>Evasive</strong> <em>(Only characters with Evasive can challenge this character...` |
+| `customAttributes.detailNote` | string | 1758 / 3107 | 56.58% | `This product is a Presale item with an estimated shipping date of 8/18/2023. Please kee...` |
+| `customAttributes.flavorText` | string | 72 / 3107 | 2.32% | `<em>“Don't you care for tea?!”</em>  ` |
+| `customAttributes.inkType` | string | 3003 / 3107 | 96.65% | `Ruby` |
+| `customAttributes.inkwellIcononCard` | string | 3084 / 3107 | 99.26% | `Yes` |
+| `customAttributes.loreValue` | string | 2374 / 3107 | 76.41% | `4` |
+| `customAttributes.moveCost` | string | 101 / 3107 | 3.25% | `1` |
+| `customAttributes.number` | string | 3067 / 3107 | 98.71% | `1` |
+| `customAttributes.promoType` | string | 128 / 3107 | 4.12% | `D23 Promo` |
+| `customAttributes.property` | string | 3077 / 3107 | 99.03% | `Standard Characters` |
 | `customAttributes.rarityDbName` | string | 3107 / 3107 | 100% | `Promo` |
 | `customAttributes.releaseDate` | string | 3107 / 3107 | 100% | `2022-09-11T00:00:00Z` |
-| `customAttributes.inkwellIcononCard` | string | 3084 / 3107 | 99.26% | `Yes` |
-| `customAttributes.property` | string | 3077 / 3107 | 99.03% | `Standard Characters` |
-| `customAttributes.number` | string | 3067 / 3107 | 98.71% | `1` |
-| `customAttributes.costInk` | string | 3066 / 3107 | 98.68% | `8` |
-| `customAttributes.inkType` | string | 3003 / 3107 | 96.65% | `Ruby` |
-| `customAttributes.description` | string | 2767 / 3107 | 89.06% | `<strong>Evasive</strong> <em>(Only characters with Evasive can challenge this character...` |
-| `rulesText` | string | 2767 / 3107 | 89.06% | `<strong>Evasive</strong> <em>(Only characters with Evasive can challenge this character...` |
-| `customAttributes.classification` | string | 2510 / 3107 | 80.79% | `Dreamborn;Hero` |
-| `customAttributes.willpower` | string | 2448 / 3107 | 78.79% | `5` |
-| `customAttributes.loreValue` | string | 2374 / 3107 | 76.41% | `4` |
-| `customAttributes.characterVersion` | string | 2369 / 3107 | 76.25% | `Brave Little Tailor` |
 | `customAttributes.strength` | string | 2346 / 3107 | 75.51% | `5` |
-| `customAttributes.detailNote` | string | 1758 / 3107 | 56.58% | `This product is a Presale item with an estimated shipping date of 8/18/2023. Please kee...` |
-| `customAttributes.promoType` | string | 128 / 3107 | 4.12% | `D23 Promo` |
-| `customAttributes.moveCost` | string | 101 / 3107 | 3.25% | `1` |
-| `customAttributes.flavorText` | string | 72 / 3107 | 2.32% | `<em>“Don't you care for tea?!”</em>  ` |
+| `customAttributes.willpower` | string | 2448 / 3107 | 78.79% | `5` |
 | `flavorText` | string | 72 / 3107 | 2.32% | `<em>“Don't you care for tea?!”</em>  ` |
+| `rulesText` | string | 2767 / 3107 | 89.06% | `<strong>Evasive</strong> <em>(Only characters with Evasive can challenge this character...` |

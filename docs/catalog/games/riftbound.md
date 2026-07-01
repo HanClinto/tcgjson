@@ -83,20 +83,20 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
-| `customAttributes.rarityDbName` | string | 1199 / 1199 | 100% | `Promo` |
-| `customAttributes.releaseDate` | string | 1199 / 1199 | 100% | `2025-10-31T00:00:00Z` |
-| `customAttributes.number` | string | 1197 / 1199 | 99.83% | `036a/298` |
+| `customAttributes.description` | string | 1131 / 1199 | 94.33% | `A unit may have no more than one buff at a time.` |
+| `customAttributes.detailNote` | string | 968 / 1199 | 80.73% | `This product is a Presale item with an estimated shipping date of 10/31/2025. Please ke...` |
 | `customAttributes.domain` | string | 1169 / 1199 | 97.5% | `Fury` |
 | `customAttributes.energyCost` | string | 1137 / 1199 | 94.83% | `2` |
-| `customAttributes.description` | string | 1131 / 1199 | 94.33% | `A unit may have no more than one buff at a time.` |
-| `rulesText` | string | 1131 / 1199 | 94.33% | `A unit may have no more than one buff at a time.` |
-| `customAttributes.might` | string | 1038 / 1199 | 86.57% | `3` |
-| `customAttributes.detailNote` | string | 968 / 1199 | 80.73% | `This product is a Presale item with an estimated shipping date of 10/31/2025. Please ke...` |
-| `customAttributes.powerCost` | string | 951 / 1199 | 79.32% | `1` |
-| `customAttributes.tag` | string | 833 / 1199 | 69.47% | `Piltover;Vi` |
 | `customAttributes.flavorText` | string | 161 / 1199 | 13.43% | `<em>"Every action sparks a reaction."</em>` |
+| `customAttributes.might` | string | 1038 / 1199 | 86.57% | `3` |
+| `customAttributes.number` | string | 1197 / 1199 | 99.83% | `036a/298` |
+| `customAttributes.powerCost` | string | 951 / 1199 | 79.32% | `1` |
+| `customAttributes.rarityDbName` | string | 1199 / 1199 | 100% | `Promo` |
+| `customAttributes.releaseDate` | string | 1199 / 1199 | 100% | `2025-10-31T00:00:00Z` |
+| `customAttributes.tag` | string | 833 / 1199 | 69.47% | `Piltover;Vi` |
 | `flavorText` | string | 161 / 1199 | 13.43% | `<em>"Every action sparks a reaction."</em>` |
+| `rulesText` | string | 1131 / 1199 | 94.33% | `A unit may have no more than one buff at a time.` |

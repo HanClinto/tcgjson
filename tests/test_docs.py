@@ -123,6 +123,8 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "[Scryfall bulk data](https://scryfall.com/docs/api/bulk-data)" in index
     assert "[GitHub Actions](https://github.com/HanClinto/tcgjson/actions/workflows/weekly-release.yml)" in index
     assert "The goal is to be a reliable data source that other sites and applications can build on." in index
+    assert "Release files are published through [GitHub Releases](https://github.com/HanClinto/tcgjson/releases)." in index
+    assert "These docs are generated from source each release to document the format of game-specific information available for each card." in index
     assert "[View the project on GitHub](https://github.com/HanClinto/tcgjson)" in index
     assert "TCGplayer" in game
     assert "## TCGplayer Resources" in game
@@ -138,6 +140,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "## Product Field Coverage" in game
     assert "| `tcgplayerProductId` | integer | 1 / 1 | 100% | `42382` |" in game
     assert "## Game-Specific Metadata Coverage" in game
+    assert "The table follows the metadata JSON structure and sorts fields alphabetically by path." in game
     assert "| `stage` | string | 1 / 1 | 100% | `Stage 2` |" in game
     assert "weekly-test" in history
     assert "1 added, 0 removed, 0 changed product records" in history

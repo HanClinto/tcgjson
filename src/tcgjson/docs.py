@@ -11,6 +11,7 @@ from .atomic import atomic_write_text
 
 CATALOG_DOCS_VERSION = 1
 PROJECT_URL = "https://github.com/HanClinto/tcgjson"
+RELEASES_URL = "https://github.com/HanClinto/tcgjson/releases"
 WEEKLY_WORKFLOW_URL = "https://github.com/HanClinto/tcgjson/actions/workflows/weekly-release.yml"
 
 
@@ -133,7 +134,8 @@ def _write_index(path: Path, catalogs: list[dict[str, Any]], metrics: dict[str, 
         "The project is inspired by [mtgjson](https://mtgjson.com/) and [Scryfall bulk data](https://scryfall.com/docs/api/bulk-data): practical, downloadable data files that can power collection tools, indexes, research, and offline workflows.",
         f"Updates are automatic and hosted on [GitHub Actions]({WEEKLY_WORKFLOW_URL}), so future catalog refreshes are not dependent on manual releases or human follow-through.",
         "The goal is to be a reliable data source that other sites and applications can build on.",
-        "Release files are published through GitHub Releases, and these source-controlled docs make each catalog shape and weekly change easy to review.",
+        f"Release files are published through [GitHub Releases]({RELEASES_URL}).",
+        "These docs are generated from source each release to document the format of game-specific information available for each card.",
         "",
         _generated_note(metrics, release_tag, release_url),
         "",
@@ -469,9 +471,9 @@ def _schema_profile_sections(profile: dict[str, Any]) -> list[str]:
                 "## Game-Specific Metadata Coverage",
                 "",
                 "These fields come from TCGplayer search/detail metadata and vary by game.",
-                "The table shows the most-populated non-container metadata fields first.",
+                "The table follows the metadata JSON structure and sorts fields alphabetically by path.",
                 "",
-                _schema_field_table(metadata_fields, product_count, limit=30, strip_prefix="metadata."),
+                _schema_field_table(metadata_fields, product_count, limit=30, strip_prefix="metadata.", sort_key=_metadata_field_sort_key),
             ]
         )
     return lines
@@ -496,11 +498,13 @@ def _schema_field_table(
     *,
     limit: int,
     strip_prefix: str = "",
+    sort_key: Any = None,
 ) -> str:
     if not fields:
         return "No populated fields were available in this release."
     lines = ["| Field | Types | Products | Populated | Example |", "| --- | --- | ---: | ---: | --- |"]
-    for field in sorted(fields, key=_schema_field_sort_key)[:limit]:
+    sort_key = sort_key or _schema_field_sort_key
+    for field in sorted(fields, key=sort_key)[:limit]:
         path = str(field.get("path", ""))
         if strip_prefix and path.startswith(strip_prefix):
             path = path[len(strip_prefix) :]
@@ -529,6 +533,10 @@ def _schema_field_sort_key(field: dict[str, Any]) -> tuple[int, float, str]:
     }
     path = str(field.get("path", ""))
     return (priority.get(path, 100), -float(field.get("populatedPercent") or 0), path)
+
+
+def _metadata_field_sort_key(field: dict[str, Any]) -> tuple[str]:
+    return (str(field.get("path", "")),)
 
 
 def _format_percent(value: Any) -> str:

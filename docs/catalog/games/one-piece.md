@@ -90,18 +90,18 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
-| `customAttributes.rarityDbName` | string | 19324 / 19324 | 100% | `DON!!` |
-| `customAttributes.releaseDate` | string | 19324 / 19324 | 100% | `2022-12-02T00:00:00Z` |
-| `customAttributes.number` | string | 18776 / 19324 | 97.16% | `OP01-001` |
 | `customAttributes.cost` | string | 17684 / 19324 | 91.51% | `2` |
-| `customAttributes.description` | string | 17675 / 19324 | 91.47% | `Your Turn +1000` |
-| `rulesText` | string | 17675 / 19324 | 91.47% | `Your Turn +1000` |
-| `customAttributes.power` | string | 15818 / 19324 | 81.86% | `5000` |
-| `power` | string | 15818 / 19324 | 81.86% | `5000` |
 | `customAttributes.counter` | string | 11511 / 19324 | 59.57% | `2000` |
+| `customAttributes.description` | string | 17675 / 19324 | 91.47% | `Your Turn +1000` |
 | `customAttributes.detailNote` | string | 11260 / 19324 | 58.27% | `This product is a Presale item with an estimated shipping date of 12/02/2022. Please ke...` |
 | `customAttributes.life` | string | 987 / 19324 | 5.11% | `5` |
+| `customAttributes.number` | string | 18776 / 19324 | 97.16% | `OP01-001` |
+| `customAttributes.power` | string | 15818 / 19324 | 81.86% | `5000` |
+| `customAttributes.rarityDbName` | string | 19324 / 19324 | 100% | `DON!!` |
+| `customAttributes.releaseDate` | string | 19324 / 19324 | 100% | `2022-12-02T00:00:00Z` |
+| `power` | string | 15818 / 19324 | 81.86% | `5000` |
+| `rulesText` | string | 17675 / 19324 | 91.47% | `Your Turn +1000` |

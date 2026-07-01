@@ -87,20 +87,20 @@ Population counts show how often a field had a non-empty value in this release.
 ## Game-Specific Metadata Coverage
 
 These fields come from TCGplayer search/detail metadata and vary by game.
-The table shows the most-populated non-container metadata fields first.
+The table follows the metadata JSON structure and sorts fields alphabetically by path.
 
 | Field | Types | Products | Populated | Example |
 | --- | --- | ---: | ---: | --- |
-| `customAttributes.rarityDbName` | string | 44953 / 45080 | 99.72% | `Secret Rare` |
-| `customAttributes.number` | string | 44841 / 45080 | 99.47% | `BPT-007` |
-| `customAttributes.releaseDate` | string | 44717 / 45080 | 99.19% | `2003-09-01T00:00:00Z` |
-| `customAttributes.cardTypeB` | string | 44627 / 45080 | 99% | `Normal Monster` |
-| `customAttributes.description` | string | 44366 / 45080 | 98.42% | `<em>The ultimate wizard in terms of attack and defense.</em>` |
-| `rulesText` | string | 44366 / 45080 | 98.42% | `<em>The ultimate wizard in terms of attack and defense.</em>` |
 | `customAttributes.attack` | string | 33681 / 45080 | 74.71% | `2500` |
+| `customAttributes.cardTypeB` | string | 44627 / 45080 | 99% | `Normal Monster` |
 | `customAttributes.defense` | string | 32410 / 45080 | 71.89% | `2100` |
-| `customAttributes.level` | string | 28064 / 45080 | 62.25% | `7` |
+| `customAttributes.description` | string | 44366 / 45080 | 98.42% | `<em>The ultimate wizard in terms of attack and defense.</em>` |
 | `customAttributes.detailNote` | string | 13174 / 45080 | 29.22% | `This product is a Presale item and will ship after 08/28/2012.` |
-| `customAttributes.linkRating` | string | 1257 / 45080 | 2.79% | `1` |
 | `customAttributes.flavorText` | string | 30 / 45080 | 0.07% | `"This legendary dragon is a powerful engine of destruction. Virtually invincible, very ...` |
+| `customAttributes.level` | string | 28064 / 45080 | 62.25% | `7` |
+| `customAttributes.linkRating` | string | 1257 / 45080 | 2.79% | `1` |
+| `customAttributes.number` | string | 44841 / 45080 | 99.47% | `BPT-007` |
+| `customAttributes.rarityDbName` | string | 44953 / 45080 | 99.72% | `Secret Rare` |
+| `customAttributes.releaseDate` | string | 44717 / 45080 | 99.19% | `2003-09-01T00:00:00Z` |
 | `flavorText` | string | 30 / 45080 | 0.07% | `"This legendary dragon is a powerful engine of destruction. Virtually invincible, very ...` |
+| `rulesText` | string | 44366 / 45080 | 98.42% | `<em>The ultimate wizard in terms of attack and defense.</em>` |
