@@ -128,6 +128,11 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "TCGplayer" in game
     assert "## TCGplayer Resources" in game
     assert "[Price guide](https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides)" in game
+    assert "Compact catalog: [`pokemon.json`](https://example.test/release/pokemon.json) (" in game
+    assert "Full catalog: [`pokemon.full.json`](https://example.test/release/pokemon.full.json) (" in game
+    assert "<summary>Example compact product object</summary>" in game
+    assert "<summary>Example full product object</summary>" in game
+    assert '"metadata": {' in game
     assert "Latest Set Icons" not in game
     assert "## Recently Released Sets" in game
     assert "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)" in game

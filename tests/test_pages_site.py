@@ -33,6 +33,7 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     (docs_dir / "release-history.md").write_text("# Release History\n\nNothing yet.\n", encoding="utf-8")
     (games_dir / "pokemon.md").write_text(
         "# Pokemon\n\n- Compact catalog: [pokemon.json](https://example.test/pokemon.json)\n\n"
+        "<details>\n<summary>Example compact product object</summary>\n\n```json\n{\n  \"name\": \"Alakazam\"\n}\n```\n\n</details>\n\n"
         "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)\n\n"
         "| Banner | Set | Products | TCGplayer |\n"
         "| --- | --- | ---: | --- |\n"
@@ -60,6 +61,10 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert '<link rel="stylesheet" href="assets/site.css">' in index
     assert '<link rel="stylesheet" href="../assets/site.css">' in game
     assert '<a class="project-link" href="https://github.com/HanClinto/tcgjson">View project on GitHub</a>' in index
+    assert '<details>' in game
+    assert '<summary>Example compact product object</summary>' in game
+    assert '<pre><code class="language-json">' in game
+    assert '&quot;name&quot;: &quot;Alakazam&quot;' in game
     assert '<img src="https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png" alt="" loading="lazy" referrerpolicy="no-referrer" onload="this.dataset.loaded=\'true\'" onerror="this.remove()">' in game
     assert '<div class="table-wrap banner-table"><table>' in game
     assert '<th>Banner</th>' not in game

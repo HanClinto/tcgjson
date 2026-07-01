@@ -7,6 +7,7 @@ from typing import Any
 from urllib.parse import quote, quote_plus
 
 from .atomic import atomic_write_text
+from .normalize import compact_product
 
 
 CATALOG_DOCS_VERSION = 1
@@ -59,6 +60,7 @@ def generate_catalog_docs(
                 game_dir / f"{slug}.md",
                 catalog,
                 metrics,
+                manifest,
                 schema_profiles.get(slug, {}),
                 games_by_slug.get(slug, {}),
                 previous_release_dir,
@@ -329,6 +331,7 @@ def _write_game_page(
     path: Path,
     catalog: dict[str, Any],
     metrics: dict[str, Any],
+    manifest: dict[str, Any],
     schema_profile: dict[str, Any],
     game: dict[str, Any],
     previous_release_dir: Path | None,
@@ -341,6 +344,7 @@ def _write_game_page(
     cache = line_metrics.get("cache", {})
     sets = sorted(catalog.get("sets", []), key=lambda item: item.get("name", ""))
     products = catalog.get("products", [])
+    by_name = _manifest_by_download(manifest)
     added_to_tcgjson = _release_reference(metrics, release_tag, release_url)
     recent_sets = sorted(
         sets,
@@ -366,10 +370,11 @@ def _write_game_page(
         "",
         "## Files",
         "",
-        f"- Compact catalog: {_download_link(f'{slug}.json', release_url)}",
-        f"- Full catalog: {_download_link(f'{slug}.full.json', release_url)}",
-        f"- Schema profile: {_download_link(f'{slug}.schema.json', release_url)}",
+        f"- Compact catalog: {_asset_link(f'{slug}.json', by_name, release_url)}",
+        f"- Full catalog: {_asset_link(f'{slug}.full.json', by_name, release_url)}",
+        f"- Schema profile: {_asset_link(f'{slug}.schema.json', by_name, release_url)}",
         "",
+        *_catalog_example_blocks(catalog),
         *_resource_section(game.get("resources", {})),
         "## Recently Released Sets",
         "",
@@ -441,6 +446,34 @@ def _resource_section(resources: dict[str, Any]) -> list[str]:
         return []
     lines = ["## TCGplayer Resources", "", *links, ""]
     return lines
+
+
+def _catalog_example_blocks(catalog: dict[str, Any]) -> list[str]:
+    product = next(iter(catalog.get("products", [])), {})
+    if not product:
+        return []
+    compact_example = compact_product(product)
+    full_example = product
+    return [
+        "<details>",
+        "<summary>Example compact product object</summary>",
+        "",
+        "```json",
+        _json_example(compact_example),
+        "```",
+        "",
+        "</details>",
+        "",
+        "<details>",
+        "<summary>Example full product object</summary>",
+        "",
+        "```json",
+        _json_example(full_example),
+        "```",
+        "",
+        "</details>",
+        "",
+    ]
 
 
 def _schema_profile_sections(profile: dict[str, Any]) -> list[str]:
@@ -705,6 +738,10 @@ def _markdown_example(value: Any) -> str:
     if len(text) > 90:
         text = text[:87] + "..."
     return f"`{text}`"
+
+
+def _json_example(value: Any) -> str:
+    return json.dumps(value, ensure_ascii=False, indent=2)
 
 
 def _escape_table(value: Any) -> str:

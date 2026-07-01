@@ -217,6 +217,38 @@ code {
   font-size: 0.9em;
 }
 
+pre {
+  overflow-x: auto;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: var(--code-bg);
+}
+
+pre code {
+  padding: 0;
+  background: transparent;
+}
+
+details {
+  margin: 0.75rem 0;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: rgba(222, 210, 191, 0.35);
+}
+
+summary {
+  cursor: pointer;
+  padding: 0.62rem 0.78rem;
+  color: var(--accent-dark);
+  font-family: Avenir Next, Avenir, Segoe UI, sans-serif;
+  font-weight: 700;
+}
+
+details pre {
+  margin: 0 0.78rem 0.78rem;
+}
+
 .table-wrap {
   overflow: auto;
   margin: 1rem 0 1.5rem;
@@ -576,6 +608,17 @@ def markdown_to_html(markdown: str, source_dir: Path) -> str:
                 index += 1
             output.append(render_table(table_lines))
             continue
+        if stripped.startswith("<details>"):
+            flush_paragraph()
+            html_lines = []
+            while index < len(lines):
+                html_lines.append(render_html_line(lines[index], source_dir))
+                if lines[index].strip() == "</details>":
+                    index += 1
+                    break
+                index += 1
+            output.append("\n".join(html_lines))
+            continue
         heading = HEADING_RE.match(stripped)
         if heading:
             flush_paragraph()
@@ -618,6 +661,17 @@ def render_table(lines: list[str]) -> str:
         html_rows.append("</tr>")
     html_rows.append("</tbody></table></div>")
     return "".join(html_rows)
+
+
+def render_html_line(line: str, source_dir: Path) -> str:
+    stripped = line.strip()
+    if stripped == "```json":
+        return '<pre><code class="language-json">'
+    if stripped == "```":
+        return "</code></pre>"
+    if line.startswith("<"):
+        return line
+    return html.escape(line)
 
 
 def image_src_from_markdown(value: str) -> str:
