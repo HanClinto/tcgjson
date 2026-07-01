@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 
 from tcgjson.docs import generate_catalog_docs
 from tcgjson.bulk import write_bulk_manifest, write_metrics_file, write_product_line_files, write_product_schema_files
@@ -45,6 +46,30 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     }
     files = write_product_line_files(release_dir, catalog)
     files.extend(write_product_schema_files(release_dir, catalog))
+    larger_catalog = deepcopy(catalog)
+    larger_catalog["meta"] = {
+        **larger_catalog["meta"],
+        "productLine": "Magic: The Gathering",
+        "slug": "magic-the-gathering",
+        "setCount": 1,
+        "productCount": 5,
+    }
+    larger_catalog["sets"][0] = {
+        **larger_catalog["sets"][0],
+        "tcgplayerSetId": 1,
+        "name": "Limited Edition Alpha",
+        "urlName": "limited-edition-alpha",
+        "productCount": 5,
+    }
+    larger_catalog["products"][0] = {
+        **larger_catalog["products"][0],
+        "tcgplayerProductId": 1,
+        "name": "Black Lotus",
+        "productLineId": 1,
+        "setId": 1,
+    }
+    files.extend(write_product_line_files(release_dir, larger_catalog))
+    files.extend(write_product_schema_files(release_dir, larger_catalog))
     files.append(
         write_metrics_file(
             release_dir,
@@ -121,6 +146,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
         "objects.md",
         "release-history.md",
         "games.md",
+        "games/magic-the-gathering.md",
         "games/pokemon.md",
     }
     index = (docs_dir / "README.md").read_text(encoding="utf-8")
@@ -130,6 +156,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
 
     assert "[Pokemon](games/pokemon.md)" in index
     assert "| Banner | Game | Sets | Products | Full JSON | Compact JSON | Schema |" in index
+    assert index.index("[Magic: The Gathering](games/magic-the-gathering.md)") < index.index("[Pokemon](games/pokemon.md)")
     assert "| ![Pokemon](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | [Pokemon](games/pokemon.md) | 1 | 1 |" in index
     assert "tcgjson publishes reliable, regularly updated bulk catalog JSON for trading card games listed on TCGplayer." in index
     assert "## Project Goals" in index

@@ -82,11 +82,12 @@ def test_build_pages_site_renders_docs_and_internal_links(tmp_path) -> None:
     assert '<div class="table-wrap banner-table"><table>' in game
     assert '<th>Banner</th>' not in game
     assert 'style="--banner-image: url(&quot;https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png&quot;)"' in game
-    assert '<td><a href="https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set">1</a></td>' in game
+    assert '<td class="banner-count-cell"><a href="https://www.tcgplayer.com/search/all/product?q=Pokemon+Base+Set">1</a></td>' in game
     assert ".banner-table tbody td:first-child a" in styles
     assert "background: rgba(35, 31, 25, 0.62);" in styles
-    assert ".banner-table tbody td:not(:first-child)" in styles
-    assert "0 0 5px #f0e5d4" in styles
+    assert ".banner-table tbody td.banner-count-cell" in styles
+    assert "background: rgba(35, 31, 25, 0.78);" in styles
+    assert "color: #fff7e8;" in styles
     assert '<a class="nav-link" href="games/pokemon.html">Pokemon</a>' in index
     assert '<a class="nav-link" href="../index.html">Overview</a>' in game
     assert (output_dir / ".nojekyll").exists()

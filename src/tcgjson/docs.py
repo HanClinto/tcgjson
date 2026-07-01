@@ -178,7 +178,11 @@ def _write_index(
         "| --- | --- | ---: | ---: | --- | --- | --- |",
     ]
     by_name = _manifest_by_download(manifest)
-    for catalog in catalogs:
+    for catalog in sorted(
+        catalogs,
+        key=lambda item: int(item.get("meta", {}).get("productCount") or len(item.get("products", []))),
+        reverse=True,
+    ):
         meta = catalog.get("meta", {})
         slug = meta.get("slug", "")
         full_name = f"{slug}.full.json"

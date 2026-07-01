@@ -455,14 +455,22 @@ th:nth-child(2) {
   text-decoration-color: currentColor;
 }
 
-.banner-table tbody td:not(:first-child),
-.banner-table tbody td:not(:first-child) a {
-  color: #241f18;
+.banner-table tbody td.banner-count-cell {
+  background: rgba(35, 31, 25, 0.78);
+  color: #fff7e8;
   font-weight: 700;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 247, 232, 0.18),
+    0 2px 8px rgba(35, 31, 25, 0.16);
   text-shadow:
-    0 0 2px #f0e5d4,
-    0 0 5px #f0e5d4,
-    0 1px 1px rgba(255, 252, 245, 0.82);
+    0 1px 1px rgba(0, 0, 0, 0.9),
+    0 0 4px rgba(0, 0, 0, 0.55);
+}
+
+.banner-table tbody td.banner-count-cell a {
+  color: #fff7e8;
+  text-decoration-color: rgba(255, 247, 232, 0.56);
+  text-shadow: inherit;
 }
 
 td img {
@@ -975,7 +983,10 @@ def render_table(lines: list[str]) -> str:
         visible_row = row[1:] if banner_table else row
         row_style = f' style="--banner-image: url(&quot;{html.escape(banner_url, quote=True)}&quot;)"' if banner_url else ""
         html_rows.append(f"<tr{row_style}>")
-        html_rows.extend(f"<td>{render_inline(cell, Path('.'))}</td>" for cell in visible_row)
+        for column_index, cell in enumerate(visible_row):
+          header_name = visible_header[column_index].strip().lower() if column_index < len(visible_header) else ""
+          class_attr = ' class="banner-count-cell"' if banner_table and header_name in {"sets", "products"} else ""
+          html_rows.append(f"<td{class_attr}>{render_inline(cell, Path('.'))}</td>")
         html_rows.append("</tr>")
     html_rows.append("</tbody></table></div>")
     return "".join(html_rows)
