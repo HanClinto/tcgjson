@@ -28,7 +28,7 @@ HEADING_RE = re.compile(r"^(#{1,6})\s+(.+)$")
 
 STYLE = """
 :root {
-  --bg: #e4d9c8;
+  --bg: #cdbda6;
   --paper: #f0e5d4;
   --ink: #2d2922;
   --muted: #756c5e;
@@ -50,7 +50,7 @@ STYLE = """
 body {
   margin: 0;
   background:
-    linear-gradient(180deg, rgba(240, 229, 212, 0.68), rgba(228, 217, 200, 0.98)),
+    linear-gradient(180deg, rgba(224, 211, 191, 0.82), rgba(205, 189, 166, 0.98)),
     radial-gradient(circle at top left, rgba(59, 107, 94, 0.055), transparent 34rem),
     var(--bg);
   color: var(--ink);
