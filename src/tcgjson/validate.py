@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import json
 from pathlib import Path
@@ -29,7 +30,7 @@ def validate_release(output_dir: Path) -> None:
             if digest != item["sha256"]:
                 raise ValueError(f"sha256 mismatch for {path}")
             continue
-        payload = json.loads(path.read_text(encoding="utf-8"))
+        payload = _load_json(path)
         if payload.get("object") == "tcgjson_build_metrics":
             if "durationSeconds" not in payload or "productLines" not in payload:
                 raise ValueError(f"{path} is missing required metrics keys")
@@ -54,6 +55,13 @@ def _validate_no_published_prices(path: Path, catalog: dict) -> None:
         if present:
             product_id = product.get("productId", "")
             raise ValueError(f"{path} product {product_id} includes price field(s): {sorted(present)}")
+
+
+def _load_json(path: Path) -> dict:
+    if path.name.endswith(".json.gz"):
+        with gzip.open(path, "rt", encoding="utf-8") as handle:
+            return json.load(handle)
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def main(argv: list[str] | None = None) -> int:

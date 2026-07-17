@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import html
+import gzip
 import json
 from pathlib import Path
 from typing import Any
@@ -30,8 +31,8 @@ def generate_catalog_docs(
     probe_catalog_banners: bool = False,
 ) -> list[Path]:
     manifest = _load_json(release_dir / "bulk-data.json")
-    metrics = _load_json(release_dir / "metrics.json")
-    games = _load_json(release_dir / "games.json") if (release_dir / "games.json").exists() else {"games": []}
+    metrics = _load_manifest_json(release_dir, manifest, "build_metrics", "metrics.json")
+    games = _load_manifest_json(release_dir, manifest, "game_support", "games.json")
 
     output_dir.mkdir(parents=True, exist_ok=True)
     game_dir = output_dir / "games"
@@ -87,14 +88,32 @@ def generate_catalog_docs(
 
 
 def _load_json(path: Path) -> dict[str, Any]:
+    if path.name.endswith(".json.gz"):
+        with gzip.open(path, "rt", encoding="utf-8") as handle:
+            return json.load(handle)
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _load_manifest_json(release_dir: Path, manifest: dict[str, Any], file_type: str, fallback_name: str) -> dict[str, Any]:
+    item = next((item for item in manifest.get("data", []) if item.get("type") == file_type), None)
+    if item:
+        return _load_json(release_dir / item["download_uri"])
+    fallback = release_dir / fallback_name
+    if fallback.exists():
+        return _load_json(fallback)
+    gz_fallback = release_dir / f"{fallback_name}.gz"
+    if gz_fallback.exists():
+        return _load_json(gz_fallback)
+    return {"games": []} if file_type == "game_support" else {}
 
 
 def _load_schema_profiles(release_dir: Path, catalogs: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     profiles = {}
     for catalog in catalogs:
         slug = catalog.get("meta", {}).get("slug", "")
-        path = release_dir / f"{slug}.schema.json"
+        path = release_dir / f"{slug}.schema.json.gz"
+        if not path.exists():
+            path = release_dir / f"{slug}.schema.json"
         if path.exists():
             profiles[slug] = _load_json(path)
     return profiles
@@ -479,7 +498,7 @@ def _write_game_page(
     )[:12]
     recently_added_products = _recently_added_products(
         catalog,
-        previous_release_dir / f"{slug}.full.json" if previous_release_dir else None,
+        _previous_full_catalog_path(previous_release_dir, slug),
     )
     lines = [
         f"# {meta.get('productLine', slug)}",
@@ -714,7 +733,7 @@ def _change_notes(catalogs: list[dict[str, Any]], previous_release_dir: Path | N
     for catalog in sorted(catalogs, key=lambda item: item.get("meta", {}).get("productLine", "")):
         meta = catalog.get("meta", {})
         slug = meta.get("slug", "")
-        comparison = _compare_catalog(catalog, previous_release_dir / f"{slug}.full.json" if previous_release_dir else None)
+        comparison = _compare_catalog(catalog, _previous_full_catalog_path(previous_release_dir, slug))
         lines.append(
             f"- {meta.get('productLine', slug)}: {meta.get('setCount', 0)} sets, {meta.get('productCount', 0)} products, "
             f"{comparison}."
@@ -735,6 +754,14 @@ def _compare_catalog(catalog: dict[str, Any], previous_path: Path | None) -> str
     shared = current_ids & previous_ids
     changed = {product_id for product_id in shared if current_products[product_id] != previous_products[product_id]}
     return f"{len(added)} added, {len(removed)} removed, {len(changed)} changed product records"
+
+def _previous_full_catalog_path(previous_release_dir: Path | None, slug: str) -> Path | None:
+    if previous_release_dir is None:
+        return None
+    for path in [previous_release_dir / f"{slug}.full.json", previous_release_dir / f"{slug}.full.json.gz"]:
+        if path.exists():
+            return path
+    return previous_release_dir / f"{slug}.full.json"
 
 
 def _recently_added_products(catalog: dict[str, Any], previous_path: Path | None, limit: int = 12) -> list[dict[str, Any]]:
@@ -815,10 +842,11 @@ def _manifest_by_download(manifest: dict[str, Any]) -> dict[str, dict[str, Any]]
 
 
 def _asset_link(name: str, by_name: dict[str, dict[str, Any]], release_url: str) -> str:
-    item = by_name.get(name)
+    item = by_name.get(name) or by_name.get(f"{name}.gz")
     if not item:
         return f"`{name}`"
-    return f"{_download_link(name, release_url)} ({_human_bytes(int(item.get('size') or 0))})"
+    download_name = item.get("download_uri", name)
+    return f"{_download_link(download_name, release_url)} ({_human_bytes(int(item.get('size') or 0))})"
 
 
 def _download_link(name: str, release_url: str) -> str:

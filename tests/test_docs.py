@@ -193,8 +193,8 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "<summary>Game object raw JSON</summary>" in game
     assert game.index("<summary>Game object raw JSON</summary>") < game.index("## Files")
     assert '"tcgplayerProductLineId": 3' in game
-    assert "Compact catalog: [`pokemon.json`](https://example.test/release/pokemon.json) (" in game
-    assert "Full catalog: [`pokemon.full.json`](https://example.test/release/pokemon.full.json) (" in game
+    assert "Compact catalog: [`pokemon.json.gz`](https://example.test/release/pokemon.json.gz) (" in game
+    assert "Full catalog: [`pokemon.full.json.gz`](https://example.test/release/pokemon.full.json.gz) (" in game
     assert "<summary>Example compact product object</summary>" in game
     assert "<summary>Example full product object</summary>" in game
     assert '"metadata": {' in game

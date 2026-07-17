@@ -1,3 +1,4 @@
+import gzip
 import json
 
 import requests
@@ -13,6 +14,13 @@ from tcgjson.bulk import (
     write_product_schema_files,
 )
 from tcgjson.tcgplayer import RequestStats
+
+
+def load_json(path):
+    if path.name.endswith(".json.gz"):
+        with gzip.open(path, "rt", encoding="utf-8") as handle:
+            return json.load(handle)
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 class CachedSetClient:
@@ -118,7 +126,7 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
     }
     files = write_product_line_files(tmp_path, catalog)
     manifest = write_bulk_manifest(tmp_path, files)
-    full_catalog = json.loads((tmp_path / "pokemon.full.json").read_text(encoding="utf-8"))
+    full_catalog = load_json(tmp_path / "pokemon.full.json.gz")
 
     assert [item["type"] for item in manifest["data"]] == [
         "pokemon_catalog",
@@ -128,6 +136,9 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
     assert "sourceMode" not in full_catalog["meta"]
     assert "priceGuide" not in full_catalog["products"][0]
     assert "productLineId" not in full_catalog["products"][0]
+    assert {item["download_uri"] for item in manifest["data"]} == {"pokemon.json.gz", "pokemon.full.json.gz"}
+    assert all(item["content_encoding"] == "gzip" for item in manifest["data"])
+    assert all(item["content_type"] == "application/json" for item in manifest["data"])
     assert json.loads((tmp_path / "bulk-data.json").read_text())["object"] == "list"
     for item in manifest["data"]:
         assert (tmp_path / item["download_uri"]).stat().st_size == item["size"]
@@ -158,7 +169,7 @@ def test_write_product_schema_files_profiles_full_catalog_fields(tmp_path) -> No
     }
 
     files = write_product_schema_files(tmp_path, catalog)
-    profile = json.loads((tmp_path / "pokemon.schema.json").read_text(encoding="utf-8"))
+    profile = load_json(tmp_path / "pokemon.schema.json.gz")
 
     assert {item["type"] for item in files} == {"pokemon_schema"}
     assert any(field["path"] == "metadata.rulesText" for field in profile["fields"])
@@ -181,7 +192,7 @@ def test_write_product_schema_files_omits_price_fields(tmp_path) -> None:
 
     write_product_schema_files(tmp_path, catalog)
 
-    profile = json.loads((tmp_path / "pokemon.schema.json").read_text(encoding="utf-8"))
+    profile = load_json(tmp_path / "pokemon.schema.json.gz")
     field_paths = {field["path"] for field in profile["fields"]}
     assert "priceGuide" not in field_paths
     assert "marketPrice" not in field_paths
@@ -345,7 +356,7 @@ def test_build_release_writes_metrics_file(tmp_path) -> None:
         cache_dir=tmp_path,
         client=CachedSetClient(),
     )
-    metrics = json.loads((tmp_path / "release" / "metrics.json").read_text(encoding="utf-8"))
+    metrics = load_json(tmp_path / "release" / "metrics.json")
 
     assert "build_metrics" in {item["type"] for item in manifest["data"]}
     assert metrics["mode"] == "incremental"
@@ -408,7 +419,7 @@ def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> Non
     )
 
     manifest = assemble_release(output_dir)
-    metrics = json.loads((output_dir / "metrics.json").read_text(encoding="utf-8"))
+    metrics = load_json(output_dir / "metrics.json")
 
     assert "bulk-data.json" not in [item["download_uri"] for item in manifest["data"]]
     assert {

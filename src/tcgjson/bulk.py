@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import gzip
 import hashlib
 import json
 import mimetypes
@@ -11,7 +12,7 @@ from typing import Any, Iterable, TypeVar
 
 import requests
 
-from .atomic import atomic_write_json
+from .atomic import atomic_write_json, atomic_write_json_gzip
 from .config import normalize_key, product_line_for_id, product_line_for_name
 from .games import default_enabled_product_line_ids
 from .normalize import (
@@ -111,9 +112,16 @@ def _resolve_product_line(client: TCGplayerClient, requested_product_line: Produ
 def _load_cached_catalog(cache_dir: Path | None, slug: str) -> dict[str, Any] | None:
     if cache_dir is None:
         return None
-    path = cache_dir / f"{slug}.full.json"
-    if not path.exists():
-        return None
+    for path in [cache_dir / f"{slug}.full.json", cache_dir / f"{slug}.full.json.gz"]:
+        if path.exists():
+            return _load_json(path)
+    return None
+
+
+def _load_json(path: Path) -> dict[str, Any]:
+    if path.name.endswith(".json.gz"):
+        with gzip.open(path, "rt", encoding="utf-8") as handle:
+            return json.load(handle)
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -554,7 +562,8 @@ def compact_catalog(full_catalog: dict[str, Any]) -> dict[str, Any]:
 def _file_manifest(path: Path, *, output_dir: Path, file_type: str, name: str, description: str) -> dict[str, Any]:
     digest = hashlib.sha256(path.read_bytes()).hexdigest()
     stat = path.stat()
-    content_type = mimetypes.guess_type(path.name)[0] or "application/json"
+    content_type = "application/json" if path.name.endswith(".json.gz") else mimetypes.guess_type(path.name)[0] or "application/json"
+    content_encoding = "gzip" if path.name.endswith(".json.gz") else "identity"
     return {
         "object": "bulk_data",
         "type": file_type,
@@ -565,7 +574,7 @@ def _file_manifest(path: Path, *, output_dir: Path, file_type: str, name: str, d
         "size": stat.st_size,
         "sha256": digest,
         "content_type": content_type,
-        "content_encoding": "identity",
+        "content_encoding": content_encoding,
     }
 
 
@@ -587,8 +596,8 @@ def write_product_schema_files(output_dir: Path, catalog: dict[str, Any]) -> lis
     slug = catalog["meta"]["slug"]
     product_line = catalog["meta"]["productLine"]
     profile = product_schema_profile(catalog)
-    json_path = output_dir / f"{slug}.schema.json"
-    atomic_write_json(json_path, profile)
+    json_path = output_dir / f"{slug}.schema.json.gz"
+    atomic_write_json_gzip(json_path, profile)
     return [
         _file_manifest(
             json_path,
@@ -604,11 +613,11 @@ def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[
     output_dir.mkdir(parents=True, exist_ok=True)
     slug = catalog["meta"]["slug"]
     product_line = catalog["meta"]["productLine"]
-    compact_path = output_dir / f"{slug}.json"
-    full_path = output_dir / f"{slug}.full.json"
+    compact_path = output_dir / f"{slug}.json.gz"
+    full_path = output_dir / f"{slug}.full.json.gz"
     catalog = _without_price_fields(catalog)
-    atomic_write_json(compact_path, compact_catalog(catalog))
-    atomic_write_json(full_path, catalog)
+    atomic_write_json_gzip(compact_path, compact_catalog(catalog))
+    atomic_write_json_gzip(full_path, catalog)
     return [
         _file_manifest(
             compact_path,
@@ -670,8 +679,9 @@ def assemble_release(output_dir: Path, *, metrics_dir: Path | None = None) -> di
         for path in sorted(metrics_source_dir.glob("*.json")):
             metric_fragments.append(json.loads(path.read_text(encoding="utf-8")))
 
-    for full_catalog_path in sorted(output_dir.glob("*.full.json")):
-        catalog = json.loads(full_catalog_path.read_text(encoding="utf-8"))
+    full_catalog_paths = [*output_dir.glob("*.full.json"), *output_dir.glob("*.full.json.gz")]
+    for full_catalog_path in sorted(full_catalog_paths):
+        catalog = _load_json(full_catalog_path)
         files.extend(write_product_line_files(output_dir, catalog))
         files.extend(write_product_schema_files(output_dir, catalog))
 

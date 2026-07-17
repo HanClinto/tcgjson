@@ -58,8 +58,10 @@ jobs:
           mkdir -p release-cache
           if [ -n "$CACHE_RELEASE_TAG" ]; then
             gh release download "$CACHE_RELEASE_TAG" --repo "${{ github.repository }}" --pattern '*.full.json' --dir release-cache || true
+            gh release download "$CACHE_RELEASE_TAG" --repo "${{ github.repository }}" --pattern '*.full.json.gz' --dir release-cache || true
           else
             gh release download --repo "${{ github.repository }}" --pattern '*.full.json' --dir release-cache || true
+            gh release download --repo "${{ github.repository }}" --pattern '*.full.json.gz' --dir release-cache || true
           fi
 
       - name: Build Union Arena
@@ -212,7 +214,9 @@ jobs:
             Weekly tcgjson catalog export.
 
             Start with `bulk-data.json` to discover generated files, sizes, and hashes.
-          files: release/*.json
+          files: |
+            release/*.json
+            release/*.json.gz
       - name: Generate catalog docs
         run: |
           tcgjson docs generate \
