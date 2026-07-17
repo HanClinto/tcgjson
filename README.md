@@ -148,14 +148,13 @@ weakness.
 
 ## Caveats
 
-- TCGplayer catalog fields vary by game and by source endpoint.
-- Some games use priceguide endpoints heavily as a catalog source; newer games
-  may rely more on search fallback data.
+- TCGplayer catalog fields vary by game, but refreshed product rows are sourced
+  from search so normalized objects stay consistent between releases.
 - Published catalogs do not include price fields. Pricing changes faster than
   weekly catalog snapshots and should be fetched from an appropriate pricing
   source instead.
-- Search fallback exports product identity, set, collector number, rarity, image
-  URLs, and metadata when available.
+- Search exports product identity, set, collector number, rarity, image URLs, and
+  metadata when available.
 - Image URLs point at TCGplayer CDN assets. This project does not download or
   republish card images.
 - Catalog information is informational and may become stale between weekly

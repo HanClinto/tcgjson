@@ -45,8 +45,7 @@ class SearchFallbackClient(CachedSetClient):
         return [{"setNameId": 23405, "name": "Spark of Rebellion", "urlName": "spark-of-rebellion"}]
 
     def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
-        assert set_id == 23405
-        return {}
+        raise AssertionError("refreshed sets should use search, not priceguide")
 
     def iter_search_products(self, *, product_line_name, set_name, page_size=50):
         assert product_line_name == "Star Wars: Unlimited"
@@ -69,31 +68,12 @@ class SearchFallbackClient(CachedSetClient):
         }
 
 
-class PriceguideWithSearchMetadataClient(SearchFallbackClient):
-    def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
-        assert set_id == 23405
-        return {
-            "result": [
-                {
-                    "productID": 540213,
-                    "productName": "Overwhelming Barrage",
-                    "number": "092/252",
-                    "rarity": "Uncommon",
-                    "printing": "Normal",
-                    "condition": "Near Mint",
-                    "lowPrice": 0.45,
-                    "marketPrice": 0.63,
-                }
-            ]
-        }
-
-
 class CheckpointOnlyClient(SearchFallbackClient):
     def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
-        raise AssertionError("set checkpoint should be reused before fetching price-guide rows")
+        raise AssertionError("set checkpoint should be reused before fetching search rows")
 
     def iter_search_products(self, *, product_line_name, set_name, page_size=50):
-        raise AssertionError("set checkpoint should be reused before search fallback")
+        raise AssertionError("set checkpoint should be reused before fetching search rows")
 
 
 class DetailsErrorClient(SearchFallbackClient):
@@ -123,7 +103,7 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
             "object": "tcgjson_catalog",
             "version": 1,
             "source": "tcgplayer",
-            "sourceMode": "priceguide",
+            "sourceMode": "search",
             "generatedAt": "2026-06-29T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
@@ -285,9 +265,10 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
     assert "pokemon: finished 1 set(s), 1 product(s)" in output
 
 
-def test_fetch_product_line_falls_back_to_search_when_priceguide_is_empty() -> None:
+def test_fetch_product_line_uses_search_as_product_source() -> None:
     catalog = fetch_product_line(SearchFallbackClient(), 79)
 
+    assert catalog["meta"]["sourceMode"] == "search"
     assert catalog["sets"][0]["source"] == "search"
     assert catalog["sets"][0]["priceGuideRowCount"] == 0
     assert catalog["sets"][0]["productCount"] == 1
@@ -297,16 +278,6 @@ def test_fetch_product_line_falls_back_to_search_when_priceguide_is_empty() -> N
     assert "marketPrice" not in catalog["products"][0]
     assert catalog["sets"][0]["searchMetadataProductCount"] == 1
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
-
-
-def test_fetch_product_line_enriches_priceguide_products_with_search_metadata() -> None:
-    catalog = fetch_product_line(PriceguideWithSearchMetadataClient(), 79)
-
-    assert catalog["sets"][0]["source"] == "priceguide"
-    assert catalog["sets"][0]["searchMetadataProductCount"] == 1
-    assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
-
-
 def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:
     checkpoint_dir = tmp_path / "set-checkpoints"
     first_catalog = fetch_product_line(SearchFallbackClient(), 79, checkpoint_dir=checkpoint_dir)

@@ -16,9 +16,7 @@ from .config import normalize_key, product_line_for_id, product_line_for_name
 from .games import default_enabled_product_line_ids
 from .normalize import (
     apply_product_details,
-    apply_search_product_metadata,
     compact_product,
-    group_priceguide_products,
     normalize_search_products,
 )
 from .schema import product_schema_profile
@@ -26,7 +24,7 @@ from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 
 T = TypeVar("T")
-SET_CHECKPOINT_VERSION = 2
+SET_CHECKPOINT_VERSION = 3
 
 
 def _utc_now_iso() -> str:
@@ -192,7 +190,6 @@ def _load_set_checkpoint(
     if checkpoint_dir is None:
         return None
     paths = [
-        _set_checkpoint_path(checkpoint_dir, slug, "priceguide", set_id),
         _set_checkpoint_path(checkpoint_dir, slug, "search", set_id),
         checkpoint_dir / slug / f"{set_id}.json",
     ]
@@ -208,7 +205,7 @@ def _load_set_checkpoint(
         or int(payload.get("tcgplayerSetId") or 0) != set_id
         or bool(payload.get("withSkus")) != with_skus
         or int(payload.get("priceguideRows") or 0) != priceguide_rows
-        or source not in (None, "priceguide", "search")
+        or source not in (None, "search")
     ):
         return None
     set_summary = payload.get("set")
@@ -341,53 +338,21 @@ def _fetch_set_products(
     progress: bool,
     detail_cache_dir: Path | None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
-    priceguide = client.get_priceguide_set_cards(set_row["setNameId"], rows=priceguide_rows)
-    rows = list(priceguide.get("result") or [])
-    source = "priceguide"
-    search_metadata_product_count = 0
+    search_rows = list(
+        client.iter_search_products(
+            product_line_name=product_line_name,
+            set_name=set_row.get("name", ""),
+        )
+    )
+    set_products = normalize_search_products(
+        search_rows,
+        product_line_name=product_line_name,
+        product_line_id=product_line_id,
+        product_line_url_name=product_line_url_name,
+        set_row=set_row,
+    )
+    search_metadata_product_count = sum(1 for product in set_products if "metadata" in product)
     search_metadata_error_count = 0
-
-    def search_rows_for_set() -> list[dict[str, Any]]:
-        return list(
-            client.iter_search_products(
-                product_line_name=product_line_name,
-                set_name=set_row.get("name", ""),
-            )
-        )
-
-    if rows:
-        set_products = group_priceguide_products(
-            rows,
-            product_line_name=product_line_name,
-            product_line_id=product_line_id,
-            product_line_url_name=product_line_url_name,
-            set_row=set_row,
-        )
-        if not with_skus:
-            products_by_id = {product["tcgplayerProductId"]: product for product in set_products}
-            try:
-                for search_row in search_rows_for_set():
-                    product_id = int(search_row.get("productId") or 0)
-                    product = products_by_id.get(product_id)
-                    if product is None:
-                        continue
-                    had_metadata = "metadata" in product
-                    apply_search_product_metadata(product, search_row)
-                    if "metadata" in product and not had_metadata:
-                        search_metadata_product_count += 1
-            except (requests.RequestException, TCGplayerError):
-                search_metadata_error_count += 1
-    else:
-        search_rows = search_rows_for_set()
-        set_products = normalize_search_products(
-            search_rows,
-            product_line_name=product_line_name,
-            product_line_id=product_line_id,
-            product_line_url_name=product_line_url_name,
-            set_row=set_row,
-        )
-        search_metadata_product_count = sum(1 for product in set_products if "metadata" in product)
-        source = "search"
     detail_error_count = 0
     detail_cache_hit_count = 0
     detail_fetch_count = 0
@@ -424,13 +389,13 @@ def _fetch_set_products(
             "iconUrl": _set_icon_url(set_row["setNameId"], set_row.get("cleanSetName") or set_row.get("name", "")),
             "isSupplemental": bool(set_row.get("isSupplemental")),
             "productCount": len(set_products),
-            "priceGuideRowCount": len(rows),
+            "priceGuideRowCount": 0,
             "detailErrorCount": detail_error_count,
             "detailCacheHitCount": detail_cache_hit_count,
             "detailFetchCount": detail_fetch_count,
             "searchMetadataProductCount": search_metadata_product_count,
             "searchMetadataErrorCount": search_metadata_error_count,
-            "source": source,
+            "source": "search",
         },
         set_products,
     )
@@ -565,7 +530,7 @@ def fetch_product_line(
             "object": "tcgjson_catalog",
             "version": 1,
             "source": "tcgplayer",
-            "sourceMode": "priceguide+details" if with_skus else "priceguide",
+            "sourceMode": "search+details" if with_skus else "search",
             "generatedAt": exported_at,
             "productLine": product_line.get("productLineName", resolved.name),
             "productLineId": product_line_id,

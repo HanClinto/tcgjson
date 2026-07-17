@@ -27,7 +27,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     build.add_argument("--product-line", action="append", dest="product_lines", help="TCGplayer product-line ID or name")
     build.add_argument("--max-sets", type=int, default=None)
-    build.add_argument("--priceguide-rows", type=int, default=5000)
+    build.add_argument("--priceguide-rows", type=int, default=5000, help="Deprecated; product rows are sourced from search.")
     build.add_argument(
         "--with-details",
         "--with-skus",

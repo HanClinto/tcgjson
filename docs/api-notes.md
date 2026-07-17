@@ -78,17 +78,18 @@ Endpoint:
 GET https://infinite-api.tcgplayer.com/priceguide/set/<setId>/cards/?rows=5000&productTypeID=1
 ```
 
-This is the fast path for many established games. It provides card products,
-collector numbers, rarity, printings, conditions, and price rows. `tcgjson` uses
-the product identity and catalog fields from this endpoint, but intentionally
-strips price values from published release files. Weekly catalog snapshots are
-not a reliable source for current market pricing.
+This endpoint provides card products, collector numbers, rarity, printings,
+conditions, and price rows for many established games. `tcgjson` no longer uses
+it as the product source for refreshed catalog rows because its field names and
+shape differ slightly from search rows, which caused noisy diffs when a set moved
+between endpoints. Weekly catalog snapshots are not a reliable source for
+current market pricing.
 
 It does not provide rich card metadata such as rules text for every game, SKU
 lists, formatted attributes, or multi-image counts.
 
 Observed caveat: newer product lines can return an empty payload here even when
-the same set has searchable card products. In those cases, use search fallback.
+the same set has searchable card products.
 
 ## Search Request
 
@@ -98,8 +99,10 @@ Endpoint:
 POST https://mp-search-api.tcgplayer.com/v1/search/request
 ```
 
-The search endpoint is the most useful lean metadata source. It can return card
-metadata in `customAttributes` without a per-product detail request.
+The search endpoint is the standard lean product source. It can return card
+metadata in `customAttributes` without a per-product detail request, and using it
+for every refreshed set keeps normalized product objects consistent between
+releases.
 
 Current catalog search payload shape:
 

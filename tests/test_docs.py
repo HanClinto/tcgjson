@@ -15,7 +15,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
             "generatedAt": "2026-06-30T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
-            "sourceMode": "priceguide",
+            "sourceMode": "search",
             "setCount": 1,
             "productCount": 1,
         },
