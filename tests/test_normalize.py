@@ -2,7 +2,6 @@ from tcgjson.config import product_line_for_name, slugify
 from tcgjson.normalize import (
     apply_product_details,
     apply_search_product_metadata,
-    compact_product,
     extract_metadata,
     extract_skus,
 )
