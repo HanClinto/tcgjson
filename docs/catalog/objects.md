@@ -17,7 +17,7 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
 {
   "object": "list",
   "source": "tcgjson",
-  "generated_at": "2026-07-17T02:44:40Z",
+  "generated_at": "2026-07-17T03:00:49Z",
   "has_more": false,
   "data": [
     {
@@ -26,9 +26,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Build Metrics",
       "description": "Timing, request-count, and cache-efficiency metrics for this tcgjson build.",
       "download_uri": "metrics.json",
-      "updated_at": "2026-07-17T02:44:40Z",
-      "size": 5210,
-      "sha256": "256b24d562ba2240f27353daad2313e7e14096b149f8d8ba964947e97ed9e16c",
+      "updated_at": "2026-07-17T03:00:49Z",
+      "size": 5206,
+      "sha256": "82ee5b9d596f953c85e61bcdf5eb31e33803df9ab87be4a56216c9d19da1f5d3",
       "content_type": "application/json",
       "content_encoding": "identity"
     },
@@ -38,9 +38,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Digimon Card Game Catalog",
       "description": "Compact TCGplayer catalog export for Digimon Card Game.",
       "download_uri": "digimon-card-game.json.gz",
-      "updated_at": "2026-07-17T02:44:08Z",
-      "size": 600426,
-      "sha256": "d4a2fd76ecc79ad2a47c80eedf8ee20bec406d8523fa70087eb61bc36b56e64b",
+      "updated_at": "2026-07-17T03:00:12Z",
+      "size": 455190,
+      "sha256": "ae39db592551274878e1d53173dd24e850c3e2ecace9dad547036e6880c671d8",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -50,9 +50,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Digimon Card Game Full Catalog",
       "description": "Full TCGplayer catalog export for Digimon Card Game, including metadata and optional SKU IDs.",
       "download_uri": "digimon-card-game.full.json.gz",
-      "updated_at": "2026-07-17T02:44:10Z",
-      "size": 3141478,
-      "sha256": "dcb5d375fad05e7a1bedf14c1fbe9c344c35c519f3dc3341abb5499e62ad0a7a",
+      "updated_at": "2026-07-17T03:00:14Z",
+      "size": 2389914,
+      "sha256": "2d82a43b87d9dbab6f1025bd59a180c2a01ffa54a2de1987ee680902dec077fb",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -62,9 +62,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Digimon Card Game Product Schema Profile",
       "description": "Observed product fields and population stats for Digimon Card Game.",
       "download_uri": "digimon-card-game.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:11Z",
+      "updated_at": "2026-07-17T03:00:15Z",
       "size": 1510,
-      "sha256": "16618b7145bc332abd515107d208ec3eeb6da9cf15151112391dcc6c774b6945",
+      "sha256": "4c9d27f30de83a228523b9d350da6dbd680ded3d8076be6f82204cacc476330b",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -74,9 +74,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Disney Lorcana Catalog",
       "description": "Compact TCGplayer catalog export for Disney Lorcana.",
       "download_uri": "lorcana.json.gz",
-      "updated_at": "2026-07-17T02:44:12Z",
-      "size": 84403,
-      "sha256": "879a89b295acdebd77dc37821ce6a98e164c63268c58ad5168b2b1e34b4c097c",
+      "updated_at": "2026-07-17T03:00:16Z",
+      "size": 84482,
+      "sha256": "ab14ea7d9139d4fbe1f8fdfd1edab8f9389bfdc00d5fdd7eb7b3293ff07d68ed",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -86,9 +86,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Disney Lorcana Full Catalog",
       "description": "Full TCGplayer catalog export for Disney Lorcana, including metadata and optional SKU IDs.",
       "download_uri": "lorcana.full.json.gz",
-      "updated_at": "2026-07-17T02:44:12Z",
-      "size": 367226,
-      "sha256": "bc50c8de9d02a6bb44b7f6db9034dd07120d7816ad8b80db0b4f23345f579b35",
+      "updated_at": "2026-07-17T03:00:16Z",
+      "size": 364606,
+      "sha256": "6e9b4d0c57ab049f2bf05d6f43b72a6f62142c513e57ac19f2af517bdc088415",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -98,9 +98,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Disney Lorcana Product Schema Profile",
       "description": "Observed product fields and population stats for Disney Lorcana.",
       "download_uri": "lorcana.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:12Z",
-      "size": 1375,
-      "sha256": "adcb473b67c7c0d0bf5c8250d6cce9d5477778f2f673374f3ef4d6db6ded89df",
+      "updated_at": "2026-07-17T03:00:16Z",
+      "size": 1371,
+      "sha256": "98817e3d6ce25c3d9b5508e32b14dbb3f82f0b40d02aeea24bceb2596fc4f80c",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -110,9 +110,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Magic: The Gathering Catalog",
       "description": "Compact TCGplayer catalog export for Magic: The Gathering.",
       "download_uri": "magic-the-gathering.json.gz",
-      "updated_at": "2026-07-17T02:44:16Z",
-      "size": 2115590,
-      "sha256": "082cb4a54040b2816d6544e263054a74ee1426ffd051b085dd4eb47a36b2d303",
+      "updated_at": "2026-07-17T03:00:20Z",
+      "size": 2122794,
+      "sha256": "cec4d29a1b5a9ea5c4b1203b78e9c60674078fb3790a277e50cf9360240a790e",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -122,9 +122,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Magic: The Gathering Full Catalog",
       "description": "Full TCGplayer catalog export for Magic: The Gathering, including metadata and optional SKU IDs.",
       "download_uri": "magic-the-gathering.full.json.gz",
-      "updated_at": "2026-07-17T02:44:22Z",
-      "size": 12521347,
-      "sha256": "3a636d6b6e59ec3c0b8333d963c22ffac994f714eb18323de3fc5dc2c8056470",
+      "updated_at": "2026-07-17T03:00:29Z",
+      "size": 12550284,
+      "sha256": "3d45f98790410ea6ebc2e4ffc65c39152007f60a068c7648f39443eb45abeb58",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -134,9 +134,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Magic: The Gathering Product Schema Profile",
       "description": "Observed product fields and population stats for Magic: The Gathering.",
       "download_uri": "magic-the-gathering.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:26Z",
-      "size": 1375,
-      "sha256": "d9897b3d15a1f908234a8d05e5522f842c9f9703332ca5a5ae24dbf51d7ccc85",
+      "updated_at": "2026-07-17T03:00:33Z",
+      "size": 1373,
+      "sha256": "32f0c305a4941749d618ea47eed82a98757ca7305d0c2fe67dbe8c9c8c725b44",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -146,9 +146,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "One Piece Card Game Catalog",
       "description": "Compact TCGplayer catalog export for One Piece Card Game.",
       "download_uri": "one-piece.json.gz",
-      "updated_at": "2026-07-17T02:44:27Z",
-      "size": 334669,
-      "sha256": "58f67a2161494c47a5e9827bd06f9dc186fccb82ed94e52d6b5c0c5abc7eb3f7",
+      "updated_at": "2026-07-17T03:00:34Z",
+      "size": 334671,
+      "sha256": "d871467ada1af6abefee7790ca811b22dd34ec0c1889e11ebc010a31e493fee6",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -158,9 +158,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "One Piece Card Game Full Catalog",
       "description": "Full TCGplayer catalog export for One Piece Card Game, including metadata and optional SKU IDs.",
       "download_uri": "one-piece.full.json.gz",
-      "updated_at": "2026-07-17T02:44:28Z",
-      "size": 1198040,
-      "sha256": "f899fafe8acb4cb6fa13964c71596e1a5e5ae17155def626717301d2bb52253e",
+      "updated_at": "2026-07-17T03:00:35Z",
+      "size": 1198044,
+      "sha256": "6cc21fe5116e8b3f5bfa15ca649393c8832a9b33d5020d1e45e453c80e3f3db1",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -170,7 +170,7 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "One Piece Card Game Product Schema Profile",
       "description": "Observed product fields and population stats for One Piece Card Game.",
       "download_uri": "one-piece.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:29Z",
+      "updated_at": "2026-07-17T03:00:36Z",
       "size": 1044,
       "sha256": "d640243c60fbec33ba53caf7d936cd521556d65693e4e1a27a2c1e01ac6bb9bc",
       "content_type": "application/json",
@@ -182,9 +182,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Pokemon Catalog",
       "description": "Compact TCGplayer catalog export for Pokemon.",
       "download_uri": "pokemon.json.gz",
-      "updated_at": "2026-07-17T02:44:30Z",
-      "size": 542715,
-      "sha256": "1e55a7c231a15daea28348bf3f61ee1de2bc776b4ed0b3eb565acf89fba88451",
+      "updated_at": "2026-07-17T03:00:37Z",
+      "size": 542769,
+      "sha256": "45202fd825b1e962d62d6bcf9105770075533a006fac69ea81f96da9ac43aec9",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -194,9 +194,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Pokemon Full Catalog",
       "description": "Full TCGplayer catalog export for Pokemon, including metadata and optional SKU IDs.",
       "download_uri": "pokemon.full.json.gz",
-      "updated_at": "2026-07-17T02:44:31Z",
-      "size": 2794241,
-      "sha256": "f439d3363d0b651ea86a2f76e5356676f3d196d3a054f9e594f348bc200b7ba9",
+      "updated_at": "2026-07-17T03:00:39Z",
+      "size": 2794430,
+      "sha256": "e4bda28bfc619edc46f39562210ae0f15e8b9559fbc54520a416454de8c9e6b8",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -206,9 +206,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Pokemon Product Schema Profile",
       "description": "Observed product fields and population stats for Pokemon.",
       "download_uri": "pokemon.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:32Z",
-      "size": 1660,
-      "sha256": "fc92ec6fc8d342af18a2e52877a5bebc4f77e542c5123617b689293eae808330",
+      "updated_at": "2026-07-17T03:00:40Z",
+      "size": 1668,
+      "sha256": "b3724207f7516b3165f9c9d755d278f11343947e1f1d2dbf9d34344da159abf3",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -218,9 +218,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Riftbound: League of Legends Trading Card Game Catalog",
       "description": "Compact TCGplayer catalog export for Riftbound: League of Legends Trading Card Game.",
       "download_uri": "riftbound.json.gz",
-      "updated_at": "2026-07-17T02:44:32Z",
-      "size": 27990,
-      "sha256": "5e1696ab3c7977bc8647416f82f8234035d9e364c4062af201bc5485fd464941",
+      "updated_at": "2026-07-17T03:00:40Z",
+      "size": 28009,
+      "sha256": "bcd08be324b4a064c95ccfdd04b7489530277308e0b87ee643c64a93fd475556",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -230,9 +230,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Riftbound: League of Legends Trading Card Game Full Catalog",
       "description": "Full TCGplayer catalog export for Riftbound: League of Legends Trading Card Game, including metadata and optional SKU IDs.",
       "download_uri": "riftbound.full.json.gz",
-      "updated_at": "2026-07-17T02:44:32Z",
-      "size": 114794,
-      "sha256": "9c80d82a58005b56aa894fbe5954e34f6459e2f3cfad3ec308a11baac92e7145",
+      "updated_at": "2026-07-17T03:00:40Z",
+      "size": 111051,
+      "sha256": "f526d45f504b0acf8e8d3cc9d4108eaba282939c367328bcf7cc8ead78e600ad",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -242,9 +242,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Riftbound: League of Legends Trading Card Game Product Schema Profile",
       "description": "Observed product fields and population stats for Riftbound: League of Legends Trading Card Game.",
       "download_uri": "riftbound.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:32Z",
-      "size": 1027,
-      "sha256": "b1e9f731526a43ca17a69267cda622e2e7d9ebbdb0a20d3ce87e364ea19a8076",
+      "updated_at": "2026-07-17T03:00:40Z",
+      "size": 1020,
+      "sha256": "079b08abebffec09a62b5076b20a6348497a775af0302da8b70ecec3941bb77b",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -254,9 +254,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Star Wars: Unlimited Catalog",
       "description": "Compact TCGplayer catalog export for Star Wars: Unlimited.",
       "download_uri": "star-wars-unlimited.json.gz",
-      "updated_at": "2026-07-17T02:44:32Z",
-      "size": 188954,
-      "sha256": "bb55aa3f06d42e779193eb00c8605e58a97fffed26c296f00fc607c49e9c306d",
+      "updated_at": "2026-07-17T03:00:41Z",
+      "size": 189229,
+      "sha256": "d71cccc751e4a709e621abf8c9176be7ad5c5ffb959b15399b39119028c77847",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -266,9 +266,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Star Wars: Unlimited Full Catalog",
       "description": "Full TCGplayer catalog export for Star Wars: Unlimited, including metadata and optional SKU IDs.",
       "download_uri": "star-wars-unlimited.full.json.gz",
-      "updated_at": "2026-07-17T02:44:32Z",
-      "size": 648920,
-      "sha256": "a400e963e2befbd8ea2019c30e0ca957bdc3ac3bc3ec33e10ab88ece6084c0fb",
+      "updated_at": "2026-07-17T03:00:41Z",
+      "size": 649651,
+      "sha256": "1b12e3368ca33470cb3dd691eb8d4d468b94b9a85d8619ac8178a9c375e77f8e",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -278,9 +278,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Star Wars: Unlimited Product Schema Profile",
       "description": "Observed product fields and population stats for Star Wars: Unlimited.",
       "download_uri": "star-wars-unlimited.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:33Z",
-      "size": 1259,
-      "sha256": "fbf506001c10117092d1facb1b9a391749e038c2d7b5c28905d0238d92fd5a59",
+      "updated_at": "2026-07-17T03:00:41Z",
+      "size": 1255,
+      "sha256": "9c4d7fed9de022e41ca052be67fbbef2469aabb21e0f9a2d30182a4bdd1d9106",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -290,9 +290,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Union Arena Catalog",
       "description": "Compact TCGplayer catalog export for Union Arena.",
       "download_uri": "union-arena.json.gz",
-      "updated_at": "2026-07-17T02:44:33Z",
-      "size": 329746,
-      "sha256": "5d855392ff7e95d3ca5d4073ca6719fa724af067e907abc49e02ff658fa79f04",
+      "updated_at": "2026-07-17T03:00:42Z",
+      "size": 117774,
+      "sha256": "3de561dcc7b002edf97fbad31708c135bd1fe9adf7d17f11b329d14776e0b5f9",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -302,9 +302,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Union Arena Full Catalog",
       "description": "Full TCGplayer catalog export for Union Arena, including metadata and optional SKU IDs.",
       "download_uri": "union-arena.full.json.gz",
-      "updated_at": "2026-07-17T02:44:34Z",
-      "size": 1287886,
-      "sha256": "d0fb2f8990e49ca4cb05b7e2da67ba1265b5336d0d240e6b6fe704f2b758bd75",
+      "updated_at": "2026-07-17T03:00:42Z",
+      "size": 442870,
+      "sha256": "0e89b157ece631b87110bc7e31842a1ae7ab0f17c44224699b67916b7a996d19",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -314,9 +314,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "Union Arena Product Schema Profile",
       "description": "Observed product fields and population stats for Union Arena.",
       "download_uri": "union-arena.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:35Z",
+      "updated_at": "2026-07-17T03:00:42Z",
       "size": 1235,
-      "sha256": "82fc387f4289f3cc07d4fed5a88ac1af682677766fe800b5233152c5ce1eff44",
+      "sha256": "755bd02cf6d558e42d8d736d3e9a67458f3dccaa56aba6b9beda7b8d4829bd42",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -326,9 +326,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "YuGiOh Catalog",
       "description": "Compact TCGplayer catalog export for YuGiOh.",
       "download_uri": "yugioh.json.gz",
-      "updated_at": "2026-07-17T02:44:36Z",
-      "size": 952635,
-      "sha256": "243ee7c5ee1518afbf23dae37ab5a3e66fd33fd13044fe4c624111b007e81c6a",
+      "updated_at": "2026-07-17T03:00:44Z",
+      "size": 953466,
+      "sha256": "263f98405f31ca489178b703e4ed76636deb0620eace30b51efc1695308edb7a",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -338,9 +338,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "YuGiOh Full Catalog",
       "description": "Full TCGplayer catalog export for YuGiOh, including metadata and optional SKU IDs.",
       "download_uri": "yugioh.full.json.gz",
-      "updated_at": "2026-07-17T02:44:39Z",
-      "size": 4661862,
-      "sha256": "fe9333b5e148482a0d5b333b4b40207ec56f9e470b093d6c9e341eb1e8a63f8b",
+      "updated_at": "2026-07-17T03:00:47Z",
+      "size": 4666199,
+      "sha256": "9c985423cd5f1d66fbd9ba4c7a9cb7d734167171e1b340b62ad5ab169694f8b6",
       "content_type": "application/json",
       "content_encoding": "gzip"
     },
@@ -350,9 +350,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
       "name": "YuGiOh Product Schema Profile",
       "description": "Observed product fields and population stats for YuGiOh.",
       "download_uri": "yugioh.schema.json.gz",
-      "updated_at": "2026-07-17T02:44:40Z",
+      "updated_at": "2026-07-17T03:00:49Z",
       "size": 1245,
-      "sha256": "71d14361794e3beadf4012ec16c7353c1ebb75dea018a30bcf96bef03e11d36d",
+      "sha256": "ab7ee352c0a2fa384e880ffb329b34874177f2b082d90735d2f6173a8b89ff1a",
       "content_type": "application/json",
       "content_encoding": "gzip"
     }
@@ -372,9 +372,9 @@ Each item includes a stable `type`, `download_uri`, `size`, `sha256`, `updated_a
   "name": "Build Metrics",
   "description": "Timing, request-count, and cache-efficiency metrics for this tcgjson build.",
   "download_uri": "metrics.json",
-  "updated_at": "2026-07-17T02:44:40Z",
-  "size": 5210,
-  "sha256": "256b24d562ba2240f27353daad2313e7e14096b149f8d8ba964947e97ed9e16c",
+  "updated_at": "2026-07-17T03:00:49Z",
+  "size": 5206,
+  "sha256": "82ee5b9d596f953c85e61bcdf5eb31e33803df9ab87be4a56216c9d19da1f5d3",
   "content_type": "application/json",
   "content_encoding": "identity"
 }
@@ -394,23 +394,23 @@ A full catalog file is named `<slug>.full.json`. The compact companion is named 
   "meta": {
     "object": "tcgjson_catalog",
     "version": 3,
-    "generatedAt": "2026-07-17T02:38:22Z",
+    "generatedAt": "2026-07-17T02:55:36Z",
     "productLine": "Digimon Card Game",
     "slug": "digimon-card-game",
     "setCount": 100,
-    "productCount": 35748,
+    "productCount": 26774,
     "cache": {
       "enabled": true,
-      "sourceGeneratedAt": "2026-07-17T02:14:21Z",
-      "reusedSetCount": 96,
+      "sourceGeneratedAt": "2026-07-17T02:38:22Z",
+      "reusedSetCount": 94,
       "reusedSetCheckpointCount": 0,
-      "fetchedSetCount": 4,
+      "fetchedSetCount": 6,
       "refreshRecentSetCount": 3
     },
     "metrics": {
-      "durationSeconds": 131.875,
-      "setsPerSecond": 0.758,
-      "productsPerSecond": 271.074
+      "durationSeconds": 12.642,
+      "setsPerSecond": 7.91,
+      "productsPerSecond": 2117.91
     }
   },
   "sets": [
@@ -469,23 +469,23 @@ A full catalog file is named `<slug>.full.json`. The compact companion is named 
   "meta": {
     "object": "tcgjson_compact_catalog",
     "version": 3,
-    "generatedAt": "2026-07-17T02:38:22Z",
+    "generatedAt": "2026-07-17T02:55:36Z",
     "productLine": "Digimon Card Game",
     "slug": "digimon-card-game",
     "setCount": 100,
-    "productCount": 35748,
+    "productCount": 26774,
     "cache": {
       "enabled": true,
-      "sourceGeneratedAt": "2026-07-17T02:14:21Z",
-      "reusedSetCount": 96,
+      "sourceGeneratedAt": "2026-07-17T02:38:22Z",
+      "reusedSetCount": 94,
       "reusedSetCheckpointCount": 0,
-      "fetchedSetCount": 4,
+      "fetchedSetCount": 6,
       "refreshRecentSetCount": 3
     },
     "metrics": {
-      "durationSeconds": 131.875,
-      "setsPerSecond": 0.758,
-      "productsPerSecond": 271.074
+      "durationSeconds": 12.642,
+      "setsPerSecond": 7.91,
+      "productsPerSecond": 2117.91
     }
   },
   "sets": [
@@ -525,7 +525,7 @@ A full catalog file is named `<slug>.full.json`. The compact companion is named 
 
 | Field | Meaning | Example |
 | --- | --- | --- |
-| `meta` | Build metadata for the catalog. | `{"object": "tcgjson_catalog", "version": 3, "generatedAt": "2026-07-17T02:38:22Z", "pro...` |
+| `meta` | Build metadata for the catalog. | `{"object": "tcgjson_catalog", "version": 3, "generatedAt": "2026-07-17T02:55:36Z", "pro...` |
 | `sets` | Array of set summary objects. | `[{"name": "Across Time", "urlName": "across-time", "abbreviation": "BT-12", "releaseDat...` |
 | `products` | Array of product/card objects. | `[{"productId": 234508, "name": "Release Special Booster Ver.1.0 Index Card (Player 1)",...` |
 
