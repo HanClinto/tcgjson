@@ -136,6 +136,7 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
     assert "sourceMode" not in full_catalog["meta"]
     assert "priceGuide" not in full_catalog["products"][0]
     assert "productLineId" not in full_catalog["products"][0]
+    assert list(full_catalog["products"][0])[:2] == ["productId", "name"]
     assert {item["download_uri"] for item in manifest["data"]} == {"pokemon.json.gz", "pokemon.full.json.gz"}
     assert all(item["content_encoding"] == "gzip" for item in manifest["data"])
     assert all(item["content_type"] == "application/json" for item in manifest["data"])
@@ -241,6 +242,7 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
     assert catalog["meta"]["cache"]["fetchedSetCount"] == 0
     assert catalog["products"][0]["productId"] == 100
     assert catalog["products"][0]["name"] == "Cached Card"
+    assert list(catalog["products"][0])[:2] == ["productId", "name"]
     assert catalog["products"][0]["imageUrls"] == ["https://tcgplayer-cdn.tcgplayer.com/product/100_in_1000x1000.jpg"]
     assert "imageUrl" not in catalog["products"][0]
     assert "priceGuide" not in catalog["products"][0]

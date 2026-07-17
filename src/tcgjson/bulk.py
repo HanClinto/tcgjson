@@ -331,7 +331,25 @@ def _migrate_cached_product(product: dict[str, Any]) -> dict[str, Any]:
     migrated.pop("tcgplayerProductId", None)
     migrated.pop("imageUrl", None)
     migrated.pop("priceGuide", None)
-    return migrated
+    return _order_product_fields(migrated)
+
+
+def _order_product_fields(product: dict[str, Any]) -> dict[str, Any]:
+    preferred_order = [
+        "productId",
+        "name",
+        "setId",
+        "collectorNumber",
+        "rarity",
+        "foilings",
+        "imageUrls",
+        "metadata",
+        "skus",
+    ]
+    return {
+        **{key: product[key] for key in preferred_order if key in product},
+        **{key: value for key, value in product.items() if key not in preferred_order},
+    }
 
 
 def _fetch_set_products(
@@ -652,7 +670,7 @@ def _without_price_fields(catalog: dict[str, Any]) -> dict[str, Any]:
         product = _migrate_cached_product(product)
         for field in ("priceGuide", "lowPrice", "marketPrice", "medianPrice", "productLineId"):
             product.pop(field, None)
-        sanitized["products"].append(product)
+        sanitized["products"].append(_order_product_fields(product))
     return sanitized
 
 
