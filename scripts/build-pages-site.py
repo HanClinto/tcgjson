@@ -721,7 +721,7 @@ CARD_PREVIEW_SCRIPT = r"""
     }
     const metadata = card.metadata && typeof card.metadata === "object" ? card.metadata : {};
     const rows = [
-      ["Product ID", card.tcgplayerProductId],
+      ["Product ID", card.productId],
       ["Set", card.setName],
       ["Collector #", card.collectorNumber],
       ["Rarity", card.rarity],

@@ -74,7 +74,7 @@ def group_priceguide_products(
         product = grouped.setdefault(
             product_id,
             {
-                "tcgplayerProductId": product_id,
+                "productId": product_id,
                 "name": row.get("productName", ""),
                 "productLineId": product_line_id,
                 "setId": set_id,
@@ -116,7 +116,7 @@ def normalize_search_products(
             foilings = ["Foil"]
         products.append(
             product := {
-                "tcgplayerProductId": product_id,
+                "productId": product_id,
                 "name": row.get("productName", ""),
                 "productLineId": product_line_id,
                 "setId": set_id,
@@ -133,7 +133,8 @@ def normalize_search_products(
 
 def apply_product_details(product: dict[str, Any], details_payload: dict[str, Any]) -> None:
     image_count = int(details_payload.get("imageCount") or 1)
-    product["imageUrls"] = _image_urls(product["tcgplayerProductId"], image_count)
+    product_id = product.get("productId", product.get("tcgplayerProductId"))
+    product["imageUrls"] = _image_urls(int(product_id), image_count)
     product["skus"] = extract_skus(details_payload)
     metadata = extract_metadata(details_payload)
     if metadata:
@@ -143,8 +144,9 @@ def apply_product_details(product: dict[str, Any], details_payload: dict[str, An
 def compact_product(product: dict[str, Any]) -> dict[str, Any]:
     old_product_line = product.get("productLine") or {}
     old_set = product.get("set") or {}
+    product_id = product.get("productId", product.get("tcgplayerProductId"))
     return {
-        "tcgplayerProductId": product["tcgplayerProductId"],
+        "productId": product_id,
         "name": product["name"],
         "productLineId": product.get("productLineId", old_product_line.get("id", 0)),
         "setId": product.get("setId", old_set.get("id", 0)),
@@ -169,11 +171,11 @@ def extract_skus(details_payload: dict[str, Any]) -> list[dict[str, Any]]:
             continue
         skus.append(
             {
-                "tcgplayerSkuId": int(sku_id),
+                "sku": int(sku_id),
                 "condition": row.get("condition", row.get("conditionName", "")),
                 "printing": row.get("printing", row.get("printingName", row.get("variant", ""))),
                 "language": row.get("language", row.get("languageName", "")),
             }
         )
-    skus.sort(key=lambda item: (item["condition"], item["printing"], item["language"], item["tcgplayerSkuId"]))
+    skus.sort(key=lambda item: (item["condition"], item["printing"], item["language"], item["sku"]))
     return skus

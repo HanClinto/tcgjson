@@ -266,7 +266,7 @@ def _load_product_detail_cache(detail_cache_dir: Path | None, product_id: int | 
         return None
     if (
         payload.get("object") != "tcgjson_product_detail_cache_entry"
-        or int(payload.get("tcgplayerProductId") or 0) != int(product_id)
+        or int(payload.get("productId", payload.get("tcgplayerProductId") or 0)) != int(product_id)
         or not isinstance(payload.get("details"), dict)
     ):
         return None
@@ -282,7 +282,7 @@ def _write_product_detail_cache(detail_cache_dir: Path | None, product_id: int |
             "object": "tcgjson_product_detail_cache_entry",
             "version": 1,
             "generatedAt": _utc_now_iso(),
-            "tcgplayerProductId": int(product_id),
+            "productId": int(product_id),
             "details": details,
         },
     )
@@ -321,6 +321,9 @@ def _migrate_cached_product(product: dict[str, Any], product_line_id: int) -> di
     if "imageUrls" not in migrated:
         image_url = migrated.get("imageUrl", "")
         migrated["imageUrls"] = [image_url] if image_url else []
+    if "productId" not in migrated and "tcgplayerProductId" in migrated:
+        migrated["productId"] = int(migrated["tcgplayerProductId"])
+    migrated.pop("tcgplayerProductId", None)
     migrated.pop("imageUrl", None)
     migrated.pop("priceGuide", None)
     return migrated
@@ -366,7 +369,7 @@ def _fetch_set_products(
             position=2,
         )
         for product in detail_iterator:
-            product_id = product["tcgplayerProductId"]
+            product_id = product["productId"]
             try:
                 details = _load_product_detail_cache(detail_cache_dir, product_id)
                 if details is None:
@@ -528,7 +531,7 @@ def fetch_product_line(
     return {
         "meta": {
             "object": "tcgjson_catalog",
-            "version": 1,
+            "version": 2,
             "source": "tcgplayer",
             "sourceMode": "search+details" if with_skus else "search",
             "generatedAt": exported_at,

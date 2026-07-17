@@ -287,11 +287,11 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "",
         "## Product Object",
         "",
-        "A product is one catalog card/product record. Most integrations should start with `tcgplayerProductId`, `name`, `setId`, `collectorNumber`, `rarity`, and `imageUrls`.",
+        "A product is one catalog card/product record. Most integrations should start with `productId`, `name`, `setId`, `collectorNumber`, `rarity`, and `imageUrls`.",
         "",
         *_json_details("Example full product object", _without_price_fields(example_product)),
         *_json_details("Example compact product object", compact_product(_without_price_fields(example_product)) if example_product else {}),
-        _field_table(example_product, ["tcgplayerProductId", "name", "productLineId", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "skus"]),
+        _field_table(example_product, ["productId", "name", "productLineId", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "skus"]),
         "",
         "## Pricing",
         "",
@@ -542,7 +542,7 @@ def _write_game_page(
             "",
             "Use the generated schema JSON in the release for the complete observed field list. Common product fields include:",
             "",
-            "- `tcgplayerProductId`: stable TCGplayer product identifier.",
+            "- `productId`: stable TCGplayer product identifier.",
             "- `name`: product/card name as provided by TCGplayer.",
             "- `setId`: TCGplayer set identifier matching the set table.",
             "- `collectorNumber` and `rarity`: normalized card catalog fields when available.",
@@ -682,7 +682,7 @@ def _schema_field_table(
 
 def _schema_field_sort_key(field: dict[str, Any]) -> tuple[int, float, str]:
     priority = {
-        "tcgplayerProductId": 0,
+        "productId": 0,
         "name": 1,
         "productLineId": 2,
         "setId": 3,
@@ -755,7 +755,7 @@ def _recently_added_products(catalog: dict[str, Any], previous_path: Path | None
         product["setReleaseDate"] = set_row.get("releaseDate", "")
         added_products.append(product)
     added_products.sort(
-        key=lambda product: (str(product.get("setReleaseDate") or ""), int(product.get("tcgplayerProductId") or 0)),
+        key=lambda product: (str(product.get("setReleaseDate") or ""), int(product.get("productId") or 0)),
         reverse=True,
     )
     return added_products[:limit]
@@ -764,7 +764,7 @@ def _recently_added_products(catalog: dict[str, Any], previous_path: Path | None
 def _products_by_id(catalog: dict[str, Any]) -> dict[int, dict[str, Any]]:
     products = {}
     for product in catalog.get("products", []):
-        product_id = product.get("tcgplayerProductId")
+        product_id = product.get("productId", product.get("tcgplayerProductId"))
         if product_id is not None:
             products[int(product_id)] = product
     return products
@@ -792,7 +792,7 @@ def _field_description(field: str) -> str:
         "productCount": "Number of products associated with this object.",
         "priceGuideRowCount": "Legacy price-guide row count. Search-sourced builds report 0.",
         "source": "Endpoint path used for this set; refreshed builds use search.",
-        "tcgplayerProductId": "TCGplayer product identifier.",
+        "productId": "TCGplayer product identifier.",
         "productLineId": "TCGplayer product-line identifier.",
         "setId": "TCGplayer set identifier for this product.",
         "collectorNumber": "Card number or collector number when available.",
@@ -919,7 +919,7 @@ def _tcgplayer_card_search_link(product_line: str, product_name: str, set_name: 
 
 
 def _tcgplayer_product_link(product: dict[str, Any], product_line: str, product_name: str, set_name: str) -> str:
-    product_id = product.get("tcgplayerProductId")
+    product_id = product.get("productId", product.get("tcgplayerProductId"))
     if product_id:
         return f"https://www.tcgplayer.com/product/{product_id}"
     return _tcgplayer_card_search_link(product_line, product_name, set_name)
@@ -950,8 +950,9 @@ def _set_preview_link(set_row: dict[str, Any], href: str, product_line: str, set
 def _card_preview_link(product: dict[str, Any], product_line: str, product_name: str, set_name: str) -> str:
     href = _tcgplayer_product_link(product, product_line, product_name, set_name)
     raw_product = _without_price_fields(product)
+    product_id = product.get("productId", product.get("tcgplayerProductId"))
     payload = {
-        "tcgplayerProductId": product.get("tcgplayerProductId"),
+        "productId": product_id,
         "name": product_name,
         "productLine": product_line,
         "setName": set_name,

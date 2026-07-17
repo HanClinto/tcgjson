@@ -52,7 +52,7 @@ def _validate_no_published_prices(path: Path, catalog: dict) -> None:
     for product in catalog.get("products", []):
         present = forbidden_fields & set(product)
         if present:
-            product_id = product.get("tcgplayerProductId", "")
+            product_id = product.get("productId", "")
             raise ValueError(f"{path} product {product_id} includes price field(s): {sorted(present)}")
 
 

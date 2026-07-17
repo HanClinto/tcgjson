@@ -125,7 +125,7 @@ sets_by_id = {item["tcgplayerSetId"]: item for item in catalog["sets"]}
 
 for product in catalog["products"][:5]:
     set_row = sets_by_id.get(product.get("setId"), {})
-    print(product["tcgplayerProductId"], product["name"], set_row.get("name"))
+    print(product["productId"], product["name"], set_row.get("name"))
 ```
 
 ## Understanding Schema Coverage

@@ -32,7 +32,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
         ],
         "products": [
             {
-                "tcgplayerProductId": 42382,
+                "productId": 42382,
                 "name": "Alakazam",
                 "productLineId": 3,
                 "setId": 604,
@@ -63,7 +63,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     }
     larger_catalog["products"][0] = {
         **larger_catalog["products"][0],
-        "tcgplayerProductId": 1,
+        "productId": 1,
         "name": "Black Lotus",
         "productLineId": 1,
         "setId": 1,
@@ -177,8 +177,8 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert objects.index("<summary>Example full catalog object shape</summary>") < objects.index("| `meta` | Build metadata for the catalog.")
     assert objects.index("<summary>Example compact catalog object shape</summary>") < objects.index("| `meta` | Build metadata for the catalog.")
     assert objects.index("<summary>Example full set object</summary>") < objects.index("| `tcgplayerSetId` | TCGplayer set identifier.")
-    assert objects.index("<summary>Example full product object</summary>") < objects.index("| `tcgplayerProductId` | TCGplayer product identifier.")
-    assert objects.index("<summary>Example compact product object</summary>") < objects.index("| `tcgplayerProductId` | TCGplayer product identifier.")
+    assert objects.index("<summary>Example full product object</summary>") < objects.index("| `productId` | TCGplayer product identifier.")
+    assert objects.index("<summary>Example compact product object</summary>") < objects.index("| `productId` | TCGplayer product identifier.")
     assert '"products": [' in objects
     assert '"priceGuide":' not in objects
     assert '"lowPrice":' not in objects
@@ -217,9 +217,9 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert '| <a class="tcg-card-link" href="https://www.tcgplayer.com/product/42382" data-card-preview="' in game
     assert 'Alakazam</a> | Base Set | 1999-01-09 | [weekly-test](https://example.test/release) | Holo Rare |' in game
     assert "%22imageUrl%22%3A%22https%3A%2F%2Ftcgplayer-cdn.tcgplayer.com%2Fproduct%2F42382_in_1000x1000.jpg%22" in game
-    assert "%22rawJson%22%3A%7B%22tcgplayerProductId%22%3A42382" in game
+    assert "%22rawJson%22%3A%7B%22productId%22%3A42382" in game
     assert "## Product Field Coverage" in game
-    assert "| `tcgplayerProductId` | integer | 1 / 1 | 100% | `42382` |" in game
+    assert "| `productId` | integer | 1 / 1 | 100% | `42382` |" in game
     assert "## Game-Specific Metadata Coverage" in game
     assert "The table follows the metadata JSON structure and sorts fields alphabetically by path." in game
     assert "| `stage` | string | 1 / 1 | 100% | `Stage 2` |" in game

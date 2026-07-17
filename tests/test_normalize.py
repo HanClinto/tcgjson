@@ -57,14 +57,14 @@ def test_group_priceguide_products_merges_printings() -> None:
     assert "lowPrice" not in products[0]
     assert "marketPrice" not in products[0]
     compact = compact_product(products[0])
-    assert compact["tcgplayerProductId"] == 123
+    assert compact["productId"] == 123
     assert "imageUrl" not in compact
     assert compact["imageUrls"] == ["https://tcgplayer-cdn.tcgplayer.com/product/123_in_1000x1000.jpg"]
 
 
 def test_extract_skus_accepts_common_detail_shapes() -> None:
     assert extract_skus({"skus": [{"sku": 5, "condition": "NM", "variant": "Foil"}]}) == [
-        {"tcgplayerSkuId": 5, "condition": "NM", "printing": "Foil", "language": ""}
+        {"sku": 5, "condition": "NM", "printing": "Foil", "language": ""}
     ]
 
 
@@ -92,7 +92,7 @@ def test_extract_metadata_promotes_common_card_fields() -> None:
 
 
 def test_apply_search_product_metadata_preserves_custom_attributes() -> None:
-    product = {"tcgplayerProductId": 540376, "name": "Director Krennic"}
+    product = {"productId": 540376, "name": "Director Krennic"}
 
     apply_search_product_metadata(
         product,
@@ -113,7 +113,7 @@ def test_apply_search_product_metadata_preserves_custom_attributes() -> None:
 
 def test_apply_product_details_adds_skus_and_multiple_images() -> None:
     product = {
-        "tcgplayerProductId": 100191,
+        "productId": 100191,
         "name": "Jace, Vryn's Prodigy",
         "productLineId": 1,
         "setId": 1512,
@@ -135,4 +135,4 @@ def test_apply_product_details_adds_skus_and_multiple_images() -> None:
         "https://tcgplayer-cdn.tcgplayer.com/product/100191_in_1000x1000.jpg",
         "https://tcgplayer-cdn.tcgplayer.com/product/100191_1_in_1000x1000.jpg",
     ]
-    assert product["skus"][0]["tcgplayerSkuId"] == 10
+    assert product["skus"][0]["sku"] == 10

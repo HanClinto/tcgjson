@@ -113,7 +113,7 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
         "sets": [{"tcgplayerSetId": 1, "name": "Set", "productCount": 1}],
         "products": [
             {
-                "tcgplayerProductId": 10,
+                "productId": 10,
                 "name": "Card",
                 "productLineId": 3,
                 "setId": 1,
@@ -154,7 +154,7 @@ def test_write_product_schema_files_profiles_full_catalog_fields(tmp_path) -> No
         "meta": {"productLine": "Pokemon", "slug": "pokemon"},
         "products": [
             {
-                "tcgplayerProductId": 10,
+                "productId": 10,
                 "name": "Card",
                 "productLineId": 3,
                 "setId": 1,
@@ -175,7 +175,7 @@ def test_write_product_schema_files_omits_price_fields(tmp_path) -> None:
         "meta": {"productLine": "Pokemon", "slug": "pokemon"},
         "products": [
             {
-                "tcgplayerProductId": 10,
+                "productId": 10,
                 "name": "Card",
                 "productLineId": 3,
                 "setId": 1,
@@ -230,6 +230,7 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
     assert catalog["meta"]["cache"]["reusedSetCount"] == 1
     assert catalog["sets"][0]["iconUrl"] == "https://tcgplayer-cdn.tcgplayer.com/set_icon/10CachedSet.png"
     assert catalog["meta"]["cache"]["fetchedSetCount"] == 0
+    assert catalog["products"][0]["productId"] == 100
     assert catalog["products"][0]["name"] == "Cached Card"
     assert catalog["products"][0]["imageUrls"] == ["https://tcgplayer-cdn.tcgplayer.com/product/100_in_1000x1000.jpg"]
     assert "imageUrl" not in catalog["products"][0]
@@ -247,7 +248,7 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
         "sets": [{"tcgplayerSetId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [
             {
-                "tcgplayerProductId": 100,
+                "productId": 100,
                 "name": "Cached Card",
                 "productLineId": 3,
                 "setId": 10,
@@ -312,7 +313,7 @@ def test_fetch_product_line_writes_and_reuses_product_detail_cache(tmp_path) -> 
     assert first_client.detail_requests == 1
     assert first_catalog["sets"][0]["detailFetchCount"] == 1
     assert second_catalog["sets"][0]["detailCacheHitCount"] == 1
-    assert second_catalog["products"][0]["skus"][0]["tcgplayerSkuId"] == 99
+    assert second_catalog["products"][0]["skus"][0]["sku"] == 99
 
 
 def test_build_release_writes_metrics_file(tmp_path) -> None:
@@ -326,7 +327,7 @@ def test_build_release_writes_metrics_file(tmp_path) -> None:
         "sets": [{"tcgplayerSetId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [
             {
-                "tcgplayerProductId": 100,
+                "productId": 100,
                 "name": "Cached Card",
                 "set": {"id": 10, "name": "Cached Set"},
                 "collectorNumber": "001",
@@ -367,7 +368,7 @@ def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> Non
         "sets": [{"tcgplayerSetId": 10, "name": "Set", "productCount": 1}],
         "products": [
             {
-                "tcgplayerProductId": 100,
+                "productId": 100,
                 "name": "Card",
                 "set": {"id": 10, "name": "Set"},
                 "imageUrls": [],
