@@ -11,6 +11,10 @@ on:
         description: Optional release tag to use as the JSON cache source
         required: false
         default: ''
+      allow_full_refetch:
+        description: Allow a full API refetch when no compatible release cache is available
+        required: false
+        default: 'false'
   schedule:
     - cron: '17 10 * * 1'
 
@@ -63,6 +67,47 @@ jobs:
             gh release download --repo "${{ github.repository }}" --pattern '*.full.json' --dir release-cache || true
             gh release download --repo "${{ github.repository }}" --pattern '*.full.json.gz' --dir release-cache || true
           fi
+      - name: Validate release cache
+        env:
+          ALLOW_FULL_REFETCH: ${{ github.event.inputs.allow_full_refetch }}
+        run: |
+          python - <<'PY'
+          import gzip
+          import json
+          import os
+          from pathlib import Path
+
+          cache_dir = Path("release-cache")
+          paths = sorted([*cache_dir.glob("*.full.json"), *cache_dir.glob("*.full.json.gz")])
+          allow_full_refetch = os.environ.get("ALLOW_FULL_REFETCH") == "true"
+          if not paths:
+              if allow_full_refetch:
+                  print("No release cache found; allow_full_refetch=true, continuing with a full API refetch.")
+                  raise SystemExit(0)
+              raise SystemExit("No release cache found. Refusing full API refetch without allow_full_refetch=true.")
+
+          incompatible = []
+          for path in paths:
+              opener = gzip.open if path.name.endswith(".gz") else open
+              with opener(path, "rt", encoding="utf-8") as handle:
+                  catalog = json.load(handle)
+              cache = catalog.get("meta", {}).get("cache", {})
+              if cache.get("catalogVersion") != 2 or cache.get("productSearchFilter") != "setId":
+                  incompatible.append(path.name)
+
+          if incompatible:
+              if allow_full_refetch:
+                  print("Incompatible release cache found; allow_full_refetch=true, continuing with a full API refetch.")
+                  print("Incompatible files:", ", ".join(incompatible))
+                  raise SystemExit(0)
+              raise SystemExit(
+                  "Release cache is not compatible with the current builder. "
+                  "Refusing full API refetch without allow_full_refetch=true. "
+                  f"Incompatible files: {', '.join(incompatible)}"
+              )
+
+          print(f"Validated {len(paths)} compatible release cache file(s).")
+          PY
 
       - name: Build Union Arena
         shell: bash
