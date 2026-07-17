@@ -24,7 +24,7 @@ from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 
 T = TypeVar("T")
-SET_CHECKPOINT_VERSION = 3
+SET_CHECKPOINT_VERSION = 4
 
 
 def _utc_now_iso() -> str:
@@ -127,14 +127,18 @@ def _load_cached_set_from_catalog(
     if cached_catalog is None:
         return None
     cached_set = next(
-        (set_payload for set_payload in cached_catalog.get("sets", []) if int(set_payload["tcgplayerSetId"]) == set_id),
+        (
+            set_payload
+            for set_payload in cached_catalog.get("sets", [])
+            if int(set_payload.get("setId", set_payload.get("tcgplayerSetId") or 0)) == set_id
+        ),
         None,
     )
     if cached_set is None:
         return None
     cached_products = []
     for product in cached_catalog.get("products", []):
-        migrated_product = _migrate_cached_product(product, product_line_id)
+        migrated_product = _migrate_cached_product(product)
         if int(migrated_product.get("setId") or 0) == set_id:
             cached_products.append(migrated_product)
     if not cached_products or (with_skus and not _cached_products_have_skus(cached_products)):
@@ -169,13 +173,20 @@ def _set_icon_url(set_id: int | str, set_name: str) -> str:
 
 def _migrate_cached_set(set_summary: dict[str, Any]) -> dict[str, Any]:
     migrated = dict(set_summary)
+    if "setId" not in migrated and "tcgplayerSetId" in migrated:
+        migrated["setId"] = int(migrated["tcgplayerSetId"])
     if "iconUrl" not in migrated:
-        migrated["iconUrl"] = _set_icon_url(migrated.get("tcgplayerSetId", ""), migrated.get("name", ""))
+        migrated["iconUrl"] = _set_icon_url(migrated.get("setId", ""), migrated.get("name", ""))
+    migrated.pop("tcgplayerSetId", None)
+    migrated.pop("priceGuideRowCount", None)
+    migrated.pop("source", None)
+    migrated.pop("searchMetadataProductCount", None)
+    migrated.pop("searchMetadataErrorCount", None)
     return migrated
 
 
-def _set_checkpoint_path(checkpoint_dir: Path, slug: str, source: str, set_id: int) -> Path:
-    return checkpoint_dir / slug / source / f"{set_id}.json"
+def _set_checkpoint_path(checkpoint_dir: Path, slug: str, set_id: int) -> Path:
+    return checkpoint_dir / slug / f"{set_id}.json"
 
 
 def _load_set_checkpoint(
@@ -185,34 +196,28 @@ def _load_set_checkpoint(
     product_line_id: int,
     set_id: int,
     with_skus: bool,
-    priceguide_rows: int,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]] | None:
     if checkpoint_dir is None:
         return None
-    paths = [
-        _set_checkpoint_path(checkpoint_dir, slug, "search", set_id),
-        checkpoint_dir / slug / f"{set_id}.json",
-    ]
-    path = next((candidate for candidate in paths if candidate.exists()), None)
+    path = _set_checkpoint_path(checkpoint_dir, slug, set_id)
     if path is None:
         return None
+    if not path.exists():
+        return None
     payload = json.loads(path.read_text(encoding="utf-8"))
-    source = payload.get("source") or payload.get("set", {}).get("source")
     if (
         payload.get("object") != "tcgjson_set_checkpoint"
         or int(payload.get("version") or 0) != SET_CHECKPOINT_VERSION
         or int(payload.get("productLineId") or 0) != product_line_id
-        or int(payload.get("tcgplayerSetId") or 0) != set_id
+        or int(payload.get("setId", payload.get("tcgplayerSetId") or 0)) != set_id
         or bool(payload.get("withSkus")) != with_skus
-        or int(payload.get("priceguideRows") or 0) != priceguide_rows
-        or source not in (None, "search")
     ):
         return None
     set_summary = payload.get("set")
     products = payload.get("products")
     if not isinstance(set_summary, dict) or not isinstance(products, list):
         return None
-    return set_summary, [_migrate_cached_product(product, product_line_id) for product in products]
+    return _migrate_cached_set(set_summary), [_migrate_cached_product(product) for product in products]
 
 
 def _write_set_checkpoint(
@@ -223,24 +228,20 @@ def _write_set_checkpoint(
     set_summary: dict[str, Any],
     products: list[dict[str, Any]],
     with_skus: bool,
-    priceguide_rows: int,
 ) -> None:
     if checkpoint_dir is None:
         return
-    set_id = int(set_summary["tcgplayerSetId"])
-    source = set_summary.get("source", "unknown")
+    set_id = int(set_summary["setId"])
     atomic_write_json(
-        _set_checkpoint_path(checkpoint_dir, slug, source, set_id),
+        _set_checkpoint_path(checkpoint_dir, slug, set_id),
         {
             "object": "tcgjson_set_checkpoint",
             "version": SET_CHECKPOINT_VERSION,
             "generatedAt": _utc_now_iso(),
-            "source": source,
             "productLineId": product_line_id,
             "slug": slug,
-            "tcgplayerSetId": set_id,
+            "setId": set_id,
             "withSkus": with_skus,
-            "priceguideRows": priceguide_rows,
             "set": set_summary,
             "products": products,
         },
@@ -302,14 +303,10 @@ def _cached_products_have_skus(products: list[dict[str, Any]]) -> bool:
     return all("skus" in product for product in products)
 
 
-def _migrate_cached_product(product: dict[str, Any], product_line_id: int) -> dict[str, Any]:
+def _migrate_cached_product(product: dict[str, Any]) -> dict[str, Any]:
     migrated = dict(product)
-    old_product_line = migrated.pop("productLine", {})
-    if "productLineId" not in migrated:
-        old_product_line_id = old_product_line.get("id") if isinstance(old_product_line, dict) else None
-        migrated["productLineId"] = int(old_product_line_id or product_line_id)
-    else:
-        migrated.pop("productLine", None)
+    migrated.pop("productLine", None)
+    migrated.pop("productLineId", None)
 
     old_set = migrated.pop("set", {})
     if "setId" not in migrated:
@@ -336,7 +333,6 @@ def _fetch_set_products(
     product_line_id: int,
     product_line_url_name: str,
     set_row: dict[str, Any],
-    priceguide_rows: int,
     with_skus: bool,
     progress: bool,
     detail_cache_dir: Path | None,
@@ -354,8 +350,6 @@ def _fetch_set_products(
         product_line_url_name=product_line_url_name,
         set_row=set_row,
     )
-    search_metadata_product_count = sum(1 for product in set_products if "metadata" in product)
-    search_metadata_error_count = 0
     detail_error_count = 0
     detail_cache_hit_count = 0
     detail_fetch_count = 0
@@ -384,7 +378,7 @@ def _fetch_set_products(
             apply_product_details(product, details)
     return (
         {
-            "tcgplayerSetId": int(set_row["setNameId"]),
+            "setId": int(set_row["setNameId"]),
             "name": set_row.get("name", ""),
             "urlName": set_row.get("urlName", ""),
             "abbreviation": set_row.get("abbreviation", ""),
@@ -392,13 +386,9 @@ def _fetch_set_products(
             "iconUrl": _set_icon_url(set_row["setNameId"], set_row.get("cleanSetName") or set_row.get("name", "")),
             "isSupplemental": bool(set_row.get("isSupplemental")),
             "productCount": len(set_products),
-            "priceGuideRowCount": 0,
             "detailErrorCount": detail_error_count,
             "detailCacheHitCount": detail_cache_hit_count,
             "detailFetchCount": detail_fetch_count,
-            "searchMetadataProductCount": search_metadata_product_count,
-            "searchMetadataErrorCount": search_metadata_error_count,
-            "source": "search",
         },
         set_products,
     )
@@ -409,7 +399,6 @@ def fetch_product_line(
     product_line_name: ProductLineRequest,
     *,
     max_sets: int | None = None,
-    priceguide_rows: int = 5000,
     with_skus: bool = False,
     cache_dir: Path | None = None,
     refresh_recent_sets: int = 0,
@@ -483,7 +472,6 @@ def fetch_product_line(
                 product_line_id=product_line_id,
                 set_id=set_id,
                 with_skus=with_skus,
-                priceguide_rows=priceguide_rows,
             )
             if checkpoint is not None:
                 set_summary, set_products = checkpoint
@@ -499,7 +487,6 @@ def fetch_product_line(
                     product_line_id=product_line_id,
                     product_line_url_name=product_line_url_name,
                     set_row=set_row,
-                    priceguide_rows=priceguide_rows,
                     with_skus=with_skus,
                     progress=progress,
                     detail_cache_dir=detail_cache_dir,
@@ -511,18 +498,17 @@ def fetch_product_line(
                     set_summary=set_summary,
                     products=set_products,
                     with_skus=with_skus,
-                    priceguide_rows=priceguide_rows,
                 )
                 fetched_sets += 1
                 _log_progress(
                     log_progress,
-                    f"{resolved.slug}: set {set_index}/{len(set_rows)} {set_id} {set_name!r} fetched {len(set_products)} product(s) via {set_summary.get('source', 'unknown')} in {time.perf_counter() - set_started:.1f}s",
+                    f"{resolved.slug}: set {set_index}/{len(set_rows)} {set_id} {set_name!r} fetched {len(set_products)} product(s) in {time.perf_counter() - set_started:.1f}s",
                 )
             sets.append(set_summary)
         products.extend(set_products)
 
     elapsed_seconds = time.perf_counter() - started
-    sets.sort(key=lambda item: (item["name"], item["tcgplayerSetId"]))
+    sets.sort(key=lambda item: (item["name"], item["setId"]))
     products.sort(key=lambda item: (item["setId"], item.get("collectorNumber", ""), item["name"]))
     _log_progress(
         log_progress,
@@ -531,12 +517,9 @@ def fetch_product_line(
     return {
         "meta": {
             "object": "tcgjson_catalog",
-            "version": 2,
-            "source": "tcgplayer",
-            "sourceMode": "search+details" if with_skus else "search",
+            "version": 3,
             "generatedAt": exported_at,
             "productLine": product_line.get("productLineName", resolved.name),
-            "productLineId": product_line_id,
             "slug": resolved.slug,
             "setCount": len(sets),
             "productCount": len(products),
@@ -646,10 +629,19 @@ def write_product_line_files(output_dir: Path, catalog: dict[str, Any]) -> list[
 
 def _without_price_fields(catalog: dict[str, Any]) -> dict[str, Any]:
     sanitized = dict(catalog)
+    meta = dict(catalog.get("meta", {}))
+    meta.pop("source", None)
+    meta.pop("sourceMode", None)
+    meta.pop("productLineId", None)
+    sanitized["meta"] = meta
+    sanitized["sets"] = []
+    for set_row in catalog.get("sets", []):
+        set_row = _migrate_cached_set(set_row)
+        sanitized["sets"].append(set_row)
     sanitized["products"] = []
     for product in catalog.get("products", []):
-        product = dict(product)
-        for field in ("priceGuide", "lowPrice", "marketPrice", "medianPrice"):
+        product = _migrate_cached_product(product)
+        for field in ("priceGuide", "lowPrice", "marketPrice", "medianPrice", "productLineId"):
             product.pop(field, None)
         sanitized["products"].append(product)
     return sanitized
@@ -718,7 +710,6 @@ def build_release(
     product_lines: list[ProductLineRequest] | None = None,
     *,
     max_sets: int | None = None,
-    priceguide_rows: int = 5000,
     with_skus: bool = False,
     cache_dir: Path | None = None,
     refresh_recent_sets: int = 0,
@@ -750,7 +741,6 @@ def build_release(
             active_client,
             product_line,
             max_sets=max_sets,
-            priceguide_rows=priceguide_rows,
             with_skus=with_skus,
             cache_dir=cache_dir,
             refresh_recent_sets=refresh_recent_sets,

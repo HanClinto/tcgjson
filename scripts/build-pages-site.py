@@ -712,10 +712,9 @@ CARD_PREVIEW_SCRIPT = r"""
   const detailRows = (card) => {
     if (card.type === "set") {
       return [
-        ["Set ID", card.tcgplayerSetId],
+        ["Set ID", card.setId],
         ["Release Date", card.releaseDate],
         ["Products", card.productCount],
-        ["Price Guide Rows", card.priceGuideRowCount],
         ["URL Name", card.urlName],
       ].filter(([, value]) => textValue(value));
     }

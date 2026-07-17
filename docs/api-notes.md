@@ -28,9 +28,8 @@ popular. `tcgjson` uses this as the default product-line source, then applies
 manual includes and excludes from `src/tcgjson/config.py`.
 
 Useful navigation resource fields include `url`, `shopAllUrl`, `articlesUrl`,
-`decksUrl`, `advancedSearchUrl`, and `priceGuideUrl`. `tcgjson` normalizes
-these into per-game resource links when generating `games.json` and catalog
-docs.
+`decksUrl`, and `advancedSearchUrl`. `tcgjson` normalizes these into per-game
+resource links when generating `games.json` and catalog docs.
 
 Popular game rows can include a `feature` object with `title`, `ctaUrl`,
 `imageUrl`, and/or `imageUrlSm`, but local probes found the relative feature
@@ -69,27 +68,6 @@ for incremental work: sort sets by `releaseDate`, refresh the newest sets, and
 reuse cached data for older sets.
 
 Observed caveat: this endpoint does not expose product counts.
-
-## Price Guide Set Cards
-
-Endpoint:
-
-```text
-GET https://infinite-api.tcgplayer.com/priceguide/set/<setId>/cards/?rows=5000&productTypeID=1
-```
-
-This endpoint provides card products, collector numbers, rarity, printings,
-conditions, and price rows for many established games. `tcgjson` no longer uses
-it as the product source for refreshed catalog rows because its field names and
-shape differ slightly from search rows, which caused noisy diffs when a set moved
-between endpoints. Weekly catalog snapshots are not a reliable source for
-current market pricing.
-
-It does not provide rich card metadata such as rules text for every game, SKU
-lists, formatted attributes, or multi-image counts.
-
-Observed caveat: newer product lines can return an empty payload here even when
-the same set has searchable card products.
 
 ## Search Request
 
@@ -333,8 +311,8 @@ Recommended incremental lean behavior:
 
 1. Download the previous release's JSON files into `release-cache`.
 2. Reuse unchanged sets from each product line's `<slug>.full.json` cache file.
-3. For missing or refreshed sets, fetch priceguide rows and use search rows for
-  product identity, metadata, or search-only fallback sets.
+3. For missing or refreshed sets, fetch search rows for product identity and
+  metadata.
 4. Store normalized metadata in the generated full JSON files, not raw search
   responses.
 

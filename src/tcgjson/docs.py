@@ -110,7 +110,7 @@ def _set_with_icon_url(set_row: dict[str, Any]) -> dict[str, Any]:
     if set_row.get("iconUrl"):
         return set_row
     hydrated = dict(set_row)
-    set_id = hydrated.get("tcgplayerSetId")
+    set_id = hydrated.get("setId", hydrated.get("tcgplayerSetId"))
     set_name = hydrated.get("name", "")
     if set_id and set_name:
         hydrated["iconUrl"] = _tcgplayer_set_icon_url(set_id, set_name)
@@ -166,7 +166,7 @@ def _write_index(
         "",
         "## Start Here",
         "",
-        "- [Object guide](objects.md) explains the catalog, set, product, price, and manifest shapes.",
+            "- [Object guide](objects.md) explains the catalog, set, product, and manifest shapes.",
         "- [Game index](games.md) lists supported and discovered TCGplayer product lines.",
         "- [Release history](release-history.md) summarizes each generated release and its changes.",
         f"- [View the project on GitHub]({PROJECT_URL}) for source, issues, and release automation.",
@@ -207,7 +207,7 @@ def _write_index(
             "tcgjson focuses on singles catalog data: products, sets, collector numbers, rarities, image URLs, and metadata where TCGplayer exposes it.",
             "It does not publish pricing data, marketplace listings, seller inventory, sealed products, or downloaded card images.",
             "Each game page includes product field coverage and game-specific metadata coverage generated from the schema profile for that release.",
-            "The build may use TCGplayer priceguide endpoints as a catalog discovery path, but price values are stripped from release files because weekly catalog snapshots are not a reliable pricing source.",
+            "Pricing data is intentionally excluded because weekly catalog snapshots are not a reliable pricing source.",
             "",
             "## Publishing Schedule",
             "",
@@ -224,7 +224,7 @@ def _representative_set_icon_url(catalog: dict[str, Any], probe: bool, limit: in
         str(set_row.get("iconUrl") or "")
         for set_row in sorted(
             catalog.get("sets", []),
-            key=lambda item: (str(item.get("releaseDate") or ""), int(item.get("tcgplayerSetId") or 0)),
+            key=lambda item: (str(item.get("releaseDate") or ""), int(item.get("setId", item.get("tcgplayerSetId") or 0))),
             reverse=True,
         )[:limit]
         if set_row.get("iconUrl")
@@ -283,7 +283,7 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "A set summarizes a TCGplayer set/category grouping. Set pages link back to TCGplayer search pages so a person can inspect the source storefront context.",
         "",
         *_json_details("Example full set object", example_set),
-        _field_table(example_set, ["tcgplayerSetId", "name", "urlName", "releaseDate", "iconUrl", "productCount", "priceGuideRowCount", "source"]),
+        _field_table(example_set, ["setId", "name", "urlName", "releaseDate", "iconUrl", "productCount"]),
         "",
         "## Product Object",
         "",
@@ -291,7 +291,7 @@ def _write_objects(path: Path, catalogs: list[dict[str, Any]], manifest: dict[st
         "",
         *_json_details("Example full product object", _without_price_fields(example_product)),
         *_json_details("Example compact product object", compact_product(_without_price_fields(example_product)) if example_product else {}),
-        _field_table(example_product, ["productId", "name", "productLineId", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "skus"]),
+        _field_table(example_product, ["productId", "name", "setId", "collectorNumber", "rarity", "foilings", "imageUrls", "metadata", "skus"]),
         "",
         "## Pricing",
         "",
@@ -474,7 +474,7 @@ def _write_game_page(
     added_to_tcgjson = _release_reference(metrics, release_tag, release_url)
     recent_sets = sorted(
         sets,
-        key=lambda item: (str(item.get("releaseDate") or ""), int(item.get("tcgplayerSetId") or 0)),
+        key=lambda item: (str(item.get("releaseDate") or ""), int(item.get("setId", item.get("tcgplayerSetId") or 0))),
         reverse=True,
     )[:12]
     recently_added_products = _recently_added_products(
@@ -490,7 +490,6 @@ def _write_game_page(
         "",
         f"- Sets: {meta.get('setCount', len(sets))}",
         f"- Products: {meta.get('productCount', len(products))}",
-        f"- Build source mode: `{meta.get('sourceMode', '')}`",
         f"- Build duration: {_duration(line_metrics.get('durationSeconds'))}",
         f"- Cache reuse: {cache.get('reusedSetCount', 0)} reused sets, {cache.get('fetchedSetCount', 0)} fetched sets",
         "",
@@ -505,8 +504,8 @@ def _write_game_page(
         *_resource_section(game.get("resources", {})),
         "## Recently Released Sets",
         "",
-        "| Banner | Set | Release Date | Products | Source |",
-        "| --- | --- | --- | ---: | --- |",
+        "| Banner | Set | Release Date | Products |",
+        "| --- | --- | --- | ---: |",
     ]
     for set_row in recent_sets:
         set_name = set_row.get("name", "")
@@ -515,7 +514,7 @@ def _write_game_page(
         search_link = _tcgplayer_set_product_link(set_row, game.get("tcgplayerUrlName", ""), meta.get("productLine", ""), set_name)
         set_link = _set_preview_link(set_row, search_link, meta.get("productLine", ""), set_name)
         lines.append(
-            f"| {icon_cell} | {set_link} | {_escape_table(_date_only(set_row.get('releaseDate', '')))} | {set_row.get('productCount', 0)} | `{set_row.get('source', '')}` |"
+            f"| {icon_cell} | {set_link} | {_escape_table(_date_only(set_row.get('releaseDate', '')))} | {set_row.get('productCount', 0)} |"
         )
     if recently_added_products:
         lines.extend(
@@ -559,7 +558,6 @@ def _resource_section(resources: dict[str, Any]) -> list[str]:
     links = []
     for label, key in [
         ("Shop/Search on TCGplayer", "searchUrl"),
-        ("Price guide", "priceGuideUrl"),
         ("Articles", "articlesUrl"),
         ("Decks", "decksUrl"),
         ("Advanced search", "advancedSearchUrl"),
@@ -684,15 +682,14 @@ def _schema_field_sort_key(field: dict[str, Any]) -> tuple[int, float, str]:
     priority = {
         "productId": 0,
         "name": 1,
-        "productLineId": 2,
-        "setId": 3,
-        "setName": 4,
-        "collectorNumber": 5,
-        "rarity": 6,
-        "foilings": 7,
-        "imageUrls": 8,
-        "metadata": 9,
-        "skus": 10,
+        "setId": 2,
+        "setName": 3,
+        "collectorNumber": 4,
+        "rarity": 5,
+        "foilings": 6,
+        "imageUrls": 7,
+        "metadata": 8,
+        "skus": 9,
     }
     path = str(field.get("path", ""))
     return (priority.get(path, 100), -float(field.get("populatedPercent") or 0), path)
@@ -746,7 +743,7 @@ def _recently_added_products(catalog: dict[str, Any], previous_path: Path | None
     previous = _load_json(previous_path)
     current_products = _products_by_id(catalog)
     previous_ids = set(_products_by_id(previous))
-    sets_by_id = {int(set_row.get("tcgplayerSetId") or 0): set_row for set_row in catalog.get("sets", [])}
+    sets_by_id = {int(set_row.get("setId", set_row.get("tcgplayerSetId") or 0)): set_row for set_row in catalog.get("sets", [])}
     added_products = []
     for product_id in sorted(set(current_products) - previous_ids, reverse=True):
         product = dict(current_products[product_id])
@@ -784,17 +781,13 @@ def _field_description(field: str) -> str:
         "meta": "Build metadata for the catalog.",
         "sets": "Array of set summary objects.",
         "products": "Array of product/card objects.",
-        "tcgplayerSetId": "TCGplayer set identifier.",
+        "setId": "TCGplayer set identifier.",
         "name": "Display name from TCGplayer.",
         "urlName": "TCGplayer URL-friendly name when exposed.",
         "releaseDate": "Set release date from TCGplayer when exposed.",
         "iconUrl": "Linked TCGplayer CDN set banner URL derived from the set ID and clean set name.",
         "productCount": "Number of products associated with this object.",
-        "priceGuideRowCount": "Legacy price-guide row count. Search-sourced builds report 0.",
-        "source": "Endpoint path used for this set; refreshed builds use search.",
         "productId": "TCGplayer product identifier.",
-        "productLineId": "TCGplayer product-line identifier.",
-        "setId": "TCGplayer set identifier for this product.",
         "collectorNumber": "Card number or collector number when available.",
         "rarity": "Rarity label when available.",
         "foilings": "Observed printings or foil treatments.",
@@ -907,7 +900,7 @@ def _tcgplayer_set_product_link(set_row: dict[str, Any], product_line_url_name: 
             f"https://www.tcgplayer.com/search/{quote(product_line_url_name, safe='')}/{quote(set_url_name, safe='')}"
             f"?productLineName={quote_plus(product_line_url_name)}&setName={quote_plus(set_url_name)}&view=grid&ProductTypeName=Cards&page=1"
         )
-    set_id = set_row.get("tcgplayerSetId")
+    set_id = set_row.get("setId", set_row.get("tcgplayerSetId"))
     if set_id:
         return f"https://www.tcgplayer.com/search/all/product?setId={set_id}&productTypeName=Cards"
     return _tcgplayer_search_link(product_line, set_name)
@@ -928,14 +921,12 @@ def _tcgplayer_product_link(product: dict[str, Any], product_line: str, product_
 def _set_preview_link(set_row: dict[str, Any], href: str, product_line: str, set_name: str) -> str:
     payload = {
         "type": "set",
-        "tcgplayerSetId": set_row.get("tcgplayerSetId"),
+        "setId": set_row.get("setId", set_row.get("tcgplayerSetId")),
         "name": set_name,
         "productLine": product_line,
         "urlName": set_row.get("urlName"),
         "releaseDate": _date_only(set_row.get("releaseDate", "")),
         "productCount": set_row.get("productCount"),
-        "priceGuideRowCount": set_row.get("priceGuideRowCount"),
-        "source": set_row.get("source"),
         "imageUrl": set_row.get("iconUrl", ""),
         "rawJson": set_row,
     }

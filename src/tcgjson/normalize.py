@@ -59,42 +59,6 @@ def apply_search_product_metadata(product: dict[str, Any], search_row: dict[str,
         product["metadata"] = metadata
 
 
-def group_priceguide_products(
-    rows: list[dict[str, Any]],
-    *,
-    product_line_name: str,
-    product_line_id: int,
-    product_line_url_name: str,
-    set_row: dict[str, Any],
-) -> list[dict[str, Any]]:
-    set_id = int(set_row["setNameId"])
-    grouped: dict[int, dict[str, Any]] = {}
-    for row in rows:
-        product_id = int(row["productID"])
-        product = grouped.setdefault(
-            product_id,
-            {
-                "productId": product_id,
-                "name": row.get("productName", ""),
-                "productLineId": product_line_id,
-                "setId": set_id,
-                "collectorNumber": _text(row.get("number")),
-                "rarity": _text(row.get("rarity")),
-                "imageUrls": _image_urls(product_id),
-                "foilings": [],
-            },
-        )
-        printing = row.get("printing", "")
-        if printing and printing not in product["foilings"]:
-            product["foilings"].append(printing)
-
-    products = list(grouped.values())
-    for product in products:
-        product["foilings"].sort()
-    products.sort(key=lambda item: (item["setId"], item["collectorNumber"], item["name"]))
-    return products
-
-
 def normalize_search_products(
     rows: list[dict[str, Any]],
     *,
@@ -118,7 +82,6 @@ def normalize_search_products(
             product := {
                 "productId": product_id,
                 "name": row.get("productName", ""),
-                "productLineId": product_line_id,
                 "setId": set_id,
                 "collectorNumber": _text(custom_attributes.get("number")),
                 "rarity": _text(row.get("rarityName", custom_attributes.get("rarityDbName"))),
@@ -142,13 +105,11 @@ def apply_product_details(product: dict[str, Any], details_payload: dict[str, An
 
 
 def compact_product(product: dict[str, Any]) -> dict[str, Any]:
-    old_product_line = product.get("productLine") or {}
     old_set = product.get("set") or {}
     product_id = product.get("productId", product.get("tcgplayerProductId"))
     return {
         "productId": product_id,
         "name": product["name"],
-        "productLineId": product.get("productLineId", old_product_line.get("id", 0)),
         "setId": product.get("setId", old_set.get("id", 0)),
         "collectorNumber": product.get("collectorNumber", ""),
         "rarity": product.get("rarity", ""),

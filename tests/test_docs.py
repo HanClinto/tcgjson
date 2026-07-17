@@ -15,26 +15,22 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
             "generatedAt": "2026-06-30T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
-            "sourceMode": "search",
             "setCount": 1,
             "productCount": 1,
         },
         "sets": [
             {
-                "tcgplayerSetId": 604,
+                "setId": 604,
                 "name": "Base Set",
                 "urlName": "base-set",
                 "releaseDate": "1999-01-09",
                 "productCount": 1,
-                "priceGuideRowCount": 1,
-                "source": "priceguide",
             }
         ],
         "products": [
             {
                 "productId": 42382,
                 "name": "Alakazam",
-                "productLineId": 3,
                 "setId": 604,
                 "collectorNumber": "1/102",
                 "rarity": "Holo Rare",
@@ -56,7 +52,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     }
     larger_catalog["sets"][0] = {
         **larger_catalog["sets"][0],
-        "tcgplayerSetId": 1,
+        "setId": 1,
         "name": "Limited Edition Alpha",
         "urlName": "limited-edition-alpha",
         "productCount": 5,
@@ -65,7 +61,6 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
         **larger_catalog["products"][0],
         "productId": 1,
         "name": "Black Lotus",
-        "productLineId": 1,
         "setId": 1,
     }
     files.extend(write_product_line_files(release_dir, larger_catalog))
@@ -108,7 +103,6 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
                     "resources": {
                         "tcgplayer": {
                             "searchUrl": "https://www.tcgplayer.com/search/pokemon/product?productLineName=pokemon&page=1",
-                            "priceGuideUrl": "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides",
                         }
                     },
                 },
@@ -176,7 +170,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "<summary>Example compact product object</summary>" in objects
     assert objects.index("<summary>Example full catalog object shape</summary>") < objects.index("| `meta` | Build metadata for the catalog.")
     assert objects.index("<summary>Example compact catalog object shape</summary>") < objects.index("| `meta` | Build metadata for the catalog.")
-    assert objects.index("<summary>Example full set object</summary>") < objects.index("| `tcgplayerSetId` | TCGplayer set identifier.")
+    assert objects.index("<summary>Example full set object</summary>") < objects.index("| `setId` | TCGplayer set identifier.")
     assert objects.index("<summary>Example full product object</summary>") < objects.index("| `productId` | TCGplayer product identifier.")
     assert objects.index("<summary>Example compact product object</summary>") < objects.index("| `productId` | TCGplayer product identifier.")
     assert '"products": [' in objects
@@ -195,7 +189,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "| Alpha Clash | 78 | `alpha-clash` | [Request](https://github.com/HanClinto/tcgjson/issues/new?" in games_index
     assert "Request+catalog+support+for+Alpha+Clash" in games_index
     assert "## TCGplayer Resources" in game
-    assert "[Price guide](https://www.tcgplayer.com/categories/trading-and-collectible-card-games/pokemon/price-guides)" in game
+    assert "Price guide" not in game
     assert "<summary>Game object raw JSON</summary>" in game
     assert game.index("<summary>Game object raw JSON</summary>") < game.index("## Files")
     assert '"tcgplayerProductLineId": 3' in game
@@ -208,9 +202,9 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "## Recently Released Sets" in game
     assert "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)" in game
     assert '| ![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | <a class="tcg-set-link" href="https://www.tcgplayer.com/search/pokemon/base-set?productLineName=pokemon&amp;setName=base-set&amp;view=grid&amp;ProductTypeName=Cards&amp;page=1" data-set-preview="' in game
-    assert 'Base Set</a> | 1999-01-09 | 1 | `priceguide` |' in game
+    assert 'Base Set</a> | 1999-01-09 | 1 |' in game
     assert "%22type%22%3A%22set%22" in game
-    assert "%22rawJson%22%3A%7B%22tcgplayerSetId%22%3A604" in game
+    assert "%22rawJson%22%3A%7B%22setId%22%3A604" in game
     assert "TCGplayer |" not in game
     assert "## Recently Added Cards" in game
     assert "| Card | Set | Set Release Date | Added To tcgjson | Rarity |" in game

@@ -21,9 +21,7 @@ from .atomic import atomic_write_json
 
 CATALOG_API_BASE = "https://mpapi.tcgplayer.com"
 SEARCH_API_BASE = "https://mp-search-api.tcgplayer.com"
-INFINITE_API_BASE = "https://infinite-api.tcgplayer.com"
 NAVIGATION_API_BASE = "https://marketplace-navigation.tcgplayer.com"
-TCGPLAYER_SINGLES_PRODUCT_TYPE_ID = 1
 SEARCH_PAGE_SIZE_LIMIT = 50
 
 
@@ -189,22 +187,6 @@ class TCGplayerClient:
             params={"categoryId": product_line_id, "active": str(active).lower()},
         )
         return list(self._unwrap_results(payload))
-
-    def get_priceguide_set_cards(
-        self,
-        set_id: int | str,
-        *,
-        rows: int = 5000,
-        product_type_id: int = TCGPLAYER_SINGLES_PRODUCT_TYPE_ID,
-    ) -> dict[str, Any]:
-        payload = self._request(
-            "GET",
-            f"{INFINITE_API_BASE}/priceguide/set/{set_id}/cards/",
-            params={"rows": rows, "productTypeID": product_type_id},
-        )
-        if not isinstance(payload, dict):
-            raise TCGplayerError("Unexpected price guide payload")
-        return payload
 
     def search_products(
         self,

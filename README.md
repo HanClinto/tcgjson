@@ -58,7 +58,7 @@ and game-specific metadata coverage generated from the schema files.
 ## Supported Catalogs
 
 The weekly build currently targets singles from popular card-game product lines
-that TCGplayer exposes through catalog, price-guide, and search endpoints:
+that TCGplayer exposes through catalog and search endpoints:
 
 - Pokemon
 - YuGiOh
@@ -109,10 +109,8 @@ Use the compact file when you need a smaller product/set catalog. Use the full
 file when you need richer metadata. Use the schema file to understand which
 fields are present for that game and how complete they are.
 
-Pricing is intentionally not published. The build may use TCGplayer priceguide
-endpoints as a catalog discovery path, but price values are stripped from release
-files because weekly bulk catalog snapshots are a poor fit for current market
-data.
+Pricing is intentionally not published because weekly bulk catalog snapshots are
+a poor fit for current market data.
 
 Minimal Python example:
 
@@ -121,7 +119,7 @@ import json
 from pathlib import Path
 
 catalog = json.loads(Path("pokemon.full.json").read_text())
-sets_by_id = {item["tcgplayerSetId"]: item for item in catalog["sets"]}
+sets_by_id = {item["setId"]: item for item in catalog["sets"]}
 
 for product in catalog["products"][:5]:
     set_row = sets_by_id.get(product.get("setId"), {})

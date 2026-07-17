@@ -88,7 +88,6 @@ def _resource_links(product_line: dict[str, Any], popular_row: dict[str, Any] | 
         ("articlesUrl", "articlesUrl"),
         ("decksUrl", "decksUrl"),
         ("advancedSearchUrl", "advancedSearchUrl"),
-        ("priceGuideUrl", "priceGuideUrl"),
     ]:
         value = _absolute_tcgplayer_url(popular_row.get(source_name, ""))
         if value:

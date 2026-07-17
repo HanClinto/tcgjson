@@ -30,9 +30,6 @@ class CachedSetClient:
         assert product_line_id == 3
         return [{"setNameId": 10, "name": "Cached Set", "urlName": "cached-set"}]
 
-    def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
-        raise AssertionError("cached set should not be refetched")
-
 
 class SearchFallbackClient(CachedSetClient):
     def get_product_lines(self):
@@ -43,9 +40,6 @@ class SearchFallbackClient(CachedSetClient):
     def get_set_names(self, product_line_id, *, active=True):
         assert product_line_id == 79
         return [{"setNameId": 23405, "name": "Spark of Rebellion", "urlName": "spark-of-rebellion"}]
-
-    def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
-        raise AssertionError("refreshed sets should use search, not priceguide")
 
     def iter_search_products(self, *, product_line_name, set_name, page_size=50):
         assert product_line_name == "Star Wars: Unlimited"
@@ -69,9 +63,6 @@ class SearchFallbackClient(CachedSetClient):
 
 
 class CheckpointOnlyClient(SearchFallbackClient):
-    def get_priceguide_set_cards(self, set_id, *, rows=5000, product_type_id=1):
-        raise AssertionError("set checkpoint should be reused before fetching search rows")
-
     def iter_search_products(self, *, product_line_name, set_name, page_size=50):
         raise AssertionError("set checkpoint should be reused before fetching search rows")
 
@@ -110,7 +101,7 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
             "setCount": 1,
             "productCount": 1,
         },
-        "sets": [{"tcgplayerSetId": 1, "name": "Set", "productCount": 1}],
+        "sets": [{"setId": 1, "name": "Set", "productCount": 1}],
         "products": [
             {
                 "productId": 10,
@@ -133,7 +124,10 @@ def test_write_manifest_records_sizes_and_hashes(tmp_path) -> None:
         "pokemon_catalog",
         "pokemon_catalog_full",
     ]
+    assert "source" not in full_catalog["meta"]
+    assert "sourceMode" not in full_catalog["meta"]
     assert "priceGuide" not in full_catalog["products"][0]
+    assert "productLineId" not in full_catalog["products"][0]
     assert json.loads((tmp_path / "bulk-data.json").read_text())["object"] == "list"
     for item in manifest["data"]:
         assert (tmp_path / item["download_uri"]).stat().st_size == item["size"]
@@ -191,6 +185,7 @@ def test_write_product_schema_files_omits_price_fields(tmp_path) -> None:
     field_paths = {field["path"] for field in profile["fields"]}
     assert "priceGuide" not in field_paths
     assert "marketPrice" not in field_paths
+    assert "productLineId" not in field_paths
 
 
 def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
@@ -229,6 +224,9 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
 
     assert catalog["meta"]["cache"]["reusedSetCount"] == 1
     assert catalog["sets"][0]["iconUrl"] == "https://tcgplayer-cdn.tcgplayer.com/set_icon/10CachedSet.png"
+    assert catalog["sets"][0]["setId"] == 10
+    assert "tcgplayerSetId" not in catalog["sets"][0]
+    assert "priceGuideRowCount" not in catalog["sets"][0]
     assert catalog["meta"]["cache"]["fetchedSetCount"] == 0
     assert catalog["products"][0]["productId"] == 100
     assert catalog["products"][0]["name"] == "Cached Card"
@@ -245,7 +243,7 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
             "productLine": "Pokemon",
             "slug": "pokemon",
         },
-        "sets": [{"tcgplayerSetId": 10, "name": "Cached Set", "productCount": 1}],
+        "sets": [{"setId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [
             {
                 "productId": 100,
@@ -269,21 +267,23 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
 def test_fetch_product_line_uses_search_as_product_source() -> None:
     catalog = fetch_product_line(SearchFallbackClient(), 79)
 
-    assert catalog["meta"]["sourceMode"] == "search"
-    assert catalog["sets"][0]["source"] == "search"
-    assert catalog["sets"][0]["priceGuideRowCount"] == 0
+    assert catalog["meta"]["version"] == 3
+    assert "productLineId" not in catalog["meta"]
+    assert catalog["sets"][0]["setId"] == 23405
     assert catalog["sets"][0]["productCount"] == 1
     assert catalog["products"][0]["name"] == "Overwhelming Barrage"
+    assert "productLineId" not in catalog["products"][0]
     assert catalog["products"][0]["collectorNumber"] == "092/252"
     assert "priceGuide" not in catalog["products"][0]
     assert "marketPrice" not in catalog["products"][0]
-    assert catalog["sets"][0]["searchMetadataProductCount"] == 1
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
+
+
 def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:
     checkpoint_dir = tmp_path / "set-checkpoints"
     first_catalog = fetch_product_line(SearchFallbackClient(), 79, checkpoint_dir=checkpoint_dir)
 
-    assert (checkpoint_dir / "star-wars-unlimited" / "search" / "23405.json").exists()
+    assert (checkpoint_dir / "star-wars-unlimited" / "23405.json").exists()
     assert first_catalog["meta"]["cache"]["fetchedSetCount"] == 1
 
     second_catalog = fetch_product_line(CheckpointOnlyClient(), 79, checkpoint_dir=checkpoint_dir)
@@ -324,7 +324,7 @@ def test_build_release_writes_metrics_file(tmp_path) -> None:
             "productLine": "Pokemon",
             "slug": "pokemon",
         },
-        "sets": [{"tcgplayerSetId": 10, "name": "Cached Set", "productCount": 1}],
+        "sets": [{"setId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [
             {
                 "productId": 100,
@@ -365,7 +365,7 @@ def test_assemble_release_combines_per_line_outputs_and_metrics(tmp_path) -> Non
             "setCount": 1,
             "productCount": 1,
         },
-        "sets": [{"tcgplayerSetId": 10, "name": "Set", "productCount": 1}],
+        "sets": [{"setId": 10, "name": "Set", "productCount": 1}],
         "products": [
             {
                 "productId": 100,
