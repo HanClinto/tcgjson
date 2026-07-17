@@ -222,6 +222,7 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
             "generatedAt": "2026-06-01T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
+            "cache": {"productSearchFilter": "setId"},
         },
         "sets": [
             {
@@ -270,6 +271,7 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
             "generatedAt": "2026-06-01T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
+            "cache": {"productSearchFilter": "setId"},
         },
         "sets": [{"setId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [
@@ -305,6 +307,34 @@ def test_fetch_product_line_uses_search_as_product_source() -> None:
     assert "priceGuide" not in catalog["products"][0]
     assert "marketPrice" not in catalog["products"][0]
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
+
+
+def test_fetch_product_line_ignores_cache_without_set_id_search_marker(tmp_path) -> None:
+    cached = {
+        "meta": {
+            "object": "tcgjson_catalog",
+            "generatedAt": "2026-06-01T00:00:00Z",
+            "productLine": "Star Wars: Unlimited",
+            "slug": "star-wars-unlimited",
+        },
+        "sets": [{"setId": 23405, "name": "Spark of Rebellion", "productCount": 1}],
+        "products": [
+            {
+                "productId": 1,
+                "name": "Polluted Cache Card",
+                "setId": 23405,
+                "imageUrls": [],
+            }
+        ],
+    }
+    (tmp_path / "star-wars-unlimited.full.json").write_text(json.dumps(cached), encoding="utf-8")
+
+    catalog = fetch_product_line(SearchFallbackClient(), 79, cache_dir=tmp_path)
+
+    assert catalog["meta"]["cache"]["reusedSetCount"] == 0
+    assert catalog["meta"]["cache"]["fetchedSetCount"] == 1
+    assert catalog["meta"]["cache"]["productSearchFilter"] == "setId"
+    assert catalog["products"][0]["name"] == "Overwhelming Barrage"
 
 
 def test_recent_set_ids_always_include_future_sets() -> None:
@@ -362,6 +392,7 @@ def test_build_release_writes_metrics_file(tmp_path) -> None:
             "generatedAt": "2026-06-01T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
+            "cache": {"productSearchFilter": "setId"},
         },
         "sets": [{"setId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [

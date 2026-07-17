@@ -26,6 +26,7 @@ from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 T = TypeVar("T")
 SET_CHECKPOINT_VERSION = 5
+CACHE_PRODUCT_SEARCH_FILTER = "setId"
 
 
 def _utc_now_iso() -> str:
@@ -133,6 +134,8 @@ def _load_cached_set_from_catalog(
     with_skus: bool,
 ) -> tuple[dict[str, Any], list[dict[str, Any]], str] | None:
     if cached_catalog is None:
+        return None
+    if cached_catalog.get("meta", {}).get("cache", {}).get("productSearchFilter") != CACHE_PRODUCT_SEARCH_FILTER:
         return None
     cached_set = next(
         (
@@ -582,6 +585,7 @@ def fetch_product_line(
             "productCount": len(products),
             "cache": {
                 "enabled": cache_dir is not None,
+                "productSearchFilter": CACHE_PRODUCT_SEARCH_FILTER,
                 "sourceGeneratedAt": cached_source_generated_at,
                 "reusedSetCount": reused_sets,
                 "reusedSetCheckpointCount": reused_checkpoint_sets,

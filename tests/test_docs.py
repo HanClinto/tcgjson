@@ -201,7 +201,7 @@ def test_generate_catalog_docs_writes_index_game_and_history(tmp_path) -> None:
     assert "Latest Set Icons" not in game
     assert "## Recently Released Sets" in game
     assert "![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png)" in game
-    assert '| ![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | <a class="tcg-set-link" href="https://www.tcgplayer.com/search/pokemon/base-set?productLineName=pokemon&amp;setName=base-set&amp;view=grid&amp;ProductTypeName=Cards&amp;page=1" data-set-preview="' in game
+    assert '| ![Base Set](https://tcgplayer-cdn.tcgplayer.com/set_icon/604BaseSet.png) | <a class="tcg-set-link" href="https://www.tcgplayer.com/search/all/product?setId=604&amp;productTypeName=Cards" data-set-preview="' in game
     assert 'Base Set</a> | 1999-01-09 | 1 |' in game
     assert "%22type%22%3A%22set%22" in game
     assert "%22rawJson%22%3A%7B%22setId%22%3A604" in game

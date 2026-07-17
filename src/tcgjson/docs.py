@@ -921,6 +921,9 @@ def _tcgplayer_search_link(product_line: str, set_name: str) -> str:
 
 
 def _tcgplayer_set_product_link(set_row: dict[str, Any], product_line_url_name: str, product_line: str, set_name: str) -> str:
+    set_id = set_row.get("setId", set_row.get("tcgplayerSetId"))
+    if set_id:
+        return f"https://www.tcgplayer.com/search/all/product?setId={set_id}&productTypeName=Cards"
     set_url_name = str(set_row.get("urlName") or "").strip()
     product_line_url_name = str(product_line_url_name or "").strip()
     if product_line_url_name and set_url_name:
@@ -928,9 +931,6 @@ def _tcgplayer_set_product_link(set_row: dict[str, Any], product_line_url_name: 
             f"https://www.tcgplayer.com/search/{quote(product_line_url_name, safe='')}/{quote(set_url_name, safe='')}"
             f"?productLineName={quote_plus(product_line_url_name)}&setName={quote_plus(set_url_name)}&view=grid&ProductTypeName=Cards&page=1"
         )
-    set_id = set_row.get("setId", set_row.get("tcgplayerSetId"))
-    if set_id:
-        return f"https://www.tcgplayer.com/search/all/product?setId={set_id}&productTypeName=Cards"
     return _tcgplayer_search_link(product_line, set_name)
 
 
