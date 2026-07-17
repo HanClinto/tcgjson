@@ -4,6 +4,7 @@ from tcgjson.normalize import (
     apply_search_product_metadata,
     extract_metadata,
     extract_skus,
+    normalize_search_products,
 )
 
 
@@ -59,6 +60,26 @@ def test_apply_search_product_metadata_preserves_custom_attributes() -> None:
     assert product["metadata"]["rulesText"] == "When Played: Create a token."
     assert product["metadata"]["customAttributes"]["aspect"] == "Vigilance;Villainy"
     assert product["metadata"]["customAttributes"]["traits"] == "Official;Imperial"
+
+
+def test_normalize_search_products_deduplicates_product_ids() -> None:
+    row = {
+        "productId": 540213,
+        "productName": "Overwhelming Barrage",
+        "rarityName": "Uncommon",
+        "customAttributes": {"number": "092/252"},
+    }
+
+    products = normalize_search_products(
+        [row, dict(row)],
+        product_line_name="Star Wars: Unlimited",
+        product_line_id=79,
+        product_line_url_name="star-wars-unlimited",
+        set_row={"setNameId": 23405},
+    )
+
+    assert len(products) == 1
+    assert products[0]["productId"] == 540213
 
 
 def test_apply_product_details_adds_skus_and_multiple_images() -> None:

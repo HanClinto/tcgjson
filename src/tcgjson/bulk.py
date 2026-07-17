@@ -26,6 +26,7 @@ from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 T = TypeVar("T")
 SET_CHECKPOINT_VERSION = 5
+CACHE_CATALOG_VERSION = 2
 CACHE_PRODUCT_SEARCH_FILTER = "setId"
 
 
@@ -135,7 +136,11 @@ def _load_cached_set_from_catalog(
 ) -> tuple[dict[str, Any], list[dict[str, Any]], str] | None:
     if cached_catalog is None:
         return None
-    if cached_catalog.get("meta", {}).get("cache", {}).get("productSearchFilter") != CACHE_PRODUCT_SEARCH_FILTER:
+    cache_meta = cached_catalog.get("meta", {}).get("cache", {})
+    if (
+        int(cache_meta.get("catalogVersion") or 0) != CACHE_CATALOG_VERSION
+        or cache_meta.get("productSearchFilter") != CACHE_PRODUCT_SEARCH_FILTER
+    ):
         return None
     cached_set = next(
         (
@@ -585,6 +590,7 @@ def fetch_product_line(
             "productCount": len(products),
             "cache": {
                 "enabled": cache_dir is not None,
+                "catalogVersion": CACHE_CATALOG_VERSION,
                 "productSearchFilter": CACHE_PRODUCT_SEARCH_FILTER,
                 "sourceGeneratedAt": cached_source_generated_at,
                 "reusedSetCount": reused_sets,

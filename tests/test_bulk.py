@@ -83,6 +83,19 @@ class SearchFallbackClient(CachedSetClient):
             "medianPrice": 0.95,
             "customAttributes": {"number": "092/252", "releaseDate": "2024-03-08T00:00:00Z"},
         }
+        yield {
+            "productId": 540213,
+            "productName": "Overwhelming Barrage",
+            "productLineId": 79,
+            "productLineName": "Star Wars: Unlimited",
+            "productLineUrlName": "Star Wars Unlimited",
+            "setId": 23405,
+            "setName": "Spark of Rebellion",
+            "setUrlName": "Spark of Rebellion",
+            "setCode": "SOR",
+            "rarityName": "Uncommon",
+            "customAttributes": {"number": "092/252", "releaseDate": "2024-03-08T00:00:00Z"},
+        }
 
 
 class CheckpointOnlyClient(SearchFallbackClient):
@@ -222,7 +235,7 @@ def test_fetch_product_line_reuses_cached_full_catalog(tmp_path) -> None:
             "generatedAt": "2026-06-01T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
-            "cache": {"productSearchFilter": "setId"},
+            "cache": {"catalogVersion": 2, "productSearchFilter": "setId"},
         },
         "sets": [
             {
@@ -271,7 +284,7 @@ def test_fetch_product_line_emits_plain_progress_logs(tmp_path, capsys) -> None:
             "generatedAt": "2026-06-01T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
-            "cache": {"productSearchFilter": "setId"},
+            "cache": {"catalogVersion": 2, "productSearchFilter": "setId"},
         },
         "sets": [{"setId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [
@@ -333,6 +346,7 @@ def test_fetch_product_line_ignores_cache_without_set_id_search_marker(tmp_path)
 
     assert catalog["meta"]["cache"]["reusedSetCount"] == 0
     assert catalog["meta"]["cache"]["fetchedSetCount"] == 1
+    assert catalog["meta"]["cache"]["catalogVersion"] == 2
     assert catalog["meta"]["cache"]["productSearchFilter"] == "setId"
     assert catalog["products"][0]["name"] == "Overwhelming Barrage"
 
@@ -392,7 +406,7 @@ def test_build_release_writes_metrics_file(tmp_path) -> None:
             "generatedAt": "2026-06-01T00:00:00Z",
             "productLine": "Pokemon",
             "slug": "pokemon",
-            "cache": {"productSearchFilter": "setId"},
+            "cache": {"catalogVersion": 2, "productSearchFilter": "setId"},
         },
         "sets": [{"setId": 10, "name": "Cached Set", "productCount": 1}],
         "products": [

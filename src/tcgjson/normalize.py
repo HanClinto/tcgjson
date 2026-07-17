@@ -68,9 +68,13 @@ def normalize_search_products(
     set_row: dict[str, Any],
 ) -> list[dict[str, Any]]:
     products = []
+    seen_product_ids = set()
     set_id = int(set_row["setNameId"])
     for row in rows:
         product_id = int(row["productId"])
+        if product_id in seen_product_ids:
+            continue
+        seen_product_ids.add(product_id)
         custom_attributes = row.get("customAttributes") or {}
         listing_printings = {
             listing.get("printing", "") for listing in row.get("listings", []) if listing.get("printing")
