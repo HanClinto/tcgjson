@@ -192,6 +192,7 @@ class TCGplayerClient:
         self,
         *,
         product_line_name: str,
+        set_id: int | str | None = None,
         set_name: str | None = None,
         offset: int = 0,
         size: int = SEARCH_PAGE_SIZE_LIMIT,
@@ -203,6 +204,8 @@ class TCGplayerClient:
             "productLineName": [product_line_name],
             "productTypeName": ["Cards"],
         }
+        if set_id is not None:
+            term_filters["setId"] = [int(set_id)]
         if set_name:
             term_filters["setName"] = [set_name]
         payload = {
@@ -230,6 +233,7 @@ class TCGplayerClient:
         self,
         *,
         product_line_name: str,
+        set_id: int | str | None = None,
         set_name: str | None = None,
         page_size: int = SEARCH_PAGE_SIZE_LIMIT,
         algorithm: str = "sales_exp_fields_synonym",
@@ -241,6 +245,7 @@ class TCGplayerClient:
         while True:
             page = self.search_products(
                 product_line_name=product_line_name,
+                set_id=set_id,
                 set_name=set_name,
                 offset=offset,
                 size=page_size,

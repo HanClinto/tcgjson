@@ -25,7 +25,7 @@ from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
 
 
 T = TypeVar("T")
-SET_CHECKPOINT_VERSION = 4
+SET_CHECKPOINT_VERSION = 5
 
 
 def _utc_now_iso() -> str:
@@ -149,9 +149,14 @@ def _load_cached_set_from_catalog(
         migrated_product = _migrate_cached_product(product)
         if int(migrated_product.get("setId") or 0) == set_id:
             cached_products.append(migrated_product)
-    if not cached_products or (with_skus and not _cached_products_have_skus(cached_products)):
+    cached_product_count = int(cached_set.get("productCount") or 0)
+    if (not cached_products and cached_product_count > 0) or (
+        cached_products and with_skus and not _cached_products_have_skus(cached_products)
+    ):
         return None
-    return _migrate_cached_set(cached_set), cached_products, str(cached_catalog.get("meta", {}).get("generatedAt") or "")
+    set_summary = _migrate_cached_set(cached_set)
+    set_summary["productCount"] = len(cached_products)
+    return set_summary, cached_products, str(cached_catalog.get("meta", {}).get("generatedAt") or "")
 
 
 def _compact_set_icon_name(value: str) -> str:
@@ -298,13 +303,26 @@ def _write_product_detail_cache(detail_cache_dir: Path | None, product_id: int |
 
 
 def _recent_set_ids(set_rows: list[dict[str, Any]], refresh_recent_sets: int) -> set[int]:
+    today = dt.datetime.now(dt.timezone.utc).date()
+    future_ids = set()
+    released_rows = []
+    for row in set_rows:
+        release_date = str(row.get("releaseDate") or "")
+        try:
+            parsed_date = dt.datetime.fromisoformat(release_date.replace("Z", "+00:00")).date()
+            if parsed_date >= today:
+                future_ids.add(int(row["setNameId"]))
+            else:
+                released_rows.append(row)
+        except (KeyError, TypeError, ValueError):
+            released_rows.append(row)
     if refresh_recent_sets <= 0:
-        return set()
+        return future_ids
     sorted_rows = sorted(
-        set_rows,
+        released_rows,
         key=lambda row: (row.get("releaseDate") or "", int(row.get("setNameId") or 0)),
     )
-    return {int(row["setNameId"]) for row in sorted_rows[-refresh_recent_sets:]}
+    return future_ids | {int(row["setNameId"]) for row in sorted_rows[-refresh_recent_sets:]}
 
 
 def _cached_products_have_skus(products: list[dict[str, Any]]) -> bool:
@@ -332,6 +350,16 @@ def _migrate_cached_product(product: dict[str, Any]) -> dict[str, Any]:
     migrated.pop("imageUrl", None)
     migrated.pop("priceGuide", None)
     return _order_product_fields(migrated)
+
+
+def _search_row_matches_set(row: dict[str, Any], *, set_id: int, set_name: str) -> bool:
+    row_set_id = row.get("setId")
+    if row_set_id not in (None, ""):
+        try:
+            return int(float(row_set_id)) == set_id
+        except (TypeError, ValueError):
+            pass
+    return bool(set_name) and row.get("setName") == set_name
 
 
 def _order_product_fields(product: dict[str, Any]) -> dict[str, Any]:
@@ -363,12 +391,15 @@ def _fetch_set_products(
     progress: bool,
     detail_cache_dir: Path | None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    set_id = int(set_row["setNameId"])
+    set_name = set_row.get("name", "")
     search_rows = list(
         client.iter_search_products(
             product_line_name=product_line_name,
-            set_name=set_row.get("name", ""),
+            set_id=set_id,
         )
     )
+    search_rows = [_row for _row in search_rows if _search_row_matches_set(_row, set_id=set_id, set_name=set_name)]
     set_products = normalize_search_products(
         search_rows,
         product_line_name=product_line_name,
@@ -404,8 +435,8 @@ def _fetch_set_products(
             apply_product_details(product, details)
     return (
         {
-            "setId": int(set_row["setNameId"]),
-            "name": set_row.get("name", ""),
+            "setId": set_id,
+            "name": set_name,
             "urlName": set_row.get("urlName", ""),
             "abbreviation": set_row.get("abbreviation", ""),
             "releaseDate": set_row.get("releaseDate", ""),

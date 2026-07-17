@@ -9,6 +9,7 @@ from tcgjson.bulk import (
     assemble_release,
     build_release,
     fetch_product_line,
+    _recent_set_ids,
     write_bulk_manifest,
     write_product_line_files,
     write_product_schema_files,
@@ -49,9 +50,23 @@ class SearchFallbackClient(CachedSetClient):
         assert product_line_id == 79
         return [{"setNameId": 23405, "name": "Spark of Rebellion", "urlName": "spark-of-rebellion"}]
 
-    def iter_search_products(self, *, product_line_name, set_name, page_size=50):
+    def iter_search_products(self, *, product_line_name, set_id, set_name=None, page_size=50):
         assert product_line_name == "Star Wars: Unlimited"
-        assert set_name == "Spark of Rebellion"
+        assert set_id == 23405
+        assert set_name is None
+        yield {
+            "productId": 999999,
+            "productName": "Wrong Set Card",
+            "productLineId": 79,
+            "productLineName": "Star Wars: Unlimited",
+            "productLineUrlName": "Star Wars Unlimited",
+            "setId": 99999,
+            "setName": "Wrong Set",
+            "setUrlName": "Wrong Set",
+            "setCode": "BAD",
+            "rarityName": "Common",
+            "customAttributes": {},
+        }
         yield {
             "productId": 540213,
             "productName": "Overwhelming Barrage",
@@ -71,7 +86,7 @@ class SearchFallbackClient(CachedSetClient):
 
 
 class CheckpointOnlyClient(SearchFallbackClient):
-    def iter_search_products(self, *, product_line_name, set_name, page_size=50):
+    def iter_search_products(self, *, product_line_name, set_id, set_name=None, page_size=50):
         raise AssertionError("set checkpoint should be reused before fetching search rows")
 
 
@@ -290,6 +305,17 @@ def test_fetch_product_line_uses_search_as_product_source() -> None:
     assert "priceGuide" not in catalog["products"][0]
     assert "marketPrice" not in catalog["products"][0]
     assert catalog["products"][0]["metadata"]["customAttributes"]["releaseDate"] == "2024-03-08T00:00:00Z"
+
+
+def test_recent_set_ids_always_include_future_sets() -> None:
+    rows = [
+        {"setNameId": 1, "releaseDate": "2024-01-01T00:00:00"},
+        {"setNameId": 2, "releaseDate": "2024-02-01T00:00:00"},
+        {"setNameId": 3, "releaseDate": "2099-01-01T00:00:00"},
+    ]
+
+    assert _recent_set_ids(rows, 1) == {2, 3}
+    assert _recent_set_ids(rows, 0) == {3}
 
 
 def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:
