@@ -1,20 +1,22 @@
 import gzip
 import json
 
+import pytest
 import requests
 
-from tcgjson.cli import build_parser
-
 from tcgjson.bulk import (
+    _recent_set_ids,
+    _write_set_checkpoint,
     assemble_release,
     build_release,
     fetch_product_line,
-    _recent_set_ids,
     write_bulk_manifest,
     write_product_line_files,
     write_product_schema_files,
 )
-from tcgjson.tcgplayer import RequestStats
+from tcgjson.cli import build_parser
+from tcgjson.tcgplayer import RequestStats, TCGplayerError
+from tcgjson.validate import validate_release
 
 
 def load_json(path):
@@ -375,6 +377,134 @@ def test_fetch_product_line_writes_and_reuses_set_checkpoints(tmp_path) -> None:
     assert second_catalog["meta"]["cache"]["fetchedSetCount"] == 0
     assert second_catalog["products"][0]["name"] == "Overwhelming Barrage"
     assert "imageUrl" not in second_catalog["products"][0]
+
+
+@pytest.mark.parametrize(
+    ("old_source", "new_source"),
+    [("release cache", "fetch"), ("release cache", "checkpoint"), ("checkpoint", "fetch")],
+)
+@pytest.mark.parametrize("reverse_sets", [False, True])
+@pytest.mark.parametrize("empty_old_set", [False, True])
+def test_fetch_product_line_reconciles_moved_products(
+    tmp_path, capsys, old_source, new_source, reverse_sets, empty_old_set,
+) -> None:
+    old_products = [{"productId": 683198, "name": "Old name", "setId": 10}]
+    if not empty_old_set:
+        old_products.append({"productId": 100, "name": "Unchanged card", "setId": 10})
+    old_set = {"setId": 10, "name": "Old Set", "productCount": len(old_products)}
+    new_set = {"setId": 20, "name": "New Set", "productCount": 1}
+    checkpoint_dir = tmp_path / "checkpoints"
+    if old_source == "release cache":
+        cached = {
+            "meta": {"cache": {"catalogVersion": 2, "productSearchFilter": "setId"}},
+            "sets": [old_set],
+            "products": old_products,
+        }
+        (tmp_path / "pokemon.full.json").write_text(json.dumps(cached), encoding="utf-8")
+    else:
+        _write_set_checkpoint(
+            checkpoint_dir, slug="pokemon", product_line_id=3,
+            set_summary=old_set, products=old_products, with_skus=False,
+        )
+    if new_source == "checkpoint":
+        _write_set_checkpoint(
+            checkpoint_dir, slug="pokemon", product_line_id=3,
+            set_summary=new_set,
+            products=[{"productId": 683198, "name": "Current name", "setId": 20}],
+            with_skus=False,
+        )
+
+    class MovedProductClient(CachedSetClient):
+        search_calls = 0
+
+        def get_set_names(self, product_line_id, *, active=True):
+            rows = [
+                {"setNameId": 10, "name": "Old Set"},
+                {"setNameId": 20, "name": "New Set"},
+            ]
+            return rows[::-1] if reverse_sets else rows
+
+        def iter_search_products(self, *, product_line_name, set_id):
+            assert new_source == "fetch"
+            assert set_id == 20
+            self.search_calls += 1
+            yield {"productId": 683198, "productName": "Current name", "setId": 20}
+
+    client = MovedProductClient()
+    catalog = fetch_product_line(
+        client, 3, cache_dir=tmp_path, checkpoint_dir=checkpoint_dir, log_progress=True,
+    )
+    expected_count = 1 if empty_old_set else 2
+    assert catalog["meta"]["productCount"] == expected_count
+    assert len(catalog["products"]) == expected_count
+    moved = [product for product in catalog["products"] if product["productId"] == 683198]
+    assert len(moved) == 1
+    assert moved[0]["setId"] == 20
+    assert moved[0]["name"] == "Current name"
+    assert {row["setId"]: row["productCount"] for row in catalog["sets"]} == {
+        10: 0 if empty_old_set else 1, 20: 1,
+    }
+    if not empty_old_set:
+        assert next(p for p in catalog["products"] if p["productId"] == 100)["name"] == "Unchanged card"
+    assert client.search_calls == (1 if new_source == "fetch" else 0)
+    assert "reconciled productId 683198: replaced set 10" in capsys.readouterr().out
+
+    output_dir = tmp_path / "release"
+    files = write_product_line_files(output_dir, catalog)
+    files.extend(write_product_schema_files(output_dir, catalog))
+    write_bulk_manifest(output_dir, files)
+    validate_release(output_dir)
+    for filename in ["pokemon.json.gz", "pokemon.full.json.gz"]:
+        published = load_json(output_dir / filename)
+        assert len(published["products"]) == expected_count
+        assert published["meta"]["productCount"] == expected_count
+    assert load_json(output_dir / "pokemon.schema.json.gz")["productCount"] == expected_count
+
+    next_catalog = fetch_product_line(client, 3, cache_dir=output_dir)
+    assert next_catalog["products"] == catalog["products"]
+    assert next_catalog["meta"]["cache"]["reusedSetCount"] == 2
+    assert client.search_calls == (1 if new_source == "fetch" else 0)
+
+
+@pytest.mark.parametrize("source", ["release cache", "checkpoint", "fetch"])
+def test_fetch_product_line_rejects_ambiguous_duplicate_products(tmp_path, source) -> None:
+    sets = [
+        {"setId": set_id, "name": f"Set {set_id}", "productCount": 1}
+        for set_id in (10, 20)
+    ]
+    products = [
+        {"productId": 683198, "name": "Conflicting card", "setId": set_id}
+        for set_id in (10, 20)
+    ]
+    checkpoint_dir = tmp_path / "checkpoints"
+    if source == "release cache":
+        cached = {
+            "meta": {"cache": {"catalogVersion": 2, "productSearchFilter": "setId"}},
+            "sets": sets,
+            "products": products,
+        }
+        (tmp_path / "pokemon.full.json").write_text(json.dumps(cached), encoding="utf-8")
+    elif source == "checkpoint":
+        for set_summary, product in zip(sets, products):
+            _write_set_checkpoint(
+                checkpoint_dir, slug="pokemon", product_line_id=3,
+                set_summary=set_summary, products=[product], with_skus=False,
+            )
+
+    class ConflictingProductClient(CachedSetClient):
+        def get_set_names(self, product_line_id, *, active=True):
+            return [{"setNameId": s["setId"], "name": s["name"]} for s in sets]
+
+        def iter_search_products(self, *, product_line_name, set_id):
+            assert source == "fetch"
+            yield {"productId": 683198, "productName": "Conflicting card", "setId": set_id}
+
+    with pytest.raises(
+        TCGplayerError, match=f"duplicate productId 683198 in sets 10 and 20 from {source}",
+    ):
+        fetch_product_line(
+            ConflictingProductClient(), 3, cache_dir=tmp_path, checkpoint_dir=checkpoint_dir,
+        )
 
 
 def test_fetch_product_line_skips_products_with_unavailable_details() -> None:

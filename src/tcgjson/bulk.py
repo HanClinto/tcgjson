@@ -7,8 +7,10 @@ import hashlib
 import json
 import mimetypes
 import time
+from collections import Counter
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Any, Iterable, TypeVar
+from typing import Any, TypeVar
 
 import requests
 
@@ -22,7 +24,6 @@ from .normalize import (
 )
 from .schema import product_schema_profile
 from .tcgplayer import RequestStats, TCGplayerClient, TCGplayerError
-
 
 T = TypeVar("T")
 SET_CHECKPOINT_VERSION = 5
@@ -487,6 +488,7 @@ def fetch_product_line(
     refresh_ids = _recent_set_ids(set_rows, refresh_recent_sets)
     sets = []
     products = []
+    product_sources = {}
     reused_sets = 0
     reused_checkpoint_sets = 0
     fetched_sets = 0
@@ -517,6 +519,7 @@ def fetch_product_line(
             and set_id not in refresh_ids
         )
         if can_reuse:
+            product_sources[set_id] = "release cache"
             set_summary, set_products, set_source_generated_at = cached_set
             if set_source_generated_at and not cached_source_generated_at:
                 cached_source_generated_at = set_source_generated_at
@@ -539,6 +542,7 @@ def fetch_product_line(
                 with_skus=with_skus,
             )
             if checkpoint is not None:
+                product_sources[set_id] = "checkpoint"
                 set_summary, set_products = checkpoint
                 reused_checkpoint_sets += 1
                 _log_progress(
@@ -546,6 +550,7 @@ def fetch_product_line(
                     f"{resolved.slug}: set {set_index}/{len(set_rows)} {set_id} {set_name!r} reused checkpoint with {len(set_products)} product(s) in {time.perf_counter() - set_started:.1f}s",
                 )
             else:
+                product_sources[set_id] = "fetch"
                 set_summary, set_products = _fetch_set_products(
                     client,
                     product_line_name=product_line.get("productLineName", resolved.name),
@@ -571,6 +576,13 @@ def fetch_product_line(
                 )
             sets.append(set_summary)
         products.extend(set_products)
+
+    products = _reconcile_products(
+        products, product_sources, slug=resolved.slug, log_progress=log_progress,
+    )
+    product_counts = Counter(int(product["setId"]) for product in products)
+    for set_summary in sets:
+        set_summary["productCount"] = product_counts[int(set_summary["setId"])]
 
     elapsed_seconds = time.perf_counter() - started
     sets.sort(key=lambda item: (item["name"], item["setId"]))
@@ -607,6 +619,45 @@ def fetch_product_line(
         "sets": sets,
         "products": products,
     }
+
+
+def _reconcile_products(
+    products: list[dict[str, Any]],
+    sources: dict[int, str],
+    *,
+    slug: str,
+    log_progress: bool,
+) -> list[dict[str, Any]]:
+    source_priority = {"release cache": 0, "checkpoint": 1, "fetch": 2}
+    products_by_id: dict[int, dict[str, Any]] = {}
+    for product in products:
+        product_id = int(product["productId"])
+        previous = products_by_id.get(product_id)
+        if previous is None:
+            products_by_id[product_id] = product
+            continue
+        set_id = int(product["setId"])
+        previous_set_id = int(previous["setId"])
+        source = sources[set_id]
+        previous_source = sources[previous_set_id]
+        if source == previous_source:
+            raise TCGplayerError(
+                f"{slug}: duplicate productId {product_id} in sets "
+                f"{previous_set_id} and {set_id} from {source}; "
+                "cannot determine current set membership"
+            )
+        if source_priority[source] > source_priority[previous_source]:
+            products_by_id[product_id] = product
+            stale_set_id, current_set_id = previous_set_id, set_id
+        else:
+            stale_set_id, current_set_id = set_id, previous_set_id
+        _log_progress(
+            log_progress,
+            f"{slug}: reconciled productId {product_id}: replaced "
+            f"set {stale_set_id} ({sources[stale_set_id]}) with "
+            f"set {current_set_id} ({sources[current_set_id]})",
+        )
+    return list(products_by_id.values())
 
 
 def compact_catalog(full_catalog: dict[str, Any]) -> dict[str, Any]:
